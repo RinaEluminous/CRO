@@ -1,0 +1,460 @@
+.page-quote .sticky-top + .d-block.d-xl-none,
+.page-quote footer,
+.page-quote .container.custQuteMainSection + .row .col-6:first-child,
+.page-quote .sticky-top{
+    display: none !important;
+}
+
+ .custQuoteStartSection#start.custHideStep,
+ .custQuoteStartSection#application.custHideStep,
+ .page-quote .custFormMain.custHideStep{
+   display: none;
+}
+
+body.page-quote .quote-banner {
+    background: #fff;
+    padding: 5px 0;
+}
+
+.page-quote .container.custQuteMainSection + .row > .col-md-6:last-child{
+    width: 100%;
+    max-width: 100% !important;
+}
+.page-quote .quote-banner{
+    background: #fff;
+}
+.page-quote .quote-banner .bg-white.shadow{
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+.page-quote .container.custQuteMainSection + .row .hbspt-form{
+    max-width: 464px;
+    margin: auto;
+}
+
+
+
+.page-quote .custQuoteTopHeader .custReviews{
+    text-align: left;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+.page-quote .custQuoteTopHeader .custReviews {
+    display: flex;
+    gap: 0 10px;
+}
+
+
+.page-quote .custQuoteTopHeader .custReviews.googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.page-quote .custQuoteTopHeader .custReviews.reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.page-quote .custQuoteTopHeader .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto", sans-serif;
+}
+
+.page-quote .custQuoteTopHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;
+    margin: 0 0 50px;
+}
+
+.page-quote .custQuoteTopHeader .btn {
+    display: flex;
+    padding: 10px 15px;
+    position: relative;
+    gap: 0 15px;
+}
+
+.page-quote .custQuoteTopHeader .btn:after {content: '';display: block;width: 1px;height: 24px;background: #DADADA;position: absolute;left: -25px;top: 12px;}
+
+.page-quote .custQuoteTopHeader .custReviews .googleIcon {
+    width: 30px;
+    display: flex;
+}
+
+.page-quote .custQuoteTopHeader .custReviews .googleIcon img {
+    width: 100%;
+}
+
+.page-quote .custQuoteTopHeader .btn:first-child:after {
+    display: none;
+}
+
+.page-quote .custQuoteTopHeader .btn .txt {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+.page-quote .custQuoteTopHeader .callNumer.btn .txt {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.page-quote .container.custQuteMainSection .custQuteStepsMain {
+    padding: 0 0 80px;
+    position: relative;
+}
+.page-quote .container.custQuteMainSection .custQuteStepsMain .custBackArrow {
+    width: 32px;
+    height: 32px;
+    background: #F0F0F0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.page-quote .progressbar-wrapper {
+    background: #fff;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 350px;
+    margin: auto;
+}
+
+.page-quote .progressbar li {
+    list-style-type: none;
+    width: auto;
+    font-size: 12px;
+    /* position: relative; */
+    text-align: center;
+    text-transform: none;
+    color: #DADADA;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.custQuteStepsMain .progressbar li:before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    border: 2px solid #DADADA;
+    display: block;
+    text-align: center;
+    margin: 0 auto 8px auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+    box-shadow: 0 0px 0 8px #fff;
+}
+.custQuteStepsMain .progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #DADADA;
+    top: 17px;
+    left: 0;
+    z-index: 0;
+}
+.custQuteStepsMain .progressbar li.active {
+    color: #098040;
+    font-weight: bold;  
+}
+.custQuteStepsMain .progressbar li.active:before {
+    border-color: #098040;
+    background: #fff;
+ }
+ .custQuteStepsMain .progressbar li.active:after {
+    background-color: #098040;
+    z-index: 2;
+    width: 50%;
+ }
+ .custQuteStepsMain .progressbar li.active + li:after {
+    background-color: #DADADA;
+    z-index: 2;
+    width: 50%;
+    left: 50%;
+}
+.custQuteStepsMain .progressbar li.active + li.active + li.active:after {
+    background-color: #098040;
+    z-index: 2;
+    width: calc(100% - 5px);
+    left: 0;
+}
+.custQuteStepsMain .progressbar {
+    counter-reset: step;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+.custQuteStepsMain .progressbar li:before {
+    content: counter(step);
+    counter-increment: step; 
+}
+
+.container.custQuteMainSection .custQuoteStartSection {
+    text-align: center;
+}
+
+.container.custQuteMainSection .custQuoteStartSection h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+.container.custQuteMainSection .custQuoteStartSection h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+
+.container.custQuteMainSection .custQuoteStartSection ul {
+    list-style: none;
+    padding: 80px 0 0;
+    margin: 0 auto 48px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    flex-wrap: wrap;
+    max-width: 940px;
+}
+.container.custQuteMainSection .custQuoteStartSection ul li {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 160px;
+}
+.container.custQuteMainSection .custQuoteStartSection ul li .custIconBox {
+    background: #FFFFFF;
+    border: 2px solid #DADADA;
+    border-radius: 9px;
+    padding: 9px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px 0;
+    cursor: pointer;
+}
+.container.custQuteMainSection .custQuoteStartSection ul li .custIconBox.active {
+    border-color: #098040;
+}
+
+.container.custQuteMainSection .custQuoteStartSection ul li .custIconBox img {
+    /* width: 94px;
+    height: 70px; */
+    margin: auto;
+}
+
+.container.custQuteMainSection .custQuoteStartSection ul li .custIconBox .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+
+.container.custQuteMainSection .custQuoteStartSection button.btn.custQuoteBtn {
+    background: #098040;
+    padding: 17px 44px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+    border-radius: 0;
+}
+
+.container.custQuteMainSection .custQuoteStartSection#application h3 {
+    max-width: 651px;
+    margin: auto;
+}
+.container.custQuteMainSection .custQuoteStartSection#application ul{
+    padding: 48px 0 0;
+    gap: 50px 100px;
+}
+.container.custQuteMainSection .custQuoteStartSection#application ul li .custIconBox{
+    padding: 20px 10px;
+    gap: 20px 0;
+}
+
+.page-quote .container.custQuteMainSection + .row h2.custQuoteFormHeading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.page-quote .container.custQuteMainSection + .row h2.custQuoteFormHeading span {
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+
+
+.page-quote .container.custQuteMainSection + .row .custLighteningBox {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0 10px;
+    margin: 25px 0 0;
+    font-size: 13px;
+    line-height: 24px;
+}
+.page-quote .container.custQuteMainSection + .row .custLighteningBox .txt {
+    text-align: left;
+}
+.page-quote .container.custQuteMainSection + .row .custLighteningBox .txt strong {
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+@media(max-width: 991px){
+    .page-quote .container.custQuteMainSection + .row h2.custQuoteFormHeading,
+    .container.custQuteMainSection .custQuoteStartSection h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .page-quote .container.custQuteMainSection + .row h2.custQuoteFormHeading span{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-quote .custQuoteTopHeader{
+        margin: 0 0 30px;
+    }
+    .page-quote .container.custQuteMainSection .custQuteStepsMain{
+        padding: 0 0 25px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection ul{
+        padding: 40px 0 0;
+        margin: 0 auto 40px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection#application ul{
+        gap: 41px;
+    }
+}
+@media(max-width: 767px){
+    .page-quote .custQuoteTopHeader{
+        gap: 0 5px;
+        flex-wrap: wrap;
+    }
+    .page-quote .custQuoteTopHeader .btn:after{
+        left: -2.5px;
+    }
+    .page-quote .custQuoteTopHeader .btn:last-child:after {
+        display: none;
+    }
+    .container.custQuteMainSection .custQuoteStartSection ul{
+        gap: 25px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection button.btn.custQuoteBtn{
+        width: 100%;
+    }
+    .container.custQuteMainSection .custQuoteStartSection h2{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0;
+    }
+    .container.custQuteMainSection .custQuoteStartSection#application ul{
+        padding: 40px 0 0;
+        gap: 25px;
+    }        
+    .page-quote .container.custQuteMainSection + .row h2.custQuoteFormHeading span{
+        font-size: 20px;
+    }
+    .page-quote .container.custQuteMainSection + .row .custLighteningBox{
+        gap: 0 8px;
+    }
+    .page-quote .container.custQuteMainSection .custQuteStepsMain .custBackArrow {
+        top: 5px;
+    }
+    .page-quote .progressbar-wrapper{
+        padding-left: 45px;
+    }
+}
+@media(max-width: 372px){
+    .page-quote .custQuoteTopHeader{
+        gap: 0 5px;
+    }
+    .page-quote .custQuoteTopHeader .btn{
+        padding: 10px 5px;
+        gap: 0 5px;
+    }
+}
+@media(max-width: 364px){
+    .container.custQuteMainSection .custQuoteStartSection#application ul,
+    .container.custQuteMainSection .custQuoteStartSection ul{
+        gap: 15px;
+    }    
+    .container.custQuteMainSection .custQuoteStartSection ul li{
+        flex: 0 0 140px;
+    }
+    .container.custQuteMainSection .custQuoteStartSection ul li .custIconBox img{
+        transform: scale(0.85);
+    }
+}

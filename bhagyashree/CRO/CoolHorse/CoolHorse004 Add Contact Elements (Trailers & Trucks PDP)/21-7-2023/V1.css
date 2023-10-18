@@ -1,0 +1,587 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+body .product-information .product-information--purchase h1.nm {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: -0.8px;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 16px;
+}
+span.product-flag.label-info {
+    background: #E6EBF9;
+    border: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    padding: 6px 12px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+span.product-flag.label-warning {
+    padding: 4px 12px;
+    border-radius: 8px;
+    background: #FEDB97;
+    border: 0;
+    color: #000;
+}
+body .product-information .product-code {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+    margin-top: 0;
+    line-height: 1.5;
+}
+body .product-information .h3.nbm {
+    margin-top: 7px;
+}
+span#js-price-value {
+    color: #E60000;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+.trailer-attributes ul li strong, .column.large-whole ul li strong {
+    width: auto;
+}
+.trailer-attributes ul, .column.large-whole ul{
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trailer-attributes ul li, .column.large-whole ul li {flex: 0 0 50%;color: #333;}
+.trailer-attributes ul li span, .column.large-whole ul li span {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+}
+.product-information--purchase hr {
+    display: none;
+}
+form#js-purchase-product {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+body .product-information .product-information--purchase .add-to-cart {
+    border-radius: 8px;
+    background: #053CC8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+}
+
+body .product-information .product-information--purchase .add-to-cart span {
+    display: none;
+}
+
+body .product-information .product-information--purchase .add-to-cart + button.button {
+    display: none;
+}
+
+.custNeedMoreInformationFour {
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15);
+    padding: 14px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.custNeedMoreInformationFour div:first-child {
+    width: 90px;
+    height: 90px;
+    flex: 0 0 100px;
+    margin-right: 20px;
+    padding-left: 20px;
+}
+.custNeedMoreInformationFour div:nth-child(2) {
+    width: calc(100% - 120px);
+    padding-right: 20px;
+}
+.custNeedMoreInformationFour h3 {
+    color: #333;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 8px;
+}
+.custNeedMoreInformationFour p {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+.custNeedMoreInformationFour ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.custNeedMoreInformationFour ul li {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    color: #333;
+}
+.custNeedMoreInformationFour ul li:last-child {
+    flex: 0 0 50%;
+}
+.custNeedMoreInformationFour ul li:last-child span {
+    display: block;
+}
+.custNeedMoreInformationFour ol {
+    padding: 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex: 0 0 100%;
+    margin-bottom: 0;
+    border-top: 1px solid #E6EBF9;
+}
+.custNeedMoreInformationFour ol li:nth-child(1) {
+    border-right: 1px solid #E6EBF9;
+    width: 50%;
+    text-align: center;
+}
+.custNeedMoreInformationFour ol li {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    padding: 12px 0;
+    color: #053CC8;
+        cursor: pointer;
+}
+.custNeedMoreInformationFour ol li a {
+    color: #053CC8 !important;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    line-height: 24px;
+}
+.custNeedMoreInformationFour ol li img {
+    width: 20px;
+    margin-right: 10px;
+}
+.custNeedMoreInformationFour ol li:nth-child(2) {
+    width: 50%;
+    text-align: center;
+}
+
+.custMonthlyPlans {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 8px 16px 8px 16px;
+    position: relative;
+    border-radius: 4px;
+    background: #F5F6F7;
+    margin-top: 32px;
+}
+.custMonthlyPlans::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    background: #ccc;
+}
+.custMonthlyPlans p {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #333;
+}
+.custMonthlyPlans img {
+    width: 24px;
+    margin-right: 12px;
+}
+body .product-information .product-information--images {
+    width: 50%;
+    padding: 0;
+}
+body .product-information .product-information--purchase {
+    width: 50%;
+    padding: 0 80px;
+    position: inherit;
+}
+body, html {
+    overflow: inherit;
+    padding-right: 0;
+    position: inherit;
+}
+.custFixedScroll {
+    position: sticky;
+    top: 30px;
+}
+
+body .product-information .product-information--images .main-image-container, body .product-information .product-information--images .main-image-container img {
+    width: 100%;
+}
+.row.bg-white.product-information {
+position: static;
+    padding-bottom: 0;
+    display: flex;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+body .product-information .product-information--purchase .h3.nbm form {
+    margin: 0;
+}
+.custProductInfoAccordian ul.r-tabs-nav {
+    display: none !important;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: block;
+    border-bottom: 0;
+    border-top: 1px solid #ccc;
+    margin-top: -1px;
+    position: relative;
+    border-bottom:0 ;
+}
+
+div#js-responsive-tabs {
+    border: 0;
+    margin-top: 14px;
+    background: #fff;
+        border-bottom: 1px solid #ccc;
+}
+
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor, .r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+    background: #fff;
+    color: #000 !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    text-shadow: none !important;
+    padding: 16px 0;
+}
+
+.product-information--description {
+    padding: 0;
+    margin-top: 16px;
+}
+
+.product-information--description ul, .product-information--description ul li { 
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.product-information--description ul li a, .product-information--description ul li p, .product-information--description ul li span{
+    color: #333;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif !important;
+    line-height: 28px;
+    font-size: 14px !important;
+} 
+.product-information--description .r-tabs .r-tabs-panel {
+    font-size: 14px;
+    color: #333 !important;
+    font-family: 'Rubik', sans-serif;
+    padding: 0 0 5px 0;
+    font-weight: 400;
+}
+.product-information--description ul {
+    padding-left: 19px;
+}
+.product-information--description .r-tabs .r-tabs-panel p, .product-information--description .r-tabs .r-tabs-panel span {
+    font-size: 14px !important;
+    font-family: 'Rubik', sans-serif;
+}
+.product-information--description ul li a:hover {
+    text-decoration: underline;
+    color: #0c3dc5;
+}
+body .product-information .product-information--images .thumbnail-wrapper.np {
+    width: 100%;
+}
+main .wrap {
+    max-width: 1280px;
+    width: 100%;
+}
+.single-column .row .column-right {
+    padding: 0;
+}
+
+.r-tabs-accordion-title::after{
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/coolhorse/accordion-arrow.svg);
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 19px;
+    transform: rotate(180deg);
+} 
+
+.r-tabs-state-default, .r-tabs-state-active {
+    position: relative;
+}
+
+.r-tabs-accordion-title.r-tabs-state-active:after {
+    transform: rotate(0deg) !important;
+}
+.product-carousel-prod {
+    display: none;
+}
+
+.breaker.clear {
+    display: none;
+}
+.large-five-twelfths.custSliderWrapper {
+    width: 100%;
+}
+.large-five-twelfths.custSliderWrapper div#js-related-products-carousel {
+    display: none;
+}
+.large-five-twelfths.custSliderWrapper div#js-related-products-carousel {
+    display: none;
+}
+
+.sky {
+    display: none;
+}
+
+.large-five-twelfths.custSliderWrapper h4 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    color: #000;
+    letter-spacing: -0.56px;
+}
+
+.large-five-twelfths.custSliderWrapper .category-product {
+    text-align: left;
+    height: auto !important;
+}
+
+.category-product-image-wrapper, .category-product-image-wrapper img {
+    width: 100%;
+}
+
+p.category-product-name a {
+    font-family:  'Rubik', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+}
+
+span.category-product-price {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    font-family: 'Rubik', sans-serif;
+    color: #000;
+}
+.category-product a {
+    display: block;
+}
+.related-products-carousel ul.slick-dots li button {
+    font-size: 0;
+    border: 0;
+    background: #ccc;
+    width: 6px;
+    height: 6px;
+    border-radius: 30px;
+    padding: 0;
+}
+
+.related-products-carousel .slick-slider {
+    overflow: initial;
+}
+
+.related-products-carousel ul.slick-dots li {
+    width: auto;
+    height: auto;
+    margin: 0 4px !important;
+}
+.related-products-carousel li.slick-active button {
+    background: #053CC8 !important;
+}
+.related-products-carousel .slick-next, .related-products-carousel .slick-prev {
+    display: none;
+}
+.row.trailer-attributes .column.large-whole {
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+body .custProductInfoAccordian .r-tabs .r-tabs-panel ul {
+    padding: 0 0 0 16px !important;
+    list-style: disc !important;
+    width: 100%;
+} 
+body .custProductInfoAccordian .r-tabs .r-tabs-panel ul li {
+    flex: 0 0 100%;
+    list-style: disc !important;
+}
+
+.custMainPdpWrapper .product-information--images .slick-initialized .slick-slide {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+.custMainPdpWrapper .product-information--images  .main-image-container {
+    display: none !important;
+    pointer-events: none !important;
+}
+.custMainPdpWrapper .product-information--images  .slick-track {
+    width: 100% !important;
+    transform: none !important;
+    display: flex !important;
+    flex-wrap: wrap;
+}
+.custMainPdpWrapper .product-information--images .slick-initialized .slick-slide {
+    width: auto !important;
+    display: block;
+    flex: 0 0 50%;
+}
+.custMainPdpWrapper .product-information--images  .slick-initialized .slick-slide {
+    width: 50% !important;
+}
+.custMainPdpWrapper .product-information--images  .slick-slide img {
+    width: 100% !important;
+}
+
+}
+
+@media screen and (max-width: 860px) {
+body .product-information .product-information--images {
+    width: 100%;
+}
+
+.row.bg-white.product-information {
+    padding: 0 30px;
+    margin-bottom: 0;
+}
+
+body .product-information .product-information--purchase {
+    width: 100%;
+    padding: 0 0;
+    margin-bottom: 0;
+}
+.column.whole.large-whole.product-information--description.mb1 {
+    padding: 0;
+        margin-bottom: 0;
+}
+body .product-information .product-information--purchase h1.nm {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: -0.56px;
+}
+.custMonthlyPlans {
+    flex-wrap: nowrap;
+}
+.large-five-twelfths.custSliderWrapper h4 {
+    font-size: 24px;
+    font-style: normal;
+}
+.trailer-attributes {
+    padding: 0;
+    margin-bottom: 20px;
+}  
+}
+@media screen and (max-width: 767px) {
+    .row.trailer-attributes {
+        margin-bottom: 0;
+    }
+
+    .row.trailer-attributes .column.large-whole {
+        margin: 5px 0 0;
+    }
+
+    .custNeedMoreInformationFour div:first-child {
+        margin-right: 10px;
+        width: 80px;
+        height: 80px;
+        flex: 0 0 80px;
+    }
+
+    .custNeedMoreInformationFour div:nth-child(2) {
+        width: calc(100% - 90px);
+        padding-right: 10px;
+    }
+
+    .customPdpYmalSlider  ul.slick-dots {
+    bottom: 0;
+    margin-bottom: 0;
+    }
+
+    footer.footer {
+    margin-top: 0;
+    }
+    .custSliderWrapper .breaker.show.medium-hide {
+    display: none;
+}
+
+.custSliderWrapper .row.related-products {
+    margin-top: 0;
+}
+
+.custSliderWrapper .related-products-carousel {
+    padding: 0;
+}
+.custSliderWrapper .row.related-products .column.whole {
+    padding: 0;
+}
+}
+
+</style>

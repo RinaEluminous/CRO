@@ -1,0 +1,134 @@
+<!-- add in [cart__footer] Top -->
+	<div class="custShipping">
+		<p><img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/np_delivery.png">You’re <strong>$20.01</strong> away from free shipping </p>
+		<div class="custProgressBar">
+			<span class="custRangeSlide"></span>
+		</div>
+	</div>
+
+<!-- add after [cart__buttons] -->
+	<div class="custFreePayments"> 
+		<p part="osm-message">4 interest- free payments of $66.25 with <span class="logo" part="osm-logo">Klarna</span>. <button part="osm-cta" class="link">Learn More</button></p>
+	</div>
+<!-- add after [cart__additional-buttons additional_checkout_buttons] -->
+	<div class="custSidebarFooter">
+		<div class="custManufacturingDefects">
+			<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/lifetime_warranty.png">
+			<p>All of our cowboy boots are covered by a Lifetime Warranty against manufacturing defects in materials and workmanship for the lifetime of the boots.</p>
+		</div>
+
+		<div class="custSecuredEncrypted"><img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/np_secure.png">100% Secured and encrypted</div>
+
+		<div class="custPaymentOptions">
+			<button><img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/shop-pay.png"></button>
+			<button><img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/pay-pal-icon.png"></button>
+			<button><img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/google-pay.png"></button>
+		</div>
+	</div>
+<!-- add in [cart__quantity cart__column] -->
+	<div class="custProductsCountButton">
+		<button class="custMinousIcon">-</button>
+		<button class="custPlusIcon">+</button>
+	</div>
+	<!-- [cart__row] -->
+	<div class="custPairsProducts">
+		<h2>Pairs well with</h2>
+		<div class="custPairsSlider">
+			<div>
+				<div class="custProductsImage"><img src="https://cdn.shopify.com/s/files/1/1145/2636/products/the-lamar-732182_540x.jpg?v=1677871442"></div>
+				<h3>The Lamar</h3>
+				<p>Breakfast Stout</p>
+				<div class="custRatingStar">
+					<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rating-stars.svg">4.8 (65)
+				</div>
+				<div class="custPrice">$325</div>
+				<a href="#" class="custBlueOutline">Add to cart</a>			
+			</div>
+
+				<div>
+				<div class="custProductsImage"><img src="https://cdn.shopify.com/s/files/1/1145/2636/products/the-lamar-732182_540x.jpg?v=1677871442"></div>
+				<h3>The Lamar</h3>
+				<p>Breakfast Stout</p>
+				<div class="custRatingStar">
+					<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rating-stars.svg">4.8 (65)
+				</div>
+				<div class="custPrice">$325</div>
+				<a href="#" class="custBlueOutline">Add to cart</a>			
+			</div>
+
+					<div>
+				<div class="custProductsImage"><img src="https://cdn.shopify.com/s/files/1/1145/2636/products/the-lamar-732182_540x.jpg?v=1677871442"></div>
+				<h3>The Lamar</h3>
+				<p>Breakfast Stout</p>
+				<div class="custRatingStar">
+					<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rating-stars.svg">4.8 (65)
+				</div>
+				<div class="custPrice">$325</div>
+				<a href="#" class="custBlueOutline">Add to cart</a>			
+			</div>
+
+					<div>
+				<div class="custProductsImage"><img src="https://cdn.shopify.com/s/files/1/1145/2636/products/the-lamar-732182_540x.jpg?v=1677871442"></div>
+				<h3>The Lamar</h3>
+				<p>Breakfast Stout</p>
+				<div class="custRatingStar">
+					<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rating-stars.svg">4.8 (65)
+				</div>
+				<div class="custPrice">$325</div>
+				<a href="#" class="custBlueOutline">Add to cart</a>			
+			</div>
+
+					<div>
+				<div class="custProductsImage"><img src="https://cdn.shopify.com/s/files/1/1145/2636/products/the-lamar-732182_540x.jpg?v=1677871442"></div>
+				<h3>The Lamar</h3>
+				<p>Breakfast Stout</p>
+				<div class="custRatingStar">
+					<img src="https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rating-stars.svg">4.8 (65)
+				</div>
+				<div class="custPrice">$325</div>
+				<a href="#" class="custBlueOutline">Add to cart</a>			
+			</div>
+		</div>
+	</div>
+
+if (jQuery('#custPopulerColorslick').length == 0) {
+            jQuery("head").append('<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" id="custPairsSlider"></script>');
+        }
+        if (jQuery('#custPopulerColorslick   ').length == 0) {
+            jQuery("head").append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" id="custPairsSlider" />');
+        }
+
+
+jQuery(".custPairsSlider").slick({
+                  slidesToShow: 4, 
+                  dots: false,
+                  arrows: true,
+                  centerPadding: '0',
+                  infinite: true,
+                  centerMode: true,
+                  slidesToScroll: 2,
+                  initialSlide: 2,
+                  responsive: [
+                    {
+                          breakpoint: 991,
+                          settings: {
+                              centerPadding: '70px',
+                              slidesToShow: 3
+                          }
+                      },
+                      {
+                          breakpoint: 768,
+                          settings: {
+                              centerPadding: '50px',
+                              slidesToShow: 2
+                          }
+                      },
+                      {
+                          breakpoint: 640,
+                          settings: {
+                              centerPadding: '40px',
+                              slidesToShow: 2
+                          }
+                      }
+                  ]
+              });

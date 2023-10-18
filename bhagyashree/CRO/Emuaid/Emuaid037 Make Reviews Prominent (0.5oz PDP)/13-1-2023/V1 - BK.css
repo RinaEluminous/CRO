@@ -1,0 +1,104 @@
+<style>
+body .promise-img-mobile,
+.section-product-benefit.custPdpAccordion .tab-wrapper h3.tab-title,
+body .section-product-bottom #shopify-section-jsc-product-pdp,
+body .section-promise,
+body .section-marque,
+body .section-customer-result{
+    display: none;
+}
+.section-product-benefit.custPdpAccordion{
+    padding: 0;
+    background: none;
+}
+.section-product-benefit.custPdpAccordion .product-benefit-image{
+    display: none;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper{
+    padding: 0;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ccc;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:nth-child(1){
+    order: 2;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:nth-child(2){
+    order: 3;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:nth-child(3){
+    order: 4;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:nth-child(4){
+    order: 5;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:nth-child(5){
+    order: 1;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab:after{
+    font-size: 0;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/thick-arrow.svg) no-repeat center center;
+}
+.section-product-benefit.custPdpAccordion .tab-wrapper .tabs__info--tabs__tab.expanded:after{
+    transform: rotate(180deg);
+}
+.section-product-benefit.custPdpAccordion .product-benefit .three-sixths:first-child{
+    display: none;
+}
+.section-product-benefit.custPdpAccordion .product-benefit .three-sixths{
+    width: 100%;
+    margin: 0;
+}
+.section-product-benefit.custPdpAccordion .spb-inner{
+    width: 100%;
+    margin: 0;
+}
+.second-product-template .gallery-wrap{
+    position: sticky;
+    top: 0;
+}
+.second-product-template .product_form .rc_popup{
+    padding: 16px 0 8px;
+}
+.second-product-template .product_form .rc_popup .rc_popup__hover{
+    padding: 0;
+}
+.second-product-template .product_form .rc_popup_label_wrapper{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    min-height: inherit;
+    height: inherit;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+.second-product-template .product_form .rc-selling-plans select.rc-selling-plans__dropdown{
+    margin: 0;
+}
+
+
+
+[class*="-product-template"] #shopify-section-product-template-thirdalternative .product [class*="discountninja-productprice-injected-product"]{
+    display: none;
+}
+.custPdpPrice .modal_price{
+    padding: 0;
+    margin: 13px 0 -12px;
+}
+.custPdpPrice .modal_price .price__container span span.current_price{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+@media(max-width: 768px){
+    body .section-product-bottom{
+        padding-top: 30px;
+    }
+}
+</style>

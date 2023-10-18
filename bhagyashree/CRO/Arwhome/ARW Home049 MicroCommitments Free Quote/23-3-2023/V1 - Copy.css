@@ -1,0 +1,551 @@
+<style>
+.page-quote .sticky-top + .d-block.d-xl-none,
+.page-quote .alert[role="alert"],
+.page-quote footer,
+.page-quote .custExpandedQuoteContainerV2 > .row .col-6:first-child,
+.page-quote .custExpandedQuoteContainerV2 .custCarouselWraperV2,
+.page-quote .container.custQuoteMainSection + .row.custFormParent .col-6:first-child,
+.page-quote .sticky-top{
+    display: none !important;
+}
+
+.page-quote .custQuoteStartSection#start.custHideStep,
+.page-quote .custQuoteStartSection#application.custHideStep,
+.page-quote .custFormParent.custHideStep,.page-quote .container.custQuoteMainSection .custQuoteStepsMain .custBackArrow.custHideStep{
+   display: none;
+}
+
+body.page-quote .quote-banner {
+    background: #fff !important;
+    background-image: unset !important;
+    padding: 5px 0;
+    display: none;
+}
+
+.page-quote .container.custQuoteMainSection + .row.custFormParent > .col-md-6:last-child{
+    width: 100%;
+    max-width: 100% !important;
+}
+.page-quote .quote-banner{
+    background: #fff;
+}
+.page-quote .quote-banner .bg-white.shadow{
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+body.page-quote .quote-banner .hbspt-form{
+    max-width: 464px;
+    width: 100%;
+    display: none !important;
+    margin: auto;
+    position: relative;
+}
+body.page-quote .quote-banner ~ .hbspt-form{
+    display: none;
+}
+.page-quote .container.custQuoteMainSection + .row.custFormParent iframe#hs-form-iframe-1 {
+    max-width: 464px;
+    margin: auto;
+    width: calc(100% - 30px) !important;
+}
+.page-quote .custQuoteTopHeader .custReviews{
+    text-align: left;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+
+.page-quote .custQuoteTopHeader .custReviews {
+    display: flex;
+    gap: 0 10px;
+}
+.page-quote .custQuoteTopHeader .custReviews .reviewsNumber {
+    font-weight: 500;
+}
+
+.page-quote .custQuoteTopHeader .custReviews.googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.page-quote .custQuoteTopHeader .custReviews.reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: "Roboto", sans-serif;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.page-quote .custQuoteTopHeader .reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.page-quote .custQuoteTopHeader .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto", sans-serif;
+}
+
+.page-quote .custQuoteTopHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 50px;
+    margin: 0 0 50px;
+}
+
+.page-quote .custQuoteTopHeader .btn {
+    display: flex;
+    padding: 10px 15px;
+    position: relative;
+    gap: 0 15px;
+}
+
+.page-quote .custQuoteTopHeader .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.page-quote .custQuoteTopHeader .btn:after {content: '';display: block;width: 1px;height: 24px;background: #DADADA;position: absolute;left: -25px;top: 12px;}
+
+.page-quote .custQuoteTopHeader .custReviews .googleIcon {
+    width: 30px;
+    display: flex;
+}
+
+.page-quote .custQuoteTopHeader .custReviews .googleIcon img {
+    width: 100%;
+}
+
+.page-quote .custQuoteTopHeader .btn:first-child:after {
+    display: none;
+}
+
+.page-quote .custQuoteTopHeader .btn .txt {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+}
+
+.page-quote .custQuoteTopHeader .callNumer.btn .txt {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.page-quote .container.custQuoteMainSection .custQuoteStepsMain {
+    padding: 0 0 48px;
+    position: relative;
+}
+.page-quote .container.custQuoteMainSection .custQuoteStepsMain .custBackArrow {
+    width: 32px;
+    height: 32px;
+    background: #F0F0F0;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+.page-quote .progressbar-wrapper {
+    background: #fff;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-width: 350px;
+    margin: auto;
+}
+.page-quote .container.custQuoteMainSection .custQuoteStepsMain .custBackArrow.custHideStep + .progressbar-wrapper{
+    padding: 0;
+}
+
+.page-quote .progressbar li {
+    list-style-type: none;
+    width: auto;
+    font-size: 12px;
+    /* position: relative; */
+    text-align: center;
+    text-transform: none;
+    color: #DADADA;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.custQuoteStepsMain .progressbar li:before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    border: 2px solid #DADADA;
+    display: block;
+    text-align: center;
+    margin: 0 auto 8px auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 5;
+    background-color: #fff;
+    box-shadow: 0 0px 0 8px #fff;
+}
+.custQuoteStepsMain .progressbar li:after {
+    width: 100%;
+    height: 2px;
+    content: '';
+    position: absolute;
+    background-color: #DADADA;
+    top: 17px;
+    left: 0;
+    z-index: 0;
+}
+.custQuoteStepsMain .progressbar li.active {
+    color: #098040;
+    font-weight: bold;  
+}
+.custQuoteStepsMain .progressbar li.active:before {
+    border-color: #098040;
+    background: #fff;
+ }
+ .custQuoteStepsMain .progressbar li.active:after {
+    background-color: #098040;
+    z-index: 2;
+    width: 50%;
+ }
+ .custQuoteStepsMain .progressbar li.active + li:after {
+    background-color: #DADADA;
+    z-index: 2;
+    width: 50%;
+    left: 50%;
+}
+.custQuoteStepsMain .progressbar li.active + li.active + li.active:after {
+    background-color: #098040;
+    z-index: 2;
+    width: calc(100% - 5px);
+    left: 0;
+}
+.custQuoteStepsMain .progressbar {
+    counter-reset: step;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+.custQuoteStepsMain .progressbar li:before {
+    content: counter(step);
+    counter-increment: step; 
+}
+
+.container.custQuoteMainSection{
+    padding: 0 15px;
+}
+.container.custQuoteMainSection .custQuoteStartSection {
+    text-align: center;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+.container.custQuoteMainSection .custQuoteStartSection h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 15px;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection ul {
+    list-style: none;
+    padding: 80px 0 0;
+    margin: 0 auto 48px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    flex-wrap: wrap;
+    max-width: 940px;
+}
+.container.custQuoteMainSection .custQuoteStartSection ul li {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 160px;
+}
+.container.custQuoteMainSection .custQuoteStartSection ul li .custIconBox {
+    background: #FFFFFF;
+    border: 2px solid #DADADA;
+    border-radius: 9px;
+    padding: 9px 15px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px 0;
+    cursor: pointer;
+}
+.container.custQuoteMainSection .custQuoteStartSection ul li .custIconBox.active {
+    border-color: #098040;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection ul li .custIconBox img {
+    margin: auto;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection ul li .custIconBox .title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection button.btn.custQuoteBtn {
+    background: #098040;
+    padding: 17px 44px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+    border-radius: 0;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection#application h3 {
+    max-width: 651px;
+    margin: auto;
+}
+.container.custQuoteMainSection .custQuoteStartSection#application ul{
+    padding: 48px 0 0;
+    gap: 50px 100px;
+}
+.container.custQuoteMainSection .custQuoteStartSection#application ul li .custIconBox{
+    padding: 20px 9px;
+    gap: 20px 0;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection#application ul li .custIconBox .title{
+    display: inline-flex;
+    gap: 0 5px;
+    justify-content: center;
+}
+.container.custQuoteMainSection .custQuoteStartSection#application ul li .custIconBox .title:after {
+    content: '';
+    display: block;
+    width: 8px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/ARW/thick-black-arrow.svg) no-repeat center;
+}
+
+.page-quote .container.custQuoteMainSection + .row.custFormParent h2.custQuoteFormHeading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.page-quote .container.custQuoteMainSection + .row.custFormParent h2.custQuoteFormHeading span {
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    margin: 0 0 8px;
+}
+
+
+.page-quote .container.custQuoteMainSection + .row.custFormParent .custLighteningBox {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0 10px;
+    margin: 25px 0 0;
+    font-size: 13px;
+    line-height: 24px;
+}
+.page-quote .container.custQuoteMainSection + .row.custFormParent .custLighteningBox .txt {
+    text-align: left;
+}
+.page-quote .container.custQuoteMainSection + .row.custFormParent .custLighteningBox .txt strong {
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection{
+    padding: 0 0 60px;
+}
+
+.container.custQuoteMainSection .custQuoteStartSection ul li *::-moz-selection { /* Code for Firefox */
+    color: none;
+    background: none;
+}
+  
+.container.custQuoteMainSection .custQuoteStartSection ul li *::selection {
+    color: none;
+    background: none;
+}
+
+.page-quote .custFormBtnContainer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    display: none;
+}
+
+.page-quote #custQuoteSubmitCta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    min-width: 222px;
+    margin: auto;
+    border: 0;
+    justify-content: center;
+    font-style: normal;
+    cursor: pointer;
+    background: #098040;
+    padding: 19px 44px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: normal;
+    border-radius: 0;
+}
+
+@media(max-width: 991px){
+    .page-quote .container.custQuoteMainSection + .row.custFormParent h2.custQuoteFormHeading,
+    .container.custQuoteMainSection .custQuoteStartSection h2{
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .page-quote .container.custQuoteMainSection + .row.custFormParent h2.custQuoteFormHeading span{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page-quote .custQuoteTopHeader{
+        margin: 0 0 30px;
+    }
+    .page-quote .container.custQuoteMainSection .custQuoteStepsMain{
+        padding: 0 0 25px;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection ul{
+        padding: 40px 0 0;
+        margin: 0 auto 40px;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection#application ul{
+        gap: 41px;
+    }
+}
+@media(max-width: 767px){
+    .page-quote .custQuoteTopHeader{
+        gap: 0 5px;
+        flex-wrap: wrap;
+        margin: 0 -15px 30px;
+    }
+    .page-quote .custQuoteTopHeader .btn:after{
+        left: -2.5px;
+    }
+    .page-quote .custQuoteTopHeader .btn:last-child:after {
+        display: none;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection ul{
+        gap: 25px;
+    }
+    .page-quote #custQuoteSubmitCta,
+    .container.custQuoteMainSection .custQuoteStartSection button.btn.custQuoteBtn{
+        width: 100%;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection h2{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection#application ul{
+        padding: 40px 0 0;
+        gap: 25px;
+    }        
+    .page-quote .container.custQuoteMainSection + .row.custFormParent h2.custQuoteFormHeading span{
+        font-size: 20px;
+    }
+    .page-quote .container.custQuoteMainSection + .row.custFormParent .custLighteningBox{
+        gap: 0 8px;
+    }
+    .page-quote .container.custQuoteMainSection .custQuoteStepsMain .custBackArrow {
+        top: 5px;
+    }
+    .page-quote .progressbar-wrapper{
+        padding-left: 45px;
+    }
+}
+@media(max-width: 372px){
+    .page-quote .custQuoteTopHeader{
+        gap: 0 5px;
+    }
+    .page-quote .custQuoteTopHeader .btn{
+        padding: 10px 5px;
+        gap: 0 5px;
+    }
+}
+@media(max-width: 364px){
+    .container.custQuoteMainSection .custQuoteStartSection#application ul,
+    .container.custQuoteMainSection .custQuoteStartSection ul{
+        gap: 15px;
+    }    
+    .container.custQuoteMainSection .custQuoteStartSection ul li{
+        flex: 0 0 140px;
+    }
+    .container.custQuoteMainSection .custQuoteStartSection ul li .custIconBox img{
+        transform: scale(0.85);
+    }
+}
+@media(max-width: 345px){
+    .container.custQuoteMainSection .custQuoteStartSection#application ul, 
+    .container.custQuoteMainSection .custQuoteStartSection ul {
+        gap: 10px;
+    }
+}
+</style>

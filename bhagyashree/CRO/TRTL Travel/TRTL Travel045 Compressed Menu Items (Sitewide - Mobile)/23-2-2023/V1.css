@@ -1,0 +1,133 @@
+<style>
+@media (max-width: 991px){
+    .custMobileShopBundleWraper, .custMobileShopNavListings, #nav-offcanvas .offcanvas-body a.nav-link.offcanvas-dropdown-toggle + .collapse > .row, #nav-offcanvas .offcanvas-body a.nav-link.offcanvas-dropdown-toggle + .collapse.show > .row, #nav-offcanvas .offcanvas-body a.nav-link.offcanvas-dropdown-toggle + .collapsing > .row{
+        display: none;
+    }
+    .nav-wrapper nav.navbar ul li.nav-item.dropdown.has-megamenu a.nav-link.dropdown-toggle + .dropdown-menu[data-bs-popper].megamenu{
+        top: inherit;
+    }
+    /* Mobile css */
+    .custMobileShopNavCompListings{
+        margin: 16px 0 -10px;
+        border-top: 1px solid rgba(134, 148, 139, 0.5);
+        padding-bottom: 0px;
+        border-bottom: 1px solid rgba(134, 148, 139, 0.5);
+    }
+    .custMobileShopNavCompListings .custShopAllBtn {
+        padding-top: 15px;
+        margin: 0 0 15px;
+    }
+
+    .custMobileShopNavCompListings .custShopAllBtn a {
+        background: #F4EEEB;
+        border-radius: 4px;
+        padding: 12px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        gap: 0 15px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: var(--bs-body-font-family);
+        text-transform: uppercase;
+        color: #3C3E41;
+        transition: 0.3s all;
+        width: 100%;
+        justify-content: space-between;
+        letter-spacing: 0.06em;
+    }
+    .custMobileShopNavCompListings ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .custMobileShopNavCompListings ul li {
+        margin: 0 0 16px;
+    }
+
+    .custMobileShopNavCompListings ul li .title {
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        line-height: 25px;
+        color: #3C3E41;
+        font-family: var(--bs-body-font-family);
+        margin: 0 0 3px;
+        display: flex;
+        gap: 0 5px;
+        justify-content: space-between;
+    }
+
+    .custMobileShopNavCompListings ul li p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.5;
+        font-family: var(--bs-body-font-family);
+        letter-spacing: unset;
+    }
+
+    .custMobileShopNavCompListings ul li .title span.lable {
+        letter-spacing: 0.07em;
+        color: #000000;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        font-family: var(--bs-body-font-family);
+        padding: 4px 8px;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        background: #FFFFFF;
+        min-width: 96px;
+        text-align: center;
+    }
+
+    .custMobileShopNavCompListings ul li .title span.lable.bestselleer {
+        color: #fff;
+        background: #000;
+    }
+
+    .custMobileShopNavCompListings ul li a {
+        text-decoration: none;
+        display: flex;
+        gap: 0 8px;
+    }
+    .custMobileShopNavCompListings ul li a .imgBox {
+        width: 64px;
+        flex: 0 0 64px;
+    }
+
+    #shopify-section-static-header-alt-trtl .offcanvas-dropdown-toggle.collapsed:hover::after,
+    #shopify-section-static-header-alt-trtl .nav-link.offcanvas-dropdown-toggle.collapsed:after{
+        transform: rotate(0deg);
+    }
+    #shopify-section-static-header-alt-trtl .offcanvas-dropdown-toggle:hover::after,
+    #shopify-section-static-header-alt-trtl .nav-link.offcanvas-dropdown-toggle:after{
+        transform: rotate(0deg);
+    }
+}
+@media (max-width: 360px){
+    .custMobileShopNavCompListings ul li a .imgBox {
+        width: 54px;
+        flex: 0 0 54px;
+    }
+    .custMobileShopNavCompListings ul li .title{
+        font-size: 14px;
+        margin: 0 0 5px;
+    }
+    .custMobileShopNavCompListings ul li .title span.lable{
+        font-size: 10px;
+        line-height: 12px;
+        padding: 5px 10px;
+        min-width: 80px;
+    }
+    .custMobileShopNavCompListings ul li p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+</style>

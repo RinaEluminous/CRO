@@ -1,0 +1,1044 @@
+.page--landing-page #content-wrapper main .node.landing-page .node__content div[id^=tile-],
+.page--landing-page #content-wrapper main+.below-content,
+.page--landing-page .above-footer {
+    display: none;
+}
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row {
+    width: 100%;
+}
+
+.customConsumerPage .debtFreeSection .graphBox {
+    background: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.customConsumerPage .debtFreeSection .graphBox img {
+    width: 100%;
+}
+
+.customConsumerPage .debtFreeSection .graphBox h4 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    letter-spacing: normal;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox {
+    background: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox h4 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000;
+    text-align: center;
+    margin: 0 auto 25px;
+    max-width: 330px;
+    letter-spacing: normal;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 15px;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 8px;
+    background: #FFFFFF;
+    border: 3px solid #B31C1D;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox.dislike {
+    border-color: #B31C1D;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox.like {
+    border-color: #26d07c;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox .helpTitle {
+    color: #53565A;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox .helpPrice {
+    font-size: 40px;
+    line-height: 40px;
+    color: #53565A;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox.dislike .helpPrice {
+    color: #B31C1D;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox.like .helpPrice {
+    color: #26d07c;
+}
+
+.customConsumerPage .debtFreeSection .repaymentBox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 15px;
+    color: #000;
+}
+
+.customConsumerPage .debtFreeSection {
+    padding: 60px 0;
+    background: #F1F1F2;
+}
+
+.customConsumerPage .custConsumerProposal {
+    padding: 60px 0px;
+    background: #F1F1F2;
+}
+.customConsumerPage .custConsumerProposal h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #0D1C14;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+.customConsumerPage .custConsumerProposal .proposalBox {
+    background: #fff;
+    padding: 25px 15px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.customConsumerPage .custConsumerProposal .proposalBox .icon {
+    font-size: 0;
+    display: block;
+    margin: 0 0 15px;
+}
+.customConsumerPage .custConsumerProposal .proposalBox .icon.number {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #D9D9D6;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.customConsumerPage .custConsumerProposal .proposalBox h5 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+}
+
+.customConsumerPage .custConsumerProposal .proposalBox p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.customConsumerPage .custConsumerProposal .row {display: flex;flex-wrap: wrap;}
+
+.customConsumerPage .custConsumerProposal .row .col-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth {
+    display: flex;
+    margin: 40px 0 0;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+}
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth h5 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 8px;
+}
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon {
+    margin: 0;
+    width: 100%;
+    flex: 0 0 40px;
+}
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth{
+    box-shadow: 10px -10px 0px #26d07c;
+}
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth h4{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+    max-width: 960px;
+    line-height: 39px;
+}
+.customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth h4 a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.customConsumerPage .custFaqSection {
+    padding: 60px 0;
+    background: #F1F1F2;
+}
+
+.customConsumerPage .custFaqSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+.customConsumerPage .custFaqSection input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  /* Accordion styles */
+  .customConsumerPage .custFaqSection .tabs {
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .customConsumerPage .custFaqSection .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  .customConsumerPage .custFaqSection .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    border-bottom: 1px solid #C3D1CF;
+    margin: 0;
+    align-items: center;
+  }
+  .customConsumerPage .custFaqSection .tab:last-child label.tab-label {
+    border: 0;
+  }
+  .customConsumerPage .custFaqSection .tab-label::after {
+    content: "";
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    transition: all 0.35s;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/plus_bullet_icon.svg) no-repeat center;
+    background-size: 12px;
+    transform: rotate(180deg);
+    filter: invert(1);
+  }
+  .customConsumerPage .custFaqSection .tab-content {
+    max-height: 0;
+    padding: 0 24px;
+    color: #000;
+    background: white;
+    transition: all 0.35s;    
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+  }
+  .customConsumerPage .custFaqSection input:checked + .tab-label {
+    border-bottom: 0;
+  }
+  .customConsumerPage .custFaqSection input:checked + .tab-label::after {
+    transform: rotate(45deg);
+  }
+  .customConsumerPage .custFaqSection input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 0 24px 24px 24px;
+  }
+  .customConsumerPage .custFaqSection .tab-content p {
+    margin: 0 0 12px;
+    font-size: 16px;
+    max-width: 780px;
+  }
+
+
+  .customConsumerPage .custBookBanner .col-12 {
+    padding: 0 15px;
+}
+
+.customConsumerPage .custBookBanner {
+    padding: 0;
+    margin: 40px 0 0;
+}
+
+.customConsumerPage .custBookBanner .innerWraper {
+    background: #26D07C;
+    color: #fff;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.customConsumerPage .custBookBanner .innerWraper .bookContent, 
+.customConsumerPage .custBookBanner .innerWraper .bookBtnWraper {
+    width: 50%;
+}
+
+.customConsumerPage .custBookBanner .innerWraper .bookContent h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 0 0 0px;
+    color: #fff;
+}
+
+.customConsumerPage .custBookBanner .innerWraper .bookBtnWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+.customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn {
+    width: 50%;
+}
+.customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #fff;
+    border-radius: 5px;
+    color: #26D07C;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn.outline {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+}
+
+.customConsumerPage .custHeroSection {
+    padding: 80px 0 60px;
+    background: #E2E2E2;
+}
+
+.customConsumerPage .custHeroSection .row {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.customConsumerPage .custHeroSection .col-6 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.customConsumerPage .custHeroSection h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    color: #000;
+    margin: 0 0 15px;
+}
+.customConsumerPage .custHeroSection h5 {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+    color: #000;
+    line-height: 34px;
+    margin: 0 0 15px;
+}
+
+.customConsumerPage .custHeroSection p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #0D1C14;
+}
+
+.customConsumerPage .custHeroSection img.img-fluid{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 -65px;
+}
+.customConsumerPage .custHeroSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.customConsumerPage .custHeroSection ul li {
+    padding: 0px 5px 0px 25px;
+    border-radius: 4px;
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/tick-bullet-icon.svg) no-repeat;
+    background-position: 0px 3px;
+}
+
+.customConsumerPage .custDebtButtonSection_sp .custBtnWraper > a.btn {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;   
+    border: 1px solid #26D07C; 
+    border-radius: 5px;    
+    font-weight: 500;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+    width: 50%;
+}
+
+.customConsumerPage .custDebtButtonSection_sp .custBtnWraper > a.btn.fill {
+    background: #26D07C;
+    color: #fff;
+    font-weight: 600;
+}
+.customConsumerPage .custDebtButtonSection_sp .custBtnWraper > a.btn.outline {
+    background: #fff;
+    color: #26D07C;
+    font-weight: 500;
+}
+
+.customConsumerPage .custDebtButtonSection_sp .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+
+.customConsumerPage .custConsumerProposalWraper .feedbackBox {
+    background: #fff;
+    padding: 24px 40px;
+    height: 100%;
+}
+
+.customConsumerPage .custConsumerProposalWraper .feedbackBox .starRatings span {
+    font-size: 0;
+    display: block;
+}
+
+.customConsumerPage .custConsumerProposalWraper .feedbackBox .starRatings {
+    display: flex;
+    gap: 2px;
+    margin: 0 0 25px;
+}
+
+.customConsumerPage .custConsumerProposalWraper .feedbackBox .quotes {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+    line-height: 25px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.customConsumerPage .custConsumerProposalWraper .feedbackBox cite {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 25px 0 0;
+    display: block;
+    color: #000;
+}
+.customConsumerPage .debtFreeSection .repaymentBox .btnWraper a {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+.customConsumerPage .custConsumerProposalWraper {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+.customConsumerPage .custConsumerProposalWraper h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #0D1C14;
+    margin: 0 0 10px;
+}
+.customConsumerPage .custConsumerProposalWraper p {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    margin: 0;
+}
+
+.customConsumerPage .custAdvProposalSection {
+    padding: 60px 0;
+}
+.customConsumerPage .custAdvProposalSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+.customConsumerPage .custAdvProposalSection .advtBox {
+    position: relative;
+    margin: 0 0 40px;
+}
+
+.customConsumerPage .custAdvProposalSection .advtBox p {
+    margin: 0;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #53565A;
+    position: relative;
+    padding-left: 32px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.customConsumerPage .custAdvProposalSection .advtBox p:after {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 12px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/green-plus-icon.svg) no-repeat 0 0;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    background-size: 12px;
+}
+
+.customConsumerPage .custAdvProposalSection .advtBox.big {
+    text-align: center;
+    margin: 0;
+}
+
+.customConsumerPage .custAdvProposalSection .advtBox.big p {
+    display: inline-block;
+    font-size: 32px;
+    line-height: 45px;
+}
+
+.customConsumerPage .custAdvProposalSection .advtBox.big p:after {
+    top: 15px;
+}
+
+.customConsumerPage .custCreditorSection {
+    background: #53565B;
+    padding: 60px 0;
+}
+.customConsumerPage .custCreditorSection .whiteBox {
+    background: #fff;
+    padding: 40px 100px;
+    text-align: center;
+}
+.customConsumerPage .custCreditorSection .whiteBox h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 8px;
+}
+.customConsumerPage .custCreditorSection .whiteBox p {
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 24px;
+}
+.customConsumerPage .custCreditorSection .whiteBox .btnWraper a {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+.customConsumerPage .btnWraper a:hover{
+    text-decoration: none;
+}
+@media(max-width: 1199px){
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox{
+        padding: 15px;
+        gap: 5px;
+    }
+    .customConsumerPage .debtFreeSection .graphBox h4,
+    .customConsumerPage .debtFreeSection .repaymentBox h4{
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 20px;
+    }
+    .customConsumerPage .debtFreeSection,
+    .customConsumerPage .custConsumerProposal,
+    .customConsumerPage .custFaqSection,
+    .customConsumerPage .custCreditorSection,
+    .customConsumerPage .custAdvProposalSection,  
+    .customConsumerPage .custConsumerProposalWraper,
+    .customConsumerPage .debtFreeSection{
+        padding: 40px 0;
+    }  
+    .customConsumerPage .custHeroSection{
+        padding: 80px 0 40px;
+    }  
+    .customConsumerPage .custHeroSection h2{
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .customConsumerPage .custHeroSection p{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }    
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper>a.btn{
+        padding: 15px 20px;
+    } 
+    .customConsumerPage .custCreditorSection .whiteBox{
+        padding: 40px 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox .starRatings{
+        margin: 0 0 15px;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox cite{
+        font-size: 16px;
+        margin: 15px 0 0;
+    }
+}
+@media(max-width: 991px){
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth{
+        gap: 0 20px;
+    }    
+    .customConsumerPage .custBookBanner{
+        margin: 40px 0 0;
+    }
+    .customConsumerPage .custBookBanner .innerWraper{
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 15px;
+    }
+    .customConsumerPage .custHeroSection .row{
+        flex-direction: column;
+    }
+    .customConsumerPage .custHeroSection .col-6 img.img-fluid {
+        margin: 0 0 15px;
+    }
+    .customConsumerPage .custHeroSection h2{
+        font-size: 40px;
+        line-height: 42px;
+        margin: 0px 0 15px;
+    }
+    .customConsumerPage .custHeroSection p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }    
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper .custReviews{
+        margin-right: auto;
+    }    
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper{
+        gap: 0 10px;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper>a.btn{
+        padding: 15px 20px;
+        margin: 0 0 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .customConsumerPage .custHeroSection img.img-fluid{
+        margin: 0;
+    }
+    .customConsumerPage .custHeroSection .row{
+        display: block;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper>a.btn{
+        flex: 0 0 0;
+    }
+    .customConsumerPage .custHeroSection h5{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .customConsumerPage .custHeroSection ul li{
+        line-height: 19px;
+        margin: 0 0 8px;
+    }
+    .customConsumerPage .custHeroSection{
+        padding: 80px 0 30px;
+    }
+    .customConsumerPage .debtFreeSection, .customConsumerPage .custConsumerProposal, .customConsumerPage .custFaqSection, .customConsumerPage .custCreditorSection, .customConsumerPage .custAdvProposalSection, .customConsumerPage .custConsumerProposalWraper, .customConsumerPage .debtFreeSection{
+        padding: 30px 0;
+    }
+    .customConsumerPage .custConsumerProposal h3,
+    .customConsumerPage .custFaqSection h3,
+    .customConsumerPage .custCreditorSection .whiteBox h2,
+    .customConsumerPage .custAdvProposalSection h3,
+    .customConsumerPage .custConsumerProposalWraper h2{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .customConsumerPage .custConsumerProposalWraper p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox{
+        margin: 30px 0 0;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox{
+        padding: 20px;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookContent, 
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper{
+        width: 100%;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper{
+        justify-content: flex-start;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn{
+        flex: 0 0 0;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookContent h3{
+        font-size: 24px;
+    }
+    .customConsumerPage .custAdvProposalSection .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .customConsumerPage .custAdvProposalSection .row .col-sm-4{
+        flex: 1 1 auto;
+    }
+    .customConsumerPage .custAdvProposalSection .advtBox.big p{
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth h4{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .customConsumerPage .custCreditorSection .whiteBox{
+        padding: 30px;
+    }
+    .customConsumerPage .custCreditorSection .whiteBox p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media(max-width: 767px){
+    .customConsumerPage .debtFreeSection h3{
+        line-height: 24px;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row {
+        width: 100%;
+        display: flex;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .col-sm-6 {
+        width: 50%;
+        padding: 0 5px;
+    }    
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox{
+        padding: 20px 15px;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox .helpTitle{
+        margin: 0 0 8px;
+    }
+    
+    .customConsumerPage .custConsumerProposal h3{
+        font-size: 32px;
+        line-height: 34px;
+        margin: 0 0 30px;
+    }
+    .customConsumerPage .custConsumerProposal .proposalBox{
+        margin: 0 0 15px;
+        height: auto;
+        padding: 15px;
+        position: relative;
+    }
+    .customConsumerPage .custConsumerProposal .proposalBox h5{
+        padding-left: 56px;
+        position: relative;
+        margin: 0px 0 8px;
+        min-height: 40px;
+        display: flex;
+        flex: 0 0 100%;
+        width: 100%;
+        align-items: center;
+    }
+    .customConsumerPage .custConsumerProposal .proposalBox .icon{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+    .customConsumerPage .custConsumerProposal .proposalBox p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth{
+        margin: 20px 0 0;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .customConsumerPage  .custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon{
+        display: none;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth h5{
+        font-size: 23px;
+        line-height: 23px;
+        margin: 0 0 16px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 16px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill,
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap {
+        width: 100%;
+    }
+    
+    .customConsumerPage .custFaqSection h3{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .customConsumerPage .custFaqSection .tabs{
+        margin: 0;
+    }
+    .customConsumerPage .custFaqSection .tab-label{
+        padding: 15px 10px;
+        padding-right: 41px;
+        position: relative;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .customConsumerPage .custFaqSection .tab-label::after{
+        position: absolute;
+        right: 16px;
+    }
+    .customConsumerPage .custFaqSection .tab-content{
+        padding: 0 10px;
+    }
+    .customConsumerPage .custFaqSection input:checked ~ .tab-content{
+        padding: 0 10px 10px 10px;
+    }
+    
+    .customConsumerPage .custBookBanner .innerWraper{
+        padding: 15px;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookContent h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0 0 5px;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper{
+        gap: 0 30px;
+    }
+    .customConsumerPage .custHeroSection h2{
+        margin: 12px 0 15px;
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .customConsumerPage .custHeroSection p{
+        font-size: 20px;
+        line-height: 24px;
+    }    
+    .customConsumerPage .custHeroSection ul li{
+        border-radius: 8px;
+        padding: 0px 0px 0px 28px;
+        background-position: 2px 2px;
+    }    
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper{
+        gap: 0 30px;            
+        flex-wrap: wrap;
+    }
+    
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox cite{
+        margin: 8px 0 0;
+        font-size: 18px;
+    }
+    .customConsumerPage .custConsumerProposalWraper .feedbackBox .starRatings{
+        margin: 0 0 16px;
+        position: relative;
+        right: auto;
+        bottom: auto;
+    }
+    .customConsumerPage .custHeroSection{
+        padding: 38px 0 30px;
+        background: #F1F1F2;
+    }
+    .customConsumerPage .custBookBanner{
+        margin: 30px 0 0;
+    }
+    .customConsumerPage .custAdvProposalSection h3{
+        margin: 0 0 30px;
+    }
+    .customConsumerPage .custAdvProposalSection .advtBox{
+        margin: 0 0 8px;
+    }
+    .customConsumerPage .custAdvProposalSection .advtBox.big{
+        margin: 30px 0 0;
+    }
+    .customConsumerPage .custAdvProposalSection .advtBox.big p{
+        font-size: 20px;
+        line-height: 28px;
+        text-align: left;
+        font-weight: 600;
+    }
+    .customConsumerPage .custAdvProposalSection .advtBox.big p:after {
+        top: 7px;
+    }
+    .customConsumerPage .debtFreeSection .graphBox h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox h4{
+        margin-top: 36px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth h4{
+        font-size: 21px;
+        line-height: 29px;
+    }
+    .customConsumerPage .custConsumerProposal .row .col-12 .proposalBox.trusty.fullwidth{
+        margin: 30px 0 0;
+    }
+    .customConsumerPage .custCreditorSection{
+        padding: 60px 0;
+    }
+    .customConsumerPage .custCreditorSection .whiteBox{
+        padding: 40px 15px;
+    }
+    .customConsumerPage .custCreditorSection .whiteBox p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .customConsumerPage .custCreditorSection .whiteBox h2{
+        margin: 0 0 15px;
+    }
+}
+@media(max-width: 580px){
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper{
+        flex-direction: column;
+    }    
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn.outline,
+    .customConsumerPage .custBookBanner .innerWraper .bookBtnWraper a.btn.fill{
+        width: 100%;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper{
+        flex-direction: column;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper>a.btn{
+        width: 100%;
+        text-align: center;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper .reviews{
+        margin-right: auto;
+    }
+    .customConsumerPage .custDebtButtonSection_sp .custBtnWraper a.btn:last-child {
+        margin: 0;
+    }
+    .customConsumerPage .custHeroSection .col-6 img.img-fluid {
+        margin: 0 -15px 15px;
+        width: calc(100% + 30px);
+        max-width: calc(100% + 30px);
+    }
+}
+@media(max-width: 480px){    
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox{
+        padding: 15px;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox .helpBoxWraper .row .helpBox .helpTitle{        
+        margin: 0 0 5px;
+    }
+    .customConsumerPage .debtFreeSection .repaymentBox .btnWraper a {
+        padding: 16px 5px;
+        width: 100%;
+    }
+}
+@media(max-width: 390px){
+    
+}

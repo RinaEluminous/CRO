@@ -1,0 +1,1190 @@
+    .page--landing-page #content-wrapper main article.landing-page .node__content #tile-2451,
+    .page--landing-page #content-wrapper main article.landing-page .node__content #tile-2453,
+    .page--landing-page #content-wrapper main article.landing-page .node__content #tile-5838,
+    .page--landing-page #content-wrapper main article.landing-page .node__content #tile-2455,
+    .page--landing-page #content-wrapper main article.landing-page .node__content #tile-2458,
+    .page--landing-page #content-wrapper main article.landing-page .node__content .landing-page__field-google-maps-location,
+    .page--landing-page #content-wrapper main + .below-content {
+        display: none;
+    }
+
+    .custDebtBodyWrapper {
+        margin-bottom: 0px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .custDebtSection_bd {
+        padding: 80px 0 24px;
+    }
+    .custDebtSection_bd .row{
+        display: flex;
+        align-items: center;
+    }
+
+    .custDebtSection_bd .col-6 {
+        flex: 0 0 50%;
+        padding: 0 15px;
+        position: relative;
+    }
+
+    .custDebtSection_bd h2 {
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 60px;
+        color: #26D07C;
+        margin: 0 0 16px;
+    }
+
+    .custDebtSection_bd p {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #0D1C14;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 20px;
+    }
+
+    .custFreeDebtWraper {
+        background: #F1F1F2;
+        padding: 60px 0;
+    }
+    .custFreeDebtWraper .row{
+        display: flex;
+    }
+    .custFreeDebtWraper .row .col-8{
+        flex: 0 0 60%;
+        padding: 0 15px;
+        position: relative;
+    }
+    .custFreeDebtWraper .row .col-4{
+        flex: 0 0 40%;
+        padding: 0 15px;
+        position: relative;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox {
+        background: #fff;
+        padding: 40px;
+        margin: 0 0 40px;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox h3 {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+        color: #000000;
+        margin: 0 0 15px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        letter-spacing: normal;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox p.custBigPara {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 15px;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox h5 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        margin: 0 0 8px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        letter-spacing: normal;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 20px;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox p:last-child {
+        margin: 0;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox p a {
+        color: #000;
+        text-decoration: underline;
+    }
+    .custFreeDebtWraper .col-8 .custLeftBox.location {
+        margin: 0;
+    }
+    .custFreeDebtWraper .col-8 .custMap {
+        font-size: 0;
+        margin: 0 0 40px;
+    }
+    .custFreeDebtWraper .col-8 .custMap iframe {
+        width: 100%;
+        height: 318px;
+    }
+    .custFreeDebtWraper .col-8 .custMap + .custLeftBox{
+        margin: 0;
+    }
+    .custFreeDebtWraper .col-8 .custMap + .custLeftBox h5 {
+        text-align: center;
+        margin: 0 0 15px;
+    }
+    .custFreeDebtWraper .col-8 .custMap + .custLeftBox ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .custFreeDebtWraper .col-8 .custMap + .custLeftBox ul li {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        padding-left: 24px;
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/green-tick-icon.svg) no-repeat 0 4px;
+        margin: 0 0 8px;
+        color: #000000;
+    }
+    .custFreeDebtWraper .col-8 .custMap + .custLeftBox ul li:last-child {
+        margin: 0;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox {
+        background: #fff;
+        padding: 15px;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox h3 {
+        color: #26D07C;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 8px;
+        letter-spacing: normal;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox h4 {
+        color: #000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: normal;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox p {
+        margin: 0 0 20px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox .custBtnWraper {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        margin: 0 0 20px;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox .custBtnWraper > a.btn {
+        margin: 0;
+        padding: 17px 10px;
+        font-size: 16px;
+        line-height: 16px;
+        border: 1px solid #26D07C;
+        border-radius: 5px;
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+        width: 50%;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox .custBtnWraper > a.btn.fill {
+        background: #26D07C;
+        color: #fff;
+    }
+    .custFreeDebtWraper .row .col-4 .custRightBox .custReliefSpecialist h4 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }
+
+    .custDebtGovnProgramWraper{
+        padding: 60px 0;
+    }
+    .custDebtGovnProgramWraper .row {
+        display: flex;
+    }
+    .custDebtGovnProgramWraper .row .col-8 {
+        flex: 0 0 60%;
+        padding: 0 15px;
+        position: relative;
+    }
+    .custDebtGovnProgramWraper .row .col-4 {
+        flex: 0 0 40%;
+        padding: 0 15px;
+        position: relative;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox {
+        background: #F1F1F2;
+        padding: 16px;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000000;
+        margin: 0 0 40px;
+    }
+
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+        margin: 0;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper > a.btn {
+        margin: 0;
+        padding: 17px 10px;
+        font-size: 16px;
+        line-height: 16px;
+        border: 1px solid #26D07C;
+        border-radius: 5px;
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+        width: 50%;
+        background: #fff;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper a.btn.outline:hover {
+        color: #22ba6f;
+        border-color: #22ba6f;
+    }
+    .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper > a.btn.fill {
+        background: #26D07C;
+        color: #fff;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox {
+        margin: 0 0 48px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox:last-child {
+        margin: 0 0 0;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox h3 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        color: #000000;
+        margin: 0 0 8px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox h3 span {
+        color: #26D07C;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+        margin: 0;
+    }
+    .custDebtGovnProgramWraper .row .col-8 div.img {
+        margin: 0 0 48px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .custTabBox {
+        margin: 0 0 32px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .custTabBox h5 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        color: #53565A;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .custTabBox h5:before {
+        content: '';
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/green-plus-icon.svg) no-repeat center center;
+        width: 10px;
+        height: 22px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #000;
+        margin: 0;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox {
+        background: #E9FAF2;
+        padding: 24px 32px;
+        margin: 24px 0 0;
+        display: block;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #000;
+        margin: 0 0 10px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 0 0 10px;
+    }
+    .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox a.custLearnMoreBtn {
+        display: inline-block;
+        padding: 10px 14px;
+        border: 1px solid #26D07C;
+        border-radius: 5px;
+        background: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 16px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+    .custMemberWraper {
+        background: #53565A;
+        padding: 60px 0;
+    }
+    .custMemberWraper .row {
+        display: flex;
+    }
+    .custMemberWraper .row .col-7 {
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 15px;
+    }
+    .custMemberWraper .row .col-7 h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 16px;
+        letter-spacing: normal;
+    }
+    .custMemberWraper .row .col-7 p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        margin: 0 0 16px;
+    }
+    .custMemberWraper .row .col-7 a.btn {
+        margin: 0;
+        padding: 16px 14px;
+        font-size: 18px;
+        line-height: 18px;
+        border: 1px solid #26D07C;
+        border-radius: 5px;
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+        background: #26D07C;
+        color: #ffff;
+        text-transform: capitalize;
+    }
+    .custMemberWraper .row .col-5 {
+        flex: 0 0 50%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        padding: 0 15px;
+    }
+
+
+    .custDebtButtonSection_sp .custBtnWraper > a.btn {
+        margin: 0;
+        padding: 16px 45px;
+        font-size: 18px;
+        line-height: 18px;   
+        border: 1px solid #26D07C; 
+        border-radius: 5px;    
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+        width: 50%;
+    }
+
+    .custDebtButtonSection_sp .custBtnWraper > a.btn.fill {
+        background: #26D07C;
+        color: #fff;
+    }
+    .custDebtButtonSection_sp .custBtnWraper > a.btn.outline {
+        background: #fff;
+        color: #26D07C;
+        font-weight: 500;
+    }
+
+    .custDebtButtonSection_sp .custBtnWraper {
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+    }
+
+    .custDebtButtonSection_sp .custBtnWraper .custReviews{
+        text-align: center;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+        margin: 0 0 16px;
+    }
+
+    .custDebtButtonSection_sp .custReviews a {
+        display: flex;
+        gap: 0 10px;
+    }
+
+    .custDebtButtonSection_sp .custReviews a:hover {
+        text-decoration: none;
+    }
+
+    .custDebtButtonSection_sp .custReviews a .googleIcon {
+        width: 16px;
+        flex: 0 0 16px;
+    }
+    .custDebtButtonSection_sp .custReviews a .reviewContent {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .custDebtButtonSection_sp .reviewsStarWraper .starsWraper {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+    .custDebtButtonSection_sp .reviewsStarWraper .starsWraper .starsCount {
+        color: #FA9428;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+    .custDebtButtonSection_sp .reviewsStarWraper .starsWraper .starsListing {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 0 1px;
+    }
+    .custDebtButtonSection_sp .reviewsStarWraper .starsWraper .starsListing span {
+        font-size: 0;
+        display: inline-block;
+    }
+
+    .custDebtButtonSection_sp .custReviews a .reviewContent .reviewsNumber {
+        font-weight: 400;
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.6);
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+
+    .custBookBanner_sp .col-12 {
+        padding: 0 15px;
+    }
+
+    .custBookBanner_sp {
+        padding: 0 15px;
+        margin: 60px 0 0;
+    }
+
+    .custBookBanner_sp .innerWraper {
+        background: #fff;
+        color: #000;
+        padding: 20px 30px;
+        width: 100%;
+        display: flex;
+        gap: 30px;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookContent h3 {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: normal;
+        margin: 0 0 8px;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookContent p {
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0 !important;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 15px;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill {
+        margin: 0;
+        padding: 15px 30px;
+        font-size: 18px;
+        line-height: 18px;
+        background: #26D07C;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline {
+        border: 1px solid #26D07C;
+        border-radius: 5px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+        color: #22ba6f;
+        border-color: #22ba6f;
+    }
+
+    .custDebtSection_bd img.img-fluid{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .custDebtSection_bd img.img-fluid {
+        max-width: 570px;
+        margin-left: 30px;
+        display: block;
+    }
+
+    .custFeedbackDebtSection {
+        background: #F1F1F2;
+        padding: 60px 0;
+    }
+
+    .custFeedbackDebtSection h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 56px;
+        color: #000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 40px;
+        letter-spacing: normal;
+    }
+
+    .custFeedbackDebtSection h3 span {
+        display: block;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 28px;
+        letter-spacing: normal;
+        margin: 8px auto 0;
+    }
+
+    .custFeedbackDebtSection .owl-carousel {
+        display: block;
+    }
+    .custFeedbackDebtSection .row{
+        display: flex;
+    }
+
+    .custFeedbackDebtSection .feedbackBox {
+        background: #fff;
+        padding: 25px 40px 55px;
+        height: 100%;
+    }
+
+    .custFeedbackDebtSection .feedbackBox .starRatings span {
+        font-size: 0;
+        display: block;
+    }
+
+    .custFeedbackDebtSection .feedbackBox .starRatings {
+        display: flex;
+        gap: 2px;
+        margin: 0 0 25px;
+    }
+
+    .custFeedbackDebtSection .feedbackBox .quotes {
+        font-weight: 500;
+        font-size: 20px;
+        color: #000000;
+        line-height: 28px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    }
+
+    .custFeedbackDebtSection .feedbackBox cite {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-style: normal;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 25px 0 0;
+        display: block;
+        color: #000;
+    }
+
+    .custFeedbackDebtSection .videoBox iframe {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .custFeedbackDebtSection .videoBox {
+        position: relative;
+        font-size: 0;
+        box-shadow: 20px -20px 0px #26d07c;
+        margin: 0px 20px 0 0;
+    }
+
+
+    .awardWinningDebtSection {
+        padding: 60px 0;
+        background: #F1F1F2;
+    }
+    .awardWinningDebtSection .row {
+        display: flex;
+    }
+    .awardWinningDebtSection h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 56px;
+        color: #000;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 40px;
+    }
+
+    .awardWinningDebtSection .whiteBox {
+        background: #fff;
+        box-shadow: 20px -20px 0px #26D07C;
+        padding: 38px;
+        height: 100%;
+    }
+    .awardWinningDebtSection .whiteBox h5 {
+        font-weight: 700;
+        font-size: 18px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 8px;
+        line-height: 25px;
+        color: #000;
+    }
+
+    .awardWinningDebtSection .whiteBox p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 25px;
+        color: #000;
+    }
+
+    .awardWinningDebtSection .whiteBox .btnWrap a.btn.fill {
+        margin: 0;
+        padding: 15px 30px;
+        font-size: 18px;
+        line-height: 18px;
+        background: #26D07C;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 600;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        display: inline-block;
+    }
+
+    .awardWinningDebtSection .col-sm-6 {
+        padding: 0 20px;
+    }
+
+    .awardWinningDebtSection .row {
+        margin: 0 -20px;
+    }
+    .awardWinningDebtSection .whiteBox p a {
+        color: #000;
+        text-decoration: underline;
+    }
+    .awardWinningDebtSection .whiteBox ul {
+        padding: 0;
+        list-style: none;
+        margin: 0 0 25px;
+    }
+    .awardWinningDebtSection .whiteBox li {
+        font-weight: 400;
+        font-size: 18px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        line-height: 25px;
+        position: relative;
+        padding-left: 30px;
+        color: #000;
+    }
+    .awardWinningDebtSection .whiteBox li:before {
+        content: '';
+        display: block;
+        width: 5px;
+        height: 5px;
+        background: #000;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        border-radius: 5px;
+    }
+
+
+    .custFreeConsultationDebtWraper {
+        padding: 60px 0;
+    }
+
+    .custFreeConsultationDebtWraper .custBookBanner_sp {
+        margin: 0;
+        padding: 0 15px;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper{
+        background: #F1F1F2;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper .custBookContent h3{
+        font-size: 24px;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper .custBookContent p{
+        line-height: 21px;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+        padding: 15px 14px;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline{
+        background: #fff;
+        padding: 12px 18.5px;
+    }
+    .custFreeConsultationDebtWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+        color: #22ba6f;
+        border-color: #22ba6f;
+    }
+
+    .custFeedbackDebtSection .swiper.custFeedbackDebtSection {
+        margin-left: -60px;
+        margin-right: -60px;
+        padding: 20px 60px 40px;
+        margin-top: -20px;
+    }
+    .custFeedbackDebtSection .swiper.custFeedbackDebtSection .swiper-pagination{
+        bottom: -5px;
+    }
+    .custFeedbackDebtSection .swiper.custFeedbackDebtSection .swiper-pagination .swiper-pagination-bullet-active{
+        background: #26D07C;
+    }
+    .custFeedbackDebtSection .swiper-button-next, 
+    .custFeedbackDebtSection .swiper-button-prev{
+        width: 40px;
+        height: 40px;
+        background: #fff;
+        border-radius: 40px;
+    }
+    .custFeedbackDebtSection .swiper-button-next:after, 
+    .custFeedbackDebtSection .swiper-button-prev:after {
+        font-size: 18px;
+        color: #000;
+        font-weight: 600;
+    }
+
+    @media(max-width: 1199px){
+        .custDebtSection_bd h2{
+            font-size: 46px;
+            line-height: 50px;
+        }
+        .custDebtSection_bd p{
+            font-size: 18px;
+            line-height: 24px;
+            margin: 0 0 20px;
+        }
+        .custDebtButtonSection_sp .custBtnWraper>a.btn{
+            padding: 15px 20px;
+        } 
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px){
+        .custFeedbackDebtSection .feedbackBox .quotes{
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .custFeedbackDebtSection .feedbackBox .starRatings{
+            margin: 0 0 15px;
+        }
+        .custFeedbackDebtSection .feedbackBox cite{
+            font-size: 16px;
+            margin: 15px 0 0;
+        }
+        
+        .custFeedbackDebtSection .swiper.custFeedbackDebtSection{
+            margin-left: 0;
+            margin-right: 0;
+            padding: 20px 0px 60px;
+        }
+        .custFeedbackDebtSection .swiper-button-next, 
+        .custFeedbackDebtSection .swiper-button-prev{
+            top: auto;
+            margin: 0;
+            bottom: 0;
+        }
+        .custFeedbackDebtSection .swiper-button-next {
+            right: 50%;
+            margin-right: -50px;
+        }
+        .custFeedbackDebtSection .swiper-button-prev {
+            left: 50%;
+            margin-left: -50px;
+        } 
+        .custFeedbackDebtSection .swiper.custFeedbackDebtSection .swiper-pagination{
+            display: none;
+        }
+    }
+
+    @media(max-width: 991px){
+        .custDebtSection_bd {
+            padding: 75px 0 15px;
+        }
+        .custDebtButtonSection_sp .custBtnWraper .custReviews{
+            margin-right: auto;
+        }
+        .custDebtSection_bd .row {
+            flex-direction: column-reverse;
+        }
+        .custDebtSection_bd h2{
+            font-size: 38px;
+            line-height: 40px;
+            margin: 12px 0 15px;
+            letter-spacing: normal;
+        }
+        .custDebtSection_bd p{
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0 0 15px;
+        }
+        .custDebtButtonSection_sp .custBtnWraper{
+            gap: 0 10px;
+        }
+        .custDebtButtonSection_sp .custBtnWraper>a.btn{
+            padding: 15px 20px;
+            margin: 0 0 15px;
+        }
+        .custBookBanner_sp{
+            margin: 40px 0 0;
+        }
+        .custBookBanner_sp .innerWraper{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .custDebtSection_bd img.img-fluid{
+            max-width: 100%;
+            margin-left: 0;
+        }
+        
+        .awardWinningDebtSection .whiteBox .btnWrap a.btn{
+            white-space: normal;
+        }
+        .awardWinningDebtSection .whiteBox{
+            padding: 25px;
+        }
+        .custFeedbackDebtSection .feedbackBox{
+            padding: 25px 25px 55px;
+        }
+        .custFreeDebtWraper{
+            padding: 30px 0;
+        }
+        .custFreeDebtWraper .row{
+            flex-direction: column;
+        }
+        .custDebtButtonSection_sp .custBtnWraper>a.btn {
+            width: 100%;
+            text-align: center;
+        }
+        .custFreeDebtWraper .col-8 .custLeftBox{
+            padding: 15px;
+        }
+        .custFreeDebtWraper .col-8 .custLeftBox h3{
+            font-size: 28px;
+            line-height: 32px;
+        }
+        .custFreeDebtWraper .col-8 .custLeftBox p.custBigPara{
+            font-size: 18px;
+            line-height: 23px;
+        }
+        .custFreeDebtWraper .col-8 .custLeftBox{
+            margin: 0 0 15px;
+        }
+        .custFreeDebtWraper .col-8 .custMap{
+            margin: 0 0 15px;
+        }
+        .custFreeDebtWraper .col-8 .custMap + .custLeftBox h5{
+            text-align: left;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox{
+            margin: 15px 0 0;
+            box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox h3{
+            font-size: 24px;
+            line-height: 28px;
+            margin: 0 0 4px;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox h4{
+            font-size: 21px;
+            line-height: 24px;
+            letter-spacing: normal;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox p{
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox .custBtnWraper > a.btn{
+            width: 100%;
+            margin: 0;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 15px 14px;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox .custReliefSpecialist h4{
+            font-size: 15px;
+            margin: 0;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox .custReliefSpecialist p {
+            display: none;
+        }
+        .custDebtGovnProgramWraper{
+            padding: 40px 0;
+        }
+        .custDebtGovnProgramWraper .row{
+            flex-direction: column;
+        }
+        .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox h4,
+        .custDebtGovnProgramWraper .row .col-8 .textBox h3{
+            letter-spacing: normal;
+        }
+        .custDebtGovnProgramWraper .row .col-8 .textBox .greenBox:last-child{
+            margin-bottom: 24px;
+        }
+        .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper > a.btn{
+            width: 100%;
+            text-transform: uppercase;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 15px 10px;
+        }
+        .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox h4{
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: normal;
+        }
+        .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox p{
+            font-size: 16px;
+            line-height: 21px;
+            margin: 0 0 15px;
+        }
+        .custMemberWraper{
+            padding: 15px 0;
+        }
+        .awardWinningDebtSection h3{
+            font-size: 24px;
+            line-height: 29px;
+        }
+        .custFeedbackDebtSection,
+        .awardWinningDebtSection{
+            padding: 40px 0;
+        }
+        .custFreeConsultationDebtWraper{
+            padding: 25px 0;
+        }
+        .custMemberWraper .row .col-5{
+            flex: 0 0 35%;
+        }
+        .custDebtSection_bd .col-6{
+            width: 100%;
+            flex: 0 0 100%;
+        }
+    }
+    @media(max-width: 767px){
+        .custDebtBodyWrapper {
+            margin-bottom: -40px;
+        }
+        .custDebtSection_bd h2{
+            margin: 12px 0 15px;
+            font-size: 48px;
+            line-height: 50px;
+        }
+        .custDebtSection_bd p{
+            font-size: 21px;
+            line-height: 32px;
+        }
+        .custDebtButtonSection_sp .custBtnWraper{
+            gap: 0 30px;            
+            flex-wrap: wrap;
+        }
+        .custBookBanner_sp .innerWraper{
+            padding: 15px;
+        }
+        .custBookBanner_sp .innerWraper .custBookContent h3{
+            font-size: 24px;
+            line-height: 32px;
+            margin: 0 0 5px;
+        }
+        .custBookBanner_sp .innerWraper .custBookContent p{
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+            gap: 0 30px;
+        }
+        .custFeedbackDebtSection{
+            padding: 30px 0;
+        }
+        .custFeedbackDebtSection h3{
+            font-size: 30px;
+            line-height: 31px;
+            margin: 0 0 50px;
+        }
+        .custFeedbackDebtSection h3 span{
+            font-size: 20px;
+            line-height: 24px;
+        }
+        .custFeedbackDebtSection .row{
+            flex-direction: column-reverse;
+        }
+        .custFeedbackDebtSection .videoBox{
+            width: calc(100% - 20px);
+            margin: 0 0 15px;
+        }
+        .custFeedbackDebtSection .feedbackBox{
+            padding: 15px;
+            margin: 0 0 30px;
+            position: relative;
+        }
+        .custFeedbackDebtSection .feedbackBox .quotes{
+            font-size: 16px;
+            line-height: 22px;
+        }
+        .custFeedbackDebtSection .feedbackBox cite{
+            margin: 8px 0 0;
+            font-size: 16px;
+        }
+        .custFeedbackDebtSection .feedbackBox .starRatings{
+            margin: 0;
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+        }
+        .custFeedbackDebtSection .swiper.custFeedbackDebtSection{
+            margin-left: 0;
+            margin-right: 0;
+            padding: 20px 0px 40px;
+        }
+        .custFeedbackDebtSection .swiper-button-next, 
+        .custFeedbackDebtSection .swiper-button-prev{
+            top: auto;
+            margin: 0;
+            bottom: 0;
+        }
+        .custFeedbackDebtSection .swiper-button-next {
+            right: 50%;
+            margin-right: -50px;
+        }
+        .custFeedbackDebtSection .swiper-button-prev {
+            left: 50%;
+            margin-left: -50px;
+        }
+        .custFeedbackDebtSection .swiper.custFeedbackDebtSection .swiper-pagination{
+            display: none;
+        }
+        .awardWinningDebtSection{
+            padding: 40px 0;
+        }    
+        .awardWinningDebtSection h3{
+            font-size: 28px;
+            line-height: 29px;
+            margin: 0 0 50px;
+        }
+        .awardWinningDebtSection .whiteBox p{
+            font-size: 16px;
+            line-height: 22px;
+            margin: 0 0 16px;
+        }
+        .awardWinningDebtSection .whiteBox{
+            padding: 15px;
+            margin: 0;
+            width: calc(100% - 20px);
+        }
+        .awardWinningDebtSection .row .col-sm-6:first-child .whiteBox{
+            margin: 0 0 50px;
+        }
+        .awardWinningDebtSection .whiteBox .btnWrap a.btn.fill{
+            padding: 15px 5px;
+            width: 100%;
+        }
+        .awardWinningDebtSection .whiteBox p a{
+            font-size: 18px;
+            line-height: 25px;
+        }
+        .awardWinningDebtSection .row .col-sm-6:last-child .greyBox{
+            margin: 0;
+        }
+        .custFreeConsultationDebtWraper {
+            padding: 30px 0 40px;
+        }
+        .awardWinningDebtSection .row{
+            flex-direction: column;
+        }
+        .awardWinningDebtSection .col-sm-6{
+            flex: 0 0 100%;
+        }
+        .awardWinningDebtSection .whiteBox li{
+            font-size: 16px;
+            line-height: 22px;
+            padding-left: 25px;
+        }
+        .awardWinningDebtSection .whiteBox li:before{
+            width: 4px;
+            height: 4px;
+            left: 8px;
+        }
+        .custMemberWraper .row{
+            flex-direction: column-reverse;
+        }
+        .custMemberWraper .row .col-5 .memberImg {
+            margin: 0 0 24px;
+        }
+        .custMemberWraper .row .col-7 a.btn{
+            padding: 15px 14px;
+        }
+        .custDebtGovnProgramWraper .row .col-4 .custDebtReliefProgramBox .custBtnWraper{
+            flex-direction: column;
+            gap: 10px 0;
+        }
+        .custFreeDebtWraper .row .col-4 .custRightBox .custBtnWraper{
+            flex-direction: column;
+            margin: 0 0 15px;
+            gap: 10px 0;
+        }
+    }
+    @media(max-width: 580px){
+        .custBookBanner_sp .innerWraper .custBookBtnWrapper,
+        .custDebtButtonSection_sp .custBtnWraper{
+            flex-direction: column;
+        }
+        .custDebtButtonSection_sp .custBtnWraper>a.btn{
+            width: 100%;
+            text-align: center;
+        }
+        .custDebtButtonSection_sp .custBtnWraper .reviews{
+            margin-right: auto;
+        }
+        .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+            gap: 20px;
+            flex-direction: column;
+            width: 100%;
+        }
+        .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline,
+        .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+            width: 100%;
+        }
+    }

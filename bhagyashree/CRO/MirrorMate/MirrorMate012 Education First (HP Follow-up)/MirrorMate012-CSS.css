@@ -1,0 +1,1676 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+.custMirrorMateHtmlSection  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custMostPopulerColorSlider{
+    display: none;
+ }
+
+.custLeftBannerContent,
+.custRightBannerImg {
+    width: 50%;
+}
+
+.custMirrorMateHtmlSection  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.custLeftBannerContent ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.custLeftBannerContent ul li {
+    flex: 0 0 33.33%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    display: flex;
+    align-items: center;
+}
+
+.custLeftBannerContent {
+    padding-top: 40px;
+    padding-right: 40px;
+    width: calc(100% - 640px);
+}
+
+.custLeftBannerContent ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.custLeftBannerContent ul li span {
+    margin-left: 9px;
+}
+
+.custReviewContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #6E6E6E;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custColorFrameBoxWrapper a {
+    text-decoration: none;
+}
+
+.custReviewContent img {
+    opacity: 1;
+    margin-right: 6px;
+}
+
+.custLeftBannerContent h3 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    color: #2F2F2F;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.custLeftBannerContent p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2F2F2F;
+    letter-spacing: -0.02em;
+    max-width: 84%;
+    margin-bottom: 26px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+a.customBlueButton {
+    display: flex;
+    background: #3E5569;
+    border-radius: 100px;
+    width: 283px;
+    height: 48px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.custLeftBannerContent a.customBlueButton {
+    margin-bottom: 50px;
+}
+
+.custRightBannerImg img {
+    width: 100%;
+    max-width: 640px;
+}
+
+.custBannerReviewQuotes {
+    position: absolute;
+    bottom: 57px;
+    left: 10px;
+    width: calc(100% - 20px);
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 99;
+}
+
+.custRightBannerImg {
+    position: relative;
+    text-align: right;
+    max-width: 640px;
+}
+
+.custBannerReviewQuotes span {
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-style: italic;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custBannerReviewQuotes ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    line-height: 1;
+    padding: 0 10px;
+}
+
+.custBannerReviewQuotes ul img {
+    height: 20px;
+    width: auto;
+}
+
+.custBannerReviewQuotes ul small {
+    color: #8699A7;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif !important;
+    line-height: 18px;
+}
+
+.custBannerReviewQuotes ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custAsSeenLogosBlock {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custAsSeenLogosBlock ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custAsSeenLogosBlock ul li img {
+    width: auto;
+    height: 80px;
+}
+
+.custWorksOnAnyMirror ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.custWorksOnAnyMirror h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custWorksOnAnyMirror ul li h4 {
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    margin: 16px 0 0 0;
+}
+
+.custWorksOnAnyMirror {
+    padding: 40px 0;
+}
+
+.custMostPopulerColor {
+    text-align: center;
+    background: #F2F6FF;
+    padding: 40px 0 40px 40px;
+}
+
+.custCommonHeading h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 10px;
+}
+
+.custCommonHeading p {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    color: #222528;
+    font-family: 'Inter', sans-serif !important;
+    margin: 0 0 40px 0;
+}
+
+.custSlickSliderWrapper .slick-slide {
+    height: 100%;
+}
+
+.custColorFrameBoxWrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(35, 78, 166, 0.02);
+    border-radius: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.custColorFrameBoxWrapper h5 {
+    padding: 10px 0;
+    margin: 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custColorFrameBoxWrapper img {
+    height: auto;
+    width: 100%;
+}
+
+.custSlickColorSlider a.customBlueButton {
+    margin: 40px auto 0 auto;
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #B1D4E0;
+    border-radius: 42px;
+    background: #FFFFFF;
+    top: calc(50% - 30px);
+    transform: translateY(-50%);
+    position: absolute;
+    text-indent: -1000000px;
+}
+
+button.slick-prev.slick-arrow {
+    left: -10px;
+    z-index: 1;
+}
+
+button.slick-next.slick-arrow {
+    right: 40px;
+}
+
+button.slick-prev.slick-arrow::after,
+button.slick-next.slick-arrow::after {
+    content: "";
+    text-indent: 0;
+    position: absolute;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+    left: 0;
+}
+
+button.slick-next.slick-arrow::after {
+    transform: rotate(180deg);
+    top: -3px;
+    left: -2px;
+}
+
+.custReviewRatingStars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custFramesSoldBlock {
+    padding: 40px;
+}
+
+.custReviewRatingStars div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custReviewRatingStars h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custReviewRatingStars div span {
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+.custClientReviewSlider .custReviewWrapper {
+    background: #f2f6ff;
+    display: flex;
+    align-items: center;
+    margin: 0 13px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custClientReviewSlider .slick-slide {
+    height: auto;
+}
+
+.custClientReviewSlider .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custReviewWrapper * {
+    text-align: left;
+}
+
+.custReviewWrapper div {
+    padding: 15px;
+}
+
+.custReviewWrapper h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    margin: 10px 0 4px 0;
+}
+
+.custReviewWrapper p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.custReviewWrapper div div {
+    padding: 0;
+}
+
+.custReviewClientInfo {
+    font-weight: 500;
+    font-size: 12px;
+    color: #2F2F2F;
+}
+
+.custReviewClientInfo small {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    color: #8699A7;
+    display: block;
+}
+
+.custClientReviewSlider button.slick-next.slick-arrow {
+    right: -9px;
+}
+
+.custClientReviewSlider {
+    padding: 40px 0 0 0;
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+ul.slick-dots li button {
+    border: 0;
+    font-size: 0;
+    background: #B1D4E0;
+    border-radius: 100px;
+    max-width: 100%;
+    height: 8px;
+    padding: 0;
+    width: 8px;
+}
+
+ul.slick-dots li {
+    flex: 0 0 8px;
+    margin: 0 5px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    max-width: 8px;
+}
+
+li.slick-active button {
+    background: #3E5569 !important;
+}
+
+.custHowItsWorkVideoBlock .col-md-6 {
+    width: 50%;
+}
+
+.custHowItsWorkVideoBlock .row {
+    align-items: center;
+}
+
+
+.custHowItWorksVideoPopup {
+    position: relative;
+}
+
+.custHowItsWorkVideoBlock {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child {
+    padding-left: 80px;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child h2,
+.custHowItsWorkVideoBlock .col-md-6:last-child p {
+    text-align: left;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child p {
+    margin-bottom: 40px;
+}
+
+.custHowItsWorkVideoBlock ul {
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.custHowItsWorkVideoBlock ul li {
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custHowItsWorkVideoBlock ul li::before {
+    content: "1";
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #8699A7;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.custHowItsWorkVideoBlock ul li:nth-child(2)::before {
+    content: "2";
+}
+
+.custHowItsWorkVideoBlock ul li:nth-child(3)::before {
+    content: "3";
+}
+
+.custHowItsWorkVideoBlock ul li:last-child {
+    padding-bottom: 0;
+}
+
+.custGuaranteeWrapperBlock {
+    background: #F2F6FF;
+    padding: 40px;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    max-width: calc(1440px - 80px);
+}
+
+.custGuaranteeTitle {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul {
+    display: flex;
+    align-items: center;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul li {
+    margin-left: 96px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custGuaranteeTitle img {
+    margin-right: 10px;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul li img {
+    margin-right: 5px;
+}
+
+.custVideoBlock iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.custVideoBlock {
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 97%;
+    z-index: 1;
+}
+
+.custMainVideoBlock button.slick-next.slick-arrow {
+    right: -13px;
+}
+
+.custRealCustomersSection ul.slick-dots {
+    display: none;
+}
+
+.custRealCustomersSection a.customBlueButton {
+    margin: 40px auto 0 auto;
+}
+
+.custMainVideoBlock {
+    margin-top: 40px;
+}
+
+.custRealCustomersSection {
+    padding-top: 40px;
+}
+
+div#shopify-section-1617688047012cdcce,
+div#shopify-section-1569604578394,
+div#shopify-section-1617688302e77dab54,
+div#shopify-section-1617688884153326c5,
+div#shopify-section-1617688939922723e1,
+div#shopify-section-1559827116471,
+div#shopify-section-1562836057404,
+div#shopify-section-1584459392797,
+div#shopify-section-1632835673f56a3a9d {
+    display: none;
+}
+
+div#shopify-section-sswinstagram h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+div#shopify-section-sswinstagram {
+    padding-top: 40px;
+}
+
+.ssw-instagram-load-more a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3E5569;
+    opacity: 1 !important;
+    font-family: 'Inter', sans-serif !important;
+    text-decoration: none;
+}
+
+.ssw-instagram-load-more a i {
+    display: none;
+}
+
+div#shopify-section-1617690624afb5eec3 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    text-align: left;
+    font-family: 'Inter', sans-serif !important;
+    margin: 0;
+}
+
+div#shopify-section-1617690624afb5eec3 .contain-full-width {
+    padding: 40px 15px 0 15px;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper:after {
+    width: calc(50% - 40px);
+    display: block;
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/mirror-frame-kits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom__item-richtext .content {
+    max-width: 100% !important;
+}
+
+div#shopify-section-1617690624afb5eec3 .custom-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.custom-content-container.align-left {
+    width: 50%;
+    padding: 38px 0;
+}
+
+.richtext a.customBlueButton {
+    margin-top: 40px;
+}
+
+div#shopify-section-1617690624afb5eec3 .richtext p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+div#shopify-section-1617690624afb5eec3 {
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+
+.custVideoBlock {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999999;
+    display: none;
+}
+
+.custVideoBlock.custOpenVideoPopup {
+    display: flex;
+}
+
+.custVideoBlock iframe {
+    width: 83vh;
+    height: 47vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.custIframeVideoMobileBlock {
+    display: none;
+}
+
+.custFramesSoldBlock button.slick-next.slick-arrow,
+.custFramesSoldBlock button.slick-prev.slick-arrow {
+    top: 50%;
+}
+
+.custSlickSliderWrapper .slick-list {
+    padding-left: 0 !important;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper:before {
+    content: "@alysonchaseinteriors";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 4px 12px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custHowItWorksVideoPopup iframe.wistia_embed {
+    width: 100%;
+    position: relative;
+    height: 730px;
+}
+
+.custHowItWorksVideoPopup::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #FFFFFF;
+    height: 60px;
+    width: 100%;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    position: relative;
+}
+
+.custHowItWorksVideoPopup::before {
+    content: "@briannabrowndesigns";
+    position: absolute;
+    right: 11.5%;
+    top: 85%;
+    padding: 4px 12px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    z-index: 9;
+}
+
+/*** image before after slider ****/
+.custRightBannerImg .container {
+    max-width: 100%;
+    padding: 0;
+}
+
+#custComparison {
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#custComparison figure {
+    position: absolute;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/chelsea-silver-streak-after.jpg);
+    background-size: cover;
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-position: center center;
+}
+
+#custDivisor {
+    position: absolute;
+    width: 50%;
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+    bottom: 0;
+    height: 100%;
+}
+
+#custDivisor::before,
+#custDivisor::after {
+    content: '';
+    position: absolute;
+    right: -2px;
+    width: 4px;
+    height: calc(50% - 25px);
+    background: white;
+    z-index: 3;
+}
+
+#custDivisor::before {
+    top: 0;
+    box-shadow: 0 -3px 8px 1px rgba(0, 0, 0, .3);
+}
+
+#custDivisor::after {
+    bottom: 0;
+    box-shadow: 0 3px 8px 1px rgba(0, 0, 0, .3);
+}
+
+#custHandle {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 1;
+}
+
+#custHandle::before,
+#custHandle::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border: 6px inset transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+}
+
+#custHandle::before {
+    border-right: 6px solid white;
+    left: 50%;
+    margin-left: -17px;
+}
+
+#custHandle::after {
+    border-left: 6px solid white;
+    right: 50%;
+    margin-right: -17px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
+    top: 50%;
+    left: -25px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    width: calc(100% + 50px);
+    z-index: 2;
+}
+
+input[type=range]:focus,
+input[type=range]:active {
+    border: none;
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: transparent;
+    border: 4px solid white;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, .3);
+}
+
+input[type=range]::-moz-range-track {
+    -moz-appearance: none;
+    height: 15px;
+    width: 100%;
+    background-color: transparent;
+    position: relative;
+    outline: none;
+}
+
+.custBtnContainer {
+    position: relative;
+    margin-top: 0;
+}
+
+.custBtnContainer button.btnAfter {
+    float: right;
+    position: absolute;
+    z-index: 4;
+    box-shadow: transparent 0px 2px 6px 0px;
+    line-height: 1.25;
+    cursor: pointer;
+    bottom: 12px;
+    right: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 6px 10px;
+    border: 0;
+}
+
+.custBtnContainer button {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.custBtnContainer button.btnBefore {
+    position: absolute;
+    z-index: 4;
+    line-height: 1.25;
+    cursor: pointer;
+    bottom: 12px;
+    left: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    padding: 6px 10px;
+    border: 0;
+}
+
+img.custBeforeImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: 0 50%;
+    object-position: 0 50%;
+    overflow: hidden;
+}
+
+.custBannerReviewQuotes span strong {
+    display: none;
+}
+
+
+/*media*/
+@media screen and (max-width: 1440px) {
+    .custReviewWrapper p {
+        padding-right: 0;
+    }
+
+    #shopify-section-sswinstagram .container {
+        padding: 0 40px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .contain-full-width {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .custGuaranteeWrapperBlock .custWhiteBg ul li {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .custRightBannerImg {
+        width: 50%;
+    }
+
+    .custLeftBannerContent {
+        width: 50%;
+    }
+
+    .custLeftBannerContent ul li span {
+        width: 100%;
+        display: block;
+        margin: 10px 0 0 0;
+    }
+
+    .custLeftBannerContent ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .custLeftBannerContent h3 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .custLeftBannerContent h3 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .custWorksOnAnyMirror h2,
+    .custCommonHeading h2,
+    .custCommonHeading h2,
+    .custReviewRatingStars h3,
+    .custCommonHeading h2,
+    .custGuaranteeTitle,
+    .custCommonHeading h2,
+    div#shopify-section-sswinstagram h2,
+    div#shopify-section-1617690624afb5eec3 h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+
+
+@media screen and (max-width: 860px) {
+    .custLeftBannerContent {
+        width: 100%;
+        padding: 0;
+    }
+
+    .custClientReviewSlider .slick-list {
+        padding-left: 0 !important;
+    }
+
+    .custLeftBannerContent ul {
+        background: #f2f6ff;
+        justify-content: center;
+        padding: 10px 15px;
+        margin-bottom: 30px;
+    }
+
+    .custMirrorMateHtmlSection  .container {
+        padding: 0;
+    }
+
+    .custLeftBannerContent ul li {
+        text-align: center;
+    }
+
+    .custReviewContent {
+        justify-content: center;
+    }
+
+    .custLeftBannerContent h3,
+    .custLeftBannerContent p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .custLeftBannerContent h3 {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .custLeftBannerContent p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        width: calc(100% - 30px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custLeftBannerContent a.customBlueButton {
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(100% - 30px);
+    }
+
+    .custLeftBannerContent a.customBlueButton+img {
+        display: none;
+    }
+
+    .custRightBannerImg {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .custRightBannerImg img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .custAsSeenLogosBlock ul li {
+        flex: 0 0 auto;
+    }
+
+    .custAsSeenLogosBlock ul li img {
+        text-align: center;
+        height: 50px;
+    }
+
+    .custAsSeenLogosBlock ul {
+        overflow-x: auto;
+        display: flex;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+
+    .custAsSeenLogosBlock {
+        padding: 0 0 0 15px;
+    }
+
+    .custWorksOnAnyMirror {
+        padding: 30px 15px;
+    }
+
+    .custWorksOnAnyMirror ul {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 0;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+
+    .custWorksOnAnyMirror ul li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .custWorksOnAnyMirror ul li {
+        width: calc(33.33% - 10px);
+    }
+
+    .custWorksOnAnyMirror ul li h4 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3E5569;
+    }
+
+    .custWorksOnAnyMirror ul li:first-child h2 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .custMostPopulerColor {
+        padding: 30px 15px;
+    }
+
+    button.slick-next.slick-arrow,
+    button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+
+    ul.slick-dots li button {
+        text-indent: -1000px;
+    }
+
+    .custWorksOnAnyMirror h2,
+    .custCommonHeading h2,
+    .custCommonHeading h2,
+    .custReviewRatingStars h3,
+    .custCommonHeading h2,
+    .custGuaranteeTitle,
+    .custCommonHeading h2,
+    div#shopify-section-sswinstagram h2,
+    div#shopify-section-1617690624afb5eec3 h1 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.02em;
+    }
+
+    .custCommonHeading p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .custCommonHeading h2 {
+        margin-bottom: 5px;
+    }
+
+    ul.slick-dots {
+        margin-top: 25px;
+    }
+
+    .custSlickColorSlider a.customBlueButton {
+        margin-top: 25px;
+    }
+
+    .custFramesSoldBlock.custCommonHeading {
+        padding: 30px 0;
+    }
+
+    .custFramesSoldBlock h2 {
+        margin-bottom: 25px;
+    }
+
+    .custClientReviewSlider {
+        padding-top: 30px;
+    }
+
+    .custHowItsWorkVideoBlock {
+        padding: 30px 15px;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6 {
+        width: 100%;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child {
+        padding: 0;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child h2,
+    .custHowItsWorkVideoBlock .col-md-6:last-child p {
+        text-align: center;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child p {
+        margin-bottom: 25px;
+    }
+
+    .custHowItsWorkVideoBlock ul {
+        padding-bottom: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .custHowItsWorkVideoBlock ul li {
+        flex: 0 0 33.33%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+        padding: 0 8px;
+    }
+
+    .custHowItsWorkVideoBlock ul li::before {
+        margin: 0 auto 13px auto;
+    }
+
+    .custHowItsWorkVideoBlock a.customBlueButton {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .custHowItWorksVideoPopup iframe.wistia_embed {
+        display: none;
+    }
+
+    .custIframeVideoMobileBlock {
+        display: block;
+        width: 100%;
+        position: relative;
+        object-fit: cover;
+        object-position: center;
+        padding-bottom: 131.25%;
+        margin-bottom: 25px;
+    }
+
+    .custIframeVideoMobileBlock iframe.wistia_embed {
+        left: 0;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .custLeftBannerContent ul li span {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .custClientReviewSlider .custReviewWrapper div * {
+        text-align: left;
+    }
+
+    .custReviewWrapper h5 {
+        display: none;
+    }
+
+    .custClientReviewSlider .custReviewWrapper p {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .custReviewClientInfo small {
+        display: none;
+    }
+
+    .custClientReviewSlider ul.slick-dots {
+        margin: 25px 30px 0 30px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .custGuaranteeWrapperBlock {
+        padding: 30px 15px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg {
+        flex-wrap: wrap;
+        padding: 20px 15px;
+        margin-bottom: 30px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .custGuaranteeTitle {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .custGuaranteeTitle img {
+        margin: 0 0 10px 0;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul li {
+        margin: 0 0 8px 0;
+        width: 100%;
+        padding: 0 70px;
+        padding: 0 10px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul li span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2F2F2F;
+    }
+
+    .custRealCustomersSection.custCommonHeading {
+        padding: 30px 0 0 0;
+    }
+
+    .custMainVideoBlock {
+        margin-top: 25px;
+    }
+
+    .custRealCustomersSection a.customBlueButton {
+        margin-top: 30px;
+    }
+
+    div#shopify-section-sswinstagram h2 {
+        margin-bottom: 30px;
+    }
+
+    .ssw-instagram-load-more {
+        margin-bottom: 30px !important;
+    }
+
+    .ssw-instagram-listing,
+    .ssw-instagram-grid {
+        margin-bottom: 30px !important;
+    }
+
+    #shopify-section-sswinstagram .container {
+        padding: 0 15px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .contain-full-width {
+        padding-top: 30px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .wrapper {
+        flex-wrap: wrap;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .wrapper:after {
+        width: 100%;
+        min-height: 250px;
+        background-size: cover;
+        order: 1;
+    }
+
+    .custom-content-container.align-left {
+        width: 100%;
+        order: 2;
+        padding: 25px 0 0 0;
+    }
+
+    a.customBlueButton {
+        width: 100%;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .richtext p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .richtext a.customBlueButton {
+        margin-top: 30px;
+    }
+
+    .custBannerReviewQuotes ul {
+        display: none;
+    }
+
+    .custBannerReviewQuotes span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        display: block;
+        text-align: left;
+    }
+
+    .custBannerReviewQuotes {
+        text-align: left;
+        bottom: 80px;
+    }
+
+    .custBtnContainer button.btnAfter {
+        width: 120px;
+        white-space: normal;
+        font-size: 14px !important;
+    }
+
+    .custRealCustomersSection ul.slick-dots {
+        display: flex !important;
+    }
+
+    .custIframeVideoMobileBlock::before {
+        content: "@briannabrowndesigns";
+        position: absolute;
+        right: 3%;
+        top: 82%;
+        padding: 4px 12px;
+        background: #FFFFFF;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        color: #3E5569;
+        font-family: 'Inter', sans-serif !important;
+        z-index: 9;
+    }
+
+    .custIframeVideoMobileBlock:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        background: #FFFFFF;
+        height: 70px;
+        width: 100%;
+    }
+
+    .custHowItWorksVideoPopup::before {
+        display: none;
+    }
+
+    .custIframeVideoMobileBlock {
+        margin-bottom: 0;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .wrapper:before {
+        bottom: auto;
+        top: 209px;
+    }
+
+    .custClientReviewSlider {
+        padding-left: 15px;
+    }
+
+    .custIframeVideoMobileBlock:after {
+        bottom: -1px;
+    }
+
+    .custBannerReviewQuotes span strong {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custClientReviewSlider .custReviewWrapper {
+        margin: 0 5px;
+        align-items: flex-start;
+    }
+
+    .custClientReviewSlider .custCommonHeading p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .custClientReviewSlider .custReviewWrapper div img {
+        height: 14px;
+    }
+
+    .custReviewWrapper div {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .custMainVideoBlock .slick-slide::after, .custMainVideoBlock .slick-slide::before {
+        content:"";
+        width: 40% ;
+        height: calc(100% - 25px);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999999;
+    }
+
+    .custMainVideoBlock .slick-slide {
+        position: relative;
+    }
+
+    .custMainVideoBlock .slick-slide::before {
+        right: 0;
+        left: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .custSlickSliderWrapper .slick-track {
+        display: flex;
+    }
+
+    .custColorFrameBoxWrapper {
+        height: 100%;
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .custColorFrameBoxWrapper h5 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        min-height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .custIframeVideoMobileBlock:after {
+        height: 45px;
+        bottom: -1px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .custIframeVideoMobileBlock:after {
+        height: 27px;
+    }
+}

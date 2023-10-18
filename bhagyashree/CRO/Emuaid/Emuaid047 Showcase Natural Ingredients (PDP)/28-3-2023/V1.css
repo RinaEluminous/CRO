@@ -1,0 +1,41 @@
+<style>
+.shopify-section--product-template.has-sidebar-option .product.product_section h1.product_name {
+  font-weight : 700;
+  line-height : 44px;
+}
+
+.shopify-section--product-template.has-sidebar-option .product.product_section .modal_price {
+  font-weight : 700;
+  color : rgb(0, 0, 0);
+}
+
+.shopify-section--product-template.has-sidebar-option .product.product_section .emuaid-payment-terms, .shopify-section--product-template.has-sidebar-option .product.product_section .description .shg-rich-text p {
+  color : rgb(0, 0, 0);
+  line-height : 26px;
+}
+@media (max-width: 798px) {
+  .shopify-section--product-template.has-sidebar-option .product.product_section h1.product_name {
+    line-height : 28px;
+    font-size : 24px;
+    margin : 0px 0px 12px 0px;
+  }
+
+ /* .shopify-section--product-template.has-sidebar-option .product.product_section .description {
+    clear : both;
+    margin : 0px;
+  }
+
+  .shopify-section--product-template.has-sidebar-option .product.product_section .modal_price {
+    float : left;
+    padding : 0px;
+    font-size : 24px;
+    line-height : 32px;
+    margin : 0px !important;
+  }
+
+  .shopify-section--product-template.has-sidebar-option .product.product_section .jdgm-widget.jdgm-widget {
+    float : right;
+    margin : 5px 0px 0px 0px;
+  }*/
+}
+</style>

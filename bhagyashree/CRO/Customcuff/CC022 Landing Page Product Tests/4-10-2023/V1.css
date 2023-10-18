@@ -1,0 +1,83 @@
+.custGallery {
+  width: 100%;
+  max-width: 620px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+.custGallery-Slider {
+  width: 100%;
+  height: auto;
+  margin: 0 0 10px 0;
+}
+.custGallery-Slider .swiper-slide {
+  width: auto;
+  height: 400px;
+}
+.custGallery-Slider .swiper-slide img {
+  display: block;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+.custGalleryThumbs {
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+.custGalleryThumbs .swiper-slide {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+  opacity: 0.1;
+}
+.custGalleryThumbs .swiper-slide-active {
+  opacity: 1;
+}
+.custGalleryThumbs .swiper-slide img {
+  width: auto;
+  height: 100%;
+}
+
+.custWrapperV1 #lp-pom-box-220,
+.custWrapperV1 #lp-pom-box-225,
+.custWrapperV1 #lp-pom-text-222 {
+    width: 550px;
+}
+
+.custWrapperV1 #lp-pom-text-221 p {
+    line-height: 44px;
+}
+
+.custWrapperV1 #lp-pom-text-221 p span {
+    font-size: 44px;
+}
+
+.custWrapperV1 #lp-pom-text-230 {
+    left: 26px;
+    width: 226px;
+}
+
+.custWrapperV1 #lp-pom-image-235 {
+    left: 289px;
+}
+
+.custWrapperV1 #lp-pom-image-248 {
+    left: 289px;
+}
+
+.custWrapperV1 #lp-pom-text-247 {
+    left: 315px;
+}
+
+.custWrapperV1 #lp-pom-text-234 {
+    left: 315px;
+}
+
+.custWrapperV1 .swiper-reviews-ingredients-desk .rev-ing-title-desk br{
+    display: none;
+}
+
+.custWrapperV1 .swiper-wrapper .swiper-slide {
+    margin-right: 10px !important;
+}

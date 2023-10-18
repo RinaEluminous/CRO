@@ -1,0 +1,1379 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  .custHpNewEmuaidConditionWrapper {width: 100%;}  
+  .custHpNewEmuaidConditionWrapper .container {max-width: calc(1440px - 160px);margin: 0 auto;justify-content: flex-start;width: 100%;}  
+  .custHpNewHeroBanner {
+      background-color: rgba(0, 105, 188, 0.2);
+      padding: 95px 0 95px 0;
+      background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/turn-hope-into-healing.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: auto 100%;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      min-height: 600px;
+  }  
+  .custHpNewEmuaidConditionWrapper h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: -0.03em;
+      color: #001489;
+  }  
+  .custHpNewHeroBanner p {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+      margin: 0;
+  }  
+  .custHpNewHeroBanner p em {font-weight: normal;  }  
+  .custHpNewBellowProducts ul {
+      padding: 0;
+      margin: 40px 0 0 0;
+      list-style: none;
+      display: flex;
+      gap: 16px;
+      width: 100%;
+  }
+    .custHpNewBellowProducts ul li {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      width: 50%;
+      margin-bottom: 0;
+  }
+.custHpNewBellowProducts ul li img {width: 100%;max-width: 100%;object-fit: cover;object-position: top;transform: scale(1.3);margin-top: -10px;}
+.custHpNewHeroBanner .row {max-width: 640px;margin: 0;}  
+span.custHpNewProdTag {
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 16px;
+      text-transform: uppercase;
+      background: #C4222E;
+      border-radius: 100px;
+      color: #FFFFFF;
+      padding: 2px 6px;
+  }  
+  .custHpNewFirstProdBlock h2 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #001489;
+      margin: 12px 0 10px 0;
+  }  
+  .custHpNewFirstProdBlock p {
+      font-weight: 400;
+      font-size: 13px;
+      color: #4C4C4C;
+      line-height: 16px;
+      margin: 0;
+  }  
+  .custHpNewFirstProdBlock {width: 100%;}  
+  .custHpNewProductCategories {width: 100%;margin-top: 10px;display: inline-block;}  
+  .custHpNewProductCategories .prod-condition {flex-wrap: nowrap;white-space: pre;overflow-x: scroll;}  
+  .custHpNewProductCategories .prod-condition::-webkit-scrollbar {width: 10px;background-color: #a9a9a900;border-radius: 100vh;}  
+  .custHpNewProductCategories .prod-condition::-webkit-scrollbar-thumb {background-color: #21212100;border-radius: 100vh;}  
+  .custHpNewProductCategories .prod-condition::-webkit-scrollbar-track {width: 10px;background-color: #a9a9a900;border-radius: 100vh;}
+  .custHpNewProductCategories .prod-condition span {
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    padding: 2px 4px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #4C4C4C;
+    border-radius: 999px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  a.customHpNewOrangeColorCTA {
+      width: 100%;
+      background: #E36018;
+      border-radius: 1000px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #FFFFFF !important;
+      text-align: center;
+      height: 40px;
+      padding: 8px 40px;
+      font-family: 'Inter', sans-serif;
+      display: inline-block;
+  }
+  
+  .custHpNewReviewStarRating {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #292B2D;
+    font-family: 'Inter', sans-serif;
+  }
+  .custHpNewReviewsFromUsers {padding: 40px 0;}
+  .custHpNewReviewStarRating div span {color: #e36018;padding-right: 0 !important;}  
+  .custHpNewReviewStarRating div {
+      margin-right: 8px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      color: #292B2D;
+      font-family: 'Inter', sans-serif;
+  }  
+  .custHpNewReviewsFromUsers h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #001489;
+      margin: 8px 0 32px 0;
+  }  
+  .custHpNewReviewsFromUsers ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(8, 1fr);
+      justify-content: center;
+  }  
+  .custHpNewReviewsFromUsers ul li img {width: 100%;transition: all 0.5s;}  
+  .custHpNewReviewsFromUsers ul li {
+      text-align: center;
+      width: 133px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #001489;
+      font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+      margin-bottom: 0;
+      transition: all 0.5s;
+  }  
+  .custHpNewReviewsFromUsers ul li span {margin-top: 16px;display: block;}  
+  .custHpNewReviewsFromUsers ul li:hover img {transform: scale(1.1);transition: all 0.5s;}  
+  .custHpNewReviewsFromUsers ul li:hover {cursor: pointer;}
+  a.custHpNewOrangeBtnOutline {
+    margin-top: 32px;
+    padding: 16px 32px;
+    background: #FFFFFF;
+    border: 1px solid #E36018;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 100px;
+    color: #E36018 !important;
+    max-width: 297px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custHpNewPhysiciansDermatologist .col-md-6 {width: 50%; height: 100%;}
+.custHpNewPhysiciansDermatologist .container {padding: 0;background: #F1F2F6;border-radius: 16px;overflow: hidden;}
+.custHpNewPhysiciansDermatologist {padding-top: 80px;padding-bottom: 80px;}
+.custHpNewPhysiciansDermatologist .col-md-6:first-child {padding-left: 80px;padding-top: 80px;padding-bottom: 80px;}
+.custHpNewPhysiciansDermatologist  h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #001489;
+    margin-bottom: 32px;
+    padding-left: 92px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0549/3181/6637/files/Versatile.png?v=1662096652);
+    background-repeat: no-repeat;
+    background-size: 80px 65px;
+    background-position: center left;
+}
+.custHpNewPhysiciansDermatologist p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #292B2D;
+    margin-bottom: 16px;
+    max-width: 560px;
+    width: 100%;
+        font-family: 'Inter', sans-serif;
+}
+.custHpNewPhysiciansDermatologist ul {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 42px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.custHpNewPhysiciansDermatologist ul li {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #000000;
+        font-family: 'Inter', sans-serif;
+}
+
+.custHpNewPhysiciansDermatologist ul li span {margin-left: 8px;}
+.custHpNewPhysiciansDermatologist a.customHpNewOrangeColorCTA {
+    height: 56px;
+    display: inline-block;
+    width: auto;
+    padding: 16px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.custHpNewPhysiciansDermatologist .row {margin-bottom: 0;}
+.custHpNewPhysiciansDermatologist .col-md-6 img {height: 100%;}
+.custHpNewPhysiciansDermatologist .col-md-6:last-child img {margin-top: 30px;margin-right: 20px;display: block;}
+.custHpNewNatureInspired {
+    background: #F2F7FA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/nature-inspired.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.custHpNewNatureInspired h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.custHpNewNatureInspired .row {
+    width: 560px;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.custHpNewNatureInspired p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 30px 0;
+}
+
+.custHpNewNatureInspired a.customHpNewOrangeColorCTA {
+    width: auto;
+    display: inline-block;
+    padding: 16px 80px;
+    height: auto;
+    background: #E36018;
+    border-radius: 1000px;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpNewWorldMostVersatileBlock h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpNewWorldMostVersatileBlock .container, .custHpNewWorldMostVersatileBlock .container .row {width: 100%;}
+
+.custHpNewMoneyBackGuaranteeBlock {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #F0F1F5 42.52%, rgba(240, 241, 245, 0) 47.97%), #f3f4f9;
+    height: 560px;
+}
+
+.custHpNewMoneyBackGuaranteeBlock .row {
+    max-width: 550px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.custHpNewMoneyBackGuaranteeBlock h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #001489;
+    margin-bottom: 24px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.custHpNewMoneyBackGuaranteeBlock h2::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/blue-tick.png);
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 12px;
+    flex: 0 0 32px;
+}
+.custHpNewMoneyBackGuaranteeBlock p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpNewMoneyBackGuaranteeBlock a {
+    padding: 16px 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpNewMoneyBackGuaranteeBlock .container {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/hp-money-back-guarantee.jpg);
+    background-size: cover;
+    height: 560px;
+    align-items: center;
+    background-position: -80px 0;
+}
+.custHpNewBellowProducts ul li:nth-child(2) span.custHpNewProdTag {
+    background: #2D469D;
+}
+.custHpNewWorldMostVersatileBlock div.swiper-container {
+    margin: 0 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    height: 100%;
+}
+.custHpNewProductSlider {
+    width: calc(100% - 260px);
+}
+
+.custHpNewSkinConditions {width: 240px;margin-right: 20px;}
+
+.custHpNewWorldMostVersatileBlock .container {
+    max-width: 1440px;
+    padding-left: 80px;
+}
+
+.custHpNewSkinConditions ul {
+    padding: 24px 12px 24px 12px;
+    list-style: none;
+    margin: 0;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custHpNewSkinConditions ul li span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+.custHpNewSkinConditions ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.custHpNewSkinConditions ul li img {
+    width: 32px;
+    height: 32px;
+    padding: 4px 3px;
+}
+.custHpNewProductSlider  h2.prod-title {
+    text-align: left;
+    font-style: normal;
+}
+.custHpNewWorldMostVersatileBlock h2.prod-title{
+text-align: left !important;
+    word-break: break-word;
+}
+.custHpNewWorldMostVersatileBlock a.customHpNewOrangeColorCTA {
+    display: inline-block;
+    width: auto;
+    margin: 30px auto 44px auto;
+    padding: 16px 40px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.custHpNewWorldMostVersatileBlock a.customHpNewOrangeColorCTA {
+    display: inline-block;
+    width: auto;
+    margin: 30px auto 44px auto;
+    padding: 16px 40px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+} 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(1), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(2), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(3), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(4), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(5),
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:last-child {
+    display: block;
+} 
+div#s-43e79b87-2a9b-413e-b5ff-8446ca95ec5c, div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper,
+ div#s-abb58b60-1273-4253-87df-f8d4ad7b09e3, div#s-e90f2667-94c4-4184-b9bb-1bf1d3110fd2, div#s-f8dd8b49-6bde-428a-afa9-bd3508613306,
+div#s-c1e24c9f-48c5-4644-8ad3-4d10494a2678, div#s-e27c19f5-1b9d-4194-9bdb-58d52a0d7e24, 
+.shogun-root .shg-fw, div#s-f7809628-220a-4d7c-bfda-f5037a913ed8, div#s-85111b22-dc66-41e3-b6ae-0971b6fcad30,
+div#s-6549e9d3-11b4-4ca9-a506-8b327ab7b90e, div#s-f7f039f3-1813-435a-90c2-391b313ad957,
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child, div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child + div, div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child + div + div, div#s-95ffc61e-9798-4ab7-b867-f69313ce7531{
+    display: none;
+}
+.bm-logo-section {
+    padding: 47px 80px !important;
+}
+.custHpNewNatureMobileImage {
+    display: none;
+}
+.custHpNewEmuaidTreatmentProdSlider { 
+    margin: 0 !important;
+    padding: 5px 0 !important;
+    overflow-x: hidden;
+}
+
+.custHpNewEmuaidTreatmentProdSlider .swiper-wrapper div a {
+    height: 100%;
+    display: block;
+}
+
+
+a.customHpNewOrangeColorCTA span {
+    color: #fff !important;
+    font-weight: 300 !important;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 2px;
+    top: 0;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+  img.custHpNewNatureImage {
+    width: 100%;
+}
+
+ .custHpNewNatureInspired {
+    position: relative;
+} 
+
+.custHpNewMaximumProductImg img {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custHpNewMaximumStrengthBannerProd {
+    display: flex;
+    padding: 8px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    flex: 0 0 50%;
+    align-items: flex-start;
+    margin: 0;
+    position: relative;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.custHpNewMaximumProductName span {
+    background: #C4222E;
+    border-radius: 100px;
+    padding: 2px 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custHpNewMaximumProductName h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #001489;
+    margin: 4px 0 0 0;
+}
+
+.custHpNewMaximumProductName{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 100px);
+    order: 1;
+}
+.custHpNewMaximumStrengthBannerProd a {
+background: #E36018;
+    border-radius: 1000px;
+    width: 100%;
+    height: 40px;
+    padding: 8px 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    order: 3;
+}
+.custHpNewMaximumStrengthBannerProd a small {font-weight: 300 !important;font-size: 16px;display: inline-block;margin-left: 2px;top: 0;font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;}
+.custHpNewMaximumProductImg {
+    height: 100px;
+    width: 100px;
+    order: 2;
+}
+.custHpNewMaximumStrengthBannerProd:last-child span {background: #2D469D;}
+.custHpNewNatureBannerInspired{
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    margin-top: 32px;
+}
+.custHpNewMaximumProductName p {
+     display: none; 
+}
+html body.bm-test-004 .bm-top-prod .prod-title sup {margin-right: 5px;}
+
+.custHpNewBellowProducts {
+    max-width: calc(1440px - 160px);
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.custHpNewMaximumStrength {
+    flex: 0 0 calc(100% - 200px);
+}
+
+.custHpNewProductsImage {
+    flex: 0 0 200px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.custHpNewHeroBanner::after {
+    content: "";
+    display: block;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/healing-bg-banner.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+}
+.select-dropdown select {
+    border: 0;
+    border-radius: 200px;
+    background: #CCE1F2;
+    margin: 0;
+    padding: 0;
+}
+
+.custHpNewRightEmuaidProduct {border-radius: 16px;background: #FFF;padding: 24px;margin-top: 32px;width: 100%;max-width: 577px;}
+
+.custHpNewRightEmuaidProduct p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custHpNewFindEmuaid {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.custHpNewSelectDropdown .custHpNewDropMenu  {
+    margin: 0 0 0 0;
+    border: 0;
+    border-radius: 200px;
+    background-color: #CCE1F2;
+    padding: 4px 12px 4px 8px;
+    width: 270px;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #292B2D;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/down-arrow-black.png);
+    background-size: 14px 8px;
+    background-repeat: no-repeat;
+    background-position: 95% 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.custHpNewFindEmuaid h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #292B2D;
+    margin: 0 0 0 0;
+}
+
+.custHpNewSelectDropdown .custHpNewConditionDropdown li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.custHpNewFindEmuaid button.custHpNewOrangeBtnOutline {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 25px;
+    border-radius: 100px;
+    font-family: Helvetica;
+}
+
+html body.bm-test-004 .bm-top-prod .bm-most-popular {
+    background-color: #C4222E !important;
+}
+
+html body.bm-test-004 .bm-top-prod .bm-most-popular + .bm-prod {
+    border: 2px solid #C4222E !important;
+}
+div#s-32c07fd3-99ac-4226-8322-758112b26a27 {
+    padding: 0 !important;
+    gap: 0 !important;
+    min-height: auto;
+}
+ul.custHpNewConditionDropdown {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 9;
+    padding: 0 8px !important;
+    max-width: 270px;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custHpNewDropMenuActive + ul.custHpNewConditionDropdown {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+ul.custHpNewConditionDropdown::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 0%);
+    background-color: #f5f5f500;
+}
+ul.custHpNewConditionDropdown::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f5f5f500;
+}
+ul.custHpNewConditionDropdown::-webkit-scrollbar-thumb{
+    background-color: #00000000;
+    border: 2px solid #55555500;
+}
+ul.custHpNewConditionDropdown li:first-child {
+    margin-top: 4px;
+}
+
+ul.custHpNewConditionDropdown li:last-child {
+    margin-bottom: 4px;
+}
+
+html body.bm-test-004 .bm-top-prod .prod-condition > span{
+letter-spacing: -0.2px;
+}
+html body.bm-test-004 .bm-top-prod h2.prod-title {
+    letter-spacing: -0.6px !important;
+    font-size: 19px;
+}
+/*hide 73B experience*/
+.custHpReturnEmuaidConditionWrapper {
+    display: none;
+}
+/*media*/
+@media(min-width: 1200px) {
+.custHpNewEmuaidTreatmentProdSlider {
+    max-width: calc(100% - 260px) !important;     padding-left: 4px !important;
+}
+.custHpNewEmuaidTreatmentProdSlider div a .bm-prod {
+    height: 100% !important;
+}
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 {
+    max-width: 1300px;
+    margin-left: -12.5%;
+    min-width: 1300px;
+    width: 100%;
+    padding-top: 80px;
+}
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 * {
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.54px;
+    color: #4C4C4C !important;
+    font-family: 'Inter', sans-serif;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+.custHpNewSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+
+.custHpNewSkinConditions ul {
+    display: flex;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.custHpNewSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+.custHpNewSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+
+.custHpNewSkinConditions ul {
+    display: flex;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.custHpNewSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+a.customHpNewOrangeColorCTA {
+    font-size: 14px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.custHpNewPhysiciansDermatologist ul {
+    z-index: 99;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.custHpNewPhysiciansDermatologist .col-md-6:first-child {
+    padding-left: 30px;
+}
+
+.custHpNewHeroBanner {
+    background-image: none !important;
+    padding-top: 0 !important;
+}
+
+.custHpNewHeroBanner .custHpNewNatureMobileImage {
+    display: block;
+}
+
+.custHpNewHeroBanner .custHpNewNatureMobileImage img {
+    width: 100%;
+}
+/*bannermobile*/ 
+.custHpNewMaximumStrengthBannerProd {
+width: calc(50% - 16px);
+    justify-content: space-between;
+    margin: 0 8px;
+    flex: 0 0 calc(50% - 16px);
+    flex-wrap: wrap;
+}
+.custHpNewMaximumStrengthBannerProd a {
+        width: 100%;
+    padding: 8px 22px;
+    margin-top: 0;
+}
+.custHpNewMaximumProductName h3 {
+        font-size: 20px;
+    padding-right: 0;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.custHpNewMaximumProductName p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px; 
+    display: block;
+}
+}
+@media(min-width: 1366px) {
+.custHpNewProductSlider .bm-prod {height: 100% !important;}
+.custHpNewProductSlider .prod-img {max-width: 200px !important;bottom: 0 !important;right: 0 !important;}
+}
+@media(max-width: 1199px) {
+.custHpNewHeroBanner .row {padding-left: 30px;}
+.custHpNewEmuaidConditionWrapper h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+.custHpNewHeroBanner p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.custHpNewFirstProdBlock p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+.custHpNewFirstProdBlock h2 {
+font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.custHpNewProductCategories .prod-condition span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+}
+.custHpNewBellowProducts ul {margin-top: 20px;}
+.custHpNewHeroBanner {padding: 60px 0;}
+.custHpNewReviewsFromUsers ul {
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 0;
+    margin-left: 20px;
+    padding-right: 30px;
+}
+.custHpNewReviewsFromUsers ul li {
+    max-width: 150px;
+    flex: 0 0 100%;
+    padding: 0 10px;
+} 
+.custHpNewMoneyBackGuaranteeBlock .row {padding-left: 30px;}
+.custHpNewPhysiciansDermatologist {padding-left: 15px;padding-right: 15px;}
+.custHpNewPhysiciansDermatologist .col-md-6:first-child {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.custHpNewEmuaidConditionWrapper .container {display: block;}
+.custHpNewMoneyBackGuaranteeBlock .container {
+    display: flex;
+    height: auto;
+    padding: 60px 0;
+    background-position: 60px 0;
+    background-repeat: no-repeat;
+}
+.custHpNewRightEmuaidProduct p{
+        font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+                         
+}
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 { 
+    padding-top: 50px;
+}
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 * {
+    font-size: 14px !important;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    color: #4C4C4C !important;
+    font-family: 'Inter', sans-serif;
+}
+#s-32c07fd3-99ac-4226-8322-758112b26a27 {
+    max-width: 100% !important;
+}
+}
+@media(max-width: 1024px) {
+.custHpNewNatureInspired {
+    padding-top: 50px;
+    background-position: left top;
+    background-size: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    background-image: none;
+}
+.custHpNewNatureInspired .row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custHpNewNatureInspired a.customHpNewOrangeColorCTA {
+    width: 100%;
+    max-width: 270px;
+} 
+.custHpNewHeroBanner {margin-top: 92px;}
+.custHpNewWorldMostVersatileBlock .container {padding-left: 30px;} 
+}
+@media(max-width: 991px) {
+.custHpNewWorldMostVersatileBlock .container {
+    padding: 0 15px;
+}
+html body.bm-test-004 .bm-logos>div {
+    margin: 0 6px !important;
+    flex: 0 0 auto;
+}
+.custHpNewNatureInspired img.custHpNewNatureMobileImage {
+    width: 100%;
+}
+.custHpNewEmuaidTreatmentProdSlider {
+    max-width: 100% !important;
+}
+body .custHpNewMaximumProductName p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    display: block;
+}
+}
+@media(max-width: 767px) {
+  .custHpNewWorldMostVersatileBlock .bm-most-popular{
+    border-radius: 10px 10px 0 0px !important;
+  } 
+.custHpNewHeroBanner {
+    background-image: none;
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+.custHpNewBellowProducts ul {
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.custHpNewBellowProducts ul li {
+    width: 100%;
+    position: relative;
+}
+
+.custHpNewHeroBanner .row {
+    padding: 0 15px;
+}
+
+.custHpNewNatureMobileImage {
+    display: block;
+}
+
+.custHpNewNatureMobileImage img {
+    width: 100%;
+}
+
+.custHpNewEmuaidConditionWrapper h1 {
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.custHpNewHeroBanner .custHpNewNatureMobileImage {
+    margin-bottom: 30px;
+}
+
+.custHpNewReviewsFromUsers {
+    padding: 30px 0;
+}
+
+.custHpNewReviewStarRating {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custHpNewReviewsFromUsers h2 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+a.custHpNewOrangeBtnOutline {
+    margin-top: 64px;
+}
+
+.custHpNewReviewsFromUsers .row {
+    margin: 0;
+}
+.custHpNewPhysiciansDermatologist {
+    padding: 0;
+}
+
+.custHpNewPhysiciansDermatologist .container {
+    border-radius: 0;
+}
+
+.custHpNewPhysiciansDermatologist .col-md-6:first-child {
+    order: 2;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.custHpNewPhysiciansDermatologist .col-md-6 {width: 100%;padding: 0 15px;}
+
+.custHpNewPhysiciansDermatologist .col-md-6:last-child img {
+    margin: 0 auto !important;
+    width: 100%;
+}
+
+.custHpNewPhysiciansDermatologist h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    background-image: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpNewPhysiciansDermatologist h2::before {
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0549/3181/6637/files/Versatile.png?v=1662096652);
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    flex: 0 0 56px;
+}
+
+.custHpNewPhysiciansDermatologist p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+}
+
+.custHpNewPhysiciansDermatologist ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.custHpNewPhysiciansDermatologist ul li span {width: 100%;    display: block;}
+.custHpNewPhysiciansDermatologist a.customHpNewOrangeColorCTA {width: 100%;}
+a.customHpNewOrangeColorCTA {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.custHpNewWorldMostVersatileBlock {
+    padding-top: 40px;
+}
+.custHpNewWorldMostVersatileBlock h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 23px;
+}
+.custHpNewSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+.custHpNewSkinConditions ul {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    overflow: scroll;
+    margin-bottom: 23px;
+}
+.custHpNewSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.custHpNewProductSlider {width: 100%;}
+.custHpNewWorldMostVersatileBlock div.swiper-container {max-width: 100% !important;}
+.custHpNewWorldMostVersatileBlock a.customHpNewOrangeColorCTA {
+    max-width: 236px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.custHpNewNatureInspired {padding-top: 0;}
+.custHpNewNatureInspired .custHpNewNatureMobileImage img {margin-left: -15px;}
+.custHpNewNatureInspired h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+}
+.custHpNewNatureInspired p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+img.custNatureDesktopImage {display: none;}
+.custHpNewNatureInspired a.customHpNewOrangeColorCTA {
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.custHpNewNatureInspired + .bm-logo-section {
+    padding: 0 !important;
+}
+.custHpNewNatureInspired + .bm-logo-section .bm-logo {
+    flex: 0 0 auto;
+    width: auto;
+}
+html body.bm-test-004 .bm-logos {
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+    padding: 20px 0;
+}
+.custHpNewNatureInspired + .bm-logo-section .bm-text {
+    width: auto;
+    flex: 0 0 auto;
+    margin-left: 10px !important;
+} 
+.custHpNewMoneyBackGuaranteeBlock .container {
+    padding: 0 0 30px 0;
+    max-width: 100% !important;
+    gap: 0;
+    background-image: none !important;
+}
+.custHpNewMoneyBackGuaranteeBlock .custHpNewNatureMobileImage, .custHpNewMoneyBackGuaranteeBlock .custHpNewNatureMobileImage img {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 375px;
+}
+.custHpNewMoneyBackGuaranteeBlock .row {padding: 0;max-width: 100%;margin-bottom: 0;}
+.custHpNewMoneyBackGuaranteeBlock {flex-wrap: wrap;padding: 0 15px;}
+.custHpNewMoneyBackGuaranteeBlock h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    align-items: self-start;
+}
+.custHpNewMoneyBackGuaranteeBlock p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.custHpNewMoneyBackGuaranteeBlock a {width: 100%;padding: 16px 15px;}
+.shogun-root {max-width: 100%;width: 100%;}
+
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e, div#s-c6b027fd-fd78-424d-8acf-37ada216367b, div#s-36c6e0c0-958f-49be-ba89-8d625c7ef7e1, div#s-7e6d1234-1b8b-40f1-b108-d53849b47a9e, div#s-4bebc414-cecb-443d-b559-6e5de006181e {width: 100%;max-width: 100% !important;}
+div#s-c6b027fd-fd78-424d-8acf-37ada216367b {padding: 0 15px;}
+/*banner mobile*/
+.custHpNewMaximumStrengthBannerProd .custHpNewMaximumProductImg {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+} 
+.custHpNewMaximumStrengthBannerProd {
+    width: calc(100% - 20px);
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px;
+    flex: 0 0 100%;
+}
+.custHpNewMaximumProductName h3 {
+width: 100%;
+    font-size: 20px;
+    padding-right: 11px;
+    line-height: 24px;
+    margin-top: 10px;
+} 
+.custHpNewMaximumProductName span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+}
+.custHpNewMaximumStrengthBannerProd .custHpNewMaximumProductImg img {
+    object-position: left;
+    width: 120px;
+    height: 120px;
+}
+.custHpNewMaximumProductName {
+    width: calc(100% - 120px);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.custHpNewMaximumProductImg {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+} 
+.custHpNewNatureBannerInspired {
+    flex-wrap: wrap;
+}
+.custHpNewFindEmuaid button.custHpNewOrangeBtnOutline {
+    width: 100%;
+    margin-top: 16px;
+}
+.custHpNewFindEmuaid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.custHpNewSelectDropdown {
+    width: calc(100% - 74px);
+}
+.custHpNewSelectDropdown .custHpNewDropMenu{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 100%;
+    margin-left: 0;
+}
+.custHpNewRightEmuaidProduct{padding: 20px}
+.custHpNewProductsImage {
+    flex: 0 0 120px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 120px;
+}
+.custHpNewMaximumStrength {
+    flex: 0 0 auto; 
+    max-width: 100%;
+}
+.custHpNewFirstProdBlock h2 {
+    padding-right: 140px;
+}
+.custHpNewBellowProducts ul li img {
+    transform: scale(1);
+}
+ul.custHpNewConditionDropdown {
+    right: 15px;
+    max-width: calc(100% - 30px);
+}
+.custHpNewHeroBanner::after {
+    display: none;
+}
+html body.bm-test-004 .bm-logo-section {
+    padding: 10px !important;
+}
+}
+@media(max-width: 640px) {
+.custHpNewSelectDropdown .custHpNewDropMenu {
+    font-size: 15px; 
+    line-height: 1; 
+    min-height: 40px !important;
+    background-position: 95% 17px;
+}
+}
+
+@media(max-width: 375px) {
+.custHpNewReviewsFromUsers ul li {max-width: 128px;}
+}
+
+@media(max-width: 374px) {
+.custHpNewRightEmuaidProduct p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custHpNewRightEmuaidProduct {
+    padding: 12px;
+}
+
+.custHpNewFindEmuaid, .custHpNewFindEmuaid button.custHpNewOrangeBtnOutline{
+    margin-top: 12px;
+}
+.custHpNewReviewStarRating {
+    font-size: 14px;
+}
+.custHpNewReviewStarRating div span {
+    font-size: 14px;
+}
+
+}
+
+@media(max-width: 360px) {
+.custHpNewPhysiciansDermatologist a.customHpNewOrangeColorCTA {
+    font-size: 16px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+}
+@media(max-width: 320px) {
+.custHpNewRightEmuaidProduct p {
+    font-size: 14px;
+    line-height: 20px;
+} 
+.custHpNewPhysiciansDermatologist a.customHpNewOrangeColorCTA {
+    font-size: 14px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+}

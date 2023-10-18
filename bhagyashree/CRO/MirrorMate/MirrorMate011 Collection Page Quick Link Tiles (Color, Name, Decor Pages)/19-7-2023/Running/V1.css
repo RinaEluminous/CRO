@@ -1,0 +1,271 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+.custFeedbackSection{
+   display: none;
+}
+
+.custReviewFeedbackBoxV1 {
+    display: flex;
+    background: #F2F6FF;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+    height: calc(100% - 30px);
+}
+
+.custReviewFeedbackBoxV1 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.custReviewFeedbackBoxV1 h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 8px;
+}
+
+.custReviewFeedbackBoxV1 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+main.main-content 
+ .wrapper {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header.content-util nav.breadcrumb * {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.26px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    color: #8699A7;
+}
+header.content-util nav.breadcrumb span {
+    color: #3E5569;
+}
+header.content-util nav.breadcrumb a {
+    color: #8699A7;
+}
+header.content-util nav.breadcrumb span[aria-hidden="true"] {
+    color: #8699A7 !important;
+}
+.collection .grid.full-width .collection-container {padding-left: 0;}
+main.main-content .wrapper .grid.full-width, main.main-content .wrapper header.content-util {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.custProdustsSliderMF .container {
+    max-width: 1360px;
+    margin: 0 auto;
+    /* background: #F2F6FF; */
+}
+.custProdustsSliderMF .slick-list {
+    padding-left: 0 !important;
+}
+.custProdustsSliderMF .slick-track a {
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(35, 78, 166, 0.10);
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+    color: #3E5569;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.custProdustsSliderMF .slick-track a span {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 10px;
+}
+.custProdustsSliderMF {
+    background: #F2F6FF;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+}
+.custActiveTiles a {
+    background: linear-gradient(0deg, rgba(177, 212, 224, 0.30) 0%, rgba(177, 212, 224, 0.30) 100%), #FFF !important;
+}
+.custActiveTiles a img {
+    mix-blend-mode: darken;
+}
+.custProdustsSliderMF .slick-arrow {
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    border-radius: 42px;
+    border: 1px solid #b1d4e0;
+    background: #fff;
+    transform: translateY(-50%);
+    z-index: 9;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.custProdustsSliderMF button.slick-next.slick-arrow {
+    right: 20px;
+    left: auto;
+    transform: translate(0, -50%) rotate(180deg);
+}
+.custProdustsSliderMF{display: none;}
+@media screen and (max-width: 1500px) {
+.custProdustsSliderMF .container {
+    margin-right: 0;
+    max-width: 100%;
+    padding-left: 40px;
+}
+}
+@media screen and (max-width: 1199px) {
+.custProdustsSliderMF .slick-track a span {
+    height: 52px;
+    margin: 0; 
+}
+
+.custColorProducts.slick-initialized.slick-slider {
+    padding-left: 30px;
+}
+
+}
+@media screen and (max-width: 768px) {
+/*new*/
+  .custCollectionProducts {
+    display: flex;
+    overflow: scroll;
+}
+
+.custCollectionProducts div {
+    flex: 0 0 24%;
+}
+
+.custCollectionProducts div a span {
+    background: #fff;
+    text-decoration: none;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    padding: 0 10px;
+    width: 100%;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #3E5569;
+}
+.custCollectionProducts div a:hover > span {
+    background: linear-gradient(0deg, rgba(177, 212, 224, 0.30) 0%, rgba(177, 212, 224, 0.30) 100%), #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(35, 78, 166, 0.10);
+}
+
+.custCollectionProducts div a {
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.custCollectionProducts div a img {
+    width: 100%;
+    margin-bottom: 0;
+}
+}
+
+@media screen and (max-width: 767px) { 
+.custReviewFeedbackBoxV1 h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 4px;
+}
+.custReviewFeedbackBoxV1 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+     margin-bottom: 8px;
+    line-height: 18px;
+}
+.custReviewFeedbackBoxV1 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+}
+.custProdustsSliderMF .slick-track a {
+    width: 100%; 
+}
+.custProdustsSliderMF .slick-track a img {
+    width: 100%;
+}
+.custProdustsSliderMF .slick-track .slick-slide {
+    padding-right: 8px;
+}
+.custColorProducts.slick-initialized.slick-slider {
+    padding-left: 15px;
+}
+main.main-content .wrapper header.content-util {
+    display: block !important;
+    text-align: left;
+    padding-top: 20px;
+}
+.custProdustsSliderMF .container {
+    padding-left: 15px;
+}
+}
+@media screen and (max-width: 600px) {
+    .spf-product-card .shopify-product-form .btn-bath {
+    width: 100% !important;
+}
+}
+  @media screen and (max-width: 540px) {
+
+  .custCollectionProducts div {
+    flex: 0 0 44%;
+}
+}
+  @media screen and (max-width: 340px) {
+    .spf-product-card .shopify-product-form .btn-bath {
+    font-size:12px !important;
+}
+}
+</style>

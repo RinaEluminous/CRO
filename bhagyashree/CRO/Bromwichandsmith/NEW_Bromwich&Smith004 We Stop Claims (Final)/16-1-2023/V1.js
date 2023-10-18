@@ -1,0 +1,14 @@
+var waitForjQuery = setInterval(function() {
+  if (typeof jQuery != 'undefined') {
+	addCustomHtmlToHome();
+  		function addCustomHtmlToHome(){
+  		if(jQuery(".customClaimContentWrapper").length == 0 ){
+  			jQuery('<div class="customClaimContentWrapper"> <div class="custHeroClaimSection"> <div class="container"> <div class="row"> <div class="col-6"> <h4>Could you qualify for emergency government debt relief?</h4> <h2>No More Annoying Collections Calls From Harrassing Creditors </h2> <p>Our stress-free emergency government debt relief programs help eliminate debt, interest payments and support you in rebuilding your worth.</p><ul> <li>Conquer debt now and learn how to rebuild your credit</li><li>Roll your debt into one easy payment with 0% interest.</li><li>Stop collections actions and get your finances back on track.</li></ul> <div class="custHeroButtonSection"> <div class="custBtnWraper"> <div class="custReviews"> <a href="#review-widget-slider"> <div class="googleIcon"> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/google-icon.svg"> </div><div class="reviewContent"> <div class="reviewsStarWraper"> <div class="starsWraper"> <div class="starsCount">4.9</div><div class="starsListing"> <span> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/Star-icon.svg"> </span> <span> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/Star-icon.svg"> </span> <span> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/Star-icon.svg"> </span> <span> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/Star-icon.svg"> </span> <span> <img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/Star-icon.svg"> </span> </div></div></div><div class="reviewsNumber"> 949 Google Reviews </div></div></a> </div></div></div></div><div class="col-6"> <img class="img-fluid" src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/hero-bannner-img.png"> </div></div><div class="row"> <div class="custClaimBookBanner"> <div class="col-12"> <div class="row"> <div class="innerWraper"> <div class="custBookContent"> <h3>Find out if you qualify for our emergency government debt relief</h3> <p>Book your free confidential consultation or call us today to speak with a debt relief specialist.</p></div><div class="custBookBtnWrapper"> <a href="https://www.bromwichandsmith.com/contact-us" class="btn fill">Find out if you qualify</a> <a href="tel:1-855-884-9243" class="btn outline">Call: 1-855-884-9243</a> <div class="safeLink"><span class="lock-icon"><img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/lock-icon.svg" alt=""></span>Safe, secure & confidential</div></div></div></div></div></div></div></div></div></div>').prependTo('.page--front #content-wrapper main article.landing-page .node__content');
+
+
+  		}
+  	}
+
+	clearInterval(waitForjQuery);
+  }
+}, 50);

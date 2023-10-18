@@ -1,0 +1,178 @@
+if (jQuery('#custPopulerColorslick').length == 0) {
+    jQuery("head").append('<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" id="custSwiperSliderJS"></script>');
+    }
+    if(jQuery('#custPopulerColorslick   ').length == 0){
+        jQuery( "head" ).append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" id="custSwiperSliderCSS" />');
+    } 
+
+
+    jQuery(".custBestSellersProducts").slick({
+        slidesToShow: 5,
+        infinite: true,
+        dots: false,
+        arrows: true,
+        centerPadding: '60px',
+        infinite: true,
+        centerMode: true, 
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '50px',
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '30px',
+                slidesToShow: 1
+              }
+            }
+        ]
+        });
+
+
+jQuery(".custPopulerCategory").slick({
+    slidesToShow: 3,
+    infinite: true,
+    dots: false,
+    arrows: false,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: true,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 3
+            }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '10px',
+            slidesToShow: 1
+          }
+        }
+    ]
+    });
+
+
+jQuery(".custPlayVideoSlider").slick({
+        slidesToShow: 5, 
+        dots: false,
+        arrows: true,
+        centerPadding: '0',
+        infinite: true,
+        centerMode: true, 
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 3
+                }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 1
+              }
+            }
+        ]
+        });
+
+jQuery(".custCustmerFeedbackSlider").slick({
+        slidesToShow: 4, 
+        dots: false,
+        arrows: true,
+        centerPadding: '80px',
+        infinite: true,
+        centerMode: true, 
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '10px',
+                    slidesToShow: 3
+                }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '10px',
+                slidesToShow: 1
+              }
+            }
+        ]
+        });
+
+jQuery(".custInstaCustomcuff").slick({
+        slidesToShow: 4, 
+        dots: true,
+        arrows: true,
+        loop: true,
+        centerPadding: '130px',
+        infinite: true,
+        centerMode: true, 
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '80px',
+                    slidesToShow: 3
+                }
+            },
+            {
+              breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerMode: true,
+                    centerPadding: '80px',
+                    slidesToShow: 3
+              }
+            },
+            ,
+            {
+              breakpoint: 767,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '50px',
+                slidesToShow: 1
+              }
+            }
+        ]
+        });

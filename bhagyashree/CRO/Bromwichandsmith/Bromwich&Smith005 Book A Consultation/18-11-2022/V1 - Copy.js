@@ -1,0 +1,259 @@
+var waitForjQuery = setInterval(function() {
+  if (typeof jQuery != 'undefined') {
+  	console.log("Bromwich&Smith005: Book A Consultation | 2");
+  	updateContactFormHTML();
+  	addHtmlToContactPage();
+
+  	var oldXHR = window.XMLHttpRequest;
+	function newXHR() {
+
+		var realXHR = new oldXHR();
+		realXHR.addEventListener("readystatechange", function() {
+			if(realXHR.readyState == 4 && realXHR.status == 200){
+				setTimeout(function () {           
+	 				var strAjaxResponseURL  = realXHR.responseURL;
+					
+					if(jQuery('.webform-submission-form .js-form-submit.form-submit').length > 0){
+				        //checking for function here
+				        if(strAjaxResponseURL.indexOf('contact-us?ajax_form=') > -1){
+				                updateContactFormHTML();
+	  							addHtmlToContactPage();
+				            } 
+					}
+
+				}, 20); 
+			}
+		}, false);
+		return realXHR;
+	}
+	window.XMLHttpRequest = newXHR;
+
+  	//on browser back
+  	if (performance.navigation.type == 2) {
+        var intCounter = 0;
+		var intChkHtmlInterval = setInterval(function (){
+			intCounter += 1;
+				
+			if(jQuery('.custLeftColumn').length == 0 && jQuery('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content').length > 0){
+				updateContactFormHTML();
+  				addHtmlToContactPage();
+				clearInterval(intChkHtmlInterval);
+			}
+
+			if(intCounter === 100){
+		        clearInterval(intChkHtmlInterval);
+		    }
+		},50);
+    }
+  	
+  	//add custom HTML
+  	function addHtmlToContactPage(){
+  		if(jQuery('.custLeftColumn').length == 0){
+			jQuery('<div class="custLeftColumn"><div class="imgBox"><img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/contact-img.png"></div><div class="quoteBox desk"><div class="text">I was referred by a friend. I was hesitating, because of what they might think of me. From the first time I called to walking in the door, I was treated with respect and dignity the whole way through the process. No one judged, and everyone understood. I would recommend this company to everyone !!!!</div><cite>- Nicole C.</cite></div></div>').prependTo('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content #tile-1778 .jumbotron .container .group-left');
+  		}
+
+  		//for mobile
+  		if(jQuery('.quoteBox.mobile').length == 0){
+  			jQuery('<div class="quoteBox mobile"><div class="text">I was referred by a friend. I was hesitating, because of what they might think of me. From the first time I called to walking in the door, I was treated with respect and dignity the whole way through the process. No one judged, and everyone understood. I would recommend this company to everyone !!!!</div><cite>- Nicole C.</cite></div>').appendTo('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content #tile-1778 .jumbotron .container .group-middle');
+  		}
+
+  		if(jQuery('.formTexualContent').length == 0){
+  			jQuery('<div class="formTexualContent"><h2>Find out if you qualify</h2><h3>Reduce your debt by up to 85% with a Consumer Proposal</h3><p class="subPara"><img src="https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/bm-chat-icon.svg"> Free, confidential, no obligation consultation with a Debt Relief Consultant</p></div>').prependTo('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content #tile-1778 .jumbotron .container .group-middle');
+  		}
+
+  		if(jQuery('.custAwardsSection').length == 0){
+  			
+
+				 	var script = document.createElement('script');
+			        script.type = 'text/javascript';
+			        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js';
+			        document.getElementsByTagName('head')[0].appendChild(script);
+
+		        	var head = document.getElementsByTagName('HEAD')[0];
+			        var link = document.createElement('link');
+			        link.rel = 'stylesheet';
+					link.type = 'text/css';
+					link.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css';
+			        head.appendChild(link);
+
+		        	var head = document.getElementsByTagName('HEAD')[0];
+			        var link = document.createElement('link');
+			        link.rel = 'stylesheet';
+					link.type = 'text/css';
+					link.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css';
+			        head.appendChild(link);
+
+
+  			jQuery('<div class="custAwardsSection"><div class="container"><h3>Award Winning Debt Relief</h3><div class="awardsLogoWraper"><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-11/Scarborough%20Mirror%20Reader%27s%20Choice%20Award.jpg" width="305" height="200" alt="Scarborough Mirror Reader\'s Choice Award" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/bbea_0-min.jpeg" width="130" height="130" alt="BBEA" typeof="foaf:Image"></div><div class="logoImg toronto-star20-logo"><img loading="lazy" src="/sites/default/files/2021-10/toronto-star-2020-min.jpeg" width="431" height="130" alt="Toronto Star 2020" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/toronto-star-2019-min.jpeg" width="295" height="130" alt="Toronto Star-2019" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/torch-min.jpeg" width="130" height="130" alt="Torch Awards 2021" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/threebest-min.jpeg" width="146" height="130" alt=" Threebest" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/torch-2020_0-min.jpeg" width="518" height="130" alt="Torch" typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/top-choice-min.jpeg" width="130" height="130" alt="Top Choice " typeof="foaf:Image"></div><div class="logoImg"><img loading="lazy" src="/sites/default/files/2021-10/alberta-business-min.jpeg" width="130" height="130" alt="Alberta Business" typeof="foaf:Image"></div></div></div></div>').insertAfter('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content #tile-1778 .jumbotron .container .row:eq(0)');
+
+  				//setTimeout(function (){
+			var intSliderCnt = 0;
+			var intSliderInterval = setInterval(function (){
+				intSliderCnt += 1;
+				console.log("Len >>> " + jQuery('.custAwardsSection').length);
+				//if(jQuery('.custAwardsSection').length > 0){
+					if (jQuery.fn.slick){
+
+
+			        console.log("check slick...");
+			        console.log(jQuery.fn.slick);
+
+			        //if (jQuery.fn.slick) {
+			        	console.log("add slider");
+						// .. your code
+						//Slick initialization 
+		 				jQuery('.awardsLogoWraper').slick({
+		 						dots: true,
+		                        infinite: true,
+		                        slidesToShow: 1,
+		                        //slidesToScroll: 1,
+		                        variableWidth: true,
+		                        //arrows: false
+		                        /*dots: false,
+		                        responsive: [{
+		                            breakpoint: 480,
+		                            settings: {
+		                                slidesToShow: 2,
+		                                slidesToScroll: 1
+		                            }
+		                        }]*/
+		                });
+					/*}
+					else
+					{
+						console.log('not initialize');
+					}*/
+	  				
+	                	clearInterval(intSliderInterval);
+
+					}
+					if(intSliderCnt === 100){
+						clearInterval(intSliderInterval);
+					}
+                },100);
+
+
+			/*setTimeout(function (){
+	  			//jQuery(".awardsLogoWraper.owl-carousel").owlCarousel();
+
+	  			jQuery(".awardsLogoWraper.owl-carousel").owlCarousel({
+			           margin: 20,
+			           loop: true,
+			           autoplay: true,
+			           autoplayTimeout: 2000,
+			           autoplayHoverPause: true,
+			           responsive: {
+			             0:{
+			               items:1,
+			               nav: false
+			             },
+			             600:{
+			               items:2,
+			               nav: false
+			             },
+			             1000:{
+			               items:3,
+			               nav: false
+			             }
+			           }
+			         });
+				},1000);*/
+
+  			/*setTimeout(function (){
+  				jQuery('.awardsLogoWraper').slick({
+			  dots: true,
+			  infinite: false,
+			  speed: 300,
+			  slidesToShow: 3,
+			  slidesToScroll: 3,
+			  responsive: [
+			    {
+			      breakpoint: 1024,
+			      settings: {
+			        slidesToShow: 3,
+			        slidesToScroll: 3,
+			        infinite: true,
+			        dots: true
+			      }
+			    },
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			    // You can unslick at a given breakpoint now by adding:
+			    // settings: "unslick"
+			    // instead of a settings object
+			  ]
+			});
+  			},500);*/
+  			
+			
+  		}
+  	}
+
+  	//update form structure
+  	function updateContactFormHTML(){
+  		if(jQuery('.webform-submission-form').length > 0){
+
+			jQuery('.webform-submission-form .js-form-item input[name="first_name"]').attr('placeholder','First Name');
+
+			jQuery('.webform-submission-form .js-form-item input[name="last_name"]').attr('placeholder','Last Name');
+
+			jQuery('.webform-submission-form .js-form-item input[name="email"]').attr('placeholder','Your Email');
+
+			jQuery('.webform-submission-form .js-form-item input[name="phone_number"]').attr('placeholder','Your Phone Number');
+
+			jQuery('.webform-submission-form .js-form-item input[name="city"]').attr('placeholder','Your City');
+
+			jQuery(".webform-submission-form .form-select.custom-select button[data-id*='edit-province'] span.filter-option").text('Your Province');
+
+			jQuery('.webform-submission-form .js-form-item input[name="postal_code"]').attr('placeholder','Postal Code');
+
+			if(jQuery('.form-item-any-comments-you-would-like-to-add-regarding-your-debt-situation label').length > 0){
+				
+				jQuery('.form-item-any-comments-you-would-like-to-add-regarding-your-debt-situation label').text('How can we Help?');
+				
+				if(jQuery('.form-item-any-comments-you-would-like-to-add-regarding-your-debt-situation textarea.form-control').length > 0){
+					jQuery('.form-item-any-comments-you-would-like-to-add-regarding-your-debt-situation textarea.form-control').attr('placeholder','');
+				}
+		}
+
+		if(jQuery('.webform-submission-form .js-form-submit.form-submit').length > 0){
+			jQuery('.webform-submission-form .js-form-submit.form-submit').val('Find out if you qualify');
+		}
+
+			if(jQuery('.custContactFooterContain').length == 0){
+				jQuery('<p class="custContactFooterContain">A debt relief specialist will contact you today regarding your request.</p>').insertAfter('body[data-once="form-single-submit detailsAria"] #content-wrapper main article.landing-page .node__content #tile-1778 .jumbotron .container .group-middle form div[id*="edit-actions"] span');
+  			}
+		}
+
+		//if in case placeholders not replaced call function again
+	    var intCnt = 0;
+		var intCheckInterval = setInterval(function (){
+			intCnt += 1;
+				
+			if(jQuery('.webform-submission-form .js-form-item input[name="first_name"]').attr('placeholder')!=='First Name') {
+				updateContactFormHTML();
+				addHtmlToContactPage();
+				clearInterval(intCheckInterval);
+			}
+
+			if(intCnt === 50){
+		        clearInterval(intCheckInterval);
+		    }
+		},100);	
+  	}
+	
+  	clearInterval(waitForjQuery);
+  }
+}, 50);

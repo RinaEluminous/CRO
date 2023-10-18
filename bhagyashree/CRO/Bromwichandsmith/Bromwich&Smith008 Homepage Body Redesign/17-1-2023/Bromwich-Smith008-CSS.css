@@ -1,0 +1,1468 @@
+.page--front #content-wrapper main article.landing-page .node__content #tile-214,
+.page--front #content-wrapper main article.landing-page .node__content #tile-105,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1798,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4850,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4852,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4860,
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1183,
+.page--front #content-wrapper main article.landing-page .node__content #tile-973,
+.page--front #content-wrapper main article.landing-page .node__content #tile-109,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4855,
+.page--front #content-wrapper main article.landing-page .node__content #tile-234,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1250,
+.page--front #content-wrapper main article.landing-page .node__content #tile-835,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1253,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4859,
+.page--front #content-wrapper main article.landing-page .node__content #tile-116,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4861,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4592,
+.page--front #content-wrapper main + .below-content,
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(1),
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(2),
+.customHomePageContentWrapper {
+    display: none;
+}
+
+/*Hide contents from - Bromwich&Smith002: Social Proof Testimonial Above The Fold(HP)*/
+ .custHPSocialProofPageWrapper .custAwardsSection_sp,
+ .custHPSocialProofPageWrapper .custHeroSection_sp,
+ .custHPSocialProofPageWrapper .custHelpYouSection_sp .custBookBanner_sp {
+       display: none;
+}
+
+/*Hide contents from - NEW_Bromwich&Smith004: We Stop Claims (Final) V1*/
+.customClaimContentWrapper{
+     display: none;
+}
+
+.custHPbodyWrapper {
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.custHeroSection_bd {
+    padding: 80px 0 0;
+}
+
+.custHelpYouSection_bd .row,
+.custHeroSection_bd .row {
+    display: flex;
+}
+
+.custHelpYouSection_bd .col-6,
+.custHeroSection_bd .col-6 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.custHeroSection_bd h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    color: #0D1C14;
+}
+
+.custHeroSection_bd p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #0D1C14;
+}
+
+.custHeroButtonSection_sp .custBtnWraper > a {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.custHeroButtonSection_sp .custBtnWraper .custReviews{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.custHeroButtonSection_sp .custReviews a {
+    display: flex;
+    gap: 0 10px;
+}
+
+.custHeroButtonSection_sp .custReviews a:hover {
+    text-decoration: none;
+}
+
+.custHeroButtonSection_sp .custReviews a .googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.custHeroButtonSection_sp .custReviews a .reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custAwardsSection_bd h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 20px;
+    color: #000;
+}
+
+.custAwardsSection_bd .custAwardsLogoWrapper {
+    display: flex;
+    overflow: auto;
+    gap: 0 20px;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.custAwardsSection_bd .custAwardsLogoWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.custAwardsSection_bd .custAwardsLogoWrapper .logoImg {
+    flex: 0 0 auto;
+}
+.custAwardsSection_bd .custAwardsLogoWrapper .logoImg.toronto-star20-logo {
+    border: 1px solid #1F6EB9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.custAwardsSection_bd .custAwardsLogoWrapper .logoImg img {
+    height: 60px;
+    width: auto;
+}
+
+.custAwardsSection_bd {
+    padding: 60px 0;
+}
+
+.custHelpYouSection_bd {
+    background: #26d07c;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.custHelpYouSection_bd h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.custHelpYouSection_bd h2 span.subHeading {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.custHelpYouSection_bd ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custHelpYouSection_bd p {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+.custHelpYouSection_bd ul li {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    line-height: 22px;
+    margin: 0 0 10px;
+    padding-left: 30px;
+}
+
+.custHelpYouSection_bd ul li:before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/plus_bullet_icon.svg) no-repeat center center;
+}
+
+.custBookBanner_sp .col-12 {
+    padding: 0 15px;
+}
+
+.custBookBanner_sp {
+    padding: 0 15px;
+    margin: 60px 0 0;
+}
+
+.custBookBanner_sp .innerWraper {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 0 0 8px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.custHeroSection_bd img.img-fluid,
+.custHelpYouSection_bd img.img-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.custHeroSection_bd img.img-fluid {
+    max-width: 515px;
+    margin-left: auto;
+    display: block;
+}
+
+.custGoalSection {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+
+.custGoalSection h2{
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.custGoalSection .box {
+    background: #fff;
+    padding: 32px;
+}
+.custGoalSection .box h3 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #26D07C;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 15px;
+    line-height: 35px;
+    letter-spacing: normal;
+}
+
+.custGoalSection .box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    margin: 0;
+}
+
+.custConsumerProposal {
+    padding: 60px 0px;
+}
+.custConsumerProposal h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000000;
+    margin: 0 0 40px;
+}
+.custConsumerProposal h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+.custConsumerProposal h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 8px auto 0;
+    letter-spacing: normal;
+}
+.custConsumerProposal .proposalBox {
+    background: #E9FAF2;
+    padding: 25px 15px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.custConsumerProposal .proposalBox .icon {
+    font-size: 0;
+    display: block;
+    margin: 0 0 15px;
+}
+.custConsumerProposal .proposalBox .icon.number {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custConsumerProposal .proposalBox h5 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+}
+
+.custConsumerProposal .proposalBox p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custConsumerProposal .row {display: flex;flex-wrap: wrap;}
+
+.custConsumerProposal .row .col-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth {
+    display: flex;
+    margin: 40px 0 0;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+}
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth h5 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 8px;
+}
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon {
+    margin: 0;
+    width: 100%;
+    flex: 0 0 40px;
+}
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth p {
+    font-size: 16px;
+}
+
+
+.custFeedbackSection {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+
+.custFeedbackSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.custFeedbackSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 8px auto 0;
+}
+
+.custFeedbackSection .owl-carousel {
+    display: block;
+}
+.custFeedbackSection .row{
+    display: flex;
+}
+
+.custFeedbackSection .feedbackBox {
+    background: #fff;
+    padding: 25px 40px 55px;
+    height: 100%;
+}
+
+.custFeedbackSection .feedbackBox .starRatings span {
+    font-size: 0;
+    display: block;
+}
+
+.custFeedbackSection .feedbackBox .starRatings {
+    display: flex;
+    gap: 2px;
+    margin: 0 0 25px;
+}
+
+.custFeedbackSection .feedbackBox .quotes {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    line-height: 28px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custFeedbackSection .feedbackBox cite {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 25px 0 0;
+    display: block;
+    color: #000;
+}
+
+.custFeedbackSection .videoBox iframe {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.custFeedbackSection .videoBox {
+    position: relative;
+    font-size: 0;
+    box-shadow: 20px -20px 0px #26d07c;
+    margin: 0px 20px 0 0;
+}
+.reliefSolution {
+    padding: 60px 0 10px;
+}
+
+.reliefSolution h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.reliefSolution .workingCanadian {
+    background: #F1F1F2;
+    box-shadow: 20px -20px 0px #26D07C;
+    padding: 40px;
+    margin: 0 15px;
+}
+
+.reliefSolution .workingCanadian h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 15px;
+    color: #000;
+}
+
+.reliefSolution .workingCanadian p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+.reliefSolution .custSReliefSolutions {
+    margin: 40px 0 0;
+}
+
+.reliefSolution .custSReliefSolutions .greenBox {
+    background: #26d07c;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.reliefSolution .custSReliefSolutions .greenBox h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal; 
+}
+
+.reliefSolution .custSReliefSolutions .greenBox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 24px;
+}
+
+.reliefSolution .custSReliefSolutions .greenBox a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    text-decoration: underline;
+    color: #fff;
+}
+.reliefSolution .custSReliefSolutions .row {
+    margin: 0 0 30px;
+    display: flex;
+}
+.reliefSolution .custSReliefSolutions .row:last-child{
+    margin: 0;
+}
+.reliefSolution .custSReliefSolutions .row.reverse {
+    flex-direction: row-reverse;
+}
+
+.reliefSolution .custSReliefSolutions .imgBox {
+    display: flex;
+    height: 100%;
+}
+
+.reliefSolution .custSReliefSolutions .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custHPbodyWrapper .custTestimonialWraper {
+    background: #fff;
+    padding: 60px 0;
+}
+
+.custHPbodyWrapper .custTestimonialWraper iframe {
+    width: 100%;
+    height: 100% !important;
+    margin: 0;
+    border: 0;
+    min-height: 506px !important;
+}
+.awardWinningSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+}
+
+.awardWinningSection .greyBox {
+    background: #F1F1F2;
+    box-shadow: 20px -20px 0px #26D07C;
+    padding: 40px;
+}
+
+.awardWinningSection {
+    padding: 10px 0 60px;
+}
+
+.awardWinningSection .greyBox p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 25px;
+    color: #000;
+}
+
+.awardWinningSection .greyBox .btnWrap a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.awardWinningSection .col-sm-6 {
+    padding: 0 20px;
+}
+
+.awardWinningSection .row {
+    margin: 0 -20px;
+}
+.awardWinningSection .greyBox p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.custNewsSection {
+    padding: 60px 0;
+}
+
+.custNewsSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+}
+
+.custNewsSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 8px auto 0;
+}
+
+.custNewsSection .newsBox .imgBox {
+    margin: 0 0 15px;
+}
+
+.custNewsSection .newsBox .content h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 8px;
+    letter-spacing: normal;
+}
+
+.custNewsSection .newsBox .content .date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    letter-spacing: normal;
+}
+.custNewsSection .btnWrap a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custNewsSection .btnWrap {
+    text-align: center;
+    margin: 40px 0 0;
+}
+
+.custNewsSection .btnWrap a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.custFreeConsultationWraper {
+    padding: 60px 0;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp {
+    margin: 0;
+    padding: 0 15px;
+}
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper{
+    background: #F1F1F2;
+}
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookContent h3{
+    font-size: 24px;
+}
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookContent p{
+    line-height: 21px;
+}
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+    padding: 15px 14px;
+}
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline{
+    background: #fff;
+    padding: 12px 18.5px;
+}
+
+.custFaqSection {
+    padding: 60px 0;
+    background: #F1F1F2;
+}
+
+.custFaqSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.custFaqSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    max-width: 880px;
+    margin: 8px auto 0;
+}
+.custFaqSection h3 span a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.custFaqSection input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  /* Accordion styles */
+  .custFaqSection .tabs {
+    overflow: hidden;
+  }
+  
+  .custFaqSection .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+
+  .custFaqSection .tab:first-child {
+    display: none;
+}
+
+  .custFaqSection .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    border-bottom: 1px solid #C3D1CF;
+    margin: 0;
+    align-items: center;
+  }
+  .custFaqSection .tab:last-child label.tab-label {
+    border: 0;
+  }
+  .custFaqSection .tab-label::after {
+    content: "";
+    width: 14px;
+    height: 10.5px;
+    text-align: center;
+    transition: all 0.35s;
+    background: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/icon/down-arrow.svg) no-repeat 0 0;
+    background-size: 100%;
+    transform: rotate(180deg);
+    filter: saturate(0) contrast(0);
+  }
+  .custFaqSection .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #000;
+    background: white;
+    transition: all 0.35s;    
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+  }
+  .custFaqSection input:checked + .tab-label::after {
+    transform: rotate(0deg);
+  }
+  .custFaqSection input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+  .custFaqSection .tab-content p {
+    margin: 0 0 12px;
+    font-size: 16px;
+}
+
+.custTestimonialSection {
+    border-top: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    background: no-repeat 0 50%;
+    background-size: cover;
+    padding: 35px 0px;
+    background-image: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/layout/testimonial-bg.jpg);
+    margin: 0;
+}
+
+.custTestimonialSection .view__row {
+    padding: 36px 36px;
+    color: white;
+}
+
+.custTestimonialSection .view__row p {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+
+.custTestimonialSection .view__row p:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -8px;
+    top: -7px;
+    color: #fff;
+    font-weight: 700;
+    background-color: transparent;
+}
+.custTestimonialSection .view__row p:after {
+    display: block;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    right: 17px;
+    top: -5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.custFeedbackSection .swiper.custFeedbackSwiper {
+    margin-left: -60px;
+    margin-right: -60px;
+    padding: 20px 60px 40px;
+    margin-top: -20px;
+}
+.custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination{
+    bottom: -5px;
+}
+.custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination .swiper-pagination-bullet-active{
+    background: #26D07C;
+}
+.custFeedbackSection .swiper-button-next, 
+.custFeedbackSection .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+}
+.custFeedbackSection .swiper-button-next:after, 
+.custFeedbackSection .swiper-button-prev:after {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+@media(max-width: 1199px){
+    .custHeroSection_bd h2{
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .custHeroSection_bd p{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+    }
+    .custHelpYouSection_bd h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_bd h2 span.subHeading{
+        line-height: 18px;
+        margin: 0 0 5px;
+    }    
+    .custHPbodyWrapper .custTestimonialWraper{
+        padding: 30px 0 60px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .custFeedbackSection .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custFeedbackSection .feedbackBox .starRatings{
+        margin: 0 0 15px;
+    }
+    .custFeedbackSection .feedbackBox cite{
+        font-size: 16px;
+        margin: 15px 0 0;
+    }
+    
+    .custFeedbackSection .swiper.custFeedbackSwiper{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 60px;
+    }
+    .custFeedbackSection .swiper-button-next, 
+    .custFeedbackSection .swiper-button-prev{
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+    .custFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+    .custFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    } 
+    .custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination{
+        display: none;
+    }
+}
+
+@media(max-width: 991px){
+    .custHeroSection_bd {
+        padding: 85px 0 0;
+        background: #F1F1F2;
+    }
+    .custHeroButtonSection_sp .custBtnWraper .custReviews{
+        margin-right: auto;
+    }
+    .custHelpYouSection_bd .row, .custHeroSection_bd .row{
+        flex-direction: column;
+    }
+    .custHeroSection_bd .row {
+        flex-direction: column-reverse;
+    }
+    .custHeroSection_bd h2{
+        font-size: 38px;
+        line-height: 40px;
+        margin: 12px 0 15px;
+    }
+    .custHeroSection_bd p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 10px;
+        flex-wrap: wrap;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_bd h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_bd h2 span.subHeading{
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    .custAwardsSection_bd {
+        padding: 50px 0;
+        background: #F1F1F2;
+    }
+    .custHelpYouSection_bd{
+        padding: 50px 0;
+    }
+    .custHelpYouSection_bd h2{
+        font-size: 30px;
+        line-height: 34px;
+        margin: 15px 0;
+    }
+    .custBookBanner_sp{
+        margin: 40px 0 0;
+    }
+    .custBookBanner_sp .innerWraper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .custHeroSection_bd img.img-fluid{
+        max-width: 100%;
+    }
+    
+    .awardWinningSection .greyBox .btnWrap a.btn{
+        white-space: normal;
+    }
+    .custGoalSection .box,
+    .reliefSolution .workingCanadian,
+    .reliefSolution .custSReliefSolutions .greenBox,
+    .awardWinningSection .greyBox{
+        padding: 25px;
+    }
+    .custFeedbackSection .feedbackBox{
+        padding: 25px 25px 55px;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth{
+        gap: 0 20px;
+    }
+    .custGoalSection .box h3{
+        font-size: 32px;
+    }    
+    .reliefSolution .workingCanadian .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reliefSolution .workingCanadian .col-sm-6 {
+        width: 100%;
+    }
+    .reliefSolution .workingCanadian .row .imgBox{
+        margin: 0 0 24px;
+    }
+    .reliefSolution .workingCanadian .row .imgBox img {
+        width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .custHPbodyWrapper {
+        margin-bottom: -40px;
+    }
+    .custHeroSection_bd h2{
+        margin: 12px 0 15px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .custHeroSection_bd p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 30px;
+    }
+
+    .custHelpYouSection_bd h2 span.subHeading{
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_bd{
+        padding: 40px 0;
+    }
+    .custHelpYouSection_bd h2{
+        font-size: 36px;
+        line-height: 38px;
+        margin: 15px 0;
+    }
+    .custBookBanner_sp .innerWraper{
+        padding: 15px;
+    }
+    .custBookBanner_sp .innerWraper .custBookContent h3{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 5px;
+    }
+    .custBookBanner_sp .innerWraper .custBookContent p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+        gap: 0 30px;
+    }
+    .custGoalSection{
+        padding: 30px 0;
+    }
+    .custGoalSection h2{
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .custGoalSection .box{
+        padding: 15px;
+        margin: 0 0 10px;
+    }
+    .custGoalSection .col-sm-4:last-child .box{
+        margin: 0;
+    }
+    .custGoalSection .box h3{
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0 0 8px;
+    }
+    .custGoalSection .box p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custConsumerProposal{
+        padding: 40px 0;   
+    }
+    .custConsumerProposal h2{
+        font-size: 32px;
+        line-height: 34px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 30px;
+    }
+    .custConsumerProposal h3{
+        font-size: 32px;
+        line-height: 34px;
+        margin: 0 0 30px;
+    }
+    .custConsumerProposal h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custConsumerProposal .proposalBox{
+        margin: 0 0 10px;
+        height: auto;
+        padding: 15px;
+        padding-left: 70px;
+        position: relative;
+    }
+    .custConsumerProposal .proposalBox .icon{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+    .custConsumerProposal .proposalBox p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth{
+        margin: 20px 0 0;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon{
+        display: none;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth h5{
+        font-size: 23px;
+        line-height: 23px;
+        margin: 0 0 16px;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 16px;
+    }
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill,
+    .custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap {
+        width: 100%;
+    }
+    .custFeedbackSection{
+        padding: 30px 0;
+    }
+    .custFeedbackSection h3{
+        font-size: 30px;
+        line-height: 31px;
+        margin: 0 0 50px;
+    }
+    .custFeedbackSection h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custFeedbackSection .row{
+        flex-direction: column-reverse;
+    }
+    .custFeedbackSection .videoBox{
+        width: calc(100% - 20px);
+        margin: 0 0 15px;
+    }
+    .custFeedbackSection .feedbackBox{
+        padding: 15px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+    .custFeedbackSection .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custFeedbackSection .feedbackBox cite{
+        margin: 8px 0 0;
+        font-size: 16px;
+    }
+    .custFeedbackSection .feedbackBox .starRatings{
+        margin: 0;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    .custFeedbackSection .swiper.custFeedbackSwiper{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 40px;
+    }
+    .custFeedbackSection .swiper-button-next, 
+    .custFeedbackSection .swiper-button-prev{
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+    .custFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+    .custFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    }
+    .custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination{
+        display: none;
+    }
+    .reliefSolution {
+        padding: 40px 0 0;
+    }
+    .reliefSolution h3{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .reliefSolution .workingCanadian{
+        padding: 15px;
+        margin: 0 15px 0 0;
+    }
+    .reliefSolution .workingCanadian h4{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 8px;
+        letter-spacing: normal;
+    }
+    .reliefSolution .custSReliefSolutions .row{
+        flex-direction: column;
+        margin: 0 -15px 30px;
+    }
+    .reliefSolution .custSReliefSolutions .row:last-child{
+        margin: 0 -15px 0px;
+    }
+    .reliefSolution .custSReliefSolutions .imgBox{
+        margin: 0 0 30px;
+    }
+    .reliefSolution .custSReliefSolutions .greenBox{
+        padding: 15px;
+    }
+    .reliefSolution .custSReliefSolutions .greenBox h4{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 15px;
+    }
+    .reliefSolution .custSReliefSolutions .row.reverse{
+        flex-direction: column;
+    }
+    .awardWinningSection{
+        padding: 0 0 40px;
+    }    
+    .awardWinningSection h3{
+        font-size: 28px;
+        line-height: 29px;
+        margin: 0 0 60px;
+    }
+    .awardWinningSection .greyBox p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 16px;
+    }
+    .awardWinningSection .greyBox{
+        padding: 15px;
+        margin: 0 0 60px;
+        width: calc(100% - 20px);
+    }
+    .awardWinningSection .greyBox .btnWrap a.btn.fill{
+        padding: 15px 5px;
+        width: 100%;
+    }
+    .awardWinningSection .greyBox p a{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .awardWinningSection .row .col-sm-6:last-child .greyBox{
+        margin: 0;
+    }
+    .custNewsSection{
+        padding: 30px 0 40px;
+    }
+    .custNewsSection h3{
+        font-size: 32px;
+    }
+    .custNewsSection h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custNewsSection .newsBox .imgBox img{
+        width: 100%;
+    }
+    .custNewsSection .newsBox .content {
+        margin: 0 0 20px;
+    }
+    .custNewsSection .btnWrap{
+        margin: 30px 0 0;
+    }
+    .custFreeConsultationWraper {
+        padding: 30px 0 40px;
+    }
+    .custFaqSection{
+        padding: 40px 0;
+    }
+    .custFaqSection h3{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .custFaqSection h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custFaqSection .tabs{
+        margin: 0;
+    }
+    .custFaqSection .tab-label{
+        padding: 10px;
+        padding-right: 41px;
+        position: relative;
+    }
+    .custFaqSection .tab-label::after{
+        position: absolute;
+        right: 16px;
+    }
+    .custTestimonialSection {
+        margin: 0 0 35px;
+    }
+}
+@media(max-width: 580px){
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper,
+    .custHeroButtonSection_sp .custBtnWraper{
+        flex-direction: column;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        width: 100%;
+        text-align: center;
+    }
+    .custHeroButtonSection_sp .custBtnWraper .reviews{
+        margin-right: auto;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline,
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+        width: 100%;
+    }
+}

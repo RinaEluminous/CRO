@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+
+.custMainWrapperPlpSearch .category-product {
+    border: 1px solid #E6EBF9;
+    border-radius: 0;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    box-shadow: none !important;
+    text-align: left;
+    flex: 0 0 calc(25% - 8px);
+    border-radius: 4px;
+    border: 1px solid #F2F2F2;
+    /* background: #FFF; */
+    padding: 10px;
+    transition: all 0.3s;
+}
+
+.custMainWrapperPlpSearch .category-product:not(.custGreatProductPlpSearch):hover {
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    background: #F2F2F2;
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15) !important;
+}
+.custMainWrapperPlpSearch .category-product:hover p.category-product-name a,
+.custMainWrapperPlpSearch .category-product:hover span.category-product-price.ng-binding.ng-scope {
+    color: #053CC8;
+}
+
+
+.custMainWrapperPlpSearch .category-product a {
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    color: #000;
+    text-align: left !important;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 125% */
+}
+
+.custMainWrapperPlpSearch span.category-product-price.ng-binding.ng-scope {
+    color: #2A527A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.custMainWrapperPlpSearch .category-product a img {
+    margin: 0 auto;
+}
+
+.custMainWrapperPlpSearch .filter-items-container {
+    margin-bottom: 0;
+}
+
+.custMainWrapperPlpSearch .category-product p.ng-binding {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color: #000;
+    display: none;
+}
+
+.custMainWrapperPlpSearch .ss-toolbar.ss-toolbar-bottom.ss-targeted.ng-scope {
+    margin-top: 70px;
+}
+
+.custMainWrapperPlpSearch div#js-product-list {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.custMainWrapperPlpSearch .ss-header-container .ss-results-title {
+    padding-top: 0;
+}
+
+.custMainWrapperPlpSearch .custCTAButtonPlpSearch {
+    font-size: 14px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    padding: 14px 0px;
+    border-radius: 4px;
+    background: #2A527A;
+    border: 0;
+    color: #fff !important;
+    width: 100% !important;
+}
+
+.custMainWrapperPlpSearch .custCategoryWrapperPlpSearch .custCTAButtonPlpSearch+p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    display: block;
+    line-height: 12px;
+}
+
+.custGreatProductPlpSearch {
+    width: 50% !important;
+    z-index: 1;
+}
+
+.custGreatProductPlpSearch h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 10px 10px;
+    letter-spacing: -0.2px;
+}
+
+.custGreatProductPlpSearch h5 span {
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.custGreatProductPlpSearch {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Coolhorse/great-product.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px !important;
+    background-size: cover;
+    /* z-index: 1; */
+}
+
+/* .custGreatProductPlpSearch::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Coolhorse/great-product.jpg);
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px !important;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    background-size: cover;
+    z-index: -1;
+    opacity: 0;
+} */
+.custMainWrapperPlpSearch .category-product a:empty {
+    display: none;
+}
+
+.custMainWrapperPlpSearch p.category-product-name a {
+    min-height: 63px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.custMainWrapperPlpSearch div#js-product-list::before {
+    content: none;
+}
+
+.custMainWrapperPlpSearch .category-product.custGreatProductPlpSearch {
+    flex: 0 0 calc(50% - 8px);
+}
+.custMainWrapperPlpSearch .category-product.custGreatProductPlpSearch:hover {
+    /* background: transparent; */
+}
+
+.custMainWrapperPlpSearch .category-product p.ng-scope {
+    margin: 0;
+}
+/*media*/
+@media only screen and (max-width: 767px) {
+    .custMainWrapperPlpSearch .custCTAButtonPlpSearch {
+        padding: 14px 20px;
+    }
+
+    .custGreatProductPlpSearch {
+        width: 100% !important;
+        min-height: 355px !important;
+        height: 355px !important;
+    }
+
+    .ss-targeted .ss-slideout-button {
+        padding: 4px 36px !important;
+    }
+
+    .custGreatProductPlpSearch::after {
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Coolhorse/great-product-mobile.jpg);
+    }
+    .custMainWrapperPlpSearch .category-product {
+        flex: 0 0 calc(50% - 8px);
+    }
+    .custMainWrapperPlpSearch .category-product.custGreatProductPlpSearch {
+        flex: 0 0 calc(100% );
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .custMainWrapperPlpSearch div#js-product-list {
+        gap: 0;
+    }
+    .custMainWrapperPlpSearch .category-product {
+        flex: 0 0 calc(50% - 0px);
+        border-radius: 0;
+    }
+    .custMainWrapperPlpSearch .category-product.custGreatProductPlpSearch {
+        margin: 10px 0;
+    }
+    .custMainWrapperPlpSearch .category-product a {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .custMainWrapperPlpSearch .custCategoryWrapperPlpSearch .custCTAButtonPlpSearch+p {
+        font-size: 10px;
+    }
+    .main-content {
+        padding: 0 5px;
+    }
+}

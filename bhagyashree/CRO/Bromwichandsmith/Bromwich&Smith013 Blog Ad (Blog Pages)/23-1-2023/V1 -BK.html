@@ -1,0 +1,855 @@
+<style>
+.page--blog #content-wrapper main .node--type-blog div[id^=tile-],
+.page--blog #content-wrapper main+.below-content,
+.page--blog .above-footer {
+    display: none;
+}
+
+.page--landing-page #content-wrapper main article.landing-page .node__content {
+    overflow: inherit;
+}
+
+.custFeedbackSection {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+
+.custFeedbackSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.custFeedbackSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 8px auto 0;
+}
+
+.custFeedbackSection .owl-carousel {
+    display: block;
+}
+
+.custFeedbackSection .row {
+    display: flex;
+}
+
+.custFeedbackSection .feedbackBox {
+    background: #fff;
+    padding: 25px 40px 55px;
+    height: 100%;
+}
+
+.custFeedbackSection .feedbackBox .starRatings span {
+    font-size: 0;
+    display: block;
+}
+
+.custFeedbackSection .feedbackBox .starRatings {
+    display: flex;
+    gap: 2px;
+    margin: 0 0 25px;
+}
+
+.custFeedbackSection .feedbackBox .quotes {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    line-height: 28px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custFeedbackSection .feedbackBox cite {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 25px 0 0;
+    display: block;
+    color: #000;
+}
+
+.custFeedbackSection .videoBox iframe {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.custFeedbackSection .videoBox {
+    position: relative;
+    font-size: 0;
+    box-shadow: 20px -20px 0px #26d07c;
+    margin: 0px 20px 0 0;
+}
+
+.custFeedbackSection .swiper.custFeedbackSwiper {
+    margin-left: -60px;
+    margin-right: -60px;
+    padding: 20px 60px 40px;
+    margin-top: -20px;
+}
+
+.custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination {
+    bottom: -5px;
+}
+
+.custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination .swiper-pagination-bullet-active {
+    background: #26D07C;
+}
+
+.custFeedbackSection .swiper-button-next,
+.custFeedbackSection .swiper-button-prev {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+}
+
+.custFeedbackSection .swiper-button-next:after,
+.custFeedbackSection .swiper-button-prev:after {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+.custFreeConsultationWraper {
+    padding: 60px 0;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.custBookBanner_sp .innerWraper {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 0 0 8px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper {
+    background: #F1F1F2;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookContent h3 {
+    font-size: 24px;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookContent p {
+    line-height: 21px;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill {
+    padding: 15px 14px;
+}
+
+.custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline {
+    background: #fff;
+    padding: 12px 18.5px;
+}
+
+.page--blog #content-wrapper main .node--type-blog {
+    margin-top: 140px;
+}
+
+.page--blog #content-wrapper main .group-header .jumbotron.generic_header {
+    background-image: none !important;
+    padding-top: 30px;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 {
+    margin: 0;
+    padding: 0 15px;
+}
+
+.page--blog #content-wrapper main .group-header .jumbotron.generic_header .row {
+    display: flex;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .paragraph__column,
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text,
+.page--blog #content-wrapper main .group-header .items-2 h1 {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.paragraph.paragraph--type--bp-image.paragraph--view-mode--default {
+    width: auto;
+    margin: 45px 0 0px;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field {
+    max-width: 550px;
+    display: block;
+    width: 100%;
+    position: relative;
+    height: 90%;
+    filter: drop-shadow(20px -20px 0px #FFFFFF);
+    margin-left: auto;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field:after {
+    display: none;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header {
+    background: no-repeat;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 59px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0px 0 15px !important;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p:first-letter {
+    text-transform: uppercase;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p a {
+    font-family: "proxima-soft","Open Sans","Times New Roman",Times,serif;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    color: #26D07C;
+    background: #fff;
+    padding: 16px 14px;
+    border-radius: 5px;
+    max-width: 262px;
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.page--blog #content-wrapper main .group-header .jumbotron.generic_header+.below-blog-header {
+    display: none;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-left {
+    display: none;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right {
+    flex: 0 0 40%;
+    width: 100%;
+    padding: 60px 15px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-middle {
+    flex: 0 0 60%;
+    width: 100%;
+    padding: 60px 15px !important;
+    margin: 0 !important;
+}
+
+.page--blog #content-wrapper main .node--type-blog .group-header+.container .row {
+    display: flex;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt {
+    background: #F1F1F2;
+    padding: 24px;
+    position: sticky;
+    top: 160px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0 0 8px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin: 0 0 25px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt ul li {
+    padding: 5px 5px 5px 40px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    background: #fff url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/tick-bullet-icon.svg) no-repeat;
+    background-position: 13px 9px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection {
+    padding-bottom: 0px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper {
+    display: flex;
+    align-items: flex-start;
+    gap: 0 35px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews {
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 10px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a {
+    display: flex;
+    gap: 0 10px;
+    background: none;
+    padding: 0;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection .btnWraper .reviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .btnWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 0;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .btnWraper a {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-2{
+    display: none;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 {
+    width: 100%;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+    padding: 32px !important;
+    background: #fff;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 10px;
+    margin: 40px 0 0;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .card-header {
+    display: none;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-group {
+    margin: 0 0 15px;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-group label{
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .js-filter-wrapper a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-actions input.button{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header ul{
+    display: none;
+}
+
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000000;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body p strong sup {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 30px;
+    display: block;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+    margin: 30px 0 24px;
+}
+.page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body ol {
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    list-style: disc;
+    padding-left: 30px;
+}
+
+@media(max-width: 1199px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .custFeedbackSection .feedbackBox .quotes {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .custFeedbackSection .feedbackBox .starRatings {
+        margin: 0 0 15px;
+    }
+
+    .custFeedbackSection .feedbackBox cite {
+        font-size: 16px;
+        margin: 15px 0 0;
+    }
+
+    .custFeedbackSection .swiper.custFeedbackSwiper {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 60px;
+    }
+
+    .custFeedbackSection .swiper-button-next,
+    .custFeedbackSection .swiper-button-prev {
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .custFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+
+    .custFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination {
+        display: none;
+    }
+}
+
+@media(max-width: 991px) {
+    .custFeedbackSection .feedbackBox {
+        padding: 25px 25px 55px;
+    }
+    .custBookBanner_sp .innerWraper {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 h1{
+        font-size: 40px;
+        line-height: 46px;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 600;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p a{
+        margin: 25px 0 0;
+        padding: 16px 52px;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field{
+        filter: drop-shadow(10px -10px 0px #FFFFFF);
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt{
+        padding: 15px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt h4{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt p{
+        font-size: 14px;
+        line-height: 18px;
+        margin: 0 0 15px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt ul{
+        margin: 0 0 5px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt ul li{
+        background-position: 7px 9px;
+        padding: 5px 5px 5px 30px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .btnWraper{
+        margin: 12px 0 0;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .btnWraper a{
+        padding: 16px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card{
+        padding: 25px !important;
+        margin: 20px 0 0;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 h1{
+        margin: 15px 0 10px !important;
+        font-size: 32px !important;
+        line-height: 40px;
+        width: 100%;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text {
+        padding-bottom: 25px !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .custFeedbackSection {
+        padding: 30px 0;
+    }
+
+    .custFeedbackSection h3 {
+        font-size: 30px;
+        line-height: 31px;
+        margin: 0 0 50px;
+    }
+
+    .custFeedbackSection h3 span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .custFeedbackSection .row {
+        flex-direction: column-reverse;
+    }
+
+    .custFeedbackSection .videoBox {
+        width: calc(100% - 20px);
+        margin: 0 0 15px;
+    }
+
+    .custFeedbackSection .feedbackBox {
+        padding: 15px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+
+    .custFeedbackSection .feedbackBox .quotes {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .custFeedbackSection .feedbackBox cite {
+        margin: 8px 0 0;
+        font-size: 16px;
+    }
+
+    .custFeedbackSection .feedbackBox .starRatings {
+        margin: 0;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+
+    .custFeedbackSection .swiper.custFeedbackSwiper {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 40px;
+    }
+
+    .custFeedbackSection .swiper-button-next,
+    .custFeedbackSection .swiper-button-prev {
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+
+    .custFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+
+    .custFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    }
+
+    .custFeedbackSection .swiper.custFeedbackSwiper .swiper-pagination {
+        display: none;
+    }
+
+    .custFreeConsultationWraper {
+        padding: 30px 0 40px;
+    }
+
+    .custBookBanner_sp .innerWraper {
+        padding: 15px;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field img,
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text,
+    .page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field{
+        max-width: 550px;
+        margin: auto !important;
+        height: 100%;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header ul{
+        display: block;
+        list-style: none;
+        margin: 15px 0 0;
+        padding-bottom: 80px;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header ul li {
+        padding: 0 !important;
+        padding-left: 35px !important;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 5px;
+        position: relative;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header ul li::before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        display: block;
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/tick-bullet-icon.svg) no-repeat 0 0;
+        filter: invert(1);
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        margin: 0 !important;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .heroBthSection,
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt ul{
+        display: none;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle{
+        padding: 40px 15px !important;
+        flex: 0 0 100%;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field img, 
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text, 
+    .page--blog #content-wrapper main .group-header .items-2 .bp-image__bp-image-field{
+        max-width: 100%;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p a{
+        margin: 0;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header{
+        position: relative;
+    }
+    .page--blog #content-wrapper main .group-header .items-2 .paragraph__column.img_floating{
+        height: 220px !important;
+    }
+    
+    .page--blog #content-wrapper main .group-header .items-2 .bp-simple__bp-text .below-blog-header p{
+        font-size: 21px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt{
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: auto;
+        z-index: 9;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-right .custBlogReduceDebt .btnWraper a{
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+        display: block;
+    }
+    .custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn{
+        width: 100%;
+    }
+    .custFreeConsultationWraper .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+        margin: 0 0 15px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-actions {
+        display: flex;
+        gap: 0 12px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-actions input.button{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 18px;
+        padding: 16px 32px;
+    }
+    .paragraph.paragraph--type--bp-image.paragraph--view-mode--default{
+        margin: 15px 0 0px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width: 360px) {
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-actions input.button{
+        font-size: 15px;
+        line-height: 16px;
+        padding: 14px 22px;
+    }
+    .page--blog #content-wrapper main .node--type-blog .container .group-middle .blog__body + section .col-md-10 .card .form-actions{
+        gap: 0 10px;
+    }
+} 
+</style>

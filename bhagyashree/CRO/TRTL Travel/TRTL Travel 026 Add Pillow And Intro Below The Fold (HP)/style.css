@@ -1,0 +1,279 @@
+#shopify-section-template--15670323085505__callouts,
+#shopify-section-template--15670323085505__features-percentage,
+#shopify-section-template--15670323085505__trustbar-columns,
+#shopify-section-template--15670323085505__trustbar-autoscroll,
+#shopify-section-template--15670323085505__bf6b0091-45c0-48d1-a6a8-54a969ab52bf,
+#shopify-section-template--15670323085505__cbae1904-5ec5-4fe1-a254-ec6bdb2f1b59{
+    display: none;
+}
+.custHeroBannerBage {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+    margin: 0 0 15px;
+}
+
+.custHeroBannerBage .ratings {
+    font-size: 0;
+}
+
+.custHeroBannerBage .ratingsText {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: var(--bs-body-font-family);
+    letter-spacing: 0.04em;
+}
+
+.custPainInNeckWraper {
+    background: #F4EEEB;
+    padding: 48px 0px;
+    text-align: center;
+}
+
+.custPainInNeckWraper h2 {font-weight: 600;font-size: 36px;line-height: 40px;text-align: center;letter-spacing: 0.02em;text-transform: uppercase;color: #000000;margin: 0 0 40px;font-family: var(--bs-body-font-family);}
+
+.custPainInNeckWraper p {
+    max-width: 812px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: ibm-plex-mono,sans-serif!important;
+}
+
+.custBenefitPillowWraper {
+    padding: 48px 0px;
+}
+
+.custBenefitPillowWraper h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 40px;
+    font-family: var(--bs-body-font-family);
+}
+
+.custBenefitPillowWraper .benefitInfoBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 275px 20px 20px;    
+    border-radius: 4px;
+    background-size: cover;
+    text-align: center;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+.custBenefitPillowWraper .benefitInfoBox.comfortable_sleep {
+    background: linear-gradient(180deg, rgba(244, 238, 235, 0) 41.75%, #F4EEEB 63.5%), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/comfortable_sleep_img.png);
+}
+.custBenefitPillowWraper .benefitInfoBox.reduce_jet_lag {
+    background: linear-gradient(180deg, rgba(244, 238, 235, 0) 41.75%, #F4EEEB 63.5%), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/reduce_jet_lag_img.png);
+}
+.custBenefitPillowWraper .benefitInfoBox.easy_to_carry {
+    background: linear-gradient(180deg, rgba(244, 238, 235, 0) 41.75%, #F4EEEB 63.5%), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/easy_to_carry_img.png);
+}
+
+.custBenefitPillowWraper .benefitInfoBox .content h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: var(--bs-body-font-family);
+}
+
+.custBenefitPillowWraper .benefitInfoBox .content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #3C3E41;
+    font-family: ibm-plex-mono,sans-serif!important;
+}
+.custBenefitPillowWraper .benefitInfoBox .content .icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 10px;
+}
+.custBenefitPillowWraper .row {
+    margin: 0 -20px;
+}
+
+.custBenefitPillowWraper .row > .col-lg-4 {
+    padding: 0 20px;
+}
+
+.custEverythingNeedWraper {
+    padding: 48px 0px 50px;
+}
+
+.custEverythingNeedWraper h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 0 0 8px;
+    font-family: var(--bs-body-font-family);
+}
+
+.custEverythingNeedWraper h2 + p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 720px;
+    margin: auto;
+    font-family: ibm-plex-mono,sans-serif!important;
+    color: #3C3E41;
+}
+
+.custEverythingNeedWraper .row {
+    margin: 40px 0 0;
+}
+
+.custEverythingNeedWraper .custProductInfo .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custEverythingNeedWraper .custProductInfo .imgBox {
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: 0;
+    height: 100%;
+}
+
+.custEverythingNeedWraper .custProductInfo h5 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 8px;
+}
+
+.custEverythingNeedWraper .custProductInfo h5 span {
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    opacity: 0.5;
+    margin: 0 0 8px;
+    letter-spacing: normal;
+}
+
+.custEverythingNeedWraper .custProductInfo p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: ibm-plex-mono,sans-serif!important;
+    color: #3C3E41;
+    letter-spacing: 0.02rem;
+}
+
+.custEverythingNeedWraper .custProductInfo .content {
+    padding-left: 24px;
+}
+
+.custEverythingNeedWraper .custProductInfo .row {
+    margin: 0;
+}
+
+.custEverythingNeedWraper .custProductInfo .row [class*="col-sm-"] {
+    padding: 0;
+}
+
+.custEverythingNeedWraper .custProductInfo .content a.custBtn {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 48px;
+    background: #FAD850;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    font-family: var(--bs-body-font-family);
+    border: 1px solid #FAD850;
+    text-transform: uppercase;
+}
+
+.custEverythingNeedWraper .custProductInfo .content a.custBtn:hover {
+    background: #000;
+    color: #fff;
+}
+@media(max-width: 991px){
+    .custEverythingNeedWraper .custProductInfo{
+        margin-bottom: 35px;
+    }
+    .custBenefitPillowWraper .benefitInfoBox{
+        margin: 0 0 20px;
+    }
+}
+@media(max-width: 767px){
+    .custHeroBannerBage{
+        gap: 4px;
+    }
+    .custHeroBannerBage .ratingsText{
+        font-size: 15px;
+    }
+    .custEverythingNeedWraper,
+    .custBenefitPillowWraper,
+    .custPainInNeckWraper{
+        padding: 30px 0px;
+    }
+    .custPainInNeckWraper h2{
+        font-size: 25px;
+        line-height: 32px;
+        margin: 0 0 15px;
+    }
+    .custPainInNeckWraper p{
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.07em;
+    }
+    .custBenefitPillowWraper h2{
+        font-size: 25px;
+        line-height: 32px;
+        margin: 0 0 40px;        
+    }
+    .custEverythingNeedWraper h2{
+        margin: 0 0 15px;
+    }
+    .custEverythingNeedWraper .custProductInfo .content{
+        padding: 15px 0;
+    }
+    .custEverythingNeedWraper .row .col-sm-6:last-child .custProductInfo{
+        margin: 0;
+    }
+    .custEverythingNeedWraper .row {
+        margin: 40px -8px 0;
+    }
+    .custBenefitPillowWraper .row{
+        margin: 0 -12px;
+    }
+}
+@media(max-width: 580px){
+    .custEverythingNeedWraper .custProductInfo .content a.custBtn{
+        width: 100%;
+    }
+}

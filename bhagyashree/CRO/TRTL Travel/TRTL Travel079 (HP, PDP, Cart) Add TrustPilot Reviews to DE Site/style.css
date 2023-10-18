@@ -1,0 +1,113 @@
+.custTrtlSliderBlocksMain {
+    position: relative;
+    padding: 0 96px;
+    margin-top: 40px;
+}
+.custTrtlReviewsCarousel {
+    background: #fff;
+    position: relative;
+    padding: 40px 0;
+}
+
+.custTrtlReviewsCarousel .custTrtlTitle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+
+.custTrtlReviewsCarousel::after {
+    content: "";
+    position: absolute;
+    background: #f7f7f7;
+    width: calc(100% + 48px );
+    left: -24px;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+.custTrtlSliderBlocksMain .swiper-slide .starsTrtlRatings {
+    display: flex;
+    gap: 0 2px;
+    margin: 0 0 8px;
+}
+.custTrtlSliderBlocksMain .swiper-slide p span {
+    display: block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: ibm-plex-sans,sans-serif;
+    color: #000 !important;
+    margin-bottom: 8px;
+}
+
+.custTrtlSliderBlocksMain .swiper-slide p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.65px;
+    color: #000;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.custTrtlSliderBlocksMain .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #f7f7f7;
+    height: auto;
+}
+
+.custTrtlReviewsCarousel .author {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    margin-top: auto;
+}
+
+.custTrtlSliderBlocksMain .swiper-button-next, 
+.custTrtlSliderBlocksMain .swiper-button-prev {
+    background-color: transparent;
+    box-shadow: none;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/arrow-slider-left.png);
+    margin-top: 0;
+    top: 33.33%;
+    bottom: auto;
+}
+
+.custTrtlSliderBlocksMain .swiper-button-next {
+    transform: rotate(180deg);
+    right: 36px;
+}
+.custTrtlSliderBlocksMain .swiper-button-prev {
+    transform: rotate(0deg);
+    right: auto;
+    left: 36px;
+}
+.custTrtlReviewsCarousel .author cite span img {
+    height: 14px;
+    margin-left: 0px;
+}
+.custTrtlSliderBlocksMain .custTrtlReviewSlider .author cite{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+.custTrtlSliderBlocksMain .custTrtlReviewSlider .author cite span {
+    font-size: 12px;
+    line-height: 14px;
+    opacity: 0.5;
+}

@@ -1,0 +1,1100 @@
+<style>
+@font-face {
+    font-family: 'dream_avenue';
+    src: url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.eot');
+    src: url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.woff2') format('woff2'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.woff') format('woff'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.ttf') format('truetype'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.svg#dream_avenueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.custMirrorMateHtmlSectionHpMob  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.custLeftBannerContentHpMob,
+.custRightBannerImgHpMob {
+    width: 50%;
+}
+.custMirrorMateHtmlSectionHpMob .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.custLeftBannerContentHpMob ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    margin-bottom: 87px;
+    gap: 31px;
+}
+
+.custLeftBannerContentHpMob ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.custLeftBannerContentHpMob {
+    padding-top: 40px;
+    padding-right: 0;
+    width: 50%;
+    padding-bottom: 40px;
+}
+
+.custLeftBannerContentHpMob ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.custLeftBannerContentHpMob ul li span {
+    margin-left: 9px;
+}
+
+.custReviewContentHpMob {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+}
+
+  
+.custReviewContentHpMob .custStarReviewsContent {
+    opacity: 0.7;
+}
+  
+.custColorFrameBoxWrapperHpMob a {
+    text-decoration: none;
+}
+
+.custReviewContentHpMob img {
+    opacity: 1;
+    margin-right: 6px;
+}
+
+.custLeftBannerContentHpMob h3 {
+letter-spacing: -0.03em;
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Dream-Avenue";
+    color: #3e5569;
+    text-transform: uppercase;
+    padding: 0 100px 0 0;
+}
+
+.custLeftBannerContentHpMob p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2F2F2F;
+    letter-spacing: -0.02em;
+    max-width: 84%;
+    margin-bottom: 26px;
+    font-family: Open Sans,sans-serif;
+}
+
+a.customBlueButtonHpMob {
+    display: flex;
+    background: #3E5569;
+    border-radius: 100px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: auto;
+    padding: 12px 35px;
+}
+
+.customButtonGroupHpMob a.customBlueButtonHpMob:last-child {background: transparent;border-radius: 100px;border: 1px solid #3E5569;color: #3E5569;margin-left: 25px;}
+
+.custRightBannerImgHpMob img {
+    width: 100%;
+    max-width: 640px;
+    display: none;
+}
+
+.custBannerReviewQuotesHpMob {
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 590px;
+    opacity: 1;
+    position: relative;
+    bottom: -40px;
+}
+
+.custRightBannerImgHpMob {
+    position: relative;
+    text-align: right;
+    max-width: 50%;
+    height: 100%;
+}
+
+.custBannerReviewQuotesHpMob span {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-style: italic;
+    font-family: Open Sans,sans-serif;
+}
+
+.custBannerReviewQuotesHpMob ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    line-height: 1;
+    padding: 0 10px;
+}
+
+.custBannerReviewQuotesHpMob ul img {
+    height: 20px;
+    width: auto;
+}
+
+.custBannerReviewQuotesHpMob ul small {
+    color: #8699A7;
+    font-weight: 500;
+    font-size: 12px;
+   font-family: Open Sans,sans-serif;
+    line-height: 18px;
+}
+
+.custBannerReviewQuotesHpMob ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+   font-family: Open Sans,sans-serif;
+}
+
+.custAsSeenLogosBlockHpMob {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custAsSeenLogosBlockHpMob ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custAsSeenLogosBlockHpMob ul li img {
+    width: auto;
+    height: 80px;
+}
+
+.custWorksOnAnyMirrorHpMob ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.custWorksOnAnyMirrorHpMob h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+    font-family: Tisa Pro;
+    max-width: 380px;
+}
+
+.custWorksOnAnyMirrorHpMob ul li a {
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3E5569;
+    font-family: Open Sans,sans-serif;
+    margin: 16px 0 0 0;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.custWorksOnAnyMirrorHpMob {
+    padding: 40px 0;
+}
+
+.custMostPopulerColorHpMob {
+    text-align: center;
+    background: #F2F6FF;
+    padding: 40px 0 40px 40px;
+}
+
+.custCommonHeadingHpMob h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.96px;
+    color: #2F2F2F;
+    font-family: Tisa Pro;
+    margin-bottom: 12px;
+}
+
+.custCommonHeadingHpMob p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    color: #222528;
+    font-family: Open Sans,sans-serif;
+    margin: 0 0 40px 0;
+}
+
+.custSlickSliderWrapperHpMob .slick-slide {
+    height: 100%;
+}
+
+.custColorFrameBoxWrapperHpMob {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(35, 78, 166, 0.02);
+    border-radius: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.custColorFrameBoxWrapperHpMob h5 {
+    padding: 10px 0;
+    margin: 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #3E5569;
+   font-family: Open Sans,sans-serif;
+}
+
+.slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custColorFrameBoxWrapperHpMob img {
+    height: auto;
+    width: 100%;
+}
+
+.custSlickColorSliderHpMob a.customBlueButtonHpMob {
+    margin: 40px auto 0 auto;
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #B1D4E0;
+    border-radius: 42px;
+    background: #FFFFFF;
+    top: calc(50% - 30px);
+    transform: translateY(-50%);
+    position: absolute;
+    text-indent: -1000000px;
+}
+
+button.slick-prev.slick-arrow {
+    left: -10px;
+    z-index: 1;
+}
+
+button.slick-next.slick-arrow {
+    right: 40px;
+}
+
+button.slick-prev.slick-arrow::after,
+button.slick-next.slick-arrow::after {
+    content: "";
+    text-indent: 0;
+    position: absolute;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+    left: 0;
+}
+
+button.slick-next.slick-arrow::after {
+    transform: rotate(180deg);
+    top: -3px;
+    left: -2px;
+}
+
+.custReviewRatingStarsHpMob {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custFramesSoldBlockHpMob {
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.custReviewRatingStarsHpMob div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+   font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custReviewRatingStarsHpMob h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+}
+
+.custReviewRatingStarsHpMob div span {
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+.custClientReviewSliderHpMob .custReviewWrapperHpMob {
+    background: #f2f6ff;
+    display: flex;
+    align-items: center;
+    margin: 0 13px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custClientReviewSliderHpMob .slick-slide {
+    height: auto;
+}
+
+.custClientReviewSliderHpMob .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custReviewWrapperHpMob * {
+    text-align: left;
+}
+
+.custReviewWrapperHpMob div {
+    padding: 15px;
+}
+
+.custReviewWrapperHpMob h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+    margin: 10px 0 4px 0;
+}
+
+.custReviewWrapperHpMob p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.custReviewWrapperHpMob div div {
+    padding: 0;
+}
+
+.custReviewClientInfo {
+    font-weight: 500;
+    font-size: 12px;
+    color: #2F2F2F;
+}
+
+body .custReviewClientInfo small {
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: #8699A7 !important;
+    display: block !important;
+}
+
+.custClientReviewSliderHpMob button.slick-next.slick-arrow {
+    right: -9px;
+}
+
+.custClientReviewSliderHpMob {
+    padding: 40px 0 0 0;
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+ul.slick-dots li button {
+    border: 0;
+    font-size: 0;
+    background: #B1D4E0;
+    border-radius: 100px;
+    max-width: 100%;
+    height: 8px;
+    padding: 0;
+    width: 8px;
+}
+
+ul.slick-dots li {
+    flex: 0 0 8px;
+    margin: 0 5px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    max-width: 8px;
+}
+
+li.slick-active button {
+    background: #3E5569 !important;
+}
+
+.custHowItsWorkVideoBlockHpMob .col-md-6 {
+    width: 50%;
+}
+
+.custHowItsWorkVideoBlockHpMob .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.custHowItWorksVideoPopupHpMob {
+    position: relative;
+    padding-top: 75%;
+    height: 100%;
+}
+
+.custHowItWorksVideoPopupHpMob button#custPlayButton {
+    position: absolute;
+    display: none;
+    width: 80px;
+    height: 80px;
+    left: 50%;
+    top: 50%;
+    margin-left: -40px;
+    margin-top: -40px;
+    background: transparent url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/video_play_btn.svg) no-repeat center center;
+    font-size: 0 !important;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+}
+
+.custHowItsWorkVideoBlockHpMob {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/hero_section_018.png);
+    background-size: contain;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: #eeeeee;
+    align-items: center;
+    background-position: center right;
+    margin-bottom: 40px;
+}
+
+.custHowItsWorkVideoBlockHpMob .col-md-6:last-child {
+    padding-left: 100px;
+    order: 1;
+}
+
+.custHowItsWorkVideoBlockHpMob .col-md-6:last-child h2,
+.custHowItsWorkVideoBlockHpMob .col-md-6:last-child p {
+    text-align: left;
+}
+
+.custHowItsWorkVideoBlockHpMob .col-md-6:last-child p {
+    margin-bottom: 40px;
+    padding-right: 70px;
+    letter-spacing: -0.36px;
+}
+
+.custHowItsWorkVideoBlockHpMob ul {
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.custHowItsWorkVideoBlockHpMob ul li {
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+}
+
+.custHowItsWorkVideoBlockHpMob ul li::before {
+    content: "1";
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #8699A7;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.custHowItsWorkVideoBlockHpMob ul li:nth-child(2)::before {
+    content: "2";
+}
+
+.custHowItsWorkVideoBlockHpMob ul li:nth-child(3)::before {
+    content: "3";
+}
+
+.custHowItsWorkVideoBlockHpMob ul li:last-child {
+    padding-bottom: 0;
+}
+
+.custGuaranteeWrapperBlockHpMob {
+    background: #ffffff;
+    padding: 0 40px;
+}
+
+.custGuaranteeWrapperBlockHpMob .custWhiteBgHpMob {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: calc(1440px - 80px);
+    border-radius: 5px;
+    background: #F2F6FF;
+    margin: 0 auto;
+}
+
+.custGuaranteeTitleHpMob {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E5569;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+}
+
+.custGuaranteeWrapperBlockHpMob .custWhiteBgHpMob ul {
+    display: flex;
+    align-items: center;
+}
+
+.custGuaranteeWrapperBlockHpMob .custWhiteBgHpMob ul li {
+    margin-left: 96px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+}
+
+.custGuaranteeTitleHpMob img {
+    margin-right: 10px;
+}
+
+.custGuaranteeWrapperBlockHpMob .custWhiteBgHpMob ul li img {
+    margin-right: 5px;
+}
+
+.custVideoBlock iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.custVideoBlock {
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 97%;
+    z-index: 1;
+}
+
+.custMainVideoBlockHpMob button.slick-next.slick-arrow {
+    right: -13px;
+}
+
+.custRealCustomersSectionHpMob ul.slick-dots {
+    display: none;
+}
+
+.custRealCustomersSectionHpMob a.customBlueButtonHpMob {
+    margin: 40px auto 0 auto;
+}
+
+.custMainVideoBlockHpMob {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.custRealCustomersSectionHpMob {
+    padding: 40px;
+    background: #F2F6FF;
+    text-align: center;
+}
+
+div#shopify-section-1617688047012cdcce,
+div#shopify-section-1569604578394,
+div#shopify-section-1617688302e77dab54,
+div#shopify-section-1617688884153326c5,
+div#shopify-section-1617688939922723e1,
+div#shopify-section-1559827116471,
+div#shopify-section-1562836057404,
+div#shopify-section-1584459392797,
+div#shopify-section-1632835673f56a3a9d {
+    display: none;
+}
+
+div#shopify-section-sswinstagram h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E5569;
+    padding: 0;
+    margin: 0 0 40px 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+}
+
+div#shopify-section-sswinstagram {
+    padding-top: 40px;
+}
+
+.ssw-instagram-load-more a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3E5569;
+    opacity: 1 !important;
+   font-family: Open Sans,sans-serif;
+    text-decoration: none;
+}
+
+.ssw-instagram-load-more a i {
+    display: none;
+}
+
+div#shopify-section-1617690624afb5eec3 h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+}
+
+div#shopify-section-1617690624afb5eec3 .contain-full-width {
+    padding: 40px 15px 0 15px;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper:after {
+    width: calc(50% - 40px);
+    display: block;
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/mirror-frame-kits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom__item-richtext .content {
+    max-width: 100% !important;
+}
+
+div#shopify-section-1617690624afb5eec3 .custom-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.custom-content-container.align-left {
+    width: 50%;
+    padding: 38px 0;
+}
+
+.richtext a.customBlueButtonHpMob {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+div#shopify-section-1617690624afb5eec3 .richtext p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Open Sans,sans-serif;
+    color: #222528 !important;
+}
+
+div#shopify-section-1617690624afb5eec3 {
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+.custVideoBlock.custOpenVideoPopup {
+    display: flex;
+}
+.custFramesSoldBlockHpMob button.slick-next.slick-arrow,
+.custFramesSoldBlockHpMob button.slick-prev.slick-arrow {
+    top: 50%;
+}
+
+.custSlickSliderWrapperHpMob .slick-list {
+    padding-left: 0 !important;
+}
+
+
+.custHowItWorksVideoPopupHpMob iframe.wistia_embed {
+    width: 100%;
+    position: relative;
+    height: 600px;
+} 
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    position: relative;
+} 
+
+/*** image before after slider ****/
+.custRightBannerImgHpMob .container {
+    max-width: 100%;
+    padding: 0;
+}
+.custBannerReviewQuotesHpMob span strong {
+    display: none;
+}
+.custBannerFullBgHpMob .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    align-items: center;
+}
+
+.custBannerFullBgHpMob {
+    display: flex;
+    background-color: #ffffff;
+}
+
+.customButtonGroupHpMob {
+    display: flex;
+}
+
+.custWorksOnAnyMirrorHpMob ul li a::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np_arrow-right.svg);
+    content: "";
+    display: block;
+    width: 21px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.custCommonHeadingHpMob small {
+    color: #8699A7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    font-family: Open Sans,sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.customButtonGroupHpMob a.customBlueButtonHpMob:last-child img {
+    margin-left: 10px;
+}
+
+
+.custFramesSoldBlockHpMob h2, .custMostPopulerColorHpMob h2, .custRealCustomersSectionHpMob h2, .custSeeForYourselfHpMob .custcol6 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+    margin-bottom: 0;
+    color: #3E5569;
+}
+
+.custMostPopulerColorHpMob p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222528;
+}
+
+.custMostPopulerColorHpMob a.customBlueButtonHpMob {
+    display: inline-block;
+}
+
+.custRealCustomersSectionHpMob  a.customBlueButtonHpMob {
+    display: inline-block;
+}
+
+.custSeeForYourselfHpMob {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+}
+
+.custSeeForYourselfHpMob .custcol6 {
+    width: 50%;
+}
+
+.custSeeForYourselfHpMob .custcol6 img {
+    width: 100%;
+}
+
+.custSeeForYourselfHpMob .custcol6:last-child {
+    padding: 40px 80px;
+}
+
+.custSeeForYourselfHpMob .custcol6 h2, .custSeeForYourselfHpMob .custcol6 p {
+    text-align: left;
+}
+
+.custSeeForYourselfHpMob .custcol6 p {
+    margin-top: 12px;
+    max-width: 450px;
+    font-size: 20px;
+}
+
+.custSeeForYourselfHpMob .custcol6 a.customBlueButtonHpMob {
+    border-radius: 100px;
+    border: 1px solid #3E5569;
+    background-color: transparent;
+    color: #3E5569;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.custAccordionContentHpMob {
+    display: none;
+}
+.custFAQBlockHpMob input:checked ~  .custAccordionContentHpMob {
+    display: block;
+}
+
+.custFAQBlockHpMob {
+    background: #F2F6FF;
+    padding: 40px;
+}
+
+.custFAQBlockHpMob input[type="checkbox"] {
+    position: absolute;
+    left: -1000%;
+}
+
+.custAccordionHeaderHpMob {
+    cursor: pointer;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    font-family: Open Sans,sans-serif;
+    position: relative;
+}
+
+.custFAQBlockHpMob label.custAccordionHpMob {
+    border-top: 1px solid rgba(134, 153, 167, 0.20);
+    border-bottom: 1px solid rgba(134, 153, 167, 0.20);
+    padding: 16px 8px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.custFAQwrapperHpMob {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.custAccordionContentHpMob p {
+    color: #2f2f2f;
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.custAccordionHeaderHpMob::after {
+    content: "";
+    display: block;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    width: 11px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-90deg);
+    background-size: 7px 16px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.custFAQBlockHpMob input:checked ~ .custAccordionHeaderHpMob::after {
+    transform: rotate(90deg);
+}
+body{
+    opacity: 0;
+  }  
+
+.custFAQwrapperHpMob h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0 0 40px 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+}
+
+.custAccordionHeaderHpMob a {
+    color: #2f2f2f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.custMImageHpMob{display: none;}
+.custHowItWorksVideoPopupHpMob video {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 0;
+}
+.custBannerReviewQuotesHpMob ul img {display: block;}
+.custWorksOnAnyMirrorHpMob ul li a::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.custWorksOnAnyMirrorHpMob ul li {position: relative;}
+.custWorksOnAnyMirrorHpMob ul li a span {
+    width: 25px;
+    margin-right: 10px;
+}
+div#shopify-section-1617690624afb5eec3 .wrapper:before {
+    content: "" !important;
+}
+.custHowItsWorkVideoBlockHpMob .col-md-6:first-child {
+    order: 2;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: relative;
+}
+
+.custHowItsWorkVideoBlockHpMob .col-md-6:last-child h2 {
+    padding-right: 30px;
+}
+.custHowItsWorkVideoBlockHpMob .custBannerReviewQuotesHpMob ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.custHowItsWorkVideoBlockHpMob .custBannerReviewQuotesHpMob ul li {
+    padding: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.custHowItsWorkVideoBlockHpMob .custBannerReviewQuotesHpMob ul li::before {
+    display: none;
+}
+
+.custHowItsWorkVideoBlockHpMob .custBannerReviewQuotesHpMob ul li small {
+    margin: 0 0 0 10px;
+}
+.custHowItsWorkVideoBlockHpMob .custRightBannerImgHpMob {
+    max-width: 100%;
+    width: 100%;
+}
+</style>

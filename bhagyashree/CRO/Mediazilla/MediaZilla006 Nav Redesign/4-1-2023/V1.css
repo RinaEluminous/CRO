@@ -1,0 +1,416 @@
+<style>
+.nav-wrapper{
+    display: none;
+}
+.nav-container{
+    margin: -1px auto 0;
+}
+.custNavWraper {
+    width: 100%;
+    padding-top: 1px;
+}
+.custNavWraper nav .wrapper{
+    position: relative;
+    max-width: 1300px;
+    padding: 0px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: normal;
+    gap: 0;
+}
+.custNavWraper nav .wrapper .div-block{
+    margin-left: auto;
+}
+.custNavWraper nav .wrapper .div-block a.navlink{
+    line-height: normal;
+    font-family: Poppins,sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#fff;
+}
+.custNavWraper nav .wrapper .div-block a.nav-button.get-a-demo{
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.custNavWraper nav .wrapper .div-block a.nav-button.get-a-demo.outline{
+    background: none;
+    border: 2px solid #ca2128;
+}
+.custNavWraper nav .wrapper .logo a{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 14px;
+}
+.custNavWraper nav .wrapper .nav-links{
+    display: inline-flex;
+    margin: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li .custLink{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    line-height: normal;
+    font-family: Poppins,sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav-links .custLink .dropdown-icon{
+    filter: invert(100%);
+    transition: all 0.3s ease;
+}
+.nav-links li input[type="checkbox"]:checked ~ .mega-box,
+.nav-links li input[type="radio"]:checked ~ .mega-box{
+/* .nav-links li:hover .mega-box{ */
+  transition: all 0.3s ease;
+  top: 61px;
+  opacity: 1;
+  visibility: visible;
+}
+.nav-links li input[type="checkbox"]:checked ~ .custLink .dropdown-icon,
+.nav-links li input[type="radio"]:checked ~ .custLink .dropdown-icon{
+    transform: rotate(180deg);
+}
+.mega-box{
+  position: absolute;
+  left: 0;
+  width: 100%;
+  padding: 0 95px;
+  top: 85px;
+  opacity: 0;
+  visibility: hidden;
+}
+.mega-box .content{
+  background: #fff;
+  padding: 25px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+  flex-wrap: wrap;
+  border-radius: 0px 0px 10px 10px;
+}
+.mega-box .content .row{
+    width: calc(25% - 30px);
+    line-height: 45px;
+    display: flex;
+    gap: 0 8px;
+    margin: 0 0 25px;
+    text-decoration: none;
+}
+.mega-box .content .row .icon {
+    width: 24px;
+    display: flex;
+    height: 24px;
+    flex: 0 0 24px;
+    margin-top: -5px;
+}
+.content .row img{
+  width: 100%;
+  height: 100%;
+}
+.mega-box .content .row .mContent {
+    max-width: 185px;
+}
+.mega-box .content .row .mContent h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto,sans-serif;
+    margin: 0 0 10px;
+    color: #000;
+}
+.mega-box .content .row .mContent p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: Roboto,sans-serif;
+    color: #333333;
+    opacity: 0.9;
+    letter-spacing: normal;
+}
+.custNavWraper nav .wrapper .btn{
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+}
+.mega-box .content .custTrialWraper {
+    width: 100%;
+    padding: 20px 25px;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mega-box .content .custTrialWraper h5 {
+    font-weight: 600;
+    font-size: 18px;
+    font-family: Roboto,sans-serif;
+    color: #000000;
+    max-width: 425px;
+    margin: 0;
+    line-height: 24px;
+}
+.mega-box .content .custTrialWraper a.custBtn.fillBtn {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.07em;
+    border-radius: 5px;
+    border: 2px solid #C8242E;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+    white-space: nowrap;
+    background: #C8242E;
+    display: flex;
+    height: 48px;
+}
+.navbar:not([style*="will-change:"]) img.logo-1,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] img.logo-1 {
+  opacity: 0 !important;
+  display: none;
+}
+.navbar:not([style*="will-change:"]) img.logo-2,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] img.logo-2 {
+  opacity: 1 !important;
+  display: block;
+}
+.navbar:not([style*="will-change:"]) .nav-links li .custLink, 
+.navbar:not([style*="will-change:"]) .nav-links li a, 
+.navbar:not([style*="will-change:"]) .nav-links .div-block .nav-button.get-a-demo:not(.custTrialLink){
+  color: #000;
+}
+.custNavWraper nav .navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .wrapper .logo a img.logo-2{
+  display: none !important;
+  opacity: 1 !important;  
+}
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .nav-links .div-block a.nav-button.get-a-demo.outline,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .nav-links .div-block .navlink.signin,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .nav-links li .custLink{
+    color: #131313;
+}
+.navbar:not([style*="will-change:"]) .nav-links li .custLink img.dropdown-icon,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .nav-links li .custLink img.dropdown-icon{
+    filter: invert(0%) !important;
+}
+.navbar:not([style*="will-change:"]) .custNavWraper nav .wrapper .btn.menu-btn,
+.navbar[style*="will-change: background; background-color: rgb(247, 247, 247);"] .custNavWraper nav .wrapper .btn.menu-btn{
+    color: #131313;
+}
+.custNavWraper nav .wrapper .nav-links .custMobileHeader{
+    display: none;
+}
+.custNavWraper nav .wrapper .nav-links .custMobileHeader a{
+    padding: 0;
+}
+.custOverlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 50%);
+    z-index: 0;
+    display: none;
+    margin: 0;
+}
+.custMobileHeader {
+    padding: 0 15px;
+    position: relative;
+}
+.custNavWraper label.btn.close-btn{
+    color: #000;
+    position: absolute;
+    right: 38px;
+    margin: 0;
+    top: 50%;
+    margin-top: -10px;
+    display: flex;
+}
+
+.custNavWraper label.btn.close-btn svg {
+    width: 12px;
+    height: 12px;
+    display: block;
+}
+.custNavWraper label.btn.close-btn svg path {
+    fill: #000;
+}
+
+@media screen and (max-width: 970px) {
+  .custNavWraper nav .wrapper .btn{
+    display: block;
+  }
+  .custNavWraper nav .wrapper .nav-links{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    max-width: 375px;
+    top: 0;
+    left: -100%;
+    background: #fff;
+    display: flex;
+    padding: 0px;
+    line-height: 50px;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+    flex-direction: column;
+  }  
+    .custNavWraper nav .wrapper .nav-links .custMobileHeader{
+        display: block;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 1;
+    }
+  #menu-btn:checked ~ .custOverlay{
+    display: block;
+  }
+  #menu-btn:checked ~ .nav-links{
+    left: 0%;
+  }
+  
+  #close-btn:checked ~ .btn.menu-btn{
+    display: block;
+  }
+  #close-btn:checked ~ .custOverlay{
+    display: none;
+  }
+  .nav-links li{
+    margin: 0;
+  }
+  .nav-links li a{
+    padding: 0 20px;
+    display: block;
+    font-size: 20px;
+  }
+  .nav-links input[type="radio"]:checked ~ .mega-box,
+  .nav-links input[type="checkbox"]:checked ~ .mega-box{
+    max-height: 100%;
+  }
+  .nav-links input[type="radio"]:checked ~ label img.dropdown-icon,
+  .nav-links input[type="checkbox"]:checked ~ label img.dropdown-icon{
+    transform: rotate(180deg);
+  }
+  .mega-box{
+    position: static;
+    top: 65px;
+    opacity: 1;
+    visibility: visible;
+    padding: 0 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .mega-box .content{
+    box-shadow: none;
+    flex-direction: column;
+    padding: 0px;
+    border-radius: 0;
+  }
+  .mega-box .content .row{
+    width: 100%;
+    margin-bottom: 15px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding: 0;
+  }
+  .mega-box .content .row:nth-child(1),
+  .mega-box .content .row:nth-child(2){
+    border-top: 0px;
+  }
+  .nav-links .div-block a.nav-button.get-a-demo{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 15px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .custNavWraper nav .wrapper .div-block{
+    margin-top: auto;
+    padding: 20px 15px 0;
+  }
+  .custNavWraper nav .wrapper .div-block a.navlink{
+    padding: 15px;
+    color: #000 !important;
+  }
+  .nav-links .div-block a.nav-button.get-a-demo.outline{
+    color: #000 !important;
+  }
+  .nav-links li .custLink{
+    color: #000 !important;
+    padding: 15px !important;
+    line-height: 18px;
+    padding-right: 35px !important;
+    position: relative;
+
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .nav-links li .custLink img.dropdown-icon{
+    filter: invert(0%) !important;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    margin-top: -6px;
+    transition: all 0.3s ease;
+  }
+  .mega-box .content .custTrialWraper{
+    display: none;
+  }  
+  .mega-box .content .row .mContent{
+    max-width: 100%;
+  }
+  .nav-links li .custLink{
+    font-size: 14px;
+    letter-spacing: 0.07em;
+  }
+  .custNavWraper label.btn.close-btn .w-icon-nav-menu:before{
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+    .custNavWraper label.btn.close-btn .w-icon-nav-menu svg{
+        display: none;
+    }
+    .custNavWraper label.btn.close-btn .w-icon-nav-menu:before{
+      display: block;
+    }
+    .custNavWraper nav .wrapper .nav-links{
+        max-width: 100%;
+    }
+}
+
+nav input{
+  display: none;
+}
+</style>

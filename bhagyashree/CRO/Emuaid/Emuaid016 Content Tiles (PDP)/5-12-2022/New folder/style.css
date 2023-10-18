@@ -1,0 +1,499 @@
+.product-enhancedwithselector .section-product-benefit{
+    display: none;
+}
+.custProductBenefits{
+    padding: 0 0 40px;
+    background: #F2F7FA;
+}
+.custSticklyBanner{
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.custSticklyBanner h6.custProdName {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 348px;
+    width: 100%;
+    text-align: center;
+    flex: 0 0 100%;
+}
+
+.custSticklyBanner .custReview{
+    padding: 10px;
+}
+
+.custSticklyBanner .custReview span.jdgm-prev-badge__text {
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.custSticklyBanner .customPurchaseBlock {
+    gap: 0 12px;
+    padding-left: 12px;
+}
+
+.custSticklyBanner .customPurchaseBlock .product-quantity-box {
+    width: calc(50% - 18px);
+    margin: 0;
+}
+.custSticklyBanner .customPurchaseBlock .custAddToCartBtn {
+    max-width: 200px;
+    width: 100%;
+}
+
+.custProductBenefits h2 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #292B2D;
+    font-weight: 700;
+    padding: 0;
+    font-size: 32px;
+    margin: 40px 0;
+    line-height: 40px;
+}
+
+.custProductBenefits .row {
+    margin: 0;
+    gap: 20px;
+}
+
+.custProductBenefits .row .col-sm-6 {
+    width: calc(50% - 10px);
+    padding: 0;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol {
+    border: 1px solid #C5C4C5;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.custProductBenefits .row .col-sm-6 .contentCol .productDescription{    
+    padding: 20px;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol .imgBox {
+    font-size: 0;
+    display: block;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol .imgBox img {
+    margin: 0;
+    font-size: 0;
+    display: block;
+    width: 100%;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol h6 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #001489;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+.custProductBenefits .row .col-sm-6 .contentCol .productDescription p:last-child {
+    margin: 0;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol ul.numListings {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    counter-reset: number-counter;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol ul.numListings li {
+    padding: 4px 0 4px 48px;
+    margin: 0 0 8px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    position: relative;
+    counter-increment: number-counter;
+    color: #292B2D;
+}
+
+.custProductBenefits .warning {
+    background: #EEEEEE;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #292B2D;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol ul.numListings li:after {
+    content: counter(number-counter);
+    width: 32px;
+    height: 32px;
+    background: #EEEEEE;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -16px;
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol span.showIngradientBtn i {
+    display: inline-flex;
+    flex: 0 0 34px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    height: 34px;
+    font-size: 16px;
+    transform: rotate(270deg);
+}
+
+.custProductBenefits .row .col-sm-6 .contentCol span.showIngradientBtn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #001489;
+    cursor: pointer;
+}
+
+.custProductBenefits .row .col-sm-6:nth-child(even) .contentCol .imgBox {
+    order: 1;
+}
+
+.custProductBenefits .row .col-sm-6:nth-child(even) .contentCol .productDescription {
+    order: 2;
+}
+
+.custProductBenefits .row .col-sm-12 {
+    width: 100%;
+    padding: 0;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox {
+    background: #EEEEEE;
+    border: 1px solid #C5C4C5;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-4 {
+    flex: 0 0 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 18px;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-8 {
+    flex: 0 0 75%;
+    padding: 18px;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-8 h6 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #001489;
+    padding: 0;
+    margin: 0 0 15px;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-8  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 15px;
+}
+
+.custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-8 p:last-child {
+    margin: 0;
+}
+
+.custProductBenefits .custIngredientInfo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000000e0;
+    color: #fff;
+    padding: 40px;
+    display: none;
+}
+
+.custProductBenefits .custIngredientInfo h6 {
+    font-size: 16px !important;
+    color: #fff !important;
+    margin: 0 0 8px !important;
+}
+
+.custProductBenefits .custIngredientInfo span.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.custProductBenefits .custIngredientInfo span.close:after {
+    content: "+";
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    transform: rotate(45deg);
+}
+
+/* History accordion */
+#history_accordion {
+    margin-left: auto;
+    position: relative;
+    padding: 50px;
+}
+
+#history_accordion .card {
+    position: unset;
+    border-radius: 0;
+    border: 0px;
+}
+
+#history_accordion .card .card_main {
+    position: relative;
+}
+
+#history_accordion label {
+    position: relative;
+    margin: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    bottom: 0;
+}
+
+#history_accordion input[type="radio"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    min-height: 96px;
+    z-index: 1;
+    cursor: pointer;
+    width: 285px;
+}
+
+#history_accordion input[type="radio"]:checked {
+    visibility: hidden;
+}
+
+#history_accordion input[type="radio"] ~ .collapse {
+    visibility: hidden;
+    opacity: 0;
+    transition: height 0s, visibility 0s, opacity 0.5s linear;
+    display: block;
+    height: 0;
+    width: calc(100% - 285px);
+    margin-left: auto;
+}
+
+#history_accordion input[type="radio"]:checked ~ .collapse {
+    display: block;
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+#history_accordion .card:nth-child(1) label {    
+    top: calc(80px * 1);
+}
+#history_accordion .card:nth-child(2) label {
+    top: calc(80px * 2);
+}
+#history_accordion .card:nth-child(3) label {
+    top: calc(80px * 3);
+}
+#history_accordion .card:nth-child(4) label {
+    top: calc(80px * 4);
+}
+
+#history_accordion label button.history_btn {
+    background: none;
+    width: 100%;
+    text-align: left;
+    padding: 30px;
+    font-size: 30px;
+    display: block;
+    border: 0px;
+}
+
+#history_accordion .card-body {
+    padding: 50px 30px 60px 30px;
+}
+
+#history_accordion .card-body .content {
+    display: flex;
+    gap: 0 30px;
+}
+
+#history_accordion .card-body .content .para p {
+    font-size: 18px;
+    margin: 0 0 40px;
+}
+
+#history_accordion .card-body .content span {
+    min-width: 74px;
+}
+
+.collapse {
+    display: none;
+}
+
+@media(max-width: 1024px){
+    .custSticklyBanner h6.custProdName{
+        max-width: none;
+        width: auto;
+        flex: 0 0 auto;
+    }
+    .custSticklyBanner{
+        top: 60px;
+    }
+}
+@media(max-width: 991px){
+    .custSticklyBanner .customPurchaseBlock .product-quantity-box{
+        display: none;
+    }
+    .custSticklyBanner .customPurchaseBlock{
+        padding-left: 0;
+        max-width: 200px;
+        width: 100%;
+    }
+    .custSticklyBanner .custReview{
+        padding: 10px 15px;
+    }
+    .custProductBenefits .row .col-sm-6 .contentCol ul.numListings li{
+        line-height: 20px;
+        padding: 5px 0 5px 40px;
+        margin: 0 0 8px;
+    }
+    .custProductBenefits .row .col-sm-6 .contentCol .imgBox {
+        order: 1;
+        padding-top: 200px;
+        position: relative;
+        overflow: hidden;
+    }
+    .custProductBenefits .row .col-sm-6 .contentCol .imgBox img{
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+    .custProductBenefits .row .col-sm-6 .contentCol .productDescription {
+        order: 2;
+    }
+    .custProductBenefits .row .col-sm-6 .contentCol{
+        justify-content: flex-start;
+    }
+}
+@media(max-width: 767px){
+    .custSticklyBanner{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .custSticklyBanner h6.custProdName{
+        text-align: left;
+        font-size: 20px;
+        margin: 0 0 8px;
+    }
+    .custSticklyBanner .customPurchaseBlock .custAddToCartBtn{
+        max-width: 220px;
+        width: 100%;
+        flex: 0 0 220px;
+    }
+}
+@media(max-width: 480px){
+    .custSticklyBanner h6.custProdName{
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+        letter-spacing: -0.02em;
+    }
+    .custSticklyBanner .customPurchaseBlock .custAddToCartBtn{
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .custSticklyBanner .custReview {
+        padding: 0px 10px 0px 0;
+        width: 100px;
+    }
+    .custSticklyBanner .customPurchaseBlock{
+        padding-left: 0;
+        flex: 0 0 calc(100% - 100px);
+        width: 100%;
+        max-width: 100%;
+    }
+    .custProductBenefits .row .col-sm-6{
+        width: calc(100% - 0px);
+    }
+    .custProductBenefits .row .col-sm-12 .guaranteeBox{
+        flex-direction: column;
+    }
+    .custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-4,
+    .custProductBenefits .row .col-sm-12 .guaranteeBox .col-sm-8{
+        flex: 0 0 100%;
+    }
+    .custProductBenefits .row{
+        padding: 0 5px;
+    }
+    .custProductBenefits .custIngredientInfo{
+        padding: 40px 20px 20px;
+    }
+}
+@media(max-width: 360px){
+    .custSticklyBanner h6.custProdName{        
+        font-size: 16px;
+        line-height: 16px;
+    }
+}

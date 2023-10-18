@@ -1,0 +1,1411 @@
+<style>.page--landing-page #content-wrapper main .node.landing-page .node__content div[id^=tile-],
+.page--landing-page #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(1),
+.page--landing-page #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(2),
+.page--landing-page #content-wrapper main+.below-content,
+.page--landing-page #content-wrapper main~.above-footer {
+	display: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	letter-spacing: 0
+}
+
+.custOptionbodyWrapperFunnel {
+	margin-bottom: 0;
+	z-index: 1;
+	position: relative
+}
+
+.custHeroSectionFunnel {
+	padding: 80px 0 20px
+}
+
+.custHeroSectionFunnel .row,
+.custWorryingDebtSectionbdFunnel .row {
+	display: flex;
+	align-items: center
+}
+
+.custHeroSectionFunnel .col-6,
+.custWorryingDebtSectionbdFunnel .col-6 {
+	flex: 0 0 50%;
+	padding: 0 15px;
+	position: relative
+}
+
+.custHeroSectionFunnel h2 {
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 60px;
+	color: #0d1c14;
+	margin: 0 0 15px
+}
+
+.custHeroSectionFunnel h2.greenTxt {
+	color: #26d07c;
+	margin: 0 0 35px
+}
+
+.custHeroSectionFunnel p {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 34px;
+	color: #0d1c14
+}
+
+.custRebuildWraperFunnel {
+	width: 100%;
+	padding: 40px 0
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel {
+	background: #f1f1f2;
+	padding: 20px 30px;
+	color: #000;
+	width: 100%;
+	display: flex;
+	gap: 30px;
+	justify-content: space-between;
+	align-items: center
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel .custBookContentFunnel h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: normal;
+	margin: 0 0 0
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0 15px
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.fill {
+	margin: 0;
+	padding: 15px 30px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #26d07c;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	display: inline-block
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline {
+	border: 1px solid #26d07c;
+	border-radius: 5px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 500;
+	font-size: 18px;
+	background: #fff
+}
+
+.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline:hover {
+	color: #22ba6f;
+	border-color: #22ba6f
+}
+
+.custOptionHeroBtn_spFunnel .custBtnWraperFunnel {
+	display: flex;
+	align-items: center;
+	gap: 0 35px
+}
+
+.custOptionHeroBtn_spFunnel .custBtnWraperFunnel .custReviewsFunnel {
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	color: rgba(0, 0, 0, .6)
+}
+
+.custOptionHeroBtn_spFunnel .custReviewsFunnel a {
+	display: flex;
+	gap: 0 10px
+}
+
+.custOptionHeroBtn_spFunnel .custReviewsFunnel a:hover {
+	text-decoration: none
+}
+
+.custOptionHeroBtn_spFunnel .custReviewsFunnel a .googleIcon {
+	width: 16px;
+	flex: 0 0 16px
+}
+
+.custOptionHeroBtn_spFunnel .custReviewsFunnel a .reviewContent {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: flex-start
+}
+
+.custOptionHeroBtn_spFunnel .reviewsStarWraper .starsWraper {
+	display: flex;
+	align-items: center;
+	gap: 5px
+}
+
+.custOptionHeroBtn_spFunnel .reviewsStarWraper .starsWraper .starsCount {
+	color: #fa9428;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 20px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custOptionHeroBtn_spFunnel .reviewsStarWraper .starsWraper .starsListing {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	gap: 0 1px
+}
+
+.custOptionHeroBtn_spFunnel .reviewsStarWraper .starsWraper .starsListing span {
+	font-size: 0;
+	display: inline-block
+}
+
+.custOptionHeroBtn_spFunnel .custReviewsFunnel a .reviewContent .reviewsNumber {
+	font-weight: 400;
+	font-size: 12px;
+	color: rgba(0, 0, 0, .6);
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custWorryingDebtSectionbdFunnel {
+	background: #f1f1f2;
+	padding: 60px 0;
+	color: #000
+}
+
+.custWorryingDebtSectionbdFunnel h2 {
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 42px;
+	color: #0d1c14;
+	letter-spacing: normal
+}
+
+.custWorryingDebtSectionbdFunnel p {
+	margin: 0 0 15px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500
+}
+
+.custDiscoverDebtSectionbdFunnel {
+	padding: 60px 0;
+	color: #000
+}
+
+.custDiscoverDebtSectionbdFunnel h2 {
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 42px;
+	color: #0d1c14;
+	letter-spacing: normal;
+	text-align: center;
+	margin: 0 0 40px
+}
+
+.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel h4 {
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 32px;
+	color: #26d07c;
+	letter-spacing: normal;
+	text-align: left;
+	margin: 0 0 12px
+}
+
+.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel p {
+	margin: 0;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400
+}
+
+.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel a.btn.outline {
+	border: 0;
+	border-radius: 5px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 600;
+	font-size: 18px;
+	background: #fff;
+	line-height: 18px;
+	margin-top: auto;
+	position: absolute;
+	bottom: 16px;
+	padding: 0;
+	color: #26d07c
+}
+
+.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel {
+	padding: 40px 40px 62px;
+	border: 1px solid #26d07c;
+	margin: 0;
+	background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/gree-plus-bg.svg) no-repeat calc(100% - 10px) 20px;
+	position: relative;
+	height: 100%
+}
+
+.custDiscoverDebtSectionbdFunnel .row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px 0
+}
+
+.custDiscoverDebtSectionbdFunnel .row:after,
+.custDiscoverDebtSectionbdFunnel .row:before {
+	display: none
+}
+
+.custDiscoverDebtSectionbdFunnel .row .col-6 {
+	padding: 0 15px;
+	position: relative;
+	flex: 0 0 50%
+}
+
+.custBookBanner_opFunnel .col-12 {
+	padding: 0 15px
+}
+
+.custBookBanner_opFunnel {
+	padding: 0 15px;
+	margin: 60px 0 0
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel {
+	background: #fff;
+	color: #000;
+	padding: 20px 30px;
+	width: 100%;
+	display: flex;
+	gap: 30px
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel h3 {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 28px;
+	letter-spacing: normal;
+	margin: 0 0 8px
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel p {
+	font-weight: 400;
+	font-size: 16px;
+	margin: 0 !important;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0 15px
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.fill {
+	margin: 0;
+	padding: 15px 30px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #26d07c;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	display: inline-block
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline {
+	border: 1px solid #26d07c;
+	border-radius: 5px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	font-weight: 500;
+	font-size: 18px
+}
+
+.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline:hover {
+	color: #22ba6f;
+	border-color: #22ba6f
+}
+
+.custHeroSectionFunnel img.img-fluid,
+.custWorryingDebtSectionbdFunnel img.img-fluid {
+	max-width: 100%;
+	width: 100%
+}
+
+.custHeroSectionFunnel img.img-fluid {
+	max-width: 515px;
+	margin-left: auto;
+	display: block
+}
+
+.custConsumerProposal {
+	padding: 60px 0
+}
+
+.custConsumerProposal h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 56px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	color: #000;
+	margin: 0 0 40px
+}
+
+.custConsumerProposal h3 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 56px;
+	color: #000;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	margin: 0 0 40px;
+	letter-spacing: normal
+}
+
+.custConsumerProposal h3 span {
+	display: block;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+	margin: 8px auto 0;
+	letter-spacing: normal
+}
+
+.custConsumerProposal .proposalBox {
+	background: #e9faf2;
+	padding: 25px 15px;
+	display: block;
+	width: 100%;
+	margin: 0;
+	height: 100%
+}
+
+.custConsumerProposal .proposalBox .icon {
+	font-size: 0;
+	display: block;
+	margin: 0 0 15px
+}
+
+.custConsumerProposal .proposalBox .icon.number {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 40px;
+	align-items: center;
+	justify-content: center;
+	color: #000;
+	font-size: 21px;
+	font-weight: 600;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custConsumerProposal .proposalBox h5 {
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 21px;
+	color: #000;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	letter-spacing: normal
+}
+
+.custConsumerProposal .proposalBox p {
+	margin: 0;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 24px;
+	color: #000;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custConsumerProposal .row {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.custConsumerProposal .row .col-12 {
+	padding: 0 15px;
+	width: 100%
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth {
+	display: flex;
+	margin: 40px 0 0;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 0 40px
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth h5 {
+	font-size: 24px;
+	line-height: 24px;
+	margin: 0 0 8px
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon {
+	margin: 0;
+	width: 100%;
+	flex: 0 0 40px
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill {
+	margin: 0;
+	padding: 15px 30px;
+	font-size: 18px;
+	line-height: 18px;
+	background: #26d07c;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 600;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	display: inline-block
+}
+
+.custConsumerProposal .row .col-12 .proposalBox.fullwidth p {
+	font-size: 16px
+}
+
+.custOptionbodyWrapperFunnel .custTestimonialWraperopFunnel {
+	background: #fff;
+	padding: 0
+}
+
+.custOptionbodyWrapperFunnel .custTestimonialWraperopFunnel iframe {
+	width: 100%;
+	height: 100% !important;
+	margin: 0;
+	border: 0;
+	min-height: 506px !important
+}
+
+.custFreeConsultationWraperopFunnel {
+	padding: 60px 0
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel {
+	margin: 0;
+	padding: 0 15px
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel {
+	background: #f1f1f2
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel h3 {
+	font-size: 24px
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel p {
+	line-height: 21px
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.fill {
+	padding: 15px 14px
+}
+
+.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline {
+	background: #fff;
+	padding: 12px 18.5px
+}
+
+.custTestimonialSection {
+	border-top: solid 1px #e8e8e8;
+	border-bottom: solid 1px #e8e8e8;
+	background: no-repeat 0 50%;
+	background-size: cover;
+	padding: 35px 0;
+	background-image: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/layout/testimonial-bg.jpg);
+	margin: 0
+}
+
+.custTestimonialSection .view__row {
+	padding: 36px 36px;
+	color: #fff
+}
+
+.custTestimonialSection .view__row p {
+	font-size: 21px;
+	color: #fff;
+	margin-bottom: 24px;
+	font-style: italic
+}
+
+.custTestimonialSection .view__row p:before {
+	display: block;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -8px;
+	top: -7px;
+	color: #fff;
+	font-weight: 700;
+	background-color: transparent
+}
+
+.custTestimonialSection .view__row p:after {
+	display: block;
+	content: "\201D";
+	font-size: 80px;
+	position: absolute;
+	right: 17px;
+	top: -5px;
+	color: #fff;
+	font-weight: 700;
+	background-color: transparent
+}
+
+.custOptionPageFeedbackSectionFunnel {
+	background: #f1f1f2;
+	padding: 60px 0
+}
+
+.custOptionPageFeedbackSectionFunnel h3 {
+	text-align: center;
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 56px;
+	color: #000;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	margin: 0 0 40px;
+	letter-spacing: normal
+}
+
+.custOptionPageFeedbackSectionFunnel h3 span {
+	display: block;
+	font-weight: 400;
+	font-size: 21px;
+	line-height: 28px;
+	letter-spacing: normal;
+	margin: 8px auto 0
+}
+
+.custOptionPageFeedbackSectionFunnel .owl-carousel {
+	display: block
+}
+
+.custOptionPageFeedbackSectionFunnel .row {
+	display: flex
+}
+
+.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel {
+	background: #fff;
+	padding: 25px 40px 55px;
+	height: 100%
+}
+
+.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .starRatingsFunnel span {
+	font-size: 0;
+	display: block
+}
+
+.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .starRatingsFunnel {
+	display: flex;
+	gap: 2px;
+	margin: 0 0 25px
+}
+
+.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .quotes {
+	font-weight: 500;
+	font-size: 20px;
+	color: #000;
+	line-height: 28px;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif
+}
+
+.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel cite {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: normal;
+	font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+	margin: 25px 0 0;
+	display: block;
+	color: #000
+}
+
+.custOptionPageFeedbackSectionFunnel .videoBox iframe {
+	width: 100%;
+	position: relative;
+	z-index: 1
+}
+
+.custOptionPageFeedbackSectionFunnel .videoBox {
+	position: relative;
+	font-size: 0;
+	box-shadow: 20px -20px 0 #26d07c;
+	margin: 0 20px 0 0
+}
+
+.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel {
+	margin-left: -60px;
+	margin-right: -60px;
+	padding: 20px 60px 40px;
+	margin-top: -20px
+}
+
+.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel .swiper-pagination {
+	bottom: -5px
+}
+
+.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel .swiper-pagination .swiper-pagination-bullet-active {
+	background: #26d07c
+}
+
+.custOptionPageFeedbackSectionFunnel .swiper-button-next,
+.custOptionPageFeedbackSectionFunnel .swiper-button-prev {
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 40px
+}
+
+.custOptionPageFeedbackSectionFunnel .swiper-button-next:after,
+.custOptionPageFeedbackSectionFunnel .swiper-button-prev:after {
+	font-size: 18px;
+	color: #000;
+	font-weight: 600
+}
+
+.custWorryingDebtSectionbdFunnel .col-6:first-child h2 {
+	display: none
+}
+
+.custWorryingDebtSectionbdFunnel .col-6:last-child h2 {
+	display: block
+}
+
+.custEliminateHerDebtFunnel .row {
+	display: flex;
+	flex-wrap: wrap
+}
+
+.custEliminateHerDebtFunnel .col-6 {
+	flex: 0 0 50%;
+	padding: 0 15px;
+	position: relative
+}
+
+.custEliminateHerDebtFunnel .col-12 {
+	flex: 0 0 100%;
+	padding: 0 15px;
+	position: relative
+}
+
+.custEliminateHerDebtFunnel h2 {
+	color: #0d1c14;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 40px
+}
+
+.custEliminateHerDebtFunnel {
+	padding: 60px 0
+}
+
+.custEliminateHerDebtFunnel ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 24px 0;
+	display: flex;
+	justify-content: space-between
+}
+
+.custEliminateHerDebtFunnel ul li {
+	flex: 0 0 calc(50% - 10px);
+	text-align: center;
+	padding: 16px;
+	border: 3px solid #b31c1d
+}
+
+.custEliminateHerDebtFunnel ul li:nth-child(2) {
+	border: 3px solid #26d07c
+}
+
+.custEliminateHerDebtFunnel ul li h6 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #53565a;
+	font-family: proxima-soft, open sans, times new roman, Times, serif;
+	margin-bottom: 8px;
+	letter-spacing: 0
+}
+
+.custEliminateHerDebtFunnel ul li h5 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 140%;
+	text-align: center;
+	color: #000;
+	font-family: proxima-soft, open sans, times new roman, Times, serif !important;
+	margin-bottom: 8px;
+	letter-spacing: 0
+}
+
+.custEliminateHerDebtFunnel ul li div {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 100%;
+	text-align: center;
+	color: #b31c1d;
+	font-family: proxima-soft, open sans, times new roman, Times, serif
+}
+
+.custEliminateHerDebtFunnel ul li div span {
+	font-size: 24px;
+	line-height: 24px
+}
+
+.custEliminateHerDebtFunnel ul li:nth-child(2) div {
+	color: #3dcf82
+}
+
+.custTogglePraraFunnel p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	color: #000;
+	margin-bottom: 6px;
+	font-family: proxima-soft, open sans, times new roman, Times, serif;
+	overflow: hidden;
+	transition: all .5s;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 4;
+	white-space: pre-wrap;
+	display: -webkit-box;
+	-webkit-box-orient: vertical
+}
+
+.custEliminateHerDebtFunnel ul+div {
+	background: #f1f1f2;
+	padding: 16px
+}
+
+.custTogglePraraFunnel a {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 140%;
+	text-decoration-line: underline;
+	color: #000;
+	cursor: pointer;
+	font-family: proxima-soft
+}
+
+.custTogglePraraFunnel p+span+span {
+	display: block;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	margin-top: 20px;
+	font-family: proxima-soft
+}
+
+.col-6.custLoonaEliminate img {
+	padding-left: 10px;
+	width: 100%
+}
+
+p.custBlockOpen {
+	height: auto;
+	-webkit-line-clamp: inherit
+}
+
+@media(min-width:1200px) {
+	.container {
+		width: 1230px
+	}
+
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a {
+		width: 50%
+	}
+
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+		flex: 0 0 480px
+	}
+}
+
+@media(max-width:1199px) {
+	.custHeroSectionFunnel h2 {
+		font-size: 46px;
+		line-height: 50px
+	}
+
+	.custHeroSectionFunnel p {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 20px
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel>a {
+		padding: 15px 20px
+	}
+
+	.custWorryingDebtSectionbdFunnel h2 {
+		font-size: 32px;
+		line-height: 40px;
+		margin: 0 0 15px
+	}
+
+	.custOptionbodyWrapperFunnel .custTestimonialWraperopFunnel {
+		padding: 0 0
+	}
+
+	.custDiscoverDebtSectionbdFunnel h2,
+	.custOptionPageFeedbackSectionFunnel h3 {
+		font-size: 32px;
+		line-height: 40px;
+		margin: 0 0 20px
+	}
+
+	.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel h4 {
+		font-size: 28px;
+		line-height: 30px
+	}
+
+	.custOptionPageFeedbackSectionFunnel h3 span {
+		font-size: 20px;
+		line-height: 28px
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .quotes {
+		font-size: 16px;
+		line-height: 22px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .starRatingsFunnel {
+		margin: 0 0 15px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel cite {
+		font-size: 16px;
+		margin: 15px 0 0
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 20px 0 60px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-next,
+	.custOptionPageFeedbackSectionFunnel .swiper-button-prev {
+		top: auto;
+		margin: 0;
+		bottom: 0
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-next {
+		right: 50%;
+		margin-right: -50px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-prev {
+		left: 50%;
+		margin-left: -50px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel .swiper-pagination {
+		display: none
+	}
+}
+
+@media(max-width:991px) {
+	.custHeroSectionFunnel {
+		padding: 85px 0 50px;
+		background: #f1f1f2
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel .custReviewsFunnel {
+		margin-right: auto
+	}
+
+	.custHeroSectionFunnel .row,
+	.custWorryingDebtSectionbdFunnel .row {
+		flex-direction: column
+	}
+
+	.custHeroSectionFunnel .row {
+		flex-direction: column-reverse
+	}
+
+	.custHeroSectionFunnel h2 {
+		font-size: 40px;
+		line-height: 42px;
+		margin: 12px 0 5px
+	}
+
+	.custHeroSectionFunnel p {
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 15px
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel {
+		gap: 0 10px;
+		flex-wrap: wrap
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel>a {
+		padding: 15px 20px;
+		margin: 0 0 15px
+	}
+
+	.custWorryingDebtSectionbdFunnel {
+		padding: 50px 0
+	}
+
+	.custWorryingDebtSectionbdFunnel h2 {
+		font-size: 30px;
+		line-height: 34px;
+		margin: 15px 0
+	}
+
+	.custBookBanner_opFunnel,
+	.custRebuildWraperFunnel {
+		margin: 0 0 0
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel,
+	.custRebuildWraperFunnel .innerWraperFunnel {
+		flex-wrap: wrap;
+		gap: 20px
+	}
+
+	.custHeroSectionFunnel img.img-fluid {
+		max-width: 100%
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth {
+		gap: 0 20px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel {
+		padding: 25px 25px 55px
+	}
+
+	.custHeroSectionFunnel .col-6,
+	.custWorryingDebtSectionbdFunnel .col-6 {
+		width: 100%;
+		flex: 0 0 100%
+	}
+
+	.custHeroSectionFunnel h2.greenTxt {
+		margin: 0 0 25px
+	}
+
+	.custDiscoverDebtSectionbdFunnel,
+	.custFreeConsultationWraperopFunnel,
+	.custOptionPageFeedbackSectionFunnel {
+		padding: 50px 0
+	}
+}
+
+@media(max-width:767px) {
+	.custOptionbodyWrapperFunnel {
+		margin-bottom: 0
+	}
+
+	.custHeroSectionFunnel h2 {
+		margin: 12px 0 5px;
+		font-size: 40px;
+		line-height: 42px
+	}
+
+	.custHeroSectionFunnel p {
+		font-size: 20px;
+		line-height: 24px
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel {
+		gap: 0 30px
+	}
+
+	.custWorryingDebtSectionbdFunnel {
+		padding: 30px 0
+	}
+
+	.custWorryingDebtSectionbdFunnel h2 {
+		font-size: 32px;
+		line-height: 34px;
+		margin: 0 0 40px;
+		text-align: center
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel,
+	.custRebuildWraperFunnel .innerWraperFunnel {
+		padding: 15px
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel h3,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookContentFunnel h3 {
+		font-size: 24px;
+		line-height: 32px;
+		margin: 0 0 0
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel p,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookContentFunnel p {
+		font-size: 18px;
+		line-height: 24px
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+		gap: 0 30px
+	}
+
+	.custConsumerProposal {
+		padding: 40px 0
+	}
+
+	.custConsumerProposal h2 {
+		font-size: 32px;
+		line-height: 34px;
+		font-family: proxima-soft, "Open Sans", "Times New Roman", Times, serif;
+		margin: 0 0 30px
+	}
+
+	.custConsumerProposal h3 {
+		font-size: 32px;
+		line-height: 34px;
+		margin: 0 0 30px
+	}
+
+	.custConsumerProposal h3 span {
+		font-size: 20px;
+		line-height: 24px
+	}
+
+	.custConsumerProposal .proposalBox {
+		margin: 0 0 10px;
+		height: auto;
+		padding: 15px;
+		padding-left: 70px;
+		position: relative
+	}
+
+	.custConsumerProposal .proposalBox .icon {
+		position: absolute;
+		left: 15px;
+		top: 15px
+	}
+
+	.custConsumerProposal .proposalBox p {
+		font-size: 16px;
+		line-height: 24px
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth {
+		margin: 20px 0 0;
+		flex-direction: column;
+		padding: 15px
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth .icon {
+		display: none
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth h5 {
+		font-size: 23px;
+		line-height: 23px;
+		margin: 0 0 16px
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth p {
+		font-size: 18px;
+		line-height: 24px;
+		margin: 0 0 16px
+	}
+
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap,
+	.custConsumerProposal .row .col-12 .proposalBox.fullwidth .btnWrap a.btn.fill {
+		width: 100%
+	}
+
+	.custFreeConsultationWraperopFunnel {
+		padding: 30px 0 40px
+	}
+
+	.custTestimonialSection {
+		margin: 0 0 35px
+	}
+
+	.custOptionPageFeedbackSectionFunnel {
+		padding: 30px 0
+	}
+
+	.custOptionPageFeedbackSectionFunnel h3 {
+		font-size: 30px;
+		line-height: 31px;
+		margin: 0 0 50px
+	}
+
+	.custOptionPageFeedbackSectionFunnel h3 span {
+		font-size: 20px;
+		line-height: 24px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .row {
+		flex-direction: column-reverse
+	}
+
+	.custOptionPageFeedbackSectionFunnel .videoBox {
+		width: calc(100% - 20px);
+		margin: 0 0 15px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel {
+		padding: 15px;
+		margin: 0 0 30px;
+		position: relative
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .quotes {
+		font-size: 16px;
+		line-height: 22px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel cite {
+		margin: 8px 0 0;
+		font-size: 16px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .feedbackBoxFunnel .starRatingsFunnel {
+		margin: 0;
+		position: absolute;
+		right: 15px;
+		bottom: 15px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel {
+		margin-left: 0;
+		margin-right: 0;
+		padding: 20px 0 40px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-next,
+	.custOptionPageFeedbackSectionFunnel .swiper-button-prev {
+		top: auto;
+		margin: 0;
+		bottom: 0
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-next {
+		right: 50%;
+		margin-right: -50px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper-button-prev {
+		left: 50%;
+		margin-left: -50px
+	}
+
+	.custOptionPageFeedbackSectionFunnel .swiper.custFeedbackSwiper_optionFunnel .swiper-pagination {
+		display: none
+	}
+
+	.custWorryingDebtSectionbdFunnel .col-6:first-child h2 {
+		display: block
+	}
+
+	.custWorryingDebtSectionbdFunnel .col-6:last-child h2 {
+		display: none
+	}
+
+	.custHeroSectionFunnel {
+		background: #fff;
+		padding-bottom: 0
+	}
+
+	.custBookBanner_opFunnel,
+	.custRebuildWraperFunnel {
+		padding-top: 0
+	}
+
+	.custWorryingDebtSectionbdFunnel .col-6:first-child img {
+		margin: 0 0 30px
+	}
+
+	.custWorryingDebtSectionbdFunnel p {
+		line-height: 25px
+	}
+
+	.custDiscoverDebtSectionbdFunnel,
+	.custFreeConsultationWraperopFunnel,
+	.custOptionPageFeedbackSectionFunnel {
+		padding: 30px 0
+	}
+
+	.custDiscoverDebtSectionbdFunnel .row .col-6 {
+		flex: 0 0 100%
+	}
+
+	.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel {
+		padding: 20px 20px 86px
+	}
+
+	.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel a.btn.outline {
+		bottom: 20px
+	}
+
+	.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel h4 {
+		color: #000;
+		font-size: 24px;
+		line-height: 24px
+	}
+
+	.custDiscoverDebtSectionbdFunnel .eliminateOptionsBoxFunnel p {
+		line-height: 20px
+	}
+
+	.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel h3 {
+		font-size: 24px;
+		line-height: 28px;
+		margin: 0 0 8px
+	}
+
+	.custFreeConsultationWraperopFunnel .custBookBanner_opFunnel .innerWraperFunnel .custBookContentFunnel p {
+		font-size: 16px
+	}
+
+	.custEliminateHerDebtFunnel h2 {
+		font-weight: 600;
+		font-size: 32px;
+		line-height: 34px;
+		text-align: center
+	}
+
+	.custEliminateHerDebtFunnel ul li {
+		max-width: calc(50% - 3px);
+		flex: 0 0 calc(50% - 3px);
+		padding: 16px 9px
+	}
+
+	.custEliminateHerDebtFunnel .col-6 {
+		flex: 0 0 100%;
+		box-sizing: border-box;
+		width: 100%
+	}
+
+	.custEliminateHerDebtFunnel ul li div {
+		font-size: 32px;
+		line-height: 32px
+	}
+
+	.custEliminateHerDebtFunnel ul li div span {
+		font-size: 20px;
+		line-height: 20px
+	}
+
+	.col-6.custLoonaEliminate {
+		margin-top: 24px
+	}
+
+	.custEliminateHerDebtFunnel {
+		padding: 30px 0
+	}
+
+	.custEliminateHerDebtFunnel ul li h5 {
+		font-size: 14px;
+		line-height: 17px
+	}
+
+	.custEliminateHerDebtFunnel ul li h6 {
+		font-size: 16px;
+		line-height: 17px
+	}
+
+	.custHeroSectionFunnel h2.greenTxt {
+		margin: 0 0 15px 0
+	}
+
+	.custDiscoverDebtSectionbdFunnel .row {
+		gap: 20px 0
+	}
+
+	.custTogglePraraFunnel p {
+		font-size: 16px
+	}
+}
+
+@media(max-width:580px) {
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel,
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+		flex-direction: column
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel>a {
+		width: 100%;
+		text-align: center
+	}
+
+	.custOptionHeroBtn_spFunnel .custBtnWraperFunnel .reviews {
+		margin-right: auto
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel {
+		gap: 20px;
+		flex-direction: column;
+		width: 100%
+	}
+
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.fill,
+	.custBookBanner_opFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.fill,
+	.custRebuildWraperFunnel .innerWraperFunnel .custBookBtnWrapperFunnel a.btn.outline {
+		width: 100%
+	}
+}
+
+@media(max-width:370px) {
+	.custEliminateHerDebtFunnel ul li div {
+		font-size: 22px !important;
+		line-height: 32px !important
+	}
+
+	.custEliminateHerDebtFunnel ul li div span {
+		font-size: 16px !important;
+		line-height: 18px !important
+	}
+}
+
+</style>

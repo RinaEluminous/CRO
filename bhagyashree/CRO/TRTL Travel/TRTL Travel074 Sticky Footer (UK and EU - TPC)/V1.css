@@ -1,0 +1,235 @@
+.custPillowPopUpWrapper {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    max-width: 984px;
+    padding: 24px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: calc(100% - 20px);
+}
+
+.custPillowPopUpWrapper .custPillowHurryText {
+    position: absolute;
+    border-radius: 12px 12px 0px 0px;
+    background: #FAD850;
+    left: 164px;
+    top: -24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 16px;
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.7px;
+    white-space: nowrap;
+    box-shadow: 0px -1px 8px rgba(0, 0, 0, 0.15);
+    z-index: -999999;
+}
+
+.custPillowPopUpWrapper .custPillowHurryText img {
+    max-width: 15px;
+}
+
+.custPillowPopUpWrapper .custPillowPopUpWrapperPopUpCloseIcon {
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    border-radius: 100px;
+    background: #FFF;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+
+.custPillowPopUpWrapper .custPillowPopUpWrapperPopUpCloseIcon img {
+    width: 12px;
+    height: 12px;
+}
+
+.custPillowPopUpWrapper .custPillowImg {
+    flex: 0 0 160px;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    padding-left: 35px;
+    /* background-color: #F4EEEB; */
+    width: 160px;
+    display: flex;
+    align-items: center;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/right-round-circle.svg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+
+.custPillowPopUpWrapper .custPillowImg::before {
+    content: "";
+}
+
+.custPillowPopUpWrapper .custPillowImg a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.custPillowPopUpWrapper .custPillowImg a img {}
+
+.custPillowPopUpWrapper .custPillowText {}
+
+.custPillowPopUpWrapper .custPillowText {
+    width: calc(100% - 330px);
+}
+
+.custPillowPopUpWrapper .custPillowText .custLeftText {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextHeading {
+    color: #000000;
+    font-family: IBM Plex Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 114.286% */
+    letter-spacing: 1.47px;
+    text-transform: uppercase;
+}
+
+.custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextHeading a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextHeading a span {
+    color: #CA232C;
+}
+
+.custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextSubHeading {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.96px;
+}
+
+.custPillowPopUpWrapper .custPillowText .custRightText {}
+
+.custPillowPopUpWrapper .custPillowTextBtn {
+    display: flex;
+    padding: 12px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 118px;
+    background: #FAD850;
+    gap: 10px;
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    text-decoration: none;
+    flex: 0 0 auto;
+}
+
+
+
+@media (max-width:991px) {
+    .custPillowPopUpWrapper .custPillowImg {
+        padding-left: 25px;
+    }
+
+}
+
+@media (max-width:767px) {
+    .custPillowPopUpWrapper {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 170px;
+        gap: 12px;
+    }
+
+    .custPillowPopUpWrapper .custPillowText {
+        width: 100%;
+    }
+}
+
+@media (max-width:575px) {
+    .custPillowPopUpWrapper .custPillowImg {
+        padding-left: 0px;
+        width: 72px;
+        flex: 0 0 72px;
+        background-image: none;
+    }
+
+    .custPillowPopUpWrapper {
+        padding: 8px 8px 8px 110px;
+        gap: 8px 0;
+    }
+
+    .custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextHeading {
+        font-size: 17px;
+        line-height: 20px;
+        letter-spacing: 1.19px;
+    }
+
+    .custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextSubHeading {
+        font-size: 13px;
+        line-height: 20px;
+        letter-spacing: 0.78px;
+    }
+
+    .custPillowPopUpWrapper .custPillowText .custLeftText .custPillowTextHeading a span {
+        display: block;
+    }
+
+    .custPillowPopUpWrapper .custPillowTextBtn {
+        flex: 0 0 100%;
+        width: 100%;
+        padding: 8px 40px;
+    }
+
+    .custPillowPopUpWrapper .custPillowHurryText {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .custPillowPopUpWrapper .custPillowText .custLeftText {
+        gap: 2px;
+    }
+
+    .custPillowPopUpWrapper .custPillowPopUpWrapperPopUpCloseIcon {
+        right: -9px;
+        top: -9px;
+    }
+}

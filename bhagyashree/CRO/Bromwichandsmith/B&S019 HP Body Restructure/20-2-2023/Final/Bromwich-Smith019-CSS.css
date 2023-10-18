@@ -1,0 +1,1406 @@
+.page--landing-page #content-wrapper main .node.landing-page .node__content div[id^=tile-],
+.page--front #content-wrapper main + .below-content,
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(1),
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(2){
+    display: none;
+}
+
+
+.custHomePageWrapper {
+    margin-bottom: 0px;
+    z-index: 1;
+    position: relative;
+}
+
+.custHeroButtonSection_sp .custBtnWraper > a {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.custHeroButtonSection_sp .custBtnWraper .custReviews{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.custHeroButtonSection_sp .custReviews a {
+    display: flex;
+    gap: 0 10px;
+}
+
+.custHeroButtonSection_sp .custReviews a:hover {
+    text-decoration: none;
+}
+
+.custHeroButtonSection_sp .custReviews a .googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.custHeroButtonSection_sp .custReviews a .reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custHomePageBookBanner .col-12 {
+    padding: 0 15px;
+}
+
+.custHomePageBookBanner {
+    padding: 0 15px;
+    margin: 60px 0 0;
+}
+
+.custHomePageBookBanner .innerWraper {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.custHomePageBookBanner .innerWraper .custBookContent h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 0 0 8px;
+}
+
+.custHomePageBookBanner .innerWraper .custBookContent p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custHomePageBookBanner .innerWraper .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+
+.custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+
+.custGoalSection_hp {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+
+.custGoalSection_hp h2{
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #000000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.custGoalSection_hp .box {
+    background: #fff;
+    padding: 32px;
+}
+.custGoalSection_hp .box h3 {
+    font-weight: 600;
+    font-size: 35px;
+    color: #26D07C;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 15px;
+    line-height: 35px;
+    letter-spacing: normal;
+}
+
+.custGoalSection_hp .box p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    margin: 0;
+}
+
+.ListendHelpSection {
+    padding: 60px 0;
+}
+
+.ListendHelpSection .ListendHelpMain {
+    color: #000;
+    padding: 20px 40px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    background: #F1F1F2;
+}
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 15px;
+    flex-direction: column;
+}
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper a.btn.fill {
+    padding: 15px 14px;
+}
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper a.btn.outline {
+    background: #fff;
+    padding: 12px 14px;
+    font-weight: 500;
+    border: 1px solid #26D07C;
+}
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.ListendHelpSection .ListendHelpMain .custBookBtnWrapper a.btn {
+    width: 100%;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.ListendHelpSection .ListendHelpMain .custContent {
+    position: relative;
+    padding-left: 240px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.ListendHelpSection .ListendHelpMain .custContent h3 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ListendHelpSection .ListendHelpMain .custContent p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.ListendHelpSection .ListendHelpMain .custContent h3 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.ListendHelpSection .ListendHelpMain .custContent p strong {
+    display: block;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+}
+
+.custConsumerProposal_hp {
+    padding: 60px 0px;
+}
+.custConsumerProposal_hp h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000000;
+    margin: 0 0 40px;
+}
+.custConsumerProposal_hp h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+.custConsumerProposal_hp h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 8px auto 0;
+    letter-spacing: normal;
+}
+.custConsumerProposal_hp .proposalBox_hp {
+    background: #E9FAF2;
+    padding: 25px 15px;
+    display: block;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
+
+.custConsumerProposal_hp .proposalBox_hp .icon {
+    font-size: 0;
+    display: block;
+    margin: 0 0 15px;
+}
+.custConsumerProposal_hp .proposalBox_hp .icon.number {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custConsumerProposal_hp .proposalBox_hp h5 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal;
+}
+
+.custConsumerProposal_hp .proposalBox_hp p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custConsumerProposal_hp .row {display: flex;flex-wrap: wrap;}
+
+.custConsumerProposal_hp .row .col-12 {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth {
+    display: flex;
+    margin: 40px 0 0;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+}
+.custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth h5 {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 8px;
+}
+.custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth .icon {
+    margin: 0;
+    width: 100%;
+    flex: 0 0 40px;
+}
+.custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth .btnWrap a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+.custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth p {
+    font-size: 16px;
+}
+
+
+.custHomePageFeedbackSection {
+    background: #F1F1F2;
+    padding: 60px 0;
+}
+
+.custHomePageFeedbackSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.custHomePageFeedbackSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 8px auto 0;
+}
+
+.custHomePageFeedbackSection .owl-carousel {
+    display: block;
+}
+.custHomePageFeedbackSection .row{
+    display: flex;
+}
+
+.custHomePageFeedbackSection .feedbackBox {
+    background: #fff;
+    padding: 25px 40px 55px;
+    height: 100%;
+}
+
+.custHomePageFeedbackSection .feedbackBox .starRatings span {
+    font-size: 0;
+    display: block;
+}
+
+.custHomePageFeedbackSection .feedbackBox .starRatings {
+    display: flex;
+    gap: 2px;
+    margin: 0 0 25px;
+}
+
+.custHomePageFeedbackSection .feedbackBox .quotes {
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    line-height: 28px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custHomePageFeedbackSection .feedbackBox cite {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-style: normal;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 25px 0 0;
+    display: block;
+    color: #000;
+}
+
+.custHomePageFeedbackSection .videoBox iframe {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.custHomePageFeedbackSection .videoBox {
+    position: relative;
+    font-size: 0;
+    box-shadow: 20px -20px 0px #26d07c;
+    margin: 0px 20px 0 0;
+}
+.reliefSolution_hp {
+    padding: 60px 0 10px;
+}
+
+.reliefSolution_hp h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.reliefSolution_hp .workingCanadian {
+    background: #F1F1F2;
+    box-shadow: 20px -20px 0px #26D07C;
+    padding: 40px;
+    margin: 0 15px;
+}
+
+.reliefSolution_hp .workingCanadian h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 15px;
+    color: #000;
+}
+
+.reliefSolution_hp .workingCanadian p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+.reliefSolution_hp .custSReliefSolutions {
+    margin: 40px 0 0;
+}
+
+.reliefSolution_hp .custSReliefSolutions .greenBox {
+    background: #26d07c;
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.reliefSolution_hp .custSReliefSolutions .greenBox h4 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    letter-spacing: normal; 
+}
+
+.reliefSolution_hp .custSReliefSolutions .greenBox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 24px;
+}
+
+.reliefSolution_hp .custSReliefSolutions .greenBox a {
+    margin: 0;
+    padding: 15px 32px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #fff;
+    border-radius: 5px;
+    color: #26D07C;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline;
+    max-width: 156px;
+}
+.reliefSolution_hp .custSReliefSolutions .row {
+    margin: 0 0 30px;
+    display: flex;
+}
+.reliefSolution_hp .custSReliefSolutions .row:last-child{
+    margin: 0;
+}
+.reliefSolution_hp .custSReliefSolutions .row.reverse {
+    flex-direction: row-reverse;
+}
+
+.reliefSolution_hp .custSReliefSolutions .imgBox {
+    display: flex;
+    height: 100%;
+}
+
+.reliefSolution_hp .custSReliefSolutions .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.custHomePageWrapper .custTestimonialWraper_hp {
+    background: #fff;
+    padding: 60px 0 0;
+}
+
+.custHomePageWrapper .custTestimonialWraper_hp iframe {
+    width: 100%;
+    height: 100% !important;
+    margin: 0;
+    border: 0;
+    min-height: 506px !important;
+}
+.awardWinningSection_hp h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+}
+
+.awardWinningSection_hp .greyBox {
+    background: #F1F1F2;
+    box-shadow: 20px -20px 0px #26D07C;
+    padding: 40px;
+}
+
+.awardWinningSection_hp {
+    padding: 10px 0 60px;
+}
+
+.awardWinningSection_hp .greyBox p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 25px;
+    color: #000;
+}
+
+.awardWinningSection_hp .greyBox .btnWrap a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.awardWinningSection_hp .col-sm-6 {
+    padding: 0 20px;
+}
+
+.awardWinningSection_hp .row {
+    margin: 0 -20px;
+}
+.awardWinningSection_hp .greyBox p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+.custNewsSection_hp {
+    padding: 60px 0;
+}
+
+
+.page--front .custNewsSection_hp #tile-4861 h3,
+.custNewsSection_hp header h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+}
+
+.page--front .custNewsSection_hp #tile-4861 h3 span,
+.custNewsSection_hp h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 8px auto 0;
+}
+
+.custNewsSection_hp .newsBox .imgBox {
+    margin: 0 0 15px;
+}
+.page--front .custNewsSection_hp #tile-4861, 
+.page--front #tile-4860, 
+.page--front #tile-4852, 
+.page--front #tile-4850, 
+.page--front #tile-1798, 
+.page--front #tile-105, 
+.page--front #tile-214{
+    display: block !important;
+}
+.page--front .custNewsSection_hp #tile-4861 .news .title {
+    text-align: left;
+    margin: 16px 0 8px;
+}
+.page--front .custNewsSection_hp #tile-4861 .news .title a,
+.custNewsSection_hp .newsBox .content h4 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 8px;
+    letter-spacing: normal;
+}
+.page--front .custNewsSection_hp #tile-4861 .news .image img {
+    width: 100%;
+}
+.page--front .custNewsSection_hp #tile-4861 .news .date,
+.custNewsSection_hp .newsBox .content .date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    letter-spacing: normal;
+    text-align: left;
+}
+.page--front .custNewsSection_hp #tile-4861 footer a,
+.custNewsSection_hp .btnWrap a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 !important;
+    float: none;
+    padding: 12px 24px;
+    display: inline-block;
+}
+
+.page--front .custNewsSection_hp #tile-4861 footer,
+.custNewsSection_hp .btnWrap {
+    text-align: center;
+    margin: 40px auto 0;
+    padding: 0;
+}
+.page--front .custNewsSection_hp #tile-4861 footer a:hover,
+.custNewsSection_hp .btnWrap a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+    text-decoration: none;
+}
+
+.custFreeConsultationWraper_hp {
+    padding: 60px 0;
+}
+
+.custFreeConsultationWraper_hp .custHomePageBookBanner {
+    margin: 0;
+    padding: 0 15px;
+}
+.custFreeConsultationWraper_hp .custHomePageBookBanner .innerWraper{
+    background: #F1F1F2;
+}
+.custFreeConsultationWraper_hp .custHomePageBookBanner .innerWraper .custBookContent h3{
+    font-size: 24px;
+}
+.custFreeConsultationWraper_hp .custHomePageBookBanner .innerWraper .custBookContent p{
+    line-height: 21px;
+}
+.custFreeConsultationWraper_hp .custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.fill{
+    padding: 15px 14px;
+}
+.custFreeConsultationWraper_hp .custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.outline{
+    background: #fff;
+    padding: 12px 18.5px;
+}
+
+.custHomePageFaqSection {
+    padding: 60px 0;
+    background: #F1F1F2;
+}
+
+.custHomePageFaqSection h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 56px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 40px;
+    letter-spacing: normal;
+}
+
+.custHomePageFaqSection h3 span {
+    display: block;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 28px;
+    letter-spacing: normal;
+    max-width: 880px;
+    margin: 8px auto 0;
+}
+.custHomePageFaqSection h3 span a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.custHomePageFaqSection input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  /* Accordion styles */
+  .custHomePageFaqSection .tabs {
+    overflow: hidden;
+  }
+  
+  .custHomePageFaqSection .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+
+  .custHomePageFaqSection .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #fff;
+    cursor: pointer;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    border-bottom: 1px solid #C3D1CF;
+    margin: 0;
+    align-items: center;
+  }
+  .custHomePageFaqSection .tab:last-child label.tab-label {
+    border: 0;
+  }
+  .custHomePageFaqSection .tab-label::after {
+    content: "";
+    width: 14px;
+    height: 10.5px;
+    text-align: center;
+    transition: all 0.35s;
+    background: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/icon/down-arrow.svg) no-repeat 0 0;
+    background-size: 100%;
+    transform: rotate(180deg);
+    filter: saturate(0) contrast(0);
+  }
+  .custHomePageFaqSection .tab-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: #000;
+    background: white;
+    transition: all 0.35s;    
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+  }
+  .custHomePageFaqSection input:checked + .tab-label::after {
+    transform: rotate(0deg);
+  }
+  .custHomePageFaqSection input:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+  .custHomePageFaqSection .tab-content p {
+    margin: 0 0 12px;
+    font-size: 16px;
+}
+
+.custTestimonialSection_hp {
+    border-top: solid 1px #e8e8e8;
+    border-bottom: solid 1px #e8e8e8;
+    background: no-repeat 0 50%;
+    background-size: cover;
+    padding: 35px 0px;
+    background-image: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/layout/testimonial-bg.jpg);
+    margin: 0;
+}
+
+.custTestimonialSection_hp .view__row {
+    padding: 36px 36px;
+    color: white;
+}
+
+.custTestimonialSection_hp .view__row p {
+    font-size: 21px;
+    color: #fff;
+    margin-bottom: 24px;
+    font-style: italic;
+}
+
+.custTestimonialSection_hp .view__row p:before {
+    display: block;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -8px;
+    top: -7px;
+    color: #fff;
+    font-weight: 700;
+    background-color: transparent;
+}
+.custTestimonialSection_hp .view__row p:after {
+    display: block;
+    content: "\201D";
+    font-size: 80px;
+    position: absolute;
+    right: 17px;
+    top: -5px;
+    color: #fff;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp {
+    margin-left: -60px;
+    margin-right: -60px;
+    padding: 20px 60px 40px;
+    margin-top: -20px;
+}
+.custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp .swiper-pagination{
+    bottom: -5px;
+}
+.custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp .swiper-pagination .swiper-pagination-bullet-active{
+    background: #26D07C;
+}
+.custHomePageFeedbackSection .swiper-button-next, 
+.custHomePageFeedbackSection .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 40px;
+}
+.custHomePageFeedbackSection .swiper-button-next:after, 
+.custHomePageFeedbackSection .swiper-button-prev:after {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+}
+
+@media(max-width: 1199px){
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+    }
+    .custHomePageWrapper .custTestimonialWraper_hp{
+        padding: 30px 0 20px;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent{
+        padding-left: 160px;
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+    .ListendHelpSection .ListendHelpMain{
+        flex-direction: column;
+        gap: 0;
+    }
+    .ListendHelpSection .ListendHelpMain .custBookBtnWrapper{
+        padding-left: 160px;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent h3{
+        font-size: 32px;
+        line-height: 36px;
+        margin: 0 0 5px;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent p{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent h3 img{
+        width: 140px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .custHomePageFeedbackSection .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custHomePageFeedbackSection .feedbackBox .starRatings{
+        margin: 0 0 15px;
+    }
+    .custHomePageFeedbackSection .feedbackBox cite{
+        font-size: 16px;
+        margin: 15px 0 0;
+    }
+    
+    .custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 60px;
+    }
+    .custHomePageFeedbackSection .swiper-button-next, 
+    .custHomePageFeedbackSection .swiper-button-prev{
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+    .custHomePageFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+    .custHomePageFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    } 
+    .custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp .swiper-pagination{
+        display: none;
+    }
+}
+
+@media(max-width: 991px){
+    .custHeroButtonSection_sp .custBtnWraper .custReviews{
+        margin-right: auto;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 10px;
+        flex-wrap: wrap;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+        margin: 0 0 15px;
+    }
+    .custHomePageBookBanner{
+        margin: 40px 0 0;
+    }
+    .custHomePageBookBanner .innerWraper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }    
+    .awardWinningSection_hp .greyBox .btnWrap a.btn{
+        white-space: normal;
+    }
+    .custGoalSection_hp .box,
+    .reliefSolution_hp .workingCanadian,
+    .reliefSolution_hp .custSReliefSolutions .greenBox,
+    .awardWinningSection_hp .greyBox{
+        padding: 25px;
+    }
+    .custHomePageFeedbackSection .feedbackBox{
+        padding: 25px 25px 55px;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth{
+        gap: 0 20px;
+    }
+    .custGoalSection_hp .box h3{
+        font-size: 32px;
+    }    
+    .reliefSolution_hp .workingCanadian .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reliefSolution_hp .workingCanadian .col-sm-6 {
+        width: 100%;
+    }
+    .reliefSolution_hp .workingCanadian .row .imgBox{
+        margin: 0 0 24px;
+    }
+    .reliefSolution_hp .workingCanadian .row .imgBox img {
+        width: 100%;
+    }
+    .reliefSolution_hp .custSReliefSolutions .greenBox a {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        text-decoration: underline;
+        color: #fff;
+        background: transparent;
+        border-radius: 0;
+        max-width: unset;
+        padding: 0;
+    }
+     
+    .custHPSocialProofPageWrapper{
+        margin-bottom: 0;
+    }
+}
+@media(max-width: 767px){
+    .custHomePageWrapper {
+        margin-bottom: -40px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 30px;
+    }
+    .custHomePageBookBanner .innerWraper{
+        padding: 15px;
+    }
+    .custHomePageBookBanner .innerWraper .custBookContent h3{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 5px;
+    }
+    .custHomePageBookBanner .innerWraper .custBookContent p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custHomePageBookBanner .innerWraper .custBookBtnWrapper{
+        gap: 0 30px;
+    }
+    .custGoalSection_hp{
+        padding: 30px 0;
+    }
+    .custGoalSection_hp h2{
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 30px;
+    }
+    .custGoalSection_hp .box{
+        padding: 15px;
+        margin: 0 0 10px;
+    }
+    .custGoalSection_hp .col-sm-4:last-child .box{
+        margin: 0;
+    }
+    .custGoalSection_hp .box h3{
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0 0 8px;
+    }
+    .custGoalSection_hp .box p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custConsumerProposal_hp{
+        padding: 40px 0;   
+    }
+    .custConsumerProposal_hp h2{
+        font-size: 32px;
+        line-height: 34px;
+        font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+        margin: 0 0 30px;
+    }
+    .custConsumerProposal_hp h3{
+        font-size: 32px;
+        line-height: 34px;
+        margin: 0 0 30px;
+    }
+    .custConsumerProposal_hp h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custConsumerProposal_hp .proposalBox_hp{
+        margin: 0 0 10px;
+        height: auto;
+        padding: 15px;
+        padding-left: 70px;
+        position: relative;
+    }
+    .custConsumerProposal_hp .proposalBox_hp .icon{
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+    .custConsumerProposal_hp .proposalBox_hp p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth{
+        margin: 20px 0 0;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth .icon{
+        display: none;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth h5{
+        font-size: 23px;
+        line-height: 23px;
+        margin: 0 0 16px;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 16px;
+    }
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth .btnWrap a.btn.fill,
+    .custConsumerProposal_hp .row .col-12 .proposalBox_hp.fullwidth .btnWrap {
+        width: 100%;
+    }
+    .custHomePageFeedbackSection{
+        padding: 30px 0;
+    }
+    .custHomePageFeedbackSection h3{
+        font-size: 30px;
+        line-height: 31px;
+        margin: 0 0 50px;
+    }
+    .custHomePageFeedbackSection h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHomePageFeedbackSection .row{
+        flex-direction: column-reverse;
+    }
+    .custHomePageFeedbackSection .videoBox{
+        width: calc(100% - 20px);
+        margin: 0 0 15px;
+    }
+    .custHomePageFeedbackSection .feedbackBox{
+        padding: 15px;
+        margin: 0 0 30px;
+        position: relative;
+    }
+    .custHomePageFeedbackSection .feedbackBox .quotes{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custHomePageFeedbackSection .feedbackBox cite{
+        margin: 8px 0 0;
+        font-size: 16px;
+    }
+    .custHomePageFeedbackSection .feedbackBox .starRatings{
+        margin: 0;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+    }
+    .custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp{
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0px 40px;
+    }
+    .custHomePageFeedbackSection .swiper-button-next, 
+    .custHomePageFeedbackSection .swiper-button-prev{
+        top: auto;
+        margin: 0;
+        bottom: 0;
+    }
+    .custHomePageFeedbackSection .swiper-button-next {
+        right: 50%;
+        margin-right: -50px;
+    }
+    .custHomePageFeedbackSection .swiper-button-prev {
+        left: 50%;
+        margin-left: -50px;
+    }
+    .custHomePageFeedbackSection .swiper.custFeedbackSwiper_hp .swiper-pagination{
+        display: none;
+    }
+    .reliefSolution_hp {
+        padding: 40px 0 0;
+    }
+    .reliefSolution_hp h3{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .reliefSolution_hp .workingCanadian{
+        padding: 15px;
+        margin: 0 15px 0 0;
+    }
+    .reliefSolution_hp .workingCanadian h4{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 8px;
+        letter-spacing: normal;
+    }
+    .reliefSolution_hp .custSReliefSolutions .row{
+        flex-direction: column;
+        margin: 0 -15px 30px;
+    }
+    .reliefSolution_hp .custSReliefSolutions .row:last-child{
+        margin: 0 -15px 0px;
+    }
+    .reliefSolution_hp .custSReliefSolutions .imgBox{
+        margin: 0 0 30px;
+    }
+    .reliefSolution_hp .custSReliefSolutions .greenBox{
+        padding: 15px;
+    }
+    .reliefSolution_hp .custSReliefSolutions .greenBox h4{
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 15px;
+    }
+    .reliefSolution_hp .custSReliefSolutions .row.reverse{
+        flex-direction: column;
+    }
+    .awardWinningSection_hp{
+        padding: 0 0 40px;
+    }    
+    .awardWinningSection_hp h3{
+        font-size: 28px;
+        line-height: 29px;
+        margin: 0 0 60px;
+    }
+    .awardWinningSection_hp .greyBox p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 16px;
+    }
+    .awardWinningSection_hp .greyBox{
+        padding: 15px;
+        margin: 0 0 60px;
+        width: calc(100% - 20px);
+    }
+    .awardWinningSection_hp .greyBox .btnWrap a.btn.fill{
+        padding: 15px 5px;
+        width: 100%;
+    }
+    .awardWinningSection_hp .greyBox p a{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .awardWinningSection_hp .row .col-sm-6:last-child .greyBox{
+        margin: 0;
+    }
+    .custNewsSection_hp{
+        padding: 30px 0 40px;
+    }
+    .custNewsSection_hp h3{
+        font-size: 32px;
+    }
+    .custNewsSection_hp h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custNewsSection_hp .newsBox .imgBox img{
+        width: 100%;
+    }
+    .custNewsSection_hp .newsBox .content {
+        margin: 0 0 20px;
+    }
+    .custNewsSection_hp .btnWrap{
+        margin: 30px 0 0;
+    }
+    .custFreeConsultationWraper_hp {
+        padding: 30px 0 40px;
+    }
+    .custHomePageFaqSection{
+        padding: 40px 0;
+    }
+    .custHomePageFaqSection h3{
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .custHomePageFaqSection h3 span{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHomePageFaqSection .tabs{
+        margin: 0;
+    }
+    .custHomePageFaqSection .tab-label{
+        padding: 10px;
+        padding-right: 41px;
+        position: relative;
+    }
+    .custHomePageFaqSection .tab-label::after{
+        position: absolute;
+        right: 16px;
+    }
+    .custTestimonialSection_hp {
+        margin: 0 0 35px;
+    }
+    .ListendHelpSection{
+        padding: 30px 0;
+    }
+    .ListendHelpSection .ListendHelpMain{
+        flex-direction: column;
+        padding: 20px;
+        gap: 0;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent{
+        padding-top: 0px;
+        padding-left: 0;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent h3{
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0 0 8px;
+        padding: 0 0 8px;
+        display: flex;
+        gap: 0 12px;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent p{
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 10px;
+    }
+    .ListendHelpSection .ListendHelpMain .custBookBtnWrapper{
+        padding-left: 0;
+        gap: 16px;
+    }
+    .ListendHelpSection .ListendHelpMain .custContent h3 img{
+        width: 80px;
+        margin-left: auto;
+        position: relative;
+        margin-bottom: -8px;
+        margin-top: 0;
+    }   
+}
+@media(max-width: 580px){
+    .custHomePageBookBanner .innerWraper .custBookBtnWrapper,
+    .custHeroButtonSection_sp .custBtnWraper{
+        flex-direction: column;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        width: 100%;
+        text-align: center;
+    }
+    .custHeroButtonSection_sp .custBtnWraper .reviews{
+        margin-right: auto;
+    }
+    .custHomePageBookBanner .innerWraper .custBookBtnWrapper{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.outline,
+    .custHomePageBookBanner .innerWraper .custBookBtnWrapper a.btn.fill{
+        width: 100%;
+    }
+    .ListendHelpSection .ListendHelpMain .custBookBtnWrapper{
+        flex-direction: column;
+    }
+}

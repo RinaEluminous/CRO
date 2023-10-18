@@ -1,0 +1,680 @@
+<style>
+.custMainBlocks {
+    padding-top: 8.4rem;
+}
+
+.custMainbanner {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+/*    height: 640px;*/
+    position: relative;
+    overflow: hidden;
+}
+
+.text-wrapper h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 100%; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: unpretentious,sans-serif;
+    margin: 0 0 20px 0;
+}
+
+.text-wrapper p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    font-family: work-sans,sans-serif;
+    max-width: 622px;
+    margin: 0 auto;
+}
+
+.text-wrapper {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 196px;
+    transform: translateX(-50%);
+}
+
+.custLeftproducts, .custrighttproducts {
+    width: 50%;
+    text-align: right;
+    position: relative;
+/*    min-height: 640px;*/
+    height: 100%;
+}
+
+.custLeftproducts a {right: 32px;}
+
+.custrighttproducts {
+    text-align: left;
+}
+
+.custMainbanner a {
+    color: #fff;
+    background: #1A9EE8;
+    width: 300px;
+    height: 56px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+} 
+.custLeftproducts img, .custrighttproducts img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: bottom;
+}
+
+.custrighttproducts a {
+    left: 32px;
+    background: #EAA827;
+}
+
+.custLeftproducts a, .custrighttproducts a {
+    margin-bottom: 80px;
+}
+.custBootsIsUnmatched {
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding-top: 50px;
+}
+
+.custBootsIsUnmatched ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+    padding-left: 0;
+    margin: 38px auto 0 auto;
+    max-width: 1000px;
+}
+
+.custBootsIsUnmatched h2 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #011E33;
+        font-family: unpretentious,sans-serif;
+}
+
+.custBootsIsUnmatched ul li.custLogoItemList {
+    display: inline-block;
+    max-width: 250px;
+    margin: auto;
+}
+
+.custCategories {
+    padding: 0 48px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 58px;
+}
+
+.custProductCategories img {
+    width: 100%;
+}
+
+.custProductCategories a div {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+        font-family: unpretentious,sans-serif;
+}
+
+.custProductCategories {
+    position: relative;
+    display: block;
+}
+
+.custProductCategories a span {
+    display: block;
+    width: 100%;
+}
+
+.custProductCategories a::after {
+}
+
+.custProductCategories a {
+    display: flex;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    transform: translatey(-50%);
+    z-index: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.custProductCategories a:hover div {
+    color: #EAA827;
+}
+main#main .hero-image.hero-image--normal, main#main .shopify-section:nth-child(2), main#main .shopify-section:nth-child(3), main#main .shopify-section:nth-child(4), main#main .shopify-section:nth-child(5), main#main .shopify-section:nth-child(6), main#main .shopify-section:nth-child(7), main#main .shopify-section:last-child {
+    display: none;
+}
+main#main {padding: 0;}
+/*tabs*/
+.tabset > input[type="radio"] {
+  position: absolute;
+  left: -200vw;
+}
+
+.tabset .tab-panel {
+  display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+  display: block;
+} 
+.tabset > label {
+  position: relative;
+  display: inline-block;
+  padding: 0 0 6px 0;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px; 
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #011E33;
+  opacity: 0.5;
+  margin: 0 16px;
+}
+
+.tabset > label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background: transparent;
+}
+.tabset > label:hover,
+.tabset > input:focus + label {
+  color: #011E33;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+  background: #1A9EE8;
+}
+
+.tabset > input:checked + label {
+  margin-bottom: -1px;
+  opacity: 1;
+}
+
+.tab-panel {
+  padding: 0 0;
+}
+.custShopBestSellers {
+    text-align: center;
+    padding-top: 60px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.custShopBestSellers h2 {
+    margin: 0 0 24px 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #011E33;
+font-family: unpretentious,sans-serif;
+}
+
+.custProtital {
+    text-align: center;
+}
+
+.custProtital h6 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #011E33;
+    margin: 32px 0 0 0;
+}
+
+.custRating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+}
+
+.custRating span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #1A9EE8;
+    margin-left: 8px;
+}
+
+.custPrice {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #011E33;
+    font-family: unpretentious,sans-serif;
+} 
+.tab-panels button.slick-prev, .tab-panels button.slick-next, .custstarreview button.slick-prev, .custstarreview button.slick-next {
+    position: absolute;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/leftArrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 23px;
+    font-size: 0;
+    z-index: 1;
+    border: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+.tab-panels button.slick-prev, .custstarreview button.slick-prev {
+    left: -22px;
+}
+
+.tab-panels button.slick-next, .custstarreview button.slick-next {right: -22px;background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/rightArrow.svg);}
+
+button.slick-disabled {
+    opacity: 0.5;
+}
+
+.custstarreview {
+    text-align: center;
+    max-width: 800px;
+    margin: 80px auto 0 auto;
+}
+
+.custratingblocks {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 744px;
+    margin: 0 auto;
+}
+
+.custratingblocks p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #011D33;
+    margin: 24px 0 16px 0;
+        font-family: work-sans,sans-serif;width: 100%;
+}
+
+.custName {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #011D33;
+}
+
+ul.slick-dots {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul.slick-dots li button {
+    background-color: #0091DA;
+    border: 0;
+    width: 6px !important;
+    height: 6px !important;
+    font-size: 0;
+    background: rgba(0, 29, 52, 0.1);
+    border-radius: 50px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 4px;
+}
+
+li.slick-active button {
+    background-color: #0091DA !important;
+}
+
+.custstarreview button.slick-next {
+    right: -68px;
+    transform: translateY(-100%);
+}
+
+.custstarreview h3 {
+    margin: 0 0 40px 0;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #011E33;
+}
+
+.custstarreview button.slick-prev {
+    left: -68px;
+    transform: translateY(-100%);
+}
+
+.custstarreview button.slick-prev, .custstarreview button.slick-next {
+    width: 16px;
+    background-size: contain;
+    padding: 0;
+    height: 32px;
+}
+
+.custBreakInFast {
+    padding: 40px 68px 40px 68px;
+    background: #E4E4DC;
+    margin-top: 40px;
+}
+
+.custBreakWraper {
+    text-align: center;
+}
+
+.custBreakWraper img {
+    margin: 0 auto;
+        width: 240px;
+}
+
+.custBreakWraper h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px; 
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    color: #001D34;
+    margin-bottom: 16px;
+    margin-top: 40px;
+        font-family: unpretentious,sans-serif;
+}
+
+.custBreakWraper p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%; 
+    text-align: center;
+    letter-spacing: 0.03em; 
+    color: #001D34;
+    margin: 0 0;
+        font-family: work-sans,sans-serif;
+}
+
+.custBreakInFast ul.slick-dots {
+    display: none;
+}
+.shopify-section:not(:empty)+.shopify-section .margin-top--reverse {
+    margin-top: 90px !important;
+    margin-bottom: 0;
+}
+.bfg__home-promo {
+    margin-bottom: 0;
+    margin-top: 80px;
+} 
+.custMobileSlider{
+    display: none !important;
+}
+
+@media(min-width: 992px) {
+    .custBreakSlider {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    display: grid;
+    max-width: 1304px;
+    margin: 0 auto;
+}
+.custProductCategories a div, .custProtital h6, .custPrice, .custBreakWraper h3{
+    font-size: 24px;
+    line-height: 35px;
+}
+}
+@media(max-width: 991px) {
+
+    .custLeftproducts a,
+    .custrighttproducts a {
+        margin-bottom: 80px;
+    }
+
+    .custLeftproducts img,
+    .custrighttproducts img {
+        display: none;
+    }
+
+.custMainbanner {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Alvies/designed-for-men.jpg);
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    /*media*/
+    .custProductCategories a div {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+
+.custLeftproducts a, .custrighttproducts a {
+    font-size: 18px;
+    line-height: 22px;
+    width: 163px;
+    height: 48px;
+    margin-bottom: 40px;
+}
+.custrighttproducts a{
+    background: #1A9EE8;
+}
+.text-wrapper h1 {
+    font-size: 56px;
+    line-height: 69px;
+}
+
+.text-wrapper p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.custBootsIsUnmatched h2 {
+    font-size: 28px;
+}
+
+.custShopBestSellers h2 {
+    font-weight: 400;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.tabset > label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.custProtital h6 {
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.custPrice {
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.custstarreview h3 {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 32px;
+}
+
+.custratingblocks p {
+    font-size: 16px;
+}
+.custMainBlocks {
+    padding-top: 5.1rem;
+}
+
+.text-wrapper {
+    padding: 0 32px;
+}
+
+.custrighttproducts a {
+    left: 8px;
+}
+
+.custLeftproducts a {
+    right: 8px;
+}
+
+.custBootsIsUnmatched {
+    padding-top: 48px;
+    margin-left: 32px;
+    margin-right: 32px;
+} 
+
+.custBootsIsUnmatched ul {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 30px;
+}
+
+.custCategories {
+    margin-top: 40px;    
+    display: block;
+    padding: 0;
+}
+
+.custShopBestSellers {
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custstarreview {
+    margin-top: 40px;
+    padding: 0 31px;
+}
+
+.custBreakInFast {
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custBreakInFast button.slick-arrow {
+    display: none !important;
+}
+.custCategories  .slick-initialized .slick-slide {
+    margin: 0 12px;
+}
+.custMobileSpaceBlocks {
+    padding: 0 12px;
+}
+.custBreakWraper h3 {
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.custBreakWraper p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.custBreakInFast ul.slick-dots {
+    display: flex !important;
+}
+.custMaleBoots  .slick-list.draggable, .custFemaleBoots .slick-list.draggable {
+    padding: 0 25% 0 0 !important;
+}
+.custName {
+    font-size: 14px;
+}
+.custMobileSlider{
+    display: block !important;
+}
+.custDesktopSlider{
+    display: none !important;
+}
+img.custMobileSlider {
+    width: 100%;
+}
+.shopify-section:not(:empty)+.shopify-section .margin-top--reverse {
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+}
+}
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+    .custMainbanner {
+    background-position: bottom center;
+}
+}
+@media(max-width: 1600px) {
+.custMainbanner {
+    height: 640px;
+}
+
+.custLeftproducts, .custrighttproducts {
+    min-height: 640px;
+}
+.custLeftproducts img, .custrighttproducts img{
+        object-fit: cover;
+}
+}
+@media(max-width: 480px) {
+    .custMainbanner {
+    background-position: 77% 0;
+}
+}
+</style>

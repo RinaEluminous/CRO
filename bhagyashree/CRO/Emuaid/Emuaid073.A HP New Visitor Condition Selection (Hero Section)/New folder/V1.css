@@ -1,0 +1,1345 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+  .custMainConditionWrapper {width: 100%;}  
+  .custMainConditionWrapper .container {max-width: calc(1440px - 160px);margin: 0 auto;justify-content: flex-start;width: 100%;}  
+  .custHpHeroBanner {
+      background-color: rgba(0, 105, 188, 0.2);
+      padding: 95px 0 95px 0;
+      background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/turn-hope-into-healing.png);
+      background-repeat: no-repeat;
+      background-position: right top;
+      background-size: auto 100%;
+      display: inline-block;
+      width: 100%;
+      position: relative;
+      min-height: 600px;
+  }  
+  .custMainConditionWrapper h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 56px;
+      line-height: 64px;
+      font-family: 'Inter', sans-serif;
+      letter-spacing: -0.03em;
+      color: #001489;
+  }  
+  .custHpHeroBanner p {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 36px;
+      font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+      margin: 0;
+  }  
+  .custHpHeroBanner p em {font-weight: normal;  }  
+  .custProdsBlock ul {
+      padding: 0;
+      margin: 40px 0 0 0;
+      list-style: none;
+      display: flex;
+      gap: 16px;
+      width: 100%;
+  }
+    .custProdsBlock ul li {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 20px;
+      background: #FFFFFF;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      width: 50%;
+      margin-bottom: 0;
+  }
+.custProdsBlock ul li img {width: 100%;max-width: 100%;object-fit: cover;object-position: top;transform: scale(1.3);margin-top: -10px;}
+.custHpHeroBanner .row {max-width: 640px;margin: 0;}  
+span.custProdBadge {
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 16px;
+      text-transform: uppercase;
+      background: #C4222E;
+      border-radius: 100px;
+      color: #FFFFFF;
+      padding: 2px 6px;
+  }  
+  .custInitialProdContent h2 {
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      color: #001489;
+      margin: 12px 0 10px 0;
+  }  
+  .custInitialProdContent p {
+      font-weight: 400;
+      font-size: 13px;
+      color: #4C4C4C;
+      line-height: 16px;
+      margin: 0;
+  }  
+  .custInitialProdContent {width: 100%;}  
+  .custProdCategories {width: 100%;margin-top: 10px;display: inline-block;}  
+  .custProdCategories .custProdCondition {flex-wrap: nowrap;white-space: pre;overflow-x: scroll;}  
+  .custProdCategories .custProdCondition::-webkit-scrollbar {width: 10px;background-color: #a9a9a900;border-radius: 100vh;}  
+  .custProdCategories .custProdCondition::-webkit-scrollbar-thumb {background-color: #21212100;border-radius: 100vh;}  
+  .custProdCategories .custProdCondition::-webkit-scrollbar-track {width: 10px;background-color: #a9a9a900;border-radius: 100vh;}
+  .custProdCategories .custProdCondition span {
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    padding: 2px 4px;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 500;
+    color: #4C4C4C;
+    border-radius: 999px;
+    margin: 2px;
+    cursor: pointer;
+  }
+  
+  a.customOrangeColorCTA {
+      width: 100%;
+      background: #E36018;
+      border-radius: 1000px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 24px;
+      color: #FFFFFF !important;
+      text-align: center;
+      height: 40px;
+      padding: 8px 40px;
+      font-family: 'Inter', sans-serif;
+      display: inline-block;
+  }
+  
+  .custReviewStarRating {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #292B2D;
+    font-family: 'Inter', sans-serif;
+  }
+    .custReviewsFromUsers {padding: 40px 0;}
+    .custReviewStarRating div span {color: #e36018;padding-right: 0 !important;}  
+  .custReviewStarRating div {
+      margin-right: 8px;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 32px;
+      color: #292B2D;
+      font-family: 'Inter', sans-serif;
+  }  
+  .custReviewsFromUsers h2 {
+      width: 100%;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      letter-spacing: -0.03em;
+      color: #001489;
+      margin: 8px 0 32px 0;
+  }  
+  .custReviewsFromUsers ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: repeat(8, 1fr);
+      justify-content: center;
+  }  
+  .custReviewsFromUsers ul li img {width: 100%;transition: all 0.5s;}  
+  .custReviewsFromUsers ul li {
+      text-align: center;
+      width: 133px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      color: #001489;
+      font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+      margin-bottom: 0;
+      transition: all 0.5s;
+  }  
+  .custReviewsFromUsers ul li span {margin-top: 16px;display: block;}  
+  .custReviewsFromUsers ul li:hover img {transform: scale(1.1);transition: all 0.5s;}  
+  .custReviewsFromUsers ul li:hover {cursor: pointer;}
+a.custOrangeBtnOutline {
+    margin-top: 32px;
+    padding: 16px 32px;
+    background: #FFFFFF;
+    border: 1px solid #E36018;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 100px;
+    color: #E36018 !important;
+    max-width: 297px;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custHpPhysiciansDermatologist .col-md-6 {width: 50%; height: 100%;}
+.custHpPhysiciansDermatologist .container {padding: 0;background: #F1F2F6;border-radius: 16px;overflow: hidden;}
+.custHpPhysiciansDermatologist {padding-top: 80px;padding-bottom: 80px;}
+.custHpPhysiciansDermatologist .col-md-6:first-child {padding-left: 80px;padding-top: 80px;padding-bottom: 80px;}
+.custHpPhysiciansDermatologist  h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #001489;
+    margin-bottom: 32px;
+    padding-left: 92px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0549/3181/6637/files/Versatile.png?v=1662096652);
+    background-repeat: no-repeat;
+    background-size: 80px 65px;
+    background-position: center left;
+}
+.custHpPhysiciansDermatologist p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #292B2D;
+    margin-bottom: 16px;
+    max-width: 560px;
+    width: 100%;
+        font-family: 'Inter', sans-serif;
+}
+.custHpPhysiciansDermatologist ul {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 42px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.custHpPhysiciansDermatologist ul li {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #000000;
+        font-family: 'Inter', sans-serif;
+}
+
+.custHpPhysiciansDermatologist ul li span {margin-left: 8px;}
+.custHpPhysiciansDermatologist a.customOrangeColorCTA {
+    height: 56px;
+    display: inline-block;
+    width: auto;
+    padding: 16px 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.custHpPhysiciansDermatologist .row {margin-bottom: 0;}
+.custHpPhysiciansDermatologist .col-md-6 img {height: 100%;}
+.custHpPhysiciansDermatologist .col-md-6:last-child img {margin-top: 30px;margin-right: 20px;display: block;}
+.custHpNatureInspired {
+    background: #F2F7FA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/nature-inspired.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+.custHpNatureInspired h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 8px;
+}
+
+.custHpNatureInspired .row {
+    width: 560px;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
+.custHpNatureInspired p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 30px 0;
+}
+
+.custHpNatureInspired a.customOrangeColorCTA {
+    width: auto;
+    display: inline-block;
+    padding: 16px 80px;
+    height: auto;
+    background: #E36018;
+    border-radius: 1000px;
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+}
+
+.custWorldMostVersatileBlock h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+
+.custWorldMostVersatileBlock .container, .custWorldMostVersatileBlock .container .row {width: 100%;}
+
+.custMoneyBackGuaranteeBlock {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #F0F1F5 42.52%, rgba(240, 241, 245, 0) 47.97%), #f3f4f9;
+    height: 560px;
+}
+
+.custMoneyBackGuaranteeBlock .row {
+    max-width: 550px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.custMoneyBackGuaranteeBlock h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.03em;
+    color: #001489;
+    margin-bottom: 24px;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+.custMoneyBackGuaranteeBlock h2::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/blue-tick.png);
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 12px;
+    flex: 0 0 32px;
+}
+.custMoneyBackGuaranteeBlock p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.custMoneyBackGuaranteeBlock a {
+    padding: 16px 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.custMoneyBackGuaranteeBlock .container {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/hp-money-back-guarantee.jpg);
+    background-size: cover;
+    height: 560px;
+    align-items: center;
+    background-position: -80px 0;
+}
+.custProdsBlock ul li:nth-child(2) span.custProdBadge {
+    background: #2D469D;
+}
+.custWorldMostVersatileBlock div.swiper-container {
+    margin: 0 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    height: 100%;
+}
+.custProductSlider {
+    width: calc(100% - 260px);
+}
+
+.custSkinConditions {width: 240px;margin-right: 20px;}
+
+.custWorldMostVersatileBlock .container {
+    max-width: 1440px;
+    padding-left: 80px;
+}
+
+.custSkinConditions ul {
+    padding: 24px 12px 24px 12px;
+    list-style: none;
+    margin: 0;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.custSkinConditions ul li span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 8px;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+}
+.custSkinConditions ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+.custSkinConditions ul li img {
+    width: 32px;
+    height: 32px;
+    padding: 4px 3px;
+}
+.custProductSlider  h2.prod-title {
+    text-align: left;
+    font-style: normal;
+}
+.custWorldMostVersatileBlock h2.prod-title{
+text-align: left !important;
+    word-break: break-word;
+}
+.custWorldMostVersatileBlock a.customOrangeColorCTA {
+    display: inline-block;
+    width: auto;
+    margin: 30px auto 44px auto;
+    padding: 16px 40px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.custWorldMostVersatileBlock a.customOrangeColorCTA {
+    display: inline-block;
+    width: auto;
+    margin: 30px auto 44px auto;
+    padding: 16px 40px;
+    height: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+} 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(1), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(2), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(3), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(4), 
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:nth-child(5),
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper:last-child {
+    display: block;
+} 
+div#s-43e79b87-2a9b-413e-b5ff-8446ca95ec5c, div#s-1b70bed9-b174-46e5-8366-1bc68061285e .shg-box-content .shg-box-vertical-align-wrapper,
+ div#s-abb58b60-1273-4253-87df-f8d4ad7b09e3, div#s-e90f2667-94c4-4184-b9bb-1bf1d3110fd2, div#s-f8dd8b49-6bde-428a-afa9-bd3508613306,
+div#s-c1e24c9f-48c5-4644-8ad3-4d10494a2678, div#s-e27c19f5-1b9d-4194-9bdb-58d52a0d7e24, 
+.shogun-root .shg-fw, div#s-f7809628-220a-4d7c-bfda-f5037a913ed8, div#s-85111b22-dc66-41e3-b6ae-0971b6fcad30,
+div#s-6549e9d3-11b4-4ca9-a506-8b327ab7b90e, div#s-f7f039f3-1813-435a-90c2-391b313ad957,
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child, div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child + div, div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 .shg-rich-text.shg-theme-text-content p:first-child + div + div, div#s-95ffc61e-9798-4ab7-b867-f69313ce7531{
+    display: none;
+}
+.bm-logo-section {
+    padding: 47px 80px !important;
+}
+.custHpNatureMobileImg {
+    display: none;
+}
+.custEmuaidTreatmentProdSlider { 
+    margin: 0 !important;
+    padding: 5px 0 !important;
+    overflow-x: hidden;
+}
+
+.custEmuaidTreatmentProdSlider .swiper-wrapper div a {
+    height: 100%;
+    display: block;
+}
+
+
+a.customOrangeColorCTA span {
+    color: #fff !important;
+    font-weight: 300 !important;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 2px;
+    top: 0;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+  img.custNatureImage {
+    width: 100%;
+}
+
+ .custHpNatureInspired {
+    position: relative;
+} 
+
+.custMaximumProductImg img {
+    width: 100px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custMaximumStrengthBannerProd {
+    display: flex;
+    padding: 8px 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    flex: 0 0 50%;
+    align-items: flex-start;
+    margin: 0;
+    position: relative;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.custMaximumProductName span {
+    background: #C4222E;
+    border-radius: 100px;
+    padding: 2px 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custMaximumProductName h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #001489;
+    margin: 4px 0 0 0;
+}
+
+.custMaximumProductName{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 100px);
+    order: 1;
+}
+.custMaximumStrengthBannerProd a {
+background: #E36018;
+    border-radius: 1000px;
+    width: 100%;
+    height: 40px;
+    padding: 8px 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF !important;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    order: 3;
+}
+.custMaximumStrengthBannerProd a small {font-weight: 300 !important;font-size: 16px;display: inline-block;margin-left: 2px;top: 0;font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;}
+.custMaximumProductImg {
+    height: 100px;
+    width: 100px;
+    order: 2;
+}
+.custMaximumStrengthBannerProd:last-child span {background: #2D469D;}
+.custNatureBannerInspired{
+    display: flex;
+    width: 100%;
+    gap: 16px;
+    margin-top: 32px;
+}
+.custMaximumProductName p {
+     display: none; 
+}
+html body.bm-test-004 .bm-top-prod .prod-title sup {margin-right: 5px;}
+
+.custProdsBlock {
+    max-width: calc(1440px - 160px);
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.custMaximumStrength {
+    flex: 0 0 calc(100% - 200px);
+}
+
+.custProductsImage {
+    flex: 0 0 200px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.custHpHeroBanner::after {
+    content: "";
+    display: block;
+    height: 70px;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/healing-bg-banner.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%;
+}
+.select-dropdown select {
+    border: 0;
+    border-radius: 200px;
+    background: #CCE1F2;
+    margin: 0;
+    padding: 0;
+}
+
+.custRightEmuaidProduct {border-radius: 16px;background: #FFF;padding: 24px;margin-top: 32px;width: 100%;max-width: 577px;}
+
+.custRightEmuaidProduct p {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custFindEmuaid {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    justify-content: space-between;
+}
+
+.custSelectDropdown .custDropMenu  {
+    margin: 0 0 0 0;
+    border: 0;
+    border-radius: 200px;
+    background-color: #CCE1F2;
+    padding: 4px 12px 4px 8px;
+    width: 270px;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #292B2D;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/down-arrow-black.png);
+    background-size: 14px 8px;
+    background-repeat: no-repeat;
+    background-position: 95% 20px;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.custFindEmuaid h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    color: #292B2D;
+    margin: 0 0 0 0;
+}
+
+.custSelectDropdown .custConditionDropdown li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.custFindEmuaid button.custOrangeBtnOutline {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 8px 25px;
+    border-radius: 100px;
+    font-family: Helvetica;
+}
+
+html body.bm-test-004 .bm-top-prod .bm-most-popular {
+    background-color: #C4222E !important;
+}
+
+html body.bm-test-004 .bm-top-prod .bm-most-popular + .bm-prod {
+    border: 2px solid #C4222E !important;
+}
+
+div#s-bf292b68-5450-4f5b-9308-ea151b8aaa47 {
+    display: none !important;
+}
+
+div#s-32c07fd3-99ac-4226-8322-758112b26a27 {
+    padding: 0 !important;
+    gap: 0 !important;
+    min-height: auto;
+}
+ul.custConditionDropdown {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    position: absolute;
+    z-index: 9;
+    padding: 0 8px !important;
+    max-width: 270px;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custDropMenuActive + ul.custConditionDropdown {
+    height: 240px;
+    overflow-y: scroll;
+}
+
+ul.custConditionDropdown::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 0%);
+    background-color: #f5f5f500;
+}
+ul.custConditionDropdown::-webkit-scrollbar{
+    width: 10px;
+    background-color: #f5f5f500;
+}
+ul.custConditionDropdown::-webkit-scrollbar-thumb{
+    background-color: #00000000;
+    border: 2px solid #55555500;
+}
+ul.custConditionDropdown li:first-child {
+    margin-top: 4px;
+}
+
+ul.custConditionDropdown li:last-child {
+    margin-bottom: 4px;
+}
+
+/*media*/
+@media(min-width: 1200px) {
+.custEmuaidTreatmentProdSlider {
+    max-width: calc(100% - 260px) !important;     padding-left: 4px !important;
+}
+.custEmuaidTreatmentProdSlider div a .bm-prod {
+    height: 100% !important;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px)  {
+.custSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+
+.custSkinConditions ul {
+    display: flex;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.custSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+.custSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+
+.custSkinConditions ul {
+    display: flex;
+    overflow: scroll;
+    background-color: transparent;
+}
+
+.custSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+
+a.customOrangeColorCTA {
+    font-size: 14px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.custHpPhysiciansDermatologist ul {
+    z-index: 99;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.custHpPhysiciansDermatologist .col-md-6:first-child {
+    padding-left: 30px;
+}
+
+.custHpHeroBanner {
+    background-image: none !important;
+    padding-top: 0 !important;
+}
+
+.custHpHeroBanner .custHpNatureMobileImg {
+    display: block;
+}
+
+.custHpHeroBanner .custHpNatureMobileImg img {
+    width: 100%;
+}
+/*bannermobile*/ 
+.custMaximumStrengthBannerProd {
+width: calc(50% - 16px);
+    justify-content: space-between;
+    margin: 0 8px;
+    flex: 0 0 calc(50% - 16px);
+    flex-wrap: wrap;
+}
+.custMaximumStrengthBannerProd a {
+        width: 100%;
+    padding: 8px 22px;
+    margin-top: 0;
+}
+.custMaximumProductName h3 {
+        font-size: 20px;
+    padding-right: 0;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.custMaximumProductName p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px; 
+    display: block;
+}
+}
+@media(min-width: 1366px) {
+.custProductSlider .bm-prod {height: 100% !important;}
+.custProductSlider .prod-img {max-width: 200px !important;bottom: 0 !important;right: 0 !important;}
+}
+@media(max-width: 1199px) {
+.custHpHeroBanner .row {padding-left: 30px;}
+.custMainConditionWrapper h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+}
+.custHpHeroBanner p {
+    font-size: 20px;
+    line-height: 28px;
+}
+.custInitialProdContent p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+.custInitialProdContent h2 {
+font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.custProdCategories .custProdCondition span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+}
+.custProdsBlock ul {margin-top: 20px;}
+.custHpHeroBanner {padding: 60px 0;}
+.custReviewsFromUsers ul {
+    overflow-y: scroll;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 0;
+    margin-left: 20px;
+    padding-right: 30px;
+}
+.custReviewsFromUsers ul li {
+    max-width: 150px;
+    flex: 0 0 100%;
+    padding: 0 10px;
+} 
+.custMoneyBackGuaranteeBlock .row {padding-left: 30px;}
+.custHpPhysiciansDermatologist {padding-left: 15px;padding-right: 15px;}
+.custHpPhysiciansDermatologist .col-md-6:first-child {
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.custMainConditionWrapper .container {display: block;}
+.custMoneyBackGuaranteeBlock .container {
+    display: flex;
+    height: auto;
+    padding: 60px 0;
+    background-position: 60px 0;
+    background-repeat: no-repeat;
+}
+.custRightEmuaidProduct p{
+        font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+                         
+}
+}
+
+@media(max-width: 1024px) {
+.custHpNatureInspired {
+    padding-top: 50px;
+    background-position: left top;
+    background-size: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    background-image: none;
+}
+.custHpNatureInspired .row {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custHpNatureInspired a.customOrangeColorCTA {
+    width: 100%;
+    max-width: 270px;
+} 
+.custHpHeroBanner {margin-top: 92px;}
+.custWorldMostVersatileBlock .container {padding-left: 30px;} 
+}
+@media(max-width: 991px) {
+.custWorldMostVersatileBlock .container {
+    padding: 0 15px;
+}
+html body.bm-test-004 .bm-logos>div {
+    margin: 0 6px !important;
+    flex: 0 0 auto;
+}
+.custHpNatureInspired img.custHpNatureMobileImg {
+    width: 100%;
+}
+.custEmuaidTreatmentProdSlider {
+    max-width: 100% !important;
+}
+body .custMaximumProductName p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    display: block;
+}
+}
+@media(max-width: 767px) {
+  .custWorldMostVersatileBlock .bm-most-popular{
+    border-radius: 10px 10px 0 0px !important;
+  } 
+.custHpHeroBanner {
+    background-image: none;
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+.custProdsBlock ul {
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.custProdsBlock ul li {
+    width: 100%;
+    position: relative;
+}
+
+.custHpHeroBanner .row {
+    padding: 0 15px;
+}
+
+.custHpNatureMobileImg {
+    display: block;
+}
+
+.custHpNatureMobileImg img {
+    width: 100%;
+}
+
+.custMainConditionWrapper h1 {
+    font-size: 40px;
+    line-height: 44px;
+}
+
+.custHpHeroBanner .custHpNatureMobileImg {
+    margin-bottom: 30px;
+}
+
+.custReviewsFromUsers {
+    padding: 30px 0;
+}
+
+.custReviewStarRating {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custReviewsFromUsers h2 {
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0 15px;
+}
+
+a.custOrangeBtnOutline {
+    margin-top: 64px;
+}
+
+.custReviewsFromUsers .row {
+    margin: 0;
+}
+.custHpPhysiciansDermatologist {
+    padding: 0;
+}
+
+.custHpPhysiciansDermatologist .container {
+    border-radius: 0;
+}
+
+.custHpPhysiciansDermatologist .col-md-6:first-child {
+    order: 2;
+    width: 100%;
+    padding: 30px 15px;
+}
+
+.custHpPhysiciansDermatologist .col-md-6 {width: 100%;padding: 0 15px;}
+
+.custHpPhysiciansDermatologist .col-md-6:last-child img {
+    margin: 0 auto !important;
+    width: 100%;
+}
+
+.custHpPhysiciansDermatologist h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    background-image: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.custHpPhysiciansDermatologist h2::before {
+    content: "";
+    background-image: url(https://cdn.shopify.com/s/files/1/0549/3181/6637/files/Versatile.png?v=1662096652);
+    width: 56px;
+    height: 56px;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 15px;
+    flex: 0 0 56px;
+}
+
+.custHpPhysiciansDermatologist p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 100%;
+}
+
+.custHpPhysiciansDermatologist ul {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.custHpPhysiciansDermatologist ul li span {width: 100%;    display: block;}
+.custHpPhysiciansDermatologist a.customOrangeColorCTA {width: 100%;}
+a.customOrangeColorCTA {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.custWorldMostVersatileBlock {
+    padding-top: 40px;
+}
+.custWorldMostVersatileBlock h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 23px;
+}
+.custSkinConditions {
+    width: 100%;
+    margin: 0;
+}
+.custSkinConditions ul {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    overflow: scroll;
+    margin-bottom: 23px;
+}
+.custSkinConditions ul li {
+    flex: 0 0 auto;
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.custProductSlider {width: 100%;}
+.custWorldMostVersatileBlock div.swiper-container {max-width: 100% !important;}
+.custWorldMostVersatileBlock a.customOrangeColorCTA {
+    max-width: 236px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 16px 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.custHpNatureInspired {padding-top: 0;}
+.custHpNatureInspired .custHpNatureMobileImg img {margin-left: -15px;}
+.custHpNatureInspired h2 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Inter', sans-serif;
+}
+.custHpNatureInspired p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-family: 'Inter', sans-serif;
+}
+img.custNatureDesktopImage {display: none;}
+.custHpNatureInspired a.customOrangeColorCTA {
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.custHpNatureInspired + .bm-logo-section {
+    padding: 0 !important;
+}
+.custHpNatureInspired + .bm-logo-section .bm-logo {
+    flex: 0 0 auto;
+    width: auto;
+}
+html body.bm-test-004 .bm-logos {
+    flex-wrap: nowrap !important;
+    overflow: scroll;
+    padding: 20px 0;
+}
+.custHpNatureInspired + .bm-logo-section .bm-text {
+    width: auto;
+    flex: 0 0 auto;
+    margin-left: 10px !important;
+} 
+.custMoneyBackGuaranteeBlock .container {
+    padding: 0 0 30px 0;
+    max-width: 100% !important;
+    gap: 0;
+    background-image: none !important;
+}
+.custMoneyBackGuaranteeBlock .custHpNatureMobileImg, .custMoneyBackGuaranteeBlock .custHpNatureMobileImg img {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 375px;
+}
+.custMoneyBackGuaranteeBlock .row {padding: 0;max-width: 100%;margin-bottom: 0;}
+.custMoneyBackGuaranteeBlock {flex-wrap: wrap;padding: 0 15px;}
+.custMoneyBackGuaranteeBlock h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    align-items: self-start;
+}
+.custMoneyBackGuaranteeBlock p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.custMoneyBackGuaranteeBlock a {width: 100%;padding: 16px 15px;}
+.shogun-root {max-width: 100%;width: 100%;}
+
+div#s-1b70bed9-b174-46e5-8366-1bc68061285e, div#s-c6b027fd-fd78-424d-8acf-37ada216367b, div#s-36c6e0c0-958f-49be-ba89-8d625c7ef7e1, div#s-7e6d1234-1b8b-40f1-b108-d53849b47a9e, div#s-4bebc414-cecb-443d-b559-6e5de006181e {width: 100%;max-width: 100% !important;}
+div#s-c6b027fd-fd78-424d-8acf-37ada216367b {padding: 0 15px;}
+/*banner mobile*/
+.custMaximumStrengthBannerProd .custMaximumProductImg {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+} 
+.custMaximumStrengthBannerProd {
+    width: calc(100% - 20px);
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px;
+    flex: 0 0 100%;
+}
+.custMaximumProductName h3 {
+width: 100%;
+    font-size: 20px;
+    padding-right: 11px;
+    line-height: 24px;
+    margin-top: 10px;
+} 
+.custMaximumProductName span {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 16px;
+}
+.custMaximumStrengthBannerProd .custMaximumProductImg img {
+    object-position: left;
+    width: 120px;
+    height: 120px;
+}
+.custMaximumProductName {
+    width: calc(100% - 120px);
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.custMaximumProductImg {
+    width: 120px;
+    height: 120px;
+    flex: 0 0 120px;
+} 
+.custNatureBannerInspired {
+    flex-wrap: wrap;
+}
+.custFindEmuaid button.custOrangeBtnOutline {
+    width: 100%;
+    margin-top: 16px;
+}
+.custFindEmuaid {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.custSelectDropdown {
+    width: calc(100% - 74px);
+}
+.custSelectDropdown .custDropMenu{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    width: 100%;
+    margin-left: 0;
+}
+.custRightEmuaidProduct{padding: 20px}
+.custProductsImage {
+    flex: 0 0 120px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 120px;
+}
+.custMaximumStrength {
+    flex: 0 0 auto; 
+    max-width: 100%;
+}
+.custInitialProdContent h2 {
+    padding-right: 140px;
+}
+.custProdsBlock ul li img {
+    transform: scale(1);
+}
+ul.custConditionDropdown {
+    right: 15px;
+    max-width: calc(100% - 30px);
+}
+.custHpHeroBanner::after {
+    display: none;
+}
+html body.bm-test-004 .bm-logo-section {
+    padding: 10px !important;
+}
+}
+@media(max-width: 640px) {
+.custSelectDropdown .custDropMenu {
+    font-size: 15px; 
+    line-height: 1; 
+    min-height: 40px !important;
+    background-position: 95% 17px;
+}
+}
+
+@media(max-width: 375px) {
+.custReviewsFromUsers ul li {max-width: 128px;}
+}
+
+@media(max-width: 374px) {
+.custRightEmuaidProduct p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custRightEmuaidProduct {
+    padding: 12px;
+}
+
+.custFindEmuaid, .custFindEmuaid button.custOrangeBtnOutline{
+    margin-top: 12px;
+}
+.custReviewStarRating {
+    font-size: 14px;
+}
+.custReviewStarRating div span {
+    font-size: 14px;
+}
+
+}
+
+@media(max-width: 360px) {
+.custHpPhysiciansDermatologist a.customOrangeColorCTA {
+    font-size: 16px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+}
+@media(max-width: 320px) {
+.custRightEmuaidProduct p {
+    font-size: 14px;
+    line-height: 20px;
+} 
+.custHpPhysiciansDermatologist a.customOrangeColorCTA {
+    font-size: 14px;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+}

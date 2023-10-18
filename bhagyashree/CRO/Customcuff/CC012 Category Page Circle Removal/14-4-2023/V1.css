@@ -1,0 +1,182 @@
+<style>
+@media screen and (min-width:1008px) {
+    .CollectionInner .custSortingColumn {
+        flex: 0 0 260px;
+        order: 1;
+        padding: 41px 0 41px 45px;
+        box-shadow: 1px 1px var(--border-color), -1px -1px var(--border-color)
+    }
+
+    .CollectionInner .CollectionInner__Products {
+        order: 2;
+        flex: 0 0 calc(100% - 260px);
+        padding-top: 50px
+    }
+
+    .CollectionInner {
+        margin-top: 0
+    }
+
+    .CollectionInner .custSortingColumn h6 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 17px;
+        letter-spacing: .1em;
+        text-transform: uppercase !important;
+        font-family: "Twentieth Century", sans-serif !important;
+        margin: 0 0 25px;
+        padding: 0 0 15px;
+        border-bottom: 1px solid var(--border-color);
+        display: inline-block;
+        max-width: 140px;
+        width: 100%
+    }
+
+    .CollectionInner .custSortingColumn ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        max-width: 140px;
+        width: 100%
+    }
+
+    .CollectionInner .custSortingColumn ul li {
+        font-weight: 400;
+        font-size: 16px;
+        font-family: var(--text-font-family) !important;
+        text-transform: uppercase;
+        margin: 20px 0 0
+    }
+
+    .CollectionInner .custSortingColumn ul li:first-child {
+        margin: 0
+    }
+
+    .CollectionInner .custSortingColumn .inner {
+        position: sticky;
+        top: 180px
+    }
+
+    .CollectionInner .CollectionInner__Products .ProductList--grid[data-desktop-count="4"]>.Grid__Cell {
+        width: 33.33%
+    }
+}
+
+.shopify-custom-collection-list,
+.template-collection .ProductList .Grid__Cell,
+.CollectionInner .Pagination {
+    display: none;
+}
+
+.CollectionInner .custShopMoreBtnWraper {
+    text-align: center;
+    padding: 50px 0;
+    display: block;
+}
+
+.CollectionInner .custShopMoreBtnWraper button.shopMoreBtn {
+    padding: 15px 30px;
+    border: 1px solid #000000;
+    max-width: 283px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-family: var(--text-font-family) !important;
+    font-family: var(--heading-font-family) !important;
+}
+
+.ProductItem__Info.ProductItem__Info--center {
+    height: 120px;
+}
+
+a.custProdCtaV1 {
+    width: 100%;
+    height: auto;
+    background: #63AC7B;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 17px 34px;
+    font-weight: normal !important;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-family: "Twentieth Century", sans-serif;
+    transition: all 0.5s;
+}
+
+a.custProdCtaV1:hover {
+    background: #000;
+}
+
+@media(max-width: 1007px) {
+
+    div#custCollectionShopByPopover {
+        visibility: hidden;
+        bottom: -100%;
+        transform: translatey(-100%);
+    }
+
+    div#custCollectionShopByPopover.collection-shop-by-popover {
+        bottom: 0;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    #custCollectionShopByPopover .Popover__ValueList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #custCollectionShopByPopover .Popover__ValueList button {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    #custCollectionShopByPopover .Popover__ValueList a {
+        display: block;
+        width: 100%;
+        flex: 0 0 100%;
+        padding: 12px 20px;
+        text-align: center;
+        color: #919191;
+        font-size: 13px;
+        font-family: "Twentieth Century", sans-serif;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+    }
+
+    a.custProdCtaV1 {
+        font-size: 12px;
+        line-height: 13px;
+        letter-spacing: 0.16em;
+        color: #FFFFFF;
+        padding: 0 30px;
+        height: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 767px) and (orientation: landscape) {
+ div#custCollectionShopByPopover.Popover, div#collection-sort-popover {
+    height: 200px;
+}
+.Popover__Content {
+    overflow: scroll;
+    height: 100%;
+}
+
+.Popover__ValueList {
+    overflow: scroll;
+    height: 100%;
+}
+}
+</style>

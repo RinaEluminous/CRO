@@ -1,0 +1,1350 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+ body, html, h1,h2,h3,h4,h5,h6,p,span,b,{
+    font-family: 'Inter', sans-serif;
+}
+ .custTeoNailHeroBannerV2 { 
+     background-color: #EBF0F5;
+     position: relative;
+     z-index: 1;
+}
+  
+.custToeNailSpeedUpHealingV2 .row {
+    margin-bottom: 0px !important;
+}
+  
+ .custTeoNailHeroBannerV2 .col-md-6 {
+     max-width: 613px;
+     width: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+ .custToeNailRatingWrapperV2 {
+     display: flex;
+     align-items: center;
+     width: 100%;
+}
+ .custToeNailRatingWrapperV2 p {
+     margin: 0 0 0 8px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     color:#292B2D;
+     line-height: 32px;
+}
+ .custToeNailRatingWrapperV2 span.jdgm-star.jdgm--on {
+     padding: 0 5px 0 0 !important;
+     color: #E36018;
+}
+ .custTeoNailHeroBannerV2 h1 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 44px;
+     letter-spacing: -0.04em;
+     color: #001489;
+     max-width: 453px;
+     padding: 0;
+     margin-top: 15px;
+     margin-bottom: 16px;
+     margin-left: 0;
+}
+.custTeoNailHeroBannerV2 h5 {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.32px;
+    color: #292B2D;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    padding: 0;
+    max-width: 560px;
+}
+.custTeoNailHeroBannerV2 h5 + p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+.custBmLogosBlocks {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px 60px;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #292B2D;
+}
+.custButtonWrapperV2 {
+    max-width: 260px;
+    text-align: center;
+}
+
+.custButtonWrapperV2 span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #292B2D;
+    margin-top: 12px;
+    display: block;
+}
+.custReviewV2 {
+    position: absolute;
+    bottom: 20px;
+    right: -66px;
+    max-width: 50%;
+    padding: 16px;
+    border-radius: 8px;
+    background: #F8FFF8;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.custTeoNailHeroBannerV2 .col-md-6:last-child {
+    padding: 0;
+}
+
+.custReviewV2 p + div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custBlueTextV2 {
+    color: #001489;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 16px;
+}
+
+.custReviewV2 p + div span {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: #E36018;
+}
+
+.custReviewV2 p + div span img {
+    margin-right: 5px;
+    display: block;
+}
+
+.custBlueStarV2 {
+    text-align: right;
+}
+
+.custBlueStarV2 {
+    display: block;
+}
+ a.custBuyNowCTAV2 {
+     background: #E36018;
+     border-radius: 1000px;
+     color: #fff !important;
+     padding: 16px 80px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-transform: uppercase;
+     margin-top: 27px;
+     display: inline-block;
+} 
+ .custTeoNailHeroBannerV2 .container, .custToeNailPhysiciansDermatologistV2 .container, .custToeNailFormulatedV2 .container, .custToeNailSpeedUpHealingV2 .container, .custToeNailNatureInspiredV2 .container, .custToeNailCommHeadTagV2 .container, .custToeNailReviewsFromUserV2 .container {
+     max-width: 1200px;
+     padding: 0 20px;
+     display: block;
+}
+ .custTeoNailHeroBannerV2:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/nail-fungus-hero-section.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 0;
+     transform: translateX(-50%);
+     background-size: 827px auto;
+     z-index: -1;
+}
+.custToeNailPhysiciansDermatologistV2 h2, 
+.custToeNailFormulatedV2 h2,
+.custToeNailSpeedUpHealingV2 h2, 
+.custToeNailNatureInspiredV2 h2, 
+.custToeNailCommHeadTagV2 h2{
+     margin: 40px 0 32px 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 40px;
+     color: #000000;
+     letter-spacing: -0.03em;
+}
+ .custToeNailPhysiciansDermatologistV2 p, .custToeNailFormulatedV2 p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 28px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 16px;
+     padding-right: 10px;
+}
+ .custToeNailPhysiciansDermatologistV2 ul, .custToeNailFormulatedV2 ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ .custToeNailPhysiciansDermatologistV2 ul li, .custToeNailFormulatedV2 ul li {
+     width: calc(25% - 8px);
+     display: flex;
+     align-items: center;
+     flex: 0 0 25%;
+     margin: 0 0 32px 0;
+}
+ .custToeNailPhysiciansDermatologistV2 .custToeNailInfoDoctorV2 {
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     padding: 24px;
+     max-width: 540px;
+     width: 100%;
+     position: absolute;
+     bottom: -31px;
+     left: 40px;
+}
+ .custToeNailPhysiciansDermatologistV2 .custToeNailInfoDoctorV2 p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 10px;
+}
+ .custToeNailPhysiciansDermatologistV2 .custToeNailInfoDoctorV2 span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.03em;
+     color: #292B2D;
+}
+ .custTeoNailHeroBannerV2 .row {
+     margin-bottom: 0;
+}
+ .custToeNailPhysiciansDermatologistV2 {
+     padding-top: 40px;
+     padding-bottom: 100px;
+     position: relative;
+}
+ .custToeNailPhysiciansDermatologistV2 .col-md-6:first-child {
+     width: 100%;
+     max-width: 50%;
+}
+ .custToeNailPhysiciansDermatologistV2 p b {
+     font-weight: 700;
+}
+ .custToeNailPhysiciansDermatologistV2 ul li span {
+     width: 98px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: -0.01em;
+     color: #000000;
+     margin-left: 8px;
+}
+ .custToeNailPhysiciansDermatologistV2 .col-md-6:last-child {
+     width: 48%;
+     padding-left: 80px;
+     position: relative;
+}
+ .custToeNailPhysiciansDermatologistV2::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/dr._roopa_chari.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 40px;
+     transform: translateX(-50%);
+     background-size: 575px auto;
+     z-index: -1;
+}
+ .custToeNailPhysiciansDermatologistV2 .container .col-md-6:last-child img , .custTeoNailHeroBannerV2 .col-md-6:first-child, .page-shogun-default .shogun-root, .custToeNailFormulatedV2 .col-md-6:first-child img, .custToeNailSpeedUpHealingV2 .col-md-6:last-child img {
+     display: none;
+}
+ .custToeNailFormulatedV2::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/first-aid-for-your-toenails.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: 0 center;
+     transform: translateX(-50%);
+     background-size: auto 540px;
+     z-index: -1;
+}
+ .custToeNailFormulatedV2, .custToeNailSpeedUpHealingV2 {
+     position: relative;
+}
+ .custToeNailFormulatedV2 .col-md-6 {
+     max-width: 50%;
+     float: right;
+     flex: 0 0 50%;
+}
+ .custToeNailFormulatedV2 .row {
+     justify-content: space-between;
+}
+ .custToeNailFormulatedV2 h2 small, 
+ .custToeNailSpeedUpHealingV2 h2 small,
+ .custToeNailNatureInspiredV2 h2 small, 
+ .custToeNailCommHeadTagV2 h2 small {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #4C4C4C;
+     display: block;
+}
+  
+  .custToeNailReviewsFromUserV2.custToeNailCommHeadTagV2 h2 {
+    margin-bottom: 10px;
+}
+  
+ .custToeNailFormulatedV2 h2 {
+     margin-bottom: 16px;
+     margin-top: 60px;
+}
+ .custToeNailFormulatedV2 ul li {
+     flex: 100%;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+     margin-bottom: 16px;
+}
+ .custToeNailFormulatedV2 ul li span {
+     margin-left: 16px;
+}
+ .custToeNailFormulatedV2 ul li:last-child {
+     margin-bottom: 0;
+}
+ .custToeNailFormulatedV2 .col-md-6:last-child {
+     padding-left: 60px;
+}
+ .custToeNailProductsV2 a.custBuyNowCTAV2 {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+ .custToeNailPhysiciansDermatologistV2 ul {
+     margin-top: 32px;
+}
+ .custToeNailKillsFungusV2 ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+     padding: 0;
+     margin: 60px 0 40px 0;
+}
+ .custToeNailKillsFungusV2 ul li {
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+}
+ .custToeNailKillsFungusV2 ul li img {
+     margin-right: 8px;
+}
+ .custToeNailKillsFungusV2 {
+     padding: 0 40px;
+     max-width: 1410px;
+     margin: 0 auto;
+}
+ .custToeNailSpeedUpHealingV2 h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin: 0 0 4px 0;
+     padding: 0;
+}
+ .custToeNailSpeedUpHealingV2 p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.03em;
+}
+ .custToeNailSpeedUpHealingV2 .col-md-6 {
+     width: 100%;
+     max-width: 50%;
+}
+ .custToeNailSpeedUpHealingV2 ul {
+     padding: 0;
+     margin: 34px 0 0 0;
+     list-style: none;
+}
+ .custToeNailSpeedUpHealingV2 ul li {
+     display: flex;
+     flex: 0 0 100%;
+     flex-wrap: wrap;
+     position: relative;
+     counter-increment: my-sec-counter;
+}
+ .custToeNailSpeedUpHealingV2 ul li::before {
+     content: ""counter(my-sec-counter) "";
+     width: 32px;
+     height: 32px;
+     background: #fff;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 4px;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+}
+ .custToeNailSpeedUpHealingV2 {
+     background-color: #F2F7FA;
+     z-index: 1;
+     padding: 80px 0;
+}
+ .custToeNailSpeedUpHealingV2 ul li span {
+     width: calc(100% - 50px);
+     margin-left: 16px;
+}
+ .custToeNailSpeedUpHealingV2:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/speed_up_healing.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right center;
+     transform: translateX(-50%);
+     background-size: 610px auto;
+     z-index: -1;
+}
+ .custToeNailSpeedUpHealingV2 a.custBuyNowCTAV2 {
+     margin-top: 10px;
+     margin-bottom: 0;
+}
+ .custToeNailNatureInspiredV2 ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .custToeNailNatureInspiredV2 {
+     background: #f2f7fa;
+     padding: 40px 0;
+}
+ .custToeNailNatureInspiredV2 h2 {
+     margin-top: 0;
+}
+ .custToeNailNatureInspiredV2 h2 small {
+     max-width: 70%;
+     line-height: 28px;
+     margin-top: 12px;
+}
+ .custToeNailNatureInspiredV2 ul li {
+     flex: 0 0 16.66%;
+     max-width: calc(16.66% - 14px);
+     margin-right: 16px;
+     background: #fff;
+     border-radius: 16px;
+     overflow: hidden;
+     margin-bottom: 0;
+}
+ .custToeNailNatureInspiredV2 ul li:last-child {
+     margin: 0;
+}
+ .custToeNailNatureInspiredV2 ul li img {
+     width: 100% !important;
+}
+ .custToeNailNatureInspiredV2 ul li:first-child {
+     border: 1px solid #C4222E;
+}
+ .custToeNailClinicallyTestedV2 h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #000000;
+     margin: 0;
+     padding: 0;
+}
+ .custToeNailClinicallyTestedV2 p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #717171;
+     margin: 5px 0;
+}
+ .custToeNailClinicallyTestedV2 span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #C4222E;
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+ .custToeNailIngredientsV2 a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #717171;
+    position: relative;
+    transition: all 0.5s;
+     cursor: pointer;
+         -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  .custToeNailIngredientsV2 a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #717171;
+    position: absolute;
+    border: 0;
+    top: 100%;
+}
+ .custToeNailClinicallyTestedV2 {
+     padding: 12px;
+     position: relative;
+     width: 100%;
+     padding-bottom: 30px;
+}
+ .custToeNailFirstAidOintmentV2 {
+     width: 100%;
+     display: flex;
+     background: #F2F7FA;
+     padding: 40px;
+     border-radius: 16px;
+     flex-wrap: wrap;
+}
+ .custToeNailProductsV2 {
+     flex: 0 0 33.33%;
+     max-width: calc(33.33% - 16px);
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin-right: 24px;
+     text-align: center;
+     padding: 24px 15px;
+}
+ .custToeNailProductsV2:last-child {
+     margin-right: 0;
+}
+ .custToeNailProductsV2 h5 {
+font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #001489;
+}
+ .custToeNailProductsV2 span.jdgm-prev-badge__stars * {
+     color: #000;
+}
+ .custToeNailProductsV2 span.customNumberRatingV2 {
+     margin-left: 7px;
+     font-weight: 500;
+     font-size: 13px;
+     line-height: 20px;
+     letter-spacing: -0.03em;
+     color: #001489;
+     font-family: 'Inter', sans-serif;
+}
+  
+.customRatingsStarV2 .jdgm-star.jdgm--on:before {
+    content: '';
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-full.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+.custToeNailProductsV2 span.jdgm-prev-badge__stars span:last-child:before{
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-half.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    content: '' !important;
+    background-position: center;
+}
+
+.custToeNailProductsV2 span.jdgm-prev-badge__stars span {
+    width: 21px;
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+    height: 20px;
+} 
+
+.customRatingsStarV2 span.jdgm-prev-badge__stars {
+    display: flex;
+    justify-content: center;
+}
+
+.customRatingsStarV2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+  
+  
+.customRatingsStarV2 span.jdgm-prev-badge__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    color: #001489;
+    margin-left: 4px;
+}
+.customRatingsStarV2 img {
+    height: 16px;
+    width: auto !important;
+}
+ .customProductPriceV2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #001489;
+    margin: 15px 0;
+    font-family: 'Inter', sans-serif;
+}
+ .custToeNailIngredientsV2 {
+     margin-top: 40px;
+}
+ .custToeNailProductsV2 img {
+     width: 100%;
+     max-width: 240px;
+}
+ .custToeNailButtonWrapV2 a.custBuyNowCTAV2 {
+     padding-left: 0;
+     padding-right: 0;
+     width: 100%;
+     font-weight: 600;
+}
+ .custToeNailButtonWrapV2 a.custBuyNowCTAV2 {
+     margin: 0 0;
+}
+ .custToeNailCommHeadTagV2 h2 small {
+     margin-top: 12px;
+}
+ .custToeNailMoneyBackGuaranteeTextV2 {
+     background: #F2F7FA;
+     border-radius: 16px;
+     padding-left: 120px;
+     padding-right: 120px;
+    flex-wrap: nowrap !important;
+     align-items: center;
+     margin-bottom: 40px !important;
+}
+ .custToeNailMoneyBackGuaranteeTextV2 div {
+     margin-left: 30px;
+}
+ .custToeNailMoneyBackGuaranteeTextV2 h2 {
+     margin: 0 0 14px 0;
+}
+ .custToeNailMoneyBackGuaranteeTextV2 p:last-child {
+     margin-bottom: 0;
+}
+ .row.custToeNailMoneyBackGuaranteeTextV2 p {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     color: #000;
+     font-family: 'Inter', sans-serif;
+}
+ .custTeoNailHeroBannerV2 a.custBuyNowCTAV2 {
+     margin-bottom: 0;
+}
+ .custToeNailIngredientsV2 a::after {
+     content: "+";
+}
+ .custToeNailDropdownIngredientsV2 {
+     height: 0;
+     overflow: hidden;
+     transition: all 0.5s;
+     margin-top: 14px;
+}
+
+ a.custToeNailActiveIngredientV2 + .custToeNailDropdownIngredientsV2 {
+     height: auto;
+}
+ a.custToeNailActiveIngredientV2:after {
+     content: "-";
+}
+ .custToeNailReviewsFromUserV2{
+     overflow-x: hidden;
+   padding-top: 40px;
+}
+ .custToeNailReviewsFromUserV2 .swiper {
+     width: 100%;
+     height: 100%;
+     padding-bottom: 60px;
+}
+ .custToeNailReviewsFromUserV2 .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+    /* Center slide text vertically */
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     align-items: center;
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     min-height: 270px;
+     align-items: baseline;
+     margin-top: 30px;
+}
+ .custToeNailReviewsFromUserV2 main {
+     margin-right: -15%;
+     margin-left: -15%;
+}
+ .custComparisonCarouselV2 {
+     margin-right: -10%;
+     margin-left: -10%;
+}
+ div#swiper-wrapper-a710b88f3b536746f {
+}
+ .custToeNailInstitutionTestimonialsV2 {
+     text-align: left;
+     padding: 24px 24px;
+}
+ .custToeNailStarsRatingsV2 * {
+     color: #0069BC !important;
+}
+ .custToeNailInstitutionTestimonialsV2 p {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.02em;
+     margin-top: 16px;
+     font-family: 'Inter', sans-serif;
+}
+ .custToeNailInstitutionTestimonialsV2 .author {
+     position: absolute;
+     bottom: 15px;
+}
+ .custToeNailInstitutionTestimonialsV2 .author span {
+     color: #717171;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     margin-left: 16px;
+     display: flex;
+     align-items: center;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ .custToeNailInstitutionTestimonialsV2 .author span img {
+     margin-right: 4px;
+}
+ .custToeNailInstitutionTestimonialsV2 .author cite {
+     display: flex;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #000;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ 
+ .swiper-pagination-clickable .swiper-pagination-bullet {
+     opacity: 0.3;
+}
+  .swiper-pagination-bullet-active {
+     background: #323232 !important;
+     opacity: 1 !important;
+}
+ .swiper-pagination {
+     margin-top: 50px;
+     position: relative !important;
+}
+
+.custToeNailFormulatedV2 p{
+    font-weight: 500;
+}
+
+.shg-c.custToeNailDisclaimerV2 .container {
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.shg-c.custToeNailDisclaimerV2 {
+    padding: 0 0 40px 0;
+}
+
+.shg-c.custToeNailDisclaimerV2 p{
+    font-size: 14px;
+      line-height: 1.5;
+}
+.custBtnScrollTeoNailV2 {
+    cursor: pointer;
+}
+.custTextWrapperBlocks {
+    display: flex;
+    align-items: center;
+}
+
+@media(min-width: 1366px) {
+.custBmLogoSection + .custToeNailCommHeadTagV2 h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 24px;
+}
+}
+/* media */
+ @media(max-width: 1500px) {
+     .custTeoNailHeroBannerV2:after {
+         right: 0;
+         left: auto;
+         transform: none;
+    }
+}
+ @media(max-width: 1199px) {
+     .custToeNailSpeedUpHealingV2 h2 {
+         margin-top: 0;
+    }
+     .custToeNailNatureInspiredV2 ul li {
+         max-width: calc(25% - 16px);
+         flex: 0 0 25%;
+         margin-bottom: 15px;
+    }
+     .custToeNailNatureInspiredV2 ul {
+    }
+     .custToeNailFormulatedV2::after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         left: 0;
+         transform: none;
+    }
+     .custToeNailPhysiciansDermatologistV2 ul li {
+         width: calc(33.33% - 8px);
+         flex: 0 0 33.33%;
+    }
+     .custToeNailPhysiciansDermatologistV2::after, .custToeNailSpeedUpHealingV2:after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         transform: none;
+         right: 0;
+         background-position: center;
+    }
+     .custToeNailPhysiciansDermatologistV2 {
+         padding-bottom: 20px;
+    }
+     a.custBuyNowCTAV2 {
+         margin-bottom: 0;
+    }
+     .custToeNailProductsV2 div.custSpace {
+         padding: 0;
+    }
+     .custToeNailPhysiciansDermatologistV2 h2, .custToeNailFormulatedV2 h2, .custToeNailSpeedUpHealingV2 h2, .custToeNailNatureInspiredV2 h2, .custToeNailCommHeadTagV2 h2 {
+         font-size: 24px;
+         line-height: 32px;
+    }
+     .row.custToeNailMoneyBackGuaranteeTextV2 {
+         padding: 0 20px;
+    }
+     .row.custToeNailMoneyBackGuaranteeTextV2 p {
+         font-size: 16px;
+         line-height: 1.4;
+    }
+     .custTeoNailHeroBannerV2:after {
+        left: 0;
+        transform: none;
+        width: 100%;
+        background-size: 620px;
+    }
+     .custReviewV2 {
+    right: 20px;
+}
+
+.custBmLogosBlocks {
+    gap: 15px;
+    padding: 40px 30px;
+}
+.custTeoNailHeroBannerV2 h5, .custTeoNailHeroBannerV2 h5 + p {
+    max-width: 75%;
+}
+.custToeNailFirstAidOintmentV2 a.custBuyNowCTAV2 { 
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.custToeNailProductsV2 img {
+    max-width: 150px;
+    margin-bottom: -10px;
+}
+}
+ @media(max-width: 991px) {
+     .custTeoNailHeroBannerV2 {
+         margin-top: 60px;
+         background-size: 60%;
+         padding: 30px 0;
+    }
+     .custTeoNailHeroBannerV2 h1 {
+         font-size: 32px;
+         line-height: 40px;
+    }
+     .custToeNailRatingWrapperV2 p {
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custTeoNailHeroBannerV2 ul li {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 20px;
+    }
+     .custTeoNailHeroBannerV2 a.custBuyNowCTAV2 {
+         font-size: 20px;
+         line-height: 24px;
+         order: 3;
+         margin-top: 0;
+         margin-bottom: 0;
+    }
+     .custTeoNailHeroBannerV2 .col-md-6 {
+         max-width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+}
+
+
+ 
+ @media(max-width: 860px) {
+     .custToeNailProductsV2 {
+         flex: 0 0 100%;
+         max-width: 100%;
+         margin-bottom: 15px;
+    }
+     .custToeNailFirstAidOintmentV2 {
+         padding: 15px;
+    }
+     .custToeNailProductsV2:last-child {
+         margin-bottom: 0;
+    }
+     .custToeNailCommHeadTagV2 {
+         padding: 0 15px;
+    }
+    .custTeoNailHeroBannerV2:after {background-size: 40%;}
+
+.custReviewV2 {
+    position: static;
+    max-width: 100%;
+    margin-top: 30px;
+}
+.custBmLogosBlocks {
+    overflow: scroll;
+    padding-bottom: 10px;
+    justify-content: flex-start;
+    padding-top: 10px;
+    position: relative;
+    gap: 16px;
+}
+
+.custBmLogosBlocks .custBmText {
+    display: none;
+}
+
+.custBmLogo {
+    flex: 0 0 120px;
+}
+
+.custBmLogoSection::after {
+    content: "As Seen In";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.custBmLogoSection {
+    position: relative;
+    padding-top: 50px;
+}
+}
+ @media(max-width: 767px) {
+     .custTeoNailHeroBannerV2 {
+         background-image: none;
+         padding: 0 0;
+    }
+     .custTeoNailHeroBannerV2 h1 {
+         max-width: 100%;
+    }
+     .custTeoNailHeroBannerV2 .container, .custToeNailPhysiciansDermatologistV2 .container, .custToeNailFormulatedV2 .container, .custToeNailCommHeadTagV2 .container {
+         padding: 0 0;
+    }
+     .custTeoNailHeroBannerV2 .col-md-6:first-child img {
+         width: 100%;
+    }
+     .custTeoNailHeroBannerV2 .col-md-6:first-child {
+            display: block;
+            order: 2;
+    }
+     .custTeoNailHeroBannerV2 .col-md-6:nth-child(2) {
+         padding: 34px 15px;
+      background-color: #ebf0f5;
+           order: 1;
+    }
+    .custTeoNailHeroBannerV2 .col-md-6:last-child {
+    order: 3;
+}
+     .custTeoNailHeroBannerV2 ul li {
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 20px;
+         margin-bottom: 6px;
+    }
+     .custTeoNailHeroBannerV2 a.custBuyNowCTAV2 {
+         margin-bottom: 24px;
+    }
+     .custTeoNailHeroBannerV2:after {
+         display: none;
+    }
+    /*new*/
+     .custToeNailPhysiciansDermatologistV2::after, .custToeNailSpeedUpHealingV2:after, .custToeNailFormulatedV2::after {
+         display: none;
+    }
+     .custToeNailPhysiciansDermatologistV2 .col-md-6:first-child, .custToeNailFormulatedV2 .col-md-6:last-child, .custToeNailSpeedUpHealingV2 .col-md-6 {
+         max-width: 100%;
+         padding: 0 15px;
+         order: 2;
+    }
+     .custToeNailPhysiciansDermatologistV2 .col-md-6:last-child, .custToeNailFormulatedV2 .col-md-6, .custToeNailSpeedUpHealingV2 .col-md-6:last-child {
+         max-width: 100%;
+         width: 100%;
+         padding: 0;
+         order: 1;
+         margin-bottom: 0;
+         flex: 0 0 100%;
+    }
+     .custToeNailSpeedUpHealingV2 .col-md-6:last-child {
+         margin-bottom: 30px;
+    }
+     .custToeNailPhysiciansDermatologistV2 .container .col-md-6:last-child img, .custToeNailFormulatedV2 .col-md-6:first-child img, .custToeNailSpeedUpHealingV2 .col-md-6:last-child img {
+         display: block;
+         width: 100%;
+    }
+     .custToeNailPhysiciansDermatologistV2 h2, .custToeNailFormulatedV2 h2, .custToeNailSpeedUpHealingV2 h2, .custToeNailNatureInspiredV2 h2 {
+         font-size: 24px;
+         line-height: 32px;
+         margin-bottom: 10px;
+         margin-top: 0;
+    }
+      .custToeNailPhysiciansDermatologistV2 p, .custToeNailFormulatedV2 p {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custToeNailPhysiciansDermatologistV2 ul li {
+         width: calc(50% - 8px);
+         flex: 0 0 50%;
+         margin-bottom: 15px;
+    }
+     .custToeNailFormulatedV2 .col-md-6 {
+         margin-bottom: 30px;
+    }
+     .custToeNailFormulatedV2 h2 small, 
+     .custToeNailSpeedUpHealingV2 h2 small, 
+     .custToeNailNatureInspiredV2 h2 small,
+     .custToeNailCommHeadTagV2 h2 small {
+         font-size: 18px;
+         max-width: 100%;
+         line-height: 24px;
+    }
+     .custToeNailFormulatedV2 ul {
+         margin-bottom: 20px;
+    }
+     .custToeNailKillsFungusV2 ul {
+         margin-top: 0;
+         flex-wrap: wrap;
+         margin-bottom: 30px;
+    }
+     .custToeNailFormulatedV2 .col-md-6:last-child {
+         margin-bottom: 0;
+    }
+     .custToeNailKillsFungusV2 ul li {
+         width: 100%;
+         margin: 8px 0;
+         font-size: 14px;
+    }
+     .custToeNailKillsFungusV2 {
+         padding: 0 15px;
+    }
+     .custToeNailSpeedUpHealingV2 {
+         padding: 0;
+    }
+     .custToeNailSpeedUpHealingV2 .container {
+         padding: 0;
+    }
+     .custToeNailSpeedUpHealingV2 ul {
+         margin-top: 24px;
+    }
+     .custToeNailSpeedUpHealingV2 h4 {
+         font-size: 18px;
+    }
+     .custToeNailSpeedUpHealingV2 p {
+         font-weight: 500;
+         font-size: 16px;
+    }
+     .custToeNailSpeedUpHealingV2 a.custBuyNowCTAV2 {
+         margin-bottom: 30px;
+         width: 100%;
+         text-align: center;
+    }
+     .custToeNailNatureInspiredV2 ul {
+         margin-top: 24px;
+    }
+     .custToeNailNatureInspiredV2 ul li {
+         max-width: 100%;
+         flex: 0 0 100%;
+         margin-bottom: 10px;
+         display: flex;
+    }
+     .custToeNailNatureInspiredV2 ul li img {
+         width: 100px;
+    }
+     .custToeNailIngredientsV2 {
+         margin-top: 24px;
+    }
+     .custToeNailIngredientsV2 a {
+         font-size: 18px;
+         line-height: 20px;
+    }
+     .custToeNailNatureInspiredV2 {
+         padding: 30px 0;
+    }
+     .custToeNailPhysiciansDermatologistV2 .custToeNailInfoDoctorV2 p {
+         font-size: 18px;
+         line-height: 24px;
+    }
+     .custToeNailPhysiciansDermatologistV2 .custToeNailInfoDoctorV2 {
+         max-width: calc(100% - 30px);
+         left: 15px;
+         bottom: -85px;
+       padding: 8px 15px;
+    }
+     .custToeNailPhysiciansDermatologistV2 .col-md-6:last-child {
+         margin-bottom: 115px;
+    }
+     .custToeNailMoneyBackGuaranteeTextV2 div {
+         margin: 0;
+    }
+     .custToeNailMoneyBackGuaranteeTextV2 {
+         flex-wrap: wrap !important;
+         justify-content: center;
+         padding: 15px !important;
+         margin-top: 60px;
+         margin-bottom: 30px;
+    }
+     .custToeNailClinicallyTestedV2 p {
+         font-size: 14px;
+         line-height: 18px;
+    }
+     .custToeNailProdImageWrapperV2 img {
+         object-fit: cover;
+         height: 100%;
+         width: 100%;
+    }
+     .custToeNailPhysiciansDermatologistV2 {
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .custToeNailFormulatedV2 h2 small b, .custToeNailSpeedUpHealingV2 h2 small b, .custToeNailNatureInspiredV2 h2 small b {
+         font-weight: 600;
+    }
+     .custToeNailClinicallyTestedV2 span {
+         position: relative;
+         top: 0;
+         right: 0;
+         left: 0;
+         font-size: 13px;
+         padding: 0;
+         line-height: normal;
+         display: block;
+    }
+    .custToeNailReviewsFromUserV2 main {
+    margin: 0 0;
+}
+
+.custToeNailReviewsFromUserV2 .swiper-slide {
+     min-height: auto; 
+}
+.custToeNailFormulatedV2 ul li {
+    align-items: self-start;
+}
+
+.custToeNailFormulatedV2 ul li span {
+    font-size: 14px;
+    line-height: 20px;
+}
+   .custToeNailReviewsFromUserV2 .swiper {
+    padding-bottom: 20px;
+}
+   .custToeNailInstitutionTestimonialsV2 .author {
+    position: relative;
+    margin-top: 15px;
+    bottom: 0;
+}
+     .custToeNailProdImageWrapperV2 {
+        max-width: 100px;
+    } 
+    .custToeNailClinicallyTestedV2 {
+        width: calc(100% - 100px);
+    }
+    .custTeoNailHeroBannerV2 h5, .custTeoNailHeroBannerV2 h5 + p {max-width: 100%;}
+
+.custTeoNailHeroBannerV2 h5 {
+    font-size: 25px;
+    font-style: normal;
+    line-height: 32px;
+}
+
+.custButtonWrapperV2 {
+    max-width: 100%;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.custButtonWrapperV2 
+ a.custBuyNowCTAV2.custBtnScrollTeoNailV2 {
+    width: 100%;
+    margin-bottom: 12px !important;
+}
+
+.custButtonWrapperV2 span {
+    margin-top: 10px;
+}
+
+.custTeoNailHeroBannerV2 .col-md-6:nth-child(2) {
+    padding-bottom: 30px;
+}
+
+.custReviewV2 {
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.custReviewV2 p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.custToeNailProductsV2 img {
+    max-width: 230px;
+    margin-bottom: -10px;
+}
+.custBlueTextV2 {
+    margin-right: 5px;
+}
+}
+ @media(max-width: 340px) {
+     .custToeNailClinicallyTestedV2 h4 {
+         font-size: 14px;
+    }
+     .custToeNailProdImageWrapperV2 {
+         width: 80px;
+    } 
+     .custToeNailClinicallyTestedV2 {
+         width: calc(100% - 80px);
+    }
+}

@@ -1,0 +1,440 @@
+<style>
+.custMegaMenuShop {
+    position: absolute;
+    left: 0;
+    top: 96px;
+    right: 0;
+    background: #fff;
+    display: flex;
+    z-index: -1;
+        border: 1px solid #d9d9d9;
+}
+.custMegaMenuShop {
+    display: none;
+}
+
+.HorizontalList__Item.is-expanded .custMegaMenuShop {
+    display: flex;
+}
+
+.custMegaMenuShop + .DropdownMenu {
+    display: none;
+}
+
+.custMegaMenuShop .custMenuList {
+    padding: 42px;
+}
+
+.custMegaMenuShop .custMenuList h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase !important;
+    margin: 0 0 20px;
+    font-family: var(--heading-font-family) !important;
+    color: #000;
+}
+
+.custMegaMenuShop .custMenuList ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.custMegaMenuShop .custMenuList.trending {
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/trending-menu-bg.png) no-repeat 0 0;
+    margin-right: 40px;
+    background-size: cover;
+}
+
+.custMegaMenuShop .custMenuList.trending li a {
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family) !important;
+}
+
+.custMegaMenuShop .custMenuList.trending li a .img_icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+}
+
+.custMegaMenuShop .custMenuList.trending li {
+    margin: 24px 0 0;
+}
+
+.custMegaMenuShop .custMenuList.trending li:first-child {
+    margin: 0;
+}
+
+.custMegaMenuShop .custMenuList ul li.shopall a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family) !important;
+}
+
+.custMegaMenuShop .custMenuList ul li.shopall {
+    margin: 0 0 14px;
+}
+
+.custMegaMenuShop .custMenuList ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    font-family: var(--text-font-family) !important;
+}
+
+.custMegaMenuShop .custMenuList ul li {
+    margin: 0 0 15px;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox, .custGiftWraper .custGiftSetBox {
+    display: flex;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/trending-menu-bg.png) no-repeat 0 0;
+    background-size: cover;
+    padding: 25px 30px 16px;
+    margin: 30px 0 0;
+    max-width: 420px;
+    width: 100%;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .imgBox, .custGiftWraper .custGiftSetBox .imgBox {
+    display: block;
+    flex: 0 0 126px;
+    margin-right: 20px;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .content .title, .custGiftWraper .custGiftSetBox .content .title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family) !important;
+    margin: 0 0 8px;
+    color: #000;
+
+}
+
+.custMegaMenuShop .custMenuList.trending h6 {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .content p, .custGiftWraper .custGiftSetBox .content p { 
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--text-font-family) !important;
+    text-transform: none;
+    color: #000;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .content button, .custGiftWraper .custGiftSetBox .content button{
+    background: #000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    font-family: var(--heading-font-family) !important;
+    margin-top: auto;
+}
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .content, .custGiftWraper .custGiftSetBox .content {
+    display: flex;
+    flex-direction: column;
+}
+li.HorizontalList__Item.custDesktopShopMenu a.Heading::after {
+    position: absolute;
+    content: "";
+    bottom: -38px;
+    left: -7px;
+    width: 60px;
+    opacity: 0;
+    transform: scaleX(0);
+    transform-origin: left center;
+    border-bottom: 2px solid var(--header-heading-color);
+    transition: transform .3s,opacity .3s;
+}
+
+li.HorizontalList__Item.custDesktopShopMenu a.Heading:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+} 
+
+li.HorizontalList__Item.custDesktopShopMenu a.Heading.Heading.u-h6 {
+    position: relative;
+}
+span.custStar::after {
+    content: "★";
+    margin-left: 8px;
+}
+@media only screen and (min-width: 1140px) {
+li.HorizontalList__Item:last-child {
+    display: inline-block !important;
+}
+
+}
+/*media*/
+@media only screen and (max-width: 1139px) {
+
+.custMegaMenuShop + .Collapsible__Content {
+    display: none;
+}
+.custMegaMenuShop {
+    display: block;
+    position: static;
+    width: 100%;
+    border: 0;
+}
+.custMegaMenuShop .custMenuList {
+    margin: 0 !important;
+    max-width: 100%;
+    padding: 12px 0 !important;
+    background: #fff !important;
+    border-bottom: 1px solid #F4F4F4;
+} 
+
+.custMegaMenuShop .custMenuList.trending li a .img_icon {
+    display: none;
+}
+
+.custMegaMenuShop .custMenuList h6 {
+    display: flex;
+    align-items: center;
+    font-family: "Twentieth Century", sans-serif !important;
+    margin-bottom: 0 !important;
+    position: relative;   
+    letter-spacing: 0.1em;
+    color: #000000;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important; 
+    text-transform: uppercase !important;
+}
+
+.custMegaMenuShop .custMenuList h6 .img_icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.custNavigation.Drawer--fromLeft .Drawer__Container {
+    padding: 0 15px;
+}
+
+.custMenuList.trending {
+    border-top: 0 solid #F4F4F4;
+}
+
+.features--heading-normal .custNavigation .u-h6, .features--heading-normal .custNavigation .Rte h6 {
+    padding: 12px 0;
+    border: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Twentieth Century", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.custNavigation span.Collapsible__Plus {
+    right: 0;
+    color: #000 !important;
+    opacity: 1;
+}
+
+.custNavigation .Collapsible__Plus:before, .custNavigation .Collapsible__Plus:after {
+    background: #000 !important;
+}
+
+.custNavigation .Collapsible .Collapsible .Collapsible__Button {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #000000;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 6px 0;
+    font-family: "Twentieth Century", sans-serif;
+} 
+.custNavigation.SidebarMenu .Collapsible, .custNavigation.SidebarMenu .Linklist {
+    border-color: #F4F4F4;
+    margin-left: 0;
+} 
+.custMegaMenuShop .custMenuList.trending li {
+    margin: 0;
+}
+
+.custMegaMenuShop .custMenuList.trending li a {
+padding: 8px 0 0 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #000;
+}
+.custMegaMenuShop .custMenuList.trending a {
+    color: #000 !important;
+}
+.custMegaMenuShop .custMenuList ul {
+    display: none;
+}
+.custMegaMenuShop .custMenuList ul li:first-child {
+    margin-top: 8px !important;
+    margin-bottom: 6px;
+}
+.custMegaMenuShop .custMenuList ul li {
+    margin: 0 0 8px;
+}
+body .custMegaMenuShop .custMenuList ul li a, .custMegaMenuShop .custMenuList ul li.shopall a{ 
+    font-family: "Twentieth Century", sans-serif !important;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.custMegaMenuShop .custMenuList ul li.shopall a {
+    color: #000 !important;
+}
+
+
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox, .custGiftWraper .custGiftSetBox { 
+    padding: 15px 15px;
+    position: relative;
+    background: transparent;
+    z-index: 1;
+    margin-top: 0;
+}
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox::after, .custGiftWraper .custGiftSetBox::after {
+    content: "";
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/trending-menu-bg.png) no-repeat 0 0;
+    left: 0;
+    z-index: -1;
+    background-repeat: repeat-x;
+    top: 0;
+}
+.custNavigation .Collapsible__Content {
+    padding-left: 0;
+    padding-right: 0;
+}
+.custMegaMenuShop .custMenuList:last-child {
+    border: 0;
+}
+
+.custMegaMenuShop .custMenuList h6::after, .custMegaMenuShop .custMenuList h6::before {
+content: "";
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 5px;
+    transform: translate(-50%,-50%) rotate(-90deg);
+    background-color: currentColor;
+    transition: transform .4s ease-in-out,opacity .4s ease-in-out;
+}
+
+.custMenuList.custMenuExpand h6::after {
+    content: "";
+    transform: translate(-50%,-50%) rotate(90deg);
+    width: 0 !important;
+    height: 0 !important;
+}
+
+.custMegaMenuShop .custMenuList h6::after {
+    width: 11px;
+    height: 1px;
+    opacity: 1;
+    right: -5px;
+}
+.custMegaMenuShop .custMenuList h6::before {
+    width: 1px;
+    height: 11px;
+}
+.custMenuList.custMenuExpand h6::before {
+    transform: translate(-50%,-50%) rotate(90deg);
+}
+.custGiftWraper .custGiftSetBox {
+    margin-bottom: 5px;
+}
+.custGiftWraper .custGiftSetBox .content p{
+    font-size: 12px;
+}
+
+section#sidebar-menu {
+    width: 100%;
+    top: 130px;
+    height: calc(100% - 59px);
+    z-index: 99;
+}
+.Drawer:before {
+    box-shadow: none;
+}
+.SidebarMenu .Drawer__Content:before {
+    background: no-repeat;
+}
+header.Drawer__Header {top: -80px;width: 50px;}
+.Drawer__Content {top: -59px;}
+header#section-header {box-shadow: none !important;}
+.custNavigation.SidebarMenu .Collapsible:first-child {border-top: 1px solid #F4F4F4;}
+.Search[aria-hidden=false] {
+    z-index: 99 !important;
+}
+.Header__Wrapper .custClose{display: none;}
+.PageOverlay.is-visible {
+    display: none;
+}
+/*new*/
+.features--heading-normal .custNavigation .u-h6 {
+    display: flex;
+    align-items: center;
+}
+
+.features--heading-normal .custNavigation .u-h6 .img_icon {
+    margin-right: 16px;
+}
+.custNavigation.SidebarMenu .Collapsible:first-child, .Collapsible.custParent, .custMegaMenuShop + .Collapsible {
+    display: none;
+}
+nav.SidebarMenu__Nav.SidebarMenu__Nav--primary {
+    border-top: 1px solid #F4F4F4;
+}
+.custMegaMenuShop .custMenuList h6::after, .custMegaMenuShop .custMenuList h6::before {
+    background: #000000;
+    opacity: 1;
+} 
+.custNavigation.SidebarMenu .Collapsible:nth-child(6) a {
+    color: #F94C43;
+}
+.custMenuList.trending.custMenuExpand ul {
+    display: block !important;
+}
+}
+
+@media only screen and (max-width: 400px) {
+ 
+.custMegaMenuShop .custMenuList ul li a .custGiftSetBox .imgBox, .custGiftWraper .custGiftSetBox .imgBox {
+    margin-bottom: 20px;
+    flex: 0 0 86px;
+}
+}
+</style> 

@@ -1,0 +1,517 @@
+<style>
+.page--front #content-wrapper main article.landing-page .node__content #tile-214,
+.page--front #content-wrapper main article.landing-page .node__content #tile-105,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1798,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4850,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4852,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4860,
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(1),
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164 .jumbotron .bp-simple__bp-text>h3:nth-child(2) {
+    display: none;
+}
+
+.custHPSocialProofPageWrapper {
+    margin-bottom: -60px;
+    z-index: 1;
+    position: relative;
+}
+
+.custHeroSection_sp {
+    padding: 80px 0 0;
+}
+
+.custHelpYouSection_sp .row,
+.custHeroSection_sp .row {
+    display: flex;
+}
+
+.custHelpYouSection_sp .col-6,
+.custHeroSection_sp .col-6 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+    position: relative;
+}
+
+.custHeroSection_sp h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px;
+    color: #0D1C14;
+}
+
+.custHeroSection_sp p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #0D1C14;
+}
+
+.custHeroButtonSection_sp .custBtnWraper > a {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.custHeroButtonSection_sp .custBtnWraper .custReviews{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.custHeroButtonSection_sp .custReviews a {
+    display: flex;
+    gap: 0 10px;
+}
+
+.custHeroButtonSection_sp .custReviews a:hover {
+    text-decoration: none;
+}
+
+.custHeroButtonSection_sp .custReviews a .googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.custHeroButtonSection_sp .custReviews a .reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.custHeroButtonSection_sp .reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.custHeroButtonSection_sp .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custAwardsSection_sp h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 20px;
+    color: #000;
+}
+
+.custAwardsSection_sp .custAwardsLogoWrapper {
+    display: flex;
+    overflow: auto;
+    gap: 0 20px;
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.custAwardsSection_sp .custAwardsLogoWrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.custAwardsSection_sp .custAwardsLogoWrapper .logoImg {
+    flex: 0 0 auto;
+}
+.custAwardsSection_sp .custAwardsLogoWrapper .logoImg.toronto-star20-logo {
+    border: 1px solid #1F6EB9;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.custAwardsSection_sp .custAwardsLogoWrapper .logoImg img {
+    height: 60px;
+    width: auto;
+}
+
+.custAwardsSection_sp {
+    padding: 60px 0;
+}
+
+.custHelpYouSection_sp {
+    background: #26d07c;
+    padding: 60px 0;
+    color: #fff;
+}
+
+.custHelpYouSection_sp h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 42px;
+    color: #fff;
+    letter-spacing: normal;
+}
+
+.custHelpYouSection_sp h2 span.subHeading {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    line-height: 22px;
+    margin-bottom: 8px;
+}
+
+.custHelpYouSection_sp ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custHelpYouSection_sp p {
+    margin: 0 0 15px;
+    font-weight: 400;
+}
+
+.custHelpYouSection_sp ul li {
+    position: relative;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    line-height: 22px;
+    margin: 0 0 10px;
+    padding-left: 30px;
+}
+
+.custHelpYouSection_sp ul li:before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/plus_bullet_icon.svg) no-repeat center center;
+}
+
+.custBookBanner_sp .col-12 {
+    padding: 0 15px;
+}
+
+.custBookBanner_sp {
+    padding: 0 15px;
+    margin: 60px 0 0;
+}
+
+.custBookBanner_sp .innerWraper {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: normal;
+    margin: 0 0 8px;
+}
+
+.custBookBanner_sp .innerWraper .custBookContent p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.custHeroSection_sp img.img-fluid,
+.custHelpYouSection_sp img.img-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+
+.custHeroSection_sp img.img-fluid {
+    max-width: 515px;
+    margin-left: auto;
+    display: block;
+}
+
+.custHeroSection_sp .custHeroQuote {
+    position: absolute;
+    left: 10px;
+    bottom: -30px;
+    max-width: 390px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 18px rgba(9, 14, 11, 0.07);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.custHeroSection_sp .custHeroQuote .quoteText {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    line-height: 22px;
+    color: #000;
+}
+
+.custHeroSection_sp .custHeroQuote .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+
+.custHeroSection_sp .custHeroQuote .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.custHeroSection_sp .custHeroQuote .name {
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    line-height: 20px;
+    color: #000;
+}
+
+@media(max-width: 1199px){
+    .custHeroSection_sp h2{
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .custHeroSection_sp p{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+    }
+    .custHelpYouSection_sp h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_sp h2 span.subHeading{
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    .custHeroSection_sp .custHeroQuote{
+        left: -10px;
+    }
+}
+
+@media(max-width: 991px){    
+    .custHeroSection_sp {
+        padding: 85px 0 0;
+    }
+    .custHeroButtonSection_sp .custBtnWraper .custReviews{
+        margin-right: auto;
+    }
+    .custHelpYouSection_sp .row, .custHeroSection_sp .row{
+        flex-direction: column;
+    }
+    .custHeroSection_sp .row {
+        flex-direction: column-reverse;
+    }
+    .custHeroSection_sp h2{
+        font-size: 38px;
+        line-height: 40px;
+        margin: 12px 0 15px;
+    }
+    .custHeroSection_sp p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 10px;
+        flex-wrap: wrap;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        padding: 15px 20px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_sp h2{
+        font-size: 32px;
+        line-height: 40px;
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_sp h2 span.subHeading{
+        line-height: 18px;
+        margin: 0 0 5px;
+    }
+    .custAwardsSection_sp {
+        padding: 50px 0;
+    }
+    .custHelpYouSection_sp{
+        padding: 50px 0;
+    }
+    .custHelpYouSection_sp h2{
+        font-size: 30px;
+        line-height: 34px;
+        margin: 15px 0;
+    }
+    .custBookBanner_sp{
+        margin: 40px 0 0;
+    }
+    .custBookBanner_sp .innerWraper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .custHeroSection_sp img.img-fluid{
+        max-width: 100%;
+    }
+    .custHeroSection_sp .custHeroQuote{
+        width: 100%;
+        margin-top: -41px;
+        margin-bottom: 5px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        max-width: 100%;
+    }
+}
+@media(max-width: 767px){
+    .custHPSocialProofPageWrapper {
+        margin-bottom: -40px;
+    }
+    .custHeroSection_sp h2{
+        margin: 12px 0 15px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .custHeroSection_sp p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHeroButtonSection_sp .custBtnWraper{
+        gap: 0 30px;
+    }
+
+    .custHelpYouSection_sp h2 span.subHeading{
+        margin: 0 0 15px;
+    }
+    .custHelpYouSection_sp{
+        padding: 40px 0;
+    }
+    .custHelpYouSection_sp h2{
+        font-size: 36px;
+        line-height: 38px;
+        margin: 15px 0;
+    }
+    .custBookBanner_sp .innerWraper{
+        padding: 15px;
+    }
+    .custBookBanner_sp .innerWraper .custBookContent h3{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 5px;
+    }
+    .custBookBanner_sp .innerWraper .custBookContent p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+        gap: 0 30px;
+    }
+    .custHeroSection_sp .custHeroQuote{
+        padding: 10px;
+    }
+}
+
+@media(max-width: 767px) and (orientation: landscape){
+    .custHeroSection_sp .custHeroQuote{
+        margin-top: -80px;
+    }
+}
+@media(max-width: 580px){
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper,
+    .custHeroButtonSection_sp .custBtnWraper{
+        flex-direction: column;
+    }
+    .custHeroButtonSection_sp .custBtnWraper>a{
+        width: 100%;
+        text-align: center;
+    }
+    .custHeroButtonSection_sp .custBtnWraper .reviews{
+        margin-right: auto;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.outline,
+    .custBookBanner_sp .innerWraper .custBookBtnWrapper a.btn.fill{
+        width: 100%;
+    }
+}
+</style>

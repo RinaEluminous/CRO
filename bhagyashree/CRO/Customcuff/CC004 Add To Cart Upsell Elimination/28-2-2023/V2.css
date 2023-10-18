@@ -1,0 +1,4 @@
+#sidebar-cart .cart-drawer-upsell-section .drawer-upsell-item:not([data-product-id="39412261781565"]):not([data-product-id="39383520575549"]),
+#sidebar-cart .Drawer__Footer .plus-cart__cross_sell-container .cart__cross-sell-item {
+	display: none;
+}

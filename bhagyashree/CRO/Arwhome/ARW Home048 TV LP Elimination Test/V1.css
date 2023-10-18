@@ -1,0 +1,5 @@
+.body-container-wrapper .row-fluid-wrapper.dnd_area-row-3-padding,
+.body-container-wrapper .row-fluid-wrapper.dnd_area-row-4-padding,
+.body-container-wrapper .row-fluid-wrapper.dnd_area-row-5-padding{
+	display: none;
+}

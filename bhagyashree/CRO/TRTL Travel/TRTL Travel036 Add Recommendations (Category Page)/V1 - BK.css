@@ -1,0 +1,323 @@
+<style>
+.template-collection[class*="-all-products"] #MainContent .section-banner-products{
+    display: none;
+}
+
+.custBetterSleepRecommendWraper {
+    padding: 40px 0;
+    text-align: left;
+    background: #EFEFEF;
+}
+
+.custBetterSleepRecommendWraper h2 {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 15px;
+}
+.custBetterSleepRecommendWraper h3 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 25px;
+    letter-spacing: 0.06em;
+}
+.custBetterSleepRecommendWraper h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 25px;
+    letter-spacing: 0.06em;
+}
+.custHeroBannerContentMain,
+.custAddPillowMainWraper,
+.custBetterSleepRecommendWraper .custRecTabContent {
+    display: none;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs {
+    display: flex;
+    gap: 0 8px;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs::-webkit-scrollbar {
+    display: none;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 0 25px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs .custRecTab {
+    padding: 11px 24px;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs .custRecTab.active {
+    background: #000;
+    color: #fff;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs .custRecTab span {
+    padding: 2px 6px;
+    background: #84948B;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-flex;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custItemBox a {
+    text-decoration: none;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custItemBox img {
+    width: 100%;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBadge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custItemImageBox {
+    position: relative;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBadge span {
+    padding: 8px 24px;
+    background: #FAD950;
+    border-radius: 2px;
+    color: #000;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBadge.bestseller span {
+    background: #000000;
+    color: #fff;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custItemBox {
+    background: #FFFFFF;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: unset;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer {
+    padding-top: 4px !important;
+    min-height: 68px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer p {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    font-family: var(--bs-body-font-family);
+    opacity: 0.9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.custBetterSleepRecommendWraper .custBetterRecommendedSleepItems{
+    padding: 10px;
+}
+.custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-next,
+.custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-prev{
+    font-size: 0 !important;
+    border-radius: 500px;
+    width: 36px;
+    height: 36px;
+}
+.custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-next:after,
+.custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-prev:after{
+    font-size: 0;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems .card-footer,
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems .custCardBody {    
+    text-align: center;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.travel_pillows .custCardBody {
+    min-height: inherit;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .custRecTabScroller{
+    display: none;
+    width: 22px;
+    height: 46px;
+    position: sticky;
+    right: 0;
+    padding-left: 0;
+    margin-top: -4px;
+}
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody {
+    padding: 5px 10px 0px;
+    position: relative;
+    min-height: 48px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer a br {
+    display: none;
+}
+ 
+@media(min-width: 992px){
+    #travel_comfort_content .swiper-wrapper,
+    #bundles_content .swiper-wrapper{
+        justify-content: center;
+    }
+    #travel_comfort_content .swiper-wrapper .swiper-slide:last-child,
+    #bundles_content .swiper-wrapper .swiper-slide:last-child{
+        margin-right: 0;
+    }
+}
+@media(max-width: 991px){
+    .custBetterSleepRecommendWraper{
+        margin: -14px 0 0;
+        padding-top: 0;
+        position: relative;   
+    }
+    .custBetterSleepRecommendWraper h2{
+        font-size: 40px;
+        line-height: 48px;
+        margin: 0 0 15px;
+    }
+    .custBetterSleepRecommendWraper h4,
+    .custBetterSleepRecommendWraper h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin: 0 0 20px;
+    }    
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs{
+        overflow: auto;
+        padding: 0px 0 5px;
+        margin: 0 -15px 0 0px;
+        position: relative;
+        z-index: 2;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs{
+        gap: 0 4px;
+        overflow: visible;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs .custRecTab{
+        padding: 8px 16px;
+        position: relative;
+        white-space: nowrap;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs .custRecTab span{
+        position: absolute;
+        bottom: calc(100% - 10px);
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent{
+        margin: -14px 0 0;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .tabs{
+        margin: 0 0 18px;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.accessories .custCardBody{
+        min-height: 60px;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.bundles .custCardBody,
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.travel_comfort .custCardBody{
+        min-height: inherit;
+    }
+}
+@media(max-width: 767px){
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs{
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-right: 0;
+    }
+    .custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-wrapper{
+        width: calc(50% + 50vw);
+    }
+    .custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-wrapper .swiper-slide{
+        width: 60%;
+    }
+    .custBetterSleepRecommendWraper .custRecTabContent {
+        margin-right: -12px;
+    }
+    .custBetterSleepRecommendWraper{
+        padding: 30px 0 15px;
+    }
+    .custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-next, 
+    .custBetterSleepRecommendWraper .custBetterRecommendedSleepItems .swiper-button-prev{
+        display: none;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody .col-auto.lh-80 {
+        position: absolute;
+        right: 10px;
+    }
+     
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.travel_comfort .custCardBody,
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.bundles .custCardBody,
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custBetterRecommendedSleepItems.travel_comfort .custCardBody {
+        min-height: 60px;
+    }
+  .custBetterSleepRecommendWraper .custBetterSleepRecommendTabs .custRecTabScroller{
+        display: block;
+  }
+  .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer a.btn{
+    display: none;
+  }
+  .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody {
+    padding: 5px 5px 0;
+  }
+}
+
+@media(max-width: 480px){
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer a br {
+        display: block;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .custCardBody{
+        min-height: 60px !important;
+    }
+    .custBetterSleepRecommendWraper .custBetterSleepRecommendTabsContent .card-footer{
+        min-height: 81px !important;
+    }
+}
+</style>

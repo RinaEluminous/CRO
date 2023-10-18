@@ -1,0 +1,102 @@
+<style>
+.custCollectionBreakInFast {
+    padding: 40px 68px 40px 68px;
+    background: #E4E4DC;
+    margin-top: 40px;
+}
+
+.custCollectionBreakWraper {
+    text-align: center;
+}
+
+.custCollectionBreakWraper img {
+    margin: 0 auto;
+        width: 240px;
+}
+
+.custCollectionBreakWraper h3 {
+    font-weight: 400;
+    text-align: center;
+    color: #001D34;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    font-family: unpretentious,sans-serif;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1.25;
+}
+
+.custCollectionBreakWraper p {
+    font-size: 1rem;
+    line-height: 1.44;
+    line-height: 150%; 
+    text-align: center;
+    letter-spacing: 0.03em; 
+    color: #001D34;
+    margin: 0 0;
+    font-family: work-sans,sans-serif;
+}
+
+.custCollectionBreakInFast ul.slick-dots {
+    display: none;
+}
+ 
+.custCollectionMobileSlider{
+    display: none !important;
+}
+
+@media(min-width: 992px) {
+    .custCollectionBreakSlider {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        display: grid;
+        max-width: 1304px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 991px) {
+    .custCollectionBreakInFast {
+        padding-top: 40px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .custCollectionBreakInFast button.slick-arrow {
+        display: none !important;
+    }
+
+    .custCollectionBreakWraper h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .custCollectionBreakWraper p {
+        font-size: 16px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .custCollectionBreakInFast ul.slick-dots {
+        display: flex !important;
+    }
+
+    .custCollectionMobileSlider{
+        display: block !important;
+    }
+
+    .custCollectionDesktopSlider{
+        display: none !important;
+    }
+
+    img.custCollectionMobileSlider {
+        width: 100%;
+    }
+
+    .custCollectionBreakWraper h3{
+        font-size: 24px;
+        line-height: 35px;
+    }
+}
+</style>

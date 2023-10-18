@@ -1,0 +1,177 @@
+.custCustomCuffBannerV4 .row {display: flex;align-items: center;width: 100%;padding: 20px 72px 48px 72px;}
+.custCustomCuffBannerV4 {margin-top: 45px;}
+header#section-headerV4 {box-shadow: none;}
+.custCustomCuffBannerV4 .custImgFirstV4 {position: relative;}
+body .custCustomCuffBannerV4 .custCustmerReviewV4 {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    bottom: 24px;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 314px;
+    left: 24px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2.5px);
+}
+.custCustomCuffBannerV4 .row div {
+    margin-right: 12px;
+    height: 600px;
+    width: 33.33%;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 {
+    margin-right: 0;
+    max-width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.custCustomCuffBannerV4 .row div img, .custCustomCuffBannerV4 .row div video {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+}
+body .custCustomCuffBannerV4 .custCustmerReviewV4 span img {
+    width: auto;
+    height: auto;
+}
+body .custCustomCuffBannerV4 .custCustmerReviewV4 p {font-family: "Avenir Next", sans-serif !important;font-weight: 300;font-size: 16px;line-height: 24px;}
+body .custCustomCuffBannerV4 .custCustmerReviewV4 span.jdgm-prev-badge__stars {
+    margin-bottom: 8px;
+    display: block;
+}
+.custCustomCuffBannerV4 div.custLastTextV4 h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: "Mogena" !important;
+    margin-bottom: 8px;
+}
+.custCustomCuffBannerV4 div.custLastTextV4 p {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+a.custShopNowButtonV4 {
+    padding: 12px 40px;
+    background: #000000;
+    color: #EEE5DC;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Avenir Next", sans-serif;
+}
+body .custCustomCuffBannerV4 .custImgSecoundV4 {margin-right: 24px;}
+.custCustmerReviewV4 img {
+    width: auto !important;
+    height: 20px !important;
+    margin-bottom: 8px;
+}
+
+.custCustomCuffBannerV4 .row div.custVideoBlockV4, .custCustomCuffBannerV4 .row div.custVideoBlockV4 video {
+    width: 100%;
+}
+.custCustomCuffBannerV4 .row div.custVideoBlockV4 .custCustmerReviewV4 {
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+.custCustomCuffBannerV4 .row div {
+    width: calc(50% - 10px);
+    margin: 0 10px 0 0;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.custCustomCuffBannerV4 .row {
+    flex-wrap: wrap;
+    padding: 0 30px 0 40px;
+}
+}
+@media screen and (max-width: 767px) {
+.custImgFirstV4 {
+    display: none;
+}
+
+body .custCustomCuffBannerV4 .custImgSecoundV4 {
+    width: 100%;
+    margin: 0;
+}
+
+.custCustomCuffBannerV4 .row {
+    padding: 0 20px 32px 20px;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 {
+    margin-top: 24px;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 {
+    text-align: center;
+    justify-content: center;
+}
+
+.custCustomCuffBannerV4 div.custLastTextV4 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a.custShopNowButtonV4 {
+    margin: 0 auto;
+}
+.custCustomCuffBannerV4 .custImgSecoundV4 {
+    height: 414px !important;
+}
+
+.custCustomCuffBannerV4 .custImgSecoundV4 * {
+    height: 100% !important;
+}
+.custCustomCuffBannerV4 .row div.custVideoBlockV4 .custCustmerReviewV4 {
+    display: block;
+    bottom: 12px;
+    margin-right: 0;
+    left: 10px;
+}
+
+.custVideoBlockV4 {
+    position: relative;
+}
+
+body .custCustomCuffBannerV4 .custCustmerReviewV4 p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+}
+@media screen and (max-width: 360px) {
+.
+custCustomCuffBannerV4 .row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.custCustomCuffBannerV4 .row div.custVideoBlockV4 .custCustmerReviewV4 {
+    left: 10px;
+    bottom: 10px;
+    width: calc(100% - 20px) !important;
+}
+}

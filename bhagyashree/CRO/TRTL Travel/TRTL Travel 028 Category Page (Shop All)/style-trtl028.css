@@ -1,0 +1,105 @@
+#asccessories,
+#Comfort,
+#Bundles,
+#pillows {
+    background: #fff !important;
+}
+#asccessories .container .row>[class*="col-"],
+#Comfort .container .row>[class*="col-"],
+#Bundles .container .row>[class*="col-"],
+#pillows .container .row>[class*="col-"] {
+    width: 50%;
+    max-width: 50%;
+}
+#asccessories .container .row>[class*="col-"]:first-child,
+#Comfort .container .row>[class*="col-"]:first-child,
+#Bundles .container .row>[class*="col-"]:first-child,
+#pillows .container .row>[class*="col-"]:first-child {
+    display: block !important;
+}
+#asccessories .container .row>[class*="col-"]:nth-child(2),
+#Comfort .container .row>[class*="col-"]:nth-child(2),
+#Bundles .container .row>[class*="col-"]:nth-child(2),
+#pillows .container .row>[class*="col-"]:nth-child(2) {
+    display: none !important;
+}
+#asccessories .container .row [class*="col-"]:first-child h2,
+#Comfort .container .row [class*="col-"]:first-child h2,
+#Bundles .container .row [class*="col-"]:first-child h2,
+#pillows .container .row [class*="col-"]:first-child h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+}
+#asccessories .container .row>[class*="col-"]:first-child .position-relative,
+#Comfort .container .row>[class*="col-"]:first-child .position-relative,
+#Bundles .container .row>[class*="col-"]:first-child .position-relative,
+#pillows .container .row>[class*="col-"]:first-child .position-relative {
+    height: 100%;
+}
+#asccessories .container .row>[class*="col-"]:first-child .position-relative .image-wrapper,
+#Comfort .container .row>[class*="col-"]:first-child .position-relative .image-wrapper,
+#Bundles .container .row>[class*="col-"]:first-child .position-relative .image-wrapper,
+#pillows .container .row>[class*="col-"]:first-child .position-relative .image-wrapper {
+    padding: 0;
+    height: 100%;
+}
+#asccessories .container .row>[class*="col-"]:first-child .position-relative .image-wrapper img,
+#Comfort .container .row>[class*="col-"]:first-child .position-relative .image-wrapper img,
+#Bundles .container .row>[class*="col-"]:first-child .position-relative .image-wrapper img,
+#pillows .container .row>[class*="col-"]:first-child .position-relative .image-wrapper img {
+    object-fit: cover;
+}
+#asccessories .container .row>[class*="col-"] .card-body,
+#Comfort .container .row>[class*="col-"] .card-body,
+#Bundles .container .row>[class*="col-"] .card-body,
+#pillows .container .row>[class*="col-"] .card-body {
+    padding: 8px 8px 0px 8px;
+}
+#asccessories .container .row>[class*="col-"] .card-body a h5,
+#Comfort .container .row>[class*="col-"] .card-body a h5,
+#Bundles .container .row>[class*="col-"] .card-body a h5,
+#pillows .container .row>[class*="col-"] .card-body a h5 {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+#asccessories .container .row>[class*="col-"] .tile-product .flashtag,
+#Comfort .container .row>[class*="col-"] .tile-product .flashtag,
+#Bundles .container .row>[class*="col-"] .tile-product .flashtag,
+#pillows .container .row>[class*="col-"] .tile-product .flashtag {
+    background: #243B60;
+    color: #fff;
+    padding: 8px 14px !important;
+}
+#asccessories .container .row>[class*="col-"] .shop-btn-wraper button,
+#Comfort .container .row>[class*="col-"] .shop-btn-wraper button,
+#Bundles .container .row>[class*="col-"] .shop-btn-wraper button,
+#pillows .container .row>[class*="col-"] .shop-btn-wraper button {
+    background: #FAD850;
+    border-radius: 100px;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 600;
+    padding: 10px;
+    width: 100%;
+    text-transform: uppercase;
+}
+#asccessories .container .row>[class*="col-"] .card-footer .variant-colours,
+#Comfort .container .row>[class*="col-"] .card-footer .variant-colours,
+#Bundles .container .row>[class*="col-"] .card-footer .variant-colours,
+#pillows .container .row>[class*="col-"] .card-footer .variant-colours {
+    height: inherit !important;
+    margin: 5px 0 8px !important;
+}
+
+@media(max-width: 360px){
+    #asccessories .container .row [class*="col-"]:first-child h2,
+    #Comfort .container .row [class*="col-"]:first-child h2,
+    #Bundles .container .row [class*="col-"]:first-child h2,
+    #pillows .container .row [class*="col-"]:first-child h2 {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 -5px;
+    }
+}

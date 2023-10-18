@@ -1,0 +1,267 @@
+.banner{
+    max-height: unset;
+    height: unset;
+    min-height: unset;
+    padding: 120px 10px 50px;
+}
+.banner .container.split-hero{
+    display: none;
+}
+.btnsWraper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+.custBanner .btnsWraper a.custBtn {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.07em;
+    border-radius: 5px;
+    border: 2px solid #C8242E;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-family: Poppins,sans-serif;
+    display: block;
+    white-space: nowrap;
+}
+
+.custBanner .btnsWraper a.custBtn.fillBtn {
+    background: #C8242E;
+    color: #fff;
+}
+
+.custBanner {
+    width: 100%;
+    display: block;
+}
+
+.custBanner .row {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.custBanner .row .col-sm-6 {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.custBanner .row .col-sm-6 h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    font-family: Roboto,sans-serif;
+    margin: 0 0 15px;
+}
+
+.custBanner .row .col-sm-6 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.9;
+    margin: 0 0 15px;
+}
+
+.custBanner .row .col-sm-6 ul li {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+    margin: 0 0 4px;
+    position: relative;
+    padding-left: 20px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/MediaZilla/tick-white-bullet.svg) no-repeat 0px 6px;
+}
+
+.custBanner .row .col-sm-6 ul {
+    list-style: none;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.custInstitutionalCarousel {
+    display: flex;
+    gap: 0 25px;
+    margin: 125px 0 40px;
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 20px;
+}
+
+.custInstitutionalCarousel .custTitle {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Roboto,sans-serif;
+    line-height: 32px;
+    max-width: 290px;
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.custInstitutionalCarousel .custInstutionalLogos {
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.custInstitutionalCarousel .custInstutionalLogos div {
+    flex: 0 0 calc(33.33% - 3px);
+    display: flex;
+    justify-content: center;
+}
+.custInstitutionalCarousel .custInstutionalLogos div img {
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+.videoWraper {
+    position: relative;
+}
+.videoWraper .videoPlayBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.custBanner .custVideoPopup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.custBanner .custVideoPopup .frameWraper {
+    position: relative;
+    padding-top: 540px;
+    max-width: 960px;
+    width: 100%;
+    z-index: 1;
+}
+.custBanner .custVideoPopup iframe {
+    max-width: 100%;
+    width: 100% !important;
+    max-height: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.custBanner .custVideoPopup .custOverlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+@media(max-width: 959px){
+    .custBanner .custVideoPopup .frameWraper {
+        padding-top: 56%;
+    }
+}
+@media(max-width: 991px){
+    .custInstitutionalCarousel{
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    .custContactDemoContent ul{
+        margin: 0;
+    }
+    .custInstitutionalCarousel .custTitle{
+        width: 100%;
+        font-size: 25px;
+        margin: 0 0 20px;
+        max-width: 100%;
+    }
+    .custInstitutionalCarousel .custInstutionalLogos{
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+    .custInstitutionalCarousel .custInstutionalLogos div{
+        flex: 0 0 calc(33.33% - 3px);
+    }
+    .banner{
+        padding-top: 80px;
+    }
+    .custBanner .row .col-sm-6 h1{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .custBanner .row .col-sm-6 p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custBanner .row .col-sm-6 ul li{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .videoWraper .videoPlayBtn{
+        width: 50px;
+    }
+}
+@media(max-width: 767px){
+    .banner{
+        padding-top: 90px;
+    }
+    .custBanner .row{
+        flex-direction: column;
+    }
+    .custBanner .row .col-sm-6{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+    .videoWraper{
+        margin-top: 30px;
+    }
+    .btnsWraper{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .custInstitutionalCarousel{
+        margin-top: 60px;
+    }
+    .custBanner .btnsWraper a.custBtn{
+        width: 100%;    
+    }
+    .custBanner .container {
+        padding: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .custBanner .row .col-sm-6 h1{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .custBanner .row .col-sm-6 p{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .custBanner .row .col-sm-6 ul li{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .custInstitutionalCarousel .custInstutionalLogos{
+        gap: 10px;
+    }
+    .custInstitutionalCarousel .custInstutionalLogos div{
+        flex: 0 0 calc(50% - 5px);
+    }
+}

@@ -1,0 +1,898 @@
+<style>
+body.customPageWrapper * {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+body.customPageWrapper {
+    padding: 0 !important;
+    background: #000000;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/blue_light_bg.png), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/yellow_light_bg.png), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/white_light_bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 25%, right 50%, 0 bottom;
+}
+
+body.customPageWrapper div#shopify-section-static-notification-bar,
+body.customPageWrapper #MainContent section[id*="__main"] .container,
+body.customPageWrapper #position-fixed, 
+body.customPageWrapper div#fixed-header, 
+body.customPageWrapper div#shopify-section-static-footer-alt-trtl,
+body.customPageWrapper div#shopify-section-static-header-alt-trtl {
+    display: none;
+}
+
+.custLogo img {
+    width: 250px;
+}
+
+.custGetLostMainWraper .custHeroBanner h3.custTitle {
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    font-size: 34px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+}
+
+.custGetLostMainWraper .custBtn{
+    cursor: pointer;
+}
+
+.custGetLostMainWraper .custHeader {
+    background: #fff;
+    padding: 16px 0;
+}
+
+.custGetLostMainWraper .custHeader a.custLogo img {
+    width: 80px;
+}
+
+.custGetLostMainWraper .custHeader a.custLogo {
+    display: inline-block;
+}
+
+.custGetLostMainWraper .custHeader a.custBtn {
+    margin-left: auto;
+    display: block;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px 48px;
+    text-decoration: none;
+    background: #FAD951;
+    border-radius: 100px;
+    transition: 0.5s all;
+}
+
+.custGetLostMainWraper .custHeader .container {
+    display: flex;
+    align-items: center;
+}
+
+.custGetLostMainWraper .custHeader a.custBtn:hover {
+    background: #000;
+    color: #FAD951;
+}
+
+
+.custJoinAccordionWraper .accorionMain .card-header label {
+    position: relative;
+    padding-right: 50px;
+    width: 100%;
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    min-height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"]:checked {
+    visibility: hidden;
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"]:checked~.card-header {
+    margin: 0 0 32px;
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"]~.collapse {
+    visibility: hidden;
+    opacity: 0;
+    transition: height 0s, visibility 0s, opacity 0.5s linear;
+    display: block;
+    height: 0;
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"]:checked~.collapse {
+    display: block;
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+.custGetLostMainWraper .custHeroBanner .title .icon {
+    width: 64px;
+    margin: 0 0 24px;
+}
+
+.custGetLostMainWraper .custHeroBanner .content {
+    padding: 32px 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.custGetLostMainWraper .custHeroBanner .title h1 {
+    color: #fff;
+    display: inline-block;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 72px;
+    text-align: left;
+    letter-spacing: normal;
+    margin: 0 8px 10px 0;
+    border: 0;
+    display: block;
+}
+
+.custGetLostMainWraper .custHeroBanner .title .poweredBy {
+    color: #fff;
+    display: inline-block;
+    margin-right: 12px;
+    font-family: 'IBM Plex Mono';
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+}
+
+.custGetLostMainWraper .custHeroBanner .title .bannerLogo {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.custGetLostMainWraper .custHeroBanner .title .bannerLogo img {
+    filter: invert(1);
+}
+
+.custGetLostMainWraper .custHeroBanner .title {
+    margin: 0 0 25px;
+}
+
+.custGetLostMainWraper .custHeroBanner .content a.custBtn {
+    margin-left: auto;
+    display: inline-block;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px 48px;
+    text-decoration: none;
+    background: #FAD951;
+    border-radius: 100px;
+    transition: 0.5s all;
+}
+
+.custGetLostMainWraper .custHeroBanner {
+    margin: 0 0 80px;
+    overflow: hidden;
+}
+
+.custTravelObsessWraper h3 {
+    font-family: 'IBM Plex Sans';
+    font-size: 36px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin: 0 0 16px;
+    width: calc(100% - 30px);
+}
+
+.custTravelObsessWraper h3 ~ p,
+.custGetLostMainWraper .custHeroBanner .content p {
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #DDDDDD;
+    letter-spacing: 0.04em;
+    margin: 0 0 16px;
+    display: block;
+    width: calc(100% - 30px);
+}
+
+.custTravelObsessWraper h3 ~ p.moretext, 
+.custTravelObsessWraper h3 ~ p.moretext ~ p{
+    margin:16px 0 0;
+}
+.custTravelObsessWraper h3 ~ p.moretext:first-child{
+    margin:0;
+}
+
+.custTravelObsessWraper .adventureMain img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.custTravelObsessWraper .adventureMain .imgBox {
+    flex: 0 0 50%;
+}
+
+.custTravelObsessWraper .adventureMain {
+    display: flex;
+    transform: rotate(3deg);
+}
+
+.custTravelObsessWraper .adventureMain .imgBox.white.adventure {
+    padding: 16px;
+    background: #fff;
+    position: relative;
+}
+
+.custTravelObsessWraper .imgBox.white .heading {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    padding: 6px 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.custTravelObsessWraper .imgBox.white .para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 14px 0 0;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox img {
+    width: 100%;
+}
+
+.custTravelObsessWraper .row:nth-child(2) {
+    display: flex;
+    padding: 0 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox {
+    flex: 0 0 26%;
+    box-sizing: border-box;
+    padding: 0;
+    max-height: 356px;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox.hiddenPlacesWraper {
+    flex: 0 0 48%;
+    display: flex;
+}
+
+
+.custTravelObsessWraper .row .imgBox.white {
+    padding: 16px;
+    background: #fff;
+    position: relative;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox.hiddenPlacesWraper .imgBox {
+    flex: 0 0 50%;
+    overflow: hidden;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox.hiddenPlaces1 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox.white.white.travelHacking {
+    transform: rotate(-6deg);
+    z-index: 1;
+}
+
+.custTravelObsessWraper .row:nth-child(2) .hiddenPlacesWraper.imgBox {
+    transform: rotate(5deg);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.custTravelObsessWraper .row:nth-child(2) .imgBox.white.adventureChallenge {
+    transform: rotate(-4deg);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.custTravelObsessWraper .row:nth-child(3) {
+    display: flex;
+    padding: 0 12px;
+    position: relative;
+    z-index: 0;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox.hotelUpgrades1 {
+    flex: 0 0 24%;
+    transform: rotate(3deg);
+    padding-top: 50px;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox.hotelUpgradesWraper {
+    flex: 0 0 76%;
+    display: flex;
+    transform: rotate(-4deg);
+}
+
+.custTravelObsessWraper .row:nth-child(3) > .imgBox {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox img {
+    width: 100%;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox.hotelUpgradesWraper .imgBox.hotelUpgrades3 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -1px;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox.hotelUpgradesWraper .imgBox {
+    flex: 0 0 50%;
+}
+
+.custTravelObsessWraper .row:nth-child(3) .imgBox.hotelUpgrades1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 center;
+}
+
+.custGetLostMainWraper 
+ .custTravelObsessWraper {
+    margin: 0 0 100px;
+}
+
+.custGetLostMainWraper 
+ .custJoinAccordionWraper {
+    margin: 0 0 100px;
+}
+
+.custGetLostMainWraper .custJoinAccordionWraper h2 {
+    font-family: ibm-plex-sans,sans-serif;
+    font-weight: 450;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin: 0 0 40px;
+}
+
+.custJoinAccordionWraper .accorionMain .card-header, .custJoinAccordionWraper .accorionMain .card-body, .custJoinAccordionWraper .accorionMain .card-footer {
+    padding: 0;
+}
+
+.custJoinAccordionWraper .accorionMain .card-footer a.btn {
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 16px 48px;
+    text-decoration: none;
+    background: #FAD951;
+    border-radius: 100px;
+    transition: 0.5s all;
+}
+
+.custJoinAccordionWraper .accorionMain .card-footer {
+    margin-top: 32px;
+}
+
+.custJoinAccordionWraper .accorionMain .card-body p,
+.custJoinAccordionWraper .accorionMain .card-body li {
+    max-width: calc(100% - 80px);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #3C3E41;
+}
+
+.custJoinAccordionWraper .accorionMain .card-header label button {
+    background: none;
+    border: 0px;
+    padding: 0;
+    font-family: ibm-plex-sans,sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: left;
+}
+
+.custJoinAccordionWraper .accorionMain .card-header label button span {
+    font-weight: 700;
+}
+
+.custJoinAccordionWraper .accorionMain .card {
+    border-radius: 0;
+    padding: 32px 40px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.45);
+}
+
+.custJoinAccordionWraper .accorionMain .card-footer a.btn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.custJoinAccordionWraper .accorionMain .card-header label:after {
+    content: '';
+    display: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/lp_arrow.svg) no-repeat center;
+    transition: 0.5s all;
+  transform: rotate(180deg);
+}
+
+.custJoinAccordionWraper .accorionMain input[type="radio"]:checked~.card-header label:after {
+    transform: rotate(0deg);
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper {
+    margin: 0 0 100px;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper h2 {
+    font-family: ibm-plex-sans,sans-serif;
+    font-weight: 450;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: left;
+    color: #fff;
+    margin: 0 0 40px;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .container {
+    max-width: 800px;
+    padding: 0;
+    width: calc(100% - 30px);
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .card {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    margin: 0 0 40px;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .card:last-child {
+    margin: 0;
+}
+
+.custCommunityFAQwraper .accorionMain .card-header, 
+.custCommunityFAQwraper .accorionMain .card-body{
+    padding: 0;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .card-header label button {
+    background: none;
+    border: 0px;
+    padding: 0;
+    font-family: ibm-plex-sans,sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: left;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .card-header label:after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/lp_arrow.svg) no-repeat center;
+    transition: 0.5s all;
+    filter: invert(1);
+  transform: rotate(180deg);
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper input[type="radio"]:checked~.card-header label:after {
+    transform: rotate(0deg);
+}
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"] {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+    min-height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"]~.collapse {
+    visibility: hidden;
+    opacity: 0;
+    transition: height 0s, visibility 0s, opacity 0.5s linear;
+    display: block;
+    height: 0;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"]:checked~.collapse {
+    display: block;
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    height: 100%;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"]:checked {
+    visibility: hidden;
+}
+
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"]:checked~.card-header {
+    margin: 0 0 16px;
+}
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain .card-header label {
+    position: relative;
+    padding-right: 50px;
+    width: 100%;
+}
+.custGetLostMainWraper .custCommunityFAQwraper .accorionMain .card-body p {    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    font-family: ibm-plex-sans,sans-serif;
+}
+
+.custHeader.footer {
+    background: transparent;
+    padding: 40px 0 80px;
+    margin: 0;
+}
+
+.custGetLostMainWraper .custHeader.footer a.custLogo img {
+    filter: invert(1);
+}
+.custGetLostMainWraper .custHeader.footer a.custBtn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.custGetLostMainWraper .custHeroBanner .col-md-6:last-child img {
+    width: calc(50vw - 12px);
+    margin: 0;
+    border-radius: 0 0 0 20px;
+}
+
+.custGetLostMainWraper .custHeroBanner .col-md-6:first-child {
+    display: flex;
+}
+.custGetLostMainWraper .custTravelObsessWraper .container.mob {
+    display: none;
+}
+.custGetLostMainWraper .custTravelObsessWraper .container.desk {
+    display: block;
+}
+.custGetLostMainWraper .custTravelObsessWraper .container.desk .col-md-6:first-child {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.custJoinAccordionWraper .accorionMain .card:nth-child(3) input[type="radio"]:checked~.collapse + .card-footer {
+    display: none;
+}
+
+.custCommunityPostGrid h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: ibm-plex-sans,sans-serif;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.custBoxWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.custBoxBlocks {
+    margin: 0 12px;
+    width: calc(33.33% - 24px);
+    background: #fff;
+}
+
+.custBoxBlocks img {
+    width: 100%;
+}
+
+.custBoxBlocks h4, .custBoxBlocks p {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.custBoxBlocks h4 {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-weight: Bold;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    line-height: 1.2;
+    color: #000;
+}
+
+.custBoxBlocks p {
+    margin-bottom: 20px !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: #3C3E41;
+    font-family: 'ibm-plex-sans';
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    padding: 0 14px;
+}
+
+.custCommunityPostGrid {
+    margin-bottom: 60px;
+}
+
+@media(max-width: 991px){
+    .custGetLostMainWraper .custTravelObsessWraper .container.desk {
+        display: none;
+    }
+    .custGetLostMainWraper .custTravelObsessWraper .container.mob {
+        display: block;
+    }
+    .custTravelObsessWraper h3{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    
+    .custTravelObsessWraper h3 ~ p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .custTravelObsessWraper .imgBox.white .para{
+        font-size: 16px;
+        line-height: 24px;
+        margin: 12px 0 0;
+        min-height: 48px;
+    }
+    .custTravelObsessWraper .row .imgBox.white{
+        padding: 12px;
+    }
+    .custGetLostMainWraper .custTravelObsessWraper .container.mob .row .imgBox.white img {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+    }
+    .custGetLostMainWraper .custTravelObsessWraper .container.mob .swiper.custTravelObsessSwiperTiles {
+        padding-top: 40px;
+        margin-right: -12px;
+    }
+    .custGetLostMainWraper .custTravelObsessWraper .container.mob .swiper.custTravelObsessSwiperTiles .swiper-slide {
+        width: calc(100% - 40px) !important;
+    }
+    
+    .custGetLostMainWraper .custHeader a.custBtn{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custGetLostMainWraper .custHeader a.custBtn span {
+        display: none;
+    }
+    .custGetLostMainWraper .custHeroBanner .row {
+        flex-direction: column-reverse;
+    }
+    .custGetLostMainWraper .custHeroBanner .title h1{
+        font-size: 64px;
+        line-height: 64px;
+    }
+    .custGetLostMainWraper .custHeroBanner .title .icon {
+        width: 64px;
+        margin: 0 auto 2px;
+    }
+    .custGetLostMainWraper .custHeroBanner .title .poweredBy{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .custGetLostMainWraper .custHeroBanner .content p{
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+    }
+    .custGetLostMainWraper .custHeroBanner{
+        margin: 0;
+    }
+    
+    .custGetLostMainWraper .custCommunityFAQwraper,
+    .custGetLostMainWraper .custJoinAccordionWraper,
+    .custGetLostMainWraper .custTravelObsessWraper {
+        margin: 0 0 60px;
+    }
+    .custGetLostMainWraper .custJoinAccordionWraper h2{
+        font-size: 32px;
+        line-height: 42px;
+        margin: 0 0 16px;
+        text-align: left;
+    }
+    .custJoinAccordionWraper .accorionMain .card{
+        padding: 20px 15px;
+    }
+    .custJoinAccordionWraper .accorionMain .card-header label{
+        padding-right: 20px;
+    }
+    .custJoinAccordionWraper .accorionMain .card-header label button{
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+    }
+    .custJoinAccordionWraper .accorionMain .card-header label:after{
+        width: 16px;
+        height: 16px;
+    }
+    .custJoinAccordionWraper .accorionMain .card-body p{
+        font-size: 18px;
+        line-height: 28px;
+        max-width: 100%;
+    }
+    .custJoinAccordionWraper .accorionMain .card-footer {
+        margin-top: 24px;
+    }
+    .custJoinAccordionWraper .accorionMain .card-footer a.btn{
+        padding: 16px 36px;
+        min-width: 150px;
+    }
+    .custGetLostMainWraper .custCommunityFAQwraper h2{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .custGetLostMainWraper .custCommunityFAQwraper .card-header label button{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .custGetLostMainWraper .custCommunityFAQwraper .accorionMain input[type="radio"]:checked~.card-header {
+        margin: 0 0 12px;
+    }
+    .custGetLostMainWraper .custCommunityFAQwraper .accorionMain .card-body p{
+        font-size: 15px;
+        line-height: 24px;
+        font-family: ibm-plex-sans,sans-serif;
+    }
+    .custGetLostMainWraper .custHeroBanner .col-md-6:last-child img {
+        width: 100%;
+        margin: 0;
+        border-radius: 0 0 20px 20px;
+    }
+    body.customPageWrapper {
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/blue_light_bg.png), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/yellow_light_bg.png), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/green_light_bg.png);
+        background-repeat: no-repeat;
+        background-position: 0 10%, right 27%, right top;
+        background-size: 100%, 80%, 80%;
+    }
+    .custGetLostMainWraper .custHeroBanner .content {
+        padding: 0 0 32px;
+    }
+    
+    .custHeader.footer{
+        padding: 0px 0 80px;
+    }
+    .custHeader.footer .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .custHeader.footer .container a.custBtn {
+        margin: 0 auto 70px;
+    }
+    
+    .custTravelObsessWraper h3 ~ p,
+    .custTravelObsessWraper h3{
+        width: 100%;
+    }
+    .custGetLostMainWraper .custHeroBanner .row .col-md-6 {
+        width: 100%;
+    }
+    .custBoxBlocks h4, .custBoxBlocks p {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .custBoxBlocks h4 {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        font-size: 20px;
+        color: #000;
+        line-height: 24px;
+    }
+    .custBoxBlocks p {
+        margin-bottom: 10px;  
+    }
+    .custBoxBlocks{
+        margin: 0 7px;
+        width: calc(33.33% - 14px);
+    }
+
+    .custGetLostMainWraper .custHeroBanner h3.custTitle {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .custBoxWrapper .custBoxBlocks{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+}
+
+@media(max-width: 480px){
+    .custGetLostMainWraper .custHeroBanner .content a.custBtn{
+        width: 100%;
+        text-align: center;
+        padding: 16px 38px;
+    }
+    .custGetLostMainWraper .custHeader a.custBtn{
+        padding: 12px 24px;
+    }
+}
+@media(max-width: 320px){
+    .custGetLostMainWraper .custHeader a.custBtn{
+        font-size: 16px;
+    }
+}
+</style>

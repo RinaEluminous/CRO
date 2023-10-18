@@ -1,0 +1,165 @@
+.custCustomCuffBanner .row {display: flex;align-items: center;width: 100%;padding: 20px 72px 48px 72px;}
+.custCustomCuffBanner {margin-top: 45px;padding-bottom: 48px;}
+header#section-header {box-shadow: none;}
+.custCustomCuffBanner .custImgFirst {position: relative;}
+body .custCustomCuffBanner .custCustmerReview {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    bottom: 24px;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 314px;
+    left: 24px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2.5px);
+}
+.custCustomCuffBanner .row div {
+    margin-right: 12px;
+    height: 600px;
+    width: 33.33%;
+}
+
+.custCustomCuffBanner div.custLastText {
+    margin-right: 0;
+    max-width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.custCustomCuffBanner .row div img, .custCustomCuffBanner .row div video {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+}
+body .custCustomCuffBanner .custCustmerReview span img {
+    width: auto;
+    height: auto;
+}
+body .custCustomCuffBanner .custCustmerReview p {font-family: "Avenir Next", sans-serif !important;font-weight: 300;font-size: 16px;line-height: 24px;}
+body .custCustomCuffBanner .custCustmerReview span.jdgm-prev-badge__stars {
+    margin-bottom: 8px;
+    display: block;
+}
+.custCustomCuffBanner div.custLastText h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: "Mogena" !important;
+    margin-bottom: 8px;
+}
+.custCustomCuffBanner div.custLastText p {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+a.custShopNowButton {
+    padding: 12px 40px;
+    background: #000000;
+    color: #EEE5DC;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Avenir Next", sans-serif;
+}
+body .custCustomCuffBanner .custImgSecound {margin-right: 24px;}
+.custCustmerReview img {
+    width: auto !important;
+    height: 20px !important;
+    margin-bottom: 8px;
+}
+
+.custCustomCuffBanner .row div.custVideoBlock, .custCustomCuffBanner .row div.custVideoBlock video {
+    width: 100%;
+}
+.custCustomCuffBanner .row div.custVideoBlock .custCustmerReview {
+    display: none;
+}
+@media screen and (max-width: 1199px) {
+.custCustomCuffBanner .row div {
+    width: calc(50% - 10px);
+    margin: 0 10px 0 0;
+}
+
+.custCustomCuffBanner div.custLastText {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    margin: 30px 0 0 0;
+}
+
+.custCustomCuffBanner .row {
+    flex-wrap: wrap;
+    padding: 0 30px 0 40px;
+}
+}
+@media screen and (max-width: 767px) {
+.custImgFirst {
+    display: none;
+}
+
+body .custCustomCuffBanner .custImgSecound {
+    width: 100%;
+    margin: 0;
+}
+
+.custCustomCuffBanner .row {
+    padding: 0 20px 32px 20px;
+}
+
+.custCustomCuffBanner div.custLastText {
+    margin-top: 24px;
+}
+
+.custCustomCuffBanner div.custLastText h1 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.custCustomCuffBanner div.custLastText {
+    text-align: center;
+    justify-content: center;
+}
+
+.custCustomCuffBanner div.custLastText p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+a.custShopNowButton {
+    margin: 0 auto;
+}
+.custCustomCuffBanner .custImgSecound {
+    height: 414px !important;
+}
+
+.custCustomCuffBanner .custImgSecound * {
+    height: 100% !important;
+}
+.custCustomCuffBanner .row div.custVideoBlock .custCustmerReview {
+    display: block;
+    bottom: 12px;
+    margin-right: 0;
+    left: 10px;
+}
+
+.custVideoBlock {
+    position: relative;
+}
+
+body .custCustomCuffBanner .custCustmerReview p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+}
+}

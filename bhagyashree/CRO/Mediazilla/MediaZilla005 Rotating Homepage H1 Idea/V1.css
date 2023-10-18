@@ -1,0 +1,473 @@
+<style>.section.grey.wf-section {
+    display: none;
+}
+
+div#Features .container.top .title-wrapper {
+    margin-bottom: 40px;
+}
+
+.banner {
+    max-height: unset;
+    height: unset;
+    min-height: unset;
+    padding: 120px 10px 50px;
+}
+
+.banner .container.split-hero {
+    display: none;
+}
+
+.custRotatingBanner .btnsWraper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+
+.custRotatingBanner .btnsWraper a.custBtn {
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #C8242E;
+    padding: 14px 35px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+    display: block;
+    white-space: nowrap;
+}
+
+.custRotatingBanner .btnsWraper a.custBtn.fillBtn {
+    background: #C8242E;
+    color: #fff;
+}
+
+.custRotatingBanner {
+    width: 100%;
+    display: block;
+}
+
+.custRotatingBanner .row {
+    display: flex;
+    margin: 0 -20px;
+}
+
+.custRotatingBanner .row .col-sm-6 {
+    flex: 0 0 50%;
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.custRotatingBanner .row .col-sm-6 h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    font-family: Roboto, sans-serif;
+    margin: 0 0 15px;
+}
+
+.custRotatingBanner .row .col-sm-6 p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    opacity: 0.9;
+    margin: 0 0 15px;
+    letter-spacing: normal;
+}
+
+.custRotatingBanner .row .col-sm-6>ul>li {
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+    margin: 0 0 5px;
+    position: relative;
+    padding-left: 20px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/MediaZilla/tick-white-bullet.svg) no-repeat 0px 6px;
+    font-family: Roboto,sans-serif;
+}
+
+.custRotatingBanner .row .col-sm-6>ul {
+    list-style: none;
+    margin: 0 0 25px;
+    padding: 0;
+}
+
+.custRotatingBanner .custInstitutionalCarousel {
+    display: flex;
+    gap: 0 25px;
+    margin: 105px 0 40px;
+    border-bottom: 1px solid #ffff;
+    padding-bottom: 20px;
+}
+
+.custRotatingBanner .custInstitutionalCarousel .custTitle {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    line-height: 32px;
+    max-width: 290px;
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos {
+    display: flex;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos div {
+    flex: 0 0 calc(33.33% - 3px);
+    display: flex;
+    justify-content: center;
+}
+
+.custRotatingBanner .videoWraper {
+    position: relative;
+}
+
+.custRotatingBanner .videoWraper .videoPlayBtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.custRotatingBanner .custVideoPopup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.custRotatingBanner .custVideoPopup .frameWraper {
+    position: relative;
+    padding-top: 540px;
+    max-width: 960px;
+    width: 100%;
+    z-index: 1;
+}
+
+.custRotatingBanner .custVideoPopup iframe {
+    max-width: 100%;
+    width: 100% !important;
+    max-height: 100%;
+    min-height: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.custRotatingBanner .custVideoPopup .custOverlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.custRotatingBanner .scrolling-words-box {
+    height: 60px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.custRotatingBanner .scrolling-words-box>ul {
+    margin: 0;
+    padding: 0;
+    animation: scrollUp 25s infinite;
+}
+
+.custRotatingBanner .scrolling-words-box>ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 60px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #C8242E;
+    font-family: Roboto, sans-serif;
+}
+
+@keyframes scrollUp {
+    0%,
+    10% {
+        transform: translateY(0px);
+    }
+
+    15%,
+    25% {
+        transform: translateY(-60px);
+    }
+
+    30%,
+    40% {
+        transform: translateY(-120px);
+    }
+
+    45%,
+    55% {
+        transform: translateY(-180px);
+    }
+
+    60%,
+    70% {
+        transform: translateY(-240px);
+    }
+    
+    75%,
+    85% {
+        transform: translateY(-300px);
+    }
+    
+    90%,
+    100% {
+        transform: translateY(-360px);
+    }
+}
+
+@media(max-width: 959px) {
+    .custRotatingBanner .custVideoPopup .frameWraper {
+        padding-top: 56%;
+    }
+}
+
+@media(max-width: 991px) {
+    #Features .container.top {
+        padding-top: 0px;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel {
+        flex-direction: column;
+        margin-top: 90px;
+        margin-bottom: 0px;
+    }
+
+    .custRotatingBanner .custContactDemoContent ul {
+        margin: 0;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel .custTitle {
+        width: 100%;
+        font-size: 25px;
+        margin: 0 0 20px;
+        max-width: 100%;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos {
+        flex-wrap: wrap;
+        gap: 3px;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos div {
+        flex: 0 0 calc(33.33% - 3px);
+    }
+
+    .banner {
+        padding-top: 80px;
+    }
+
+    .custRotatingBanner .scrolling-words-box>ul li,
+    .custRotatingBanner .row .col-sm-6 h1 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .custRotatingBanner .scrolling-words-box>ul li{
+        height: 42px;
+    }
+
+    .custRotatingBanner .row .col-sm-6 p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .custRotatingBanner .row .col-sm-6>ul>li {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .custRotatingBanner .videoWraper .videoPlayBtn {
+        width: 50px;
+    }
+    .custRotatingBanner .scrolling-words-box{
+        height: 42px;
+    }
+
+    @keyframes scrollUp {
+        0%,
+        10% {
+            transform: translateY(0);
+        }
+    
+        15%,
+        25% {
+            transform: translateY(-42px);
+        }
+    
+        30%,
+        40% {
+            transform: translateY(-90px);
+        }
+    
+        45%,
+        55% {
+            transform: translateY(-132px);
+        }
+    
+        60%,
+        70% {
+            transform: translateY(-174px);
+        }
+    
+        75%,
+        85% {
+            transform: translateY(-206px);
+        }
+        90%,
+        100% {
+            transform: translateY(-248px);
+        }
+    }
+}
+
+@media (max-width: 850px) and (orientation: landscape) {
+    .custRotatingBanner .custVideoPopup {
+        padding: 75px;
+    }
+}
+
+@media(max-width: 767px) {
+    .banner {
+        padding-top: 90px;
+    }
+
+    div#Features .container.top .title-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .custRotatingBanner .row {
+        flex-direction: column;
+    }
+
+    .custRotatingBanner .row .col-sm-6 {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .custRotatingBanner .videoWraper {
+        margin-top: 30px;
+    }
+
+    .custRotatingBanner .btnsWraper {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel {
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .custRotatingBanner .btnsWraper a.custBtn {
+        width: 100%;
+    }
+
+    .custRotatingBanner .container {
+        padding: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .custRotatingBanner .scrolling-words-box>ul li,
+    .custRotatingBanner .row .col-sm-6 h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .custRotatingBanner .scrolling-words-box>ul li{
+        height: 34px;
+    }
+
+    .custRotatingBanner .row .col-sm-6 p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .custRotatingBanner .row .col-sm-6>ul>li {
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos {
+        gap: 10px;
+    }
+
+    .custRotatingBanner .custInstitutionalCarousel .custInstutionalLogos div {
+        flex: 0 0 calc(50% - 5px);
+    }
+    .custRotatingBanner .scrolling-words-box{
+        height: 34px;
+    }
+    .custRotatingBanner .row .col-sm-6>ul {
+        margin: 0 0 30px;
+    }
+    @keyframes scrollUp {
+        0%,
+        10% {
+            transform: translateY(0);
+        }
+    
+        15%,
+        25% {
+            transform: translateY(-34px);
+        }
+    
+        30%,
+        40% {
+            transform: translateY(-102px);
+        }
+    
+        45%,
+        55% {
+            transform: translateY(-136px);
+        }
+    
+        60%,
+        70% {
+            transform: translateY(-170px);
+        }
+    
+        75%,
+        85% {
+            transform: translateY(-204px);
+        }
+    
+        90%,
+        100% {
+            transform: translateY(-238px);
+        }
+    }
+}
+</style>

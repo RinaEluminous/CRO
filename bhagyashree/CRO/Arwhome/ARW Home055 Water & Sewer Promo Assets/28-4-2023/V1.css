@@ -1,0 +1,163 @@
+<style>
+  .custPopupBlocks,.page-wsl-plan .hs-form-iframe{
+    display: none;
+  }
+ .custOverlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+  /* overflow: scroll; */
+}
+.custOverlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.custPopup {
+  margin: 70px auto;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+  max-width: 480px;
+  background: #0F1138;
+  border-radius: 16px;
+  /* overflow: scroll; */
+}
+
+.custPopup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+}
+.custPopup .close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #fff;
+}
+.custPopup .close:hover {
+  color: #06D85F;
+}
+.custPopup .custContent { 
+  overflow: auto;
+}
+
+.custPopupBlocks h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px; 
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 16px;
+}
+
+.custPopupBlocks input {
+    border: 0;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    color: #0E1138;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px 20px 10px 42px !important;
+}
+
+body .custPopupBlocks .custSubmitBtn {
+    margin: 0;
+    padding: 9px 20px !important;
+    width: 100%;
+    color: #fff;
+    height: 48px !important;
+    background: #098040;
+    border-radius: 12px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+.custPopupBlocks input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+color: #0E1138;
+}
+
+.custPopupBlocks input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #0E1138;
+}
+
+.custPopupBlocks input::-ms-input-placeholder { /* Microsoft Edge */
+color: #0E1138;
+}
+
+.custPopup .custContent p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-family: "arial", sans-serif;
+    margin: 16px 0;
+}
+
+.custPopup .custContent img {
+}
+
+.custPopup .custContent p a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.custImg {text-align: center;}
+
+.custPopup {
+    border-radius: 0;
+}
+
+.custPopupBlocks .phonenumber, .custPopupBlocks .zipcode {
+    width: calc(50% - 8px);
+}
+
+.custContent form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 767px) {
+
+.custPopupBlocks h2 {
+    line-height: 24px;
+    font-size: 20px;
+    padding: 0 15px;
+}
+  .custOverlay, .custPopup {
+    overflow-y: scroll;
+}
+}
+
+.custContent .form-control {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 44px;
+    margin-bottom: 18px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 0;
+}
+
+.custContent .form-control img {
+    position: absolute;
+    top: 50%;
+    left: 9px;
+    transform: translateY(-50%);
+}
+</style>

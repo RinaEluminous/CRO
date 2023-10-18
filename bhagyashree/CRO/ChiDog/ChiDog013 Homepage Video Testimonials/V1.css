@@ -1,0 +1,347 @@
+<style>
+.custVideoWrapper {
+    display: flex;
+    align-items: center;
+    padding: 45px 80px 80px 80px;
+    height: 100%;
+}
+
+.custLeftVideoSection {
+    width: 50%;
+    position: relative;
+}
+
+.custRightTextSection {
+    width: 50%;
+    padding-left: 80px;
+}
+
+.custArrowImages {
+    position: absolute;
+    top: -33px;
+    left: 50px;
+    display: flex;
+}
+
+.custArrowImages h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #1C314E;
+    font-family: Satoshi;
+}
+
+.custArrowImages img {
+    margin-left: 15px;
+    margin-top: 6px;
+}
+
+.custLeftVideoSection .custArrowImages + img {
+    width: 100%;
+}
+
+.custRightTextSection h3 {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 120%;
+    color: #1C314E;
+    font-family: Tanker;
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.custPatient {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1C314E;
+    margin-bottom: 16px;
+    font-family: Satoshi;
+}
+
+.custPatient span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    font-family: Tanker;
+    color: #1C314E;
+    margin-left: 8px;
+}
+
+.custRightTextSection ul {
+    padding: 0 0 0 10px;
+    list-style: none;
+    margin: 0;
+}
+
+.custRightTextSection ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1C314E;
+    display: flex;
+    align-items: center;
+    font-family: Satoshi;
+}
+
+.custRightTextSection ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #1C314E;
+    display: block;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.custHomepageVideoTestimonials button.slick-prev.slick-arrow {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    z-index: 9;
+    border: 0;
+    font-size: 0;
+    width: 44px;
+    height: 44px;
+    transform: translateY(-50%) rotate(180deg);
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Chidog/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d36548;
+    background-size: 18px 19px;
+}
+
+.custHomepageVideoTestimonials button.slick-next.slick-arrow {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    z-index: 9;
+    border: 0;
+    font-size: 0;
+    width: 44px;
+    height: 44px;
+    transform: translateY(-50%);
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Chidog/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #d36548;
+    background-size: 18px 19px;
+}
+
+.custHomepageVideoTestimonials ul.slick-dots {
+    position: absolute;
+    padding: 0 0;
+    display: flex;
+    margin: 0;
+    bottom: 40px;
+    width: 100%;
+    justify-content: center;
+}
+
+.custHomepageVideoTestimonials ul.slick-dots li {
+    list-style: none;
+    font-size: 0;
+    border: 0;
+    margin: 0 7px;
+    width: 12px;
+    height: 12px;
+    background: #000;
+    border-radius: 13px !important;
+    overflow: hidden;
+    opacity: 0.4;
+}
+
+.custHomepageVideoTestimonials ul.slick-dots li.slick-active {
+    opacity: 1;
+    background: #d36548;
+}
+
+.custHomepageVideoTestimonials ul.slick-dots li * {
+    border: 0;
+}
+
+.custVideoWrapper.custLightBG {
+    background-color: #efe9df;
+    background: #EFE9DF;
+}
+.custVideoWrapper.custDarkBG {
+    background-color: #99996F;
+    /* padding-bottom: 80px; */
+}
+
+.custDarkBG .custArrowImages {
+    left: auto;
+    right: 50px;
+}
+
+.custDarkBG .custArrowImages img {
+    order: 1;
+    position: relative;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.custDarkBG .custArrowImages h5 {
+    order: 2;
+}
+
+.custVideoWrapper.custDarkBG .custRightTextSection * {
+    color: #fff !important;
+}
+
+.custVideoWrapper.custDarkBG .custRightTextSection 
+ li::before {
+    background: #fff;
+}
+
+.custVideoWrapper.custDarkBG .custArrowImages * {
+    color: #fff;
+}
+.custContainerFull .slick-initialized .slick-slide {
+    height: auto;
+}
+
+.custContainerFull  .slick-track {
+    display: flex;
+} 
+.custLeftVideoSection .custPlayBtn img {
+    width: 100%;
+}
+.custVideoPopupBlocks {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background: rgba(0,0,0,.5); 
+    opacity: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+
+.custVideoPopupBlocks.custVideoActive {
+    opacity: 1 !important;
+    z-index: 10000 !important;
+}
+
+.custVideoPopupBlocks iframe {max-width: initial;width: calc(100% - 300px);height: 600px;}
+
+button.custClose {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff !important;
+    cursor: pointer;
+}
+
+button.custClose::after, button.custClose::before {
+    width: 16px;
+    height: 2px;
+    background: #494949;
+    content: "";
+    display: block;
+    transform: rotate(42deg);
+}
+
+button.custClose::before {
+    transform: rotate(-44deg);
+    top: 2px;
+    position: relative;
+}
+.custPlayBtn {
+    cursor: pointer;
+}
+
+.custOverlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+body.custNoScroll {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+    .custArrowImages {
+    display: none;
+}
+}
+@media screen and (max-width: 767px) {
+.custRightTextSection {
+    width: 100%;
+    order: 2;
+    padding: 20px 20px 70px 20px;
+    height: auto;
+}
+
+.custLeftVideoSection {
+    width: 100%;
+}
+
+.custVideoWrapper {
+    flex-wrap: wrap;
+    padding: 0 0;
+    height: 100%;
+}
+
+.custHomepageVideoTestimonials ul.slick-dots {
+    display: flex !important;
+} 
+.custHomepageVideoTestimonials button.slick-next.slick-arrow, 
+.custHomepageVideoTestimonials button.slick-prev.slick-arrow {
+    top: 35%;
+    transform: translateY(-35%);
+}
+    
+.custVideoPopupBlocks iframe {
+    width: 90%;
+    height: 290px;
+}
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+.custRightTextSection {
+    padding-left: 0;
+}
+
+.custVideoWrapper.custLightBG .custRightTextSection {
+    padding-left: 40px;
+}
+    .custVideoWrapper {
+    padding: 40px 40px 70px 40px;
+    align-items: stretch;
+} 
+.custRightTextSection h3 {
+    font-size: 30px;
+} 
+.custLeftVideoSection .custPlayBtn img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.custPlayBtn {
+    height: 100%;
+} 
+}  
+</style>

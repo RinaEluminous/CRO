@@ -1,0 +1,93 @@
+.custSliderBlocksMain {
+    position: relative;
+    padding: 0 15px 0 23px;
+    margin-top: 20px;
+}
+.custReviewsCarousel {
+    background: #F7F7F7;
+    position: relative;
+    padding: 10px 0;
+}
+
+.custTitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+
+.custReviewsCarousel::after {
+    content: "";
+    position: absolute;
+    background: #f7f7f7;
+    width: calc(100% + 48px );
+    left: -24px;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+.custSliderBlocksMain .swiper-slide p span {
+    display: block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: ibm-plex-sans,sans-serif;
+    color: #000 !important;
+    margin-bottom: 8px;
+}
+
+.custSliderBlocksMain .swiper-slide p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.65px;
+    color: #000;
+    width: 100%;
+}
+
+.custSliderBlocksMain .swiper-slide {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.65px;
+}
+
+.custSliderBlocksMain .swiper-button-next, .custSliderBlocksMain .swiper-button-prev {
+    background-color: transparent;
+    box-shadow: none;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/arrow-slider-left.png);
+    margin-top: 0;
+    top: 33.33%;
+    bottom: auto;
+}
+
+.custSliderBlocksMain .swiper-button-next {transform: rotate(180deg);right: -30px;}
+.custSliderBlocksMain .swiper-button-prev {
+    transform: rotate(0deg);
+    right: auto;
+    left: -20px;
+}
+.author cite span img {height: 14px;margin-left: 10px;}
+.offcanvas-body.pt-0.px-4 {
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+.custSliderBlocksMain .custCartReviewSlider .author cite{
+    font-style: normal;
+}

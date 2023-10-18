@@ -1,0 +1,70 @@
+<style>
+.custReviewFeedbackBox {
+    display: flex;
+    background: #F2F6FF;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 30px;
+    height: calc(100% - 30px);
+}
+
+.custReviewFeedbackBox p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 20px;
+}
+
+.custReviewFeedbackBox h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    margin-top: 20px;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 8px;
+}
+
+.custReviewFeedbackBox span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+@media screen and (max-width: 767px) {
+.custReviewFeedbackBox h5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 8px;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 4px;
+}
+.custReviewFeedbackBox p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+     margin-bottom: 8px;
+    line-height: 18px;
+}
+.custReviewFeedbackBox span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+}
+}
+</style>

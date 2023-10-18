@@ -1,0 +1,191 @@
+<style>
+.custCCpopupCartExitBlockv1 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.custCCpopupCartExitBlockv1 .main {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    padding: 32px 50px !important;
+    text-align: center;
+    background-color: #f1eae8;
+    z-index: 2;
+    box-sizing: border-box;
+}
+.custCCpopupCartExitBlockv1 .overlay{
+    background: rgba(54, 54, 54, 0.5);    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.custCCpopupCartExitBlockv1 .main h2 {
+    text-transform: uppercase !important;
+    font-family: "Avenir Next", sans-serif;
+    margin: 0;
+    color: #000;
+    font-size: 24px;
+    letter-spacing: 1.2px;
+}
+
+.custCCpopupCartExitBlockv1 .main p {
+    font-weight: 400;
+    line-height: 19px;
+    font-family: "Avenir Next", sans-serif;
+    margin: 0;
+    color: #000;
+    font-size: 14px;
+}
+
+.custCCpopupCartExitBlockv1 .main .offerMsg {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: "Avenir Next", sans-serif;
+}
+
+.custCCpopupCartExitBlockv1 .main button.redeemBtn {
+    padding: 15px 40px;
+    background: #000000;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.custCCpopupCartExitBlockv1  .offerTiming {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: "Avenir Next", sans-serif;
+    gap: 0 5px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.custCCpopupCartExitBlockv1 .offerTiming .timer {
+    color: #EE6C4D;
+}
+.custCCpopupCartExitBlockv1 button.Search__Close {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    color: #000;
+    z-index: 9;
+} 
+.custom-checkout .custCCpopupCartExitBlockv1  button.redeemBtn{
+}
+.custom-checkout .custCCpopupCartExitBlockv1 button.Search__Close svg{
+    stroke-width: 1.25px;
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    fill: currentColor;
+    vertical-align: middle;
+    background: none;
+    pointer-events: none;
+}
+@media(max-width: 575px){
+    .custCCpopupCartExitBlockv1 .main .offerMsg{
+        font-size: 36px;
+        line-height: 48px;
+    }
+}
+
+.custSectionBlock {
+    display: flex;
+    background: #fff;
+    z-index: 9;
+    max-width: 753px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.custLeftPopupContent {
+    width: 50%;
+    padding: 21px;
+    box-sizing: border-box;
+}
+
+.custRightPopupContent {
+    width: 50%;
+    position: relative;
+    background: #f1eae8;
+    display: flex;
+    align-items: center;
+}
+
+.custLeftPopupContent h4 {
+    font-size: 14px;
+    font-family: "Twentieth Century", sans-serif;
+    letter-spacing: 2.24px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.custCheckoutContant {
+    /* background: red; */
+    /* height: 50px; */
+    margin-bottom: 22px;
+}
+
+.custLeftPopupContent ul li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 8px;
+}
+
+.custLeftPopupContent ul li:first-child h6 {
+    color: #E65A4C;
+    font-size: 12px;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    font-family: "Twentieth Century", sans-serif;
+}
+
+.custLeftPopupContent ul li:first-child h6 span {
+    color: #E65A4C;
+    font-size: 12px;
+    letter-spacing: 1.92px;
+    text-transform: uppercase;
+    font-family: "Twentieth Century", sans-serif;
+}
+
+.custLeftPopupContent ul li:last-child h6, .custLeftPopupContent ul li:last-child h6 span {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-family: "Twentieth Century", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+}
+
+.custLeftPopupContent ul li h6 span {
+    margin-left: 15px;
+}
+</style>

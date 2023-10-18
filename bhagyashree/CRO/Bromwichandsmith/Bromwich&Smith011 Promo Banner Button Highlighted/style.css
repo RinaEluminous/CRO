@@ -1,0 +1,59 @@
+.jumbotron.generic_header.top-header-strip-wrapper{
+    display: none;
+}
+
+.custSitewideConsultBannerV1 {
+    background: url(https://www.bromwichandsmith.com/themes/custom/thsbootstrap/assets/images/layout/generic_plus_left_3.png) 0% 50% no-repeat;
+    background-color: #26d07c;
+    color: #fff;
+    line-height: 24px;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    padding: 8px 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman" !important;
+}
+
+.custSitewideConsultBannerV1 a {
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 8px 16px;
+    background: #7C26D0;
+    border-radius: 4px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman" !important;
+}
+
+.custSitewideConsultBannerV1 a:after {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width: 1167px){
+    .custSitewideConsultBannerV1 {        
+        background-image: none;
+    }
+}
+
+@media(max-width: 767px){
+    .custSitewideConsultBannerV1 {
+        line-height: 20px;
+        text-align: left;
+        font-size: 18px;
+    }
+}

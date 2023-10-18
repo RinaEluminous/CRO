@@ -1,0 +1,86 @@
+<style type="text/css">
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px 40px 40px 40px;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  max-width: 640px;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+.custPopupBlocks h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 34px;
+    margin-top: 30px;
+}
+
+.custPopupBlocks input {
+    margin-bottom: 13px;
+}
+
+.custPopupBlocks .btn {
+    margin: 0;
+    background: #198754;
+    padding: 9px 20px !important;
+    height: auto !important;
+    width: 100%;
+    color: #fff;
+    max-width: 230px;
+}
+</style>
+<div id="popup1" class="overlay custPopupBlocks">
+    <div class="popup">
+        <h2>Here i am</h2>
+        <a class="close" href="#">×</a>
+        <div class="content">
+            <form data-hs-cf-bound="true">
+          <input type="text" name="username" class="username form-control" placeholder="Username">
+          <input type="password" name="password" class="password form-control" placeholder="password">
+          <input class="btn login" type="submit" value="Login">
+    </form>
+        </div>
+    </div>
+</div>

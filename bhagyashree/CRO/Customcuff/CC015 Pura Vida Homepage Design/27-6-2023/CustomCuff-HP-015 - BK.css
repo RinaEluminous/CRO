@@ -1,0 +1,1189 @@
+    @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+    .jdgm-carousel-wrapper .jdgm-all-reviews-rating-wrapper,
+    .custCustomCuffWrapper,
+    .custCustomCuffWrapperControl{
+        display: none;
+    }   
+    .custPuraVidaCustomCuffBanner {
+        margin-top: 35px;
+        padding: 194px 72px;
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/custom-meaningful-jewelry-banner.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+    .custPuraVidaCustomCuffWrapper .container {
+        padding: 0 57px;
+    }
+    .custPuraVidaCustomCuffBanner .container {
+        padding: 0;
+    }
+    header#section-header {box-shadow: none;}
+    .custPuraVidaCustomCuffBanner .custPuraVidaImgFirst {position: relative;}
+    body .custPuraVidaCustomCuffBanner .custPuraVidaCustmerReview {
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        bottom: 24px;
+        width: 100% !important;
+        height: auto !important;
+        max-width: 314px;
+        left: 24px;
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(2.5px);
+    } 
+
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText {
+        margin-right: 0;
+        max-width: 370px;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    } 
+    body .custPuraVidaCustomCuffBanner .custPuraVidaCustmerReview span img {
+        width: auto;
+        height: auto;
+    }
+    body .custPuraVidaCustomCuffBanner .custPuraVidaCustmerReview p {font-family: "Avenir Next", sans-serif !important;font-weight: 300;font-size: 16px;line-height: 24px;}
+    body .custPuraVidaCustomCuffBanner .custPuraVidaCustmerReview span.jdgm-prev-badge__stars {
+        margin-bottom: 8px;
+        display: block;
+    }
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText h1 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 46px;
+        font-family: "Mogena" !important;
+        margin-bottom: 8px;
+        color: #fff;
+    }
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText p {
+        font-family: "Avenir Next", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 24px;
+        color: #ffffff;
+    }
+    a.custPuraVidaShopNowButton {
+        padding: 12px 40px;
+        background: #ffffff;
+        color: #000000;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        font-family: "Avenir Next", sans-serif;
+    }
+    .custPuraVidaListingInformation {
+        padding: 24px 127px 24px 126px;
+        background: #EEE5DC;
+        max-width: 100%;
+        width: calc(100% - 144px);
+        margin: 32px auto 0 auto;
+    }
+    .custPuraVidaListingInformation li span {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24px;
+        display: block;
+        color: #000000;
+        margin-top: 8px;
+    }
+    .custPuraVidaListingInformation ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .custPuraVidaListingInformation .container {padding: 0;}
+    .custPuraVidaListingInformation li img {width: 40px;}
+    .custPuraVidaFrameBoxWrapper img {width: 100%;object-fit: cover;}
+    .custPuraVidaShopCategory h2 {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        font-family: "Mogena" !important;
+        margin-bottom: 32px;
+    }
+    .custPuraVidaShopCategory {
+        padding-top: 32px;
+        padding-bottom: 70px;
+    }
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper {
+    padding: 0 16px;
+        position: relative;
+        height: auto;
+        width: 100%;
+    }
+
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper a {
+        display: block;
+        position: relative;
+        z-index: 1;
+        text-align: left;
+    }
+
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper a img {
+        width: 100%; 
+    }
+    .custPuraVidaShopTextLink {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 0 24px;
+    }
+    .custPuraVidaShopTextLink div{
+        display: block;
+        width: 100%;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;    
+        margin-bottom: 32px;
+    }
+    .custPuraVidaShopTextLink div::after {
+        content: "";
+        width: 92px;
+        position: absolute;
+        background: #fff;
+        height: 1px;
+        left: 24px;
+        bottom: 30px;
+    }
+    .custPuraVidaPopulerCategory {margin: 0 -16px;height: auto;}
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper h5 { 
+    text-align: left;
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #fff;
+        margin-bottom: 24px; 
+    }
+    .custPuraVidaShopCategory .slick-slide {height: auto;} 
+
+    .custPuraVidaBestSellersWrapper {
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-bottom: 96px;
+    }
+
+    .custPuraVidaBestProductsBlocks {
+        padding: 0 12px;
+        text-align: center;
+    }
+    .custPuraVidaReviewRating {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12px;
+        font-family: "Avenir", sans-serif !important;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .custPuraVidaReviewRating img {
+        margin-right: 8px;
+        height: 16px;
+    }
+    .custPuraVidaBestProductsBlocks h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        margin: 5px 0;
+        font-family: "Avenir", sans-serif !important;
+        color: #000;
+    }
+    .custPuraVidaPriceTag {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        font-family: "Avenir", sans-serif !important;
+            color: #000;
+    }
+    a.custPuraVidaShopNowButtonOutline {
+        margin: 0;
+        display: block;
+        max-width: none;
+        padding: 10px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        background: transparent;
+        border: 0;
+        margin-top: 32px;
+        width: 173px;
+        font-family: "Avenir", sans-serif !important;
+        box-shadow: 0 0 0 1.5px #000;
+    }
+    .custPuraVidaCustomCuffWrapper .slick-slide {height: auto !important;}
+    .custPuraVidaBestSellersWrapper a.custPuraVidaShopNowButtonOutline {
+        right: 40px;
+        position: relative;
+    }
+    button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+        position: absolute;
+        background: #000;
+        top: -70px;
+        right: 80px;
+        width: 32px;
+        height: 32px;
+        font-size: 0;
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    button.slick-prev.slick-arrow {right: 130px !important;border: 1px solid #000;background: transparent;/* filter: invert(1); */}
+    .custPuraVidaBestSellersWrapper h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+        font-family: "Mogena" !important;
+    }
+    .custPuraVidaBestSellersWrapper button.slick-prev.slick-arrow {
+        right: auto;
+        left: -5px;
+        top: calc(50% - 50px);
+        z-index: 9;
+        background: #fff;
+    }
+
+    .custPuraVidaBestSellersWrapper button.slick-next.slick-arrow {
+        top: calc(50% - 50px);
+        z-index: 9;
+        right:0;
+    }
+    .custPuraVidaVideoWrapper {
+        padding: 0 0 150% 0;
+        position: relative;
+        min-height: 548px;
+    }
+    .custPuraVidaVideoWrapper video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        object-fit: cover;
+        object-position: top;
+        left: 0;
+        pointer-events: none;
+    }
+    .custPuraVidaVideoProducts .slick-slide.slick-current.slick-active video {
+        pointer-events: all;
+    }
+    .custPuraVidaVideoProducts .slick-slide.slick-current.slick-active{
+        transform: scale(1);
+        opacity: 1;
+    } 
+
+    .custPuraVidaVideoProducts .slick-slide {
+        opacity: 0.4;
+        transform: scale(0.9);
+        transition: all 0.5s;
+    }
+
+    .custPuraVidaVideoProducts .slick-list .slick-track {padding: 0 0 115px 0;}
+    .custPuraVidaVideoProducts button.slick-prev.slick-arrow {
+        left: 36.9%;
+        right: auto;
+        transform: translate(-36.9%, -50%);
+        top: 50%;
+        z-index: 99;
+        background: #000;
+    }
+    .custPuraVidaVideoProducts .slick-list {margin: 0 -100px;}
+    .custPuraVidaVideoProducts button.slick-next.slick-arrow {
+        right: 35.5%;
+        transform: translate(-35.5%, -50%);
+        top: 50%;
+        z-index: 9;
+    }
+    .custPuraVidaVideoProducts {overflow: hidden;}
+    .custPuraVidaVideoWrapper a {
+        width: calc(100% - 30px);
+        background: #46ad77;
+        color: #fff;
+        position: absolute;
+        bottom: 80px;
+        left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 600;
+        min-height: 36px;
+        line-height: 22px;
+        padding: 7px 22px;
+    }
+    .custPuraVidaWhatPeopleSay {
+        padding-left: 0;
+        padding-bottom: 96px;
+        padding-top: 80px;
+    }
+    .custPuraVidaWhatPeopleSay h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+        font-family: "Mogena" !important;
+        padding-left: 80px;
+    }
+    .custPuraVidaImageBlocks img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        object-position: center;
+    }
+    .custPuraVidaImageBlocks {
+        height: 238px;
+        margin-bottom: 12px;
+        overflow: hidden;
+        max-height: 238px;
+    }
+    .custPuraVidaFeedbackWrapper h5 {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        color: #000000;
+        margin-bottom: 12px;
+        font-family: "Avenir", sans-serif !important;
+    }
+    .custPuraVidaFeedbackWrapper p {
+        font-family: 'Kalam', cursive;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px; 
+        letter-spacing: 0.02em;
+        margin-bottom: 12px;
+    }
+    .custPuraVidaFeedbackWrapper p + span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #000000;
+        font-family: 'Kalam', cursive;
+    }
+    .custPuraVidaFeedbackWrapper {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+        padding: 12px;
+        width: calc(100% - 40px);
+        margin-bottom: 28px;
+        margin-top: 15px;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid #000;
+    }
+    .custPuraVidaImageBlocks + img {height: 16px;margin-bottom: 12px;}
+    .custPuraVidaCustmerFeedbackSlider .slick-slide:nth-child(odd) .custPuraVidaFeedbackWrapper {transform: rotate(2deg);}
+    .custPuraVidaCustmerFeedbackSlider .slick-slide:nth-child(even) .custPuraVidaFeedbackWrapper {transform: rotate(-2deg);}
+    .custPuraVidaCustmerFeedbackSlider {height: 460px;}
+    .custPuraVidaCreatePerfectGift h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+        font-family: "Mogena" !important;
+        margin-bottom: 70px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .custPuraVidaCreatePerfectGift {
+        display: flex;
+        justify-content: space-between;
+        background: #EEE5DC;
+        flex-wrap: wrap;
+    }
+    .custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting, .custPuraVidaCreatePerfectGift .custPuraVidaRightLiting {width: 50%;}
+
+    .custPuraVidaCreatePerfectGift .custPuraVidaRightLiting img {
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        object-position: center;
+    }
+    .custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting {
+    padding: 32px 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .custPuraVidaCreatePerfectGift ul {
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .custPuraVidaCreatePerfectGift ul li {
+    display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: calc(33.33% - 24px);
+    }
+    .custPuraVidaCreatePerfectGift ul li div h6 {
+        margin: 0 0 1px 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        font-family: "Mogena" !important;
+    }
+    .custPuraVidaCreatePerfectGift ul li div p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .custPuraVidaCreatePerfectGift ul li div {
+        margin-left: 0;
+        margin-top: 16px;
+        width: 100%;
+        max-width: 384px;
+    }
+    .custPuraVidaCreatePerfectGift ul li img {
+        height: auto;
+        width: 60px;
+    }
+    .custPuraVidaCreatePerfectGift ul li:last-child {margin-bottom: 0;}
+    .custPuraVidaShopCollection {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .custPuraVidaFollowCustomcuff img {
+        width: calc(100% - 24px);
+        margin: 0 12px;
+    }
+    .custPuraVidaCustomcuffInstaWrapper h2 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 42px;
+        color: #000000;
+        font-family: "Mogena" !important;
+        padding-left: 80px;
+        margin-bottom: 42px;
+    }
+    .custPuraVidaCustomcuffInstaWrapper {
+    padding: 40px 0 30px 0;
+        background: #fff;
+    } 
+    .custPuraVidaCustomcuffInstaWrapper ul.slick-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    .custPuraVidaCustomcuffInstaWrapper ul.slick-dots li {
+        width: 40px;
+        height: 6px;
+        font-size: 0;
+        border: 1px solid #000000;
+        border-radius: 3px;
+        margin: 0 6px;
+    }
+    .custPuraVidaCustomcuffInstaWrapper ul.slick-dots li.slick-active {
+        background: #000;
+    }
+    .custPuraVidaCustmerReview img {
+        width: auto !important;
+        height: 20px !important;
+        margin-bottom: 8px;
+    }
+    .custTabsView {margin-left: -12px;}  
+    button.slick-prev.slick-arrow::after {
+        content: "";
+        filter: invert(1);
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        width: 8px;
+        height: 13px;
+        top: 8px;
+        transform: rotate(-180deg);
+        left: 10px;
+    }
+    div#shopify-section-template--15202046345277__16590118189e457e91, div#shopify-section-template--15202046345277__1659012090daf28c88, .custPuraVidaom-iconList-section, div#shopify-section-template--15202046345277__slideshow, .concept-carousel-wrapper, div#shopify-section-template--15202046345277__featured-collections, div#shopify-section-template--15202046345277__119411b8-7127-4f78-a253-ec93f8497e5d, div#shopify-section-template--15202046345277__1659001483d054ce5b, div#shopify-section-template--15202046345277__1659005602a1b9af09, div#shopify-section-template--15202046345277__16590079117889e0c1, div#shopify-section-template--15202046345277__1659011140f47f4915 {
+        display: none;
+    }
+    .custPuraVidaVideoProducts button.slick-prev.slick-arrow::after {
+        filter: invert(0);
+    }
+    .custPuraVidaVideoProducts .custPuraVidaSliderNavArrow {
+        width: 318px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 99;
+        pointer-events:none;
+    }
+
+    .jdgm-carousel__item-wrapper {
+        height: 290px !important;
+    }
+    .jdgm-carousel-wrapper {padding-top: 0 !important;}
+
+    .custPuraVidaShopCategory + .custPuraVidaBestSellersWrapper {
+        padding-bottom: 64px;
+        position: relative;
+        padding-left: 0;
+        width: calc(100% - 144px);
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .jdgm-carousel--card-theme .jdgm-carousel-item__product {
+        height: auto;
+    }
+
+    /*review*/
+    .jdgm-carousel-item__review-title {
+        font-size: 16px;
+    }
+
+    .jdgm-carousel-item__review-body>p {
+        font-size: 15px;
+    }
+
+    .jdgm-carousel--card-theme .jdgm-carousel-item__reviewer-name {
+        font-size: 16px;
+    }
+
+    .jdgm-carousel-item__product-title {
+        font-size: 15px !important;
+        margin: 3px 0 4px 0;
+    }
+
+    h2.jdgm-carousel-title {
+        font-size: 18px !important;
+    }
+    span.jdgm-carousel-number-of-reviews {font-size: 16px;}
+    .jdgm-carousel-item__timestamp {font-size: 14px;}
+    .jdgm-carousel--card-theme .jdgm-carousel-item__reviewer-name-wrapper {display: inline-block;}
+    .jdgm-carousel--card-theme .jdgm-carousel-item__review {
+        height: calc(100% - 5em) 
+    }
+    .custPuraVidaInstaTopButtonWrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .custPuraVidaInstaTopButtonWrapper a.custPuraVidaShopNowButtonOutline {
+        right: 0;
+        margin-top: 0;
+        margin-right: 0;
+        box-shadow: 0 0 0 1.5px #000;
+        border: 0;
+        width: auto;
+    }
+
+    .custPuraVidaInstaTopButtonWrapper h2 {
+        margin-bottom: 0;
+    }
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift h2 {
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift {
+        width: calc(100% - 144px);
+        margin: 0 auto;
+    }
+
+    .custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting p {
+        color: #000;
+        font-size: 18px;
+        line-height: 26px;
+        font-family: "Avenir", sans-serif !important;
+            max-width: 584px;
+    }
+
+
+    .custPuraVidaCreatePerfectGift.custListingIcon {
+        display: block;
+        width: calc(100% - 144px);
+        margin: 0 auto;
+    }
+
+    .custPuraVidaCreatePerfectGift.custListingIcon .custPuraVidaLeftLiting {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .custPuraVidaCreatePerfectGift.custListingIcon h2 {
+        margin-bottom: 40px;
+    }
+    /*tabs*/
+    .custPuraVidaBestSellersWrapper #custContentOne, 
+    .custPuraVidaBestSellersWrapper #custContentTwo, 
+    .custPuraVidaBestSellersWrapper #custContentThree{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+        
+    }
+    .custPuraVidaBestSellersWrapper label {
+        background: #FFF;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        font-family: "Avenir Next", sans-serif;
+        padding-bottom: 5px;
+        display: inline-block;
+        margin-right: 32px;
+            cursor: pointer;
+    }
+    .custPuraVidaBestSellersWrapper input {
+        display: none;
+    }
+    .custPuraVidaBestSellersWrapper input:checked + label {
+        color: #000;
+        background: transparent;
+        border: none;
+        opacity: 1;
+        position: relative;
+    }
+    .custPuraVidaBestSellersWrapper input:checked + label::after {
+        content: "";
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #000;
+    }
+    .custPuraVidaBestSellersWrapper #custTab1:checked ~ #custContentOne,
+    .custPuraVidaBestSellersWrapper #custTab2:checked ~ #custContentTwo,
+    .custPuraVidaBestSellersWrapper #custTab3:checked ~ #custContentThree{
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+        margin-top: 32px;
+    }
+    div#shopify-section-template--15202046345277__1658999694507a8cc1 {
+        display: none;
+    }
+
+    .custPuraVidaInstaCustomcuff {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    .custPuraVidaInstaCustomcuff div img {
+        width: 100%;
+        margin: -1px;
+    }
+
+    .custPuraVidaCustomcuffInstaWrapper .custPuraVidaInstaTopButtonWrapper {
+        display: block;
+        position: relative;
+        margin-bottom: 46px;
+    }
+
+    .custPuraVidaCustomcuffInstaWrapper .custPuraVidaInstaTopButtonWrapper a {
+        position: absolute;
+        right: 72px;
+        top: 0;
+        margin: 0;
+        display: block;
+        max-width: none;
+        padding: 10px 40px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000;
+        background: transparent;
+        border: 0;
+        margin-top: 0;
+        font-family: "Avenir", sans-serif !important;
+        box-shadow: 0 0 0 1.5px #000;
+    }
+    /*tabs*/
+    .custPuraVidaListingInformation + .custPuraVidaShopCategory .container {
+        padding: 0 72px;
+    }
+    .custPuraVidaBestProductsBlocks a {
+        overflow: hidden;
+        display: block;
+            position: relative;
+    }
+    a.custPuraVidaShopNowButtonOutline.custMobileButton, .custMobileBanner {display: none;} 
+.custPuraVidaBestSellersWrapper #custContentOne .custMobileButton, 
+.custPuraVidaBestSellersWrapper #custContentTwo .custMobileButton, 
+.custPuraVidaBestSellersWrapper #custContentThree .custMobileButton {
+    display: block;
+    position: absolute;
+    top: -32px;
+    width: auto;
+    right: 0;
+    background-color: #fff;
+}
+.custPuraVidaBestProductsBlocks a img:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.custPuraVidaBestProductsBlocks a:hover img:last-child {
+    z-index: 1;
+}
+.custPuraVidaInstaTopButtonWrapper a.custPuraVidaShopNowButtonOutline{display: none;}
+@media screen and (min-width: 768px) {
+    .custPuraVidaBestSellersWrapper .slick-list {
+        padding: 0 !important;
+    }
+    }
+    @media screen and (max-width: 1199px) {
+    .custPuraVidaListingInformation ul li {
+        flex: 0 0 auto;
+        max-width: 20%;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .custPuraVidaListingInformation ul {
+        justify-content: center;
+    }
+
+    .custPuraVidaListingInformation {
+        padding-left: 20px;
+        padding-right: 20px;
+    } 
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText {
+        max-width: 100%;
+        padding: 0 30px !important;
+    }
+
+    .custPuraVidaCustomCuffBanner .row {
+        flex-wrap: wrap;
+    }   
+
+    .custPuraVidaVideoProducts .slick-list .slick-track {
+        padding: 0 0 64px 0;
+    }
+
+    .custPuraVidaCreatePerfectGift h2 {
+        margin-bottom: 24px;
+    }
+
+    .custPuraVidaCreatePerfectGift ul li {
+        margin-bottom: 32px;
+    }
+
+    }
+    @media screen and (max-width: 767px) {
+    .custPuraVidaCustomCuffBanner .container {
+        padding: 0 15px;
+    }
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText {
+        padding: 0 0 !important;
+        text-align: center;
+        margin-top: 24px;
+    }
+
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText h1 {
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    a.custPuraVidaShopNowButton {
+        margin: 0 auto;
+    }
+
+    .custPuraVidaCustomCuffBanner div.custPuraVidaLastText p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    body .custPuraVidaCustomCuffBanner .custPuraVidaCustmerReview {
+        max-width: calc(100% - 24px);
+        left: 12px;
+        bottom: 12px;
+    }
+
+    .custPuraVidaListingInformation ul li {
+        max-width: 28.33%;
+        flex: 0 0 auto;
+    }
+
+    .custPuraVidaListingInformation ul {
+        overflow: scroll;
+        justify-content: flex-start;
+    }
+
+    html body #main .custPuraVidaCustomCuffWrapper h2 {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    .custPuraVidaShopCategory button.slick-prev.slick-arrow {
+        right: auto !important;
+        left: 20px;
+    }
+
+    .custPuraVidaShopCategory button.slick-next.slick-arrow, .custPuraVidaShopCategory button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+    .custPuraVidaBestSellersWrapper button.slick-next.slick-arrow, .custPuraVidaBestSellersWrapper button.slick-prev.slick-arrow, .custPuraVidaWhatPeopleSay button.slick-next.slick-arrow {
+        right: 20px;
+    }
+
+    .custPuraVidaBestSellersWrapper button.slick-prev.slick-arrow, .custPuraVidaWhatPeopleSay button.slick-prev.slick-arrow {
+        right: 80px !important;
+    }
+
+    .custPuraVidaShopCategory {
+        padding: 40px 15px;
+    }
+
+    .custPuraVidaListingInformation li span {
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    .custPuraVidaShopCategory .container {
+        padding: 0 20px;
+    }
+
+    .custPuraVidaBestSellersWrapper {
+        padding-left: 15px;
+        padding-bottom: 20px;
+        padding-right: 15px;
+    }
+
+    .custPuraVidaBestSellersProducts {
+        padding-left: 26px;
+        width: 100%;
+    }
+
+    .custPuraVidaBestSellersWrapper a.custPuraVidaShopNowButtonOutline {
+        right: 10px;
+        margin-top: 24px;
+    }
+
+    .custPuraVidaWhatPeopleSay button.slick-next.slick-arrow, .custPuraVidaWhatPeopleSay button.slick-prev.slick-arrow {
+        top: -50px;
+    }
+
+    .custPuraVidaWhatPeopleSay h2 {
+        padding-left: 20px;
+    }
+
+    .custPuraVidaWhatPeopleSay {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    } 
+    .custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting, .custPuraVidaCreatePerfectGift .custPuraVidaRightLiting {
+        width: 100%;
+    }
+
+    .custPuraVidaCreatePerfectGift {
+        flex-wrap: wrap;
+    }
+
+    .custPuraVidaCreatePerfectGift h2 {
+        margin-left: 0;
+    }
+
+    .custPuraVidaCreatePerfectGift ul {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting {
+        padding: 40px 20px;
+    }
+
+    .custPuraVidaCreatePerfectGift ul li div h6 {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+
+    .custPuraVidaCreatePerfectGift ul li div p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .custPuraVidaCreatePerfectGift ul li div {
+        margin-left: 16px;
+    }
+.custPuraVidaCreatePerfectGift .custPuraVidaLeftLiting p {
+    font-size: 16px;
+    line-height: 24px;
+}
+    .custPuraVidaReviewRating {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .custPuraVidaBestProductsBlocks h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .custPuraVidaPriceTag {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .custPuraVidaCustomcuffInstaWrapper h2 {
+        padding-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .custPuraVidaCustomcuffInstaWrapper button.slick-prev.slick-arrow, .custPuraVidaCustomcuffInstaWrapper button.slick-next.slick-arrow {
+        display: none !important;
+    }
+
+    .custPuraVidaCustomcuffInstaWrapper {
+        padding: 32px 0;
+            position: relative;
+    }
+        .custPuraVidaCustomCuffBanner {
+    padding: 0;
+    background-image: none;
+    position: relative;
+    } 
+.custPuraVidaCustomcuffInstaWrapper .custPuraVidaInstaTopButtonWrapper {
+    position: static;
+}
+.custPuraVidaInstaTopButtonWrapper a.custPuraVidaShopNowButtonOutline {
+    display: none;
+}
+
+.custPuraVidaInstaTopButtonWrapper h2 {
+    margin-bottom: 0 !important;
+}
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper h5 { 
+        font-style: normal;
+        font-weight: 400;
+        color: #FFF;
+        text-align: center;
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .custPuraVidaBestSellersWrapper button.slick-next.slick-arrow, .custPuraVidaBestSellersWrapper button.slick-prev.slick-arrow {
+        top: -57px;
+    }
+    .custPuraVidaShopTextLink div::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .custPuraVidaFollowCustomcuff img {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+    }
+    .custPuraVidaListingInformation ul li {
+        max-width: 40%;
+        padding: 0 15px;
+    }
+    .custPuraVidaListingInformation {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+    .custPuraVidaVideoProducts button.slick-prev.slick-arrow, .custPuraVidaVideoProducts button.slick-next.slick-arrow {
+        left: 16.9%;
+        transform: none;
+    }
+    .custPuraVidaVideoProducts button.slick-next.slick-arrow {
+        left: auto;
+        right: 16.9%;
+    }
+    .custPuraVidaBestProductsBlocks a img {
+        width: 100%;
+    }
+    .custPuraVidaListingInformation + .custPuraVidaShopCategory .container {
+        padding: 0 15px;
+    }
+    .custPuraVidaBestSellersWrapper button.slick-prev.slick-arrow, .custPuraVidaBestSellersWrapper button.slick-next.slick-arrow {
+        display: none !important;
+    }
+    ul.slick-dots {
+        display: flex;
+        justify-content: center;
+        font-size: 0;
+        margin-top: 20px;
+    }
+
+    ul.slick-dots li {
+        width: 6px;
+        height: 6px;
+        margin: 0 6px;
+        border-radius: 50px;
+        background: #D0D0D0;
+    }
+
+    ul.slick-dots li.slick-active {
+        background: #000;
+    }
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift div:first-child {
+        order: 1;
+    }
+
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift div:nth-child(2) {
+        order: 2;
+    }
+
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift div:nth-child(3) {
+        order: 4;
+    }
+
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift div:nth-child(4) {
+        order: 3;
+    }
+
+    .custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift {
+        width: 100%;
+    }
+    .custPuraVidaShopCategory .custPuraVidaFrameBoxWrapper {
+        padding: 0;
+    }
+
+    .custPuraVidaShopTextLink div {
+        text-align: center;
+    }
+    .custPuraVidaCreatePerfectGift.custListingIcon {
+        width: 100%;
+    }
+
+    .custPuraVidaCreatePerfectGift ul li {
+        width: 100%;
+        text-align: left;
+        margin-bottom: 0;
+            flex-wrap: nowrap;
+    }
+    .custPuraVidaCreatePerfectGift.custListingIcon .custPuraVidaLeftLiting {
+        margin-bottom: 30px;
+    }
+    .custPuraVidaInstaCustomcuff {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .custPuraVidaCustomcuffInstaWrapper .custPuraVidaInstaTopButtonWrapper a {
+        top: 50%;
+        transform: translate(-50%, -50%);
+        right: auto;
+        left: 50%;
+        background: #fff;
+        box-shadow: none !important;
+    }
+    a.custPuraVidaShopNowButtonOutline.custMobileButton {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        right: 0;
+    }
+
+.custMobileBanner {
+    display: block;
+}
+
+.custMobileBanner + .container {
+    position: absolute;
+    bottom: 40px;
+}
+.custPuraVidaWhatPeopleSay + .custPuraVidaShopCategory {
+    padding-left: 0;
+    padding-right: 0;
+}
+.custSliderNavArrow {
+    display: none;
+}
+.custPuraVidaVideoProducts ul.slick-dots {
+    position: relative;
+    bottom: 60px;
+}
+
+.custPuraVidaShopCategory + .custPuraVidaBestSellersWrapper {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.custPuraVidaBestSellersWrapper label {
+    padding-right: 0;
+    margin-right: 15px;
+}
+
+.custPuraVidaBestSellersWrapper #custContentOne .custMobileButton, .custPuraVidaBestSellersWrapper #custContentTwo .custMobileButton, .custPuraVidaBestSellersWrapper #custContentThree .custMobileButton {
+    position: static;
+    order: 2;
+}
+.custTabsView {order: 1;     width: 100%;}
+.custPuraVidaBestSellersWrapper #custContentOne, .custPuraVidaBestSellersWrapper #custContentTwo, .custPuraVidaBestSellersWrapper #custContentThree {
+    display: flex;
+    flex-wrap: wrap;
+}
+    }
+
+    @media screen and (max-width: 640px) {
+    .custPuraVidaCustmerFeedbackSlider {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .custPuraVidaListingInformation li span{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    }
+@media only screen and (min-width: 768px) and (max-width: 1199px)  {
+.custPuraVidaShopCategory + .custPuraVidaBestSellersWrapper, 
+.custPuraVidaVideoProducts + .custPuraVidaCreatePerfectGift, 
+.custPuraVidaCreatePerfectGift.custListingIcon, .custPuraVidaListingInformation {
+        width: calc(100% - 50px);
+    }
+    ul.slick-dots {
+        display: none !important;
+    }
+    .custPuraVidaCustomCuffWrapper .container, .custPuraVidaListingInformation + .custPuraVidaShopCategory .container {
+        padding: 0 15px;
+    }
+  
+}

@@ -1,0 +1,9 @@
+#sidebar-cart .cart-drawer-upsell-section .drawer-upsell-item:not([data-product-id="39412261781565"]):not([data-product-id="39419602599997"]):not([data-product-id="39383520575549"]),
+#sidebar-cart .cart__cross-sell-item.cart__cross-sell-item-second {
+  display : none;
+}
+@media screen and (max-width: 800px) {
+  .drawer-upsell-atc-wrapper {
+    width : 70px;
+  }
+}

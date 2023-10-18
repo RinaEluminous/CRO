@@ -1,0 +1,680 @@
+<style>
+.custCompetitorStickyBanner {
+    position: fixed;
+    left: 50%;
+    z-index: 99;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 900px;
+    transform: translateX(-50%);
+    gap: 16px;
+    top: auto;
+    bottom: 10px;
+    width: 100%;
+}
+
+.custCompetitorStickyBanner .closeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.custCompetitorStickyBanner .copy {
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.custCompetitorStickyBanner .custBtn {
+    background: #C8242E;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 30px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.custCompetitorStickyBanner .custBtn:hover {
+    background-color: #b91118;
+}
+
+
+.section.footer-section .container.no-padding-bottom {
+    display: none;
+}
+
+.section.sub-page.wf-section+.section.footer-section .container.footer {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 0;
+}
+
+.section.sub-page.wf-section .container .comparison-scroll,
+.section.sub-page.wf-section .container .faq-heading {
+    display: none;
+}
+
+.custComparisonWraper {
+    text-align: center;
+    padding: 40px 0 0;
+}
+
+.custComparisonWraper .custTrialLink {
+    margin: auto;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    height: auto;
+    padding: 15px 30px;
+}
+
+.custComparisonWraper h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 56px;
+    margin: 0 0 15px;
+    letter-spacing: normal;
+    font-family: Roboto, sans-serif;
+}
+
+.custComparisonWraper h6.subHeading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 auto 15px;
+    letter-spacing: normal;
+    font-family: Roboto, sans-serif;
+    opacity: 0.9;
+    max-width: 584px;
+    color: #000;
+}
+
+.custComparisonWraper .custComparisonScrollBox {
+    background: #FFFFFF;
+    box-shadow: 1px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    display: block;
+    padding: 25px;
+    margin: 40px 0 80px;
+}
+
+.custComparisonScrollBox .custRow {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0 25px;
+    border-top: 1px solid rgb(0 0 0 / 10%);
+}
+
+.custComparisonScrollBox .custRow .custCol.mz~.custCol {
+    flex: 0 0 160px;
+}
+
+.custComparisonScrollBox .custRow .custCol.mz {
+    flex: 0 0 220px;
+    background: #F7F7F7;
+    flex-direction: column;
+    position: relative;
+}
+.custComparisonScrollBox .custRow .custCol.mz:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #f7f7f7;
+}
+
+.custComparisonScrollBox .custRow .custCol.empty {
+    flex: 1 0 0;
+}
+
+.custComparisonScrollBox .custRow .custCol.title {
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.custComparisonScrollBox .custRow .custCol.title p {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    color: #000;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 8px 0;
+}
+
+.custComparisonScrollBox .custRow:first-child {
+    border: 0;
+}
+
+.custComparisonScrollBox .custRow .custCol {
+    min-height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custComparisonScrollBox .custRow:first-child .custCol.mz {
+    border-radius: 12px 12px 0 0;
+}
+
+.custComparisonScrollBox .custRow:last-child .custCol.mz {
+    border-radius: 0 0 12px 12px;
+}
+
+.custComparisonScrollBox .custRow .custCol.mz p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    color: #000;
+    letter-spacing: normal;
+    margin: 5px 0;
+    padding: 0 15px;
+}
+
+.custComparisonScrollBox .custRow .custCol.mz .custTrialLink {
+    padding: 17px 15px;
+    width: 100%;
+    border-radius: 0 0 12px 12px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    height: auto;
+}
+
+.custComparisonScrollBox .custRow .custCol.mz~.custCol p {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    max-width: 128px;
+    letter-spacing: normal;
+    color: #000;
+}
+
+
+.custComparisonCarousel {
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    border-bottom: 0px solid #ffff;
+    padding: 40px 0;
+    flex-direction: column;
+    background: none;
+}
+
+.custComparisonCarousel .container {
+    padding: 0;
+    width: 100%;
+}
+
+.custComparisonCarousel .custTitle {
+    font-weight: 600;
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #000;
+    max-width: 100%;
+    flex: 0 0 100%;
+    width: 100%;
+    margin: 0 0 40px;
+}
+
+.custComparisonCarousel .custTitle span {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.custComparisonCarousel .custInstutionalLogos {
+    display: flex;
+    overflow: hidden;
+    gap: 0 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+    flex-wrap: wrap;
+}
+
+.custComparisonCarousel .custInstutionalLogos div {
+    flex: 0 0 190px;
+    display: flex;
+    justify-content: center;
+}
+
+.custInstitutionalTestimonials {
+    display: block;
+    padding: 25px 40px;
+    background: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+}
+
+.custInstitutionalTestimonials p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #292B2D;
+    margin: 0 0 12px;
+    letter-spacing: normal;
+    position: relative;
+}
+
+.custInstitutionalTestimonials p:before {
+    content: '';
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/MediaZilla/quote-icon.svg) no-repeat center center;
+    position: absolute;
+    left: -22px;
+    top: 0px;
+}
+
+.custInstitutionalTestimonials .author {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 8px;
+}
+
+.custInstitutionalTestimonials .author cite {
+    font-style: normal;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+.custInstitutionalTestimonials .author cite span {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.custInstitutionalTestimonials .author cite b {
+    font-weight: 400;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.5;
+    margin: 0 0 8px;
+}
+
+.custComparisonReviewSection {
+    margin: 0 0 40px;
+    display: flex;
+}
+
+.custComparisonCarousel .custInstutionalLogos div:not(.cerritos_logo) img {
+    filter: invert(1);
+}
+
+.custInstitutionalTestimonials .starsRatings {
+    margin: 0 0 24px;
+}
+
+.custComparisonCarousel .swiper-pagination span.swiper-pagination-bullet {
+    background: #000000;
+    opacity: 0.3;
+}
+
+.custComparisonCarousel .swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #000000;
+    opacity: 1;
+}
+.custInstitutionalTestimonials .author .avtar{
+    position: relative;
+}
+.custInstitutionalTestimonials .author .avtar.no:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #ca2128;
+    border-radius: 100%;
+}
+
+@media(max-width: 1300px) {
+    .custComparisonScrollBox .custRow .custCol.mz {
+        flex: 0 0 180px;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz~.custCol {
+        flex: 0 0 140px;
+    }
+
+    .custComparisonScrollBox .custRow:first-child .custCol img {
+        height: 48px;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.title p,
+    .custComparisonScrollBox .custRow .custCol.mz p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .custComparisonScrollBox .custRow {
+        gap: 0 10px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .custComparisonScrollBox .custRow .custCol.mz {
+        flex: 0 0 140px;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz~.custCol {
+        flex: 0 0 120px;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz p {
+        padding: 0 5px;
+    }
+
+    .custInstitutionalTestimonials p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .custInstitutionalTestimonials .author cite {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .custInstitutionalTestimonials .author cite span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media(max-width: 991px) {
+    .custCompetitorStickyBanner {
+        width: calc(100% - 16px);
+        padding: 10px;
+    }
+
+    .custCompetitorStickyBanner .copy {
+        font-size: 18px;
+        margin-right: 0;
+    }
+
+    .custCompetitorStickyBanner .custBtn {
+        padding: 16px 20px;
+    }
+
+    .custComparisonWraper .custComparisonScrollBox {
+        display: block;
+        padding: 15px;
+        margin: 30px 0;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz {
+        background: none;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.empty {
+        display: none;
+    }
+
+    .custComparisonScrollBox .custRow {
+        flex-wrap: wrap;
+        gap: 0;
+        padding: 0 0 5px;
+    }
+
+    .custComparisonScrollBox .custRow:last-child .custCol.mz,
+    .custComparisonScrollBox .custRow .custCol.title {
+        flex: 0 0 100% !important;
+        align-items: flex-start;
+    }
+
+    .custComparisonScrollBox .custRow .custCol {
+        flex: 0 0 25% !important;
+        flex-direction: column;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz .custTrialLink {
+        border-radius: 5px;
+        max-width: 100%;
+        line-height: 18px;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.title p {
+        opacity: 0.5;
+        padding: 8px 0 5px;
+    }
+
+    .section.sub-page.wf-section .container {
+        padding: 0;
+    }
+
+    .custComparisonScrollBox .custRow .custCol {
+        min-height: 32px;
+    }
+
+    .custComparisonScrollBox .custRow:first-child .custCol img {
+        height: 36px;
+        position: sticky;
+        top: 60px;
+        background: #fff;
+        z-index: 1;
+    }
+
+    .custComparisonScrollBox .custRow .custCol.mz~.custCol p {
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .custComparisonScrollBox .custRow:last-child .custCol.mz {
+        align-items: center;
+    }
+
+    .custComparisonScrollBox .custRow:last-child .custCol.mz p {
+        font-size: 18px;
+        line-height: 24px;
+        margin: 16px 0;
+    }
+
+    .custComparisonScrollBox .custRow:first-child {
+        position: sticky;
+        top: 60px;
+        background: #fff;
+        z-index: 1;
+        padding: 16px;
+        margin: -16px -16px 0 -16px;
+        border-radius: 16px;
+        box-shadow: 1px 5px 25px rgb(0 0 0 / 10%);
+    }
+
+    .custComparisonWraper {
+        padding: 0px 0 0;
+    }
+
+    .custComparisonWraper h2 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .custComparisonWraper h6.subHeading {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .custComparisonScrollBox .custRow .custCol.mz:after{
+        display: none;
+    }
+}
+
+@media(max-width: 767px) {
+    .custCompetitorStickyBanner {
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .custCompetitorStickyBanner .icon {
+        width: 24px;
+        height: 24px;
+        flex: 0 0 24px;
+    }
+
+    .custCompetitorStickyBanner .copy {
+        flex: 0 0 calc(100% - 40px);
+        padding-right: 10px;
+    }
+
+    .custCompetitorStickyBanner .custBtn {
+        flex: 0 0 100%;
+    }
+
+    .custComparisonCarousel {
+        padding: 30px 0;
+    }
+
+    .custComparisonCarousel .custTitle {
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .custComparisonCarousel .custTitle span {
+        margin: 20px 0 0;
+    }
+
+    .custComparisonCarousel .custInstutionalLogos {
+        gap: 0 8px;
+        margin: 0;
+    }
+
+    .custComparisonCarousel .custInstutionalLogos div {
+        flex: 0 0 calc(33.33% - 8px);
+    }
+
+    .custComparisonCarousel .container {
+        padding-top: 0;
+    }
+
+    .custInstitutionalTestimonials .author {
+        position: relative;
+    }
+
+    .custInstitutionalTestimonials .author cite {
+        padding-right: 110px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+        display: block;
+        height: auto;
+    }
+
+    .custInstitutionalTestimonials .author cite span {
+        white-space: nowrap;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .custInstitutionalTestimonials .author .starsRatings {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .custInstitutionalTestimonials {
+        padding: 16px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .custInstitutionalTestimonials p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 0 24px;
+    }
+
+    .custComparisonReviewSection {
+        margin: 0 0 40px !important;
+        padding: 0 0 40px !important;
+    }
+    .custComparisonReviewSection .swiper-pagination{
+        bottom: 0;
+    }
+
+    .custComparisonReviewSection .swiper-wrapper {
+        height: unset;
+        overflow: unset;
+    }
+    .custComparisonScrollBox .custRow .custCol.mz .custTrialLink {
+        font-family: Poppins, sans-serif;
+    }
+}
+
+@media(max-width: 360px) {
+    .custComparisonCarousel .custInstutionalLogos{
+        gap: 0 0px;
+        margin: 0;
+    }
+    .custComparisonCarousel .custInstutionalLogos div {
+        flex: 0 0 100px;
+    }
+
+    .custInstitutionalTestimonials .author .starsRatings {
+        position: relative;
+    }
+
+    .custInstitutionalTestimonials .author cite {
+        padding-right: 0px;
+        display: block;
+    }
+
+    .custInstitutionalTestimonials .author cite span {
+        white-space: normal;
+        display: block;
+    }    
+}
+</style>

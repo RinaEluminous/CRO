@@ -1,0 +1,397 @@
+<style>
+.page--front #content-wrapper main article.landing-page .node__content #tile-214,
+.page--front #content-wrapper main article.landing-page .node__content #tile-105,
+.page--front #content-wrapper main article.landing-page .node__content #tile-1798,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4850,
+.customHomePageContentWrapper{
+    display: none;
+}
+
+
+.page--front #content-wrapper main article.landing-page .node__content #tile-4852,
+.page--front #content-wrapper main article.landing-page .node__content #tile-4860,
+.page--front #content-wrapper main article.landing-page .node__content #tile-3164
+{
+    display: block !important; 
+}
+.customClaimContentWrapper {
+    margin-bottom: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.custHeroClaimSection {
+    padding: 80px 0 40px;
+    background: #F1F1F2;
+}
+
+.custHeroClaimSection .row {
+    display: flex;
+}
+
+.custHeroClaimSection .col-6 {
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.custHeroClaimSection h4{
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    margin: 0 0 15px;
+    line-height: 22px;
+}
+
+.custHeroClaimSection h2 {
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 56px;
+    color: #0D1C14;
+    margin: 0 0 20px;
+}
+
+.custHeroClaimSection p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    margin: 0 0 20px;
+    color: #000000;
+}
+
+.custHeroClaimSection ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px;
+}
+
+.custHeroClaimSection ul li {
+    padding: 9px 10px 9px 40px;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 0 4px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    background: #fff url(https://growth-hit.s3.us-west-2.amazonaws.com/bromwichandsmith/tick-bullet-icon.svg) no-repeat;
+    background-position: 15px center;
+    background-size: 15px;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custBtnWraper > a {
+    margin: 0;
+    padding: 16px 45px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custBtnWraper .custReviews{
+    text-align: center;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.custHeroClaimSection .custHeroButtonSection .custReviews a {
+    display: flex;
+    gap: 0 10px;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custReviews a:hover {
+    text-decoration: none;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custReviews a .googleIcon {
+    width: 16px;
+    flex: 0 0 16px;
+}
+.custHeroClaimSection .custHeroButtonSection .custReviews a .reviewContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+.reviewsStarWraper .starsWraper {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.reviewsStarWraper .starsWraper .starsCount {
+    color: #FA9428;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+.reviewsStarWraper .starsWraper .starsListing {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0 1px;
+}
+.reviewsStarWraper .starsWraper .starsListing span {
+    font-size: 0;
+    display: inline-block;
+}
+
+.custHeroClaimSection .custHeroButtonSection .custReviews a .reviewContent .reviewsNumber {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custClaimBookBanner {
+    padding: 0 15px;
+    margin: 40px 0 0;
+}
+
+.custClaimBookBanner .col-12 {
+    padding: 0 15px;
+}
+
+.custClaimBookBanner .innerWraper {
+    background: #fff;
+    color: #000;
+    padding: 20px 30px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 15%);
+    border-radius: 12px;
+}
+
+.custClaimBookBanner .innerWraper .custBookContent h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: normal;
+    margin: 0 0 4px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custClaimBookBanner .innerWraper .custBookContent p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 !important;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+}
+
+.custClaimBookBanner .innerWraper .custBookBtnWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 15px;
+    flex-wrap: wrap;
+    flex: 0 0 450px;
+    margin: 15px 0 0;
+}
+
+.custClaimBookBanner .innerWraper .custBookBtnWrapper a.btn.fill {
+    margin: 0;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+}
+
+.custClaimBookBanner .innerWraper .custBookBtnWrapper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+}
+
+.custClaimBookBanner .innerWraper .custBookBtnWrapper a.btn.outline:hover {
+    color: #22ba6f;
+    border-color: #22ba6f;
+}
+
+.custHeroClaimSection img.img-fluid {
+    max-width: 100%;
+    width: 100%;
+}
+
+.custHeroClaimSection .safeLink {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 7px;
+    margin: 0 0 0 10px;
+    max-width: 228px;
+    width: 100%;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.custHeroClaimSection .safeLink span.lock-icon {
+    font-size: 0;
+}
+
+@media(max-width: 1199px){
+    .custHeroClaimSection h2{
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .custHeroClaimSection p{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 20px;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper>a{
+        padding: 15px 20px;
+    }
+}
+
+@media(max-width: 991px){    
+    .custHeroClaimSection {
+        padding: 85px 0 40px;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper .custReviews{
+        margin-right: auto;
+    }
+    .custHeroClaimSection .row {
+        flex-direction: column;
+    }
+    .custHeroButtonSection{
+        margin: 0 0 15px;
+    }
+    .custHeroClaimSection h2{
+        font-size: 38px;
+        line-height: 40px;
+        margin: 12px 0 15px;
+    }
+    .custHeroClaimSection p{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0 0 15px;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper{
+        gap: 0 10px;
+        flex-wrap: wrap;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper>a{
+        padding: 15px 20px;
+        margin: 0 0 15px;
+    }
+    .custClaimBookBanner{
+        margin: 40px 0 0;
+    }
+    .custClaimBookBanner .innerWraper{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper{
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .custHeroClaimSection .safeLink{
+        justify-content: flex-start;
+        margin-top: 15px;
+    }
+}
+@media(max-width: 767px){
+    .customClaimContentWrapper {
+        margin-bottom: 0;
+    }
+    .custHeroClaimSection h4{
+        margin: 0 0 12px;
+    }
+    .custHeroClaimSection h2{
+        margin: 0px 0 15px;
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .custHeroClaimSection p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper{
+        gap: 0 30px;
+    }
+
+    .custClaimBookBanner .innerWraper{
+        padding: 15px;
+    }
+    .custClaimBookBanner .innerWraper .custBookContent h3{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 5px;
+    }
+    .custClaimBookBanner .innerWraper .custBookContent p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper{
+        gap: 0 30px;
+    }
+    .custHeroClaimSection ul{
+        margin: 0 0 15px;
+    }
+    
+    .custHeroClaimSection ul li{
+        padding: 4px 10px 4px 40px;
+    }
+}
+@media(max-width: 580px){
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper,
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper{
+        flex-direction: column;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper>a{
+        width: 100%;
+        text-align: center;
+    }
+    .custHeroClaimSection .custHeroButtonSection .custBtnWraper .reviews{
+        margin-right: auto;
+    }
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper{
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+        flex: 0 0 auto;
+        margin: 0;
+    }
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper a.btn.outline,
+    .custClaimBookBanner .innerWraper .custBookBtnWrapper a.btn.fill{
+        width: 100%;
+    }
+    .custHeroClaimSection .safeLink{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+}
+</style>

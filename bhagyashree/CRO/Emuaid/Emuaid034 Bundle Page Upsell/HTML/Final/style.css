@@ -1,0 +1,691 @@
+.custBundlePageWraper .jdgm-prev-badge__stars.custRating span {
+    padding: 0 !important;
+}
+.custBundlePageWraper span.jdgm-prev-badge__text {
+    color: #000;
+    text-decoration: underline;
+}
+.custBundlePageWraper .product_section .description.bottom {
+    margin-top: 15px;
+    border-bottom: none;
+    color: #000;
+    margin-bottom: 25px;
+}
+.description .shg-rich-text.shg-theme-text-content h6.custDescHeading {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0 0 8px;
+    padding: 0;
+}
+.custBundlePageWraper .product_section .description.bottom a.custDescLink {
+    clear: both;
+    display: flex;
+    margin: 8px 0 1px;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+.custBundlePageWraper .product_section .description .shg-rich-text.shg-theme-text-content{
+    margin: 25px 0 0;
+}
+.custBundlePageWraper .product_section .description .shg-rich-text.shg-theme-text-content h6.custDescHeading ~ span{
+    display: block;
+    line-height: 24px;
+}
+.custBundlePageWraper .product_section .modal_price.custPrice .current_price {
+    color: #ba0c2f;
+}
+.custBundlePageWraper .emuaid-payment-terms p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+}
+.custBundlePageWraper .emuaid-payment-terms p span.shopPay {
+    display: block;
+}
+.custBundlePageWraper .emuaid-payment-terms span.shopPay span {
+    display: inline-flex;
+    width: 58px;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.custBundlePageWraper .emuaid-payment-terms p a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.custBundlePageWraper .custPurchaseDetail {
+    align-items: flex-end;
+}
+
+.custBundlePageWraper .custPurchaseDetail .product-quantity-box {
+    max-width: 160px;
+}
+
+.custBundlePageWraper .custPurchaseDetail .purchase-details__buttons {
+    max-width: 260px;
+}
+
+.custBundlePageWraper .custPurchaseDetail .purchase-details__buttons .custGuarantee {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin: 0 0 -30px;
+    gap: 0 2px;
+}
+
+.custBundlePageWraper .custPurchaseDetail .purchase-details__buttons .custGuarantee span.icon {
+    display: flex;
+}
+
+
+.custDiscoverBenefits {
+    padding: 0;
+    background: #fff;
+    height: 100%;
+}
+
+.custDiscoverBenefits input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+
+/* Accordion styles */
+.custDiscoverBenefits .tabs {
+    overflow: hidden;
+    padding: 8px 40px;
+    box-shadow: none;
+    border-radius: 0;
+    background: #FFFFFF;
+}
+
+.custDiscoverBenefits .tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    margin: 0;
+}
+
+.custDiscoverBenefits .tab-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 11px;
+    background: #fff;
+    cursor: pointer;
+    color: #001489;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    border-top: 1px solid rgb(0 0 0 / 10%);
+    margin: 0;
+    align-items: center;
+}
+
+.custDiscoverBenefits .tab-label::after {
+    content: "";
+    width: 16px;
+    height: 8px;
+    text-align: center;
+    transition: all 0.35s;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/accord_icon.svg) no-repeat 0 0;
+    background-size: 100%;
+    transform: rotate(0deg);
+}
+.custDiscoverBenefits .tab:first-child .tab-label{
+    margin: 0;
+    border: 0;
+}
+
+.custDiscoverBenefits .tab-content {
+    max-height: 0;
+    padding: 0 32px;
+    color: #000;
+    background: white;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    overflow: hidden;
+}
+
+.custDiscoverBenefits input:checked+.tab-label::after {
+    transform: rotate(180deg);
+}
+
+.custDiscoverBenefits input:checked~.tab-content {
+    max-height: 100vh;
+    padding: 8px 11px;
+}
+.custDiscoverBenefits .tab-content ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.custDiscoverBenefits .tab-content p {
+    margin: 0 0 12px;
+    font-size: 16px;
+    max-width: 616px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custDiscoverBenefits .tab-content p:last-child {
+    margin: 0;
+}
+
+.custDiscoverBenefits .tab-content h6 {
+    margin: 0 0 12px;
+    font-size: 16px;
+    max-width: 616px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+
+.custDiscoverBenefits .tab-content p a {
+    color: #ca2128;
+}
+
+.custDiscoverBenefits .tab-content ul li {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    color: #292B2D;
+    position: relative;
+    padding-left: 15px;
+}
+.custDiscoverBenefits .tab-content ul li:before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    background: #292B2D;
+    left: 0;
+    top: 8px;
+}
+.custDiscoverBenefits .tab-content a.custIngradientLink {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 8px 0 0;
+    display: inline-block;
+    color: #292B2D;
+    text-decoration: underline;
+}
+
+.custDiscoverBenefits .tab-content ul li a {
+    text-decoration: none;
+    color: #ca2128;
+}
+
+.custDiscoverBenefits .tab input {
+    display: none;
+}
+
+section.custBenefitWraper {
+    padding: 40px 60px;
+    background: #F2F7FA;
+}
+
+.custBundlePageWraper h4 {
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    margin: 0 0 8px;
+    padding: 0;
+    line-height: 32px;
+}
+
+.custBundlePageWraper h3 {
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color: #292B2D;
+    margin: 0;
+}
+
+.custBenefitTabWraper {
+    display: flex;
+    width: 100%;
+    flex: 0 0 100%;
+    margin: 40px 0 0;
+}
+
+.custBenefitTabWraper .custHalfColumn {
+    flex: 0 0 50%;
+}
+.custBenefitTabWraper .custHalfColumn .imgBox{
+    display: block;
+    font-size: 0;
+    height: 100%;
+    max-height: 356px;
+    min-height: 100%;
+}
+.custBenefitTabWraper .custHalfColumn .imgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.custBundlePageWraper .section-marque{
+    margin: 80px 0 0;
+    border-bottom: 1px solid #ccc;
+}   
+.custSystemWorks {
+    padding: 40px 0;
+}
+.custSystemWorks .custSystemWorksRow {
+    display: flex;
+    width: 100%;
+    flex: 0 0 calc(100% - 40px);
+    margin: 40px 0 0;
+    gap: 0 20px;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.33%;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .imgBox {
+    position: relative;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .imgBox {
+    position: relative;
+    font-size: 0;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .imgBox img {
+    width: 100%;
+    display: block;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .imgBox span.count {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .content {
+    padding: 15px 0;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .content .systemHeader {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0 8px;
+    margin: 0 0 8px;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .content .systemHeader .iconImg img{
+    display: block;
+}
+.custSystemWorks .custSystemWorksRow .custThreeCol .content .systemHeader .title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.custOldFaqSection .tabs__info--tabs input[type="checkbox"] {
+    display: none;
+}
+.custOldFaqSection .tabs__info--tabs .tab-label {
+    position: relative;
+    cursor: pointer;
+    margin: 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+}
+.custOldFaqSection .tabs__info--tabs .tab-label h3 {
+    text-align: left;
+    line-height: normal;
+}
+.custOldFaqSection .tabs__info--tabs .tab-label::after {
+    content: "+";
+    width: 20px;
+    height: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    position: absolute;
+    right: 0px;
+    color: #000;
+    top: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custOldFaqSection .tabs__info--tabs input:checked+.tab-label::after {
+    content: "-";
+    font-size: 1.4rem;
+}
+
+.custOldFaqSection .tabs__info--tabs .tab-content {
+    max-height: 0;
+    padding: 0 32px;
+    color: #000;
+    background: white;
+    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+    overflow: hidden;
+}
+.custOldFaqSection .tabs__info--tabs input:checked~.tab-content {
+    max-height: 100vh;
+    padding: 15px 0;
+}
+.custOldFaqSection .tabs__info--tabs .tab-content p a {
+    color: #000;
+}
+section.custBenefitWraper .custPopupGradients {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999;
+    display: none;
+}
+
+section.custBenefitWraper .custPopupGradients .overlay {
+    background: #000000bd;
+}
+
+section.custBenefitWraper .custPopupGradients .custModel {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+}
+
+section.custBenefitWraper .custPopupGradients .custModel .custBody {
+    padding: 16px;
+    max-width: 960px;
+    background: #fff;
+    display: flex;
+    gap: 0 16px;
+}
+
+section.custBenefitWraper .custPopupGradients .custModel .custBody .imageColumn {
+    width: 220px;
+    flex: 0 0 220px;
+}
+
+section.custBenefitWraper .custPopupGradients .custModel .custBody .imageColumn .imgBox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #ededed;
+    align-items: center;
+    justify-content: center;
+}
+
+section.custBenefitWraper .custPopupGradients .custModel .custBody .imageColumn .imgBox img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.custBundlePageWraper .section-customer-result h4.subtitle{
+    color: #001489;
+    margin-top: 8px;
+}
+.custBundlePageWraper .section-customer-result .customer-result h4.cr-title{
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+}
+.custBundlePageWraper .custGalleryWrap{
+    padding-right: 20px;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-slide{
+    text-align: center;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-slide.videoSlide{
+    padding-top: 100%;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-slide iframe {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(-50%);
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider1 .swiper-slide:not(.swiper-slide-thumb-active){
+    opacity: 0.7;
+}
+.custBundlePageWraper .custGalleryWrap .swiper-wrapper{
+    align-items: center;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-next{
+    right: 0;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-prev{
+    left: 0;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-next:after, 
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-prev:after{
+    font-size: 24px;
+    color: #016abd;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-next, 
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-rtl .swiper-button-prev,
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-button-prev, 
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-rtl .swiper-button-next{
+    margin-top: -80px;
+}
+.custBundlePageWraper .custGalleryWrap .custProductGallerySlider2 .swiper-slide img{
+    cursor: zoom-in;
+}
+
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9999999999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup .overlay{
+    background-color: #2b2e38e6;
+    opacity: .9;
+}
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+}
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox button.custClosePopup{
+    background: transparent;
+    color: #95979c;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    min-height: auto;
+}
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox button.custClosePopup:after {
+    content: '';
+    font-family: Arial,Helvetica CY,Nimbus Sans L,sans-serif!important;
+    font-size: 25px;
+    line-height: 35px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 35px;
+    content: "\d7";
+    text-align: center;
+}
+.custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox img {
+    max-width: 560px;
+    height: auto;
+    display: block;
+    display: block;
+    width: 100%;
+}
+
+body.product-enhancedwithmessage .section-product-bottom #judgeme_product_reviews .jdgm-row-actions .jdgm-sort-dropdown-arrow{
+    top: 50%;
+    margin-top: -13px;
+}
+
+@media only screen and (max-width: 798px){
+    .custBundlePageWraper .custPurchaseDetail .purchase-details__buttons,
+    .custBundlePageWraper .custPurchaseDetail .product-quantity-box{
+        max-width: 50%;
+    }
+    .custSystemWorks .custSystemWorksRow{
+        flex-wrap: wrap;
+        flex: 1;
+    }
+    .custSystemWorks .custSystemWorksRow .custThreeCol{
+        flex: 0 0 100%;
+        margin: 0 0 35px;
+    }
+    .custBenefitTabWraper{
+        display: block;
+    }
+    .custDiscoverBenefits .tabs{
+        padding: 8px 10px;
+    }
+    section.custBenefitWraper .custPopupGradients .custModel{
+        padding: 15px;
+    }
+    section.custBenefitWraper .custPopupGradients .custModel .custBody{
+        border-radius: 8px;
+    }
+    .custBundlePageWraper .custGalleryWrap{
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 767px){
+    section.custBenefitWraper .custPopupGradients .custModel .custBody{
+        flex-direction: column;
+        height: 100%;
+        overflow: auto;
+    }
+    section.custBenefitWraper .custPopupGradients .custModel .custBody .imageColumn{
+        width: 100%;
+        flex: 1;
+        height: 180px;
+        margin: 0 0 15px;
+    }
+    section.custBenefitWraper .custPopupGradients .custModel .custBody .imageColumn .imgBox{
+        height: 180px;
+    }
+    .custBundlePageWraper .custPurchaseDetail .purchase-details__buttons, 
+    .custBundlePageWraper .custPurchaseDetail .product-quantity-box{
+        max-width: 100%;
+    }
+    section.custBenefitWraper .second-product-template h1.product_name{
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0 0 9px;
+    }
+    .custBundlePageWraper .product_section .description .shg-rich-text.shg-theme-text-content{
+        margin-top: 20px;
+    }
+    .custBundlePageWraper .emuaid-payment-terms p span.shopPay {
+        display: inline-block;
+    }
+    .custBundlePageWraper h4,
+    .custBundlePageWraper h3{
+        text-align: left;
+    }
+    .custBundlePageWraper h4{
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .custBundlePageWraper h3{
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .custSystemWorks .custSystemWorksRow .custThreeCol .desctiption p {
+        margin: 0;
+    }
+    section.custBenefitWraper{
+        padding: 30px 10px;
+    }
+    .custDiscoverBenefits .tab-content ul li{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .custBundlePageWraper .section-customer-result{
+        padding: 21px 0;
+    }
+    .custBundlePageWraper .section-customer-result .customer-results{
+        margin: 20px auto 0;
+    }
+    .custOldFaqSection .tabs__info--tabs .tab-label h3{
+        line-height: 24px;
+    }
+    .custBundlePageWraper .section-marque{
+        display: none;
+    }
+    .custSystemWorks{
+        margin-top: 15px;
+    }
+    .custBundlePageWraper .section-product-bottom{
+        padding-top: 0;
+    }
+    .custSystemWorks .custSystemWorksRow .custThreeCol:last-child{
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 480px){
+    .custBundlePageWraper .custPurchaseDetail .purchase-details__buttons .add_to_cart.action_button{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 767px) and (orientation: landscape){
+    .custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox{
+        height: 100%;
+    }
+    .custBundlePageWraper .custGalleryWrap .custGalleryPopup .custGalleryModelBox img{
+        width: 100%;
+        height: 100%;
+    }
+}

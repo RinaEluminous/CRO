@@ -1,0 +1,113 @@
+<style>
+.Product__Wrapper button#Product__Clone{
+    display: none;
+}
+
+.custSelectraper ul, .custSelectraper ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custSelectraper h3 {
+    color: #919191;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 0.185em;
+    text-transform: uppercase;
+    line-height: 13px;
+    font-family: "Twentieth Century", sans-serif;
+    margin-bottom: 17px;
+}
+
+.custQuanityProducts ul {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.custQuanityProducts ul li {
+    width: auto;
+    margin-right: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.custQuanityProducts ul li div {
+    border: 2px solid #919191;
+    border-radius: 6px;
+    overflow: hidden;
+    width: 96px;
+    height: 96px;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.custQuanityProducts li.custQuanityactive div {border-color: #000 !important;}
+
+.custQuanityProducts ul li span {
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 11px;
+/* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #919191;
+    font-family: "Twentieth Century", sans-serif;
+}
+
+.custQuanityProducts li.custQuanityactive span {
+    color: #000;
+}
+
+
+.custQuanityProducts ul li label.custGreenLabel {
+    position: absolute;
+    top: -11px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #46AD76;
+    border-radius: 22px;
+    width: 77px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    font-family: "Twentieth Century", sans-serif;
+}
+.custQuanityProducts ul li div img {
+    width: 96px;
+    height: 96px;
+    max-width: 100%;
+}
+/*media*/
+
+@media only screen and (max-width: 1007px) {
+.custQuanityProducts ul li.custNecklace label.custGreenLabel {
+    left: 18px;
+}
+.custSelectraper {
+    text-align: center;
+}
+
+.custQuanityProducts ul {
+    justify-content: center;
+    margin-bottom: 28px;
+}
+
+.custSelectraper h3 {
+    margin-bottom: 31px;
+}
+.custQuanityProducts ul li {
+    margin: 0 12px;
+}
+}
+</style>

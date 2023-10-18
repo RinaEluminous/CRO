@@ -1,0 +1,870 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+
+@media screen and (min-width: 1024px) {
+  li.has-sub-dropdown {
+    display: none !important;
+}
+
+ul.custTabsWrapper {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 10;
+  margin: 0 0 0;
+  padding: 0;
+  width: 200px;
+  list-style: none;
+}
+ul.custTabsWrapper li {
+  margin: 0;
+  cursor: pointer;
+  padding: 8px !important;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: #3E5569;
+  border-radius: 4px;
+}
+ul.custTabsWrapper li:hover {background-color: #f2f6ff;}
+ul.custTabsWrapper li.custActive {
+  background-color: #F2F6FF;
+}
+
+.custTabContainer {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  z-index: 20;
+  left: 0;
+  width: calc(100% - 200px);
+  min-width: 10px;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+}
+
+.custTabContent {
+  padding: 8px 0 20px 20px;
+  height: 100%;
+  display: none;
+}
+
+.custTabDrawerHeading {
+   display: none; 
+}
+.custTabsShopOrder {
+width: 100%;
+    justify-content: center;
+    display: flex;
+    flex: 0 0 100%;
+    padding: 20px !important;
+    background: #FFFFFF;
+    border-radius: 8px;
+        border: 1px solid #b1d4e0;
+}
+
+
+.custTabContent ol li {
+    list-style: none;
+}
+
+.custTabContent ol {
+    margin: 0;
+    display: grid;
+    padding: 0;
+    gap: 10px 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.custTabContent ol li img {
+    width: 100%;
+}
+
+.custTabContent ol li span {
+    width: 100%;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #3E5569;
+    margin-top: 10px;
+    padding: 0 9px;
+}
+
+a.custViewAllButton {
+    font-weight: 600 !important;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F !important;
+    margin: 0 0 18px 0;
+    display: inline-block !important;
+    text-decoration: none !important;
+    padding: 0 !important;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg) !important;
+    background-repeat: no-repeat !important;
+    background-position: right center !important;
+    padding-right: 14px !important;
+}
+ol.custByNameProducts {
+    grid-template-columns: repeat(6, 1fr);
+}
+ul.dropdown.dropdown--mega-menu.menu-1 {
+    max-width: 1020px;
+    margin: 0 auto !important;
+    top: auto;
+    margin-top: 0 !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding-top: 39px !important;
+}
+
+.custTabsShopOrder * {
+    font-family: 'Inter', sans-serif !important;
+}
+
+ul.custTabsWrapper li a {
+    padding: 0 !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    letter-spacing: -0.02em !important;
+    color: #3E5569 !important;
+    text-transform: capitalize !important;
+    background: transparent !important;
+}
+
+header.site-header nav.nav-bar ul.custTabsWrapper li:hover a, header.site-header nav.nav-bar ul.custTabsWrapper li a:hover {
+    color: #3E5569 !important;
+}
+
+li.custProductsList {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 96% center;
+    background-color: transparent;
+}
+body #menu.panel {
+    width: 100%;
+    margin-top: 143px;
+    padding-top: 0;
+    position: absolute;
+}
+
+.mobile-menu-overlay {
+    display: none !important;
+}
+
+html.panel-open, body.panel-open {
+    /* height: auto !important; */
+} 
+ol.custByPriceProducts {
+    grid-template-columns: repeat(3, 1fr);
+}
+ol.custByNameProducts li span {
+    font-size: 14px;
+    padding: 0;
+}
+
+ol.custByNameProducts li {
+    padding: 0 !important;
+}
+
+ol.custByNameProducts {
+    gap: 20px 20px;
+        height: 500px;
+    overflow-y: scroll;
+}
+ol.custByNameProducts::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+ol.custByNameProducts::-webkit-scrollbar{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+ol.custByNameProducts::-webkit-scrollbar-thumb{
+	background-color: #3D5565;
+}
+.header-right-div {
+    display: flex;
+}
+
+header.site-header .wrapper, header.util .wrapper {
+    max-width: 100%;
+    padding: 0 40px;
+}
+
+a.header-right-a {
+    height: 32px;
+    border: 1px solid #8699A7 !important;
+    border-radius: 16px;
+    margin: 0 !important;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: -0.02em;
+    color: #3E5569 !important;
+    padding: 0 8px !important;
+    min-width: 122px !important;
+    width: 100%;
+    font-family: 'Inter', sans-serif !important;
+    margin-left: 4px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-logo.has-image {
+    width: 196px;
+    margin-right: 0;
+}
+
+.site-logo.has-image {
+}
+
+header.site-header .layout-horizontal .logo-contain {
+    flex-basis: 196px;
+}
+
+header.site-header .layout-horizontal nav.nav-bar {
+    padding-left: 0;
+}
+
+a.header-right-a:first-child {
+    margin-left: 0 !important;
+}
+
+header.site-header nav.nav-bar ul.site-nav li.has-dropdown > a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3E5569 !important;
+    padding: 0 10px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.nav-bar .site-nav>li>a::before {
+    display: none;
+}
+
+header.site-header nav.nav-bar ul.site-nav li.has-dropdown > a:after {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg);
+    height: 10px;
+    width: 7px;
+    opacity: 1;
+    margin-left: 5px;
+    transform: rotate(90deg);
+    top: 0;
+}
+
+ul.site-nav.user- {
+    display: flex;
+    justify-content: center;
+}
+
+header.site-header .layout-horizontal h1.site-logo {
+    padding: 0;
+}
+
+header.site-header {
+    border: 0;
+    padding: 20px 0;
+}
+
+header.util {
+    height: 49px;
+    background: #F2F6FF;
+    border: 0;
+}
+
+header.util a, header.util li a, header.util a span, header.util li a span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    text-decoration: none !important;
+}
+
+header.util li a span.text {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
+}
+
+header.util svg {
+    display: none;
+}
+
+header.util span.icon.icon-search {
+    width: 19.5px;
+    height: 19.5px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np-search.svg);
+    background-size: cover;
+    top: 0;
+    margin-right: 7px;
+}
+
+header.util a.search span.icon-text {
+    display: flex;
+    align-items: center;
+}
+
+header.util li {
+    border-right: 1px solid #B1D4E0 !important;
+} 
+.right-wrapper ul.text-links li a, .right-wrapper ul.text-links li:nth-child(2) a, .right-wrapper ul.text-links li:nth-child(3) a {
+    padding: 0 0;
+    align-items: center;
+    display: flex;
+    line-height: 2.3;
+}
+
+.right-wrapper ul.text-links li a#customer_login_link::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/business-login-in.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.right-wrapper ul.text-links li {
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.right-wrapper ul.text-links li:nth-child(2) a::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/contact.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.right-wrapper ul.text-links li:nth-child(3) a::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np-phone.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+header.util a#CartButton {
+    border: 0;
+    padding: 0;
+}
+
+header.util .right-wrapper {
+    margin: 0 15px 0 0;
+}
+
+header.util .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 49px;
+}
+
+header.util .wrapper:after {
+    display: none;
+}
+
+header.util a#CartButton span.icon-fallback-text {
+    display: none;
+}
+
+header.util a#CartButton::before {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/add-to-cart.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    margin-right: 5px;
+    flex: 0 0 24px;
+}
+
+header.util a#CartButton span#CartCount {
+    display: inline-flex;
+    text-indent: 0;
+    align-items: center;
+    flex: 0 0 24px;
+    height: 24px;
+    max-width: 24px;
+    justify-content: center;
+    background: #3E5569;
+    border-radius: 100px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif !important;
+}
+
+header.util a#CartButton {text-indent: -10000px;display: inline-flex;align-items: center;flex: 0 0 auto;} 
+header.util .left-wrapper ul.text-links li.custTakeQuiz {
+    border-right: 0 !important;
+    margin-right: 0;
+}
+.custTabsShopOrder .custTabContainer ol li a {
+    padding: 0 !important;
+}
+li.custTakeQuiz div {
+    align-items: center;
+    display: flex !important;
+}
+li.custTakeQuiz div a {
+    padding-left: 0;
+}
+
+li.custTakeQuiz div a span img {
+    margin-left: 5px;
+}
+}
+
+
+/*mobile*/
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+.header-right-div {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header-right-div .header-right-a {
+    margin: 0 0 4px 0 !important;
+}
+
+header.site-header nav.nav-bar ul.site-nav li.has-dropdown > a {
+    white-space: pre;
+    padding: 0 4px;
+}
+
+header.site-header .layout-horizontal h1.site-logo {
+    max-width: 130px !important;
+    height: auto;
+}
+}
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+	header.site-header nav.nav-bar ul.site-nav li.has-dropdown > a {
+    white-space: pre;
+    padding: 0 6px;
+}
+header.site-header .layout-horizontal h1.site-logo {
+    width: 160px;
+}
+
+a.header-right-a {
+    padding: 0 0 !important;
+    max-width: 100px !important;
+    flex: 0 0 100px;
+    font-size: 12px;
+}
+}
+@media screen and (max-width: 1023px) {
+header.site-header {
+    padding: 16px 15px;
+    border-bottom: 1px solid #B1D4E0;
+}
+  
+  
+  html.panel-open nav#menu, body.panel-open nav#menu{
+     display: none !important;
+  } 
+  
+  html.panel-open nav#menu, body.panel-open nav#menu.custShowNav{
+     display: block !important;
+  } 
+
+header.site-header .layout-horizontal h1.site-logo {
+    padding: 0;
+}
+
+header.site-header .layout-horizontal h1.site-logo img {
+    max-width: 140px;
+    height: auto !important;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+
+header.site-header h1.site-logo.has-image a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-menu a.menu-link  span.text.d-block, 
+span.icon.icon-menu svg, a#CartButton span svg, 
+#search-icon-mob span.icon.icon-search svg, 
+a#customer_login_link span svg  {
+    display: none;
+}
+
+span.icon.icon-menu {
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/humburger-icon.svg);
+    background-position: center;
+    display: inline-block;
+} 
+
+.mobile-icons-left .mobile-menu {
+    margin-right: 16px;
+}
+
+#search-icon-mob span.icon.icon-search {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np-search.svg);
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+a#customer_login_link span.icon.icon-loginuser {
+    width: 32px;
+    height: 32px;
+    display: block;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/business-login-in.svg);
+    background-size: contain;
+}
+
+span.business-login-mobile {
+    margin-right: 16px !important;
+}
+a#CartButton {
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    /* background: red; */
+}
+
+a#CartButton span.icon.icon-cart {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/add-to-cart.svg);
+    width: 32px;
+    height: 32px;
+    background-size: cover;
+    top: 0;
+}
+
+.mobile-menu-overlay {
+    display: none !important;
+}
+
+nav#menu, body.panel-open #page nav#menu, html.panel-open #page nav#menu {
+/*    top: 124px !important;*/
+    width: 100%;
+    padding: 15px;
+    margin-top: 0;
+}
+
+html.panel-open, body.panel-open {
+    height: auto !important;
+}
+
+span.nav-close {
+    display: none;
+}
+
+#menu.panel ul.site-nav li a {
+    padding: 8px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
+}
+
+#menu.panel ul.site-nav li.has-dropdown > a:after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg) !important;
+    background-size: cover;
+    transform: rotate(90deg);
+    width: 7px;
+    height: 10px;
+    opacity: 1;
+}
+
+#menu.panel ul.site-nav li {
+    border-bottom: 1px solid #F2F6FF;
+}
+
+#menu.panel ul.site-nav li:nth-last-of-type(3) {
+    margin-top: 20px;
+} 
+#menu.panel ul.site-nav li:nth-last-of-type(1), #menu.panel ul.site-nav li:nth-last-of-type(2), #menu.panel ul.site-nav li:nth-last-of-type(3) {
+    border: 1px solid #8699A7;
+    border-radius: 100px;
+    margin-bottom: 8px;
+}
+
+#menu.panel ul.site-nav li:nth-last-of-type(1) a, #menu.panel ul.site-nav li:nth-last-of-type(2) a, #menu.panel ul.site-nav li:nth-last-of-type(3) a {
+    text-align: center;
+    padding: 8px;
+}
+
+#menu.panel .account ul.text-links li a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    padding: 8px 8px 8px 38px;
+}
+
+#menu.panel .account ul.text-links li:nth-child(2) a::before,
+#menu.panel .account ul.text-links li:nth-child(3) a::before,
+#menu.panel .account ul.text-links li:nth-child(4) a::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/business-login-in.svg);
+    position: absolute;
+    left: 0;
+}
+#menu.panel .account ul.text-links li:nth-child(3) a::before { 
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/contact.svg); 
+}
+#menu.panel .account ul.text-links li:nth-child(4) a::before { 
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np-phone.svg); 
+}
+
+.mobile-icons-left .mobile-menu a.toggle-menu {
+    width: 32px;
+    height: 32px;
+}
+
+#menu.panel .account li {
+    position: relative;
+}
+
+.custTabContent ol {
+    grid-template-columns: repeat(4, 1fr);
+}
+header.site-header .layout-horizontal div.site-logo {
+    padding: 0;
+}
+
+header.site-header .layout-horizontal div.site-logo img {
+    max-width: 140px;
+    height: auto !important;
+    text-align: center;
+}
+
+header.site-header div.has-image.site-logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header.site-header div.has-image.site-logo a img {
+    top: 50%;
+    transform: translateY(-50%);
+}
+#menu.panel ul.site-nav ul.dropdown.dropdown--mega-menu.menu-58 li[role="presentation"] {
+    display: none;
+}
+.custTabContent  {
+    display: none;
+}
+button.custTogleButton {
+    border: 0;
+    width: 100%;
+    text-align: left;
+    padding: 8px 8px;
+    font-weight: 600;
+    font-size: 14px !important;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
+    background: transparent;
+    position: relative;
+    border-bottom: 1px solid #F2F6FF;
+}
+
+button.custTogleButton::after {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg) !important;
+    background-size: cover;
+    transform: rotate(90deg);
+    width: 7px;
+    height: 10px;
+    opacity: 1;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+} 
+li.has-dropdown.has-dropdown--mega-menu.mainmenu-2 {
+    display: none !important;
+}
+ul.custTabsWrapper {
+    display: none;
+}
+  .custTabContainer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-top: none;
+    border-radius: 0;
+    padding:0 8px;
+  } 
+  .custTabDrawerHeading {
+display: block;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    line-height: 24px;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    position: relative;
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+.custTabsShopOrder {
+    background: #F2F6FF;
+}
+.custTabContent ol {
+grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 0 8px;
+    order: 1;
+    text-align: center;
+}
+
+#menu.panel ul.site-nav li a span {
+    padding: 5px 0 10px 0;
+    display: block;
+}
+
+#menu.panel ul.site-nav li a img {
+    width: 100%;
+}
+
+#menu.panel ul.site-nav ol li {
+    border: 0 !important;
+    border-radius: 0 !important;
+    margin-bottom: 0 !important;
+        margin: 0 !important;
+}
+.custTabContent { 
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 60px;
+}
+a.custViewAllButton {
+    position: absolute;
+    bottom: 17px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3E5569 !important;
+    letter-spacing: -0.02em;
+    font-family: 'Inter', sans-serif !important;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg) !important;
+    background-repeat: no-repeat;
+    background-position: 100% center;
+    padding: 0 17px 0 8px;
+}
+.custTabContent a.custViewAllButton {
+    order: 2;
+}
+
+#menu.panel ul.site-nav ol.custByColorProducts li a {
+    padding: 0 !important;
+}
+h3.custTabDrawerHeading::after {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/left-arrow.svg) !important;
+    background-size: cover;
+    transform: rotate(90deg);
+    width: 7px;
+    height: 10px;
+    opacity: 1;
+    position: absolute;
+    right: 2px;
+    top: 15px;
+}
+
+h3.custTabDrawerHeading.custMobileActive:after {
+    transform: rotate(270deg);
+}
+.custTabContent ol li a {
+    padding: 0 !important;
+}
+#menu.panel ul.site-nav ul.dropdown li {
+    padding: 0 0;
+    margin: 0;
+    border-radius: 0;
+    border: 0;
+}
+
+#menu.panel ul.site-nav ul.dropdown li a {
+    padding: 0;
+    text-align: left;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3E5569;
+    font-family: 'Inter', sans-serif !important;
+    padding: 8px;
+    text-transform: capitalize;
+}
+
+#menu.panel ul.site-nav ul.dropdown {
+    background: #F2F6FF;
+}
+li.custTakeQuiz a {
+    padding-left: 13px !important;
+} 
+li.custTakeQuiz div {
+    align-items: center;
+    display: flex !important;
+}
+a.toggle-menu.menu-link.mobile-menu-link.custOpen span.icon.icon-menu {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/close-menu.svg);
+    background-position: center;
+}
+}
+@media screen and (max-width: 767px) {
+.custTabContent ol{
+	grid-template-columns: repeat(3, 1fr);
+}
+ol.custByNameProducts {
+    grid-template-columns: repeat(6, 1fr);
+}
+}
+@media screen and (max-width: 540px) {
+.custTabContent ol, ol.custByNameProducts{
+	grid-template-columns: repeat(2, 1fr);
+}
+ 
+}
+@media screen and (max-width: 400px) {
+nav#menu, body.panel-open #page nav#menu, html.panel-open #page nav#menu {
+/*    top: 121px !important; */
+}
+}
+</style>

@@ -1,0 +1,228 @@
+<style>
+span.oke-sr-total-text del {
+    display: none;
+}
+
+.custCheckList ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    gap: 103px
+}
+
+.custCheckList ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0091DA;
+    font-family: work-sans,sans-serif;
+}
+
+.custCheckList {
+    position: relative;
+        margin: 8px 0;
+}
+
+.custCheckList ul li img {
+    margin-right: 8px;
+}
+
+div#product-form .custom-selector.custom-selector--size {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.custTestimonialsBlueWrapper {
+    padding: 16px;
+    background: #E8F5FD;
+    border-radius: 15px;
+    margin-top: 32px;
+}
+
+.custTestimonialsBlueWrapper h6 {
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: #003E6A;
+    margin: 0;
+    font-family: unpretentious,sans-serif;
+}
+
+.custTestimonialsBlueWrapper p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: work-sans,sans-serif;
+    color: #003E6A;
+    margin: 8px 0 12px 0;
+}
+
+.custTestimonialsBlueWrapper span {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #003E6A;
+    font-family: work-sans,sans-serif;
+}
+div[data-section-type="product"] .product-page__top {
+    margin-top: 0;
+}
+div#product-form {
+    margin-top: 0;
+}
+div[data-section-type="product"] .product-price.product-price--product-info {
+    margin: 12px 0 0 0;
+}
+
+div[data-section-type="product"] .custom-selector__option--color {
+    margin-bottom: 0;
+}
+
+#product-form .ShoeSizeMe {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 100%;
+}
+
+div#product-form .custom-selector.custom-selector--width {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div#product-form .product-form__add {
+    margin-top: 15px;
+}
+
+button#product-form__add-button {
+    width: 100%;
+    font-weight: 400;
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 40px;
+    background: #1A9EE8;
+    padding: 10px;
+}
+
+div[data-section-type="product"] .product-info__title {
+    font-size: 56px;
+}
+
+div[data-section-type="product"] .product-page__product-column .product-info__type.subhead {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+div[data-section-type="product"] .product-price__price.headline.headline--small {
+    font-size: 40px;
+}
+
+div[data-section-type="product"] .custom-selector__title, div[data-section-type="product"] .selector-wrapper label {
+font-weight: 700;
+    letter-spacing: 0.12em;
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+div[data-section-type="product"] .custom-selector__label--size, div[data-section-type="product"] .custom-selector__label--width {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+div[data-section-type="product"] .custom-selector__label--color {
+    width: 32px;
+    height: 32px;
+}
+
+div[data-section-type="product"] .custom-selector__note {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+div[data-section-type="product"] .ssm_core.ssm_button span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    font-family: work-sans,sans-serif;
+} 
+div#product-form .custom-selector.custom-selector--width .custom-selector__title {
+    width: 100%;
+}
+
+div#product-form .custom-selector.custom-selector--width .custom-selector__note {
+    margin-top: 0;
+}
+@media screen and (max-width: 767px) {
+
+    .custCheckList ul {
+    flex-wrap: wrap;
+    gap: 9px;
+}
+
+.custCheckList ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+div[data-section-type="product"] .product-info__title {
+    font-size: 42px;
+}
+
+div[data-section-type="product"] .product-page__product-column .product-info__type.subhead {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+div[data-section-type="product"] .product-price.product-price--product-info .product-price__price.headline.headline--small {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+
+.custCheckList {
+    margin: 19px 0;
+}
+
+div[data-section-type="product"] .ssm_core.ssm_button span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+div#product-form .custom-selector.custom-selector--width .custom-selector__note {
+    line-height: 1.2;
+    margin: 15px 0 0 0;
+}
+
+button#product-form__add-button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+}
+</style>

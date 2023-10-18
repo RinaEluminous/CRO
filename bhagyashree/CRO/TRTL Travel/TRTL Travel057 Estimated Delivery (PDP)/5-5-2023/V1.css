@@ -1,0 +1,24 @@
+<style>
+.custOrderWithin {
+    background: #F4EEEB;
+    font-family: ibm-plex-sans,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    color: #000000;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.custOrderWithin span {
+    color: #243B60;
+    font-weight: 800;
+}
+
+.custOrderWithin {
+    text-align: left;
+}
+</style>

@@ -1,0 +1,115 @@
+.custReviewsCarousel .custTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+/* identical to box height, or 133% */
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+.custReviewsCarousel  .swiper-slide {
+    background: #F7F7F7;
+    padding: 12px;
+}
+
+.custReviewsCarousel  .swiper-slide p span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: ibm-plex-sans,sans-serif;
+    color: #000;
+    letter-spacing: 0;
+}
+
+.custReviewsCarousel  .swiper-slide p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+/* or 154% */
+    letter-spacing: 0.05em;
+    color: #000000;
+    font-family: ibm-plex-sans,sans-serif;
+    margin-bottom: 8px;
+}
+
+.custReviewsCarousel  .author cite {
+    color: rgb(0 0 0 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.custReviewsCarousel  .swiper-slide {
+    height: auto;
+}
+
+.custReviewsCarousel  .author {
+    opacity: 1;
+    color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: calc(100% - 24px);
+    bottom: 12px;
+    left: 12px;
+}
+
+.custReviewsCarousel {
+    margin-bottom: 40px;
+}
+
+.custReviewsCarousel .swiper-button-prev {
+    left: -6px;
+    transform: rotate(0deg);
+}
+
+.custReviewsCarousel .swiper-button-prev, .custReviewsCarousel .swiper-button-next {
+    background-image: none;
+    box-shadow: none;
+    display: block;
+    border-radius: 500px;
+    width: 22px;
+    height: 22px;
+}
+
+.custReviewsCarousel .swiper-button-next {
+    right: 0;
+}
+.custReviewsCarousel .swiper-button-prev::after, .custReviewsCarousel .swiper-button-next::after {
+    display: none;
+}
+
+.custReviewsCarousel .swiper-button-next svg {
+    right: -5px;
+    transform: rotate(180deg);
+}
+
+.custReviewsCarousel  .container {
+    position: relative;
+}
+
+
+/*media*/
+@media(max-width: 991px) {
+.custReviewsCarousel .container:nth-child(2) {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.custReviewsCarousel .swiper-button-next {
+    right: 7px;
+}
+
+.custReviewsCarousel .swiper-button-prev {
+    left: 7px;
+}
+
+.custReviewsCarousel .custTitle {
+    margin-bottom: 24px;
+}
+}

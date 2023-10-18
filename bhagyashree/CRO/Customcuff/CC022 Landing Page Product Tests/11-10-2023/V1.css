@@ -1,0 +1,279 @@
+.custWrapperV1 .custGallery {
+    width: 100%;
+    max-width: 620px;
+    margin: 0px auto;
+    overflow: hidden;
+    height: 86%;
+  }
+  .custWrapperV1 .custGallerySlider .swiper-wrapper .swiper-slide img {
+    width: 100%;
+}
+
+  .custWrapperV1 .custGallery .custGalleryThumbs {
+    width: calc(100% - 2px);
+    padding: 0 1px;
+    overflow: hidden;
+    position: absolute;
+    bottom: -3px;
+  }
+
+  .custWrapperV1 .custGallery .custGalleryThumbs .swiper-slide {
+    /* width: 66.8px !important;
+    height: 66.8px !important; */
+    text-align: center;
+    overflow: hidden;
+    opacity: 1;
+    font-size: 0;
+
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.10);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.10);
+  }
+
+  .custWrapperV1 .custGallery .custGalleryThumbs .swiper-slide-thumb-active {
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+  }
+
+  .custWrapperV1 .custGallery .custGalleryThumbs .swiper-slide img {
+    /* width: auto;
+    height: 100%; */
+    border: 4px solid #fff;
+    width: calc(100% - 8px);
+    margin: 0;
+    display: block;
+  }
+
+  .custWrapperV1 .custGallerySlider .swiper-wrapper .swiper-slide {
+    height: auto;
+  }
+
+  .custGalleryThumbs .swiper-wrapper {
+    padding: 10px 1px;
+    /* gap: 0 10px; */
+  }
+
+  .custWrapperV1 #lp-pom-box-153,
+    .custWrapperV1 #lp-pom-box-156,
+    .custWrapperV1 #lp-pom-text-134,
+    .custWrapperV1 #lp-pom-text-145,
+    .custWrapperV1 #lp-pom-text-556,
+    .custWrapperV1 #lp-pom-text-140,
+    .custWrapperV1 #lp-pom-text-133 {
+      display: none !important;
+    }
+
+    .custWrapperV1 .lp-element.lp-pom-image.color {
+      display: none !important;
+    } 
+
+/**color swatches**/
+    .custWrapperV1 .custProductColorWrap {
+      left: 640px;
+      top: 3367px;
+      position: absolute;
+      z-index: 333;
+    }
+  
+    .custWrapperV1 .custProductColorWrap .custColorTitle {
+      color: #000;
+      font-family: Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+      margin-bottom: 8px;
+    }
+  
+    .custWrapperV1 .custProductColorWrap .custColorTitle span {}
+  
+    .custWrapperV1 .custProductColorWrap ul.custProductColors {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li {
+      width: 32px;
+      height: 32px;
+      display: inline-block;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s;
+      outline-offset: 4px;
+      outline: 1px solid transparent;
+    }
+
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li.custActive,
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li:hover {
+      outline-color: #000;
+    }
+  
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li.custShinyGold {
+      background-color: #E2CDB8;
+    }
+  
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li.custMetalBlack {
+      background-color: #212121;
+    }
+  
+    .custWrapperV1 .custProductColorWrap ul.custProductColors li.custShinySilver {
+      background-color: #DBDADD;
+    }  
+
+    .custWrapperV1 .custPriceButton {
+      background: black !important;
+      min-height: 48px;
+      display: flex !important;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none !important;
+      color: #fff !important;
+      font-family: 'DM Sans' !important;
+      border: 0;
+      width: 100%;
+      max-width: 530px;
+      line-height: 16px;
+      color: rgb(255, 255, 255);
+      font-size: 14px;
+      line-height: 0;
+      text-align: center;
+      left: 640px;
+      top: 3475px;
+      z-index: 300;
+      position: absolute;
+    }
+    .custWrapperV1 .custPriceButton .custOffPrice {
+      color: rgb(150, 146, 146);
+    }
+
+    .custWrapperV1 #lp-pom-box-137 {
+      display: none;
+    }
+  .custWrapperV1 #lp-pom-block-175 {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/milestone-v1-desktop-1x.png);
+  }
+@media (min-width: 1200px) {  
+    .custWrapperV1 #lp-pom-box-220,
+    .custWrapperV1 #lp-pom-box-225,
+    .custWrapperV1 #lp-pom-text-222 {
+      width: 550px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-221 p {
+      line-height: 44px !important;
+    }
+  
+    .custWrapperV1 #lp-pom-text-221 p span {
+      font-size: 44px !important;
+    }
+  
+  
+  
+    .custWrapperV1 #lp-pom-text-230 {
+      left: 26px;
+      width: 226px;
+    }
+  
+    .custWrapperV1 #lp-pom-image-235 {
+      left: 289px;
+    }
+  
+    .custWrapperV1 #lp-pom-image-248 {
+      left: 289px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-247 {
+      left: 315px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-247,
+    .custWrapperV1 #lp-pom-text-240,
+    .custWrapperV1 #lp-pom-image-241,
+    .custWrapperV1 #lp-pom-image-248,
+    .custWrapperV1 .lp-pom-text-240 {
+      top: 30px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-234 {
+      left: 315px;
+    }
+  
+ 
+    .custWrapperV1 #lp-pom-text-116 p {
+      line-height: 20px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-116 p span {
+      font-size: 16px !important;
+    }    
+  
+    .custWrapperV1 #lp-pom-text-135 {
+      top: 3540px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-115 {
+      width: auto !important;
+      top: 30px;
+    }
+  
+    .custWrapperV1 #lp-pom-text-115 p span {
+      font-size: 28px !important;
+      line-height: 40px;
+    }
+  
+    .custWrapperV1 .lp-element.lp-pom-image.color {
+      display: none !important;
+    }  
+    
+  }
+  
+  @media(max-width: 600px){
+    .custWrapperV1 .custGallery{
+        height: 100%;   
+    }
+    .custWrapperV1 .custGallery .custGalleryThumbs{
+        bottom: -60px;
+    }
+   
+    .custWrapperV1 #lp-pom-box-112{
+        top: 4965px;
+    }
+    .custWrapperV1 #lp-pom-text-162{
+        top: 100px;
+    }
+    .custWrapperV1 #lp-pom-box-117{
+      top: 5182px;
+    }
+    .custWrapperV1 #lp-pom-box-136{
+        top: 4564px;
+    }
+    .custWrapperV1 #lp-pom-text-556{
+        top: 5450px;
+        left: 0;
+    }
+    .custWrapperV1 #lp-pom-block-175 {
+        background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/milestone-v1-mob-1x.png);
+    }
+
+    .custWrapperV1 .custProductColorWrap{
+      top: 5287px;
+      left: 0;
+    }
+    .custWrapperV1 .custPriceButton{
+      left: 0;
+      top: 5385px;
+    }
+    .custWrapperV1 .custProductColorWrap {
+      top: 5360px;
+      left: 0;
+    }
+    .custWrapperV1 .custPriceButton{
+      left: 0;
+      top: 5455px;
+    }
+  }

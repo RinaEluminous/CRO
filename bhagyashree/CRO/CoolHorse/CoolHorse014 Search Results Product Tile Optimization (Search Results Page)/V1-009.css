@@ -1,0 +1,146 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');
+.custMainWrapper .category-product {
+    border: 1px solid #E6EBF9;
+    border-radius: 0;
+    margin-right: -1px;
+    margin-bottom: -1px;
+    box-shadow: none !important;
+    text-align: left;
+}
+
+.custMainWrapper  .category-product a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Montserrat",Helvetica,Arial,sans-serif;
+    color: #000;
+    text-align: left !important;
+    display: inline-block;
+    width: 100%;
+}
+
+.custMainWrapper  span.category-product-price.ng-binding.ng-scope {
+    color: #2A527A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.custMainWrapper  .category-product a img {
+    margin: 0 auto;
+}
+
+.custMainWrapper  .filter-items-container {
+    margin-bottom: 0;
+}
+
+.custMainWrapper  .category-product p.ng-binding {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color: #000;
+    display: none;
+}
+
+.custMainWrapper  .ss-toolbar.ss-toolbar-bottom.ss-targeted.ng-scope {
+    margin-top: 70px;
+}
+.custMainWrapper div#js-product-list {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.custMainWrapper  .ss-header-container .ss-results-title {
+    padding-top: 0;
+}
+
+.custMainWrapper  .custCTAButton {
+font-size: 14px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    border-radius: 4px;
+    background: #2A527A;
+    border: 0;
+    color: #fff !important;
+    width: 100% !important;
+}
+.custMainWrapper .custCategoryWrapper .custCTAButton + p {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    color: #000;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: block;
+} 
+  .custGreatProduct {
+    width: 50% !important;
+    z-index: 1;
+}
+.custGreatProduct h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 10px 10px;
+    letter-spacing: -0.2px;
+}
+.custGreatProduct h5 span {
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.24px;
+    width: 100%;
+    margin-top: 10px;
+}
+.custGreatProduct::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Coolhorse/great-product.jpg);
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px !important;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    background-size: cover;
+    z-index: -1;
+}
+.custMainWrapper .category-product a:empty {
+    display: none;
+}
+.custMainWrapper p.category-product-name a {
+    min-height: 63px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*media*/
+@media only screen and (max-width: 767px) {
+.custMainWrapper .custCTAButton {
+    padding: 14px 20px;
+}
+
+.custGreatProduct {
+    width: 100% !important;
+    min-height: 355px !important;
+    height: 355px !important;
+}
+.ss-targeted .ss-slideout-button{
+    padding: 4px 36px !important;
+}
+.custGreatProduct::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/Coolhorse/great-product-mobile.jpg);
+}
+}
+</style> 

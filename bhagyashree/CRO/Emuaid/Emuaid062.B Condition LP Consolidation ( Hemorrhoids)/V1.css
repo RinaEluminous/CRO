@@ -1,0 +1,1144 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+ body, html, h1,h2,h3,h4,h5,h6,p,span,b,{
+    font-family: 'Inter', sans-serif;
+}
+ .custHemorrhoidsHeroBanner { 
+     background-color: #EBF0F5;
+     position: relative;
+     z-index: 1;
+}
+  
+.custHemorrhoidsSpeedUpHealing .row {
+    margin-bottom: 0px !important;
+}
+  
+ .custHemorrhoidsHeroBanner .col-md-6 {
+     max-width: 613px;
+     width: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+ .custHemorrhoidRatingWrapper {
+     display: flex;
+     align-items: center;
+     width: 100%;
+}
+ .custHemorrhoidRatingWrapper p {
+     margin: 0 0 0 8px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+}
+ .custHemorrhoidRatingWrapper span.jdgm-star.jdgm--on {
+     padding: 0 5px 0 0 !important;
+     color: #E36018;
+}
+ .custHemorrhoidsHeroBanner h1 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 41px;
+     line-height: 52px;
+     letter-spacing: -0.03em;
+     color: #000;
+     max-width: 453px;
+     padding: 0;
+     margin-top: 15px;
+     margin-bottom: 24px;
+     margin-left: 0;
+}
+ .custHemorrhoidsHeroBanner ul {
+     padding: 0;
+     list-style: none;
+     margin-top: 0;
+     margin-bottom: 0;
+     width: 100%;
+}
+ .custHemorrhoidsHeroBanner ul li {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     color: #000000;
+     letter-spacing: -0.02em;
+     margin-bottom: 16px;
+     display: flex;
+     align-items: center;
+}
+ .custHemorrhoidsHeroBanner ul li img {
+     margin-right: 8px;
+}
+ a.custHemorrhoidsCTA {
+     background: #E36018;
+     border-radius: 1000px;
+     color: #fff !important;
+     padding: 16px 80px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-transform: uppercase;
+     margin-top: 27px;
+     display: inline-block;
+}
+ .custHemorrhoidsHeroBanner .container, .custHemorrhoidsPhysiciansDermatologist .container, .custHemorrhoidsFormulated .container, .custHemorrhoidsSpeedUpHealing .container, .custHemorrhoidsNatureInspired .container, .custHemorrhoidsCommHeadTag .container, .custHemorrhoidsReviews .container {
+     max-width: 1200px;
+     padding: 0 20px;
+     display: block;
+}
+ .custHemorrhoidsHeroBanner:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/hero-section.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 0;
+     transform: translateX(-50%);
+     background-size: 827px auto;
+     z-index: -1;
+}
+.custHemorrhoidsPhysiciansDermatologist h2, 
+.custHemorrhoidsFormulated h2,
+.custHemorrhoidsSpeedUpHealing h2, 
+.custHemorrhoidsNatureInspired h2, 
+.custHemorrhoidsCommHeadTag h2{
+     margin: 40px 0 32px 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 40px;
+     color: #000000;
+     letter-spacing: -0.03em;
+}
+ .custHemorrhoidsPhysiciansDermatologist p, .custHemorrhoidsFormulated p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 28px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 16px;
+     padding-right: 10px;
+}
+ .custHemorrhoidsPhysiciansDermatologist ul, .custHemorrhoidsFormulated ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ .custHemorrhoidsPhysiciansDermatologist ul li, .custHemorrhoidsFormulated ul li {
+     width: calc(25% - 8px);
+     display: flex;
+     align-items: center;
+     flex: 0 0 25%;
+     margin: 0 0 32px 0;
+}
+ .custHemorrhoidsPhysiciansDermatologist .custHemorrhoidsInfoDoctor {
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     padding: 24px;
+     max-width: 540px;
+     width: 100%;
+     position: absolute;
+     bottom: -31px;
+     left: 40px;
+}
+ .custHemorrhoidsPhysiciansDermatologist .custHemorrhoidsInfoDoctor p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 10px;
+}
+ .custHemorrhoidsPhysiciansDermatologist .custHemorrhoidsInfoDoctor span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.03em;
+     color: #292B2D;
+}
+ .custHemorrhoidsHeroBanner .row {
+     margin-bottom: 0;
+}
+ .custHemorrhoidsPhysiciansDermatologist {
+     padding-top: 40px;
+     padding-bottom: 100px;
+     position: relative;
+}
+ .custHemorrhoidsPhysiciansDermatologist .col-md-6:first-child {
+     width: 100%;
+     max-width: 50%;
+}
+ .custHemorrhoidsPhysiciansDermatologist p b {
+     font-weight: 700;
+}
+ .custHemorrhoidsPhysiciansDermatologist ul li span {
+     width: 98px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: -0.01em;
+     color: #000000;
+     margin-left: 8px;
+}
+ .custHemorrhoidsPhysiciansDermatologist .col-md-6:last-child {
+     width: 48%;
+     padding-left: 80px;
+     position: relative;
+}
+ .custHemorrhoidsPhysiciansDermatologist::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/dr._roopa_chari.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 40px;
+     transform: translateX(-50%);
+     background-size: 575px auto;
+     z-index: -1;
+}
+ .custHemorrhoidsPhysiciansDermatologist .container .col-md-6:last-child img , .custHemorrhoidsHeroBanner .col-md-6:first-child, .page-shogun-default .shogun-root, .custHemorrhoidsFormulated .col-md-6:first-child img, .custHemorrhoidsSpeedUpHealing .col-md-6:last-child img {
+     display: none;
+}
+ .custHemorrhoidsFormulated::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/first-aid-for-your-toenails.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: 0 center;
+     transform: translateX(-50%);
+     background-size: auto 540px;
+     z-index: -1;
+}
+ .custHemorrhoidsFormulated, .custHemorrhoidsSpeedUpHealing {
+     position: relative;
+}
+ .custHemorrhoidsFormulated .col-md-6 {
+     max-width: 50%;
+     float: right;
+     flex: 0 0 50%;
+}
+ .custHemorrhoidsFormulated .row {
+     justify-content: space-between;
+}
+ .custHemorrhoidsFormulated h2 small, 
+ .custHemorrhoidsSpeedUpHealing h2 small,
+ .custHemorrhoidsNatureInspired h2 small, 
+ .custHemorrhoidsCommHeadTag h2 small {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #4C4C4C;
+     display: block;
+}
+  
+  .custHemorrhoidsReviews.custHemorrhoidsCommHeadTag h2 {
+    margin-bottom: 10px;
+}
+  
+ .custHemorrhoidsFormulated h2 {
+     margin-bottom: 16px;
+     margin-top: 60px;
+}
+ .custHemorrhoidsFormulated ul li {
+     flex: 100%;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+     margin-bottom: 16px;
+}
+ .custHemorrhoidsFormulated ul li span {
+     margin-left: 16px;
+}
+ .custHemorrhoidsFormulated ul li:last-child {
+     margin-bottom: 0;
+}
+ .custHemorrhoidsFormulated .col-md-6:last-child {
+     padding-left: 60px;
+}
+ a.custHemorrhoidsCTA {
+     margin-bottom: 60px;
+}
+ .custHemorrhoidsPhysiciansDermatologist ul {
+     margin-top: 32px;
+}
+ .custHemorrhoidsKillsFungus ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+     padding: 0;
+     margin: 60px 0 40px 0;
+}
+ .custHemorrhoidsKillsFungus ul li {
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+}
+ .custHemorrhoidsKillsFungus ul li img {
+     margin-right: 8px;
+}
+ .custHemorrhoidsKillsFungus {
+     padding: 0 40px;
+     max-width: 1410px;
+     margin: 0 auto;
+}
+ .custHemorrhoidsSpeedUpHealing h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin: 0 0 4px 0;
+     padding: 0;
+}
+ .custHemorrhoidsSpeedUpHealing p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.03em;
+}
+ .custHemorrhoidsSpeedUpHealing .col-md-6 {
+     width: 100%;
+     max-width: 50%;
+}
+ .custHemorrhoidsSpeedUpHealing ul {
+     padding: 0;
+     margin: 34px 0 0 0;
+     list-style: none;
+}
+ .custHemorrhoidsSpeedUpHealing ul li {
+     display: flex;
+     flex: 0 0 100%;
+     flex-wrap: wrap;
+     position: relative;
+     counter-increment: my-sec-counter;
+}
+ .custHemorrhoidsSpeedUpHealing ul li::before {
+     content: ""counter(my-sec-counter) "";
+     width: 32px;
+     height: 32px;
+     background: #fff;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 4px;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+}
+ .custHemorrhoidsSpeedUpHealing {
+     background-color: #F2F7FA;
+     z-index: 1;
+     padding: 80px 0;
+}
+ .custHemorrhoidsSpeedUpHealing ul li span {
+     width: calc(100% - 50px);
+     margin-left: 16px;
+}
+ .custHemorrhoidsSpeedUpHealing:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/speed_up_healing.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right center;
+     transform: translateX(-50%);
+     background-size: 610px auto;
+     z-index: -1;
+}
+ .custHemorrhoidsSpeedUpHealing a.custHemorrhoidsCTA {
+     margin-top: 10px;
+     margin-bottom: 0;
+}
+ .custHemorrhoidsNatureInspired ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .custHemorrhoidsNatureInspired {
+     background: #f2f7fa;
+     padding: 40px 0;
+}
+ .custHemorrhoidsNatureInspired h2 {
+     margin-top: 0;
+}
+ .custHemorrhoidsNatureInspired h2 small {
+     max-width: 70%;
+     line-height: 28px;
+     margin-top: 12px;
+}
+ .custHemorrhoidsNatureInspired ul li {
+     flex: 0 0 16.66%;
+     max-width: calc(16.66% - 14px);
+     margin-right: 16px;
+     background: #fff;
+     border-radius: 16px;
+     overflow: hidden;
+     margin-bottom: 0;
+}
+ .custHemorrhoidsNatureInspired ul li:last-child {
+     margin: 0;
+}
+ .custHemorrhoidsNatureInspired ul li img {
+     width: 100% !important;
+}
+ .custHemorrhoidsNatureInspired ul li:first-child {
+     border: 1px solid #C4222E;
+}
+ .custHemorrhoidsClinicallyTested h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #000000;
+     margin: 0;
+     padding: 0;
+}
+ .custHemorrhoidsClinicallyTested p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #717171;
+     margin: 5px 0;
+}
+ .custHemorrhoidsClinicallyTested span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #C4222E;
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+ .custHemorrhoidsIngredients a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #717171;
+    position: relative;
+    transition: all 0.5s;
+     cursor: pointer;
+         -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  .custHemorrhoidsIngredients a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #717171;
+    position: absolute;
+    border: 0;
+    top: 100%;
+}
+ .custHemorrhoidsClinicallyTested {
+     padding: 12px;
+     position: relative;
+     width: 100%;
+     padding-bottom: 30px;
+}
+ .custHemorrhoidsFirstAidOintment {
+     width: 100%;
+     display: flex;
+     background: #F2F7FA;
+     padding: 40px;
+     border-radius: 16px;
+     flex-wrap: wrap;
+}
+ .custHemorrhoidsProducts {
+     flex: 0 0 33.33%;
+     max-width: calc(33.33% - 16px);
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin-right: 24px;
+     text-align: center;
+     padding: 24px;
+}
+ .custHemorrhoidsProducts:last-child {
+     margin-right: 0;
+}
+ .custHemorrhoidsProducts h5 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     letter-spacing: -0.02em;
+     color: #000000;
+}
+ .custHemorrhoidsProducts span.jdgm-prev-badge__stars * {
+     color: #000;
+}
+ .custHemorrhoidsProducts span.customNumberRating {
+     margin-left: 7px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     font-family: 'Inter', sans-serif;
+}
+  
+.custRatingsStar .jdgm-star.jdgm--on:before {
+    content: '';
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-full.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+.custHemorrhoidsProducts span.jdgm-prev-badge__stars span:last-child:before{
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-half.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    content: '' !important;
+    background-position: center;
+}
+
+.custHemorrhoidsProducts span.jdgm-prev-badge__stars span {
+    width: 21px;
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+    height: 20px;
+} 
+
+.custRatingsStar span.jdgm-prev-badge__stars {
+    display: flex;
+    justify-content: center;
+}
+
+.custRatingsStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+  
+  
+ .custRatingsStar span.jdgm-prev-badge__text {
+     color: #717171;
+     font-family: 'Inter', sans-serif;
+     font-size: 16px;
+     line-height: 20px;
+     margin-left: 8px;
+     font-weight: 500;
+}
+ .custProductPrice {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 28px;
+     text-align: center;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin: 15px 0;
+     font-family: 'Inter', sans-serif;
+}
+ .custHemorrhoidsIngredients {
+     margin-top: 40px;
+}
+ .custHemorrhoidsProducts img {
+     width: 100%;
+     max-width: 240px;
+}
+ .custHemorrhoidsButtonWrap a.custHemorrhoidsCTA {
+     padding-left: 0;
+     padding-right: 0;
+     width: 100%;
+     font-weight: 600;
+}
+ .custHemorrhoidsButtonWrap a.custHemorrhoidsCTA {
+     margin: 0 0;
+}
+ .custHemorrhoidsCommHeadTag h2 small {
+     margin-top: 12px;
+}
+ .custHemorrhoidsMoneyBackGuaranteeText {
+     background: #F2F7FA;
+     border-radius: 16px;
+     padding-left: 120px;
+     padding-right: 120px;
+    flex-wrap: nowrap !important;
+     align-items: center;
+     margin-bottom: 40px !important;
+}
+ .custHemorrhoidsMoneyBackGuaranteeText div {
+     margin-left: 30px;
+}
+ .custHemorrhoidsMoneyBackGuaranteeText h2 {
+     margin: 0 0 14px 0;
+}
+ .custHemorrhoidsMoneyBackGuaranteeText p:last-child {
+     margin-bottom: 0;
+}
+ .row.custHemorrhoidsMoneyBackGuaranteeText p {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     color: #000;
+     font-family: 'Inter', sans-serif;
+}
+ .custHemorrhoidsHeroBanner a.custHemorrhoidsCTA {
+     margin-bottom: 0;
+}
+ .custHemorrhoidsIngredients a::after {
+     content: "+";
+}
+ .custHemorrhoidsDropdownIngredients {
+     height: 0;
+     overflow: hidden;
+     transition: all 0.5s;
+     margin-top: 14px;
+}
+
+ a.custHemorrhoidsActiveIngredient + .custHemorrhoidsDropdownIngredients {
+     height: auto;
+}
+ a.custHemorrhoidsActiveIngredient:after {
+     content: "-";
+}
+ .custHemorrhoidsReviews{
+     overflow-x: hidden;
+   padding-top: 40px;
+}
+ .custHemorrhoidsReviews .swiper {
+     width: 100%;
+     height: 100%;
+     padding-bottom: 60px;
+}
+ .custHemorrhoidsReviews .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+    /* Center slide text vertically */
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     align-items: center;
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     min-height: 270px;
+     align-items: baseline;
+     margin-top: 30px;
+}
+ .custHemorrhoidsReviews main {
+     margin-right: -15%;
+     margin-left: -15%;
+}
+ .custHemorrhoidsComparisonCarousel {
+     margin-right: -10%;
+     margin-left: -10%;
+}
+ div#swiper-wrapper-a710b88f3b536746f {
+}
+ .custHemorrhoidsInstitutionalTestimonials {
+     text-align: left;
+     padding: 24px 24px;
+}
+ .custHemorrhoidsStarsRatings * {
+     color: #0069BC !important;
+}
+ .custHemorrhoidsInstitutionalTestimonials p {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.02em;
+     margin-top: 16px;
+     font-family: 'Inter', sans-serif;
+}
+ .custHemorrhoidsInstitutionalTestimonials .author {
+     position: absolute;
+     bottom: 15px;
+}
+ .custHemorrhoidsInstitutionalTestimonials .author span {
+     color: #717171;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     margin-left: 16px;
+     display: flex;
+     align-items: center;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ .custHemorrhoidsInstitutionalTestimonials .author span img {
+     margin-right: 4px;
+}
+ .custHemorrhoidsInstitutionalTestimonials .author cite {
+     display: flex;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #000;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ 
+ .swiper-pagination-clickable .swiper-pagination-bullet {
+     opacity: 0.3;
+}
+  .swiper-pagination-bullet-active {
+     background: #323232 !important;
+     opacity: 1 !important;
+}
+ .swiper-pagination {
+     margin-top: 50px;
+     position: relative !important;
+}
+
+.custHemorrhoidsFormulated p{
+    font-weight: 500;
+}
+
+.shg-c.custHemorrhoidsDisclaimer .container {
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.shg-c.custHemorrhoidsDisclaimer {
+    padding: 0 0 40px 0;
+}
+
+.shg-c.custHemorrhoidsDisclaimer p{
+    font-size: 14px;
+      line-height: 1.5;
+}
+/* media */
+ @media(max-width: 1500px) {
+     .custHemorrhoidsHeroBanner:after {
+         right: 0;
+         left: auto;
+         transform: none;
+    }
+}
+ @media(max-width: 1199px) {
+     .custHemorrhoidsSpeedUpHealing h2 {
+         margin-top: 0;
+    }
+     .custHemorrhoidsNatureInspired ul li {
+         max-width: calc(25% - 16px);
+         flex: 0 0 25%;
+         margin-bottom: 15px;
+    }
+     .custHemorrhoidsNatureInspired ul {
+    }
+     .custHemorrhoidsFormulated::after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         left: 0;
+         transform: none;
+    }
+     .custHemorrhoidsPhysiciansDermatologist ul li {
+         width: calc(33.33% - 8px);
+         flex: 0 0 33.33%;
+    }
+     .custHemorrhoidsPhysiciansDermatologist::after, .custHemorrhoidsSpeedUpHealing:after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         transform: none;
+         right: 0;
+         background-position: center;
+    }
+     .custHemorrhoidsPhysiciansDermatologist {
+         padding-bottom: 20px;
+    }
+     a.custHemorrhoidsCTA {
+         margin-bottom: 0;
+    }
+     .custHemorrhoidsProducts div.custSpace {
+         padding: 0;
+    }
+     .custHemorrhoidsPhysiciansDermatologist h2, .custHemorrhoidsFormulated h2, .custHemorrhoidsSpeedUpHealing h2, .custHemorrhoidsNatureInspired h2, .custHemorrhoidsCommHeadTag h2 {
+         font-size: 24px;
+         line-height: 32px;
+    }
+     .row.custHemorrhoidsMoneyBackGuaranteeText {
+         padding: 0 20px;
+    }
+     .row.custHemorrhoidsMoneyBackGuaranteeText p {
+         font-size: 16px;
+         line-height: 1.4;
+    }
+}
+ @media(max-width: 1024px) {
+     .custHemorrhoidsHeroBanner:after {
+         left: 0;
+         transform: none;
+         width: 100%;
+         background-size: 460px;
+    }
+}
+ @media(max-width: 991px) {
+     .custHemorrhoidsHeroBanner {
+         margin-top: 60px;
+         background-size: 60%;
+         padding: 30px 0;
+    }
+     .custHemorrhoidsHeroBanner h1 {
+         font-size: 32px;
+         line-height: 40px;
+    }
+     .custHemorrhoidRatingWrapper p {
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custHemorrhoidsHeroBanner ul li {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 20px;
+    }
+     .custHemorrhoidsHeroBanner a.custHemorrhoidsCTA {
+         font-size: 20px;
+         line-height: 24px;
+         order: 3;
+         margin-top: 0;
+         margin-bottom: 0;
+    }
+     .custHemorrhoidsHeroBanner .col-md-6 {
+         max-width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+}
+/* media */
+ @media(max-width: 860px) {
+     .custHemorrhoidsProducts {
+         flex: 0 0 100%;
+         max-width: 100%;
+         margin-bottom: 15px;
+    }
+     .custHemorrhoidsFirstAidOintment {
+         padding: 15px;
+    }
+     .custHemorrhoidsProducts:last-child {
+         margin-bottom: 0;
+    }
+     .custHemorrhoidsCommHeadTag {
+         padding: 0 15px;
+    }
+}
+ @media(max-width: 767px) {
+     .custHemorrhoidsHeroBanner {
+         background-image: none;
+         padding: 0 0;
+    }
+     .custHemorrhoidsHeroBanner h1 {
+         max-width: 100%;
+         order: 2;
+    }
+     .custHemorrhoidRatingWrapper {
+         order: 1;
+    }
+     .custHemorrhoidsHeroBanner ul {
+         order: 4;
+    }
+     .custHemorrhoidsHeroBanner .container, .custHemorrhoidsPhysiciansDermatologist .container, .custHemorrhoidsFormulated .container, .custHemorrhoidsCommHeadTag .container {
+         padding: 0 0;
+    }
+     .custHemorrhoidsHeroBanner .col-md-6:first-child img {
+         width: 100%;
+    }
+     .custHemorrhoidsHeroBanner .col-md-6:first-child {
+         display: block;
+    }
+     .custHemorrhoidsHeroBanner .col-md-6:nth-child(2) {
+         padding: 34px 15px;
+       background-color: #f2f7fa;
+    }
+     .custHemorrhoidsHeroBanner ul li {
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 20px;
+         margin-bottom: 6px;
+    }
+     .custHemorrhoidsHeroBanner a.custHemorrhoidsCTA {
+         margin-bottom: 24px;
+    }
+     .custHemorrhoidsHeroBanner:after {
+         display: none;
+    }
+    /*new*/
+     .custHemorrhoidsPhysiciansDermatologist::after, .custHemorrhoidsSpeedUpHealing:after, .custHemorrhoidsFormulated::after {
+         display: none;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .col-md-6:first-child, .custHemorrhoidsFormulated .col-md-6:last-child, .custHemorrhoidsSpeedUpHealing .col-md-6 {
+         max-width: 100%;
+         padding: 0 15px;
+         order: 2;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .col-md-6:last-child, .custHemorrhoidsFormulated .col-md-6, .custHemorrhoidsSpeedUpHealing .col-md-6:last-child {
+         max-width: 100%;
+         width: 100%;
+         padding: 0;
+         order: 1;
+         margin-bottom: 0;
+         flex: 0 0 100%;
+    }
+     .custHemorrhoidsSpeedUpHealing .col-md-6:last-child {
+         margin-bottom: 30px;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .container .col-md-6:last-child img, .custHemorrhoidsFormulated .col-md-6:first-child img, .custHemorrhoidsSpeedUpHealing .col-md-6:last-child img {
+         display: block;
+         width: 100%;
+    }
+     .custHemorrhoidsPhysiciansDermatologist h2, .custHemorrhoidsFormulated h2, .custHemorrhoidsSpeedUpHealing h2, .custHemorrhoidsNatureInspired h2 {
+         font-size: 24px;
+         line-height: 32px;
+         margin-bottom: 10px;
+         margin-top: 0;
+    }
+     .custHemorrhoidsPhysiciansDermatologist p, .custHemorrhoidsFormulated p {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custHemorrhoidsPhysiciansDermatologist ul li {
+         width: calc(50% - 8px);
+         flex: 0 0 50%;
+         margin-bottom: 15px;
+    }
+     .custHemorrhoidsFormulated .col-md-6 {
+         margin-bottom: 30px;
+    }
+     .custHemorrhoidsFormulated h2 small, 
+     .custHemorrhoidsSpeedUpHealing h2 small, 
+     .custHemorrhoidsNatureInspired h2 small,
+     .custHemorrhoidsCommHeadTag h2 small {
+         font-size: 18px;
+         max-width: 100%;
+         line-height: 24px;
+    }
+     .custHemorrhoidsFormulated ul {
+         margin-bottom: 20px;
+    }
+     .custHemorrhoidsKillsFungus ul {
+         margin-top: 0;
+         flex-wrap: wrap;
+         margin-bottom: 30px;
+    }
+     .custHemorrhoidsFormulated .col-md-6:last-child {
+         margin-bottom: 0;
+    }
+     .custHemorrhoidsKillsFungus ul li {
+         width: 100%;
+         margin: 8px 0;
+         font-size: 14px;
+    }
+     .custHemorrhoidsKillsFungus {
+         padding: 0 15px;
+    }
+     .custHemorrhoidsSpeedUpHealing {
+         padding: 0;
+    }
+     .custHemorrhoidsSpeedUpHealing .container {
+         padding: 0;
+    }
+     .custHemorrhoidsSpeedUpHealing ul {
+         margin-top: 24px;
+    }
+     .custHemorrhoidsSpeedUpHealing h4 {
+         font-size: 18px;
+    }
+     .custHemorrhoidsSpeedUpHealing p {
+         font-weight: 500;
+         font-size: 16px;
+    }
+     .custHemorrhoidsSpeedUpHealing a.custHemorrhoidsCTA {
+         margin-bottom: 30px;
+         width: 100%;
+         text-align: center;
+    }
+     .custHemorrhoidsNatureInspired ul {
+         margin-top: 24px;
+    }
+     .custHemorrhoidsNatureInspired ul li {
+         max-width: 100%;
+         flex: 0 0 100%;
+         margin-bottom: 10px;
+         display: flex;
+    }
+     .custHemorrhoidsNatureInspired ul li img {
+         width: 100px;
+    }
+     .custHemorrhoidsIngredients {
+         margin-top: 24px;
+    }
+     .custHemorrhoidsIngredients a {
+         font-size: 18px;
+         line-height: 20px;
+    }
+     .custHemorrhoidsNatureInspired {
+         padding: 30px 0;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .custHemorrhoidsInfoDoctor p {
+         font-size: 18px;
+         line-height: 24px;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .custHemorrhoidsInfoDoctor {
+         max-width: calc(100% - 30px);
+         left: 15px;
+         bottom: -85px;
+       padding: 8px 15px;
+    }
+     .custHemorrhoidsPhysiciansDermatologist .col-md-6:last-child {
+         margin-bottom: 115px;
+    }
+     .custHemorrhoidsMoneyBackGuaranteeText div {
+         margin: 0;
+    }
+     .custHemorrhoidsMoneyBackGuaranteeText {
+         flex-wrap: wrap !important;
+         justify-content: center;
+         padding: 15px !important;
+         margin-top: 60px;
+         margin-bottom: 30px;
+    }
+     .custHemorrhoidsClinicallyTested p {
+         font-size: 14px;
+         line-height: 18px;
+    }
+     .custHemorrhoidsProdImageWrapper img {
+         object-fit: cover;
+         height: 100%;
+         width: 100%;
+    }
+     .custHemorrhoidsPhysiciansDermatologist {
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .custHemorrhoidsFormulated h2 small b, .custHemorrhoidsSpeedUpHealing h2 small b, .custHemorrhoidsNatureInspired h2 small b {
+         font-weight: 600;
+    }
+     .custHemorrhoidsClinicallyTested span {
+         position: relative;
+         top: 0;
+         right: 0;
+         left: 0;
+         font-size: 13px;
+         padding: 0;
+         line-height: normal;
+         display: block;
+    }
+    .custHemorrhoidsReviews main {
+    margin: 0 0;
+    }
+
+    .custHemorrhoidsReviews .swiper-slide {
+         min-height: auto; 
+    }
+    .custHemorrhoidsFormulated ul li {
+        align-items: self-start;
+    }
+
+    .custHemorrhoidsFormulated ul li span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+       .custHemorrhoidsReviews .swiper {
+        padding-bottom: 20px;
+    }
+       .custHemorrhoidsInstitutionalTestimonials .author {
+        position: relative;
+        margin-top: 15px;
+        bottom: 0;
+    }
+     .custHemorrhoidsProdImageWrapper {
+        max-width: 100px;
+    } 
+    .custHemorrhoidsClinicallyTested {
+        width: calc(100% - 100px);
+    }
+}
+ @media(max-width: 340px) {
+     .custHemorrhoidsClinicallyTested h4 {
+         font-size: 14px;
+    }
+     .custHemorrhoidsProdImageWrapper {
+         width: 80px;
+    } 
+     .custHemorrhoidsClinicallyTested {
+         width: calc(100% - 80px);
+    }
+}
+</style>

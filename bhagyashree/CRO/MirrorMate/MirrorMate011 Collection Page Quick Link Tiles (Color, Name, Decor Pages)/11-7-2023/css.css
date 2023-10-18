@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+main.main-content 
+ .wrapper {
+    padding: 0;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header.content-util nav.breadcrumb * {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.26px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    color: #8699A7;
+}
+header.content-util nav.breadcrumb span {
+    color: #8699A7;
+}
+header.content-util nav.breadcrumb a {
+    color: #3E5569;
+}
+.collection .grid.full-width .collection-container {padding-left: 0;}
+
+header.collection-header h1 {
+    color: #2F2F2F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    font-family: 'Inter', sans-serif;
+}
+.description.rte p {
+    color: #2F2F2F;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+    font-family: 'Inter', sans-serif;
+}
+main.main-content .wrapper .grid.full-width, main.main-content .wrapper header.content-util {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.custProdustsSliderMF .container {
+    max-width: 1360px;
+    margin: 0 auto;
+    /* background: #F2F6FF; */
+}
+.custProdustsSliderMF .slick-list {
+    padding-left: 0 !important;
+}
+.custProdustsSliderMF .slick-track a {
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(35, 78, 166, 0.10);
+    margin-right: 8px;
+    display: inline-block;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+    color: #3E5569;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.custProdustsSliderMF .slick-track a span {
+    margin: 10px 0;
+    display: inline-block;
+}
+.custProdustsSliderMF {
+    background: #F2F6FF;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 10px;
+}

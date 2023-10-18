@@ -1,0 +1,79 @@
+header.PageHeader--small.PageHeader--withBackground .Container,
+header.PageHeader--small.PageHeader--withBackground .PageHeader__ImageWrapper{
+  display: none;
+}
+.CollectionMain .CollectionToolbar{
+    box-shadow: none;
+    border-bottom: 1px solid var(--border-color);
+}
+header.PageHeader--small.PageHeader--withBackground {
+  min-height: inherit !important;
+  height: 100%;
+  margin: 35px 0 0;
+}
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner {
+    display: flex;
+    width: 100%;
+    gap: 0 16px;
+    background: #fff;
+    height: auto;
+    min-height: inherit !important;
+    flex-wrap: wrap;
+}
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .imageBox {
+    flex: 0 0 calc(33.33% - 11px);
+    height: inherit;
+}
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .imageBox img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox {
+  width: 100%;
+  flex: 0 0 100%;
+  color: #000;
+  text-align: center;
+  padding: 24px 0 20px;
+}
+
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox h2 {
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 128.571% */
+  letter-spacing: 0.56px;
+  margin: 0 0 8px;
+}
+
+header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox p {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media(max-width: 767px){
+  header.PageHeader--small.PageHeader--withBackground .custCCheroBanner{
+    gap: 0 10px;
+  }
+  header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .imageBox{
+    flex: 0 0 calc(33.33% - 7px);
+  }
+}
+@media(max-width: 579px){      
+  header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox{
+    padding: 14px 0 10px;
+  }
+  header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox h2{
+    font-size: 24px;
+    line-height: 26px;
+  }
+  header.PageHeader--small.PageHeader--withBackground .custCCheroBanner .textBox p{
+    font-size: 13px;
+  }
+}

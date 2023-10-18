@@ -1,0 +1,90 @@
+<style>
+@media screen and (min-width:1008px) {
+	.CollectionInner .custSortingColumn {
+		flex: 0 0 260px;
+		order: 1;
+		padding: 41px 0 41px 45px;
+		box-shadow: 1px 1px var(--border-color), -1px -1px var(--border-color)
+	}
+
+	.CollectionInner .CollectionInner__Products {
+		order: 2;
+		flex: 0 0 calc(100% - 260px);
+		padding-top: 50px
+	}
+
+	.CollectionInner {
+		margin-top: 0
+	}
+
+	.CollectionInner .custSortingColumn h6 {
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 17px;
+		letter-spacing: .1em;
+		text-transform: uppercase !important; 
+		font-family: "Twentieth Century", sans-serif !important;
+		margin: 0 0 25px;
+		padding: 0 0 15px;
+		border-bottom: 1px solid var(--border-color);
+		display: inline-block;
+		max-width: 140px;
+		width: 100%
+	}
+
+	.CollectionInner .custSortingColumn ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		max-width: 140px;
+		width: 100%
+	}
+
+	.CollectionInner .custSortingColumn ul li {
+		font-weight: 400;
+		font-size: 16px;
+		font-family: var(--text-font-family) !important;
+		text-transform: uppercase;
+		margin: 20px 0 0
+	}
+
+	.CollectionInner .custSortingColumn ul li:first-child {
+		margin: 0
+	}
+
+	.CollectionInner .custSortingColumn .inner {
+		position: sticky;
+		top: 180px
+	}
+
+	.CollectionInner .CollectionInner__Products .ProductList--grid[data-desktop-count="4"]>.Grid__Cell {
+		width: 33.33%
+	}
+}
+
+.shopify-custom-collection-list,
+.template-collection .ProductList .Grid__Cell,
+.CollectionInner .Pagination {
+	display: none;
+}
+
+.CollectionInner .custShopMoreBtnWraper {
+	text-align: center;
+	padding: 50px 0;
+	display: block;
+}
+
+.CollectionInner .custShopMoreBtnWraper button.shopMoreBtn {
+	padding: 15px 30px;
+	border: 1px solid #000000;
+	max-width: 283px;
+	width: 100%;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 17px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	font-family: var(--text-font-family) !important;
+	font-family: var(--heading-font-family) !important;
+}
+</style>

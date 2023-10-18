@@ -1,0 +1,383 @@
+<style>
+.shopify-section.section-banner-tiles-large .position-relative.overflow-hidden + .d-block.d-lg-none,
+.shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative > .row.row-cols-5{
+    display: none !important;
+}
+
+.custBetterSleepWraper {
+    padding: 64px 0;
+    text-align: center;
+}
+
+.custBetterSleepWraper h2 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 40px;
+}
+.custHeroBannerContentMain,
+.custAddPillowMainWraper,
+.custBetterSleepWraper .custTabContent {
+    display: none;
+}
+.custBetterSleepWraper .custBetterSleepTabs .tabs {
+    display: flex;
+    gap: 0 4px;
+}
+.custBetterSleepWraper .custBetterSleepTabs::-webkit-scrollbar {
+    display: none;
+}
+.custBetterSleepWraper .custBetterSleepTabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 40px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab {
+    padding: 12px 24px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab.active {
+    background: #DDDDDD;
+    color: #000;
+}
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab span {
+    padding: 2px 6px;
+    background: #84948B;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-flex;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemBox a {
+    text-decoration: none;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemBox img {
+    width: 100%;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemImageBox {
+    position: relative;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge span {
+    padding: 8px 24px;
+    background: #FAD950;
+    border-radius: 2px;
+    color: #000;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge.bestseller span {
+    background: #000000;
+    color: #fff;
+}
+
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .custItemBox {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .custCardBody {
+    padding: 10px 30px 10px 15px;
+    position: relative;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custCardBody h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custCardBody .col-auto.lh-80 {
+    position: absolute;
+    right: 10px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .card-footer {
+    padding-top: 4px !important;
+    min-height: 60px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .card-footer p {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    font-family: var(--bs-body-font-family);
+    opacity: 0.9;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn {
+    padding-top: 40px;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn a {
+    padding: 12px 48px;
+    background: #FAD850;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: var(--bs-body-font-family);
+    text-decoration: none;
+    display: inline-flex;
+    transition: 0.3s all;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn a:hover {
+    background: #000;
+    color: #fff;
+}
+.custBetterSleepWraper .custBetterSleepItems{
+    padding: 10px;
+}
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-next,
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-prev{
+    font-size: 0 !important;
+    border-radius: 500px;
+    width: 36px;
+    height: 36px;
+}
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-next:after,
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-prev:after{
+    font-size: 0;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.accessories .custCardBody {
+    min-height: 60px;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.accessories .card-footer {
+    min-height: 60px;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.bundles .custCardBody {
+    min-height: 60px;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.bundles .card-footer {
+    min-height: 60px;
+}
+.custBetterSleepWraper .custBetterSleepTabs .custTabScroller{
+    display: none;
+}
+
+.custProductTilesWraperHP .custPartnerWraperProductTiles {
+    padding: 24px 0 20px;
+}
+
+.custPartnerWraperProductTiles .cusrPartnerBoxTiles {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.custPartnerWraperProductTiles .cusrPartnerBoxTiles p {
+    margin: 0 0 12px;
+    font-size: 13px !important;
+    line-height: 16px;
+}
+
+.custPartnerWraperProductTiles .cusrPartnerBoxTiles .image-wrapper {
+    padding-bottom: 39px;
+}
+
+.custPartnerWraperProductTiles .cusrPartnerBoxTiles .image-wrapper img {
+    width: auto;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custPartnerWraperProductTiles .swiper-pagination span.swiper-pagination-bullet {
+    width: 30px;
+    height: 3px;
+    border-radius: 0;
+}
+
+.custPartnerWraperProductTiles .swiper-pagination span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #6c6c6c;
+}
+
+.shopify-section.section-banner-tiles-large .image-cover picture{
+    display: none;
+}
+.shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative{
+    margin-top: 7rem!important;
+    margin-bottom: 7rem!important;
+}
+.shopify-section.section-banner-tiles-large .image-cover img {
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+}
+.shopify-section.section-banner-tiles-large .image-cover:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative h2{
+    font-family: var(--bs-body-font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+}
+.shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative a.btn.btn-secondary {
+    font-weight: 600;
+    height: 46px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1399px) {
+    .custPartnerWraperProductTiles .container {
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .custProductTilesWraperHP .custPartnerWraperProductTiles .container {
+        max-width: 100%;
+    }
+}
+@media(max-width: 991px){    
+    .custBetterSleepWraper{
+        margin: -14px 0 0;
+        padding-top: 0;
+        position: relative;   
+    }
+    .custBetterSleepWraper h2{
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 0 10px;
+    }
+    .custBetterSleepWraper .custBetterSleepTabs{
+        overflow: auto;
+        padding: 10px 0 5px;
+        margin: 0 -12px 0 5px;
+        position: relative;
+        z-index: 2;
+    }
+    .custBetterSleepWraper .custBetterSleepTabs .tabs{
+        gap: 0 2px;
+        overflow: visible;
+    }
+    .custBetterSleepWraper .custBetterSleepTabs .tabs .custTab{
+        padding: 8px 16px;
+        font-size: 14px;
+        position: relative;
+        white-space: nowrap;
+    }
+    .custBetterSleepWraper .custBetterSleepTabs .tabs .custTab span{
+        position: absolute;
+        bottom: calc(100% - 10px);
+    }
+    .custBetterSleepWraper .custBetterSleepTabsContent{
+        margin: -14px 0 0;
+    }
+    .custBetterSleepWraper .custBetterSleepTabs .tabs{
+        margin: 0 0 18px;
+    }
+}
+@media(max-width: 767px){
+    .custBetterSleepWraper .custBetterSleepTabs{
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-right: 0;
+    }
+    .custBetterSleepWraper .custBetterSleepItems .swiper-wrapper{
+        width: calc(50% + 50vw);
+    }
+    .custBetterSleepWraper .custBetterSleepItems .swiper-wrapper .swiper-slide{
+        width: 60%;
+    }
+    .custBetterSleepWraper .custTabContent {
+        margin-right: -12px;
+    }
+    .custBetterSleepWraper{
+        padding: 27px 0 15px;
+    }
+    .custBetterSleepWraper .custShopAllPillowBtn{
+        padding-top: 10px;
+    }
+    .custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.travel_comfort .custCardBody,
+    .custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.bundles .custCardBody{
+        min-height: 80px;
+    }    
+    .custBetterSleepWraper .custBetterSleepTabsContent .custBetterSleepItems.accessories .custCardBody{
+        min-height: 100px;
+    }
+    .custBetterSleepWraper .custBetterSleepItems .swiper-button-next, 
+    .custBetterSleepWraper .custBetterSleepItems .swiper-button-prev{
+        display: none;
+    }
+    
+    .custPartnerWraperProductTiles .cusrPartnerBoxTiles{
+        padding: 0 8px;
+    }    
+
+    .custPartnerWraperProductTiles .swiper {
+        padding-bottom: 45px;
+    }
+    .shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative h2{
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: normal;
+    }
+    .shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative h4{
+        letter-spacing: 0.5px;
+        margin: 0 0 -5px;
+    }
+    .shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative{
+        margin-top: 0rem!important;
+        margin-bottom: 0rem!important;
+    }
+    .shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative .my-6.my-md-4.my-xxl-6 {
+        margin: 35px 0 !important;
+    }
+}
+
+@media(max-width: 559px){
+    .custBetterSleepWraper .custBetterSleepTabs .custTabScroller{
+        display: block;
+        width: 22px;
+        height: 46px;
+        position: sticky;
+        right: 0;
+        padding-left: 0;
+        margin-top: -4px;
+    }
+}
+</style>

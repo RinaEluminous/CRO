@@ -1,0 +1,127 @@
+<style>
+.custStickyFooterQualifyPopup {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    position: fixed;
+    right: 15px;
+    left: 15px;
+    bottom: 15px;
+    z-index : 99;
+    padding: 15px;
+}
+
+.custStickyFooterQualifyPopup .bookBtnWraper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 15px;
+    flex-direction: column;
+}
+
+.custStickyFooterQualifyPopup .bookBtnWraper a.btn.fill {
+    margin: 0;
+    padding: 15px 30px;
+    font-size: 18px;
+    line-height: 18px;
+    background: #26D07C;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.custStickyFooterQualifyPopup .bookBtnWraper a.btn.outline {
+    border: 1px solid #26D07C;
+    border-radius: 5px;
+    font-family: "proxima-soft", "Open Sans", "Times New Roman", Times, serif;
+    font-weight: 500;
+    font-size: 18px;
+    width: 100%;
+}
+
+.custStickyFooterQualifyPopup h4 {
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "proxima-soft","Open Sans","Times New Roman",Times,serif;
+    color: #35CE7F;
+    text-transform: uppercase;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    letter-spacing: normal;
+    margin: 0 0 10px;
+}
+
+.custStickyFooterQualifyPopup h3 {
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "proxima-soft","Open Sans","Times New Roman",Times,serif;
+    color: #000000;
+    line-height: 24px;
+    margin: 0 0 5px;
+    letter-spacing: normal;
+}
+
+.custStickyFooterQualifyPopup p {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "proxima-soft","Open Sans","Times New Roman",Times,serif;
+    margin: 0 0 10px;
+    font-weight : 400;
+}
+
+.custStickyFooterQualifyPopup span.close-btn {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1px solid #DADAE0;
+    background: #fff;
+}
+.custStickyFooterQualifyPopup span.close-btn:before, 
+.custStickyFooterQualifyPopup span.close-btn:after {
+    content: '';
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #9797A2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6px;
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.custStickyFooterQualifyPopup span.close-btn:before{
+    margin-top: -1px;
+    transform: rotate(45deg);
+}
+.custStickyFooterQualifyPopup span.close-btn:after{
+    margin-top: -1px;
+    transform: rotate(-45deg);
+}
+@media screen and (max-width: 767px) and (orientation: landscape){
+    .custStickyFooterQualifyPopup{
+        right: 10px;
+        left: 10px;
+        bottom: 5px;
+    }
+    .custStickyFooterQualifyPopup .inner {
+        max-height: 140px;
+        overflow-y: auto;
+    }
+}
+</style>

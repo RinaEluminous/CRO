@@ -1,0 +1,70 @@
+<div class="custStickyWaterSewer">
+	<div class="custWaterActive custWaterSewerBlocks">Water &amp; Sewer Line Protection</div>
+<div class="custBurstPipeRuin"><div class="close-arrow"><img src="https://growth-hit.s3.us-west-2.amazonaws.com/ARW/close-arrow.svg"></div><h3>Don't Let a Burst Pipe Ruin Your Home</h3> <p>Learn why protecting your water &amp; sewer lines are so important today!</p><a href="https://arwhome.com/wsl-plan"> <span>Explore More About </span>Water &amp; Sewer Line Protection </a></div>
+</div>
+
+
+<style type="text/css">
+	.custStickyWaterSewer { 
+    border-radius: 12px 12px 0px 0px; 
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    position: sticky;
+    left: calc(100% - 350px);
+    top: 100px;
+    z-index: 9; 
+}
+
+section.arw-bg-grey-lite {
+    position: relative; 
+}
+
+.custWaterSewerBlocks {
+    background: #098040;
+    border-radius: 12px 12px 0px 0px;
+    transform: rotate(270deg);
+    width: 100%;
+    width: 350px;
+    height: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-origin: right;
+    position: relative;
+    right: 18px;
+    top: -18px;
+    transition: all 0.5s;
+}
+
+.custStickyWaterSewer + .container {
+    margin-top: -350px;
+}
+
+.custStickyWaterSewer .custBurstPipeRuin {
+    position: absolute;
+    top: 50%;
+    transform: translate(20px, -50%);
+    right: -100%;
+    transition: all 0.5s;
+}
+
+.custWaterSewerBlocks.custWaterActive {
+    right: -100%;
+}
+
+.custWaterActive + .custBurstPipeRuin {
+    right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.custWaterSewerBlocks  + .custBurstPipeRuin a {
+    height: auto;
+    color: #fff !important;
+}
+</style>

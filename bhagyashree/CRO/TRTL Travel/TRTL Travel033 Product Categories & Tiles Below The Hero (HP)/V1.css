@@ -1,0 +1,165 @@
+.shopify-section.section-banner-tiles-large .image-cover + .container-xxl.position-relative > .row.row-cols-5{
+     display: none !important; 
+}
+
+.custTabContent{
+  display: none;
+}
+
+.custBetterSleepWraper {
+    padding: 64px 0;
+    text-align: center;
+}
+
+.custBetterSleepWraper h2 {
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 40px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabs .tabs {
+    display: flex;
+    gap: 0 4px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 40px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab {
+    padding: 12px 24px;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 8px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab.active {
+    background: #DDDDDD;
+    color: #000;
+}
+.custBetterSleepWraper .custBetterSleepTabs .tabs .custTab span {
+    padding: 2px 6px;
+    background: #84948B;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-flex;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemBox a {
+    text-decoration: none;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemBox img {
+    width: 100%;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custItemImageBox {
+    position: relative;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge span {
+    padding: 8px 24px;
+    background: #FAD950;
+    border-radius: 2px;
+    color: #000;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.07em;
+}
+.custBetterSleepWraper .custBetterSleepTabsContent .custBadge.bestseller span {
+    background: #000000;
+    color: #fff;
+}
+
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .custItemBox {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .custCardBody {
+    padding: 10px 20px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .custCardBody h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent  .card-footer {
+    padding-top: 4px !important;
+    min-height: 60px;
+}
+
+.custBetterSleepWraper .custBetterSleepTabsContent .card-footer p {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    font-family: var(--bs-body-font-family);
+    opacity: 0.9;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn {
+    padding-top: 40px;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn a {
+    padding: 12px 48px;
+    background: #FAD850;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: var(--bs-body-font-family);
+    text-decoration: none;
+    display: inline-flex;
+    transition: 0.3s all;
+}
+
+.custBetterSleepWraper .custShopAllPillowBtn a:hover {
+    background: #000;
+    color: #fff;
+}
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-next,
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-prev{
+    font-size: 0 !important;
+    border-radius: 500px;
+    width: 36px;
+    height: 36px;
+}
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-next{
+    right: 0;
+}
+.custBetterSleepWraper .custBetterSleepItems .swiper-button-prev{
+    left: 0;
+}

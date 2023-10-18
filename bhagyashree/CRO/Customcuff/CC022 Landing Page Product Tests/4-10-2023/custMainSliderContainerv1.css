@@ -1,0 +1,33 @@
+.custMainSliderContainer {
+    max-width: 530px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.custStarMapNecklaceSlider {
+    margin-bottom: 20px;
+}
+.custThumbnailStarMapSlider {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.custThumbnailStarMapSlider .swiper-slide {
+    width: 64px !important;
+}
+
+.custThumbnailStarMapSlider .swiper-slide img,
+.custStarMapNecklaceSlider .swiper-slide img {
+    width: 100%;
+}
+
+.custThumbnailStarMapSlider .swiper-slide img {
+    border-radius: 0px;
+    cursor: pointer;
+    border: 1px solid #F2F2F2;
+    padding: 3px;
+    box-sizing: border-box;
+}
+.custThumbnailStarMapSlider .swiper-slide-thumb-active img {
+    border: 1px solid #000;
+}

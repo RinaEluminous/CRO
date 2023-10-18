@@ -1,0 +1,67 @@
+.bm_020_right_size_products {
+  max-width : 100%;
+}
+
+.bm_020_right_size_products .bm_020_rightSizeHeading {
+  margin : 0px 0px 12px 0px;
+  font-weight : 700;
+  font-size : 13px;
+  line-height : 20px;
+  color : rgb(41, 43, 45);
+}
+
+.bm_020_right_size_products .bm_020_AllProducts {
+  align-items : inherit;
+  justify-content : inherit;
+}
+
+.bm_020_right_size_products .bm_020_product {
+  height : 100%;
+}
+
+.bm_020_right_size_products .bm_020_AllProducts h2.customSupplyDays {
+  font-weight : 700;
+  font-size : 18px;
+  line-height : 20px;
+  text-align : center;
+  color : rgb(41, 43, 45);
+  margin : 0px 0px 4px 0px;
+}
+
+.bm_020_right_size_products .bm_020_AllProducts h2.customSupplyDays span {
+  display : block;
+  font-weight : 400;
+  font-size : 12px;
+  line-height : 14px;
+  color : rgb(113, 113, 113);
+  margin : 0px 0px 4px 0px;
+}
+
+.bm_020_right_size_products .bm_020_AllProducts .bm_020_quantity.customMeasureUnits span, .bm_020_right_size_products .bm_020_AllProducts .bm_020_quantity.customMeasureUnits {
+  font-weight : 400;
+  font-size : 14px;
+  line-height : 16px;
+  color : rgb(113, 113, 113);
+  margin : 0px 0px 4px 0px;
+}
+
+.bm_020_right_size_products .bm_020_AllProducts .bm_020_quantityPrc.customUnitsColor {
+  font-weight : 400;
+  font-size : 14px;
+  line-height : 20px;
+  color : rgb(227, 96, 24);
+  margin : 0px;
+}
+
+.bm_020_right_size_products .bm_020_AllProducts .bm_020_prodContent img {
+  margin : 13px 0px 15px 0px;
+}
+@media (max-width: 767px) {
+  .bm_020_right_size_products .bm_020_AllProducts h2.customSupplyDays {
+    font-size : 16px;
+  }
+
+  .bm_020_right_size_products .bm_020_AllProducts .bm_020_quantityPrc.customUnitsColor, .bm_020_right_size_products .bm_020_AllProducts .bm_020_quantity.customMeasureUnits span, .bm_020_right_size_products .bm_020_AllProducts .bm_020_quantity.customMeasureUnits {
+    font-size : 13px;
+  }
+}

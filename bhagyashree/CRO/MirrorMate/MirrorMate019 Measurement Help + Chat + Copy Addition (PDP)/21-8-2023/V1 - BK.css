@@ -1,0 +1,206 @@
+<style>
+.custParaMeasure a {
+    border-radius: 100px;
+    background: #F2F6FF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    cursor: pointer;
+    height: 36px;
+}
+.custParaMeasure a img {
+    margin-right: 15px;
+}
+.custParaMeasure {
+    width: 100%;
+    text-align: center;
+}
+.dphigs.tab-accord .mb-tab .nav-item.active .nav-link {
+    padding: 10px;
+    margin-bottom: 0;
+    box-shadow: none;
+    margin-top: 0;
+    background: #3E5569;
+    color: #fff;
+}
+.dphigs .mb-tab .nav-link {
+    border: 1px solid #3E5569;
+    padding: 10px;
+    color: #3E5569;
+    background: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    box-shadow: none;
+}
+.dphigs .mb-tab .nav-item {
+    margin: 0 0 0 -1px;
+    width: auto;
+    flex: 0 0 16.70%;
+}   
+
+.tab_container.custDescription div#desc-tab {
+    display: flex;
+    gap: 80px;
+}
+
+.tab_container.custDescription div#desc-tab .description.rte {
+    width: 50%;
+}
+
+.tab_container.custDescription div#desc-tab .custProductImage {
+    width: 50%;
+    text-align: right;
+}
+
+.tab_container.custDescription div#desc-tab .custProductImage img {
+    width: 100%;
+}
+
+.tab_container.custDescription div#desc-tab p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+}
+
+.m-adwframe .dphigs .tab-content, .m-adwframe .dphigs .tab_container {
+    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+a.custFrameSpecifications {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 12px 32px;
+    border-radius: 100px;
+    border: 1px solid #3E5569;
+    color: #3E5569;
+    margin-bottom: 15px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tab_container.custDescription div#desc-tab .description.rte h3 span {
+    display: none;
+}
+
+.custSpecificationDiv{
+display: none;
+}
+.tab_container.custDescription div#desc-tab p.custquoteOnDescription {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    color: #3E5569;
+}
+.m-adwframe .dphigs .tab_container {
+    padding-top: 50px;
+}
+
+.tab_container.custDescription div#desc-tab h3 {
+    margin-top: 40px;
+}
+/*media*/
+@media screen and (max-width: 991px) {
+.m-adwframe .dphigs .tab_container {
+    padding-top: 0;
+}
+
+.tab_drawer_heading {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.tab_drawer_heading.d_active {
+    background: #3E5569;
+}
+
+.dphigs .tab_drawer_heading.d_active span::before {
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+.tab_container.custDescription div#desc-tab {
+    gap: 0;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+
+.tab_container.custDescription div#desc-tab .description.rte, .tab_container.custDescription div#desc-tab .custProductImage {
+    width: 100%;
+}
+
+.tab_container.custDescription {
+    box-shadow: 0px 4px 10px 0px rgb(0 0 0 / 15%) !important;
+    background: #fff;
+}
+.dphigs .tab_drawer_heading span::before {
+    font-size: 16px;
+}
+
+.dphigs .tab_drawer_heading span, .dphigs .tab_drawer_heading.d_active span, .dphigs-accord .accordion-close span, .dphigs-accord .accordion-open span {
+    right: 0;
+    width: 44px;
+}
+
+.m-adwframe aside.product-aside .purchase-box.padding-box {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.candt-descied {
+    margin-bottom: 0 !important;
+}
+
+a.custFrameSpecifications {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tab_container.custDescription div#desc-tab p, .tab_container.custDescription div#desc-tab ul li {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+}
+
+.tab_container.custDescription div#desc-tab ul {
+    margin-bottom: 0;
+}
+
+.tab_container.custDescription div#desc-tab h3 {
+    margin-top: 15px;
+}
+.tab_container.custDescription div#desc-tab p.custquoteOnDescription {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.4px;
+}
+}
+</style>

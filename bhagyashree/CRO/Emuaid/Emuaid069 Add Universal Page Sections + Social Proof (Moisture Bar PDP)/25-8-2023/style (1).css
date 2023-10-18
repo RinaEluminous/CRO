@@ -1,0 +1,43 @@
+/* external css: flickity.css */
+
+* {
+  box-sizing: border-box;
+}
+
+/* .Container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: sans-serif;
+} */
+
+.custCarousel {
+  background: #fafafa;
+  margin-bottom: 40px;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8c8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+
+.carousel-nav .carousel-cell {
+  height: 80px;
+  width: 100px;
+}
+
+.carousel-nav .carousel-cell:before {
+  font-size: 50px;
+  line-height: 80px;
+}
+
+.carousel-nav .carousel-cell.is-nav-selected {
+  background: #ed2;
+}

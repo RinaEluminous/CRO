@@ -1,0 +1,60 @@
+.template-product .product-container .product-media.row .product-media{}
+.template-product .product-container .form.product-form [id*="price-template-"] span.badge{
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    top: 0 !important;
+    border-radius: 2px;
+}
+
+.custMediaTestimonial {
+    background: #F4EEEB;
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    max-width: 512px;
+    margin: auto;
+    z-index: 1;
+}
+
+.custMediaTestimonial .quote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: ibm-plex-sans,sans-serif;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.custMediaTestimonial .author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
+    font-family: ibm-plex-sans,sans-serif;
+    letter-spacing: 0.06em;
+}
+@media(max-width: 767px){
+    .custMediaTestimonial{
+        gap: 4px;
+    }
+    .custMediaTestimonial .quote {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .custMediaTestimonial .author{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .template-product .product-container .form.product-form [id*="price-template-"] span.badge{
+
+    }
+}

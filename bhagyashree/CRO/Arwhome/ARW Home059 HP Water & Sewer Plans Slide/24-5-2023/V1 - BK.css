@@ -1,0 +1,88 @@
+<style type="text/css">
+.custBurstPipeRuin {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    position: fixed;
+    bottom: 10px;
+right: -100%;
+    padding: 8px 12px;
+    width: 355px;
+    transform: translateX(-100%);
+    transition: all 1.5s;
+    z-index: 9;
+}
+
+.custBurstPipeRuin h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px; 
+    color: #0E1138;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 4px 0;
+}
+
+.close-arrow {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    cursor: pointer;
+    width: 15px;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    justify-content: flex-end;
+}
+
+.custBurstPipeRuin p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #0E1138;
+    margin-bottom: 12px;
+}
+
+.custBurstPipeRuin a {
+    background: #098040;
+    border-radius: 12px;
+    padding: 8px 16px;
+    display: block;
+    text-align: center;
+    color: #fff;
+    line-height: 1.2;
+    height: 35px;
+}
+
+.custBurstPipeRuin a span {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+} 
+
+.custBurstPipeRuin.custRuinOpen {
+right: 10px;
+    transform: none !important;
+}
+
+@media screen and (max-width: 767px) {
+.custBurstPipeRuin {
+    width: 100%;
+    right: 0 !important;
+    bottom: -100%;
+    border-radius: 0;
+    transform: none !important;
+}
+
+.custBurstPipeRuin.custRuinOpen {
+    bottom: 0;
+    transform: none;
+    right: 0 !important;
+}
+.custBurstPipeRuin p {
+    font-size: 16px;
+}
+}
+</style>

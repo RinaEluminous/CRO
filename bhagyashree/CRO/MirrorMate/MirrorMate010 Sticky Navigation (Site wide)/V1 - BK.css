@@ -1,0 +1,167 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@media screen and (min-width: 1200px) {
+.customSubMenuWrap {
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+    bottom: auto;
+    padding-top: 10px;
+}
+
+.header-right-div {
+    position: relative;
+}
+
+.custBusinessButton {
+    width: 100%;
+    border: 1px solid #8699A7;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #3E5569;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+.custBusinessButton:hover + .customSubMenuWrap, .customSubMenuWrap:hover {
+    opacity: 1;
+    height: auto;
+    z-index: 999;
+    overflow: initial;
+    background: transparent;
+}
+
+.header-right-div .header-right-a {
+    background: #fff;
+    border: 1px solid #8699a7;
+    color: #3e5569;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 8px;
+    margin-bottom: -1px;
+}
+
+header.site-header .layout-horizontal h1.site-logo {
+    padding: 0;
+}
+
+header.site-header {
+    border-bottom: 1px solid #B1D4E0;
+    padding: 16px 40px;
+}
+
+header.site-header h1.site-logo.has-image a {
+    height: 48px;
+}
+
+header.site-header h1.site-logo.has-image a img {
+    position: static;
+    width: auto;
+}
+
+header.site-header h1.site-logo.has-image a:before {
+    display: none;
+}
+header.util .wrapper {
+    padding: 0 0;
+}
+header.site-header .layout-horizontal div.site-logo {
+    padding: 0;
+    height: 48px;
+}
+
+header.site-header .layout-horizontal div.site-logo img {
+    width: auto !important;
+    height: 48px !important;
+}
+}
+div#shopify-section-header {
+    z-index: 991;
+    position: sticky;
+    top: 46.6px;
+}
+
+@media screen and (max-width: 991px) {
+h1.site-logo.has-image {
+    padding: 0 !important;
+}
+
+span.text.d-block[data-close-text="Close menu"] {
+    display: none;
+}
+
+header.site-header h1.site-logo a {
+    height: 40px;
+    width: auto !important;
+    max-width: none;
+    text-align: center !important;
+}
+
+header.site-header h1.site-logo a img {
+    width: auto !important;
+    height: 40px !important;
+    margin: 0 auto !important;
+    left: 50%;
+/*    transform: translateX(-50%);*/
+}
+
+header.site-header h1.site-logo a::before {
+    display: none !important;
+}
+
+header.site-header {
+    border-bottom: 1px solid #B1D4E0;
+    padding: 16px 15px;
+}
+
+.business-login-mobile {
+    margin-right: 17px;
+}
+span.icon-fallback-text span.icon svg {
+    display: none;
+}
+
+span.business-login-mobile svg {
+    display: none;
+}
+
+div#shopify-section-header {
+    top: 0;
+}
+.business-login-mobile a span {
+    position: relative;
+    top: 3px;
+}
+.mobile-menu {
+    position: relative;
+    top: 1px;
+}
+.site-logo.has-image, .site-logo.has-image a {
+    padding: 0 !important;
+    height: 40px;
+    text-align: center;
+}
+
+.site-logo.has-image a img {
+    width: auto !important;
+    margin: 0 auto !important;
+    position: static !important;
+}
+
+.site-logo.has-image a::before {
+    display: none !important;
+}
+}
+</style>

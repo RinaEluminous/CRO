@@ -1,0 +1,144 @@
+<style>
+.customPDPWrapper .product-description .content + a.show-more{
+    margin: 0 !important;
+}
+
+.customPDPWrapper .product-description .content{
+    max-height: unset !important;
+}
+
+.customPDPWrapper .product-description .content ul li{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+.customPDPWrapper .product-description .content ul li:nth-child(3) ~ li,.customPDPWrapper .product-description .content ul li br {
+    display: none;
+}
+
+.customPDPWrapper [id*="price-template-"] span.badge{
+    padding: 12px 16px;
+    font-weight: 500;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    top: 0 !important;
+    border-radius: 2px;
+}
+.customPDPWrapper [id*="price-template-"] hr{
+    display: none !important;
+}
+.customPDPWrapper .okeReviews .okeReviews-starRating--small{
+    height: 12px;
+    width: 60px;
+}
+.customPDPWrapper .okeReviews .okeReviews-starRating--small .okeReviews-starRating-indicator-layer{
+    background-size: 60px 12px;
+}
+
+.customPDPWrapper .okeReviews .okeReviews-reviewsSummary-ratingCount span{
+    font-weight: 400;
+}
+.customPDPWrapper h1.h3{
+    font-size: 26px;
+    line-height: 32px;
+}
+.customPDPWrapper [id*="variant-colour-"] p{
+    font-size: 11px !important;
+    line-height: 16px;
+}
+.customPDPWrapper [id*="price-template-"] span.text-oblique,
+.customPDPWrapper [id*="price-template-"] span.text-danger{
+    font-size: 20px;
+    line-height: 24px;
+}
+.customPDPWrapper [id*="price-template-"] span.text-danger {
+    font-weight: 500;
+}
+.customPDPWrapper [id*="price-template-"] {
+    margin-bottom: -4px;
+}
+.customPDPWrapper button.btn span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.customPDPWrapper .product-description .content h6{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 8px;
+}
+.customPDPWrapper .product-description .content ul li{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0 0 10px; 
+}
+.custMediaTestimonial {
+    background: #F4EEEB;
+    border-radius: 4px;
+    padding: 8px;
+    gap: 8px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    max-width: 512px;
+    margin: auto;
+    z-index: 1;
+}
+
+.custMediaTestimonial .quote {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: ibm-plex-sans,sans-serif;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.custMediaTestimonial .author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: italic;
+    font-family: ibm-plex-sans,sans-serif;
+    letter-spacing: 0.06em;
+}
+@media(max-width: 767px){
+    .customPDPWrapper [id*="variant-colour-"] p{
+       margin: 15px 0 0;
+    }
+
+    .custMediaTestimonial{
+        gap: 4px;
+    }
+    .custMediaTestimonial .quote {
+        font-size: 15px;
+        line-height: 16px;
+    }
+    .custMediaTestimonial .author{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .template-product .product-container h1.h3{
+        margin: 0;
+        padding: 15px 0;
+        font-size: 26px;
+        line-height: 24px;
+    }
+    .template-product .product-container .product-media.row {
+        margin-top: -24px;
+    }
+    .customPDPWrapper button.btn span{
+        line-height: 20px;
+    }
+}
+@media(max-width: 360px){
+    .custMediaTestimonial .quote{
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+}
+</style>

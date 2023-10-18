@@ -1,0 +1,47 @@
+<script type="text/javascript">
+$(".custMel").slick({
+    slidesToShow: 4,
+    infinite: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+});
+$(".custFemel").slick({
+    slidesToShow: 4,
+    infinite: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+});
+
+  $('.custreview').slick({
+        slidesToShow: 1,
+    infinite: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerPadding: "0px",
+    dots: true, 
+  });
+
+  $('.custBreakSlider').slick({
+        slidesToShow: 3,
+    infinite: false,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerPadding: "0px",
+    dots: true, 
+    responsive: [
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+          centerMode: true,
+        centerPadding: '40px',
+        }
+      }
+    ]
+  });
+</script>

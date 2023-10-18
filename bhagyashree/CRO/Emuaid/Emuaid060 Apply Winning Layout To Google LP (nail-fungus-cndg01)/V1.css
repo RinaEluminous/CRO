@@ -1,0 +1,1130 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+ body, html, h1,h2,h3,h4,h5,h6,p,span,b,{
+    font-family: 'Inter', sans-serif;
+}
+ .custGoogleLpHeroBanner { 
+     background-color: #EBF0F5;
+     position: relative;
+     z-index: 1;
+}
+  
+.custGoogleLpSpeedUpHealing .row {
+    margin-bottom: 0px !important;
+}
+  
+ .custGoogleLpHeroBanner .col-md-6 {
+     max-width: 613px;
+     width: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+ .custGoogleLpRatingWrapper {
+     display: flex;
+     align-items: center;
+     width: 100%;
+}
+ .custGoogleLpRatingWrapper p {
+     margin: 0 0 0 8px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+}
+ .custGoogleLpRatingWrapper span.jdgm-star.jdgm--on {
+     padding: 0 5px 0 0 !important;
+     color: #E36018;
+}
+ .custGoogleLpHeroBanner h1 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 41px;
+     line-height: 52px;
+     letter-spacing: -0.03em;
+     color: #000;
+     max-width: 453px;
+     padding: 0;
+     margin-top: 15px;
+     margin-bottom: 24px;
+     margin-left: 0;
+}
+ .custGoogleLpHeroBanner ul {
+     padding: 0;
+     list-style: none;
+     margin-top: 0;
+     margin-bottom: 0;
+     width: 100%;
+}
+ .custGoogleLpHeroBanner ul li {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     color: #000000;
+     letter-spacing: -0.02em;
+     margin-bottom: 16px;
+     display: flex;
+     align-items: center;
+}
+ .custGoogleLpHeroBanner ul li img {
+     margin-right: 8px;
+}
+ a.customOrangeButton {
+     background: #E36018;
+     border-radius: 1000px;
+     color: #fff !important;
+     padding: 16px 80px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-transform: uppercase;
+     margin-top: 27px;
+     display: inline-block;
+}
+ .custGoogleLpHeroBanner .container, .custGoogleLpPhysiciansDermatologist .container, .custGoogleLpToenailsFormulated .container, .custGoogleLpSpeedUpHealing .container, .custGoogleLpNatureInspired .container, .custGoogleLpCommHeadTag .container, .custGoogleLpReviewsFromPeople .container {
+     max-width: 1200px;
+     padding: 0 20px;
+     display: block;
+}
+ .custGoogleLpHeroBanner:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/hero-section.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 0;
+     transform: translateX(-50%);
+     background-size: 827px auto;
+     z-index: -1;
+}
+.custGoogleLpPhysiciansDermatologist h2, 
+.custGoogleLpToenailsFormulated h2,
+.custGoogleLpSpeedUpHealing h2, 
+.custGoogleLpNatureInspired h2, 
+.custGoogleLpCommHeadTag h2{
+     margin: 40px 0 32px 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 32px;
+     line-height: 40px;
+     color: #000000;
+     letter-spacing: -0.03em;
+}
+ .custGoogleLpPhysiciansDermatologist p, .custGoogleLpToenailsFormulated p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 28px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 16px;
+     padding-right: 10px;
+}
+ .custGoogleLpPhysiciansDermatologist ul, .custGoogleLpToenailsFormulated ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     display: flex;
+     align-items: center;
+     flex-wrap: wrap;
+}
+ .custGoogleLpPhysiciansDermatologist ul li, .custGoogleLpToenailsFormulated ul li {
+     width: calc(25% - 8px);
+     display: flex;
+     align-items: center;
+     flex: 0 0 25%;
+     margin: 0 0 32px 0;
+}
+ .custGoogleLpPhysiciansDermatologist .customInfoDoctor {
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     padding: 24px;
+     max-width: 540px;
+     width: 100%;
+     position: absolute;
+     bottom: -31px;
+     left: 40px;
+}
+ .custGoogleLpPhysiciansDermatologist .customInfoDoctor p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin-bottom: 10px;
+}
+ .custGoogleLpPhysiciansDermatologist .customInfoDoctor span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.03em;
+     color: #292B2D;
+}
+ .custGoogleLpHeroBanner .row {
+     margin-bottom: 0;
+}
+ .custGoogleLpPhysiciansDermatologist {
+     padding-top: 40px;
+     padding-bottom: 100px;
+     position: relative;
+}
+ .custGoogleLpPhysiciansDermatologist .col-md-6:first-child {
+     width: 100%;
+     max-width: 50%;
+}
+ .custGoogleLpPhysiciansDermatologist p b {
+     font-weight: 700;
+}
+ .custGoogleLpPhysiciansDermatologist ul li span {
+     width: 98px;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 16px;
+     letter-spacing: -0.01em;
+     color: #000000;
+     margin-left: 8px;
+}
+ .custGoogleLpPhysiciansDermatologist .col-md-6:last-child {
+     width: 48%;
+     padding-left: 80px;
+     position: relative;
+}
+ .custGoogleLpPhysiciansDermatologist::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/dr._roopa_chari.png);
+     content: '';
+     display: block;
+     width: 1331px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right 40px;
+     transform: translateX(-50%);
+     background-size: 575px auto;
+     z-index: -1;
+}
+ .custGoogleLpPhysiciansDermatologist .container .col-md-6:last-child img , .custGoogleLpHeroBanner .col-md-6:first-child, .page-shogun-default .shogun-root, .custGoogleLpToenailsFormulated .col-md-6:first-child img, .custGoogleLpSpeedUpHealing .col-md-6:last-child img {
+     display: none;
+}
+ .custGoogleLpToenailsFormulated::after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/first-aid-for-your-toenails.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: 0 center;
+     transform: translateX(-50%);
+     background-size: auto 540px;
+     z-index: -1;
+}
+ .custGoogleLpToenailsFormulated, .custGoogleLpSpeedUpHealing {
+     position: relative;
+}
+ .custGoogleLpToenailsFormulated .col-md-6 {
+     max-width: 50%;
+     float: right;
+     flex: 0 0 50%;
+}
+ .custGoogleLpToenailsFormulated .row {
+     justify-content: space-between;
+}
+ .custGoogleLpToenailsFormulated h2 small, 
+ .custGoogleLpSpeedUpHealing h2 small,
+ .custGoogleLpNatureInspired h2 small, 
+ .custGoogleLpCommHeadTag h2 small {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #4C4C4C;
+     display: block;
+}
+  
+  .custGoogleLpReviewsFromPeople.custGoogleLpCommHeadTag h2 {
+    margin-bottom: 10px;
+}
+  
+ .custGoogleLpToenailsFormulated h2 {
+     margin-bottom: 16px;
+     margin-top: 60px;
+}
+ .custGoogleLpToenailsFormulated ul li {
+     flex: 100%;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+     margin-bottom: 16px;
+}
+ .custGoogleLpToenailsFormulated ul li span {
+     margin-left: 16px;
+}
+ .custGoogleLpToenailsFormulated ul li:last-child {
+     margin-bottom: 0;
+}
+ .custGoogleLpToenailsFormulated .col-md-6:last-child {
+     padding-left: 60px;
+}
+ a.customOrangeButton {
+     margin-bottom: 60px;
+}
+ .custGoogleLpPhysiciansDermatologist ul {
+     margin-top: 32px;
+}
+ .custGoogleLpKillsFungus ul {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     list-style: none;
+     padding: 0;
+     margin: 60px 0 40px 0;
+}
+ .custGoogleLpKillsFungus ul li {
+     display: flex;
+     align-items: center;
+     margin: 0;
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #292B2D;
+}
+ .custGoogleLpKillsFungus ul li img {
+     margin-right: 8px;
+}
+ .custGoogleLpKillsFungus {
+     padding: 0 40px;
+     max-width: 1410px;
+     margin: 0 auto;
+}
+ .custGoogleLpSpeedUpHealing h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 32px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin: 0 0 4px 0;
+     padding: 0;
+}
+ .custGoogleLpSpeedUpHealing p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.03em;
+}
+ .custGoogleLpSpeedUpHealing .col-md-6 {
+     width: 100%;
+     max-width: 50%;
+}
+ .custGoogleLpSpeedUpHealing ul {
+     padding: 0;
+     margin: 34px 0 0 0;
+     list-style: none;
+}
+ .custGoogleLpSpeedUpHealing ul li {
+     display: flex;
+     flex: 0 0 100%;
+     flex-wrap: wrap;
+     position: relative;
+     counter-increment: my-sec-counter;
+}
+ .custGoogleLpSpeedUpHealing ul li::before {
+     content: ""counter(my-sec-counter) "";
+     width: 32px;
+     height: 32px;
+     background: #fff;
+     border-radius: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     top: 4px;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+}
+ .custGoogleLpSpeedUpHealing {
+     background-color: #F2F7FA;
+     z-index: 1;
+     padding: 80px 0;
+}
+ .custGoogleLpSpeedUpHealing ul li span {
+     width: calc(100% - 50px);
+     margin-left: 16px;
+}
+ .custGoogleLpSpeedUpHealing:after {
+     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/speed_up_healing.jpg);
+     content: '';
+     display: block;
+     width: 1330px;
+     height: 100%;
+     position: absolute;
+     left: 50%;
+     top: 0;
+     background-repeat: no-repeat;
+     background-position: right center;
+     transform: translateX(-50%);
+     background-size: 610px auto;
+     z-index: -1;
+}
+ .custGoogleLpSpeedUpHealing a.customOrangeButton {
+     margin-top: 10px;
+     margin-bottom: 0;
+}
+ .custGoogleLpNatureInspired ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .custGoogleLpNatureInspired {
+     background: #f2f7fa;
+     padding: 40px 0;
+}
+ .custGoogleLpNatureInspired h2 {
+     margin-top: 0;
+}
+ .custGoogleLpNatureInspired h2 small {
+     max-width: 70%;
+     line-height: 28px;
+     margin-top: 12px;
+}
+ .custGoogleLpNatureInspired ul li {
+     flex: 0 0 16.66%;
+     max-width: calc(16.66% - 14px);
+     margin-right: 16px;
+     background: #fff;
+     border-radius: 16px;
+     overflow: hidden;
+     margin-bottom: 0;
+}
+ .custGoogleLpNatureInspired ul li:last-child {
+     margin: 0;
+}
+ .custGoogleLpNatureInspired ul li img {
+     width: 100% !important;
+}
+ .custGoogleLpNatureInspired ul li:first-child {
+     border: 1px solid #C4222E;
+}
+ .custGoogleLpClinicallyTested h4 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.02em;
+     color: #000000;
+     margin: 0;
+     padding: 0;
+}
+ .custGoogleLpClinicallyTested p {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #717171;
+     margin: 5px 0;
+}
+ .custGoogleLpClinicallyTested span {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 20px;
+     letter-spacing: -0.02em;
+     color: #C4222E;
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+ .customIngredients a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #717171;
+    position: relative;
+    transition: all 0.5s;
+     cursor: pointer;
+         -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  .customIngredients a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #717171;
+    position: absolute;
+    border: 0;
+    top: 100%;
+}
+ .custGoogleLpClinicallyTested {
+     padding: 12px;
+     position: relative;
+     width: 100%;
+     padding-bottom: 30px;
+}
+ .custGoogleLpFirstAidOintment {
+     width: 100%;
+     display: flex;
+     background: #F2F7FA;
+     padding: 40px;
+     border-radius: 16px;
+     flex-wrap: wrap;
+}
+ .custGoogleLpProductsNailFungus {
+     flex: 0 0 33.33%;
+     max-width: calc(33.33% - 16px);
+     background: #FFFFFF;
+     border-radius: 10px;
+     margin-right: 24px;
+     text-align: center;
+     padding: 24px;
+}
+ .custGoogleLpProductsNailFungus:last-child {
+     margin-right: 0;
+}
+ .custGoogleLpProductsNailFungus h5 {
+     font-family: 'Inter', sans-serif;
+     font-style: normal;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     text-align: center;
+     letter-spacing: -0.02em;
+     color: #000000;
+}
+ .custGoogleLpProductsNailFungus span.jdgm-prev-badge__stars * {
+     color: #000;
+}
+ .custGoogleLpProductsNailFungus span.customNumberRating {
+     margin-left: 7px;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 20px;
+     letter-spacing: -0.03em;
+     color: #000000;
+     font-family: 'Inter', sans-serif;
+}
+  
+.customRatingsStar .jdgm-star.jdgm--on:before {
+    content: '';
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-full.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center;
+}
+.custGoogleLpProductsNailFungus span.jdgm-prev-badge__stars span:last-child:before{
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-half.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    content: '' !important;
+    background-position: center;
+}
+
+.custGoogleLpProductsNailFungus span.jdgm-prev-badge__stars span {
+    width: 21px;
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+    height: 20px;
+} 
+
+.customRatingsStar span.jdgm-prev-badge__stars {
+    display: flex;
+    justify-content: center;
+}
+
+.customRatingsStar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+  
+  
+ .customRatingsStar span.jdgm-prev-badge__text {
+     color: #717171;
+     font-family: 'Inter', sans-serif;
+     font-size: 16px;
+     line-height: 20px;
+     margin-left: 8px;
+     font-weight: 500;
+}
+ .customProductPrice {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 28px;
+     text-align: center;
+     letter-spacing: -0.03em;
+     color: #000000;
+     margin: 15px 0;
+     font-family: 'Inter', sans-serif;
+}
+ .customIngredients {
+     margin-top: 40px;
+}
+ .custGoogleLpProductsNailFungus img {
+     width: 100%;
+     max-width: 240px;
+}
+ .custGoogleLpButtonWrap a.customOrangeButton {
+     padding-left: 0;
+     padding-right: 0;
+     width: 100%;
+     font-weight: 600;
+}
+ .custGoogleLpButtonWrap a.customOrangeButton {
+     margin: 0 0;
+}
+ .custGoogleLpCommHeadTag h2 small {
+     margin-top: 12px;
+}
+ .custMoneyBackGuaranteeText {
+     background: #F2F7FA;
+     border-radius: 16px;
+     padding-left: 120px;
+     padding-right: 120px;
+	flex-wrap: nowrap !important;
+     align-items: center;
+     margin-bottom: 40px !important;
+}
+ .custMoneyBackGuaranteeText div {
+     margin-left: 30px;
+}
+ .custMoneyBackGuaranteeText h2 {
+     margin: 0 0 14px 0;
+}
+ .custMoneyBackGuaranteeText p:last-child {
+     margin-bottom: 0;
+}
+ .row.custMoneyBackGuaranteeText p {
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 32px;
+     color: #000;
+     font-family: 'Inter', sans-serif;
+}
+ .custGoogleLpHeroBanner a.customOrangeButton {
+     margin-bottom: 0;
+}
+ .customIngredients a::after {
+     content: "+";
+}
+ .custGoogleLpDropdownIngredients {
+     height: 0;
+     overflow: hidden;
+     transition: all 0.5s;
+     margin-top: 14px;
+}
+ a.custActiveIngredients + div.custGoogleLpDropdownIngredients {
+     height: 100%;
+}
+ a.custActiveIngredient + .custGoogleLpDropdownIngredients {
+     height: auto;
+}
+ a.custActiveIngredient:after {
+     content: "-";
+}
+ .custGoogleLpReviewsFromPeople{
+     overflow-x: hidden;
+   padding-top: 40px;
+}
+ .custGoogleLpReviewsFromPeople .swiper {
+     width: 100%;
+     height: 100%;
+     padding-bottom: 60px;
+}
+ .custGoogleLpReviewsFromPeople .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+    /* Center slide text vertically */
+     display: flex;
+     justify-content: center;
+     height: 100%;
+     align-items: center;
+     background: #F2F7FA;
+     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+     border-radius: 8px;
+     min-height: 270px;
+     align-items: baseline;
+     margin-top: 30px;
+}
+ .custGoogleLpReviewsFromPeople main {
+     margin-right: -15%;
+     margin-left: -15%;
+}
+ .custComparisonCarousel {
+     margin-right: -10%;
+     margin-left: -10%;
+}
+ div#swiper-wrapper-a710b88f3b536746f {
+}
+ .custGoogleLpInstitutionalTestimonials {
+     text-align: left;
+     padding: 24px 24px;
+}
+ .starsRatings * {
+     color: #0069BC !important;
+}
+ .custGoogleLpInstitutionalTestimonials p {
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 24px;
+     color: #292B2D;
+     letter-spacing: -0.02em;
+     margin-top: 16px;
+     font-family: 'Inter', sans-serif;
+}
+ .custGoogleLpInstitutionalTestimonials .author {
+     position: absolute;
+     bottom: 15px;
+}
+ .custGoogleLpInstitutionalTestimonials .author span {
+     color: #717171;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     margin-left: 16px;
+     display: flex;
+     align-items: center;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ .custGoogleLpInstitutionalTestimonials .author span img {
+     margin-right: 4px;
+}
+ .custGoogleLpInstitutionalTestimonials .author cite {
+     display: flex;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 24px;
+     color: #000;
+     font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
+}
+ 
+ .swiper-pagination-clickable .swiper-pagination-bullet {
+     opacity: 0.3;
+}
+  .swiper-pagination-bullet-active {
+     background: #323232 !important;
+     opacity: 1 !important;
+}
+ .swiper-pagination {
+     margin-top: 50px;
+     position: relative !important;
+}
+.custGoogleLpToenailsFormulated p{font-weight: 500;}
+/* media */
+ @media(max-width: 1500px) {
+     .custGoogleLpHeroBanner:after {
+         right: 0;
+         left: auto;
+         transform: none;
+    }
+}
+ @media(max-width: 1199px) {
+     .custGoogleLpSpeedUpHealing h2 {
+         margin-top: 0;
+    }
+     .custGoogleLpNatureInspired ul li {
+         max-width: calc(25% - 16px);
+         flex: 0 0 25%;
+         margin-bottom: 15px;
+    }
+     .custGoogleLpNatureInspired ul {
+    }
+     .custGoogleLpToenailsFormulated::after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         left: 0;
+         transform: none;
+    }
+     .custGoogleLpPhysiciansDermatologist ul li {
+         width: calc(33.33% - 8px);
+         flex: 0 0 33.33%;
+    }
+     .custGoogleLpPhysiciansDermatologist::after, .custGoogleLpSpeedUpHealing:after {
+         width: 100%;
+         background-size: contain;
+         max-width: 50%;
+         transform: none;
+         right: 0;
+         background-position: center;
+    }
+     .custGoogleLpPhysiciansDermatologist {
+         padding-bottom: 20px;
+    }
+     a.customOrangeButton {
+         margin-bottom: 0;
+    }
+     .custGoogleLpProductsNailFungus div.custSpace {
+         padding: 0;
+    }
+     .custGoogleLpPhysiciansDermatologist h2, .custGoogleLpToenailsFormulated h2, .custGoogleLpSpeedUpHealing h2, .custGoogleLpNatureInspired h2, .custGoogleLpCommHeadTag h2 {
+         font-size: 24px;
+         line-height: 32px;
+    }
+     .row.custMoneyBackGuaranteeText {
+         padding: 0 20px;
+    }
+     .row.custMoneyBackGuaranteeText p {
+         font-size: 16px;
+         line-height: 1.4;
+    }
+}
+ @media(max-width: 1024px) {
+     .custGoogleLpHeroBanner:after {
+         left: 0;
+         transform: none;
+         width: 100%;
+         background-size: 460px;
+    }
+}
+ @media(max-width: 991px) {
+     .custGoogleLpHeroBanner {
+         margin-top: 60px;
+         background-size: 60%;
+         padding: 30px 0;
+    }
+     .custGoogleLpHeroBanner h1 {
+         font-size: 32px;
+         line-height: 40px;
+    }
+     .custGoogleLpRatingWrapper p {
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custGoogleLpHeroBanner ul li {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 20px;
+    }
+     .custGoogleLpHeroBanner a.customOrangeButton {
+         font-size: 20px;
+         line-height: 24px;
+         order: 3;
+         margin-top: 0;
+         margin-bottom: 0;
+    }
+     .custGoogleLpHeroBanner .col-md-6 {
+         max-width: 100%;
+         display: flex;
+         flex-wrap: wrap;
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+}
+/* media */
+ @media(max-width: 860px) {
+     .custGoogleLpProductsNailFungus {
+         flex: 0 0 100%;
+         max-width: 100%;
+         margin-bottom: 15px;
+    }
+     .custGoogleLpFirstAidOintment {
+         padding: 15px;
+    }
+     .custGoogleLpProductsNailFungus:last-child {
+         margin-bottom: 0;
+    }
+     .custGoogleLpCommHeadTag {
+         padding: 0 15px;
+    }
+}
+ @media(max-width: 767px) {
+     .custGoogleLpHeroBanner {
+         background-image: none;
+         padding: 0 0;
+    }
+     .custGoogleLpHeroBanner h1 {
+         max-width: 100%;
+         order: 2;
+    }
+     .custGoogleLpRatingWrapper {
+         order: 1;
+    }
+     .custGoogleLpHeroBanner ul {
+         order: 4;
+    }
+     .custGoogleLpHeroBanner .container, .custGoogleLpPhysiciansDermatologist .container, .custGoogleLpToenailsFormulated .container, .custGoogleLpCommHeadTag .container {
+         padding: 0 0;
+    }
+     .custGoogleLpHeroBanner .col-md-6:first-child img {
+         width: 100%;
+    }
+     .custGoogleLpHeroBanner .col-md-6:first-child {
+         display: block;
+    }
+     .custGoogleLpHeroBanner .col-md-6:nth-child(2) {
+         padding: 34px 15px;
+       background-color: #f2f7fa;
+    }
+     .custGoogleLpHeroBanner ul li {
+         font-weight: 500;
+         font-size: 14px;
+         line-height: 20px;
+         margin-bottom: 6px;
+    }
+     .custGoogleLpHeroBanner a.customOrangeButton {
+         margin-bottom: 24px;
+    }
+     .custGoogleLpHeroBanner:after {
+         display: none;
+    }
+    /*new*/
+     .custGoogleLpPhysiciansDermatologist::after, .custGoogleLpSpeedUpHealing:after, .custGoogleLpToenailsFormulated::after {
+         display: none;
+    }
+     .custGoogleLpPhysiciansDermatologist .col-md-6:first-child, .custGoogleLpToenailsFormulated .col-md-6:last-child, .custGoogleLpSpeedUpHealing .col-md-6 {
+         max-width: 100%;
+         padding: 0 15px;
+         order: 2;
+    }
+     .custGoogleLpPhysiciansDermatologist .col-md-6:last-child, .custGoogleLpToenailsFormulated .col-md-6, .custGoogleLpSpeedUpHealing .col-md-6:last-child {
+         max-width: 100%;
+         width: 100%;
+         padding: 0;
+         order: 1;
+         margin-bottom: 0;
+         flex: 0 0 100%;
+    }
+     .custGoogleLpSpeedUpHealing .col-md-6:last-child {
+         margin-bottom: 30px;
+    }
+     .custGoogleLpPhysiciansDermatologist .container .col-md-6:last-child img, .custGoogleLpToenailsFormulated .col-md-6:first-child img, .custGoogleLpSpeedUpHealing .col-md-6:last-child img {
+         display: block;
+         width: 100%;
+    }
+     .custGoogleLpPhysiciansDermatologist h2, .custGoogleLpToenailsFormulated h2, .custGoogleLpSpeedUpHealing h2, .custGoogleLpNatureInspired h2 {
+         font-size: 24px;
+         line-height: 32px;
+         margin-bottom: 10px;
+         margin-top: 0;
+    }
+     .custGoogleLpPhysiciansDermatologist p, .custGoogleLpToenailsFormulated p {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 24px;
+    }
+     .custGoogleLpPhysiciansDermatologist ul li {
+         width: calc(50% - 8px);
+         flex: 0 0 50%;
+         margin-bottom: 15px;
+    }
+     .custGoogleLpToenailsFormulated .col-md-6 {
+         margin-bottom: 30px;
+    }
+     .custGoogleLpToenailsFormulated h2 small, 
+     .custGoogleLpSpeedUpHealing h2 small, 
+     .custGoogleLpNatureInspired h2 small,
+     .custGoogleLpCommHeadTag h2 small {
+         font-size: 18px;
+         max-width: 100%;
+         line-height: 24px;
+    }
+     .custGoogleLpToenailsFormulated ul {
+         margin-bottom: 20px;
+    }
+     .custGoogleLpKillsFungus ul {
+         margin-top: 0;
+         flex-wrap: wrap;
+         margin-bottom: 30px;
+    }
+     .custGoogleLpToenailsFormulated .col-md-6:last-child {
+         margin-bottom: 0;
+    }
+     .custGoogleLpKillsFungus ul li {
+         width: 100%;
+         margin: 8px 0;
+         font-size: 14px;
+    }
+     .custGoogleLpKillsFungus {
+         padding: 0 15px;
+    }
+     .custGoogleLpSpeedUpHealing {
+         padding: 0;
+    }
+     .custGoogleLpSpeedUpHealing .container {
+         padding: 0;
+    }
+     .custGoogleLpSpeedUpHealing ul {
+         margin-top: 24px;
+    }
+     .custGoogleLpSpeedUpHealing h4 {
+         font-size: 18px;
+    }
+     .custGoogleLpSpeedUpHealing p {
+         font-weight: 500;
+         font-size: 16px;
+    }
+     .custGoogleLpSpeedUpHealing a.customOrangeButton {
+         margin-bottom: 30px;
+         width: 100%;
+         text-align: center;
+    }
+     .custGoogleLpNatureInspired ul {
+         margin-top: 24px;
+    }
+     .custGoogleLpNatureInspired ul li {
+         max-width: 100%;
+         flex: 0 0 100%;
+         margin-bottom: 10px;
+         display: flex;
+    }
+     .custGoogleLpNatureInspired ul li img {
+         width: 100px;
+    }
+     .customIngredients {
+         margin-top: 24px;
+    }
+     .customIngredients a {
+         font-size: 18px;
+         line-height: 20px;
+    }
+     .custGoogleLpNatureInspired {
+         padding: 30px 0;
+    }
+     .custGoogleLpPhysiciansDermatologist .customInfoDoctor p {
+         font-size: 18px;
+         line-height: 24px;
+    }
+     .custGoogleLpPhysiciansDermatologist .customInfoDoctor {
+         max-width: calc(100% - 30px);
+         left: 15px;
+         bottom: -85px;
+       padding: 8px 15px;
+    }
+     .custGoogleLpPhysiciansDermatologist .col-md-6:last-child {
+         margin-bottom: 115px;
+    }
+     .custMoneyBackGuaranteeText div {
+         margin: 0;
+    }
+     .custMoneyBackGuaranteeText {
+         flex-wrap: wrap !important;
+         justify-content: center;
+         padding: 15px !important;
+         margin-top: 60px;
+         margin-bottom: 30px;
+    }
+     .custGoogleLpClinicallyTested p {
+         font-size: 14px;
+         line-height: 18px;
+    }
+     .custProductsImageWrapper img {
+         object-fit: cover;
+         height: 100%;
+         width: 100%;
+    }
+     .custGoogleLpPhysiciansDermatologist {
+         padding-top: 0;
+         padding-bottom: 0;
+    }
+     .custGoogleLpToenailsFormulated h2 small b, .custGoogleLpSpeedUpHealing h2 small b, .custGoogleLpNatureInspired h2 small b {
+         font-weight: 600;
+    }
+     .custGoogleLpClinicallyTested span {
+         position: relative;
+         top: 0;
+         right: 0;
+         left: 0;
+         font-size: 13px;
+         padding: 0;
+         line-height: normal;
+         display: block;
+    }
+    .custGoogleLpReviewsFromPeople main {
+    margin: 0 0;
+}
+
+.custGoogleLpReviewsFromPeople .swiper-slide {
+     min-height: auto; 
+}
+.custGoogleLpToenailsFormulated ul li {
+    align-items: self-start;
+}
+
+.custGoogleLpToenailsFormulated ul li span {
+    font-size: 14px;
+    line-height: 20px;
+}
+   .custGoogleLpReviewsFromPeople .swiper {
+    padding-bottom: 20px;
+}
+   .custGoogleLpInstitutionalTestimonials .author {
+    position: relative;
+    margin-top: 15px;
+    bottom: 0;
+}
+     .custProductsImageWrapper {
+        max-width: 100px;
+    } 
+    .custGoogleLpClinicallyTested {
+        width: calc(100% - 100px);
+    }
+}
+ @media(max-width: 340px) {
+     .custGoogleLpClinicallyTested h4 {
+         font-size: 14px;
+    }
+     .custProductsImageWrapper {
+         width: 80px;
+    } 
+     .custGoogleLpClinicallyTested {
+         width: calc(100% - 80px);
+    }
+}
+
+</style>

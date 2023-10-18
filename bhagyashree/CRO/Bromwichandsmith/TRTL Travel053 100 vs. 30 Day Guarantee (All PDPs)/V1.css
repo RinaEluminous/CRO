@@ -1,0 +1,5 @@
+<style>
+  .shopify-section .overflow-hidden .text-white + .container-lg .text-white .customIconImg{
+  filter: invert(1);
+  }
+</style>

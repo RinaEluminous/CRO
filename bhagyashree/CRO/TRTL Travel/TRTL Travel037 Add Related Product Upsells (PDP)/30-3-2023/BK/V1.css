@@ -1,0 +1,395 @@
+<style>
+.custSwatchColorPattern {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 35px;
+    border: 2px solid #fff;
+    position: relative;
+    cursor: pointer;
+    background: darkkhaki;
+    margin-right: 7px;
+    background-size: cover;
+}
+
+div#custProducts-variant-swatches {
+    padding: 8px;
+    transform: translateX(100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: #F7F3C7;
+    display: flex;
+    flex-wrap: wrap;
+}
+.custSwatchColorPattern.new-york {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/SehTXogA_100x.png?v=1668780978) !important;
+}
+.custSwatchColorPattern.fiji {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/81TBb13w_100x.png?v=1668779232) !important;
+}
+.custSwatchColorPattern.kyoto {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/NrA3P4qg_100x.png?v=1668780926) !important;
+}
+.custSwatchColorPattern.havana {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/fGnWiqig_100x.png?v=1668780819) !important;
+}
+.custSwatchColorPattern.paris {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/FUZUjSyA_100x.png?v=1668781038) !important;
+}
+.custSwatchColorPattern.seattle {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/LkBj346g_100x.png?v=1668781091) !important;
+}
+.custSwatchColorPattern.sydney {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/IoILGQfA_100x.png?v=1668781142) !important;
+}
+.custSwatchColorPattern.vancouver {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/3MOkT0kg_100x.png?v=1668781186) !important;
+}
+.custSwatchColorPattern.jaipur {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/s-oumb5Q_100x.png?v=1668780875) !important;
+}
+
+.custAddToCard {
+    background: #F7F3C7;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.custCardWrapper {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.custProductsInfoBlocks {
+    margin-left: 16px;
+}
+
+.custProductsInfoBlocks h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.custProductsInfoBlocks div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 3px;
+}
+
+.custProductsInfoBlocks p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.button-add-toggle {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 22px;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 8px;
+}
+.button-add-toggle:hover {
+    background: #fad951;
+}
+
+div#custProducts-variant-swatches.custProductsOpen {
+    transform: translateX(0);
+}
+
+a.custCloseCrossBlocks {
+position: absolute;
+    right: 4px;
+    border: 0;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    top: 6px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.custSwatchWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    /* order: 1; */
+    margin-top: 3px;
+}
+
+.custSizeChart .row {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin: 0;
+}
+
+.custSizeChart .row label.btn {
+    padding: 1px 12px !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+}
+
+.custSizeChart {width: 100%;margin-top: 10px;margin-bottom: 10px;}
+ 
+
+.custSwatchColorPattern.custSwatchActive:after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/t/50/assets/motif-tick-white.png);
+    top: -2px;
+    left: -2px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+body .custProductsInfoshortAdding .custSizeChart label.btn.custSizeChartActive {
+    background: #000;
+    color: #fff;
+}
+.custSizeChart .row .col-auto {
+    padding: 0 7px 0 0;
+}
+
+.custSizeChart a.button-add-toggle {
+    padding: 5px 13px;
+    line-height: 20px;
+    font-size: 12px;
+    display: inline-block;
+    background: #f9d85d;
+    color: #000;
+    text-transform: uppercase;
+    position: static;
+    width: 115px !important;
+    text-align: center;
+}
+
+.cusColtSize {
+    width: calc(100% - 150px);
+    display: flex;
+    padding: 0;
+}
+
+.custButtonBlocks {
+    width: 150px;
+    text-align: right;
+    padding: 0;
+}
+.custSwitchBlocksSection {
+    width: 100%;
+}
+.custDisableButton {
+    pointer-events: none;
+    opacity: 0.6;
+}
+.custProductsInfoBlocks h3 {
+    max-width: 45%;
+}
+.custAddToCard:nth-child(2) a#custAddWrapBtn {
+    display: inline-block;
+    background: #f9d85d;
+    color: #000;
+    text-transform: uppercase;
+}
+.custAddToCard:nth-child(2) a#custAddWrapBtn:hover {
+    background: #000;
+    color: #fff;
+}
+.custProductsInfoshortAdding {
+    margin-top: 7px;
+}
+
+@media(max-width: 1199px)  {
+ 
+.custProductsInfoBlocks {
+    width: 80%;
+}
+}
+@media(max-width: 767px)  {
+ 
+ .custCardWrapper {
+    align-items: start;
+}
+.custProductsindiaction {
+    padding-top: 10px;
+}
+.cusColtSize, .custButtonBlocks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cusColtSize {margin-bottom: 6px;}
+.custProductsInfoBlocks h3 {
+    max-width: 45%;
+}
+}
+
+@media(max-width: 640px) {
+.custSizeChart .row {
+    margin: 0;
+    justify-content: center;
+}
+
+.custSizeChart .row .col-auto {
+    padding: 0 5px;
+}
+
+.custSizeChart {
+    margin: 0 0 0  0; 
+}
+
+.custSwatchColorPattern {
+width: 26px;
+    height: 26px;
+    margin-right: 3px;
+}
+
+.custSwatchWrapper {
+    align-items: center;
+    height: 30px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.custSwatchColorPattern.custSwatchActive:after {
+width: 26px;
+    height: 26px;
+}
+.custSizeChart a.button-add-toggle {width: auto;padding: 3px 13px;}
+.custSwitchBlocksSection {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+}
+
+@media(max-width: 540px) {
+  
+
+.custSizeChart .row {
+    align-items: center;
+} 
+.custSwatchWrapper {
+    justify-content: center;
+}
+}
+
+
+
+@media(max-width: 400px) {
+   
+}
+
+@media(max-width: 360px) {
+.button-add-toggle {
+    padding: 5px 18px;
+    font-size: 12px;
+}
+
+.custCardWrapper div img {
+    width: 60px;
+}
+
+.custCardWrapper {
+    align-items: flex-start;
+}
+a.custCloseCrossBlocks {
+    top: 2px;
+    right: -1px;
+    font-size: 12px;
+}
+}
+@media(max-width: 340px) {
+    .custSwatchWrapper {
+    justify-content: start;
+}
+
+.custSizeChart .row * {
+    justify-content: stretch;
+}
+
+.custSizeChart .row .col-auto {
+    padding-left: 0;
+}
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ 
+.custSwatchWrapper {
+    justify-content: center;
+}
+
+.custSizeChart .row {
+    justify-content: center;
+}
+
+.cusColtSize, .custButtonBlocks {
+    width: auto;
+}
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ 
+.custSwatchWrapper {
+    justify-content: center;
+}
+
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+ 
+.custSwatchWrapper {
+    justify-content: center;
+}
+
+.custSizeChart .row {
+    justify-content: center;
+}
+
+.cusColtSize, .custButtonBlocks {
+    width: auto;
+}
+}
+
+</style>

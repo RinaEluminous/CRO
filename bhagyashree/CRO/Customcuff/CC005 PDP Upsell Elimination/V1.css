@@ -1,0 +1,5 @@
+section.Product .ProductForm .product-add-on-wrapper,
+section.Product #Product__Clone,
+section.Product .product-page-upsell {
+  display: none;
+}

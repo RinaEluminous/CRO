@@ -1,0 +1,557 @@
+<style>
+.custTopQuizBanner {
+    background: #EEEEEE;
+    color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+.custTopQuizBanner .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custTopQuizBanner .custGetOfferDiv p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    font-family: Helvetica, 'Helvetica Neue', Arial, 'Lucida Grande', sans-serif;
+    color: #001489;
+}
+
+.custTopQuizBanner .custOfferDealBtn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.custTopQuizBanner .custOfferDealBtn .custTakeQuiz {
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+    background: #E36018;
+    color: #fff;
+    min-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.custTopQuizBanner .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    line-height: normal;
+}
+
+.custMainQuizPopup .popupContainer button.btn-close,
+.custTopQuizBanner button.btn-close,
+.custMainQuizPopup #ProductSelectionQuiz .prodSelection button.btn-back {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    opacity: 1;
+    width: 30px;
+    height: 12px;
+    display: block;
+    line-height: normal;
+    transform: translateY(-50%);
+    background: none;
+    color: #000;
+    font-size: 12px;
+    padding: 0;
+}
+
+.custMainQuizPopup #ProductSelectionQuiz .prodSelection button.btn-back{
+    left: 0;
+}
+
+.custMainQuizPopup .popupContainer button.btn-close:after,
+.custTopQuizBanner button.btn-close:after{
+    content: '';
+    background: url('https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/close-icon.svg') no-repeat center center;
+    display: flex;
+    width: 30px;
+    height: 100%;
+}
+
+.custMainQuizPopup #ProductSelectionQuiz .prodSelection button.btn-back:after{
+    content: '';
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/back-arrow.svg) no-repeat center center;
+    display: flex;
+    width: 50px;
+    height: 100%;
+    background-size: 20px;
+}
+
+.custTopQuizBanner .productBannerImg {
+    font-size: 0;
+    overflow: hidden;
+}
+.custTopQuizBanner .productBannerImg img {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+    max-width: 100%;
+    max-height: 100%;
+}
+.custTopQuizBanner .productBannerImg img.desk_img {
+    display: block;
+}
+
+.custTopQuizBanner .bm-container{
+    max-width: 1180px !important;
+    padding: 8px 10px !important;
+}
+
+/* popup css */
+.custMainQuizPopup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    padding: 15px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.custMainQuizPopup .overlay{
+    background: #000000;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    cursor: pointer;
+}
+.custMainQuizPopup .popupContainer {
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 15%);
+    border-radius: 8px;
+    padding: 23px;
+}
+.custMainQuizPopup .popupContainer .prodSelection {
+    max-width: 850px;
+    width: 100%;
+}
+
+.custMainQuizPopup .popupContainer .custQuizForm .formField span.customError {
+    border: 1px solid rgb(208, 51, 31);
+    background: rgb(248, 236, 233);
+    padding: 2px 10px;
+    font-size: 12px;
+    line-height: normal;
+    color: rgb(208, 51, 31);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: -31px;
+    display: none;
+}
+
+.custMainQuizPopup .popupContainer .prodSelection.nextStepOneGuide,
+.custMainQuizPopup .popupContainer .prodSelection.nextStepTwoGuide,
+#weSuggest .custQuizForm .klaviyo-form
+ {
+    display: none;
+}
+.custMainQuizPopup .popupContainer button.btn-close,
+.custMainQuizPopup #ProductSelectionQuiz .prodSelection button.btn-back {
+    top: 0;
+    transform: inherit;
+    width: 50px;
+}
+.custMainQuizPopup .popupContainer button.btn-close:after{
+    width: 50px;
+}
+.custMainQuizPopup .popupContainer h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.custMainQuizPopup .popupContainer .progressBar {
+    height: 10px;
+    background: #D9D9D9;
+    border-radius: 100px;
+    width: 100%;
+    position: relative;
+    margin: 30px 0 0;
+    display: block;
+}
+
+.custMainQuizPopup .popupContainer .progressBar .progressSteps {
+    height: 10px;
+    background: #E36018;
+    border-radius: 100px;
+    width: 25%;
+}
+
+.custMainQuizPopup .popupContainer h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+    margin: 0 0 15px;
+    display: inline-block;
+    align-items: center;
+    gap: 0 8px;
+}
+.custMainQuizPopup .popupContainer .prodSelection h2{
+    text-align: center;
+    margin: 15px 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.custMainQuizPopup .popupContainer h2 span.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custMainQuizPopup .popupContainer  .prodListings ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.custMainQuizPopup .popupContainer .prodListings ul li {
+    width: calc(33.33% - 8px);
+    margin: 0;
+}
+
+.custMainQuizPopup .popupContainer .prodSelection.nextStepTwoGuide .prodListings ul li {
+    width: calc(50% - 8px);
+}
+
+.custMainQuizPopup .popupContainer .prodListings ul li:last-child {
+    flex: 0 0 100%;
+}
+.custMainQuizPopup .popupContainer .prodListings ul li button{
+    text-align: center;
+    background: #EEEEEE;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    color: #292B2D;
+}
+
+/* suggested */
+.custMainQuizPopup .popupContainer .prodListings ul li button:hover{
+    background: #e9e9e9;
+}
+.custMainQuizPopup .popupContainer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custMainQuizPopup .popupContainer input[type="text"] {
+    border: 1px solid #C5C4C5;
+    border-radius: 4px;
+    margin: 0 0 8px;
+}
+
+.custMainQuizPopup .popupContainer .custQuizForm {
+    margin: 0;
+}
+
+.custMainQuizPopup .popupContainer .custQuizForm .formField {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.custMainQuizPopup .popupContainer .custQuizForm .formField a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #292B2D;
+    line-height: 20px;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+}
+
+.custMainQuizPopup .popupContainer .custQuizForm .formField a span.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custMainQuizPopup .popupContainer .custQuizForm .formField a:hover {
+    text-decoration: none;
+}
+
+.custMainQuizPopup .popupContainer .imageContainer {
+    position: relative;
+    padding-top: 75%;
+    overflow: hidden;
+    margin: 0 0 15px;
+}
+.custMainQuizPopup .popupContainer .imageContainer img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* discount */
+.custMainQuizPopup .popupContainer .prodDiscount .copyCode{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 16px;
+    color: #001489;
+    background: rgba(0, 105, 188, 0.2);
+    border-radius: 4px;
+    padding: 14px 16px;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.custMainQuizPopup .popupContainer .prodDiscount .custQuizForm .formField button{
+    margin: 0;
+}
+
+.custMainQuizPopup .popupContainer .smallPopup{
+    max-width: 300px;
+    display: none;
+}
+
+.custMainQuizPopup .popupContainer .smallPopup .custQuizForm .formField button,
+.custMainQuizPopup .popupContainer #checkProduct.smallPopup .custQuizForm .formField a,
+.custMainQuizPopup .popupContainer #chatSpecialist.smallPopup .custQuizForm .formField a.custChatCTA {
+    width: 100%;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.custMainQuizPopup .popupContainer .smallPopup .custQuizForm .formField button:hover,
+.custMainQuizPopup .popupContainer #checkProduct.smallPopup .custQuizForm .formField a:hover,
+.custMainQuizPopup .popupContainer #chatSpecialist.smallPopup .custQuizForm .formField a.custChatCTA:hover{
+    background: #4c4c4c;
+}
+
+/* chat specialist */
+.custMainQuizPopup .popupContainer .prodChatSpecialist .custQuizForm .formField a {
+    text-decoration: none;
+}
+
+.custMainQuizPopup .popupContainer #chatSpecialist h2 {
+    display: flex;
+}
+
+
+@media(min-width: 1281px) and (max-width: 1400px) {
+    .custTopQuizBanner button.btn-close {
+        left: calc(100% - 30px);
+    }
+}
+
+@media(min-width: 1201px) and (max-width: 1280px) {
+    .custTopQuizBanner .custOfferDealBtn .custTakeQuiz {
+        padding: .65rem 3rem;
+        font-size: 1rem;
+    }
+
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .custTopQuizBanner button.btn-close {
+        left: calc(100% - 30px);
+    }
+}
+
+@media(min-width: 1025px) and (max-width: 1200px) {
+    .custTopQuizBanner .custGetOfferBannerMain {
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .custTopQuizBanner button.btn-close {
+        left: calc(100% - 30px);
+    }
+    .custTopQuizBanner .custOfferDealBtn .custTakeQuiz{
+        font-size: 16px;
+        min-width: 240px;
+    }
+    .custTopQuizBanner .bm-container{
+            padding: 8px 30px 8px 10px !important;
+    }
+    .custTopQuizBanner .productBannerImg img.desk_img{
+        height: 55px;
+    }
+}
+@media(max-width: 1024px) {
+    html body.bm-test-004 .bm-container{
+        padding: 10px 20px 10px 0px;
+    }
+    .custTopQuizBanner .productBannerImg{
+        overflow: hidden;
+        margin-left: auto;
+    }
+    .custTopQuizBanner .productBannerImg img{
+        height: 48px;
+    }
+    .custTopQuizBanner .bm-container{
+        padding: 8px 30px 8px 10px !important;
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px) {
+    .custTopQuizBanner .custGetOfferBannerMain {
+        gap: 0 8px;
+        justify-content: space-between;
+    }
+
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 20px;
+        line-height: normal;
+    }
+
+    .custTopQuizBanner .custOfferDealBtn .custTakeQuiz {
+        font-size: 16px;
+        padding: 0.6rem 1rem;
+        line-height: normal;
+        min-width: 200px;
+    }
+
+    .custTopQuizBanner button.btn-close {
+        left: calc(100% - 30px);
+    }
+    .custTopQuizBanner .bm-container{
+        padding: 8px 30px 8px 10px !important;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .custTopQuizBanner .custGetOfferBannerMain {
+        gap: 0 8px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .custTopQuizBanner .custOfferDealBtn .custTakeQuiz {
+        font-size: 14px;
+        padding: 0.5rem 1rem;
+        line-height: normal;
+        min-width: 140px;
+    }
+    .custTopQuizBanner .productBannerImg img{
+        height: 42px;
+    }
+}
+
+@media(max-width: 767px) {
+    .custMainQuizPopup .popupContainer{
+        overflow-y: auto;
+        min-height: 100px;
+        max-height: 100%;
+    }
+
+    .custTopQuizBanner .custGetOfferBannerMain {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }   
+
+    .custTopQuizBanner .custGetOfferBannerMain .custGetOfferDiv {
+        text-align: left;
+    }
+
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        margin: 0px 0 0px;
+        padding-right: 0px;
+    }
+
+    .custTopQuizBanner .custOfferDealBtn{
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .custTopQuizBanner .custOfferDealBtn .custTakeQuiz {
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0.8rem 1.5rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .custTopQuizBanner button.btn-close {
+        left: auto;
+        top: 0;
+        transform: inherit;
+        right: 5px;
+        height: 30px;
+        line-height: normal;
+        min-height: 30px;
+    }
+    .custTopQuizBanner .bm-container{
+        padding: 10px 15px 10px 15px !important;
+    }    
+    .custTopQuizBanner .productBannerImg{
+        margin-left: unset;
+        margin-bottom: 8px;
+    }
+
+    .custTopQuizBanner .productBannerImg img.desk_img {
+        display: none;
+    }
+
+    .custMainQuizPopup .popupContainer .prodListings ul li{
+        width: 100% !important;
+    }
+}
+
+@media(max-width: 360px) {
+    .custTopQuizBanner .custGetOfferDiv p {
+        font-size: 15px;
+        line-height: 24px;
+        margin: 0px 0 5px;
+    }
+
+    .custMainQuizPopup .popupContainer .prodListings ul li button {
+        font-size: 12px;
+        padding: 5px;
+        line-height: 15px;
+    }
+}
+</style>

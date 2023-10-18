@@ -1,0 +1,39 @@
+.custProductListOffers span.flashtag {
+    background-color: #fad951 !important;
+    font-weight: 500;
+    font-size: 12px !important;
+    line-height: 16px;
+    font-family: ibm-plex-sans,sans-serif;
+}
+
+.custProductListOffers h5 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+span.custLimitedOffer {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    background: #DA0D0D;
+    border-radius: 2px 2px 0px 0px;
+    width: 165px;
+    height: 24px;
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    z-index: 1;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custProductListOffers {
+    position: relative;
+}

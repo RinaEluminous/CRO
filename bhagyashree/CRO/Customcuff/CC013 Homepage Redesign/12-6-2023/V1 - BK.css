@@ -1,0 +1,826 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+.custCustomCuffBanner .row {display: flex;align-items: center;}
+.custCustomCuffBanner {margin-top: 45px;padding-bottom: 48px;}
+header#section-header {box-shadow: none;}
+.custCustomCuffBanner .custImgFirst {position: relative;}
+body .custCustomCuffBanner .custCustmerReview {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    bottom: 24px;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 314px;
+    left: 24px;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2.5px);
+}
+.custCustomCuffBanner .row div {
+    margin-right: 20px;
+    height: auto;
+    width: 33.33%;
+}
+
+.custCustomCuffBanner div.custLastText {
+    margin-right: 0;
+    max-width: 354px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+.custCustomCuffBanner .row div img {
+    object-fit: cover;
+    object-position: top;
+    height: 100%;
+    width: 100%;
+}
+body .custCustomCuffBanner .custCustmerReview span img {
+    width: auto;
+    height: auto;
+}
+body .custCustomCuffBanner .custCustmerReview p {font-family: "Avenir Next", sans-serif !important;font-weight: 300;font-size: 16px;line-height: 24px;}
+body .custCustomCuffBanner .custCustmerReview span.jdgm-prev-badge__stars {
+    margin-bottom: 8px;
+    display: block;
+}
+.custCustomCuffBanner div.custLastText h1 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    font-family: "Mogena" !important;
+    margin-bottom: 8px;
+}
+.custCustomCuffBanner div.custLastText p {
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 24px;
+    color: #000000;
+}
+a.custShopNowButton {
+    padding: 12px 40px;
+    background: #000000;
+    color: #EEE5DC;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Avenir Next", sans-serif;
+}
+.custListingInformation {
+    padding: 16px 127px 16px 126px;
+    background: #EEE5DC;
+}
+.custListingInformation li span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    display: block;
+    color: #000000;
+    margin-top: 8px;
+}
+.custListingInformation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.custListingInformation .container {padding: 0;}
+.custListingInformation li img {width: 40px;}
+.custFrameBoxWrapper img {width: 100%;object-fit: cover;}
+.custShopCategory h2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    font-family: "Mogena" !important;
+    margin-bottom: 32px;
+}
+.custShopCategory {
+    padding-top: 108px;
+    padding-bottom: 140px;
+}
+.custShopCategory .custFrameBoxWrapper {
+    padding: 0 16px;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.custPopulerCategory {margin: 0 -16px;height: auto;}
+.custShopCategory .custFrameBoxWrapper h5 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.custShopCategory .slick-slide {height: auto;} 
+.custBestSellersWrapper .slick-list {
+    padding-left: 0 !important;
+}
+.custBestSellersWrapper {
+    padding-left: 80px;
+    padding-bottom: 96px;
+}
+.custBestProductsBlocks {
+    padding: 0 12px;
+    text-align: center;
+}
+.custReviewRating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    font-family: "Avenir", sans-serif !important;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.custReviewRating img {
+    margin-right: 8px;
+    height: 16px;
+}
+.custBestProductsBlocks h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 5px 0;
+    font-family: "Avenir", sans-serif !important;
+    color: #000;
+}
+.custPriceTag {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "Avenir", sans-serif !important;
+        color: #000;
+}
+a.custShopNowButtonOutline {
+    margin: 0 auto;
+    display: block;
+    max-width: none;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+    background: transparent;
+    border: 1px solid #000;
+    margin-top: 32px;
+    width: 173px;
+    font-family: "Avenir", sans-serif !important;
+}
+.custCustomCuffWrapper .slick-slide {height: auto !important;}
+.custBestSellersWrapper a.custShopNowButtonOutline {
+    right: 40px;
+    position: relative;
+}
+button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+    position: absolute;
+    background: #000;
+    top: -70px;
+    right: 80px;
+    width: 32px;
+    height: 32px;
+    font-size: 0;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button.slick-prev.slick-arrow {right: 130px !important;border: 1px solid #000;background: transparent;/* filter: invert(1); */}
+.custBestSellersWrapper h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    font-family: "Mogena" !important;
+}
+.custVideoWrapper {
+    padding: 0 0 150% 0;
+    position: relative;
+    min-height: 548px;
+}
+.custVideoWrapper video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    object-position: top;
+    left: 0;
+    pointer-events: none;
+}
+.custVideoProducts .slick-slide.slick-current.slick-active video {
+    pointer-events: all;
+}
+.custVideoProducts .slick-slide.slick-current.slick-active{
+    transform: scale(1);
+    opacity: 1;
+} 
+
+.custVideoProducts .slick-slide {
+    opacity: 0.4;
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
+
+.custVideoProducts .slick-list .slick-track {padding: 0 0 115px 0;}
+.custVideoProducts button.slick-prev.slick-arrow {
+    left: 36.9%;
+    right: auto;
+    transform: translate(-36.9%, -50%);
+    top: 50%;
+    z-index: 99;
+    background: #000;
+}
+.custVideoProducts .slick-list {margin: 0 -100px;}
+.custVideoProducts button.slick-next.slick-arrow {
+    right: 35.5%;
+    transform: translate(-35.5%, -50%);
+    top: 50%;
+}
+.custVideoProducts {overflow: hidden;}
+.custVideoWrapper a {
+    width: calc(100% - 30px);
+    background: #46ad77;
+    color: #fff;
+    position: absolute;
+    bottom: 80px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 36px;
+    line-height: 22px;
+    padding: 7px 22px;
+}
+.custWhatPeopleSay {
+    padding-left: 0;
+    padding-bottom: 96px;
+}
+.custWhatPeopleSay h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    font-family: "Mogena" !important;
+    padding-left: 80px;
+}
+.custImageBlocks img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+}
+.custImageBlocks {
+    height: 238px;
+    margin-bottom: 12px;
+    overflow: hidden;
+    max-height: 238px;
+}
+.custFeedbackWrapper h5 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+    font-family: "Avenir", sans-serif !important;
+}
+.custFeedbackWrapper p {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px; 
+    letter-spacing: 0.02em;
+    margin-bottom: 12px;
+}
+.custFeedbackWrapper p + span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    font-family: 'Kalam', cursive;
+}
+.custFeedbackWrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+    padding: 12px;
+    width: calc(100% - 40px);
+    margin-bottom: 28px;
+    margin-top: 15px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custImageBlocks + img {height: 16px;margin-bottom: 12px;}
+.custCustmerFeedbackSlider .slick-slide:nth-child(odd) .custFeedbackWrapper {transform: rotate(2deg);}
+.custCustmerFeedbackSlider .slick-slide:nth-child(even) .custFeedbackWrapper {transform: rotate(-2deg);}
+.custCustmerFeedbackSlider {height: 460px;}
+.custCreatePerfectGift h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    font-family: "Mogena" !important;
+    margin-bottom: 70px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.custCreatePerfectGift {
+    display: flex;
+    justify-content: space-between;
+    background: #EEE5DC;
+}
+.custCreatePerfectGift .custLeftLiting, .custCreatePerfectGift .custRightLiting {width: 50%;}
+
+.custCreatePerfectGift .custRightLiting img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: center;
+}
+.custCreatePerfectGift .custLeftLiting {
+    padding: 70px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.custCreatePerfectGift ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    max-width: 600px;
+}
+.custCreatePerfectGift ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.custCreatePerfectGift ul li div h6 {
+    margin: 0 0 1px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: "Mogena" !important;
+}
+.custCreatePerfectGift ul li div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.custCreatePerfectGift ul li div {margin-left: 32px;}
+.custCreatePerfectGift ul li img {height: auto;width: 60px;}
+.custCreatePerfectGift ul li:last-child {margin-bottom: 0;}
+.custShopCollection {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.custFollowCustomcuff img {
+    width: calc(100% - 24px);
+    margin: 0 12px;
+}
+.custCustomcuffInstaWrapper h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #000000;
+    font-family: "Mogena" !important;
+    padding-left: 80px;
+    margin-bottom: 42px;
+}
+.custCustomcuffInstaWrapper {
+    padding: 58px 0 48px  0;
+    background: #EEE5DC;
+} 
+.custCustomcuffInstaWrapper ul.slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+}
+.custCustomcuffInstaWrapper ul.slick-dots li {
+    width: 40px;
+    height: 6px;
+    font-size: 0;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    margin: 0 6px;
+}
+.custCustomcuffInstaWrapper ul.slick-dots li.slick-active {
+    background: #000;
+}
+.custCustmerReview img {
+    width: auto !important;
+    height: 20px !important;
+    margin-bottom: 8px;
+}
+.custBestSellersProducts {margin-left: -12px;}
+.custShopCategory {padding-top: 70px;    padding-bottom: 70px;}
+/*.custShopCategory .slick-track {display: flex; max-width: 100%;}*/
+button.slick-prev.slick-arrow::after {
+    content: "";
+    filter: invert(1);
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    top: 8px;
+    transform: rotate(-180deg);
+    left: 10px;
+}
+div#shopify-section-template--15202046345277__16590118189e457e91, div#shopify-section-template--15202046345277__1659012090daf28c88, .custom-iconList-section, div#shopify-section-template--15202046345277__slideshow, .concept-carousel-wrapper, div#shopify-section-template--15202046345277__featured-collections, div#shopify-section-template--15202046345277__119411b8-7127-4f78-a253-ec93f8497e5d, div#shopify-section-template--15202046345277__1659001483d054ce5b, div#shopify-section-template--15202046345277__1659005602a1b9af09, div#shopify-section-template--15202046345277__16590079117889e0c1, div#shopify-section-template--15202046345277__1659011140f47f4915 {
+    display: none;
+}
+body .custCustomCuffBanner .custImgSecound {margin-right: 24px;}
+.custVideoProducts button.slick-prev.slick-arrow::after {
+    filter: invert(0);
+}
+.custVideoProducts .custSliderNavArrow {
+    width: 318px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    pointer-events:none;
+}
+.custVideoProducts button.slick-prev.slick-arrow {
+    left: auto !important;
+    transform: translateY(-50%);
+    top: 50%;
+    z-index: 99;
+    background: #000;
+    right: calc(100% + 15px) !important;
+    pointer-events:auto;
+ }
+.custVideoProducts button.slick-next.slick-arrow {
+    right: auto !important;
+    top: 50%;
+    transform: translateY(-50%);
+    left: calc(100% + 15px) !important;
+    pointer-events:auto;
+}
+.jdgm-carousel__item-wrapper {
+    height: 290px !important;
+}
+.jdgm-carousel-wrapper {padding-top: 0 !important;}
+
+.custShopCategory + .custBestSellersWrapper {
+    padding-bottom: 64px;
+}
+.jdgm-carousel--card-theme .jdgm-carousel-item__product {
+    height: auto;
+}
+
+/*review*/
+.jdgm-carousel-item__review-title {
+    font-size: 16px;
+}
+
+.jdgm-carousel-item__review-body>p {
+    font-size: 15px;
+}
+
+.jdgm-carousel--card-theme .jdgm-carousel-item__reviewer-name {
+    font-size: 16px;
+}
+
+.jdgm-carousel-item__product-title {
+    font-size: 15px !important;
+    margin: 3px 0 4px 0;
+}
+
+h2.jdgm-carousel-title {
+    font-size: 18px !important;
+}
+span.jdgm-carousel-number-of-reviews {font-size: 16px;}
+.jdgm-carousel-item__timestamp {font-size: 14px;}
+.jdgm-carousel--card-theme .jdgm-carousel-item__reviewer-name-wrapper {display: inline-block;}
+.jdgm-carousel--card-theme .jdgm-carousel-item__review {
+    height: calc(100% - 5em) 
+}
+
+@media screen and (max-width: 1199px) {
+.custListingInformation ul li {
+    flex: 0 0 auto;
+    max-width: 20%;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.custListingInformation ul {
+    justify-content: center;
+}
+
+.custListingInformation {
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+.custCustomCuffBanner div.custLastText {
+    max-width: 100%;
+    padding: 0 30px !important;
+}
+
+.custCustomCuffBanner .row {
+    flex-wrap: wrap;
+}
+
+.custCustomCuffBanner .row div {
+    width: calc(50% - 30px);
+    margin: 0 15px 0 0;
+} 
+    
+.custCustomCuffBanner .container {
+    padding: 0 50px;
+}
+
+.container {
+    padding: 0 50px;
+}
+
+.custBestSellersWrapper {
+    padding-left: 50px;
+}
+
+.custVideoProducts .slick-list .slick-track {
+    padding: 0 0 64px 0;
+}
+
+.custCreatePerfectGift h2 {
+    margin-bottom: 24px;
+}
+
+.custCreatePerfectGift ul li {
+    margin-bottom: 32px;
+}
+    body .custCustomCuffBanner .custImgSecound {order: 3;display: none;}
+}
+@media screen and (max-width: 767px) {
+.custCustomCuffBanner .container {
+    padding: 0 15px;
+}
+
+.custCustomCuffBanner .row div {
+    width: 100%;
+    margin-right: 0;
+}
+
+.custCustomCuffBanner div.custLastText {
+    padding: 0 0 !important;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.custCustomCuffBanner div.custLastText h1 {
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+a.custShopNowButton {
+    margin: 0 auto;
+}
+
+.custCustomCuffBanner div.custLastText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+body .custCustomCuffBanner .custCustmerReview {
+    max-width: calc(100% - 24px);
+    left: 12px;
+    bottom: 12px;
+}
+
+.custListingInformation ul li {
+    max-width: 28.33%;
+    flex: 0 0 auto;
+}
+
+.custListingInformation ul {
+    overflow: scroll;
+    justify-content: flex-start;
+}
+
+html body #main .custCustomCuffWrapper h2 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+
+.custShopCategory button.slick-prev.slick-arrow {
+    right: auto !important;
+    left: 20px;
+}
+
+.custShopCategory button.slick-next.slick-arrow, .custShopCategory button.slick-prev.slick-arrow {
+    transform: none;
+    top: 50%;
+}
+
+.custShopCategory button.slick-next.slick-arrow {
+    right: 20px;
+}
+
+.custBestSellersWrapper button.slick-next.slick-arrow, .custBestSellersWrapper button.slick-prev.slick-arrow, .custWhatPeopleSay button.slick-next.slick-arrow {
+    right: 20px;
+}
+
+.custBestSellersWrapper button.slick-prev.slick-arrow, .custWhatPeopleSay button.slick-prev.slick-arrow {
+    right: 80px !important;
+}
+
+.custShopCategory {
+    padding-top: 32px;
+    padding-bottom: 60px;
+}
+
+.custListingInformation li span {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.custShopCategory .container {
+    padding: 0 20px;
+}
+
+.custBestSellersWrapper {
+    padding-left: 20px;
+    padding-bottom: 64px;
+}
+
+.custBestSellersProducts {
+    padding-left: 26px;
+}
+
+.custBestSellersWrapper a.custShopNowButtonOutline {
+    right: 10px;
+    margin-top: 24px;
+}
+
+.custWhatPeopleSay button.slick-next.slick-arrow, .custWhatPeopleSay button.slick-prev.slick-arrow {
+    top: -50px;
+}
+
+.custWhatPeopleSay h2 {
+    padding-left: 20px;
+}
+
+.custWhatPeopleSay {
+    padding-bottom: 74px;
+} 
+.custCreatePerfectGift .custLeftLiting, .custCreatePerfectGift .custRightLiting {
+    width: 100%;
+}
+
+.custCreatePerfectGift {
+    flex-wrap: wrap;
+}
+
+.custCreatePerfectGift h2 {
+    margin-left: 0;
+}
+
+.custCreatePerfectGift ul {
+    max-width: 100%;
+    margin: 0;
+}
+
+.custCreatePerfectGift .custLeftLiting {
+    padding: 24px 20px;
+}
+
+.custCreatePerfectGift ul li div h6 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 4px;
+}
+
+.custCreatePerfectGift ul li div p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custCreatePerfectGift ul li div {
+    margin-left: 16px;
+}
+
+.custReviewRating {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.custBestProductsBlocks h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.custPriceTag {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.custCustomcuffInstaWrapper h2 {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.custCustomcuffInstaWrapper button.slick-prev.slick-arrow, .custCustomcuffInstaWrapper button.slick-next.slick-arrow {
+    display: none !important;
+}
+
+.custCustomcuffInstaWrapper {
+    padding: 32px 0;
+}
+    .custCustomCuffBanner {
+    padding-bottom: 32px;
+}
+
+.custShopCategory .custFrameBoxWrapper {
+    padding: 0 64px;
+}
+
+.custShopCategory .custFrameBoxWrapper h5 {
+    width: calc(100% - 128px);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.custBestSellersWrapper button.slick-next.slick-arrow, .custBestSellersWrapper button.slick-prev.slick-arrow {
+    top: -57px;
+}
+ 
+
+.custFollowCustomcuff img {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+}
+
+.custListingInformation ul li {
+    max-width: 40%;
+    padding: 0 15px;
+}
+
+.custListingInformation {
+    padding-right: 0;
+}
+.custVideoProducts button.slick-prev.slick-arrow, .custVideoProducts button.slick-next.slick-arrow {
+    left: 16.9%;
+    transform: none;
+}
+
+.custVideoProducts button.slick-next.slick-arrow {
+    left: auto;
+    right: 16.9%;
+}
+
+.custBestProductsBlocks a img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 540px) {
+.custCustmerFeedbackSlider {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.custCreatePerfectGift .custRightLiting {
+    height: 464px;
+} 
+}
+</style>

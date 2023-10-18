@@ -1,0 +1,248 @@
+.custSwatchColorPattern {
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 35px;
+    border: 2px solid #fff;
+    position: relative;
+    cursor: pointer;
+    background: darkkhaki;
+    margin-right: 7px;
+    background-size: cover;
+}
+
+div#custProducts-variant-swatches {
+    padding: 8px;
+    transform: translateX(100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background: #F7F3C7;
+    display: flex;
+    flex-wrap: wrap;
+}
+.custSwatchColorPattern.new-york {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/SehTXogA_100x.png?v=1668780978) !important;
+}
+.custSwatchColorPattern.fiji {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/81TBb13w_100x.png?v=1668779232) !important;
+}
+.custSwatchColorPattern.kyoto {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/NrA3P4qg_100x.png?v=1668780926) !important;
+}
+.custSwatchColorPattern.havana {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/fGnWiqig_100x.png?v=1668780819) !important;
+}
+.custSwatchColorPattern.paris {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/FUZUjSyA_100x.png?v=1668781038) !important;
+}
+.custSwatchColorPattern.seattle {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/LkBj346g_100x.png?v=1668781091) !important;
+}
+.custSwatchColorPattern.sydney {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/IoILGQfA_100x.png?v=1668781142) !important;
+}
+.custSwatchColorPattern.vancouver {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/3MOkT0kg_100x.png?v=1668781186) !important;
+}
+.custSwatchColorPattern.jaipur {
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/s-oumb5Q_100x.png?v=1668780875) !important;
+}
+
+.custAddToCard {
+    background: #F7F3C7;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.custCardWrapper {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.custProductsInfoBlocks {
+    margin-left: 16px;
+}
+
+.custProductsInfoBlocks h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.custProductsInfoBlocks div {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    margin-bottom: 3px;
+}
+
+.custProductsInfoBlocks p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.button-add-toggle {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+div#custProducts-variant-swatches.ProductsOpen {
+    transform: translateX(0);
+}
+
+button.custCloseCrossBlocks {position: absolute;right: 17px;background: transparent;border: 0;padding: 0;color: #000;}
+
+.custSwatchWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    /* order: 1; */
+    margin-top: 3px;
+}
+
+.custSizeChart .row {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    margin: 0;
+}
+
+.custSizeChart .row label.btn {
+    padding: 1px 12px !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    width: auto;
+    height: auto;
+}
+
+.custSizeChart {width: 100%;margin-top: 10px;margin-bottom: 10px;}
+ 
+
+.custSwatchColorPattern.custSwatchActive:after{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/t/50/assets/motif-tick-white.png);
+    top: -2px;
+    left: -2px;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.custSizeChartActive {
+    background: #000;
+    color: #fff;
+}
+.custSizeChart .row .col-auto {
+    padding: 0 0 0 7px;
+}
+
+.custSizeChart a.button-add-toggle {
+    padding: 5px 13px;
+    line-height: 20px;
+    font-size: 12px;
+    display: inline-block;
+    background: #f9d85d;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.col-5.custButtonBlocks {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.custButtonBlocks {
+    width: 48%;
+    text-align: right;
+    padding: 0;
+}
+@media(max-width: 767px)  {
+.custButtonBlocks {
+    width: 67%;
+ }
+}
+
+@media(max-width: 640px) {
+.custSizeChart .row {
+    margin: 0;
+    justify-content: center;
+}
+
+.custSizeChart .row .col-auto {
+    padding: 0 5px;
+}
+
+.custSizeChart {
+    margin: 7px 0 0  0;
+    height: 24px;
+}
+
+.custSwatchColorPattern {
+    width: 30px;
+    height: 30px;
+    margin-right: 3px;
+}
+
+.custSwatchWrapper {
+    align-items: center;
+    height: 30px;
+    margin-top: 6px;
+    justify-content: start;
+}
+
+.custSwatchColorPattern.custSwatchActive:after {
+    width: 30px;
+    height: 30px;
+}
+div#custProducts-variant-swatches{flex-direction: column;}
+.custButtonBlocks {
+    width: 58%;
+    text-align: right;
+    margin-top: 0;
+}
+
+.custSizeChart a.button-add-toggle {width: auto;padding: 7px 13px;}
+}
+
+@media(max-width: 540px) {
+    .custButtonBlocks {
+    width: 51%;
+}
+
+.custSizeChart .row {
+    align-items: center;
+} 
+.custSwatchWrapper {
+    justify-content: center;
+}
+}
+@media(max-width: 480px) {
+.custButtonBlocks {width: auto;}
+}
+@media(max-width: 400px) {
+   .custButtonBlocks {
+    margin-top: 12px;
+} 
+}
+

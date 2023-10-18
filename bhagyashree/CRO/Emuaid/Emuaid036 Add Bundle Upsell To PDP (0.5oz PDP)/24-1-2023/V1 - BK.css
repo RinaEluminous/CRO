@@ -1,0 +1,109 @@
+<style>
+.product .description.bottom + [class*="_right_size_products"] {
+    display: none;
+}
+
+.custFasterResultWraper h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #292B2D;
+    padding: 0;
+    margin: 0 0 8px;
+}
+
+.custFasterResultWraper .resultBox {
+    display: flex;
+    background: #fff;
+    border: 2px solid #E36018;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 0 16px;
+}
+
+.custFasterResultWraper .resultBox .imbBox {
+    width: 100%;
+    flex: 0 0 64px;
+}
+
+.custFasterResultWraper .resultBox .contentBox .custHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 4px;
+    position: relative;
+    padding: 0;
+    padding-right: 70px;
+}
+
+.custFasterResultWraper .resultBox .contentBox .custHeader h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292B2D;
+    margin: 0;
+    padding: 0;
+}
+
+.custFasterResultWraper .resultBox .contentBox .custHeader .saveBadge {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: normal;
+    background: #45C95B;
+    border-radius: 100px;
+    padding: 2px 8px;
+    color: #fff;
+    display: flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.custFasterResultWraper .resultBox .contentBox p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.custFasterResultWraper {
+    margin: 0 0 25px;
+    max-width: 440px;
+}
+@media(max-width: 798px){
+    .custFasterResultWraper {
+        max-width: 405px;
+    }
+}
+@media(max-width: 768px){
+    .custFasterResultWraper .resultBox .imbBox{
+        flex: 0 0 84px;
+    }
+    .custFasterResultWraper .resultBox{
+        padding: 8px;
+    }
+    .custFasterResultWraper .resultBox .contentBox .custHeader h6{
+        font-size: 16px;
+    }
+}
+@media(max-width: 360px){
+    .custFasterResultWraper .resultBox .contentBox .custHeader{
+        padding-top: 22px;
+        padding-right: 0;
+    }
+    .custFasterResultWraper .resultBox .contentBox .custHeader .saveBadge{
+        right: auto;
+        left: 0;
+        top: 0;        
+    }
+    .custFasterResultWraper .resultBox .contentBox .custHeader h6{
+        line-height: 22px;
+    }
+    .custFasterResultWraper .resultBox .contentBox p{
+        line-height: 18px;
+    }
+}
+</style>

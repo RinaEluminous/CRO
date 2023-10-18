@@ -1,0 +1,1484 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+  body, html, h1, h2, h3, h4, h5, h6, p, span, b,{
+    font-family: 'Inter', sans-serif
+  }
+  .custLichenSclerosusHeroBanner {
+    background-color: #ebf0f5;
+    position: relative;
+    z-index: 1
+  }
+  
+  .custLichenSclerosusNaturallyLeft ol li p {
+    margin: 0;
+  }
+
+  .custLichenSclerosusSpeedUpHealing .row {
+    margin-bottom: 0 !important
+  }
+
+  .custLichenSclerosusHeroBanner .col-md-6 {
+    max-width: 613px;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px
+  }
+
+  .custLichenSclerosusRatingWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%
+  }
+
+  .custLichenSclerosusRatingWrapper p {
+    margin: 0 0 0 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px
+  }
+
+  .custLichenSclerosusRatingWrapper span.jdgm-star.jdgm--on {
+    padding: 0 5px 0 0 !important;
+    color: #e36018
+  }
+
+  .custLichenSclerosusHeroBanner h1 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    letter-spacing: -0.03em;
+    color: #000;
+    max-width: 560px;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    margin-left: 0
+  }
+
+  .custLichenSclerosusHeroBanner ul {
+    padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%
+  }
+
+  .custLichenSclerosusHeroBanner ul li {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center
+  }
+
+  .custLichenSclerosusHeroBanner ul li img {
+    margin-right: 8px
+  }
+
+  a.custLichenSclerosusCTA {
+    background: #e36018;
+    border-radius: 1000px;
+    color: #fff !important;
+    padding: 16px 80px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 27px;
+    display: inline-block
+  }
+
+  .custLichenSclerosusHeroBanner .container,
+  .custLichenSclerosusPhysiciansDermatologist .container,
+  .custLichenSclerosusSpeedUpHealing .container,
+  .custLichenSclerosusNatureInspired .container,
+  .custLichenSclerosusCommHeadTag .container,
+  .custLichenSclerosusReviews .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    display: block
+  }
+
+  .custLichenSclerosusHeroBanner:after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/lichen-sclerosus-pain-banner.png);
+    content: '';
+    display: block;
+    width: 1331px;
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 104% 0;
+    transform: translateX(-60%);
+    background-size: 727px auto;
+    z-index: -1
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist h2,
+  .custLichenSclerosusSpeedUpHealing h2,
+  .custLichenSclerosusNatureInspired h2,
+  .custLichenSclerosusCommHeadTag h2 {
+    margin: 40px 0 32px 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000;
+    letter-spacing: -0.03em
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #000;
+    margin-bottom: 16px;
+    padding-right: 10px
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist ul li {
+    width: calc(25% - 8px);
+    display: flex;
+    align-items: center;
+    flex: 0 0 25%;
+    margin: 0 0 32px 0
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .custLichenSclerosusInfoDoctor {
+    background: #f2f7fa;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 24px;
+    max-width: 540px;
+    width: 100%;
+    position: absolute;
+    bottom: -31px;
+    left: 40px
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .custLichenSclerosusInfoDoctor p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #000;
+    margin-bottom: 10px
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .custLichenSclerosusInfoDoctor span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: #292b2d
+  }
+
+  .custLichenSclerosusHeroBanner .row {
+    margin-bottom: 0
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .col-md-6:first-child {
+    width: 100%;
+    max-width: 50%
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist p b {
+    font-weight: 700
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist ul li span {
+    width: 98px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #000;
+    margin-left: 8px
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .col-md-6:last-child {
+    width: 48%;
+    padding-left: 80px;
+    position: relative
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/dr._roopa_chari.png);
+    content: '';
+    display: block;
+    width: 1331px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    transform: translateX(-50%);
+    background-size: 575px auto;
+    z-index: -1
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist .container .col-md-6:last-child img,
+  .custLichenSclerosusHeroBanner .col-md-6:first-child,
+  .page-shogun-default .shogun-root,
+  .custLichenSclerosusSpeedUpHealing .col-md-6:last-child img {
+    display: none
+  }
+
+  .custLichenSclerosusSpeedUpHealing {
+    position: relative
+  }
+
+  .custLichenSclerosusSpeedUpHealing h2 small,
+  .custLichenSclerosusNatureInspired h2 small,
+  .custLichenSclerosusCommHeadTag h2 small {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #4c4c4c;
+    display: block
+  }
+
+  .custLichenSclerosusReviews.custLichenSclerosusCommHeadTag h2 {
+    margin-bottom: 10px
+  }
+
+  a.custLichenSclerosusCTA {
+    margin-bottom: 60px
+  }
+
+  .custLichenSclerosusPhysiciansDermatologist ul {
+    margin-top: 32px
+  }
+
+  .custLichenSclerosusKillsFungus ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0px 0
+  }
+
+  .custLichenSclerosusKillsFungus ul li {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #292b2d
+  }
+
+  .custLichenSclerosusKillsFungus ul li img {
+    margin-right: 8px
+  }
+
+  .custLichenSclerosusKillsFungus {
+    padding: 0 40px;
+    max-width: 1410px;
+    margin: 0 auto
+  }
+
+  .custLichenSclerosusSpeedUpHealing h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.03em;
+    color: #000;
+    margin: 0 0 4px 0;
+    padding: 0
+  }
+
+  .custLichenSclerosusSpeedUpHealing p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #292b2d;
+    letter-spacing: -0.03em
+  }
+
+  .custLichenSclerosusSpeedUpHealing .col-md-6 {
+    width: 100%;
+    max-width: 50%
+  }
+
+  .custLichenSclerosusSpeedUpHealing ul {
+    padding: 0;
+    margin: 34px 0 0 0;
+    list-style: none
+  }
+
+  .custLichenSclerosusSpeedUpHealing ul li {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    position: relative;
+    counter-increment: my-sec-counter
+  }
+
+  .custLichenSclerosusSpeedUpHealing ul li::before {
+    content: ""counter(my-sec-counter) "";
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 4px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px
+  }
+
+  .custLichenSclerosusSpeedUpHealing {
+    background-color: #f2f7fa;
+    z-index: 1;
+    padding: 80px 0
+  }
+
+  .custLichenSclerosusSpeedUpHealing ul li span {
+    width: calc(100% - 50px);
+    margin-left: 16px
+  }
+
+  .custLichenSclerosusSpeedUpHealing:after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/speed_up_healing.jpg);
+    content: '';
+    display: block;
+    width: 1330px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: right center;
+    transform: translateX(-50%);
+    background-size: 610px auto;
+    z-index: -1
+  }
+
+  .custLichenSclerosusSpeedUpHealing a.custLichenSclerosusCTA {
+    margin-top: 10px;
+    margin-bottom: 0
+  }
+
+  .custLichenSclerosusNatureInspired ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap
+  }
+
+  .custLichenSclerosusNatureInspired {
+    background: #f2f7fa;
+    padding: 40px 0
+  }
+
+  .custLichenSclerosusNatureInspired h2 {
+    margin-top: 0
+  }
+
+  .custLichenSclerosusNatureInspired h2 small {
+    max-width: 70%;
+    line-height: 28px;
+    margin-top: 12px
+  }
+
+  .custLichenSclerosusNatureInspired ul li {
+    flex: 0 0 16.66%;
+    max-width: calc(16.66% - 14px);
+    margin-right: 16px;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 0
+  }
+
+  .custLichenSclerosusNatureInspired ul li:last-child {
+    margin: 0
+  }
+
+  .custLichenSclerosusNatureInspired ul li img {
+    width: 100% !important
+  }
+
+  .custLichenSclerosusNatureInspired ul li:first-child {
+    border: 1px solid #c4222e
+  }
+
+  .custLichenSclerosusClinicallyTested h4 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000;
+    margin: 0;
+    padding: 0
+  }
+
+  .custLichenSclerosusClinicallyTested p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #717171;
+    margin: 5px 0
+  }
+
+  .custLichenSclerosusClinicallyTested span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #c4222e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px
+  }
+
+  .custLichenSclerosusIngredients a {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #717171;
+    position: relative;
+    transition: all .5s;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+  }
+
+  .custLichenSclerosusIngredients a::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #717171;
+    position: absolute;
+    border: 0;
+    top: 100%
+  }
+
+  .custLichenSclerosusClinicallyTested {
+    padding: 12px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 30px
+  }
+
+  .custLichenSclerosusFirstAidOintment {
+    width: 100%;
+    display: flex;
+    background: #f2f7fa;
+    padding: 40px;
+    border-radius: 16px;
+    flex-wrap: wrap
+  }
+
+  .custLichenSclerosusProducts {
+    flex: 0 0 33.33%;
+    max-width: calc(33.33% - 16px);
+    background: #fff;
+    border-radius: 10px;
+    margin-right: 24px;
+    text-align: center;
+    padding: 24px
+  }
+
+  .custLichenSclerosusProducts:last-child {
+    margin-right: 0
+  }
+
+  .custLichenSclerosusProducts h5 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000
+  }
+
+  .custLichenSclerosusProducts span.jdgm-prev-badge__stars * {
+    color: #000
+  }
+
+  .custLichenSclerosusProducts span.customNumberRating {
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.03em;
+    color: #000;
+    font-family: 'Inter', sans-serif
+  }
+
+  .custRatingsStar .jdgm-star.jdgm--on:before {
+    content: '';
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-full.svg);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    background-position: center
+  }
+
+  .custLichenSclerosusProducts span.jdgm-prev-badge__stars span:last-child:before {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-half.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    content: '' !important;
+    background-position: center
+  }
+
+  .custLichenSclerosusProducts span.jdgm-prev-badge__stars span {
+    width: 21px;
+    display: flex !important;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    background-repeat: no-repeat;
+    height: 20px
+  }
+
+  .custRatingsStar span.jdgm-prev-badge__stars {
+    display: flex;
+    justify-content: center
+  }
+
+  .custRatingsStar {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .custRatingsStar span.jdgm-prev-badge__text {
+    color: #717171;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+    font-weight: 500
+  }
+
+  .custProductPrice {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000;
+    margin: 15px 0;
+    font-family: 'Inter', sans-serif
+  }
+
+  .custLichenSclerosusIngredients {
+    margin-top: 40px
+  }
+
+  .custLichenSclerosusProducts img {
+    width: 100%;
+    max-width: 240px
+  }
+
+  .custLichenSclerosusButtonWrap a.custLichenSclerosusCTA {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    font-weight: 600
+  }
+
+  .custLichenSclerosusButtonWrap a.custLichenSclerosusCTA {
+    margin: 0
+  }
+
+  .custLichenSclerosusCommHeadTag h2 small {
+    margin-top: 12px
+  }
+
+  .custLichenSclerosusMoneyBackGuaranteeText {
+    background: #f2f7fa;
+    border-radius: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    flex-wrap: nowrap !important;
+    align-items: center;
+    margin-bottom: 40px !important
+  }
+
+  .custLichenSclerosusMoneyBackGuaranteeText div {
+    margin-left: 30px
+  }
+
+  .custLichenSclerosusMoneyBackGuaranteeText h2 {
+    margin: 0 0 14px 0
+  }
+
+  .custLichenSclerosusMoneyBackGuaranteeText p:last-child {
+    margin-bottom: 0
+  }
+
+  .row.custLichenSclerosusMoneyBackGuaranteeText p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #000;
+    font-family: 'Inter', sans-serif
+  }
+
+  .custLichenSclerosusHeroBanner a.custLichenSclerosusCTA {
+    margin-bottom: 0
+  }
+
+  .custLichenSclerosusIngredients a::after {
+    content: "+"
+  }
+
+  .custLichenSclerosusDropdownIngredients {
+    height: 0;
+    overflow: hidden;
+    transition: all .5s;
+    margin-top: 14px
+  }
+
+  a.custLichenSclerosusActiveIngredient+.custLichenSclerosusDropdownIngredients {
+    height: auto
+  }
+
+  a.custLichenSclerosusActiveIngredient:after {
+    content: "-"
+  }
+
+  .custLichenSclerosusReviews {
+    overflow-x: hidden;
+    padding-top: 40px
+  }
+
+  .custLichenSclerosusReviews .swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 60px
+  }
+
+  .custLichenSclerosusReviews .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+    background: #f2f7fa;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    min-height: 270px;
+    align-items: baseline;
+    margin-top: 30px
+  }
+
+  .custLichenSclerosusReviews main {
+    margin-right: -15%;
+    margin-left: -15%
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials {
+    text-align: left;
+    padding: 24px 24px
+  }
+
+  .custLichenSclerosusStarsRatings * {
+    color: #0069bc !important
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #292b2d;
+    letter-spacing: -0.02em;
+    margin-top: 16px;
+    font-family: 'Inter', sans-serif
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials .author {
+    position: absolute;
+    bottom: 15px
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials .author span {
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials .author span img {
+    margin-right: 4px
+  }
+
+  .custLichenSclerosusInstitutionalTestimonials .author cite {
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif
+  }
+
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    opacity: .3
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #323232 !important;
+    opacity: 1 !important
+  }
+
+  .swiper-pagination {
+    margin-top: 50px;
+    position: relative !important
+  }
+
+  .shg-c.custLichenSclerosusDisclaimer .container {
+    max-width: 1170px;
+    padding: 0 15px
+  }
+
+  .shg-c.custLichenSclerosusDisclaimer {
+    padding: 0 0 40px 0
+  }
+
+  .shg-c.custLichenSclerosusDisclaimer h5 {
+    font-size: 14px;
+    line-height: 1.5
+  }
+
+  .custLichenSclerosusNaturallyLeft .row {
+    flex-wrap: wrap;
+    align-items: center
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6 {
+    width: 50%
+  }
+
+  .custLichenSclerosusNaturallyLeft .container {
+    max-width: 1200px;
+    padding: 0 20px;
+    display: block
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6 img {
+    width: 100%
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6 img.custDesktopImg+img {
+    display: none
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6:last-child {
+    padding-left: 70px
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6 h2 {
+    margin: 0 0 16px 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #000;
+    letter-spacing: -0.03em;
+    font-family: 'Inter', sans-serif;
+    max-width: 80%
+  }
+
+  .custLichenSclerosusNaturallyLeft .row .col-md-6 p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #000;
+    max-width: 560px;
+    width: 560px;
+    margin-bottom: 5px
+  }
+
+  .custLichenSclerosusNaturallyLeft a.custLichenSclerosusCTA {
+    margin: 24px 0 0 0 !important
+  }
+
+  .custLichenSclerosusNaturallyLeft {
+    padding: 40px 0 40px 0
+  }
+
+  .custLichenSclerosusNaturallyLeft ol {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .custLichenSclerosusNaturallyLeft ol li {
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    margin: 0 0 17px 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+
+  .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .col-md-6:nth-child(2) {
+    padding: 0
+  }
+
+  .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .col-md-6:nth-child(1) {
+    padding-right: 80px
+  }
+
+  .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .col-md-6:nth-child(1) h2 {
+    max-width: 100%
+  }
+.custLichenSclerosusNaturallyLeft .row .col-md-6 img.custDesktopImg {
+    border-radius: 0 20px 20px 0;
+}
+.custLichenSclerosusProducts:last-child .custProductPrice small{text-decoration: line-through;color: #000;margin-right: 10px;}
+
+.custLichenSclerosusProducts:last-child .custProductPrice {
+    color: #C4222E;
+}
+.custLichenSclerosusHeroBanner h1 span {
+    font-size: 22px;
+    margin-left: 4px;
+    position: relative;
+    top: -9px;
+}
+.custLichenSclerosusProducts:last-child .custRatingsStar span.jdgm-star.jdgm--half::before {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/rating-star-full.svg);
+}
+/*10-07-2023*/
+.custLichenSclerosusNaturallyLeft iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 560px;
+    max-width: 100%;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.custLichenSclerosusNaturallyLeft ol li span {
+    width: 75px;
+    flex: 0 0 75px;
+    margin-right: 18px;
+}
+
+.custLichenSclerosusNaturallyLeft ol li:last-child {
+    margin-bottom: 0;
+}
+blockquote {
+    border: 0 !important;
+    padding: 0 !important;
+}
+div[data-testid="card-component"] {
+    display: none !important;
+}
+
+/*Media*/
+  @media only screen and (max-width:1500px) and (min-width:1366px) {
+    .custLichenSclerosusPhysiciansDermatologist::after {
+      width: 100%
+    }
+
+    .custEmuaidLichenSclerosus .container {
+      max-width: 100%
+    }
+
+    .custLichenSclerosusHeroBanner .container,
+    .custLichenSclerosusPhysiciansDermatologist .container {
+      padding-left: 80px
+    }
+
+    .custLichenSclerosusNaturallyLeft .container {
+      padding-left: 0;
+      padding-right: 80px
+    }
+
+    .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .container {
+      padding-left: 80px;
+      padding-right: 0
+    }
+  }
+
+  @media(max-width:1500px) {
+    .custLichenSclerosusHeroBanner:after {
+      right: 0;
+      left: auto;
+      transform: none
+    }
+  }
+
+  @media(max-width:1199px) {
+    .custLichenSclerosusSpeedUpHealing h2 {
+      margin-top: 0
+    }
+
+    .custLichenSclerosusNatureInspired ul li {
+      max-width: calc(25% - 16px);
+      flex: 0 0 25%;
+      margin-bottom: 15px
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist ul li {
+      width: calc(33.33% - 8px);
+      flex: 0 0 33.33%
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist::after,
+    .custLichenSclerosusSpeedUpHealing:after {
+      width: 100%;
+      background-size: contain;
+      max-width: 50%;
+      transform: none;
+      right: 0;
+      background-position: center
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist {
+      padding-bottom: 20px
+    }
+
+    a.custLichenSclerosusCTA {
+      margin-bottom: 0
+    }
+
+    .custLichenSclerosusProducts div.custSpace {
+      padding: 0
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist h2,
+    .custLichenSclerosusSpeedUpHealing h2,
+    .custLichenSclerosusNatureInspired h2,
+    .custLichenSclerosusCommHeadTag h2 {
+      font-size: 24px;
+      line-height: 32px
+    }
+
+    .row.custLichenSclerosusMoneyBackGuaranteeText {
+      padding: 0 20px
+    }
+
+    .row.custLichenSclerosusMoneyBackGuaranteeText p {
+      font-size: 16px;
+      line-height: 1.4
+    }
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 p{width: 100%;}
+
+    .tiktok-embed {
+    max-width: 100% !important;
+    min-width: 100% !important;
+}
+  }
+
+  @media(max-width:1024px) {
+    .custLichenSclerosusHeroBanner:after {
+      left: 0;
+      transform: none;
+      width: 100%;
+      background-size: 460px
+    }
+  }
+
+  @media(max-width:991px) {
+    .custLichenSclerosusHeroBanner {
+      margin-top: 60px;
+      background-size: 60%;
+      padding: 30px 0
+    }
+
+    .custLichenSclerosusHeroBanner h1 {
+      font-size: 32px;
+      line-height: 40px
+    }
+
+    .custLichenSclerosusRatingWrapper p {
+      font-size: 16px;
+      line-height: 24px
+    }
+
+    .custLichenSclerosusHeroBanner ul li {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px
+    }
+
+    .custLichenSclerosusHeroBanner a.custLichenSclerosusCTA {
+      font-size: 20px;
+      line-height: 24px;
+      order: 3;
+      margin-top: 0;
+      margin-bottom: 0
+    }
+
+    .custLichenSclerosusHeroBanner .col-md-6 {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      padding-top: 0;
+      padding-bottom: 0
+    }
+  }
+
+  @media(max-width:860px) {
+    .custLichenSclerosusProducts {
+      flex: 0 0 100%;
+      max-width: 100%;
+      margin-bottom: 15px
+    }
+
+    .custLichenSclerosusFirstAidOintment {
+      padding: 15px
+    }
+
+    .custLichenSclerosusProducts:last-child {
+      margin-bottom: 0
+    }
+
+    .custLichenSclerosusCommHeadTag {
+      padding: 0 15px
+    }
+  }
+
+  @media(max-width:767px) {
+    .custLichenSclerosusHeroBanner {
+      background-image: none;
+      padding: 0
+    }
+
+    .custLichenSclerosusHeroBanner h1 {
+      max-width: 100%;
+      order: 2
+    }
+
+    .custLichenSclerosusRatingWrapper {
+      order: 1
+    }
+
+    .custLichenSclerosusHeroBanner ul {
+      order: 4
+    }
+
+    .custLichenSclerosusHeroBanner .container,
+    .custLichenSclerosusPhysiciansDermatologist .container,
+    .custLichenSclerosusCommHeadTag .container {
+      padding: 0
+    }
+
+    .custLichenSclerosusHeroBanner .col-md-6:first-child img {
+      width: 100%
+    }
+
+    .custLichenSclerosusHeroBanner .col-md-6:first-child {
+      display: block
+    }
+
+    .custLichenSclerosusHeroBanner .col-md-6:nth-child(2) {
+      padding: 34px 15px;
+      background-color: #f2f7fa
+    }
+
+    .custLichenSclerosusHeroBanner ul li {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 6px
+    }
+
+    .custLichenSclerosusHeroBanner a.custLichenSclerosusCTA {
+      margin-bottom: 24px
+    }
+
+    .custLichenSclerosusHeroBanner:after {
+      display: none
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist::after,
+    .custLichenSclerosusSpeedUpHealing:after{
+      display: none
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .col-md-6:first-child,
+    .custLichenSclerosusSpeedUpHealing .col-md-6 {
+      max-width: 100%;
+      padding: 0 15px;
+      order: 2
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .col-md-6:last-child,
+    .custLichenSclerosusSpeedUpHealing .col-md-6:last-child {
+      max-width: 100%;
+      width: 100%;
+      padding: 0;
+      order: 1;
+      margin-bottom: 0;
+      flex: 0 0 100%
+    }
+
+    .custLichenSclerosusSpeedUpHealing .col-md-6:last-child {
+      margin-bottom: 30px
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .container .col-md-6:last-child img,
+    .custLichenSclerosusSpeedUpHealing .col-md-6:last-child img {
+      display: block;
+      width: 100%
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist h2,
+    .custLichenSclerosusSpeedUpHealing h2,
+    .custLichenSclerosusNatureInspired h2 {
+      font-size: 24px;
+      line-height: 32px;
+      margin-bottom: 10px;
+      margin-top: 0
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist ul li {
+      width: calc(50% - 8px);
+      flex: 0 0 50%;
+      margin-bottom: 15px
+    }
+
+    .custLichenSclerosusSpeedUpHealing h2 small,
+    .custLichenSclerosusNatureInspired h2 small,
+    .custLichenSclerosusCommHeadTag h2 small {
+      font-size: 18px;
+      max-width: 100%;
+      line-height: 24px
+    }
+
+    .custLichenSclerosusKillsFungus ul {
+      margin-top: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 30px
+    }
+
+    .custLichenSclerosusKillsFungus ul li {
+      width: 100%;
+      margin: 8px 0;
+      font-size: 14px
+    }
+
+    .custLichenSclerosusKillsFungus {
+      padding: 0 15px
+    }
+
+    .custLichenSclerosusSpeedUpHealing {
+      padding: 0
+    }
+
+    .custLichenSclerosusSpeedUpHealing .container {
+      padding: 0
+    }
+
+    .custLichenSclerosusSpeedUpHealing ul {
+      margin-top: 24px
+    }
+
+    .custLichenSclerosusSpeedUpHealing h4 {
+      font-size: 18px
+    }
+
+    .custLichenSclerosusSpeedUpHealing p {
+      font-weight: 500;
+      font-size: 16px
+    }
+
+    .custLichenSclerosusSpeedUpHealing a.custLichenSclerosusCTA {
+      margin-bottom: 30px;
+      width: 100%;
+      text-align: center
+    }
+
+    .custLichenSclerosusNatureInspired ul {
+      margin-top: 24px
+    }
+
+    .custLichenSclerosusNatureInspired ul li {
+      max-width: 100%;
+      flex: 0 0 100%;
+      margin-bottom: 10px;
+      display: flex
+    }
+
+    .custLichenSclerosusNatureInspired ul li img {
+      width: 100px
+    }
+
+    .custLichenSclerosusIngredients {
+      margin-top: 24px
+    }
+
+    .custLichenSclerosusIngredients a {
+      font-size: 18px;
+      line-height: 20px
+    }
+
+    .custLichenSclerosusNatureInspired {
+      padding: 30px 0
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .custLichenSclerosusInfoDoctor p {
+      font-size: 18px;
+      line-height: 24px
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .custLichenSclerosusInfoDoctor {
+      max-width: calc(100% - 30px);
+      left: 15px;
+      bottom: -85px;
+      padding: 8px 15px
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist .col-md-6:last-child {
+      margin-bottom: 115px
+    }
+
+    .custLichenSclerosusMoneyBackGuaranteeText div {
+      margin: 0
+    }
+
+    .custLichenSclerosusMoneyBackGuaranteeText {
+      flex-wrap: wrap !important;
+      justify-content: center;
+      padding: 15px !important;
+      margin-top: 60px;
+      margin-bottom: 30px
+    }
+
+    .custLichenSclerosusClinicallyTested p {
+      font-size: 14px;
+      line-height: 18px
+    }
+
+    .custLichenSclerosusProdImageWrapper img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%
+    }
+
+    .custLichenSclerosusPhysiciansDermatologist {
+      padding-top: 0;
+      padding-bottom: 0
+    }
+
+    .custLichenSclerosusSpeedUpHealing h2 small b,
+    .custLichenSclerosusNatureInspired h2 small b {
+      font-weight: 600
+    }
+
+    .custLichenSclerosusClinicallyTested span {
+      position: relative;
+      top: 0;
+      right: 0;
+      left: 0;
+      font-size: 13px;
+      padding: 0;
+      line-height: normal;
+      display: block
+    }
+
+    .custLichenSclerosusReviews main {
+      margin: 0
+    }
+
+    .custLichenSclerosusReviews .swiper-slide {
+      min-height: auto
+    }
+
+    .custLichenSclerosusReviews .swiper {
+      padding-bottom: 20px
+    }
+
+    .custLichenSclerosusInstitutionalTestimonials .author {
+      position: relative;
+      margin-top: 15px;
+      bottom: 0
+    }
+
+    .custLichenSclerosusProdImageWrapper {
+      max-width: 100px
+    }
+
+    .custLichenSclerosusClinicallyTested {
+      width: calc(100% - 100px)
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 {
+      width: 100%
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 img.custDesktopImg+img {
+      display: block
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 img.custDesktopImg {
+      display: none
+    }
+
+    .custLichenSclerosusNaturallyLeft .container {
+      padding: 0
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6:last-child {
+      padding: 30px 15px 0 15px
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px
+    }
+
+    .custLichenSclerosusNaturallyLeft .row .col-md-6 p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      max-width: 100%; 
+    }
+
+    .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft {
+      padding-top: 0
+    }
+
+    .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .col-md-6 {
+      padding: 30px 15px 0 15px !important;
+      order: 2
+    }
+
+    .custLichenSclerosusNaturallyLeft+.custLichenSclerosusNaturallyLeft .col-md-6:last-child {
+      padding: 0 !important;
+      order: 1
+    }
+
+    .custLichenSclerosusNaturallyLeft ol li {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      align-items: flex-start;
+    }
+
+    .custLichenSclerosusNaturallyLeft {
+      padding-top: 30px; padding-bottom: 30px;
+    }
+    .custLichenSclerosusNaturallyLeft .row {
+    margin-bottom: 0;
+}
+.custLichenSclerosusReviews.custLichenSclerosusCommHeadTag h2 {
+    margin-top: 30px;
+}
+.custLichenSclerosusClinicallyTested h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  }
+
+  @media(max-width:340px) {
+    .custLichenSclerosusClinicallyTested h4 {
+      font-size: 14px
+    }
+
+    .custLichenSclerosusProdImageWrapper {
+      width: 80px
+    }
+
+    .custLichenSclerosusClinicallyTested {
+      width: calc(100% - 80px)
+    }
+  }   

@@ -1,0 +1,162 @@
+section.homeRepairsWraper {
+    background: #fff;
+    padding: 64px 15px 18px;
+}
+
+section.homeRepairsWraper h2 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 64px;
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    color: #1D2159;
+    margin: 0 0 16px;
+}
+section.homeRepairsWraper p {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: "Roboto", sans-serif;
+    color: #1B1B1B;
+    margin: 0 0 11px;
+}
+.homeRepairsWraper ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.homeRepairsWraper ul li {
+    flex: 0 0 calc(25% - 15px);
+}
+.homeRepairsWraper ul li .repairItemBox {
+    display: flex;
+    background: #F4F4F4;
+    border-radius: 8px;
+    padding: 21px 24px;
+    align-items: center;
+    gap: 0 30px;
+    height: 100%;
+}
+.homeRepairsWraper ul li .repairItemBox .icon {
+    flex: 0 0 60px;
+}
+.homeRepairsWraper ul li .repairItemBox .content .priceTag {
+    background: #0E1138;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    min-width: 83px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 8px;
+}
+.homeRepairsWraper ul li .repairItemBox .content .itemName {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+}
+.homeRepairsWraper .totalCostWraper {
+    background: #0E1138;
+    border-radius: 8px;
+    padding: 32px 16px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 11px;
+}
+.homeRepairsWraper .totalCostWraper span {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    vertical-align: middle;
+    margin: 0 0 0 8px;
+}
+.homeRepairsWraper .costWarning {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+}
+
+@media(max-width: 1199px){
+    .homeRepairsWraper ul li .repairItemBox{
+        gap: 0 15px;
+    }
+    .homeRepairsWraper ul li .repairItemBox .content .priceTag{
+        padding: 5px;
+        font-size: 14px;
+        margin: 0 0 5px;
+        min-width: 70px;
+    }
+    .homeRepairsWraper ul li .repairItemBox .content .itemName{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 991px){
+    .homeRepairsWraper ul li {
+        flex: 0 0 calc(33.33% - 15px);
+    }
+}
+@media(max-width: 767px){
+    section.homeRepairsWraper{
+        padding: 64px 3px 64px;
+    }
+    section.homeRepairsWraper h2{
+        font-size: 36px;
+        line-height: 40px;
+        margin: 0 0 16px;
+    }
+    .homeRepairsWraper ul li {
+        flex: 0 0 calc(50% - 15px);
+    }
+}
+@media(max-width: 520px){
+    .homeRepairsWraper ul{
+        gap: 10px;
+    }
+    .homeRepairsWraper ul li {
+        flex: 0 0 calc(50% - 5px);
+    }
+    .homeRepairsWraper ul li .repairItemBox{
+        gap: 8px 0;
+        flex-direction: column;
+        padding: 8px;
+    }
+    .homeRepairsWraper ul li .repairItemBox .content .priceTag{
+        padding: 8px 5px;
+        font-size: 16px;
+        margin: 0 0 5px;
+        min-width: 83px;
+    }
+    .homeRepairsWraper ul li .repairItemBox .content {
+        width: 100%;
+        text-align: center;
+    }
+    .homeRepairsWraper ul li .repairItemBox .content .itemName {
+        font-size: 16px;
+    }
+}
+@media(max-width: 360px){
+    .homeRepairsWraper .totalCostWraper{
+        font-size: 21px;
+        line-height: 38px;
+    }
+    .homeRepairsWraper .totalCostWraper span{
+        font-size: 30px;
+    }
+    .homeRepairsWraper .costWarning{
+        line-height: normal;
+    }
+}

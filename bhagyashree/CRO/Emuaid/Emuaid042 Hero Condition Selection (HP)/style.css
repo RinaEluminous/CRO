@@ -1,0 +1,193 @@
+body.index, body.index .bm-hero-section {
+    overflow-x: hidden;
+}
+
+body.index .shg-fw .bm-hero-section .bm-hero-header {
+    display: none;
+}
+
+.custHeroInsider .custRecommendHeader {
+    display: flex;
+}
+
+.custHeroInsider .custRecommendHeader .custRecommendHeaderLeft {
+    width: 50%;
+}
+
+.custHeroInsider .custRecommendHeader .custRecommendHeaderRight {
+    width: 50%;
+}
+
+.custHeroInsider .custRecommendHeader .custRecommendHeaderLeft h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #001489;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    padding: 0;
+}
+
+.custHeroInsider .custRecommendHeader .custRecommendHeaderLeft .custSubTitle {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #E36018;
+    margin: 0 auto 12px;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+}
+
+.custHeroInsider .custRecommendHeader .custRecommendHeaderLeft h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #292B2D;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+}
+
+.custHeroInsider .custConditions {
+    display: flex;
+    gap: 0 10px;
+    margin: 25px 0 50px;
+    width: 100%;
+    overflow: auto;
+    flex-wrap: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.custHeroInsider .custConditions::-webkit-scrollbar {
+    display: none;
+}
+
+.custHeroInsider .custConditions .box {
+    padding: 16px 8px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #001489;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    flex: 0 0 120px;
+}
+
+.custHeroInsider .custConditions .box:hover {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.custHeroInsider .custConditions .box.quarter-spanish-white {
+    background: #F5DDDD;
+}
+
+.custHeroInsider .custConditions .box.quarter-spanish-white2 {
+    background: #F5EDDD;
+}
+
+.custHeroInsider .custConditions .box.frost2 {
+    background: #EDF5DD;
+}
+
+.custHeroInsider .custConditions .box.peppermint {
+    background: #DDF5DD;
+}
+
+.custHeroInsider .custConditions .box.frost {
+    background: #DDF5ED;
+}
+
+.custHeroInsider .custConditions .box.link-water {
+    background: #DDEDF5;
+}
+
+.custHeroInsider .custConditions .box.link-water3 {
+    background: #DDDDF5;
+}
+
+.custHeroInsider .custConditions .box.french-lilac {
+    background: #EDDDF5;
+}
+
+.custHeroInsider .custConditions .box.vanilla-ice {
+    background: #F5DDED;
+}
+
+.custHeroInsider .custPeopleWraper {
+    display: flex;
+    background: #EBECF2;
+    padding: 24px 0;
+    position: relative;
+}
+
+.custHeroInsider .custPeopleWraper .custLeft {
+    width: 50%;
+    padding: 0 15px;
+    display: flex;
+}
+
+.custHeroInsider .custPeopleWraper .custLeft img {
+    max-width: 496px;
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.custHeroInsider .custPeopleWraper .custRight {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.custHeroInsider .custPeopleWraper .custRight .custReviewTitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #4C4C4C;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+}
+
+.custHeroInsider .custPeopleWraper .custRight .custReviewsBox {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    flex-wrap: wrap;
+}
+
+.custHeroInsider .custPeopleWraper .custRight .custReviewsBox .text {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: Helvetica, Helvetica Neue, Arial, Lucida Grande, sans-serif;
+    color: #001489;
+}
+
+.custHeroInsider .custPeopleWraper .custRight .custReviewsBox .jdgm-prev-badge__stars .jdgm-star {
+    padding: 0 !important;
+    color: #e36018;
+}
+
+.custHeroInsider .custPeopleWraper:before,
+.custHeroInsider .custPeopleWraper:after {
+    content: '';
+    display: block;
+    width: 100vw;
+    position: absolute;
+    background: #EBECF2;
+    top: 0;
+    bottom: 0;
+}
+
+.custHeroInsider .custPeopleWraper:before {
+    left: 100%;
+}
+
+.custHeroInsider .custPeopleWraper:after {
+    right: 100%;
+}

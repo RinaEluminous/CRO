@@ -1,0 +1,48 @@
+<style>
+@media screen and (min-width:1008px) {
+	.CollectionInner .CollectionInner__Products {
+		order: 2;
+		flex: 0 0 calc(100% - 260px);
+		padding-top: 50px
+	}
+
+	.CollectionInner {
+		margin-top: 0
+	}
+
+	.CollectionInner .CollectionInner__Products .ProductList--grid[data-desktop-count="4"]>.Grid__Cell {
+		width: 33.33%
+	}
+}
+
+.template-collection .shopify-custom-collection-list{
+	overflow-x: unset;
+}
+
+.shopify-custom-collection-list,
+.template-collection .shopify-custom-collection-list a img,
+.template-collection .ProductList .Grid__Cell,
+.CollectionInner .Pagination {
+	display: none;
+}
+
+.CollectionInner .custShopMoreBtnWraperV2 {
+	text-align: center;
+	padding: 50px 0;
+	display: block;
+}
+
+.CollectionInner .custShopMoreBtnWraperV2 button.shopMoreBtn {
+	padding: 15px 30px;
+	border: 1px solid #000000;
+	max-width: 283px;
+	width: 100%;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 17px;
+	letter-spacing: 0.16em;
+	text-transform: uppercase;
+	font-family: var(--text-font-family) !important;
+	font-family: var(--heading-font-family) !important;
+}
+</style>

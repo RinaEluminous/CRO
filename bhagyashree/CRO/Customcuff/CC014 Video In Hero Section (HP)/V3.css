@@ -1,0 +1,65 @@
+body{
+ opacity: 0;
+}
+
+.custVideoBrandBannerV3 {
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 668px;
+}
+
+.custImageBlockV3, .custVideoBlockV3 {
+    width: 50%;
+    height: 100%;
+}
+
+.custImageBlockV3 *, .custVideoBlockV3 * {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.custTextBlockV3 {
+    position: absolute;
+    width: 354px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.custTextBlockV3 h2 {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 10px;
+}
+
+.custTextBlockV3 p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: "Avenir Next", sans-serif;
+    margin-bottom: 24px;
+}
+
+.custTextBlockV3 a.custShopButtonV3 {
+    padding: 12px 40px;
+    background: #000;
+    color: #EEE5DC;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    display: inline-block;
+}
+.custVideoBrandBannerV3 video::-webkit-media-controls {
+  display: none;
+}

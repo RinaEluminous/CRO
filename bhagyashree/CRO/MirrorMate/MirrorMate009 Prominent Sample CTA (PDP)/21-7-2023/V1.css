@@ -1,0 +1,263 @@
+<style>
+@media screen and (min-width: 1200px) {
+.m-adwframe .product-thumb--slider {
+transform: rotate(90deg) translate(30px, -100%);
+    transform-origin: left top;
+    max-width: 465px;
+    height: 100px;
+    margin: 0;
+    order: 1;
+    top: -30px;
+}
+
+.product-images .images-container .featured {
+    width: calc(100% - 120px);
+    margin-left: auto;
+    margin-right: 0;
+    flex: 1 1 calc(100% - 120px);
+    order: 2;
+    top: -99px;
+    position: relative
+}   
+.images-container {
+    display: flex;
+    flex-direction: column;
+}
+.m-adwframe .product-thumb--slider .flickity-viewport {
+    height: 100% !important;
+}
+.product-images .images-container .featured .flickity-viewport {
+    height: 465px !important;
+    overflow: hidden;
+}
+.product-images .images-container .featured .flickity-viewport img {
+    object-fit: cover !important;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.product-images .images-container .featured .flickity-viewport .imagewithtxt {
+    height: 465px;
+}
+  .product-images .images-container .featured .flickity-viewport {
+    height: 465px !important;
+    overflow: hidden;
+}
+
+.product-images .images-container .featured .flickity-viewport img {
+    object-fit: cover !important;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.product-images .images-container .featured .flickity-viewport .imagewithtxt {
+    height: 465px;
+}
+.product-thumb--cell {
+    margin: 0 0 0 0;
+    overflow: hidden;
+    border-left: 10px solid #fff;
+}
+.product-thumb--cell img {
+transform: rotate(-90deg);
+    border: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+.product-thumb--cell a {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: 0;
+    overflow: hidden;
+}
+.product-images .featured a {
+    height: 100% !important;
+}
+main .product-template .m-adwframe .gr-col-7.mga2, main .product-template .m-adwframe .gr-col-5.mga1 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+}
+  
+.custProdDescription span#custMoreText{
+    display: none;
+}
+  a#custReadMore {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #3E5569 !important;
+}
+
+/*slider End*/
+body .purchase-box div#AddToCartForm-product-template h1 {
+    color: #036;
+    font-size: 28px !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    line-height: 40px;
+    letter-spacing: -0.56px;
+    margin-bottom: 10px;
+}
+.yotpo .text-m {
+    color: #2F84ED;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 5px;
+}
+.m-adwframe .product-title {
+    margin-bottom: 22px;
+}
+p.custProdDescription {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    margin-bottom: 0;
+}
+.product-thumb--cell:first-child {
+    border-left: 0 !important;
+}
+.step-add-wizard {
+    display: none;
+}
+
+.custDarkProdustsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        margin-top: 36px;
+}
+
+.custDarkProdustsWrapper .custOrderButtonDark {
+    padding: 12px 32px;
+    border-radius: 100px;
+    background: #3e5569;
+    border: 0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    height: 48px;
+    flex: 0 0 198px;
+    margin-right: 20px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.custOrderSample {
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 200px;
+    background: #F2F6FF;
+    align-items: center;
+}
+
+.custOrderSample .custOrderSampleCTA {
+    border-radius: 100px;
+    border: 1px solid #3E5569;
+    padding: 8px 32px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    flex: 0 0 50%;
+    margin-right: 12px;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custOrderSample p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.28px;
+    max-width: 50%;
+}
+.candt-descied {
+    display: none !important;
+}  
+.custCherokeeBarnwoodFrame {
+    border-radius: 6px;
+    border: 1px solid #036;
+    padding: 22px 32px;
+    margin-top: 32px;
+}
+
+.custCherokeeBarnwoodFrame ul li {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    width: 50%;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.custCherokeeBarnwoodFrame ul {
+    padding: 0 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.custCherokeeBarnwoodFrame ul li span {
+    margin-left: 10px;
+}
+.step-add-wizard.clearfix {
+    margin-top: 32px;
+}
+@media screen and (max-width: 991px) {
+.product-images.m-product.thumbnails-placement-below {
+    margin-bottom: 0 !important;
+}
+.purchase-box.padding-box {
+    margin-top: 15px !important;
+}
+.custDarkProdustsWrapper, .custOrderSample {
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+.custDarkProdustsWrapper .custOrderButtonDark, .custOrderSample .custOrderSampleCTA {
+    margin-right: 0 !important;
+    flex: 0 0 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.custOrderSample {
+    justify-content: center;
+    padding: 8px 12px;
+    border-radius: 16px;
+    margin-top: 0;
+}
+.custOrderSample p {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 0;
+}
+.custOrderSample .custOrderSampleCTA {
+    margin-bottom: 12px;
+}
+.custCherokeeBarnwoodFrame ul li {
+    width: 100%;
+}
+.custCherokeeBarnwoodFrame {
+    padding: 22px 16px;
+}
+}
+</style>

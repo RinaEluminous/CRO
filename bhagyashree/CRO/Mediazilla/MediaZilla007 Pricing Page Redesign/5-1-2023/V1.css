@@ -1,0 +1,505 @@
+<style>
+.pricing-section + #Table .pricing-table.custHideFeatures {
+  display : none !important;
+}
+
+.pricing-section + #Table .pricing-table.custShowFeatures {
+  display : block !important;
+}
+.pricing-section .view-more-wrapper{
+  display : none !important;
+}
+.pricing-section + #Table{
+  padding: 40px 0;
+}
+.pricing-section + #Table button.custShowFeatureCTA {
+  margin: 0 auto;
+  display: block;
+  padding: 16px 30px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  min-width: 244px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #111111;
+  font-family: Poppins,sans-serif;
+}
+.pricing-section.a{
+  padding-bottom: 0;
+}
+
+.pricing-section.a .price-container .pricing-title-wrapper h1{
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 56px;
+  font-family: Roboto,sans-serif;
+  color: #000;
+} 
+.pricing-section.a .price-container .pricing-title-wrapper p.custSubTitle{
+  font-weight: 400;
+  font-size: 20px;
+  font-family: Roboto,sans-serif;
+  line-height: 28px;
+  color: rgba(0,0,0, 0.9);
+  letter-spacing: normal;
+  margin: 0 0 28px;
+}
+.pricing-section.a .price-container .price-grid [class*="price-card"] .div-block-5{
+  display: none;
+}
+
+.pricing-section + #Table .pricing-table.custShowFeatures + button.custShowFeatureCTA{
+  margin: 40px auto 0; 
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header{
+  top: 60px;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header h4.feature{
+  opacity: 0;
+  visibility: hidden;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.title-header{
+  display: none;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 16px;
+  color: #C8242E;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  font-family: Poppins,sans-serif;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2.red{
+  background: linear-gradient(149.76deg, #FC3602 0%, #861E02 100%), #FFFFFF;
+  color: #fff;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2 a{
+  text-decoration: none;
+  padding: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-family: Poppins,sans-serif;
+  background: #C8242E;
+  color: #fff;
+  border-radius: 5px;
+  margin: 16px 0 0;
+}
+.pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2.red a{  
+  background: #fff;
+  color: #C8242E;
+}
+.pricing-section + #Table .container{
+  max-width: 1280px;  
+  padding: 0;
+}
+
+.pricing-section + #Table .container .pricing-table{
+  max-width: 100%;
+}
+
+.custInstitutionalPriceCarousel {
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  border-bottom: 0px solid #ffff;
+  padding: 40px 0;
+  flex-direction: column;
+  background: #111111;
+}
+.custInstitutionalPriceCarousel .container {
+  padding-bottom: 0;
+}
+
+.custInstitutionalPriceCarousel .custTitle {
+  font-weight: 400;
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  max-width: 100%;
+  flex: 0 0 100%;
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.custInstitutionalPriceCarousel .custInstutionalLogos {
+  display: flex;
+  overflow: hidden;
+  gap: 0 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 40px;
+  flex-wrap: wrap;
+}
+
+.custInstitutionalPriceCarousel .custInstutionalLogos div {
+  flex: 0 0 190px;
+  display: flex;
+  justify-content: center;
+}
+.custInstitutionalTestimonials {
+  display: block;
+  padding: 25px 40px;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custInstitutionalTestimonials p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #292B2D;
+  margin: 0 0 12px;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.custInstitutionalTestimonials p:before {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/MediaZilla/quote-icon.svg) no-repeat center center;
+  position: absolute;
+  left: -22px;
+  top: 0px;
+}
+
+.custInstitutionalTestimonials .author {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.custInstitutionalTestimonials .author cite {
+  font-style: normal;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Roboto,sans-serif;
+}
+
+.custInstitutionalTestimonials .author cite span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Roboto,sans-serif;
+}
+
+.custFaqSection {
+  padding: 40px 0;
+  background: #F7F7F7;
+}
+
+.custFaqSection h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 49px;
+  color: #000;
+  font-family: Roboto, sans-serif;
+  margin: 0 0 40px;
+  letter-spacing: normal;
+}
+
+.custFaqSection h3 span {
+  display: block;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  letter-spacing: normal;
+  max-width: 880px;
+  margin: 8px auto 0;
+}
+.custFaqSection h3 span a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.custFaqSection input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+/* Accordion styles */
+.custFaqSection .tabs {
+  overflow: hidden;
+  padding: 25px;
+  box-shadow: 1px 10px 50px rgb(0 0 0 / 10%);
+  border-radius: 16px;
+  background: #FFFFFF;
+}
+
+.custFaqSection .tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.custFaqSection .tab-label {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background: #fff;
+  cursor: pointer;
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  font-family: Roboto, sans-serif;
+  border-bottom: 1px solid rgb(0 0 0 / 10%);
+  margin: 0;
+  align-items: center;
+}
+.custFaqSection .tab-label::after {
+  content: "";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  transition: all 0.35s;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/MediaZilla/plus-icon.svg) no-repeat 0 0;
+  background-size: 100%;
+  transform: rotate(0deg);
+}
+.custFaqSection .tab-content {
+  max-height: 0;
+  padding: 0 32px;
+  color: #000;
+  background: white;
+  transition: all 0.35s;    
+  font-family: Roboto, sans-serif;
+  overflow: hidden;
+}
+.custFaqSection input:checked + .tab-label::after {
+  transform: rotate(45deg);
+}
+.custFaqSection input:checked ~ .tab-content {
+  max-height: 100vh;
+  padding: 24px 32px;
+}
+.custFaqSection .tab-content p {
+  margin: 0 0 12px;
+  font-size: 16px;
+  max-width: 616px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: Roboto, sans-serif;
+}
+.custFaqSection .tab-content p:last-child {
+  margin: 0;
+}
+.custFaqSection .tab-content h6 {
+  margin: 0 0 12px;
+  font-size: 16px;
+  max-width: 616px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: normal;
+  font-family: Roboto, sans-serif;
+}
+.custFaqSection .tab-content p a {
+  color: #ca2128;
+}
+
+.custFaqSection .tab-content  ul li {
+  margin: 0 0 12px;
+  font-size: 16px;
+  max-width: 616px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: Roboto, sans-serif;
+}
+
+.custFaqSection .tab-content ul li a {
+  text-decoration: none;
+  color: #ca2128;
+}
+.pricing-section .price-card:not([class*="-feature"]) .date-text,
+.pricing-section .price-card:not([class*="-feature"]){
+  color: #000;
+  opacity: 1;
+}
+.pricing-section .price-card:not([class*="-feature"]) .pricing-list .pricing-item{
+  color: #333333;
+}
+.pricing-section [class*="price-card"] .paragraph-small{
+  font-weight: 400;
+}
+.pricing-section [class*="price-card"] .paragraph{
+  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  .custInstitutionalTestimonials p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .custInstitutionalTestimonials .author cite{
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .custInstitutionalTestimonials .author cite span{
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 991px) {
+  .custFaqSection .container{
+    padding: 0 20px;
+  }
+  .pricing-section.a .price-container .pricing-title-wrapper h1{
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+@media(max-width: 767px){
+  .pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header h4.feature{
+    display: none;
+  }
+  .pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row{
+    grid-column-gap: 0px;
+  }
+  .pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2{
+    padding: 8px;
+    font-size: 16px;
+  }
+  .pricing-section + #Table .pricing-table.custShowFeatures .pricing-feature-row.header .comparison-header-title-2 a{
+    margin: 8px 0px 0px 0px;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px;
+  }
+
+  .custInstitutionalTestimonials .author {
+    position: relative;
+    display: block;
+  }
+
+  .custInstitutionalTestimonials .author cite {
+      padding-right: 110px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 600;
+  }
+
+  .custInstitutionalTestimonials .author cite span {
+      white-space: nowrap;
+      font-size: 14px;
+      line-height: 20px;
+  }
+
+  .custInstitutionalTestimonials .author .starsRatings {
+      position: absolute;
+      right: 0;
+      top: 0;
+  }
+
+  .custInstitutionalTestimonials {
+      padding: 16px 32px;
+  }
+  
+  .custFaqSection{
+    padding: 40px 0;
+  }
+  .custFaqSection h3{
+      font-size: 25px;
+      line-height: 25px;
+      font-weight: 600;
+  }
+  .custFaqSection h3 span{
+      font-size: 20px;
+      line-height: 24px;
+  }
+  .custFaqSection .tabs{
+      margin: 0;
+      padding: 16px;
+  }
+  .custFaqSection .tab-label{
+      padding: 16px 0;
+      padding-right: 41px;
+      position: relative;
+      font-size: 18px;
+      line-height: 20px;
+  }
+  .custFaqSection .tab-label::after{
+      position: absolute;
+      right: 0;
+  }
+  .custFaqSection .tab-content{
+    padding: 0;
+  }
+  .custFaqSection input:checked ~ .tab-content{
+      padding: 14px 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+  }
+  .custInstitutionalTestimonials p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .custInstitutionalPriceCarousel{
+    padding: 30px 0;
+  }
+  .custInstitutionalPriceCarousel .custTitle{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .custInstitutionalPriceCarousel .custInstutionalLogos{
+    gap: 0 10px;
+  }
+  .custInstitutionalPriceCarousel .custInstutionalLogos div{
+    flex: 0 0 100px;
+  }
+  .custInstitutionalPriceCarousel .container{
+    padding-top: 0;
+  }
+  .pricing-section.a .price-container .pricing-title {
+    grid-row-gap: 0px;
+  }
+  .pricing-section.a .price-container .pricing-title-wrapper h1{
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 0 15px;
+  }
+  .pricing-section.a .price-container .price-grid{
+    grid-row-gap: 25px;
+  }
+  .pricing-section.a .price-container .pricing-title-wrapper p.custSubTitle{
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+@media(max-width: 360px){
+  .custInstitutionalTestimonials .author .starsRatings {
+    position: relative;
+  }
+  .custInstitutionalTestimonials .author cite {
+      padding-right: 0px;
+      display: block;
+  }
+  .custInstitutionalTestimonials .author cite span {
+      white-space: normal;
+      display: block;
+  }
+}
+</style>

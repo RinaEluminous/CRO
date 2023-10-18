@@ -1,0 +1,1712 @@
+@font-face {
+    font-family: 'dream_avenue';
+    src: url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.eot');
+    src: url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.woff2') format('woff2'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.woff') format('woff'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.ttf') format('truetype'),
+         url('https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/dream-avenue/dream-avenue_-webfont.svg#dream_avenueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.custMirrorMateHtmlSection  .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.custLeftBannerContent,
+.custRightBannerImg {
+    width: 50%;
+}
+.custMirrorMateHtmlSection .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.custLeftBannerContent ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-start;
+    margin-bottom: 87px;
+    gap: 31px;
+}
+
+.custLeftBannerContent ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.custLeftBannerContent {
+    padding-top: 0;
+    padding-right: 0;
+    width: 50%;
+}
+
+.custLeftBannerContent ul li img {
+    width: 15px;
+    height: 15px;
+}
+
+.custLeftBannerContent ul li span {
+    margin-left: 9px;
+}
+
+.custReviewContent {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+}
+
+.custColorFrameBoxWrapper a {
+    text-decoration: none;
+}
+
+.custReviewContent img {
+    opacity: 1;
+    margin-right: 6px;
+}
+
+.custLeftBannerContent h3 {
+letter-spacing: -0.03em;
+    margin-bottom: 20px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: "Dream-Avenue";
+    color: #3e5569;
+    text-transform: uppercase;
+    padding: 0 100px 0 0;
+}
+
+.custLeftBannerContent p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2F2F2F;
+    letter-spacing: -0.02em;
+    max-width: 84%;
+    margin-bottom: 26px;
+    font-family: Open Sans,sans-serif;
+}
+
+a.customBlueButton {
+    display: flex;
+    background: #3E5569;
+    border-radius: 100px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    width: auto;
+    padding: 12px 35px;
+}
+
+.customButtonGroup a.customBlueButton:last-child {background: transparent;border-radius: 100px;border: 1px solid #3E5569;color: #3E5569;margin-left: 25px;}
+
+.custRightBannerImg img {
+    width: 100%;
+    max-width: 640px;
+    display: none;
+}
+
+.custBannerReviewQuotes {
+    position: absolute;
+    bottom: 74px;
+    right: 0;
+    width: calc(100% - 20px);
+    background: #fff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 99;
+    max-width: 590px;
+}
+
+.custRightBannerImg {
+    position: relative;
+    text-align: right;
+    max-width: 50%;
+    height: 100%;
+}
+
+.custBannerReviewQuotes span {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-style: italic;
+    font-family: Open Sans,sans-serif;
+}
+
+.custBannerReviewQuotes ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 0;
+    line-height: 1;
+    padding: 0 10px;
+}
+
+.custBannerReviewQuotes ul img {
+    height: 20px;
+    width: auto;
+}
+
+.custBannerReviewQuotes ul small {
+    color: #8699A7;
+    font-weight: 500;
+    font-size: 12px;
+   font-family: Open Sans,sans-serif;
+    line-height: 18px;
+}
+
+.custBannerReviewQuotes ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+   font-family: Open Sans,sans-serif;
+}
+
+.custAsSeenLogosBlock {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custAsSeenLogosBlock ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custAsSeenLogosBlock ul li img {
+    width: auto;
+    height: 80px;
+}
+
+.custWorksOnAnyMirror ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+
+.custWorksOnAnyMirror h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+    font-family: Tisa Pro;
+}
+
+.custWorksOnAnyMirror ul li a {
+    text-align: center;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #3E5569;
+   font-family: Open Sans,sans-serif;
+    margin: 16px 0 0 0;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.custWorksOnAnyMirror {
+    padding: 40px 0;
+}
+
+.custMostPopulerColor {
+    text-align: center;
+    background: #F2F6FF;
+    padding: 40px 0 40px 40px;
+}
+
+.custCommonHeading h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: Tisa Pro;
+    margin-bottom: 12px;
+}
+
+.custCommonHeading p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    line-height: 28px;
+    color: #222528;
+    font-family: Open Sans,sans-serif;
+    margin: 0 0 40px 0;
+}
+
+.custSlickSliderWrapper .slick-slide {
+    height: 100%;
+}
+
+.custColorFrameBoxWrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(35, 78, 166, 0.02);
+    border-radius: 5px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.custColorFrameBoxWrapper h5 {
+    padding: 10px 0;
+    margin: 0 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #3E5569;
+   font-family: Open Sans,sans-serif;
+}
+
+.slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custColorFrameBoxWrapper img {
+    height: auto;
+    width: 100%;
+}
+
+.custSlickColorSlider a.customBlueButton {
+    margin: 40px auto 0 auto;
+}
+
+button.slick-next.slick-arrow,
+button.slick-prev.slick-arrow {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #B1D4E0;
+    border-radius: 42px;
+    background: #FFFFFF;
+    top: calc(50% - 30px);
+    transform: translateY(-50%);
+    position: absolute;
+    text-indent: -1000000px;
+}
+
+button.slick-prev.slick-arrow {
+    left: -10px;
+    z-index: 1;
+}
+
+button.slick-next.slick-arrow {
+    right: 40px;
+}
+
+button.slick-prev.slick-arrow::after,
+button.slick-next.slick-arrow::after {
+    content: "";
+    text-indent: 0;
+    position: absolute;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    width: 40px;
+    height: 40px;
+    display: block;
+    top: 0;
+    background-repeat: no-repeat;
+    background-position: 12px 9px;
+    left: 0;
+}
+
+button.slick-next.slick-arrow::after {
+    transform: rotate(180deg);
+    top: -3px;
+    left: -2px;
+}
+
+.custReviewRatingStars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.custFramesSoldBlock {
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.custReviewRatingStars div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+   font-family: Open Sans,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.custReviewRatingStars h3 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+}
+
+.custReviewRatingStars div span {
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+.custClientReviewSlider .custReviewWrapper {
+    background: #f2f6ff;
+    display: flex;
+    align-items: center;
+    margin: 0 13px;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.custClientReviewSlider .slick-slide {
+    height: auto;
+}
+
+.custClientReviewSlider .slick-track {
+    display: flex;
+    align-items: stretch;
+}
+
+.custReviewWrapper * {
+    text-align: left;
+}
+
+.custReviewWrapper div {
+    padding: 15px;
+}
+
+.custReviewWrapper h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+    margin: 10px 0 4px 0;
+}
+
+.custReviewWrapper p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.custReviewWrapper div div {
+    padding: 0;
+}
+
+.custReviewClientInfo {
+    font-weight: 500;
+    font-size: 12px;
+    color: #2F2F2F;
+}
+
+body .custReviewClientInfo small {
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: #8699A7 !important;
+    display: block !important;
+}
+
+.custClientReviewSlider button.slick-next.slick-arrow {
+    right: -9px;
+}
+
+.custClientReviewSlider {
+    padding: 40px 0 0 0;
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+ul.slick-dots li button {
+    border: 0;
+    font-size: 0;
+    background: #B1D4E0;
+    border-radius: 100px;
+    max-width: 100%;
+    height: 8px;
+    padding: 0;
+    width: 8px;
+}
+
+ul.slick-dots li {
+    flex: 0 0 8px;
+    margin: 0 5px;
+    height: 8px;
+    display: flex;
+    align-items: center;
+    max-width: 8px;
+}
+
+li.slick-active button {
+    background: #3E5569 !important;
+}
+
+.custHowItsWorkVideoBlock .col-md-6 {
+    width: 50%;
+}
+
+.custHowItsWorkVideoBlock .row {
+    align-items: center;
+}
+
+
+.custHowItWorksVideoPopup {
+    position: relative;
+}
+
+.custHowItsWorkVideoBlock {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child {
+    padding-left: 80px;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child h2,
+.custHowItsWorkVideoBlock .col-md-6:last-child p {
+    text-align: left;
+}
+
+.custHowItsWorkVideoBlock .col-md-6:last-child p {
+    margin-bottom: 40px;
+}
+
+.custHowItsWorkVideoBlock ul {
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+.custHowItsWorkVideoBlock ul li {
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2F2F2F;
+   font-family: Open Sans,sans-serif;
+}
+
+.custHowItsWorkVideoBlock ul li::before {
+    content: "1";
+    width: 40px;
+    height: 40px;
+    display: flex;
+    text-align: center;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background: #8699A7;
+    border-radius: 100px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.custHowItsWorkVideoBlock ul li:nth-child(2)::before {
+    content: "2";
+}
+
+.custHowItsWorkVideoBlock ul li:nth-child(3)::before {
+    content: "3";
+}
+
+.custHowItsWorkVideoBlock ul li:last-child {
+    padding-bottom: 0;
+}
+
+.custGuaranteeWrapperBlock {
+    background: #ffffff;
+    padding: 0 40px;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: calc(1440px - 80px);
+    border-radius: 5px;
+    background: #F2F6FF;
+}
+
+.custGuaranteeTitle {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E5569;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul {
+    display: flex;
+    align-items: center;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul li {
+    margin-left: 96px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #2F2F2F;
+    font-family: Open Sans,sans-serif;
+}
+
+.custGuaranteeTitle img {
+    margin-right: 10px;
+}
+
+.custGuaranteeWrapperBlock .custWhiteBg ul li img {
+    margin-right: 5px;
+}
+
+.custVideoBlock iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.custVideoBlock {
+    margin: 0 10px;
+    position: relative;
+    padding-bottom: 97%;
+    z-index: 1;
+}
+
+.custMainVideoBlock button.slick-next.slick-arrow {
+    right: -13px;
+}
+
+.custRealCustomersSection ul.slick-dots {
+    display: none;
+}
+
+.custRealCustomersSection a.customBlueButton {
+    margin: 40px auto 0 auto;
+}
+
+.custMainVideoBlock {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.custRealCustomersSection {
+    padding: 40px;
+    background: #F2F6FF;
+    text-align: center;
+}
+
+div#shopify-section-1617688047012cdcce,
+div#shopify-section-1569604578394,
+div#shopify-section-1617688302e77dab54,
+div#shopify-section-1617688884153326c5,
+div#shopify-section-1617688939922723e1,
+div#shopify-section-1559827116471,
+div#shopify-section-1562836057404,
+div#shopify-section-1584459392797,
+div#shopify-section-1632835673f56a3a9d {
+    display: none;
+}
+
+div#shopify-section-sswinstagram h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E5569;
+    padding: 0;
+    margin: 0 0 40px 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+}
+
+div#shopify-section-sswinstagram {
+    padding-top: 40px;
+}
+
+.ssw-instagram-load-more a {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3E5569;
+    opacity: 1 !important;
+   font-family: Open Sans,sans-serif;
+    text-decoration: none;
+}
+
+.ssw-instagram-load-more a i {
+    display: none;
+}
+
+div#shopify-section-1617690624afb5eec3 h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+}
+
+div#shopify-section-1617690624afb5eec3 .contain-full-width {
+    padding: 40px 15px 0 15px;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper:after {
+    width: calc(50% - 40px);
+    display: block;
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/mirror-frame-kits.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.custom__item-richtext .content {
+    max-width: 100% !important;
+}
+
+div#shopify-section-1617690624afb5eec3 .custom-content {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.custom-content-container.align-left {
+    width: 50%;
+    padding: 38px 0;
+}
+
+.richtext a.customBlueButton {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+div#shopify-section-1617690624afb5eec3 .richtext p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: Open Sans,sans-serif;
+    color: #222528 !important;
+}
+
+div#shopify-section-1617690624afb5eec3 {
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+.custVideoBlock.custOpenVideoPopup {
+    display: flex;
+}
+.custFramesSoldBlock button.slick-next.slick-arrow,
+.custFramesSoldBlock button.slick-prev.slick-arrow {
+    top: 50%;
+}
+
+.custSlickSliderWrapper .slick-list {
+    padding-left: 0 !important;
+}
+
+div#shopify-section-1617690624afb5eec3 .wrapper:before {
+    content: "@alysonchaseinteriors";
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: 4px 12px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #3E5569;
+   font-family: Open Sans,sans-serif;
+}
+
+.custHowItWorksVideoPopup iframe.wistia_embed {
+    width: 100%;
+    position: relative;
+    height: 600px;
+} 
+
+div#shopify-section-1617690624afb5eec3 .wrapper {
+    position: relative;
+} 
+
+/*** image before after slider ****/
+.custRightBannerImg .container {
+    max-width: 100%;
+    padding: 0;
+}
+.custBannerReviewQuotes span strong {
+    display: none;
+}
+.custBannerFullBG .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    align-items: center;
+}
+
+.custBannerFullBG {
+    background-image: url(https://www.mirrormate.com/cdn/shop/files/Layer_4-1-min_e13acd47-samesize3_fad1b0fb-cbdb-4733-acbf-def927dd0846.jpg?v=1647972001);
+    background-size: contain;
+    background-position: top right;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-color: #fafafa;
+}
+
+.customButtonGroup {
+    display: flex;
+}
+
+.custWorksOnAnyMirror ul li a::after {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/np_arrow-right.svg);
+    content: "";
+    display: block;
+    width: 21px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.custCommonHeading small {
+    color: #8699A7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    font-family: Open Sans,sans-serif;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.customButtonGroup a.customBlueButton:last-child img {
+    margin-left: 10px;
+}
+
+
+.custFramesSoldBlock h2, .custMostPopulerColor h2, .custRealCustomersSection h2, .custSeeForYourself .custcol6 h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: -0.8px;
+    margin-bottom: 0;
+    color: #3E5569;
+}
+
+.custMostPopulerColor p {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222528;
+}
+
+.custMostPopulerColor a.customBlueButton {
+    display: inline-block;
+}
+
+.custRealCustomersSection  a.customBlueButton {
+    display: inline-block;
+}
+
+.custSeeForYourself {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    align-items: center;
+}
+
+.custSeeForYourself .custcol6 {
+    width: 50%;
+}
+
+.custSeeForYourself .custcol6 img {
+    width: 100%;
+}
+
+.custSeeForYourself .custcol6:last-child {
+    padding: 40px 80px;
+}
+
+.custSeeForYourself .custcol6 h2, .custSeeForYourself .custcol6 p {
+    text-align: left;
+}
+
+.custSeeForYourself .custcol6 p {
+    margin-top: 12px;
+    max-width: 450px;
+    font-size: 20px;
+}
+
+.custSeeForYourself .custcol6 a.customBlueButton {
+    border-radius: 100px;
+    border: 1px solid #3E5569;
+    background-color: transparent;
+    color: #3E5569;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.custAccordionContent {
+    display: none;
+}
+.custFAQBlock input:checked ~  .custAccordionContent {
+    display: block;
+}
+
+.custFAQBlock {
+    background: #F2F6FF;
+    padding: 40px;
+}
+
+.custFAQBlock input[type="checkbox"] {
+    position: absolute;
+    left: -1000%;
+}
+
+.custAccordionHeader {
+    cursor: pointer;
+    color: #2f2f2f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    font-family: Open Sans,sans-serif;
+    position: relative;
+}
+
+.custFAQBlock label.custAccordion {
+    border-top: 1px solid rgba(134, 153, 167, 0.20);
+    border-bottom: 1px solid rgba(134, 153, 167, 0.20);
+    padding: 16px 8px;
+    display: inline-block;
+    width: 100%;
+    margin-top: -1px;
+}
+
+.custFAQwrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.custAccordionContent p {
+    color: #2f2f2f;
+    font-family: Open Sans,sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.custAccordionHeader::after {
+    content: "";
+    display: block;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/mirrormate/arrow.svg);
+    width: 11px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(-90deg);
+    background-size: 7px 16px;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+.custFAQBlock input:checked ~ .custAccordionHeader::after {
+    transform: rotate(90deg);
+}
+
+.custFAQwrapper h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: left;
+    margin: 0 0 40px 0;
+    font-family: Tisa Pro;
+    letter-spacing: -0.8px;
+    color: #3E5569;
+}
+
+.custAccordionHeader a {
+    color: #2f2f2f;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+.custMImage{display: none;}
+.custHowItWorksVideoPopup iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 640px;
+}
+.custBannerReviewQuotes img {
+    display: block;
+}
+/*media*/
+@media screen and (max-width: 1440px) {
+    .custReviewWrapper p {
+        padding-right: 0;
+    }
+
+    #shopify-section-sswinstagram .container {
+        padding: 0 40px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .contain-full-width {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .custGuaranteeWrapperBlock .custWhiteBg ul li {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .custRightBannerImg {
+        width: 50%;
+    }
+
+    .custLeftBannerContent {
+        width: 50%;
+    }
+
+    .custLeftBannerContent ul li span {
+        width: 100%;
+        display: block;
+        margin: 10px 0 0 0;
+    }
+
+    .custLeftBannerContent ul li {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .custLeftBannerContent h3 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .custLeftBannerContent h3 {
+        font-size: 36px;
+        line-height: 1.3;
+    }
+
+    .custWorksOnAnyMirror h2,
+    .custCommonHeading h2,
+    .custCommonHeading h2,
+    .custReviewRatingStars h3,
+    .custCommonHeading h2,
+    .custGuaranteeTitle,
+    .custCommonHeading h2,
+    div#shopify-section-sswinstagram h2,
+    div#shopify-section-1617690624afb5eec3 h1 {
+        font-size: 30px;
+        line-height: 1.3;
+    }
+}
+@media screen and (max-width: 860px) {
+    .custLeftBannerContent {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    .custClientReviewSlider .slick-list {
+        padding-left: 0 !important;
+    }
+
+    .custLeftBannerContent ul {
+    background: #f2f6ff;
+    justify-content: space-between;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    gap: 0;
+    }
+
+    .custMirrorMateHtmlSection .container {
+        padding: 0;
+        align-items: flex-start;
+    }
+
+    .custLeftBannerContent ul li {
+        text-align: center;
+    }
+
+    .custReviewContent {
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 400;
+        color: #666;
+    }
+
+    .custLeftBannerContent h3,
+    .custLeftBannerContent p {
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .custLeftBannerContent h3 {
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        padding: 0;
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .custLeftBannerContent p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        width: calc(100% - 30px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custLeftBannerContent a.customBlueButton {
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(100% - 30px);
+        font-weight: 600;
+        padding: 16px 32px;
+    }
+
+    .custLeftBannerContent a.customBlueButton+img {
+        display: none;
+    }
+
+    .custRightBannerImg {
+        width: 100%;
+        max-width: 100%;
+            height: auto;
+    }
+
+    .custRightBannerImg img {
+        width: 100%;
+        max-width: 100%;
+        display: block !important;
+    }
+
+    .custAsSeenLogosBlock ul li {
+        flex: 0 0 auto;
+    }
+
+    .custAsSeenLogosBlock ul li img {
+        text-align: center;
+        height: 50px;
+    }
+
+    .custAsSeenLogosBlock ul {
+        overflow-x: auto;
+        display: flex;
+        gap: 30px;
+        justify-content: flex-start;
+    }
+
+    .custAsSeenLogosBlock {
+        padding: 0 0 0 15px;
+    }
+
+    .custWorksOnAnyMirror {
+        padding: 30px 15px;
+    }
+
+    .custWorksOnAnyMirror ul {
+        display: flex;
+        flex-wrap: wrap;
+        grid-gap: 0;
+        justify-content: space-between;
+        align-items: self-start;
+    }
+
+    .custWorksOnAnyMirror ul li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .custWorksOnAnyMirror ul li {
+        width: calc(33.33% - 10px);
+    }
+
+    .custWorksOnAnyMirror ul li h4 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #3E5569;
+    }
+
+    .custWorksOnAnyMirror ul li:first-child h2 {
+        margin-bottom: auto;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 114.286% */
+        letter-spacing: -0.84px;
+        margin-bottom: 24px;
+    }
+
+    .custMostPopulerColor {
+        padding: 30px 15px;
+    }
+
+    button.slick-next.slick-arrow,
+    button.slick-prev.slick-arrow {
+        display: none !important;
+    }
+
+    ul.slick-dots li button {
+        text-indent: -1000px;
+    }
+
+    .custWorksOnAnyMirror h2,
+    .custCommonHeading h2,
+    .custCommonHeading h2,
+    .custReviewRatingStars h3,
+    .custCommonHeading h2,
+    .custGuaranteeTitle,
+    .custCommonHeading h2,
+    div#shopify-section-sswinstagram h2,
+    div#shopify-section-1617690624afb5eec3 h1 {
+        font-weight: 400;
+        font-size: 28px;
+        text-align: center;
+        color: #3E5569;
+        line-height: 32px;
+        letter-spacing: -0.84px;
+    }
+
+    .custCommonHeading p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+
+    .custCommonHeading h2 {
+        margin-bottom: 5px;
+    }
+
+    ul.slick-dots {
+        margin-top: 25px;
+    }
+
+    .custSlickColorSlider a.customBlueButton {
+        margin-top: 25px;
+        padding: 16px 35px;
+        font-weight: 600;
+    }
+
+    .custFramesSoldBlock.custCommonHeading {
+        padding: 25px 0;
+        margin-top: 25px;
+    }
+
+    .custFramesSoldBlock h2 {
+        margin-bottom: 0;
+    }
+
+    .custClientReviewSlider {
+        padding-top: 30px;
+    }
+
+    .custHowItsWorkVideoBlock {
+        padding: 30px 15px;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6 {
+        width: 100%;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child {
+        padding: 0;
+    }
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child h2 {font-size: 28px;font-style: normal;font-weight: 400;line-height: 32px; /* 114.286% */letter-spacing: -0.84px;color: #3e5569;margin-bottom: 10px;}
+
+    .custHowItsWorkVideoBlock .col-md-6:last-child p {
+        margin-bottom: 25px;
+        font-weight: 400;
+    }
+
+    .custHowItsWorkVideoBlock ul {
+        padding-bottom: 25px;
+        flex-wrap: wrap;
+        display: flex;
+        text-align: left;
+        justify-content: stretch;
+    }
+
+    .custHowItsWorkVideoBlock ul li {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        flex: 0 0 100%;
+        justify-content: start;
+    }
+
+    .custHowItsWorkVideoBlock ul li::before {
+        margin: 0 10px 0 0;
+    }
+
+    .custHowItsWorkVideoBlock a.customBlueButton {
+        margin: 0 !important;
+        width: 100%;
+    }
+.custHowItsWorkVideoBlock a.customBlueButton:last-child{
+    margin-top: 15px !important;
+}
+    .custHowItWorksVideoPopup iframe.wistia_embed {
+        display: none;
+    }
+    .custLeftBannerContent ul li span {
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .custClientReviewSlider .custReviewWrapper div * {
+        text-align: left;
+    }
+
+    .custReviewWrapper h5 {
+        display: none;
+    }
+
+    .custClientReviewSlider .custReviewWrapper p {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    .custReviewClientInfo small {
+        display: none;
+    }
+
+    .custClientReviewSlider ul.slick-dots {
+        margin: 25px 30px 0 30px;
+        flex-wrap: wrap;
+        gap: 6px;
+    }
+
+    .custGuaranteeWrapperBlock {
+        padding: 0 15px 25px 15px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg {
+        flex-wrap: wrap;
+        padding: 20px 15px;
+        margin-bottom: 0;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    .custGuaranteeTitle {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .custGuaranteeTitle img {
+        margin: 0 0 10px 0;
+        width: 48px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul li {
+        margin: 0 0 8px 0;
+        width: 100%;
+        padding: 0 70px;
+        padding: 0 10px;
+    }
+
+    .custGuaranteeWrapperBlock .custWhiteBg ul li span {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #2F2F2F;
+    }
+
+    .custRealCustomersSection.custCommonHeading {
+        padding: 30px 15px 30px 15px;
+    }
+
+    .custMainVideoBlock {
+        margin-top: 25px;
+    }
+
+    .custRealCustomersSection a.customBlueButton {
+        margin-top: 30px;
+    }
+
+    div#shopify-section-sswinstagram h2 {
+        margin-bottom: 30px;
+    }
+
+    .ssw-instagram-load-more {
+        margin-bottom: 30px !important;
+    }
+
+    .ssw-instagram-listing,
+    .ssw-instagram-grid {
+        margin-bottom: 30px !important;
+    }
+
+    #shopify-section-sswinstagram .container {
+        padding: 0 15px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 {
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .contain-full-width {
+        padding-top: 30px;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .wrapper {
+        flex-wrap: wrap;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .wrapper:after {
+        width: 100%;
+        min-height: 250px;
+        background-size: cover;
+        order: 1;
+    }
+
+    .custom-content-container.align-left {
+        width: 100%;
+        order: 2;
+        padding: 25px 0 0 0;
+    }
+
+    a.customBlueButton {
+        width: 100%;
+    }
+
+    div#shopify-section-1617690624afb5eec3 .richtext p {
+        text-align: center;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .richtext a.customBlueButton {
+        margin-top: 30px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .custBannerReviewQuotes ul {
+        display: none;
+    }
+
+    .custBannerReviewQuotes span {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        display: block;
+        text-align: left;
+        font-family: Open Sans,sans-serif;
+        color: #000;
+        letter-spacing: -0.28px;
+    }
+
+    .custBannerReviewQuotes {
+        text-align: left;
+        left: 16px;
+        bottom: 15px;
+        width: calc(100% - 30px);
+    } 
+    .custRealCustomersSection ul.slick-dots {
+        display: flex !important;
+    }
+ 
+    div#shopify-section-1617690624afb5eec3 .wrapper:before {
+        bottom: auto;
+        top: 209px;
+    }
+
+    .custClientReviewSlider {
+        padding-left: 0;
+    }
+
+    .custBannerReviewQuotes span strong {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .custBannerFullBG {
+    background-image: none;
+}
+
+.customButtonGroup {
+    padding: 0 15px;
+}
+.custWorksOnAnyMirror ul li a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    margin-top: 8px;
+    padding: 0 10px;
+}
+
+.custWorksOnAnyMirror ul li a::after {
+    display: none;
+}
+.custRightBannerImg img {
+    display: none;
+}
+
+.custBannerReviewQuotes img {
+    display: block;
+}
+
+img.custDImage {
+    display: none;
+}
+
+img.custMImage {
+    display: block;
+}
+
+.custHowItWorksVideoPopup iframe {
+    width: 100%;
+    border-radius: 5px;
+    min-height: 300px !important;
+    height: auto !important;
+}
+
+.custHowItWorksVideoPopup {
+    margin-bottom: 25px;
+}
+
+.custSeeForYourself {
+    padding: 30px 15px;
+}
+
+.custSeeForYourself .custcol6 {
+    width: 100%;
+}
+
+.custSeeForYourself .custcol6 img {
+    border-radius: 5px;
+}
+
+.custSeeForYourself .custcol6:last-child {
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.custSeeForYourself .custcol6 h2, .custSeeForYourself .custcol6 p {
+    text-align: center;
+}
+
+.custSeeForYourself .custcol6 h2 {
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+    color: #3E5569;
+    line-height: 32px;
+    letter-spacing: -0.84px;
+}
+
+.custSeeForYourself .custcol6 p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.32px;
+}
+
+.custSeeForYourself .custcol6 a.customBlueButton {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 133.333% */
+    text-transform: uppercase;
+}
+
+.custFAQwrapper h2 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 114.286% */
+    letter-spacing: -0.84px;
+    text-align: center;
+}
+
+.custFAQBlock {padding: 30px 15px;}
+.custHowItsWorkVideoBlock  .customButtonGroup {
+    padding: 0;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+    .custClientReviewSlider .custReviewWrapper {
+        margin: 0 5px;
+        align-items: flex-start;
+    }
+
+    .custClientReviewSlider .custCommonHeading p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .custClientReviewSlider .custReviewWrapper div img {
+        height: 14px;
+    }
+
+    .custReviewWrapper div {
+        padding: 10px 7px 7px 7px;
+    }
+
+    .custMainVideoBlock .slick-slide::after, .custMainVideoBlock .slick-slide::before {
+        content:"";
+        width: 40% ;
+        height: calc(100% - 25px);
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 999999;
+    }
+
+    .custMainVideoBlock .slick-slide {
+        position: relative;
+    }
+
+    .custMainVideoBlock .slick-slide::before {
+        right: 0;
+        left: auto;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .custSlickSliderWrapper .slick-track {
+        display: flex;
+    }
+
+    .custColorFrameBoxWrapper {
+        height: 100%;
+        margin: 0 5px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .custColorFrameBoxWrapper h5 {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        min-height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } 
+        .custLeftBannerContent a.customBlueButton {
+            width: 100%;
+            margin-left: 0 !important;
+            margin-bottom: 15px;
+        }
+
+        .customButtonGroup {
+            flex-wrap: wrap;
+        }
+} 
