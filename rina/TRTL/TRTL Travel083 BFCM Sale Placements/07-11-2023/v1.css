@@ -1,0 +1,613 @@
+/* Home page sticky footer */
+.custBFCMStickyFooter {
+    background: #F4EEEB;
+    color: #fff;
+    max-width: 1014px;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+} 
+
+.custBFCMStickyFooter .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custBFCMStickyFooter .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 8px 12px;
+    margin: 0 0 0px 12px;
+    background: #FAD951;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #000;
+    font-family: var(--bs-body-font-family);
+    letter-spacing: 1.12px;
+}
+.custBFCMStickyFooter .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custBFCMStickyFooter .custGetOfferDiv span.offerBadge svg * {
+    fill: #FAD951;
+}
+
+.custBFCMStickyFooter .custGetOfferDiv + p {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #fff;
+    letter-spacing: 0.84px;
+}
+.custBFCMStickyFooter .custGetOfferDiv + p b{
+    font-weight: 600;
+}
+.custBFCMStickyFooter .custGetOfferDiv + p span{
+    color: #FAD951;
+}
+
+.custBFCMStickyFooter .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.custBFCMStickyFooter .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custBFCMStickyFooter .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custBFCMStickyFooter .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 9px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custBFCMStickyFooter .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custBFCMStickyFooter .custColRight .custOfferDealBtn{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.custBFCMStickyFooter .custOfferDealBtn a.btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+.custBFCMStickyFooter .container-xxl {
+    padding: 0 24px;
+    border-radius: 8px;
+    background: #000;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.custBFCMStickyFooter .container-xxl .pt-2.pb-2.row {
+    padding: 12px 0 !important;
+}
+
+.custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+    justify-content: space-between;
+}
+.custBFCMStickyFooter .custBlackFridayBadgeMob,
+.custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv .offerBadge.mobile{
+    display: none;
+}
+
+.custBFCMStickyFooter button.btn-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    width: 36px;
+    height: 36px;
+    display: block;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-size: 12px;
+}
+.custBFCMStickyFooter .custColRight {
+    text-align: center;
+    white-space: nowrap;
+}
+.custBFCMStickyFooter .custColLeft {
+    width: 100%;
+}
+
+@media(min-width: 992px) and (max-width: 1024px){
+    .custBFCMStickyFooter .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }    
+    .custBFCMStickyFooter{
+        margin: 0 10px 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custBFCMStickyFooter .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custBFCMStickyFooter .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custBFCMStickyFooter{
+        margin: 0 10px 10px;
+    }  
+    .custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+    .custBFCMStickyFooter .container-xxl{
+        padding: 0 8px;
+    }
+    .custBFCMStickyFooter .custGetOfferBannerMain{
+        gap: 0 15px;
+    }
+}
+@media(max-width: 767px){
+    .custBFCMStickyFooter .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 8px;
+    }
+    .custBFCMStickyFooter .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custBFCMStickyFooter .custOfferDealBtn a.btn{
+        font-size: 1rem;
+    }   
+    .custBFCMStickyFooter button.btn-close{
+        left: auto;
+        top: -15px;
+        transform: inherit;
+        right: -15px;
+    }
+    .custBFCMStickyFooter .container-xxl{
+        padding: 0 8px;
+    }    
+    .custBFCMStickyFooter{
+        margin: 0 0px 10px;
+        width: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .custBFCMStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 26px;
+        color: #000;
+        background: #FAD951;
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custBFCMStickyFooter .custGetOfferDiv span.offerBadge svg *{
+        fill: #FAD951;
+    }
+    .custBFCMStickyFooter .custColRight{
+        display: none;
+    }
+    .custBFCMStickyFooter .custColRight .custOfferDealBtn{
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+        
+    .custBFCMStickyFooter .custColRight,
+    .custBFCMStickyFooter .custOfferTimer .custTimerTitle,{
+        display: none;
+    }
+    .custBFCMStickyFooter .custGetOfferBannerMain .custColLeft{
+        width: 100%;
+    }
+    .custBFCMStickyFooter .custGetOfferDiv + p {
+        font-size: 22px;
+        line-height: 28px;
+        letter-spacing: 0.66px;
+        text-align: center;
+    }
+    .custBFCMStickyFooter .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+}
+@media(max-width: 560px){
+    .custBFCMStickyFooter .custOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv .offerBadge.desktop{
+        display: none;
+    }
+    .custBFCMStickyFooter .custGetOfferBannerMain .custGetOfferDiv .offerBadge.mobile{
+        display: flex;
+    }
+    .custBFCMStickyFooter .custBlackFridayBadgeMob {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        padding: 2px 16px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 8px 8px 0px 0px;
+        background: #F4EEEB;
+        color: #000;
+        font-family: IBM Plex Sans;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.77px;
+        text-transform: uppercase;
+    }    
+    .custBFCMStickyFooter .custGetOfferDiv + p b{
+        display: none;
+    }
+}
+@media(max-width: 460px){
+    .custBFCMStickyFooter button.btn-close{
+        top: -45px;
+        right: 0;
+    }       
+    .custBFCMStickyFooter{
+        margin: 0 10px 10px;
+        max-width: 100%;
+        width: calc(100% - 20px);
+        left: 0;
+        transform: none;
+        right: 0;
+    }
+    .custBFCMStickyFooter .custGetOfferDiv span.offerBadge{
+        font-size: 12px;
+    }
+}
+@media(max-width: 360px){
+    .custBFCMStickyFooter .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custBFCMStickyFooter .custColRight .custOfferDealBtn{
+        margin-left: -20px;
+    }
+    .custBFCMStickyFooter .custOfferDealBtn a.btn{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    .custBFCMStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 10px;
+    }
+    .custBFCMStickyFooter .custGetOfferDiv + p{
+        font-size: 20px;
+    }
+}
+
+/* collection all page */
+body.template-collection #MainContent .section-banner-products-recommended .bg-light{
+    background: #F4EEEB !important;
+}
+body.template-collection #MainContent .section-banner-products-recommended h2{
+    display: none;
+}
+
+.custBFCMCollectionHero + .container{
+    margin-top: 0 !important;
+}
+
+.custBFCMCollectionHero {
+    color: #fff;
+    margin: 0 auto -20px;
+    z-index: 9;
+    background: #000;
+}
+
+.custBFCMCollectionHero .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custBFCMCollectionHero .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 8px 16px;
+    margin: 0 0 0px 12px;
+    background: #FAD951;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+.custBFCMCollectionHero .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custBFCMCollectionHero .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custBFCMCollectionHero .custGetOfferDiv span.offerBadge svg * {
+    fill: #FAD951;
+}
+
+.custBFCMCollectionHero .custGetOfferDiv + .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #fff;
+    letter-spacing: 2.8px;
+}
+.custBFCMCollectionHero .custGetOfferDiv + .custLimitedOffer span span{
+    color: #FAD951;
+    position: relative;
+    display: inline-block;
+}
+
+.custBFCMCollectionHero .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #fff;
+}
+
+.custBFCMCollectionHero .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custBFCMCollectionHero .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custBFCMCollectionHero .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custBFCMCollectionHero .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custBFCMCollectionHero .container-lg .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custBFCMCollectionHero .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 5px;
+    justify-content: space-between;
+}
+
+.custBFCMCollectionHero .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custBFCMCollectionHero .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custBFCMCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custBFCMCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custBFCMCollectionHero .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custBFCMCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 991px){
+    .custBFCMCollectionHero .custGetOfferDiv + .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    }
+}
+@media(max-width: 767px){
+    .custBFCMCollectionHero .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custBFCMCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 12px;
+        margin: 0 0 14px;
+        flex-wrap: wrap;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custBFCMCollectionHero .container-lg{
+        padding: 0 8px;
+    }    
+    .custBFCMCollectionHero{
+        max-width: 530px;
+        width: 100%;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custBFCMCollectionHero .custColRight{
+        display: flex;
+    }        
+    .custBFCMCollectionHero .custGetOfferDiv + .custLimitedOffer {
+        font-size: 29px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custBFCMCollectionHero .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custBFCMCollectionHero .container-lg .pt-2.pb-2.row{
+        padding: 16px 15px !important;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv + .custLimitedOffer span span{
+        position: unset;
+        display: unset;
+    }    
+}
+@media(max-width: 575px){
+    .custBFCMCollectionHero{
+        max-width: 100%;
+    }
+    .custBFCMCollectionHero .container-lg{
+        padding: 0 12px;
+    }
+    .custBFCMCollectionHero .custOfferTimer .custTimerTitle{
+        letter-spacing: normal;
+    }
+    .custBFCMCollectionHero .custGetOfferBannerMain{
+        padding: 0;
+    }
+}
+@media(max-width: 460px){      
+    .custBFCMCollectionHero{
+        max-width: 100%;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custBFCMCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custBFCMCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 12px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 15px;
+    }
+    .custBFCMCollectionHero .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+}

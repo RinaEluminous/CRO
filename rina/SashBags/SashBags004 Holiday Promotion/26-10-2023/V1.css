@@ -1,0 +1,115 @@
+.custPromotionBanner {
+    position: fixed;
+    left: 50%;
+    bottom: 10px;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    background: #EEE;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    max-width: 1052px;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custProductsImg img {
+    width: 80px;
+}
+
+.custHurrySale {
+    position: absolute;
+    top: -26px;
+    border-radius: 4px 4px 0px 0px;
+    background: #FAD850;
+    font-family: Assistant, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.7px;
+    color: #000;
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custHurrySale img {
+    margin-right: 8px;
+}
+
+.custProductsImg {
+    flex: 0 0 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.custProductsButton .custProductsImg {
+    display: none;
+}
+
+.custProductsButton a {
+    padding: 12px 15px;
+    background: #121212;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    font-family: Assistant, sans-serif;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.custProductsText h3 {
+    color: #000;
+    font-family: "Memphis Soft Rounded", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 114.286% */
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.custProductsText p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 111.111% */
+    letter-spacing: 1.08px;
+    color: #000;
+    font-family: Assistant, sans-serif;
+    margin: 0;
+}
+
+.custCloseButton {
+    position: absolute;
+    right: -13px;
+    top: -20px;
+    width: 36px;
+    padding: 12px;
+    border-radius: 100px;
+    background: #FFF;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.custProductsText {
+    margin-right: 20px;
+}
+
+.custProductsButton {flex: 0 0 163px;}

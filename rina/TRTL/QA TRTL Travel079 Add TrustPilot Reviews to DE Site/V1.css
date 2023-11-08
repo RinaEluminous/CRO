@@ -1,0 +1,239 @@
+.custTrtlSliderBlocksMain {
+    position: relative;
+    padding: 0 96px;
+    margin-top: 40px;
+}
+.custTrtlReviewsCarousel {
+    background: #fff;
+    position: relative;
+    padding: 40px 0;
+}
+
+.custTrtlReviewsCarousel .custTrtlTitle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.28px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+
+.custTrtlReviewsCarousel::after {
+    content: "";
+    position: absolute;
+    background: #f7f7f7;
+    width: calc(100% + 48px );
+    left: -24px;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    display: none;
+}
+.custTrtlSliderBlocksMain .swiper-slide .starsTrtlRatings {
+    display: flex;
+    gap: 0 2px;
+    margin: 0 0 8px;
+}
+.custTrtlSliderBlocksMain .swiper-slide p span {
+    display: block;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: ibm-plex-sans,sans-serif;
+    color: #000 !important;
+    margin-bottom: 8px;
+}
+
+.custTrtlSliderBlocksMain .swiper-slide p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.65px;
+    color: #000;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.custTrtlSliderBlocksMain .swiper-slide {
+    display: block;
+    padding: 12px;
+    background: #f7f7f7;
+    height: auto;
+    padding-bottom: 30px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .author,
+.custTrtlReviewsCarousel .author {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.65px;
+    margin-top: auto;
+    position: absolute;
+    bottom: 12px;
+}
+
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperPrevMiniCart,
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperNextMiniCart{
+    background-color: transparent;
+    box-shadow: none;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/arrow-slider-left.png);
+    margin-top: -18px;
+    top: 50%;
+    bottom: auto;
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.custTrtlSliderBlocksMain .swiper-button-next, 
+.custTrtlSliderBlocksMain .swiper-button-prev {
+    background-color: transparent;
+    box-shadow: none;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/arrow-slider-left.png);
+    margin-top: -18px;
+    top: 50%;
+    bottom: auto;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperNextMiniCart,
+.custTrtlSliderBlocksMain .swiper-button-next {
+    transform: rotate(180deg);
+    right: 36px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperPrevMiniCart,
+.custTrtlSliderBlocksMain .swiper-button-prev {
+    transform: rotate(0deg);
+    right: auto;
+    left: 36px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .author cite span img, 
+.custTrtlReviewsCarousel .author cite span img {
+    height: 14px;
+    margin-left: 0px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .author cite,
+.custTrtlSliderBlocksMain .custTrtlReviewSlider .author cite{
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .author cite span,
+.custTrtlSliderBlocksMain .custTrtlReviewSlider .author cite span {
+    font-size: 12px;
+    line-height: 14px;
+    opacity: 0.5;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote {
+    text-align: center;
+    width: 100%;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote h6 {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: normal;
+    margin: 0 0 12px;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote h6 span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .starsTrtlRatings {
+    margin: 0 auto 12px;
+    justify-content: center;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .starsTrtlRatings span {
+    width: 40px;
+    height: 40px;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .starsTrtlRatings span img {
+    width: 100%;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote p {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 0 12px;
+}
+.custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .pilotImg {
+    width: 135px;
+    margin: auto;
+}
+.custTrtlSliderBlocksMain .swiper-slide.custTrustPilotRatedMain{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+}
+
+.offcanvas#cart-offcanvas .custTrtlMiniCartReviewsCarousel{
+    overflow: hidden;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain{
+    padding: 0 20px;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain:after{
+    content: "";
+    position: absolute;
+    background: #f7f7f7;
+    width: calc(100% + 48px );
+    left: -24px;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+    display: block;
+}
+.offcanvas#cart-offcanvas div#cart-offcanvas-content {
+    overflow: hidden;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperPrevMiniCart,
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .swiper-button-prev{
+    left: 0;
+}
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .custSwiperNextMiniCart,
+.offcanvas#cart-offcanvas .custTrtlSliderBlocksMain .swiper-button-next{
+    right: 0;
+}
+body.template-cart #cart-container .custTrtlCartReviewsCarousel .custTrtlSliderBlocksMain{
+    padding: 0;
+}
+body.template-cart #cart-container .custTrtlCartReviewsCarousel .custTrtlSliderBlocksMain .swiper-button-next {
+    right: -30px;
+}
+body.template-cart #cart-container .custTrtlCartReviewsCarousel .custTrtlSliderBlocksMain .swiper-button-prev {
+    left: -30px;
+}
+
+@media(max-width: 1399px){
+    .custTrtlSliderBlocksMain .swiper-slide .custTrustPilote h6{
+        font-size: 20px;
+    }
+    .custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .starsTrtlRatings{
+        margin: 0 auto 8px;
+    }
+    .custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .starsTrtlRatings span{
+        width: 30px;
+        height: 30px;
+    }
+    .custTrtlSliderBlocksMain .swiper-slide .custTrustPilote .pilotImg{
+        width: 115px;
+    }
+}
+@media(max-width: 767px){
+    .custTrtlSliderBlocksMain{
+        padding: 0 36px;
+        margin-top: 24px;
+    }
+    .custTrtlSliderBlocksMain .swiper-button-next{
+        right: 0;
+    } 
+    .custTrtlSliderBlocksMain .swiper-button-prev{
+        left: 0;
+    }
+}

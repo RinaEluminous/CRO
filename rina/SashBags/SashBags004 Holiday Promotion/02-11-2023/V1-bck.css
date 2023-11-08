@@ -1,0 +1,268 @@
+.custPromotionBanner {
+    position: fixed;
+    left: 50%;
+    bottom: -500px;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    background: #EEE;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    max-width: 1052px;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.8s all;
+    z-index: 9999999;
+}
+
+.custPromotionBanner.active {
+    top: unset;
+    bottom: 10px;
+}
+
+.custProductsImg img {
+    width: 80px;
+}
+
+.custHurrySale {
+    position: absolute;
+    top: -26px;
+    border-radius: 4px 4px 0px 0px;
+    background: #FAD850;
+    font-family: Assistant, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.7px;
+    color: #000;
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custHurrySale img {
+    margin-right: 8px;
+}
+
+.custProductsImg {
+    flex: 0 0 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.custProductsButton .custProductsImg {
+    display: none;
+}
+
+.custProductsButton p {
+    color: #121212;
+    text-align: center;
+    font-family: Assistant, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    cursor: none;
+    margin: 0;
+}
+
+.custProductsText h3 {
+    color: #000;
+    font-family: "Memphis Soft Rounded", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 114.286% */
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.custProductsText p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 111.111% */
+    letter-spacing: 1.08px;
+    color: #000;
+    font-family: Assistant, sans-serif;
+    margin: 0;
+}
+
+.custCloseButton {
+    position: absolute;
+    right: -13px;
+    top: -20px;
+    width: 36px;
+    padding: 12px;
+    border-radius: 100px;
+    background: #FFF;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.custProductsText {
+    margin-right: 0;
+    flex: 0 0 72%;
+}
+
+.custProductsButton {
+    flex: 0 0 163px;
+}
+
+.custProductsText h3+.custProductsImg {
+    display: none;
+}
+
+/* media */
+@media all and (min-width:768px) and (max-width:1199px) {
+    .custPromotionBanner {
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+    }
+
+    .custProductsText {
+        flex: 0 0 62%;
+    }
+
+    .custProductsText h3 {
+        font-size: 22px;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 150px !important;
+    }
+
+    button.needsclick.kl-teaser-XpcAsw.undefined.kl-private-reset-css-Xuajs1 {
+        display: none;
+    }
+}
+
+@media all and (min-width:1024px) {
+    .custHurrySale {
+        left: 22.5%;
+        transform: none;
+    }
+}
+
+@media all and (max-width:767px) {
+    .custProductsImg {
+        display: none;
+    }
+
+    .custProductsText {
+        flex: 0 0 100%;
+    }
+
+    .custPromotionBanner {
+        flex-wrap: wrap;
+        width: calc(100% - 20px);
+    }
+
+    .custHurrySale {
+        width: 100%;
+        max-width: 205px;
+        justify-content: center;
+    }
+
+    .custProductsText h3 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        max-width: 70%;
+    }
+
+    .custProductsText p {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.96px;
+        max-width: 80%;
+    }
+
+    .custProductsButton {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0 0 100%;
+    }
+
+    .custProductsButton .custProductsImg {
+        display: block;
+        flex: 0 0 100px;
+    }
+
+    .custProductsButton p {
+        font-size: 15px;
+        flex: 0 0 100%;
+        text-align: left;
+    }
+
+    .custCloseButton {
+        right: -7px;
+    }
+
+    button.needsclick.kl-teaser-XpcAsw.undefined.kl-private-reset-css-Xuajs1 {
+        display: none;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 210px !important;
+    }
+
+    .custProductsText h3+.custProductsImg {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 0;
+    }
+}
+
+@media all and (max-width:375px) {
+    .custProductsText h3 {
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width:374px) {
+    .custProductsButton p {
+        flex: 0 0 150px;
+    }
+
+    .custProductsButton .custProductsImg {
+        flex: 0 0 70px;
+    }
+
+    .custProductsButton .custProductsImg img {
+        width: 100%;
+    }
+
+    .custProductsText h3 {
+        font-size: 18px;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 200px !important;
+    }
+}

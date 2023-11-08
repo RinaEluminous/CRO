@@ -1,0 +1,1040 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.custBlackFridayMainSection + section[id*="__main"] {
+  display: none;
+}
+
+.custBlackFridayStickyWraper{
+  position: fixed!important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 15px;
+}
+
+.custBlackFridayStickyMain{
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.20);
+  position: relative;
+  margin: 0 auto 8px;
+}
+.custBlackFridayStickyMain .offerContent{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex: 0 0 calc(100% - 96px);
+  align-self: stretch;
+}
+
+.custBlackFridayStickyMain .closeBtn{
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  border-radius: 100px;
+  border: 1px solid #F2F2F2;
+  background: #FFF url("https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/close-icon-close-2.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt .icon img {
+    width: 15px;
+    height: 18px;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt .icon {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  margin: 3px 0 0;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt {
+    display: flex;
+    align-items: flex-start;
+    gap: 0 10px;
+    color: #FAD951;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 8px;
+}
+
+.custBlackFridayStickyMain .offerContent .text p {
+    color: var(--color-white, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'Schibsted Grotesk';
+    letter-spacing: normal;
+}
+
+.custBlackFridayStickyMain .offerContent .button a {
+    color: #000;
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    display: flex;
+    padding: 12px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FAD951;
+    max-width: 200px;
+    white-space: nowrap;
+}
+
+.custBlackFridayStickyMain .offerContent .text {
+    flex: 0 0 calc(100% - 186px);
+}
+
+.custBlackFridayStickyMain .offerImg {
+    flex: 0 0 80px;
+}
+
+.custBlackFridayStickyMain .offerContent  .button {
+    flex: 0 0 170px;
+}
+@media(max-width: 767px){
+  .custBlackFridayStickyMain .offerImg{
+    display: none;
+  }
+  .custBlackFridayStickyMain .offerContent{
+    flex: 0 0 100%;
+  }
+  .custBlackFridayStickyMain{
+    padding: 10px;
+  }
+  .custBlackFridayStickyWraper{
+    padding: 0 12px;
+  }
+  .custBlackFridayStickyMain .offerContent .saveTxt{
+    margin: 0 0 4px;
+    font-size: 18px;
+    line-height: 24px;
+    gap: 0 8px;
+  }
+  .custBlackFridayStickyMain .offerContent .text p{
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 575px) {
+  .custBlackFridayStickyMain .offerContent .saveTxt{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .custBlackFridayStickyMain .offerContent .text p{
+    font-size: 21px;
+    line-height: 24px;
+  }
+  .custBlackFridayStickyMain .offerContent{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .custBlackFridayStickyMain .offerContent .button,
+  .custBlackFridayStickyMain .offerContent .text{
+    flex: 0 0 100%;
+  }
+  .custBlackFridayStickyMain .offerContent .button a{
+    max-width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .custBlackFridayStickyMain .offerContent .saveTxt{
+    font-size: 16px;
+    letter-spacing: 0.5px;
+  }
+  .custBlackFridayStickyMain .offerContent .text p{
+    font-size: 18px;
+  }
+  .custBlackFridayStickyMain .offerContent .button a{
+    padding: 10px 32px;
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+.custBlackFridayMainSection{
+  overflow: hidden;
+}
+.custBlackFridayHeroBanner {
+  background: #000;
+  padding: 60px 0;
+}
+.custBlackFridayMainSection .container{
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.custBlackFridayHeroBanner .custOfferFlag {
+  display: inline-flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #FFE577;
+  background: linear-gradient(92deg, rgba(255, 248, 243, 0.20) -21.52%, rgba(255, 248, 243, 0.00) 96.58%);
+  backdrop-filter: blur(4px);
+  color: #FAD951;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 20px */
+  letter-spacing: 0.6px;
+  margin: 0 0 24px;
+}
+
+.custBlackFridayHeroBanner h2 {
+  color: var(--color-cream, #F4EEEB);
+  font-family: var(--bs-body-font-family);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 57.6px */
+  margin: 0 0 24px;
+}
+
+.custBlackFridayHeroBanner p {
+  color: #F4EEEB;
+  font-family: var(--bs-body-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+
+.custBlackFridayHeroBanner .custNotificationFormBox {
+  display: flex;
+  max-width: 360px;
+  padding: 32px 24px 15px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 20px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  margin: auto;
+  position: relative;
+}
+.custBlackFridayHeroBanner .custNotificationFormBox p{
+  color: #000;
+}
+.custBlackFridayHeroBanner .custNotificationFormBox h3 {
+  color: #EE4B3A;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 24px */
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+}
+
+.custBlackFridayHeroBanner .custNotificationFormBox:after, .custBlackFridayHeroBanner .custNotificationFormBox:before {
+  content: '';
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/shine_1.png) no-repeat 0 0;
+  width: 175px;
+  height: 113px;
+  position: absolute;
+}
+
+.custBlackFridayHeroBanner .custNotificationFormBox:after {
+  right: -75px;
+  bottom: -50px;
+}
+
+.custBlackFridayHeroBanner .custNotificationFormBox:before {
+  left: -75px;
+  top: -50px;
+}
+
+.custBlackFridayBody {
+  display: flex;
+  padding: 40px 0 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  background: #000;
+  overflow: hidden;
+}
+
+.custMarqueeWrapper {
+  display: flex;
+  padding: 0;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.custMarqueeWrapper .custMarqueeWrap {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  gap: 24px;
+  border-radius: 12px;
+  border: 1px solid #a3adbb;
+  flex: 0 0 auto;
+}
+
+.custMarqueeWrapper .custMarqueeWrap span {
+  flex: 0 0 auto;
+  color: #fff;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.26px;
+}
+.marquee .track {
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 70s linear infinite;
+}
+.custMarqueeWrapper .custMarqueeWrap img.inverse{
+  filter: invert();
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+.custWhyJoinWraper{
+  width: 100%;
+}
+.custWhyJoinWraper .custPreBlackMain{
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: #1A1A1F;
+}
+.custWhyJoinWraper .custPreBlackMain h3{
+  color: #FFF;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  max-width: 560px;
+}
+.custWhyJoinWraper .custPreBlackMain .box{
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  height: 100%;
+  margin: 0 5px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.40);
+  background: linear-gradient(124deg, rgba(255, 255, 255, 0.10) -9.14%, rgba(255, 255, 255, 0.09) 5.55%, rgba(255, 255, 255, 0.00) 105.42%);
+  backdrop-filter: blur(50px);
+}
+.custWhyJoinWraper .custPreBlackMain .box h4{
+  color: #FFF;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  gap: 8px;
+  margin: 0;
+}
+.custWhyJoinWraper .custPreBlackMain .box h4 span.icon{
+  width: 18px;  
+}
+.custWhyJoinWraper .custPreBlackMain .box p{
+  color: #FFF;
+  font-family: var(--bs-body-font-family);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.custSellingProdWraper {
+  padding: 24px 0;
+  width: 100%;
+  position: relative;
+}
+.custSellingProdWraper .container{
+  z-index: 1;
+  position: relative;
+}
+
+.custSellingProdWraper .custProdTabContent .prodCategoryBody {
+  display: none;
+}
+.custSellingProdWraper h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Schibsted Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0 0 40px;
+}
+.custSellingProdWraper .custProdTabsListings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+  margin: 0 0 40px;
+}
+.custSellingProdWraper .custProdTabsListings .tab {
+  display: flex;
+  padding: 12px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #FFF;
+  color: var(--color-white, #FFF);
+  font-family: var(--bs-body-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+}
+.custSellingProdWraper .custProdTabsListings .tab.active {
+  background: #fff;
+  color: #000;
+}
+
+
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems{
+  padding: 10px;
+}
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-next,
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-prev{
+  font-size: 0 !important;
+  border-radius: 500px;
+  width: 36px;
+  height: 36px;
+}
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-next:after,
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-prev:after{
+  font-size: 0;
+}
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .card-footer,
+.custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .custCardBody {    
+  text-align: center;
+}
+.custSellingProdWraper .custItemBox{
+  background: #fff;
+}
+.custSellingProdWraper .custItemBox a {
+  text-decoration: none;
+  font-size: 15px;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+.custSellingProdWraper .custItemBox a .variant-colours .messaging {
+  font-size: 12px !important;
+}
+
+.custSellingProdWraper .custItemBox img {
+  width: 100%;
+}
+
+.custSellingProdWraper .custBadge {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.custSellingProdWraper .custItemImageBox {
+  position: relative;
+}
+
+.custSellingProdWraper .custBadge span {
+  padding: 8px 24px;
+  background: #CA232C;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-flex;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.07em;  
+}
+
+.custSellingProdWraper .custBadge.newIn span{
+  background: #fff;
+  color: #000;
+  text-transform: uppercase;
+}
+.custSellingProdWraper .custBadge.bestSeller span{
+  background: #000;
+  color: #fff;
+}
+
+.custSellingProdWraper .custCardBody h5 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: unset;
+    min-height: 40px;
+}
+
+.custSellingProdWraper .card-footer {
+    padding-top: 4px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.custSellingProdWraper .card-footer p {
+    font-weight: 400;
+    font-size: 14px !important;
+    line-height: 20px;
+    font-family: var(--bs-body-font-family);
+    opacity: 0.9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.custSellingProdWraper .card-footer br{
+  display: none;
+}
+
+.custSellingProdWraper .custBetterRecommendedSleepItems .card-footer,
+.custSellingProdWraper .custBetterRecommendedSleepItems .custCardBody {    
+    text-align: center;
+}
+.custSellingProdWraper .custBetterRecommendedSleepItems.travel_pillows .custCardBody {
+    min-height: inherit;
+}
+
+.custSellingProdWraper .custCardBody {
+  padding: 16px 20px 0px;
+  position: relative;
+  min-height: 48px !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.custSellingProdWraper .card-footer a br {
+  display: none;
+}
+.custSellingProdWraper .custItemBox a span.badge{
+  font-size: 9px !important;
+  border-radius: 2px;
+  letter-spacing: 0.7px;
+}
+.custSellingProdWraper .okeReviews .okeReviews-starRating--small{
+  height: 12px;
+  width: 60px;
+}
+.custSellingProdWraper .okeReviews .okeReviews-starRating-indicator-layer{
+  background-size: 60px 12px !important;
+}
+
+.custSellingProdWraper:before {
+  content: '';
+  width: 600px;
+  position: absolute;
+  left: 12%;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.2;
+  background: #F5DA6A;
+  filter: blur(90px);
+  z-index: 0;
+  height: 600px;
+}
+
+
+.custReviewMainBoxWraper .custTestiWrapper {
+  column-count: 3;
+  column-count: 3;
+  column-gap: 32px;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+  display: inline-flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  border: 1px solid #3B3B46;
+  background: #2F2F34;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 16px 0;
+}
+
+.custReviewMainBoxWraper {
+  position: relative;
+  width: 100%;
+}
+.custReviewMainBoxWraper:after {
+    content: '';
+    width: 750px;
+    height: 750px;
+    position: absolute;
+    right: 12%;
+    top: 0;
+    border-radius: 1000px;
+    opacity: 0.2;
+    background: #F3971B;
+    filter: blur(90px);
+    z-index: 0;
+}
+.custReviewMainBoxWraper .container{
+  height: 820px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.custReviewMainBoxWraper .container.autoHeight{
+  height: unset;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+  color: #fff;
+  font-family: IBM Plex Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox p + p {
+  font-weight: 500;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox b {
+  font-family: var(--bs-body-font-family);
+  font-weight: 700;
+  display: block;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiStarQuote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiStarQuote .custTestiStarQuote img{
+  height: 20px;
+}
+.custReviewMainBoxWraper .custButtonWrapper .custBtn:hover {    
+  color: #fff;
+  background-color: #000;
+  border-color: #fad951;
+}
+.custReviewMainBoxWraper .custButtonWrapper {
+  display: flex;
+  padding: 60px 40px 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #000 75.28%);
+  width: 100%;
+  left: 0;
+}
+.custReviewMainBoxWraper .container.autoHeight .custButtonWrapper{
+  background: none;
+  position: relative;
+  padding-top: 15px;
+}
+.custReviewMainBoxWraper .custButtonWrapper .custBtn {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-family: var(--bs-body-font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.custReviewMainBoxWraper h2{
+  color: #fff;
+  text-align: center;
+  font-family: var(--bs-body-font-family);
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0 0 40px;
+} 
+.custSellingProdWraper .custItemBox a div.pb-md-2 {
+  padding: 0 !important;
+}
+
+.custSellingProdWraper .card-footer{
+  padding: 0 10px 10px !important;
+  letter-spacing: normal;
+}
+
+@media (max-width: 1199px) {
+  .custMarqueeWrapper {
+    padding: 0px 0px 0px 0px;
+    gap: 30px;
+  }
+
+  .custMarqueeWrapper .custMarqueeWrap {
+    padding: 20px;
+  }  
+  .marquee {
+    /* height: 136px; */
+  }
+  .custReviewMainBoxWraper .custTestiWrapper {
+    column-gap: 20px;
+  }
+
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+      margin: 10px 0;
+  }
+  .custWhyJoinWraper .custPreBlackMain{
+    padding: 40px;
+  }
+  .custWhyJoinWraper .custPreBlackMain .box{
+    margin: 0;
+  }
+  .custSellingProdWraper .custProdTabsListings .tab{
+    padding: 12px 15px;
+  }
+}
+@media(max-width: 1024px){
+  .custBlackFridayHeroBanner h2{
+    font-size: 38px;
+    margin: 0 0 18px;
+  }
+  .custBlackFridayHeroBanner p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .custBlackFridayHeroBanner .custOfferFlag{
+    font-size: 14px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox{
+    gap: 15px;
+    padding: 24px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p{
+    font-size: 18px;
+  }
+  .custMarqueeWrapper .custMarqueeWrap{
+    padding: 15px;
+  }
+  .custSellingProdWraper .custProdTabsListings{
+    margin: 0 0 30px;
+  }
+  .custReviewMainBoxWraper h2,
+  .custSellingProdWraper h2{
+    margin: 0 0 30px;
+  }
+  .custBlackFridayBody{
+    gap: 50px;
+  }
+  .custBlackFridayBody{
+    padding: 40px 0;
+  }
+}
+@media(max-width: 991px){
+    .custSellingProdWraper .custBetterRecommendedSleepItems.accessories .custCardBody{
+    min-height: 60px;
+  }
+  .custSellingProdWraper .custBetterRecommendedSleepItems.bundles .custCardBody,
+  .custSellingProdWraper .custBetterRecommendedSleepItems.travel_comfort .custCardBody{
+      min-height: inherit;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper {
+    column-count: 2;
+    column-gap: 20px;
+  }
+  .custWhyJoinWraper .custPreBlackMain .box{
+    margin: 0 0 15px;
+  }
+  .custBlackFridayHeroBanner .custOfferFlag{
+    font-size: 14px;
+    margin: 0 0 15px;
+    padding: 12px;
+  }
+  .custSellingProdWraper .custProdTabsListings{
+    overflow: auto;
+    justify-content: unset;
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: nowrap;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .custSellingProdWraper .custProdTabsListings::-webkit-scrollbar {
+    display: none;
+  }
+  .custSellingProdWraper .custProdTabsListings .tab{
+    padding: 12px 20px;
+    white-space: nowrap;
+  }
+  .custBlackFridayHeroBanner h2{
+    font-size: 36px;
+  }
+  .custBlackFridayHeroBanner p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .custBlackFridayHeroBanner{
+    padding: 60px 0 20px;
+  }
+  .custMarqueeWrapper{
+    gap: 20px;
+  }
+  .custMarqueeWrapper .custMarqueeWrap span{
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .custWhyJoinWraper .custPreBlackMain{
+    gap: 25px;
+    padding: 30px; 
+  }
+  .custWhyJoinWraper .custPreBlackMain h3{
+    font-size: 30px;
+    
+  }
+  .custSellingProdWraper{
+    padding: 0 0 24px;
+  }
+  .custReviewMainBoxWraper h2{
+    font-size: 32px;
+    margin: 0 0 25px;
+  }
+  .custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems{
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  .custMarqueeWrapper {
+    padding: 0;
+    gap: 15px;
+  }
+  
+  .custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-wrapper{
+    width: 100%;
+    gap: 0;
+  }
+  .custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-wrapper .swiper-slide{
+      width: calc(50% - 8px);
+  }  
+  .custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-next, 
+  .custSellingProdWraper .custProdTabContent .custBetterRecommendedSleepItems .swiper-button-prev{
+      display: none;
+  }
+  
+  .custSellingProdWraper .card-footer a.btn{
+    display: none;
+  }
+  .custSellingProdWraper .custCardBody {
+    padding: 5px 5px 0;
+  }
+  .custSellingProdWraper .custItemBox a span.badge {
+    font-size: 10px !important;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+  .custBlackFridayHeroBanner{
+    padding: 30px 15px;
+  }
+  .custBlackFridayHeroBanner .custOfferFlag{
+    font-size: 18px;
+    padding: 10px 20px;
+    letter-spacing: 0.54px;
+    margin: 0 0 24px;
+  }
+  .custBlackFridayHeroBanner h2{
+    font-size: 44px;
+    margin: 0 0 24px;
+  }
+  .custBlackFridayHeroBanner p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .custBlackFridayHeroBanner .custNotificationFormBox{
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  .custBlackFridayHeroBanner .custNotificationFormBox .custForm{
+    width: 100%;
+  }
+  .custBlackFridayHeroBanner .custNotificationFormBox .custForm form{
+    padding: 0 !important;
+  }
+  .custWhyJoinWraper .custPreBlackMain{
+    padding: 24px 15px;
+    gap: 24px;
+  }
+  .custWhyJoinWraper .custPreBlackMain h3{
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .custWhyJoinWraper .custPreBlackMain .box{
+    margin: 0 0 24px;
+    height: unset;
+  }
+  .custWhyJoinWraper .custPreBlackMain .row .col-md-4:last-child .box {
+    margin: 0;
+  }
+  .custSellingProdWraper h2,
+  .custSellingProdWraper .custProdTabsListings{
+    margin: 0 0 40px;
+  }  
+  .custBlackFridayBody{
+    gap: 80px;
+  }
+  .custSellingProdWraper{
+    padding: 0;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper{
+    column-count: 1;
+  }
+  .custReviewMainBoxWraper h2{
+    margin: 0 0 40px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox{
+    gap: 16px;
+    padding: 16px;
+    margin: 0 0 32px;
+  } 
+  div#bestSeller_category .card-footer {
+    min-height: 70px;
+    justify-content: center;
+    align-items: center;
+  }
+  .custBlackFridayHeroBanner .custNotificationFormBox .custForm form button {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .custBlackFridayMainSection .container{
+    padding: 0;
+  }
+  .custReviewMainBoxWraper .container,
+  .custSellingProdWraper .container{
+    padding: 0 15px;
+  }
+  .custReviewMainBoxWraper .container{
+    height: 1000px;
+  }
+}
+@media(max-width: 575px){
+  .custReviewMainBoxWraper .custTestiWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(1) {
+    order: 1;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(2) {
+    order: 4;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(3) {
+    order: 2;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(4),
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(5),
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(6) {
+    display: none;
+  }
+
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 16px;
+  }  
+  .custReviewMainBoxWraper .custButtonWrapper {
+      padding: 56px 40px 16px 40px;
+  }
+}
+@media(max-width: 480px){
+  .custSellingProdWraper .card-footer a br {
+      display: block;
+  }
+}

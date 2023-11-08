@@ -1,0 +1,170 @@
+.custSScartRecommendMain{
+    width: calc(100% - 35rem);
+}
+.custSScartRecommendMain .insideBox{
+    display: flex;
+    padding: 16px;
+    gap: 24px;
+    background: #E4F3FB;
+}
+
+.custSScartRecommendMain .itemImgBox {
+    width: 104px;
+    height: 104px;
+    flex-shrink: 0;
+}
+
+.custSScartRecommendMain .itemImgBox img {
+    width: 100%;
+}
+
+.custSScartRecommendMain .itemRightBox .recommendFlag {
+    display: flex;
+    padding: 4px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 37px;
+    background: #B4D6E9;
+    min-width: 165px;
+    max-width: 100px;
+    width: 100%;
+    white-space: nowrap;
+    color: #1E4B64;
+    text-align: center;
+    font-family: var(--font-body-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.14px;
+}
+
+.custSScartRecommendMain .itemRightBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px 0;
+}
+
+.custSScartRecommendMain .itemRightBox .itemContentWraper {
+    display: flex;
+    gap: 0 24px;
+}
+
+.custSScartRecommendMain .itemRightBox .itemContentWraper .text {
+    color: #000;
+    font-family: var(--font-body-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: normal;
+}
+
+.custSScartRecommendMain .itemRightBox .itemContentWraper .buttonMain button {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #000;
+    color: #000;
+    font-family: var(--font-body-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    white-space: nowrap;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.custSScartRecommendMain .itemRightBox .itemContentWraper .buttonMain button:hover {
+    transition: 0.3s all;
+    box-shadow: 0 0 1px 1px rgba(0,0,0,0.90);
+}
+.custSScartRecommendMain .itemRightBox .recommendColorWraper{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.custSScartRecommendMain .itemRightBox .colorsRecommendMain{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.custSScartRecommendMain .itemRightBox .colorsRecommendMain button.colorBtn {
+    padding: 6px 12px;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-family: var(--font-body-family);
+    font-size: 14px;
+}
+.custSScartRecommendMain .itemRightBox .colorsRecommendMain button.colorBtn.active {
+    background: #000;
+    color: #fff;
+}
+@media(max-width: 1024px){
+    .custSScartRecommendMain .insideBox{
+        gap: 10px;
+    }
+    .custSScartRecommendMain .itemRightBox .itemContentWraper{
+        gap: 10px;
+        flex-direction: column;
+    }    
+}
+@media (max-width: 991px){
+    .custSScartRecommendMain .itemRightBox .itemContentWraper .buttonMain button{
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding: 8px 12px;
+    }
+}
+@media(max-width: 767px){
+    .custSScartRecommendMain {
+        width: 100%;
+    }
+    .custSScartRecommendMain .itemRightBox,
+    .custSScartRecommendMain .insideBox{
+        gap: 10px;
+    } 
+    .custSScartRecommendMain .insideBox{
+        padding: 10px;
+    }
+    .custSScartRecommendMain .itemRightBox .itemContentWraper{
+        gap: 10px;
+        flex-direction: column;
+    }
+    .custSScartRecommendMain .itemRightBox .colorsRecommendMain{
+        gap: 8px;
+    }
+}
+@media(max-width: 360px){
+    .custSScartRecommendMain .itemRightBox .itemContentWraper .text{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .custSScartRecommendMain .itemRightBox .recommendFlag{
+        font-size: 13px;
+        line-height: 18px;
+        max-width: 155px;
+        min-width: 150px;
+    }
+    .custSScartRecommendMain .itemRightBox .itemContentWraper .buttonMain button{
+        padding: 6px 8px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    .custSScartRecommendMain .insideBox{
+        padding: 10px;
+    }
+}
+
+@media(min-width: 575px) and (max-width: 749px){
+    .custSScartRecommendMain .itemRightBox .itemContentWraper{
+        flex-direction: row;
+    }
+}

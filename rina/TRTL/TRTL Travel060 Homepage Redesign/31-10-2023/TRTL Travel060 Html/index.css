@@ -1,0 +1,1040 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Schibsted+Grotesk:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body.custBody {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #f4eeeb;
+  letter-spacing: 0;
+}
+
+.custToolbarWrapper {
+  background: #3c3e41;
+}
+
+.custToolbarWrap {
+  max-width: 1440px;
+  list-style: none;
+  display: flex;
+  padding: 10px 40px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.custToolbarWrapper li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
+.custToolbarWrapper li span.custToolbarIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.custToolbarWrapper li span img {
+}
+
+.custToolbarWrapper li span.custToolbarText {
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.56px;
+}
+
+.custHeroWrapper {
+  background-image: url(.//hero-bottom-shape.svg),
+    url(.//hero-img.jpg);
+  background-position: 0 100%, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover;
+  /* height: 500px; */
+  padding: 40px 80px;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.custHeroWrapper .custHeroWrap {
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 620px;
+  margin-bottom: 104px;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview {
+  color: #f4eeeb;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview img {
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+  color: #f4eeeb;
+  font-family: Schibsted Grotesk;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 72px */
+  letter-spacing: 2.16px;
+  margin: 0;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+  color: #f4eeeb;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.68px;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText a.custBtn {
+  margin-top: 16px;
+}
+
+.custBtn {
+  display: inline-flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.custYellowBtn {
+  background: #fad951;
+}
+
+.custYellowBtn:hover,
+.custUltimateTravel .custButtonWrapper .custBtn:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fad951;
+}
+
+.custYellowBg {
+  background: #fad951 !important;
+}
+
+.custBlue {
+  color: #1c32ff !important;
+}
+
+.custBlack {
+  color: #000000 !important;
+}
+
+.custProductsWrapper {
+  padding: 23px 0;
+}
+
+.custProductsWrapper .custProductsWrap {
+  /* display: flex; */
+  /* padding: 23px 120px 0px 120px; */
+  /* align-items: flex-start; */
+  /* align-self: stretch; */
+  max-width: 1200px;
+}
+
+.custProductsWrapper .custProductsWrap .custProductsCard {
+  /* max-width: 270px; */
+  width: 100%;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: auto;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.07);
+  text-decoration: none;
+}
+
+.custProductsWrapper .custProductsWrap .custProductsCard .custProductsCardImg {
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.custProductsWrapper
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardImg
+  img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custProductsWrapper
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardImg
+  .custProductBestSeller {
+  display: flex;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.84px;
+  width: 100%;
+  max-width: 145px;
+  text-align: center;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.custProductsWrapper .custProductsWrap .custProductsCard .custProductsCardText {
+  padding: 0px 20px 16px;
+  text-align: center;
+}
+
+.custProductsWrapper
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle {
+  color: #000;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  /* 125% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  margin: 0;
+}
+
+.custProductsWrapper
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle
+  span {
+  flex: 0 0 20px;
+}
+
+.custProductsWrapper
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle
+  + p {
+  color: #000;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.5;
+  letter-spacing: 0;
+}
+
+.custContainer1280 {
+  max-width: 1280px;
+}
+
+.custContainer1200 {
+  max-width: 1200px;
+}
+
+.custMarqueeWrapper {
+  display: flex;
+  /* height: 172px; */
+  padding: 40px 0px 60px 40px;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.custMarqueeWrapper .custMarqueeWrap {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 12px;
+  border: 1px solid #a3adbb;
+  flex: 0 0 auto;
+}
+
+.custMarqueeWrapper .custMarqueeWrap span {
+  flex: 0 0 auto;
+  color: #000;
+  text-align: center;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.26px;
+}
+
+.custMarqueeWrapper .custMarqueeWrap img {
+}
+
+.custSectionTitle {
+  color: #000;
+  text-align: center;
+  font-family: Schibsted Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+.custUltimateTravel {
+  padding: 80px 0 0 0;
+}
+
+.custUltimateTravel .custTextLeft {
+  position: relative;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  z-index: -1;
+}
+
+.custUltimateTravel .custTextLeft::before,
+.custUltimateTravel .custRiskFree::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.5;
+  background: #f5da6a;
+  filter: blur(250px);
+  z-index: -1;
+}
+
+.custUltimateTravel .custRiskFree {
+  position: relative;
+}
+
+.custUltimateTravel .custRiskFree::before {
+  width: 750px;
+  height: 750px;
+  right: 40px;
+  bottom: 130px;
+  opacity: 0.3;
+  background: #f3971b;
+  left: auto;
+  top: auto;
+}
+
+.custUltimateTravel .custTextLeft p {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.custUltimateTravel .custMarginBottom80 {
+  margin-bottom: 80px;
+}
+
+.custUltimateTravel .custTextWrapper {
+  display: flex;
+  height: 100%;
+  padding: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+}
+
+.custUltimateTravel .custText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.custUltimateTravel .custText .custNumbers {
+  display: inline-flex;
+  border-radius: 1000px;
+  border: 1px solid #dededf;
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.custUltimateTravel .custText .custTextTitle {
+  color: #000;
+  font-family: Schibsted Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0;
+}
+
+.custUltimateTravel .custText p {
+  color: #444343;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+}
+
+.custUltimateTravel .custUnmatched .custText {
+  display: flex;
+  width: 400px;
+}
+
+.custUnmatchedDeskImg {
+  background-image: url(.//unmatched-comfort-&-support-desk-1.png);
+  background-size: 292px;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
+
+.custRiskFreeDeskImg {
+  background-image: url(.//100-day-risk-free-trial.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.custUltimateTravel .custTextWrapper.custRiskFreeDeskImg {
+  height: 600px;
+}
+.custRiskFreeDeskImg::before {
+  content: "";
+  border-radius: 12px;
+  background: linear-gradient(78deg, #000 -1.14%, rgba(0, 0, 0, 0) 63.32%);
+  display: flex;
+  padding: 48px;
+  align-items: flex-start;
+  gap: 48px;
+  flex: 1 0 0;
+  align-self: stretch;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.custUltimateTravel .custImgBox {
+  display: flex;
+  height: 280px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #f9f9f9;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.custUltimateTravel .custImgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custUltimateTravel .custCompact .custPortableDesk1 {
+  height: 380px;
+}
+
+.custUltimateTravel .custCompact .custPortableDesk2 {
+  height: 208px;
+}
+
+.custUltimateTravel .custCompact .custPortableDesk3,
+.custUltimateTravel .custCompact .custPortableDesk4 {
+  height: 294px;
+}
+
+.custUltimateTravel .custMachine .custMachineDesk1 {
+  height: 330px;
+}
+
+.custUltimateTravel .custMachine .custMachineDesk2 {
+  height: 258px;
+}
+
+.custUltimateTravel .custMachine .custMachineDesk3 {
+  height: 236px;
+}
+
+.custUltimateTravel .custMachine .custMachineDesk4 {
+  height: 352px;
+}
+
+.custUltimateTravel .custTestiWrapper {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  /* gap: 32px; */
+  /* align-self: stretch; */
+  /* flex-wrap: wrap; */
+  column-count: 3;
+  column-count: 3;
+  column-gap: 32px;
+  /* max-width: 600px; */
+}
+
+.custUltimateTravel .custTestiWrapper .custTestiBox {
+  display: inline-flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  /* align-self: stretch; */
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  /* flex: 0 0 calc(33.33% - 22px); */
+  margin: 16px 0;
+}
+
+.custUltimateTravel .custTestiWrapper .custTestiBox p {
+  color: #000;
+  font-family: IBM Plex Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 150%;
+  margin: 0;
+}
+
+.custUltimateTravel .custTestiWrapper .custTestiBox b {
+  display: block;
+}
+
+.custUltimateTravel .custTestiWrapper .custTestiStarQuote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custUltimateTravel .custTestiWrapper .custTestiStarQuote img {
+}
+
+.custUltimateTravel .custButtonWrapper {
+  display: flex;
+  padding: 80px 40px 40px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 99;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0) 0%,
+    #f9f9f9 75.28%
+  );
+  width: 100%;
+  left: 0;
+}
+
+.custUltimateTravel .custButtonWrapper .custBtn {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+  color: var(--color-black, #000);
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.custUltimateTravel .custMachine .custText,
+.custUltimateTravel .custCompact .custText {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.custUltimateTravel .custRiskFree {
+  min-height: 600px;
+}
+
+.custUltimateTravel .custRiskFree .custTextTitle {
+  color: #fff;
+  font-family: Schibsted Grotesk;
+  font-size: 52px;
+  line-height: 110%;
+  /* 57.2px */
+}
+
+.custProductsWrapper .swiper-pagination {
+  position: static;
+  margin-top: 30px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.custProductsWrapper .swiper-pagination .swiper-pagination-bullet {
+  width: 24px;
+  height: 3px;
+  opacity: 0.2;
+  border-radius: 0;
+  background: #000;
+}
+
+.custProductsWrapper .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 0.5;
+  background: #000;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 172px;
+  overflow-x: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 1199px) {
+  .custToolbarWrap {
+    padding: 10px 25px;
+    gap: 10px;
+  }
+
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+    font-size: 58px;
+  }
+
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+    font-size: 22px;
+  }
+
+  .custHeroWrapper {
+    padding: 40px 40px;
+  }
+
+  .custMarqueeWrapper {
+    padding: 30px 0px 40px 40px;
+    /* height: 140px; */
+    gap: 30px;
+  }
+
+  .custMarqueeWrapper .custMarqueeWrap {
+    padding: 20px;
+  }
+
+  .marquee {
+    height: 136px;
+  }
+
+  .custUltimateTravel {
+    padding: 60px 0 0 0;
+  }
+
+  .custUltimateTravel .custMarginBottom80 {
+    margin-bottom: 60px;
+  }
+
+  .custSectionTitle {
+    font-size: 48px;
+  }
+
+  .custUltimateTravel .custTextLeft {
+    padding: 80px 40px;
+  }
+
+  .custUltimateTravel .custTextLeft p {
+    font-size: 22px;
+  }
+
+  .custUltimateTravel .custTextWrapper {
+    padding: 35px;
+  }
+
+  .custUltimateTravel .custText .custTextTitle {
+    font-size: 42px;
+  }
+
+  .custUnmatchedDeskImg {
+    background-size: 230px;
+  }
+
+  .custUltimateTravel .custUnmatched .custText {
+    width: 300px;
+  }
+
+  .custUltimateTravel .custTestiWrapper {
+    column-gap: 20px;
+  }
+
+  .custUltimateTravel .custTestiWrapper .custTestiBox {
+    margin: 10px 0;
+  }
+
+  .custUltimateTravel .custRiskFree {
+    min-height: 550px;
+  }
+
+  .custUltimateTravel .custRiskFree .custText {
+    width: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .custToolbarWrapper li span.custToolbarText {
+    white-space: nowrap;
+  }
+
+  .custToolbarWrap {
+    overflow-x: auto;
+    justify-content: flex-start;
+  }
+
+  .custHeroWrapper .custHeroWrap .custHeroWrapText {
+    gap: 20px;
+    max-width: 480px;
+    margin-bottom: 80px;
+  }
+
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+    font-size: 52px;
+  }
+
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+    font-size: 20px;
+  }
+
+  .custUltimateTravel .custTextLeft {
+    padding: 0px 40px;
+  }
+
+  .custUltimateTravel .custMarginBottom80 {
+    gap: 30px;
+  }
+  .custUltimateTravel .custUnmatched2Img,
+  .custUltimateTravel .custMachine2Img,
+  .custUltimateTravel .custCompact2Img {
+    display: flex;
+    gap: 30px;
+  }
+
+  .custUltimateTravel .custUnmatched2Img .custImgBox,
+  .custUltimateTravel .custMachine2Img .custImgBox,
+  .custUltimateTravel .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 15px);
+  }
+  .custUltimateTravel .custUnmatched .custText {
+    width: 60%;
+  }
+
+  .custUltimateTravel .custCompact2Img .custImgBox {
+    height: 280px;
+    margin: 0;
+  }
+
+  .custUltimateTravel .custMachine2Img .custImgBox {
+    height: 330px;
+    margin: 0;
+  }
+  .custUltimateTravel .custImgBox {
+    margin: 0;
+  }
+  .custUltimateTravel .custMachine .custText,
+  .custUltimateTravel .custCompact .custText {
+    max-width: 500px;
+  }
+  .custUltimateTravel .custTestiWrapper {
+    column-count: 2;
+    column-gap: 20px;
+  }
+  .custUltimateTravel .custText .custTextTitle {
+    font-size: 38px;
+  }
+  .custUltimateTravel .custTextWrapper {
+    padding: 35px 15px;
+  }
+  .custUltimateTravel .custTextLeft p {
+    font-size: 20px;
+  }
+  .custSectionTitle {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custUltimateTravel .custTextLeft::before {
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+  }
+  .custHeroWrapper {
+    padding: 25px 15px 40px;
+  }
+  .custHeroWrapper .custHeroWrap .custHeroWrapText {
+    margin-bottom: 0;
+    margin-top: 225px;
+  }
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+    display: none;
+  }
+  .custHeroWrapper {
+    background-position: 0 100%, 58% -1px;
+  }
+  .custProductsWrapper {
+    padding: 23px 0 30px;
+  }
+  .custMarqueeWrapper {
+    padding: 30px 15px;
+    gap: 15px;
+  }
+  .marquee {
+    height: 126px;
+  }
+  .custUltimateTravel {
+    padding: 30px 0px;
+  }
+  .custSectionTitle {
+    font-size: 36px;
+  }
+  .custSectionTitle br {
+    display: none;
+  }
+  .custUltimateTravel .custTextLeft {
+    padding: 0px;
+  }
+  .custUltimateTravel .custMarginBottom80 {
+    gap: 24px;
+  }
+  .custUltimateTravel .custTextWrapper {
+    padding: 15px;
+  }
+
+  .custRiskFreeDeskImg {
+    background-image: url(.//100-day-risk-free-trial-mob.jpg);
+    background-position: top right;
+  }
+}
+
+@media (max-width: 575px) {
+  .custProductsWrapper {
+      padding:30px 0px;
+  }
+  .custUltimateTravel .custUnmatched .custText {
+    width: 100%;
+  }
+  .custUltimateTravel .custText .custTextTitle {
+    font-size: 32px;
+  }
+  .custUltimateTravel .custText .custTextTitle br {
+    display: none;
+  }
+  .custUltimateTravel .custUnmatched .custUnmatchedDeskImg {
+    padding-bottom: 195px;
+    background-size: 195px;
+  }
+  .custUnmatchedDeskImg {
+    background-size: 225px;
+    background-image: url(.//unmatched-comfort-&-support-mob-2.png);
+  }
+  .custUltimateTravel .custUnmatched2Img,
+  .custUltimateTravel .custMachine2Img,
+  .custUltimateTravel .custCompact2Img {
+    display: flex;
+    gap: 15px;
+  }
+  .custUltimateTravel .custUnmatched2Img .custImgBox,
+  .custUltimateTravel .custMachine2Img .custImgBox,
+  .custUltimateTravel .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 7px);
+  }
+  .custUltimateTravel .custUnmatched .custImgBox {
+    height: 160px;
+  }
+  .custUltimateTravel .custCompact2Img .custImgBox,
+  .custUltimateTravel .custCompact .custPortableDesk3,
+  .custUltimateTravel .custMachine2Img .custImgBox {
+    height: 200px;
+  }
+  .custUltimateTravel .custText p.custSubTitle {
+    font-size: 14px;
+  }
+  .custUltimateTravel .custUnmatched .custText {
+    gap: 16px;
+  }
+  .custUltimateTravel .custText {
+    gap: 16px;
+  }
+  .custUltimateTravel .custTestiWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(1) {
+    order: 1;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(2) {
+    order: 4;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(3) {
+    order: 2;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(4) {
+    order: 5;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(5) {
+    order: 3;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox:nth-child(6) {
+    order: 6;
+  }
+
+  .custUltimateTravel .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+  .custUltimateTravel .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .custUltimateTravel .custRiskFree .custText {
+    gap: 32px;
+  }
+  .custUltimateTravel .custTextLeft::before {
+    left: -70px;
+    top: -140%;
+    width: 375px;
+    height: 375px;
+  }
+}

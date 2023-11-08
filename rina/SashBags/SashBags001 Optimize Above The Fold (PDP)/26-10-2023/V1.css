@@ -1,0 +1,38 @@
+.custLoveItBlock h3 {
+    color: #5A31F4;
+    font-family: Assistant, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.custLoveItBlock ul li {
+    color: #000;
+    font-family: Assistant, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.56px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.custLoveItBlock ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.custLoveItBlock ul li::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: #000;
+    display: block;
+    border-radius: 12px;
+    margin-right: 10px;
+}

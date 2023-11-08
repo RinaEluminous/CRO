@@ -1,0 +1,312 @@
+.customStickyHeaderBanner {
+    background: #000;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.customStickyHeaderBanner .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.customStickyHeaderBanner .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 4px 24px;
+}
+
+.customStickyHeaderBanner .custGetOfferDiv p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+}
+
+.customStickyHeaderBanner .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+}
+
+.customStickyHeaderBanner .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.customStickyHeaderBanner .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.customStickyHeaderBanner .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #243B60;
+    letter-spacing: 0.04em;
+}
+
+.customStickyHeaderBanner .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.customStickyHeaderBanner .custOfferDealBtn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.customStickyHeaderBanner .custOfferDealBtn a.btn {
+    padding: 0.6rem 1.5rem;
+    font-weight: 600;
+}
+.customStickyHeaderBanner .spiderIcon {
+    display: block;
+    width: 80px;
+    height: 96px;
+    position: absolute;
+    right: calc(100% - 3rem + 16px);
+    top: 0;
+}
+
+.customStickyHeaderBanner .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+}
+
+.customStickyHeaderBanner .custGetOfferBannerMain .custGetOfferDiv .batIcon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 82px;
+    height: 38px;
+    display: block;
+}
+
+.customStickyHeaderBanner .ghostIcon {
+    display: block;
+    width: 45px;
+    height: 50px;
+    position: absolute;
+    left: calc(100% - 3rem + 16px);
+    top: 13px;
+}
+
+.customStickyHeaderBanner button.btn-close {
+    position: absolute;
+    left: calc(100% + 15px);
+    top: 50%;
+    filter: invert(1);
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    display: block;
+    line-height: normal;
+    transform: translateY(-50%);
+}
+@media(min-width: 1281px) and (max-width: 1400px){
+    .customStickyHeaderBanner button.btn-close{
+        left: calc(100% - 30px);
+    }
+    .customStickyHeaderBanner .ghostIcon{
+        left: calc(100% - 3rem + 5px);
+    }
+    .customStickyHeaderBanner .spiderIcon{
+        right: calc(100% - 3rem + 0px);
+    }
+}
+@media(min-width: 1201px) and (max-width: 1280px){
+    .customStickyHeaderBanner .custOfferDealBtn a.btn{
+        padding: .65rem 1rem;
+        font-size: 0.8rem;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv span.offerBadge{
+        padding: 4px 15px;
+        font-size: 13px;
+    }
+    .customStickyHeaderBanner .custOfferTimer .timerMain .timerBox{
+        padding: 4px 8px;
+    }
+    .customStickyHeaderBanner .spiderIcon{
+        right: calc(100% - 3rem );
+    }
+    .customStickyHeaderBanner .ghostIcon{
+        left: calc(100% - 3rem + 5px);
+    }
+    .customStickyHeaderBanner button.btn-close{
+        left: calc(100% - 30px);
+    }
+}
+@media(min-width: 1025px) and (max-width: 1200px){
+    .customStickyHeaderBanner .custGetOfferBannerMain{
+        justify-content: space-around;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: 24px;
+    }    
+    .customStickyHeaderBanner .custGetOfferDiv span.offerBadge{
+        padding: 4px 16px;
+        margin: 0 0 3px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .customStickyHeaderBanner .spiderIcon{
+        right: calc(100% - 3rem );
+    }
+    .customStickyHeaderBanner .ghostIcon{
+        left: calc(100% - 3rem + 5px);
+    }
+    .customStickyHeaderBanner button.btn-close{
+        left: calc(100% - 30px);
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .customStickyHeaderBanner .custGetOfferBannerMain{
+        gap: 0 5px;
+        justify-content: space-around;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv span.offerBadge{
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .customStickyHeaderBanner .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .customStickyHeaderBanner .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .customStickyHeaderBanner .custOfferDealBtn a.btn{
+        font-size: 0.6rem;
+        padding: 0.6rem 1rem;
+    }
+    .customStickyHeaderBanner .spiderIcon{
+        right: calc(100% - 3rem );
+    }
+    .customStickyHeaderBanner .ghostIcon{
+        left: calc(100% - 3rem + 5px);
+    }
+    .customStickyHeaderBanner button.btn-close{
+        left: calc(100% - 30px);
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .customStickyHeaderBanner .custGetOfferBannerMain{
+        gap: 0 5px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv span.offerBadge{
+        padding: 2px 10px;
+        font-size: 10px;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .customStickyHeaderBanner .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .customStickyHeaderBanner .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .customStickyHeaderBanner .custOfferDealBtn a.btn{
+        font-size: 0.6rem;
+        padding: 0.6rem 1rem;
+    }
+    .customStickyHeaderBanner .spiderIcon{
+        right: calc(100% - 3rem );
+    }
+    .customStickyHeaderBanner .ghostIcon{
+        left: calc(100% - 3rem + 5px);
+    }
+    .customStickyHeaderBanner button.btn-close{
+        left: calc(100% - 30px);
+    }
+    .customStickyHeaderBanner .custOfferTimer{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+@media(max-width: 767px){
+    .customStickyHeaderBanner .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .customStickyHeaderBanner .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 700;
+        margin: 0px 0 8px;
+        padding-right: 20px;
+        text-transform: none;
+    }
+    .customStickyHeaderBanner .custOfferDealBtn a.btn{
+        font-size: 1rem;
+    }
+    .customStickyHeaderBanner .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .customStickyHeaderBanner button.btn-close{
+        left: auto;
+        top: 5px;
+        transform: inherit;
+        right: 5px;
+    }
+    .customStickyHeaderBanner .custOfferTimer,
+    .customStickyHeaderBanner .spiderIcon,
+    .customStickyHeaderBanner .ghostIcon,
+    .customStickyHeaderBanner .custGetOfferDiv span.offerBadge{
+        display: none;
+    }
+    .customStickyHeaderBanner .custGetOfferDiv p a.arrowBtn img {
+        filter: invert(1);
+        margin-top: -2px;
+    }
+}
+@media(max-width: 360px){
+    .customStickyHeaderBanner .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0px 0 5px;
+    }
+}

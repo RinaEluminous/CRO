@@ -1,0 +1,2250 @@
+.custHalloweenStickyFooter {
+    background: #F4EEEB;
+    color: #fff;
+    max-width: 1014px;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.custHalloweenStickyFooter .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custHalloweenStickyFooter .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #000;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+}
+.custHalloweenStickyFooter .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custHalloweenStickyFooter .custGetOfferDiv span.offerBadge svg * {
+    fill: #000;
+}
+
+.custHalloweenStickyFooter .custGetOfferDiv + p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.24px;
+}
+.custHalloweenStickyFooter .custGetOfferDiv + p span{
+    color: #A11C23;
+}
+
+.custHalloweenStickyFooter .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.custHalloweenStickyFooter .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    /*visibility: hidden;*/
+}
+
+.custHalloweenStickyFooter .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custHalloweenStickyFooter .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custHalloweenStickyFooter .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custHalloweenStickyFooter .custColRight .custOfferDealBtn{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.custHalloweenStickyFooter .custOfferDealBtn a.btn {
+    padding: 0.6rem 2rem;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.custHalloweenStickyFooter .spiderIcon {
+    display: block;
+    width: 80px;
+    height: 96px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+
+.custHalloweenStickyFooter .container-xxl {
+    padding: 0 24px 0 96px;
+    border-radius: 8px;
+    background: #F4EEEB;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.custHalloweenStickyFooter .container-xxl .pt-2.pb-2.row {
+    padding: 12px 0 !important;
+}
+
+.custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+}
+
+.custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv .batIcon {
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 86px;
+    height: 40px;
+    display: block;
+}
+.custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv .batIcon img {
+    height: 100%;
+}
+
+.custHalloweenStickyFooter .ghostIcon {
+    display: block;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+.custHalloweenStickyFooter button.btn-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    width: 36px;
+    height: 36px;
+    display: block;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-size: 12px;
+}
+.custHalloweenStickyFooter .custColRight {
+    text-align: center;
+}
+.custHalloweenStickyFooter .custColRight .halloweenIcon{
+    position: relative;
+    z-index: 0;
+    margin-top: -44px;
+}
+.custHalloweenStickyFooter .custColRight .halloweenIcon img {
+    width: 130px;
+    transform: rotate(15deg);
+}
+
+@media(min-width: 992px) and (max-width: 1024px){
+    .custHalloweenStickyFooter .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }    
+    .custHalloweenStickyFooter{
+        margin: 0 10px 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custHalloweenStickyFooter .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custHalloweenStickyFooter .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custHalloweenStickyFooter .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custHalloweenStickyFooter .custOfferDealBtn a.btn{
+        font-size: 12px;
+        padding: 3px 12px;
+        letter-spacing: normal;
+        white-space: nowrap;
+    }
+    .custHalloweenStickyFooter{
+        margin: 0 10px 10px;
+    }
+    .custHalloweenStickyFooter .custColRight .halloweenIcon img{
+        width: 98px;
+    }
+    .custHalloweenStickyFooter .custColRight .halloweenIcon{
+        margin-top: -20px;
+    }   
+    .custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 767px){
+    .custHalloweenStickyFooter .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custHalloweenStickyFooter .custColRight .halloweenIcon img{
+        width: 105px;
+    }
+    .custHalloweenStickyFooter .custOfferDealBtn a.btn{
+        font-size: 1rem;
+    }
+    .custHalloweenStickyFooter .ghostIcon,
+    .custHalloweenStickyFooter .spiderIcon{
+        display: none;
+    }    
+    .custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custHalloweenStickyFooter button.btn-close{
+        left: auto;
+        top: -15px;
+        transform: inherit;
+        right: -15px;
+    }
+    .custHalloweenStickyFooter .container-xxl{
+        padding: 0 8px;
+    }    
+    .custHalloweenStickyFooter{
+        margin: 0 0px 10px;
+        max-width: 380px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 26px;
+        text-transform: none;
+        color: #000;
+        background: #FAD951;
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custHalloweenStickyFooter .custGetOfferDiv span.offerBadge svg *{
+        fill: #FAD951;
+    }
+    .custHalloweenStickyFooter .custColRight{
+        display: flex;
+    }
+    .custHalloweenStickyFooter .custColRight .halloweenIcon{
+        margin-top: -15px;
+        margin-left: 0px;
+        margin-bottom: -10px;
+    }
+    .custHalloweenStickyFooter .custColRight .custOfferDealBtn{
+        margin-top: 20px;
+        margin-left: -10px;
+    }
+        
+    .custHalloweenStickyFooter .spiderIcon,
+    .custHalloweenStickyFooter .ghostIcon,
+    .custHalloweenStickyFooter .custColRight,
+    .custHalloweenStickyFooter .custOfferTimer .custTimerTitle,
+    .custHalloweenStickyFooter .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        display: none;
+    }
+    .custHalloweenStickyFooter .custGetOfferBannerMain .custColLeft{
+        width: 100%;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv + p {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: 0.66px;
+    }
+    .custHalloweenStickyFooter .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+}
+@media(max-width: 460px){
+    .custHalloweenStickyFooter button.btn-close{
+        top: -25px;
+        right: -5px;
+    }       
+    .custHalloweenStickyFooter{
+        margin: 0 10px 10px;
+        max-width: 100%;
+        width: calc(100% - 20px);
+        left: 0;
+        transform: none;
+        right: 0;
+    }
+}
+@media(max-width: 360px){
+    .custHalloweenStickyFooter .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHalloweenStickyFooter .custColRight .custOfferDealBtn{
+        margin-left: -20px;
+    }
+    .custHalloweenStickyFooter .custOfferDealBtn a.btn{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+    }
+    .custHalloweenStickyFooter .custGetOfferDiv + p{
+        font-size: 20px;
+    }
+}
+
+/* collection all page */
+
+body.template-collection #MainContent .section-banner-products-recommended .bg-light{
+    background: #F4EEEB !important;
+}
+body.template-collection #MainContent .section-banner-products-recommended h2{
+    display: none;
+}
+
+.custHalloweenCollectionHero + .container{
+    margin-top: 0 !important;
+}
+
+.custHalloweenCollectionHero {
+    color: #fff;
+    max-width: 1230px;
+    margin: 0 auto -30px;
+    z-index: 9;
+}
+
+.custHalloweenCollectionHero .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #000;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+}
+.custHalloweenCollectionHero .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custHalloweenCollectionHero .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custHalloweenCollectionHero .custGetOfferDiv span.offerBadge svg * {
+    fill: #000;
+}
+
+.custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.24px;
+}
+.custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span span{
+    color: #A11C23;
+    position: relative;
+    display: inline-block;
+}
+
+.custHalloweenCollectionHero .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.custHalloweenCollectionHero .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    /*visibility: hidden;*/
+}
+
+.custHalloweenCollectionHero .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custHalloweenCollectionHero .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custHalloweenCollectionHero .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+
+.custHalloweenCollectionHero .spiderIcon {
+    display: block;
+    width: 80px;
+    height: 96px;
+    position: absolute;
+    left: -96px;
+    top: 0px;
+}
+
+.custHalloweenCollectionHero .container-xxl {
+    padding: 0;
+}
+.custHalloweenCollectionHero .container-xxl .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custHalloweenCollectionHero .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span .batIcon {
+    position: absolute;
+    right: 12px;
+    top: -34px;
+    width: 82px;
+    height: 38px;
+}
+.custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span .batIcon img {
+    height: 100%;
+}
+
+.custHalloweenCollectionHero .ghostIcon {
+    display: block;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+.custHalloweenCollectionHero .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custHalloweenCollectionHero .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+
+.custCollectionPage .swiper-slider .swiper-wrapper .product-flashtags-container .flashtag {
+    background: var(--w-red, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CA232C) !important;
+    color: #fff !important;
+}
+
+@media(min-width: 768px){
+    .custHalloweenCollectionHero{
+        max-width: 700px;
+    }
+}
+@media(min-width: 992px){
+    .custHalloweenCollectionHero{
+        max-width: 940px;
+    }
+}
+@media(min-width: 1200px){
+    .custHalloweenCollectionHero{
+        max-width: 1050px;
+    }
+}
+@media(min-width: 1400px){
+    .custHalloweenCollectionHero{
+        max-width: 1230px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custHalloweenCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custHalloweenCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custHalloweenCollectionHero .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custHalloweenCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 991px){
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    } .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: -30px;
+    }
+}
+@media(max-width: 768px){
+    .custHalloweenCollectionHero .spiderIcon,
+    .custHalloweenCollectionHero .custColRight{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+
+    body.custCollectionPage .section-links{
+      display:none;
+    }
+    
+    body.custCollectionPage ul.nav.nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+    }
+    
+    body.custCollectionPage ul.nav.nav-tabs::-webkit-scrollbar {
+      display: none;
+    }
+    
+    body.custCollectionPage ul.nav.nav-tabs li.nav-item {
+        white-space: nowrap;
+    }
+    .custHalloweenCollectionHero .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 16px
+    }
+    .custHalloweenCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custHalloweenCollectionHero .ghostIcon,
+    .custHalloweenCollectionHero .spiderIcon{
+        display: none;
+    }    
+    .custHalloweenCollectionHero .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custHalloweenCollectionHero .container-xxl{
+        padding: 0 8px;
+    }    
+    .custHalloweenCollectionHero{
+        max-width: 530px;
+        width: 100%;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #fff;
+        background: #000;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custHalloweenCollectionHero .custGetOfferDiv span.offerBadge svg *{
+        fill: #000;
+    }
+    .custHalloweenCollectionHero .custColRight{
+        display: flex;
+    }
+        
+    .custHalloweenCollectionHero .spiderIcon,
+    .custHalloweenCollectionHero .ghostIcon,
+    .custHalloweenCollectionHero .custColRight,
+    .custHalloweenCollectionHero .custOfferTimer .custTimerTitle,
+    .custHalloweenCollectionHero .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        display: none;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custHalloweenCollectionHero .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custHalloweenCollectionHero .container-xxl .pt-2.pb-2.row{
+        padding: 0px 0 16px !important;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span{
+        position: relative;
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span span{
+        position: unset;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: unset;
+        right: 0;
+        top: -28px;
+        width: 86px;
+        height: 40px;
+    }
+}
+@media(max-width: 575px){
+    .custHalloweenCollectionHero{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero .container-xxl{
+        padding: 0 12px;
+    }
+}
+@media(max-width: 460px){      
+    .custHalloweenCollectionHero{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custHalloweenCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custHalloweenCollectionHero .custGetOfferDiv + .custLimitedOffer span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* Halloween Collection */
+
+body.template-collection.custHalloweenSalePage #MainContent [id*="__intro"],
+body.template-collection.custHalloweenSalePage #MainContent [id*="__trust-signals"],
+body.template-collection.custHalloweenSalePage #MainContent [id*="__intro"] + [id*="__main"]{
+    display: none;
+}
+
+.custHalloweenCollectionWrapper{
+    background: #F4EEEB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.custHalloweenCollectionHero2 {
+    color: #fff;
+    max-width: 1230px;
+    margin: 0 auto;
+    z-index: 9;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #000;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg * {
+    fill: #000;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.24px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span span{
+    color: #A11C23;
+    position: relative;
+    display: inline-block;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+    /*visibility: hidden;*/
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+
+.custHalloweenCollectionHero2 .spiderIcon {
+    display: block;
+    width: 80px;
+    height: 96px;
+    position: absolute;
+    left: -96px;
+    top: 0px;
+}
+
+.custHalloweenCollectionHero2 .container-xxl {
+    padding: 0;
+}
+.custHalloweenCollectionHero2 .container-xxl .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon {
+    position: absolute;
+    right: 12px;
+    top: -34px;
+    width: 82px;
+    height: 38px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon img {
+    height: 100%;
+}
+
+.custHalloweenCollectionHero2 .ghostIcon {
+    display: block;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+.custHalloweenCollectionHero2 .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+.custDeepBundleMain {
+    background: #F4EEEB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 24px 0 40px;
+}
+.custDeepBundleMain h2 {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 1.2px;
+    margin: 0 0 24px;
+}
+.custDeepBundleMain p{
+    color: #000;
+    font-family: var(--bs-body-font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1.4px;
+    margin: 0 0 8px;
+}
+.custDeepBundleMain .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+.custDeepBundleMain .custBtnWraper a.btn{
+    text-transform: uppercase;
+}
+.custDeepBundleMain .custDeepContent {
+    margin: 22px 0 40px;
+}
+.custDeepBundleMain .custDeepBundleSlider {
+    max-width: 370px;
+    margin: auto;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.custDeepBundleSlider .budleTag {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--w-red, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CA232C);
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+}
+.custDeepBundleSlider .swiper-pagination-bullet{
+    background: #fff;
+    opacity: 0.2;
+}
+.custDeepBundleSlider .swiper-pagination-bullet-active{
+    background: #fff;
+    opacity: 1;
+}
+.custDeepBundleSlider .swiper-pagination-bullet:nth-child(7n) ~ .swiper-pagination-bullet {
+    display: none;
+}
+.custDeepBundleMain .custBtnWraper .freeGifts {
+    color: #243B60;
+    font-family: var(--bs-body-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custTravelBuddiesWrapper .container{
+  position: relative;
+}
+.custTravelBuddiesWrapper .swiper.travelBuddiesSwiper {
+   position: unset;
+}
+.custTravelBuddiesWrapper {
+    padding: 24px 0;
+}
+.custTravelBuddiesWrapper h3 {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    margin: 0 0 24px;
+}
+.custTravelBuddiesWrapper .custItemMain {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.custTravelBuddiesWrapper .custItemMain a{
+    text-decoration: none;
+}
+.custTravelBuddiesWrapper .custItemMain .popularTag {
+    min-height: 24px;
+    width: 100%;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile {
+    position: relative;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productTag {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--w-red, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CA232C);
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain {
+    padding: 16px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    background: #ffffff;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productHeading{
+    color: #000;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings {
+    width: 60px;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.yellowStars,
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.greyStars {    
+    background-repeat: no-repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: 60px 10px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.yellowStars{
+    background-image: url('data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') !important;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.greyStars {
+    background-image: url('data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23E5E5E5%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') !important;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-family: IBM Plex Mono;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .discountBadge {
+    display: flex;
+    padding: 4px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: #84948B;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .cancelPrice {
+    color: #3C3E41 !important;
+    opacity: 0.5;
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    pointer-events: none;
+    opacity: .4;
+    background-image: linear-gradient(to top left,rgba(0,0,0,0) 0,rgba(0,0,0,0) calc(50% - 0.8px),#000 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%);
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .realPrice{
+    color: #A23636;
+    font-family: var(--bs-body-font-family);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.custTravelBuddiesWrapper .custItemMain.popular {
+    background: #F4EEEB;
+}
+.custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+}
+.custTravelBuddiesWrapper .custItemMain.popular .popularTag span.owl-icon {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -10px;
+}
+.custHalloweenUnmatchWraper{
+    padding: 40px 0;
+}
+.custHalloweenUnmatchWraper .row{
+    align-items: center;
+}
+.custHalloweenUnmatchWraper .row .col-md-6 {
+    gap: 32px 0;
+    display: flex;
+    flex-direction: column;
+}
+.custHalloweenUnmatchWraper .unmatchNumb{
+    display: flex;
+    width: 56px;
+    height: 56px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 1000px;
+    border: 1px solid #DDD;
+    color: #000;
+    font-family: IBM Plex Mono;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+.custHalloweenUnmatchWraper h3{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 70px;
+    margin: 0;
+}
+.custHalloweenUnmatchWraper p{
+    color: #3C3E41;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+.custHalloweenUnmatchWraper.washableMain .row{
+    align-items: flex-start;
+}
+.custHalloweenUnmatchWraper.washableMain .container > .row:first-child{
+    margin-bottom: 40px;
+}
+.custHalloweenUnmatchWraper.washableMain .row .col-md-6{
+    gap: 24px 0;
+}
+.custHalloweenUnmatchWraper.washableMain p{
+    font-size: 18px;
+    line-height: 27px;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper{
+    width: 100%;
+    position: unset;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox{
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    border-radius: 12px;
+    background: #F4EEEB;
+    backdrop-filter: blur(50px);
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox p{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    margin: 0;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author img{
+    width: 56px;
+    height: 56px;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author .authorDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    flex: 1 0 0;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author .authorDetails .name{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author .authorDetails .jobPost{
+    color: #aaa;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+}
+.custHalloweenUnmatchWraper.trustedWraper .container > .row{
+    position: relative;
+}
+.custHalloweenUnmatchWraper.trustedWraper .container > .row .col-md-6{
+    gap: 24px 0;
+}
+.custHalloweenUnmatchWraper.trustedWraper .container > .row .col-md-6:first-child{
+    padding-right: 80px;
+    padding-bottom: 80px;
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustedNav {
+    position: absolute;
+    left: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0 24px;
+    bottom: 0;
+}
+.custTrustedNav .swiper-button-next, .custTrustedNav .swiper-button-prev{
+    top: auto;
+    bottom: 0;
+    position: unset;
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #F4EEEB;
+    backdrop-filter: blur(50px);
+    box-shadow: none;
+}   
+.custTrustedNav .swiper-button-next {
+    left: auto;
+    right: 0;    
+}
+.custTrustedNav .swiper-button-prev {
+    right: auto;
+    left: 0;    
+}
+.custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .swiper-wrapper{
+    align-items: center;
+    gap: 0 24px;
+}
+
+.custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain{
+    display: flex;
+    padding: 40px 48px;
+    align-items: center;
+    gap: 48px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #F4EEEB;
+    background-image: url('https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/halloween_trial_shadow.png');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain .col-md-5{
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0;
+}
+@media(min-width: 768px){
+    .custHalloweenCollectionHero2{
+        max-width: 700px;
+    }
+}
+@media(min-width: 992px){
+    .custHalloweenCollectionHero2{
+        max-width: 940px;
+    }
+}
+@media(min-width: 1200px){
+    .custHalloweenCollectionHero2{
+        max-width: 1050px;
+    }
+}
+@media(min-width: 1400px){
+    .custHalloweenCollectionHero2{
+        max-width: 1230px;
+    }
+    .custHalloweenUnmatchWraper.washableMain .row .col-md-6 > .row .col-md-6:first-child .imgBox:first-child {
+        height: 330px;
+        border-radius: 16px;
+        overflow: hidden;
+    }    
+
+    .custHalloweenUnmatchWraper.washableMain .row .col-md-6 .row .col-md-6:first-child .imgBox img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1399px){
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain{
+        background-position: right -80px center;
+    }
+    .custHalloweenUnmatchWraper h3{
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox p{
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+@media(max-width: 1024px){
+    .custHalloweenUnmatchWraper h3{
+        font-size: 48px;
+        line-height: 50px;
+    }
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain .col-md-5,
+    .custHalloweenUnmatchWraper .row .col-md-6{
+        gap: 24px 0;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .container > .row .col-md-6:first-child{
+        padding-right: 0;
+        padding-bottom: 40px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox{
+        gap: 24px;
+        padding: 36px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox p{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .custHalloweenUnmatchWraper .unmatchNumb{
+        font-size: 22px;
+        line-height: 22px;
+    }    
+}
+@media(max-width: 991px){
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    } .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: -30px;
+    }
+    .custDeepBundleMain .custDeepContent{
+        margin: 0px 0 24px;
+    }
+    .custDeepBundleMain h2{
+        font-size: 32px;
+        margin: 0 0 14px;
+    }
+    .custDeepBundleMain p{
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .custDeepBundleMain .custBtnWraper{
+        gap: 0 16px;
+    }
+    .custDeepBundleMain .custBtnWraper a.btn.btn-secondary {
+        padding: 10px 32px;
+    }
+    .custHalloweenCollectionHero2 .custColRight, 
+    .custHalloweenCollectionHero2 .spiderIcon{
+        display: none;
+    }
+    .custTravelBuddiesWrapper .col-lg-3 .custItemMain {
+        margin: 0 0 15px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+        font-size: 16px;
+    }
+    .custTravelBuddiesWrapper h3{
+        margin: 0;
+        font-size: 22px;
+    }
+    .custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain{
+        padding: 8px;
+    }
+    .custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .custDeepBundleMain .custDeepBundleSlider{
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+    .custHalloweenUnmatchWraper.washableMain .container > .row {
+        flex-direction: column;
+        gap: 24px 0;
+    }
+    .custHalloweenUnmatchWraper.washableMain .container > .row > .col-md-6 {
+        width: 100%;
+    }
+    .custHalloweenUnmatchWraper.washableMain .row .col-md-6 .imgBox img {
+        width: 100%;
+    }
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain{
+        background-position: right -150px center;
+    }
+    .custHalloweenUnmatchWraper h3 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain .col-md-5, 
+    .custHalloweenUnmatchWraper .row .col-md-6 {
+        gap: 16px 0;
+    }
+    .custHalloweenUnmatchWraper .unmatchNumb {
+        font-size: 20px;
+        line-height: 20px;
+        width: 46px;
+        height: 46px;
+    }
+    .custHalloweenUnmatchWraper p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custHalloweenUnmatchWraper {
+        padding: 30px 0;
+    }
+    .custHalloweenUnmatchWraper.washableMain .container > .row:first-child{
+        margin-bottom: 30px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+@media(max-width: 768px){
+    .custHalloweenCollectionHero2 .spiderIcon,
+    .custHalloweenCollectionHero2 .custColRight{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custHalloweenCollectionHero2 .ghostIcon,
+    .custHalloweenCollectionHero2 .spiderIcon{
+        display: none;
+    }    
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custHalloweenCollectionHero2 .container-xxl{
+        padding: 0 8px;
+    }    
+    .custHalloweenCollectionHero2{
+        max-width: 530px;
+        width: 100%;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #fff;
+        background: #000;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg *{
+        fill: #000;
+    }
+    .custHalloweenCollectionHero2 .custColRight{
+        display: flex;
+    }
+        
+    .custHalloweenCollectionHero2 .spiderIcon,
+    .custHalloweenCollectionHero2 .ghostIcon,
+    .custHalloweenCollectionHero2 .custColRight,
+    .custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle,
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        display: none;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custHalloweenCollectionHero2 .container-xxl .pt-2.pb-2.row{
+        padding: 16px 0 !important;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span{
+        position: relative;
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span span{
+        position: unset;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: unset;
+        right: 0;
+        top: -28px;
+        width: 86px;
+        height: 40px;
+    }    
+    .custDeepBundleMain {
+        padding: 15px 0;
+    }
+    .custDeepBundleMain .custBtnWraper{
+        gap: 24px;
+        flex-direction: column;
+    }
+    .custDeepBundleMain .custBtnWraper a.btn.btn-secondary{
+        width: 100%;
+    }
+    .custDeepBundleMain .custDeepBundleSlider{
+        margin: 0 auto 15px;
+    }
+    .custDeepBundleMain h2{
+        font-size: 30px;
+        margin: 0 0 8px;
+        letter-spacing: 0.9px;
+    }
+    .custTravelBuddiesWrapper h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleSlider .bundleSwiper .swiper-slide img{
+        width: 100%;
+    }
+    .custDeepBundleMain .custDeepContent{
+        margin: 0 0 20px;
+    }
+    .custHalloweenUnmatchWraper .row{
+        gap: 24px 0;
+    }
+    .custHalloweenUnmatchWraper .col-md-6 .col-sm-6 {
+        width: 50%;
+    }
+    .custHalloweenUnmatchWraper.washableMain .container > .row > .col-md-6:first-child {
+        display: none;
+    }
+    .custHalloweenUnmatchWraper .imgBox img {
+        width: 100%;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustedNav{
+        bottom: unset;
+        position: unset;
+        left: unset;
+        right: unset;
+        justify-content: flex-end;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox {
+        padding: 18px;
+    }
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain{
+        background-image: unset;
+    }
+    .custHalloweenUnmatchWraper h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .custHalloweenUnmatchWraper {
+        padding: 20px 0;
+    }
+    .custHalloweenUnmatchWraper.washableMain .container > .row:first-child {
+        margin-bottom: 20px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author .authorDetails .name{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author .authorDetails .jobPost{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author img {
+        width: 36px;
+        height: 36px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .custTrustSlideBox .author{
+        gap: 15px;
+    }
+    .custTrustedNav .swiper-button-next, .custTrustedNav .swiper-button-prev{
+        width: 38px;
+        height: 38px;
+    }
+    .custHalloweenUnmatchWraper.riskfreeWraper .custRiskFreeMain{
+        padding: 24px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .container > .row .col-md-6:first-child{
+        padding-bottom: 0;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .swiper-wrapper{
+        margin: 0px 0 20px;
+    }
+}
+@media(max-width: 575px){
+    .custHalloweenCollectionHero2{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero2 .container-xxl{
+        padding: 0 12px;
+    }
+    .custTravelBuddiesWrapper .col-sm-6{
+        width: 50%;
+        padding: 0 0px;
+    }
+    .custTravelBuddiesWrapper .row {
+        margin: 0 -5px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag span.owl-icon{
+        top: 12px;
+        width: 20px;
+    }
+    .custHalloweenUnmatchWraper.trustedWraper .swiper.trustedSwiper .swiper-wrapper{
+        margin: 0px 0 20px;
+    }
+}
+@media(max-width: 460px){      
+    .custHalloweenCollectionHero2{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+}
+/* pdp css */
+body.template-product #MainContent [id*="__main"] .product-container{
+    padding-top: 0 !important;
+    background: #fff;
+}
+.custPDPHalloweenOfferMain + .container{
+    margin-top: 0 !important;
+}
+
+.custPDPHalloweenOfferMain {
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #FAD951;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+    margin-left: 4px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg * {
+    fill: #FAD951;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 1.32px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+    color: #A11C23;
+    position: relative;
+    display: inline-block;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-body-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+    letter-spacing: 0.48px;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*display: none;*/
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #FAD951;
+    min-width: 44px;
+    padding: 4px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+
+.custPDPHalloweenOfferMain .spiderIcon {
+    display: block;
+    width: 60px;
+    height: 72px;
+    margin: -16px 0 -20px;
+}
+
+.custPDPHalloweenOfferMain .container-xxl {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+.custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+    background: #f4eeeb;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 12px;
+    margin: 0 auto;
+    align-items: center;
+    width: auto;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon {
+    position: absolute;
+    right: -5px;
+    top: -20px;
+    width: 82px;
+    height: 38px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon img {
+    height: 100%;
+}
+
+.custPDPHalloweenOfferMain .ghostIcon {
+    display: block;
+    width: 32px;
+    height: 36px;
+    position: relative;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.halloween_sale {
+    display: none;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.limited {
+    display: block;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span.halloweenSaleTitle{
+    display: inline-block;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 1025px) and (max-width: 1100px){
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        width: 380px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1440px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        letter-spacing: 1px;
+    }
+}
+@media(max-width: 1380px){
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 14px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+@media(max-width: 1280px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: block;
+        position: relative;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        right: 0;
+        top: 0;
+        width: 62px;
+        height: 28px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        white-space: normal;
+    }
+}
+@media(max-width: 1024px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 18px;
+    }
+}
+@media(max-width: 991px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 24px;
+        letter-spacing: 1.24px;
+        line-height: 100%;
+        text-align: left;
+    } 
+    .custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row{
+        position: relative;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        left: unset;
+        right: -15px;
+        bottom: -10px;
+        top: unset;
+        width: 86px;
+        height: 40px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle,
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .spiderIcon{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        padding: 0 20px !important;
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        align-items: flex-start;
+        gap: 6px;
+        flex-direction: column;
+    } 
+}
+@media(max-width: 768px){
+    .custPDPHalloweenOfferMain .spiderIcon,
+    .custPDPHalloweenOfferMain .ghostIcon{
+        display: none;
+    }  
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span.halloweenSaleTitle, 
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.limited {
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.halloween_sale {
+        display: block;
+    }
+}
+@media(max-width: 767px){
+      body.template-product #MainContent{
+         overflow: hidden;
+      }
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .spiderIcon{
+        display: none;
+    }    
+    .custPDPHalloweenOfferMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custPDPHalloweenOfferMain .container-xxl{
+        padding: 0 8px;
+    }    
+    .custPDPHalloweenOfferMain{
+        width: 100%;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #000;
+        background: #FAD951;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg *{
+        fill: #FAD951;
+    }
+        
+    .custPDPHalloweenOfferMain .spiderIcon,
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row{
+        padding: 16px 0 !important;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        /* position: relative; */
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        width: 86px;
+        height: 40px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 6px;
+        justify-content: center;
+        margin: 0;
+        padding: 0 10px !important;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        order: 1;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        order: 2;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        order: 3;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: inline-block;
+    }
+}
+@media(max-width: 575px){
+    .custPDPHalloweenOfferMain{
+        max-width: 100%;
+    }
+    .custPDPHalloweenOfferMain .container-xxl{
+        padding: 0 12px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        justify-content: flex-start;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        text-align: left;
+    }
+}
+@media(max-width: 460px){      
+    .custPDPHalloweenOfferMain{
+        max-width: 100%;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 4px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 6px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer,
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

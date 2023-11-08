@@ -1,0 +1,681 @@
+body.template-collection #MainContent [id*="__intro"],
+body.template-collection #MainContent [id*="__intro"] + [id*="__main"]{
+    display: none;
+}
+.custHalloweenCollectionWrapper{
+    background: #F4EEEB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.custHalloweenCollectionHero2 {
+    color: #fff;
+    max-width: 1230px;
+    margin: 0 auto;
+    z-index: 9;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #000;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg * {
+    fill: #000;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.24px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span span{
+    color: #A11C23;
+    position: relative;
+    display: inline-block;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+
+.custHalloweenCollectionHero2 .spiderIcon {
+    display: block;
+    width: 80px;
+    height: 96px;
+    position: absolute;
+    left: -96px;
+    top: 0px;
+}
+
+.custHalloweenCollectionHero2 .container-xxl {
+    padding: 0;
+}
+.custHalloweenCollectionHero2 .container-xxl .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+    justify-content: space-between;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon {
+    position: absolute;
+    right: 12px;
+    top: -34px;
+    width: 82px;
+    height: 38px;
+}
+.custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon img {
+    height: 100%;
+}
+
+.custHalloweenCollectionHero2 .ghostIcon {
+    display: block;
+    width: 45px;
+    height: 50px;
+    position: relative;
+    margin: auto;
+}
+
+.custHalloweenCollectionHero2 .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custHalloweenCollectionHero2 .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain {
+    padding: 24px 0 40px;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain h2 {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 1.2px;
+    margin: 0 0 24px;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain p{
+    color: #000;
+    font-family: var(--bs-body-font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 1.4px;
+    margin: 0 0 8px;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper {
+    display: flex;
+    align-items: center;
+    gap: 0 24px;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper a.btn{
+    text-transform: uppercase;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain .custDeepContent {
+    margin: 22px 0 40px;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain .custDeepBundleSlider {
+    max-width: 370px;
+    margin: auto;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.custDeepBundleSlider .budleTag {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--w-red, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CA232C);
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+}
+.custDeepBundleSlider .swiper-pagination-bullet{
+    background: #fff;
+    opacity: 0.2;
+}
+.custDeepBundleSlider .swiper-pagination-bullet-active{
+    background: #fff;
+    opacity: 1;
+}
+.custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper .freeGifts {
+    color: #243B60;
+    font-family: var(--bs-body-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.7px;
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+.custTravelBuddiesWrapper {
+    padding: 24px 0;
+}
+.custTravelBuddiesWrapper h3 {
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    margin: 0 0 24px;
+}
+.custTravelBuddiesWrapper .custItemMain {
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.custTravelBuddiesWrapper .custItemMain a{
+    text-decoration: none;
+}
+.custTravelBuddiesWrapper .custItemMain .popularTag {
+    min-height: 24px;
+    width: 100%;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile {
+    position: relative;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productTag {
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 10px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 2px;
+    background: var(--w-red, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #CA232C);
+    z-index: 2;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain {
+    padding: 16px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productHeading{
+    color: #000;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings {
+    width: 60px;
+    height: 10px;
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.yellowStars,
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.greyStars {    
+    background-repeat: no-repeat;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-size: 60px 10px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.yellowStars{
+    background-image: url('data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') !important;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .ratings .ratingsMain span.greyStars {
+    background-image: url('data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23E5E5E5%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') !important;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    letter-spacing: normal;
+    font-size: 15px;
+    font-family: IBM Plex Mono;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .discountBadge {
+    display: flex;
+    padding: 4px 8px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 2px;
+    background: #84948B;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--bs-body-font-family);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.7px;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .cancelPrice {
+    color: #3C3E41 !important;
+    opacity: 0.5;
+}
+.custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter .realPrice{
+    color: #A23636;
+    font-family: var(--bs-body-font-family);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.custTravelBuddiesWrapper .custItemMain.popular {
+    background: #F4EEEB;
+}
+.custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    text-align: left;
+    position: relative;
+}
+.custTravelBuddiesWrapper .custItemMain.popular .popularTag span.owl-icon {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: -10px;
+}
+@media(min-width: 768px){
+    .custHalloweenCollectionHero2{
+        max-width: 700px;
+    }
+}
+@media(min-width: 992px){
+    .custHalloweenCollectionHero2{
+        max-width: 940px;
+    }
+}
+@media(min-width: 1200px){
+    .custHalloweenCollectionHero2{
+        max-width: 1050px;
+    }
+}
+@media(min-width: 1400px){
+    .custHalloweenCollectionHero2{
+        max-width: 1230px;
+    }
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 991px){
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    } .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: -30px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custDeepContent{
+        margin: 0px 0 24px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain h2{
+        font-size: 32px;
+        margin: 0 0 14px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain p{
+        line-height: 26px;
+        font-size: 16px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper{
+        gap: 0 16px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper a.btn.btn-secondary {
+        padding: 10px 32px;
+    }
+    .custHalloweenCollectionHero2 .custColRight, 
+    .custHalloweenCollectionHero2 .spiderIcon{
+        display: none;
+    }
+    .custTravelBuddiesWrapper .col-lg-3 .custItemMain {
+        margin: 0 0 15px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+        font-size: 16px;
+    }
+    .custTravelBuddiesWrapper h3{
+        margin: 0;
+        font-size: 22px;
+    }
+    .custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain{
+        padding: 8px;
+    }
+    .custTravelBuddiesWrapper .custItemMain .productTile .productDetailMain .productDetailFooter{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custDeepBundleSlider{
+        margin: 0 auto 20px;
+        max-width: 100%;
+    }
+}
+@media(max-width: 768px){
+    .custHalloweenCollectionHero2 .spiderIcon,
+    .custHalloweenCollectionHero2 .custColRight{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custHalloweenCollectionHero2 .ghostIcon,
+    .custHalloweenCollectionHero2 .spiderIcon{
+        display: none;
+    }    
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custHalloweenCollectionHero2 .container-xxl{
+        padding: 0 8px;
+    }    
+    .custHalloweenCollectionHero2{
+        max-width: 530px;
+        width: 100%;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #fff;
+        background: #000;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge svg *{
+        fill: #000;
+    }
+    .custHalloweenCollectionHero2 .custColRight{
+        display: flex;
+    }
+        
+    .custHalloweenCollectionHero2 .spiderIcon,
+    .custHalloweenCollectionHero2 .ghostIcon,
+    .custHalloweenCollectionHero2 .custColRight,
+    .custHalloweenCollectionHero2 .custOfferTimer .custTimerTitle,
+    .custHalloweenCollectionHero2 .custGetOfferBannerMain .custGetOfferDiv .batIcon{
+        display: none;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custHalloweenCollectionHero2 .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custHalloweenCollectionHero2 .container-xxl .pt-2.pb-2.row{
+        padding: 16px 0 !important;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span{
+        position: relative;
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span span{
+        position: unset;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span .batIcon{
+        left: unset;
+        right: 0;
+        top: -28px;
+        width: 86px;
+        height: 40px;
+    }    
+    .custHalloweenCollectionWrapper .custDeepBundleMain {
+        padding: 15px 0;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper{
+        gap: 24px;
+        flex-direction: column;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custBtnWraper a.btn.btn-secondary{
+        width: 100%;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custDeepBundleSlider{
+        margin: 0 auto 15px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain h2{
+        font-size: 30px;
+        margin: 0 0 8px;
+        letter-spacing: 0.9px;
+    }
+    .custTravelBuddiesWrapper h3{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleSlider .bundleSwiper .swiper-slide img{
+        width: 100%;
+    }
+    .custHalloweenCollectionWrapper .custDeepBundleMain .custDeepContent{
+        margin: 0 0 20px;
+    }
+}
+@media(max-width: 575px){
+    .custHalloweenCollectionHero2{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero2 .container-xxl{
+        padding: 0 12px;
+    }
+    .custTravelBuddiesWrapper .col-sm-6{
+        width: 50%;
+        padding: 0 0px;
+    }
+    .custTravelBuddiesWrapper .row {
+        margin: 0 -5px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag span.owl-icon{
+        top: 12px;
+        width: 20px;
+    }
+}
+@media(max-width: 460px){      
+    .custHalloweenCollectionHero2{
+        max-width: 100%;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custHalloweenCollectionHero2 .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custHalloweenCollectionHero2 .custGetOfferDiv + .custLimitedOffer span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .custTravelBuddiesWrapper .custItemMain.popular .popularTag{
+        font-size: 15px;
+        letter-spacing: normal;
+    }
+}

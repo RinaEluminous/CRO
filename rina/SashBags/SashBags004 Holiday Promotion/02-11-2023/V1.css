@@ -1,0 +1,289 @@
+.custBlackPromotionBanner {
+    position: fixed;
+    left: 50%;
+    bottom: -500px;
+    width: 100%;
+    display: flex;
+    z-index: 99;
+    background: #EEE;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    max-width: 1100px;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    padding: 16px 24px;
+    align-items: center;
+    justify-content: flex-start;
+    transition: 0.8s all;
+    z-index: 9999999;
+}
+
+.custBlackPromotionBanner.active {
+    top: unset;
+    bottom: 10px;
+    gap: 0 20px;
+}
+
+.custProductsBlackImg img {
+    width: 80px;
+    margin: -10px 0;
+}
+
+.custThisMonthSale {
+    position: absolute;
+    top: -26px;
+    border-radius: 4px 4px 0px 0px;
+    background: #FAD850;
+    font-family: Assistant, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.7px;
+    color: #000;
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.custThisMonthSale img {
+    margin-right: 8px;
+}
+
+.custProductsBlackImg {
+    flex: 0 0 120px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.custProductsBlackBtn .custProductsBlackImg {
+    display: none;
+}
+
+.custProductsBlackBtn p {
+    color: #121212;
+    text-align: center;
+    font-family: Assistant, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.84px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    cursor: none;
+    margin: 0;
+}
+
+.custProductsBlackText h3 {
+    color: #000;
+    font-family: "Memphis Soft Rounded", serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 114.286% */
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.custProductsBlackText p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 111.111% */
+    letter-spacing: 1.08px;
+    color: #000;
+    font-family: Assistant, sans-serif;
+    margin: 0;
+}
+
+.custCloseButtonBlack {
+    position: absolute;
+    right: -13px;
+    top: -20px;
+    width: 36px;
+    padding: 12px;
+    border-radius: 100px;
+    background: #FFF;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.custProductsBlackText {
+    margin-right: 0;
+    flex: 0 0 auto;
+}
+
+.custProductsBlackBtn {
+    flex: 0 0 149px;
+    margin-left: auto;
+}
+
+.custProductsBlackText h3+.custProductsBlackImg {
+    display: none;
+}
+.custProductsBlackText p span.smileyIcons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.custProductsBlackText p span.smileyIcons img {
+    height: 22px;
+    image-rendering: pixelated;
+}
+
+/* media */
+@media all and (min-width:768px) and (max-width:1199px) {
+    .custBlackPromotionBanner {
+        max-width: calc(100% - 30px);
+        margin: 0 auto;
+    }
+
+    .custProductsBlackText {
+        flex: 0 0 62%;
+    }
+
+    .custProductsBlackText h3 {
+        font-size: 22px;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 150px !important;
+    }
+
+    button.needsclick.kl-teaser-XpcAsw.undefined.kl-private-reset-css-Xuajs1 {
+        display: none;
+    }
+}
+
+@media all and (min-width:1024px) {
+    .custThisMonthSale {
+        left: 164px;
+        transform: none;
+    }
+}
+
+@media all and (max-width:767px) {
+    .custProductsBlackImg {
+        display: none;
+    }
+
+    .custProductsBlackText {
+        flex: 0 0 100%;
+    }
+
+    .custBlackPromotionBanner {
+        flex-wrap: wrap;
+        width: calc(100% - 20px);
+        padding: 15px;
+    }
+
+    .custThisMonthSale {
+        width: 100%;
+        max-width: 170px;
+        justify-content: center;
+    }
+
+    .custProductsBlackText h3 {
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        max-width: 70%;
+        margin: 0 0 16px;
+    }
+
+    .custProductsBlackText p {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.96px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .custProductsBlackBtn {
+        margin-top: 16px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        flex: 0 0 100%;
+    }
+
+    .custProductsBlackBtn .custProductsBlackImg {
+        display: block;
+        flex: 0 0 100px;
+    }
+
+    .custProductsBlackBtn p {
+        font-size: 15px;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .custCloseButtonBlack {
+        right: -7px;
+    }
+
+    button.needsclick.kl-teaser-XpcAsw.undefined.kl-private-reset-css-Xuajs1 {
+        display: none;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 240px !important;
+    }
+
+    .custProductsBlackText h3+.custProductsBlackImg {
+        display: block;
+        position: absolute;
+        right: 28px;
+        top: 10px;        
+    }
+    .custProductsBlackImg img {
+        width: 70px;
+        margin: 0;
+    }
+}
+
+@media all and (max-width:375px) {
+    .custProductsBlackText h3 {
+        font-size: 24px;
+        margin: 0 0 16px;
+        max-width: 73%;
+    }
+}
+
+@media all and (max-width:374px) {    
+
+    .custProductsBlackBtn .custProductsBlackImg {
+        flex: 0 0 70px;
+    }
+
+    .custProductsBlackBtn .custProductsBlackImg img {
+        width: 100%;
+    }
+
+    .custProductsBlackText h3 {
+        font-size: 18px;
+    }
+
+    iframe#chat-button.custChatIcon {
+        bottom: 200px !important;
+    }
+}

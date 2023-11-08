@@ -53,7 +53,12 @@
 			if(jQuery(this).hasClass('custMenuLinkActive')) {
 				jQuery(this).removeClass('custMenuLinkActive');
 			}
+
+
+
 			else{
+
+			
 				jQuery('#main-nav__menus .custMobileMenuPlus .custMenuLink').not(this).removeClass('custMenuLinkActive');
 				jQuery(this).addClass('custMenuLinkActive');
 			}

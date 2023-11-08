@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.custBlackFridayStickyWraper{
+  position: fixed!important;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 0 15px;
+}
+
+.custBlackFridayStickyMain{
+  display: flex;
+  max-width: 1024px;
+  width: 100%;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  background: #000;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.20);
+  position: relative;
+  margin: 0 auto 8px;
+}
+.custBlackFridayStickyMain .offerContent{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex: 0 0 calc(100% - 96px);
+  align-self: stretch;
+}
+
+.custBlackFridayStickyMain .closeBtn{
+  display: flex;
+  padding: 12px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+  right: -12px;
+  top: -12px;
+  border-radius: 100px;
+  border: 1px solid #F2F2F2;
+  background: #FFF url("https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/close-icon-close-2.svg") center center no-repeat;
+  width: 36px;
+  height: 36px;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt .icon img {
+    width: 15px;
+    height: 18px;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt .icon {
+  display: flex;
+  align-items: center;
+  font-size: 0;
+  margin: 3px 0 0;
+}
+
+.custBlackFridayStickyMain .offerContent .saveTxt {
+    display: flex;
+    align-items: flex-start;
+    gap: 0 10px;
+    color: #FAD951;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    font-family: var(--bs-body-font-family);
+    margin: 0 0 8px;
+}
+
+.custBlackFridayStickyMain .offerContent .text p {
+    color: var(--color-white, #FFF);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: 'Schibsted Grotesk';
+    letter-spacing: normal;
+}
+
+.custBlackFridayStickyMain .offerContent .button a {
+    color: #000;
+    font-family: var(--bs-body-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    display: flex;
+    padding: 12px 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FAD951;
+    max-width: 200px;
+    white-space: nowrap;
+}
+
+.custBlackFridayStickyMain .offerContent .text {
+    flex: 0 0 calc(100% - 186px);
+}
+
+.custBlackFridayStickyMain .offerImg {
+    flex: 0 0 80px;
+}
+
+.custBlackFridayStickyMain .offerContent  .button {
+    flex: 0 0 170px;
+}
+@media(max-width: 767px){
+  .custBlackFridayStickyMain .offerImg{
+    display: none;
+  }
+  .custBlackFridayStickyMain .offerContent{
+    flex: 0 0 100%;
+  }
+}
+@media (max-width: 767px) {
+  .custBlackFridayStickyMain{
+    padding: 10px;
+  }
+  .custBlackFridayStickyWraper{
+    padding: 0 12px;
+  }
+  .custBlackFridayStickyMain .offerContent .saveTxt{
+    margin: 0 0 4px;
+    font-size: 18px;
+    line-height: 24px;
+    gap: 0 8px;
+  }
+  .custBlackFridayStickyMain .offerContent .text p{
+    font-size: 21px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 575px) {
+  .custBlackFridayStickyMain .offerContent .saveTxt{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .custBlackFridayStickyMain .offerContent .text p{
+    font-size: 21px;
+    line-height: 24px;
+  }
+  .custBlackFridayStickyMain .offerContent{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .custBlackFridayStickyMain .offerContent .button,
+  .custBlackFridayStickyMain .offerContent .text{
+    flex: 0 0 100%;
+  }
+  .custBlackFridayStickyMain .offerContent .button a{
+    max-width: 100%;
+  }
+}

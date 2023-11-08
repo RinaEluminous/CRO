@@ -1,0 +1,439 @@
+body.template-product #MainContent .product-container{
+    padding-top: 0 !important;
+    background: #fff;
+}
+.custPDPHalloweenOfferMain + .container{
+    margin-top: 0 !important;
+}
+
+.custPDPHalloweenOfferMain {
+    color: #fff;
+    margin: 0 0 20px;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #FAD951;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+    margin-left: 4px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg * {
+    fill: #FAD951;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 1.32px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+    color: #A11C23;
+    position: relative;
+    display: inline-block;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle {
+    font-family: var(--bs-body-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+    letter-spacing: 0.48px;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #FAD951;
+    min-width: 44px;
+    padding: 4px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+
+.custPDPHalloweenOfferMain .spiderIcon {
+    display: block;
+    width: 60px;
+    height: 72px;
+    margin: -16px 0 -20px;
+}
+
+.custPDPHalloweenOfferMain .container-xxl {
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+.custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+    background: #f4eeeb;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 12px;
+    margin: 0 auto;
+    align-items: center;
+    width: auto;
+}
+
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon {
+    position: absolute;
+    right: -5px;
+    top: -20px;
+    width: 82px;
+    height: 38px;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon img {
+    height: 100%;
+}
+
+.custPDPHalloweenOfferMain .ghostIcon {
+    display: block;
+    width: 32px;
+    height: 36px;
+    position: relative;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.halloween_sale {
+    display: none;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.limited {
+    display: block;
+}
+.custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span.halloweenSaleTitle{
+    display: inline-block;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 1025px) and (max-width: 1100px){
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        width: 380px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1440px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        letter-spacing: 1px;
+    }
+}
+@media(max-width: 1380px){
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 14px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+@media(max-width: 1280px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: block;
+        position: relative;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        right: 0;
+        top: 0;
+        width: 62px;
+        height: 28px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        white-space: normal;
+    }
+}
+@media(max-width: 1024px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 18px;
+    }
+}
+@media(max-width: 991px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 24px;
+        letter-spacing: 1.24px;
+        line-height: 100%;
+        text-align: left;
+    } 
+    .custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row{
+        position: relative;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        left: unset;
+        right: -15px;
+        bottom: -10px;
+        top: unset;
+        width: 86px;
+        height: 40px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle,
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .spiderIcon{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        padding: 0 20px !important;
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        align-items: flex-start;
+        gap: 6px;
+        flex-direction: column;
+    } 
+}
+@media(max-width: 768px){
+    .custPDPHalloweenOfferMain .spiderIcon,
+    .custPDPHalloweenOfferMain .ghostIcon{
+        display: none;
+    }  
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span.halloweenSaleTitle, 
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.limited {
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.halloween_sale {
+        display: block;
+    }
+}
+@media(max-width: 767px){
+    .custPDPHalloweenOfferMain .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .spiderIcon{
+        display: none;
+    }    
+    .custPDPHalloweenOfferMain .custGetOfferDiv .batIcon{
+        top: 30px;
+    }
+    .custPDPHalloweenOfferMain .container-xxl{
+        padding: 0 8px;
+    }    
+    .custPDPHalloweenOfferMain{
+        width: 100%;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #000;
+        background: #FAD951;
+        letter-spacing: 0.8px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge svg *{
+        fill: #FAD951;
+    }
+        
+    .custPDPHalloweenOfferMain .spiderIcon,
+    .custPDPHalloweenOfferMain .ghostIcon,
+    .custPDPHalloweenOfferMain .custOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custPDPHalloweenOfferMain .container-xxl .pt-2.pb-2.row{
+        padding: 16px 0 !important;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        /* position: relative; */
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span .batIcon{
+        width: 86px;
+        height: 40px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 6px;
+        justify-content: center;
+        margin: 0;
+        padding: 0 10px !important;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        order: 1;
+    }
+    .custPDPHalloweenOfferMain .custOfferTimer{
+        order: 2;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        order: 3;
+        text-align: center;
+        width: 100%;
+        font-size: 20px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: inline-block;
+    }
+}
+@media(max-width: 575px){
+    .custPDPHalloweenOfferMain{
+        max-width: 100%;
+    }
+    .custPDPHalloweenOfferMain .container-xxl{
+        padding: 0 12px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        justify-content: flex-start;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer{
+        text-align: left;
+    }
+}
+@media(max-width: 460px){      
+    .custPDPHalloweenOfferMain{
+        max-width: 100%;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .custPDPHalloweenOfferMain .custGetOfferDiv{
+        gap: 4px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 6px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer,
+    .custPDPHalloweenOfferMain .custGetOfferDiv .custLimitedOffer span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
