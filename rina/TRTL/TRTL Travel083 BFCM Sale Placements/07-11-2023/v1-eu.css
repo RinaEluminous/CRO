@@ -665,6 +665,7 @@ body.template-product #MainContent .product-container{
 
 .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span {
     font-size: 22px;
+    vertical-align: top;
 }
 
 .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span span {
@@ -672,7 +673,7 @@ body.template-product #MainContent .product-container{
 }
 
 .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle {
-    font-family: IBM Plex Mono;
+    font-family: IBM Plex monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -699,7 +700,7 @@ body.template-product #MainContent .product-container{
 }
 
 .custPDPBFCMOfferMain .custOfferTimer .timerMain {
-    display: none; /* flex */
+    display: flex;
     gap: 0 4px;
     align-items: center;
     justify-content: center;
@@ -941,6 +942,17 @@ body.template-product #MainContent .product-container{
     .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span{
         display: inline-block;
     }
+    body.template-collection ul.nav.nav-tabs {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
+    }
+    body.template-collection ul.nav.nav-tabs::-webkit-scrollbar {
+      display: none;
+    }
+    body.template-collection ul.nav.nav-tabs li.nav-item {
+        white-space: nowrap;
+    }
 }
 @media(max-width: 575px){
     .custPDPBFCMOfferMain{
@@ -962,17 +974,6 @@ body.template-product #MainContent .product-container{
     .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge svg{
         height: 26px;
         left: -10px;
-    }
-    body.template-collection ul.nav.nav-tabs {
-        flex-wrap: nowrap;
-        overflow-x: auto;
-        width: 100%;
-    }
-    body.template-collection ul.nav.nav-tabs::-webkit-scrollbar {
-      display: none;
-    }
-    body.template-collection ul.nav.nav-tabs li.nav-item {
-        white-space: nowrap;
     }
 }
 @media(max-width: 460px){      

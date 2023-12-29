@@ -1,0 +1,348 @@
+body.template-product #MainContent .product-container{
+    padding-top: 0 !important;
+    background: #fff;
+}
+.custPDPBFCMOfferMain + .container{
+    margin-top: 0 !important;
+}
+
+.custPDPBFCMOfferMain {
+    color: #fff;
+    margin: 0 0 20px;
+    padding: 16px 0 !important;
+    background: #000;
+}
+
+.custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #FAD951;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #000;
+}
+.custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge svg * {
+    fill: #FAD951;
+}
+
+.custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #fff;
+    letter-spacing: 1.32px;
+}
+
+.custPDPBFCMOfferMain .custOfferTimer .custTimerTitle {
+    font-family: IBM Plex monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #fff;
+    letter-spacing: 0.48px;
+}
+
+.custPDPBFCMOfferMain .custGetOfferDiv .custAppliedCart{
+    color: #fff;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+}
+
+.custPDPBFCMOfferMain .custOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custPDPBFCMOfferMain .custOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custPDPBFCMOfferMain .custOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #FAD951;
+    min-width: 44px;
+    padding: 4px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custPDPBFCMOfferMain .custOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custPDPBFCMOfferMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 12px;
+    margin: 0 auto;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge span.limited {
+    display: block;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custPDPBFCMOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custPDPBFCMOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 7px 10px;
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 12px;
+    }
+    .custPDPBFCMOfferMain .custOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1440px){
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        letter-spacing: 1px;
+    }
+}
+@media(max-width: 1380px){
+    .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle{
+        font-size: 14px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge{
+        font-size: 12px;
+        padding: 7px;
+    }
+}
+@media(max-width: 1280px){
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: block;
+        position: relative;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        gap: 0 15px;
+    }
+    .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle{
+        white-space: normal;
+    }
+}
+@media(max-width: 1024px){
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 18px;
+    }
+}
+@media(max-width: 991px){
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 27px;
+        letter-spacing: 1.24px;
+        line-height: 100%;
+        text-align: left;
+    } 
+    .custPDPBFCMOfferMain .container-lg .pt-2.pb-2.row{
+        position: relative;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span{
+        position: unset;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custAppliedCart,
+    .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        padding: 0 20px !important;
+        position: unset;
+    }
+    .custPDPBFCMOfferMain .custOfferTimer{
+        align-items: flex-start;
+        gap: 6px;
+        flex-direction: column;
+    } 
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge{
+        font-size: 16px;
+        padding: 4px 8px;
+        font-weight: 500;
+        letter-spacing: 1.12px;
+        line-height: 26px;
+    }
+}
+@media(max-width: 767px){
+    .custPDPBFCMOfferMain .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 5px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custPDPBFCMOfferMain .container-lg{
+        padding: 0 8px;
+    }    
+    .custPDPBFCMOfferMain{
+        width: 100%;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        text-transform: none;
+        color: #000;
+        background: #FAD951;
+        letter-spacing: 1.12px;
+        font-size: 15px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+    }    
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge svg *{
+        fill: #FAD951;
+    }
+        
+    .custPDPBFCMOfferMain .custOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custPDPBFCMOfferMain .custOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custPDPBFCMOfferMain .container-lg .pt-2.pb-2.row{
+        padding: 16px 0 !important;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span{
+        /* position: relative; */
+        font-size: 20px;
+        line-height: 32px;
+        display: block;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 6px;
+        justify-content: center;
+        margin: 0;
+        padding: 0 10px !important;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        text-align: center;
+        width: 100%;
+        font-size: 27px;
+        letter-spacing: 1.62px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer span{
+        display: inline-block;
+    }
+}
+@media(max-width: 575px){
+    .custPDPBFCMOfferMain{
+        max-width: 100%;
+        padding: 8px 0 !important;
+    }
+    .custPDPBFCMOfferMain .container-lg{
+        padding: 0 12px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        justify-content: center;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv .custLimitedOffer{
+        text-align: center;
+        margin: 0 0 5px;
+    }
+}
+@media(max-width: 460px){      
+    .custPDPBFCMOfferMain{
+        max-width: 100%;
+    }
+}
+@media(max-width: 360px){
+    .custPDPBFCMOfferMain .custGetOfferDiv{
+        gap: 4px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custPDPBFCMOfferMain .custGetOfferDiv div.offerBadge{
+        padding: 4px 6px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+    }
+}

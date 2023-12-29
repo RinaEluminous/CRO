@@ -1,0 +1,19 @@
+.section-product-benefit{
+    background-color: #efeff4;
+}
+.section-product-benefit .product-benefit-image{
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_say_bye.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-size: contain;
+    height: 500px;
+}
+@media(max-width: 768px){
+    .section-product-benefit .product-benefit-image{
+        max-height: unset;
+        margin-bottom: 24px;
+        background-size: cover !important;
+        height: unset !important;
+        padding-top: 80%;
+    }
+}

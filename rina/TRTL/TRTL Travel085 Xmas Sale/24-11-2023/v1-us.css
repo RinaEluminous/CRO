@@ -1,0 +1,1112 @@
+.custPDPBFCMOfferMain,
+.custBFCMCollectionHero,
+.custBFCMStickyFooter{
+    display: none !important;
+}
+/* Home page sticky footer */
+.custXmasStickyFooter {
+    background: #F4EEEB;
+    color: #fff;
+    max-width: 960px;
+    margin: 0 auto 10px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+} 
+
+.custXmasStickyFooter .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 80px;
+    justify-content: space-between;
+}
+.custXmasStickyFooter .custGetOfferBannerMain .custColLeft{
+    flex: 1 1 auto;
+}
+
+.custXmasStickyFooter .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 7px 16px;
+    margin: 0 0 0px 12px;
+    background: #a01827;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+}
+.custXmasStickyFooter .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custXmasStickyFooter .custGetOfferDiv span.offerBadge svg * {
+    fill: #a01827;
+}
+
+.custXmasStickyFooter .custGetOfferDiv + p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.84px;
+}
+.custXmasStickyFooter .custGetOfferDiv + p b{
+    font-weight: 600;
+}
+.custXmasStickyFooter .custGetOfferDiv + p span{
+    color: #a01827;
+}
+
+.custXmasStickyFooter .custXmasOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+
+.custXmasStickyFooter .custXmasOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custXmasStickyFooter .custXmasOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custXmasStickyFooter .custXmasOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 9px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custXmasStickyFooter .custXmasOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custXmasStickyFooter .custColRight .custOfferDealBtn{
+    position: relative;
+    z-index: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.custXmasStickyFooter .custColRight .ghostIcon{
+    display: block;
+    width: 39px;
+    height: 63px;
+    position: absolute;
+    margin: auto;
+    right: 10px;
+    bottom: 0;
+}
+.custXmasStickyFooter .custOfferDealBtn a.btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+}
+.custXmasStickyFooter .custOfferDealBtn a.btn:hover {
+    border-color: #000;
+}
+
+
+.custXmasStickyFooter .container-xxl {
+    padding: 0 64px;
+    border-radius: 8px;
+    background: #F4EEEB url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-graphics-bg.svg) no-repeat right 150px bottom;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+}
+.custXmasStickyFooter .container-xxl .pt-2.pb-2.row {
+    padding: 12px 0 !important;
+}
+
+.custXmasStickyFooter .container-xxl .spiderIcon{
+    display: block;
+    width: 49px;
+    height: 80px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    overflow: hidden;
+}
+.custXmasStickyFooter .container-xxl .spiderIcon img {
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.custXmasStickyFooter .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0 0 3px;
+    justify-content: space-between;
+}
+.custXmasStickyFooter button.btn-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    opacity: 1;
+    width: 36px;
+    height: 36px;
+    display: block;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-size: 12px;
+}
+.custXmasStickyFooter .custColRight {
+    text-align: center;
+    white-space: nowrap;
+}
+.custXmasStickyFooter .custColLeft {
+    width: 100%;
+}
+
+@media(min-width: 992px) and (max-width: 1024px){
+    .custXmasStickyFooter .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }    
+    .custXmasStickyFooter{
+        margin: 0 10px 10px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custXmasStickyFooter .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custXmasStickyFooter .custXmasOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }
+    .custXmasStickyFooter{
+        margin: 0 10px 10px;
+    }  
+    .custXmasStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+    .custXmasStickyFooter .container-xxl{
+        background-position: right bottom;
+        padding: 0 44px;
+        background-size: auto 65px;
+    }
+    .custXmasStickyFooter .custGetOfferBannerMain{
+        gap: 0 15px;
+    }
+    .custXmasStickyFooter .custOfferDealBtn a.btn{
+        padding: 6px 20px;
+        font-size: 14px;
+    }
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+    .custXmasStickyFooter .container-xxl .spiderIcon{
+        width: 39px;
+        height: 70px;
+    }
+    .custXmasStickyFooter .custGetOfferDiv + p{
+        font-size: 30px;
+    }
+}
+@media(max-width: 767px){
+    .custXmasStickyFooter .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .custXmasStickyFooter .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 0;
+        margin: 0 0 8px;
+    }
+    .custXmasStickyFooter .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custXmasStickyFooter .custOfferDealBtn a.btn{
+        font-size: 1rem;
+    }   
+    .custXmasStickyFooter button.btn-close{
+        left: auto;
+        top: -15px;
+        transform: inherit;
+        right: -15px;
+    }
+    .custXmasStickyFooter .container-xxl{
+        padding: 0 8px;
+        background-image: none;
+    }    
+    .custXmasStickyFooter{
+        margin: 0 0px 10px;
+        width: 95%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        color: #fff;
+        background: #a01827;
+        letter-spacing: 0.8px;
+        font-size: 13px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+        position: relative;
+        letter-spacing: 0.91px;
+    }    
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge:after {
+        content: '';
+        display: block;
+        width: 39px;
+        height: 49px;
+        position: absolute;
+        left: 28px;
+        bottom: 100%;
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-tree.svg) no-repeat 0 0;
+        background-size: 100%;
+    }    
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge svg *{
+        fill: #a01827;
+    }
+    .custXmasStickyFooter .container-xxl .spiderIcon,
+    .custXmasStickyFooter .custColRight{
+        display: none;
+    }
+    .custXmasStickyFooter .custColRight .custOfferDealBtn{
+        margin-top: 20px;
+        margin-left: -10px;
+    }        
+    .custXmasStickyFooter .custColRight,
+    .custXmasStickyFooter .custXmasOfferTimer .custTimerTitle{
+        display: none;
+    }
+    .custXmasStickyFooter .custGetOfferBannerMain .custColLeft{
+        width: 100%;
+    }
+    .custXmasStickyFooter .custGetOfferDiv + p {
+        font-size: 32px;
+        line-height: 28px;
+        letter-spacing: 0.66px;
+        text-align: center;
+    }
+    .custXmasStickyFooter .custXmasOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custXmasStickyFooter .custXmasOfferTimer{
+        position: relative;
+    }
+    .custXmasStickyFooter .custXmasOfferTimer .timerMain{
+        position: relative;
+        z-index: 1;
+    }
+    .custXmasStickyFooter .custXmasOfferTimer:after{
+        content: '';
+        display: block;
+        width: 39px;
+        height: 45px;
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-snowman.svg) no-repeat 0 0;
+        position: absolute;
+        right: 49px;
+        bottom: calc(100% - 8px);
+        background-size: 100%;
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        z-index: 0;
+    }
+}
+@media(max-width: 560px){
+    .custXmasStickyFooter .custXmasOfferTimer .custTimerTitle{
+        display: none;
+    }
+}
+@media(max-width: 460px){
+    .custXmasStickyFooter button.btn-close{
+        top: -45px;
+        right: 0;
+    }       
+    .custXmasStickyFooter{
+        margin: 0 10px 10px;
+        max-width: 100%;
+        width: calc(100% - 20px);
+        left: 0;
+        transform: none;
+        right: 0;
+    }
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge{
+        font-size: 12px;
+    }
+}
+@media(max-width: 374px){
+    .custXmasStickyFooter .custColRight .custOfferDealBtn{
+        margin-left: -20px;
+    }
+    .custXmasStickyFooter .custOfferDealBtn a.btn{
+        font-size: 0.8rem;
+        padding: 0.5rem 1rem;
+    }
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge{
+        padding: 4px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 12px;
+    }
+    .custXmasStickyFooter .custGetOfferDiv + p{
+        font-size: 20px;
+        line-height: 20px;
+
+    }
+}
+@media(max-width: 341px){
+    .custXmasStickyFooter .custGetOfferDiv span.offerBadge{
+        font-size: 9px;
+    }
+}
+
+/* collection all page */
+body.template-collection #MainContent .section-banner-products-recommended .bg-light{
+    background: #F4EEEB !important;
+}
+body.template-collection #MainContent .section-banner-products-recommended h2{
+    display: none;
+}
+
+.custXmasCollectionHero + .container{
+    margin-top: 0 !important;
+}
+
+.custXmasCollectionHero {
+    color: #fff;
+    margin: 0 auto -20px;
+    background: #dddddd;
+    
+    background-image: 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-deer.svg), 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-bell.svg);
+    background-position: 
+        right 30px bottom, 
+        left -10px top -10px;
+    background-repeat: no-repeat;
+    background-size: 
+        39px 63px, 
+        49px 80px;
+}
+
+.custXmasCollectionHero .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custXmasCollectionHero .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 8px 16px;
+    margin: 0 0 0px 12px;
+    background: #a01827;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.custXmasCollectionHero .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custXmasCollectionHero .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custXmasCollectionHero .custGetOfferDiv span.offerBadge svg * {
+    fill: #a01827;
+}
+
+.custXmasCollectionHero .custGetOfferDiv .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.8px;
+}
+.custXmasCollectionHero .custGetOfferDiv .custLimitedOffer span span{
+    color: #a01827;
+    position: relative;
+    display: inline-block;
+}
+
+.custXmasCollectionHero .custXmasOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+}
+.custXmasCollectionHero .container-lg.position-relative {
+    background-image: 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-graphics-bg2.svg), 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-snowman.svg);
+    background-position: 
+        right 220px bottom, 
+        left 270px top 9px;
+    background-repeat: no-repeat;
+    background-size: 
+        auto, 
+        59px 70px;
+}
+
+.custXmasCollectionHero .custXmasOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custXmasCollectionHero .custXmasOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custXmasCollectionHero .custXmasOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custXmasCollectionHero .custXmasOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custXmasCollectionHero .container-lg .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custXmasCollectionHero .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custXmasCollectionHero .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custXmasCollectionHero .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custXmasCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custXmasCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custXmasCollectionHero .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custXmasCollectionHero .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custXmasCollectionHero .custXmasOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custXmasCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1399px){
+    .custXmasCollectionHero .container-lg.position-relative{
+        background-position: 
+            right 255px bottom, 
+            left 240px top 34px;
+        background-repeat: no-repeat;
+        background-size: 
+            auto 55px, 
+            auto 54px;
+    }    
+}
+@media(max-width: 1199px){
+    .custXmasCollectionHero .container-lg.position-relative{
+        background-image: none;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer{
+        font-size: 28px;
+    }
+    .custXmasCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        margin: 0;
+    }
+    .custXmasCollectionHero{
+        background-position: 
+        right bottom, 
+        left -10px top -10px;
+    }
+}
+@media(max-width: 991px){
+    .custXmasCollectionHero{
+        background-image: none;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    }
+}
+@media(max-width: 860px){
+    .custXmasCollectionHero .custXmasOfferTimer .custTimerTitle{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .custXmasCollectionHero .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+    .custXmasCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 10px 5px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .custXmasCollectionHero .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custXmasCollectionHero .container-lg{
+        padding: 0 8px;
+    }    
+    .custXmasCollectionHero{
+        max-width: 530px;
+        width: 100%;
+        background: #dddddd url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-tree.svg) no-repeat right -30px bottom;
+        background-size: 59px 72px;
+    }
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custXmasCollectionHero .custColRight{
+        display: flex;
+    }        
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custXmasCollectionHero .custXmasOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custXmasCollectionHero .container-lg .pt-2.pb-2.row{
+        padding: 16px 10px !important;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+        display: unset;
+    }    
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge{
+        order: 1;
+    }
+    .custXmasCollectionHero .custXmasOfferTimer{
+        order: 2;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer{
+        order: 3;
+    }
+}
+@media(max-width: 575px){
+    .custXmasCollectionHero{
+        max-width: 100%;
+    }
+    .custXmasCollectionHero .container-lg{
+        padding: 0 12px;
+    }
+    .custXmasCollectionHero .custGetOfferBannerMain{
+        padding: 0;
+    }
+}
+@media(max-width: 460px){      
+    .custXmasCollectionHero{
+        max-width: 100%;
+    }
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 374px){
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge{
+        font-size: 12px;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 360px){
+    .custXmasCollectionHero .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge{
+        padding: 4px 12px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 15px;
+    }
+    .custXmasCollectionHero .container-lg .pt-2.pb-2.row{
+        padding: 10px !important;
+    }
+    .custXmasCollectionHero .custGetOfferDiv span.offerBadge{
+        font-size: 11px;
+        padding: 4px;
+    }
+    .custXmasCollectionHero .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 5px 0px;
+    }
+    .custXmasCollectionHero .custGetOfferDiv .custLimitedOffer{
+        font-size: 26px;
+    }
+}
+
+/* pdp page */
+body.template-product #MainContent .product-container{
+    padding-top: 0 !important;
+    background: #fff;
+}
+.custPDPXmasOfferMain + .container{
+    margin-top: 0 !important;
+}
+
+.custPDPXmasOfferMain {
+    color: #fff;
+    margin: 0 auto;
+    background: #f4eeeb;
+    
+    background-image: 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-deer.svg), 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-bell.svg);
+    background-position: 
+        right 30px bottom, 
+        left -10px top -10px;
+    background-repeat: no-repeat;
+    background-size: 
+        39px 63px, 
+        49px 80px;
+}
+
+.custPDPXmasOfferMain .custGetOfferBannerMain {
+    display: flex;
+    gap: 0 15px;
+    justify-content: space-between;
+}
+
+.custPDPXmasOfferMain .custGetOfferDiv span.offerBadge {
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 0px solid #fff;
+    border-radius: 0px;
+    padding: 8px 16px;
+    margin: 0 0 0px 12px;
+    background: #a01827;
+    position: relative;
+    height: 36px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.custPDPXmasOfferMain .custGetOfferDiv span.offerBadge span.only{
+    margin-left: 4px;
+}
+.custPDPXmasOfferMain .custGetOfferDiv span.offerBadge svg {
+    position: absolute;
+    left: -12px;
+    top: 0;
+}
+.custPDPXmasOfferMain .custGetOfferDiv span.offerBadge svg * {
+    fill: #a01827;
+}
+
+.custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 2.8px;
+}
+.custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer span span{
+    color: #a01827;
+    position: relative;
+    display: inline-block;
+}
+
+.custPDPXmasOfferMain .custXmasOfferTimer .custTimerTitle {
+    font-family: var(--bs-font-sans-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #000;
+    letter-spacing: 0.48px;
+}
+.custPDPXmasOfferMain .container-lg.position-relative {
+    background-image: 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-graphics-bg2.svg), 
+        url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-snowman-collection.svg);
+    background-position: 
+        right 440px bottom -3px, 
+        left 290px top 9px;
+    background-repeat: no-repeat;
+    background-size: 
+        auto, 
+        59px 70px;
+    max-width: 1560px;
+    padding: 0 80px;
+}
+
+.custPDPXmasOfferMain .custXmasOfferTimer {
+    display: flex;
+    align-items: center;
+    gap: 0 8px;
+}
+
+.custPDPXmasOfferMain .custXmasOfferTimer .timerMain {
+    display: flex;
+    gap: 0 4px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.custPDPXmasOfferMain .custXmasOfferTimer .timerMain .timerBox {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 4px 10px;
+    line-height: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: var(--bs-body-font-family);
+    color: #000;
+    letter-spacing: 0.04em;
+}
+
+.custPDPXmasOfferMain .custXmasOfferTimer .timerMain .timerBox span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: normal;
+    font-family: var(--bs-body-font-family);
+}
+
+.custPDPXmasOfferMain .container-lg .pt-2.pb-2.row {
+    padding: 16px 0 !important;
+}
+
+.custPDPXmasOfferMain .custGetOfferBannerMain .custGetOfferDiv {
+    position: relative;
+    display: flex;
+    gap: 0 34px;
+    margin: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custPDPXmasOfferMain .custColRight {
+    text-align: center;
+    position: absolute;
+    right: -60px;
+    bottom: 0;
+}
+
+.custPDPXmasOfferMain .custGetOfferBannerMain .custColLeft{
+    width: 100%;
+}
+@media(min-width: 992px) and (max-width: 1024px){
+    .custPDPXmasOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: normal;
+    }   
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .custPDPXmasOfferMain .custGetOfferBannerMain{
+        gap: 0 5px;
+        align-items: center;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv p{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .custPDPXmasOfferMain .custXmasOfferTimer .timerMain .timerBox{
+        padding: 4px 6px;
+        font-size: 16px;
+    }  
+    .custPDPXmasOfferMain .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 0 15px;
+    } 
+}
+@media(max-width: 1399px){
+    .custPDPXmasOfferMain{
+        background-position: 
+            right 0px bottom, 
+            left -10px top -10px;
+    }
+    .custPDPXmasOfferMain .container-lg.position-relative{
+        background-position: 
+            right 450px bottom, 
+            left 235px top 25px;
+        background-repeat: no-repeat;
+        background-size: 
+            auto 55px, 
+            auto 54px;
+
+        padding: 0 50px;
+    }    
+}
+@media(max-width: 1199px){
+    .custPDPXmasOfferMain .container-lg.position-relative{
+        background-image: none;
+        padding: 0 10px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 28px;
+    }
+    .custPDPXmasOfferMain .custGetOfferBannerMain .custGetOfferDiv{
+        margin: 0;
+    }
+    .custPDPXmasOfferMain{
+        background-position: 
+        right bottom, 
+        left -10px top -10px;
+    }
+    .custPDPXmasOfferMain .custXmasOfferTimer .custTimerTitle{
+        display: none;
+    }
+}
+@media(max-width: 991px){
+    .custPDPXmasOfferMain{
+        background-image: none;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 28px;
+        letter-spacing: 1.24px;
+    }
+}
+@media(max-width: 860px){
+    .custPDPXmasOfferMain .custXmasOfferTimer .custTimerTitle{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+    .custPDPXmasOfferMain .custGetOfferBannerMain{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0;
+    }
+    .custPDPXmasOfferMain .custGetOfferBannerMain .custGetOfferDiv{
+        text-align: left;
+        gap: 10px 5px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv p{
+        line-height: 28px;
+        font-weight: 500;
+        margin: 0px 0 8px;
+        font-size: 22px;
+    }
+    .custPDPXmasOfferMain .container-lg{
+        padding: 0 8px;
+    }    
+    .custPDPXmasOfferMain{
+        max-width: 100%;
+        width: 100%;
+        background: #f4eeeb url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-tree.svg) no-repeat right -30px bottom;
+        background-size: 59px 72px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge{
+        padding: 4px 8px;
+        line-height: 20px;
+        letter-spacing: 0.8px;
+        font-size: 14px;
+        white-space: nowrap;
+        display: flex;
+        align-items: center;
+    }    
+    .custPDPXmasOfferMain .custColRight{
+        display: flex;
+    }        
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0.66px;
+    }
+    .custPDPXmasOfferMain .custXmasOfferTimer .timerMain .timerBox{
+        line-height: 0.8;
+        padding: 4px;
+        min-width: 44px;
+    }
+    .custPDPXmasOfferMain .container-lg .pt-2.pb-2.row{
+        padding: 16px 15px !important;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer span span{
+        position: unset;
+        display: unset;
+    }  
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge{
+        order: 1;
+    }
+    .custPDPXmasOfferMain .custXmasOfferTimer{
+        order: 2;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer{
+        order: 3;
+        width: 100%;
+    }
+}
+@media(max-width: 575px){
+    .custPDPXmasOfferMain{
+        max-width: 100%;
+    }
+    .custPDPXmasOfferMain .container-lg{
+        padding: 0 12px;
+    }
+    .custPDPXmasOfferMain .custGetOfferBannerMain{
+        padding: 0;
+    }  
+}
+@media(max-width: 460px){      
+    .custPDPXmasOfferMain{
+        max-width: 100%;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge span.only{
+        display: none;
+    }
+}
+@media(max-width: 374px){
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge{
+        font-size: 12px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 360px){
+    .custPDPXmasOfferMain .custGetOfferDiv p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge{
+        padding: 4px 12px;
+        line-height: 1;
+        letter-spacing: normal;
+        white-space: unset;
+        font-size: 15px;
+    }
+    .custPDPXmasOfferMain .container-lg .pt-2.pb-2.row{
+        padding: 10px !important;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv span.offerBadge{
+        font-size: 11px;
+        padding: 4px;
+    }
+    .custPDPXmasOfferMain .custGetOfferBannerMain .custGetOfferDiv{
+        gap: 5px 0px;
+    }
+    .custPDPXmasOfferMain .custGetOfferDiv .custLimitedOffer{
+        font-size: 26px;
+    }
+}

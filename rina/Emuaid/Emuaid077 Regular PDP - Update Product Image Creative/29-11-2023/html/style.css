@@ -1,0 +1,85 @@
+body[class*="product-"] .product .product__images .gallery-wrap{
+  display: none;
+}
+
+.custProductGallery{
+  height: 100%;
+}
+
+.custProductGallery .swiper {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custProductGallery .swiper-slide {
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custProductGallery .swiper-slide a {
+  width: 100%;
+}
+
+.custProductGallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custProductGallery .custProductSliderMain {
+  height: auto;
+  width: 100%;
+}
+
+.custProductGallery .custProductSliderThumb {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide {
+  width: 20%;
+  height: auto;
+  opacity: 0.4;
+}
+.custProductGallery .custProductSliderThumb .swiper-slide .swiper-wrapper{
+  height: auto;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.custProductGallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body.fancybox-active.compensate-for-scrollbar{
+  margin: 0 !important;
+}
+body.fancybox-active{
+  height: 100% !important;
+}
+body.fancybox-active .fancybox-infobar{
+  display: none;
+}
+.fancybox-close-small:hover{
+  color: #000 !important;
+}
+.fancybox-close svg, .fancybox-close-small svg{
+  display: none !important;
+}

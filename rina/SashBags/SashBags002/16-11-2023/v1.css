@@ -1,0 +1,381 @@
+main#MainContent .product .product__info-container .product__description .custReviewMainWraper .custShippingMsg{
+    margin: 0 0 36px;
+}
+main#MainContent .product .product__info-container .product__description .custReviewMainWraper .custShippingMsg strong{
+    display: block;
+    line-height: 1.2;
+    color: #2F05FF;
+    font-family: Assistant;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+main#MainContent .product .product__info-container .product-form, 
+main#MainContent .product .product__info-container .product__description {
+    margin: 2.5rem 0 0.5rem;
+}
+main#MainContent .product .product__info-container .product__description {
+    margin-top: 1.5rem;
+}
+main#MainContent .product .shopify-payment-button__more-options{
+    display: none;
+}
+main#MainContent .custReviewMainWraper {
+    padding: 40px 0;
+}
+.custReviewMainWraper .custSeeWhyBox {
+    display: flex;
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: auto;
+}
+
+.custReviewMainWraper .custSeeWhyBox h4, 
+.custReviewMainWraper .custSeeWhyBox h6 {
+    margin: 0;
+}
+
+.custReviewMainWraper .custSeeWhyBox h4 {
+    color: #121212;
+    font-family: Assistant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.24px;
+}
+
+.custReviewMainWraper .custSeeWhyBox h4 b {
+    color: #FBB500;
+    font-weight: 700;
+}
+
+.custReviewMainWraper .custSeeWhyBox h4 span {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.custReviewMainWraper .custSeeWhyBox h4 span img {
+    border: 0;
+}
+
+.custReviewMainWraper .custSeeWhyBox h6 {
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.custReviewMainWraper .custSeeWhyBox h6 b {
+    font-weight: 700;
+}
+.custReviewMainWraper .custGreyReviewBox {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background: #F2F2F2;
+}
+
+.custReviewMainWraper .custGreyReviewBox .starRatings {
+    display: flex;
+    gap: 0 5px;
+}
+
+.custReviewMainWraper .custGreyReviewBox .starRatings img {
+    border: 0;
+    margin: 0;
+}
+
+.custReviewMainWraper .custGreyReviewBox  .reviewQuote {
+    color: #000;
+    font-family: Assistant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.54px;
+}
+
+.custReviewMainWraper .custGreyReviewBox .reviewQuote b {
+    font-weight: 700;
+}
+
+.custReviewMainWraper .custGreyReviewBox  .reviewAuthor {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.custReviewMainWraper .custGreyReviewBox .reviewAuthor .name {
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+
+.custReviewMainWraper .custGreyReviewBox .reviewAuthor .verifyMain {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+
+.custReviewMainWraper .custGreyReviewBox .reviewAuthor .verifyMain img {
+    border: 0;
+    margin: 0;
+}
+
+.custReviewMainWraper button.showMore {
+    color: #000;
+    font-family: Assistant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.54px;
+    text-decoration-line: underline;
+    opacity: 0.8;
+    background: transparent;
+    border: 0;
+    outline: none;
+    display: flex;
+    padding: 10px 0px;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.custTestiWrapperRow {
+    margin: 0 -15px;
+    height: 820px;
+    overflow: hidden;
+}
+.custReviewMainBoxWraper .custTestiWrapper {
+    column-count: 3;
+    column-gap: 16px;
+    overflow: hidden;
+    padding: 16px 16px 0;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+    display: inline-flex;
+    padding: 32px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    background: #FFF;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+}
+
+.custReviewMainBoxWraper {
+    position: relative;
+    width: 100%;
+}
+.custReviewMainBoxWraper .container{
+    height: 820px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.custReviewMainBoxWraper .container.autoHeight{
+    height: unset;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+    color: #000;
+    font-family: Assistant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.54px;
+    margin: 0;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox p + p {
+    font-weight: 500;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox b {
+    font-family: Assistant;
+    font-weight: 700;
+    display: block;
+    margin: 0 0 10px;
+}
+
+.custReviewMainBoxWraper .custTestiWrapper .custTestiStarQuote {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiStarQuote .custTestiStarQuote img{
+    height: 20px;
+}
+.custReviewMainBoxWraper .custButtonWrapper .custBtn:hover {    
+    color: #fff;
+    background-color: #000;
+}
+.custReviewMainBoxWraper .custButtonWrapper {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -85.23%, #FFF 100%);
+    width: 100%;
+    left: 0;
+}
+.custReviewMainBoxWraper .container.autoHeight .custButtonWrapper{
+    background: none;
+}
+.custReviewMainBoxWraper .custButtonWrapper .custBtn {
+    display: flex;
+    padding: 12px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #000;
+    color: #000;
+    background: #fff;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+.custReviewMainBoxWraper h2{
+    color: #000;
+    text-align: left;
+    font-family: "Memphis Soft Rounded", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    margin: 0;
+}
+.custReviewMainBoxWraper .reviewAuthor {
+    color: #000;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+.custReviewMainBoxWraper .reviewAuthor .name {
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.48px;
+}
+.custReviewMainBoxWraper .reviewAuthor .verifyMain {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1 0 0;
+    color: #000;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+}
+.custReviewMainBoxWraper .custTestiWrapper .custTestiBox .starRatings{
+    display: flex;
+    gap: 0 5px;
+}
+
+@media(min-width: 1300px){
+    .custReviewMainWraper {
+        max-width: 440px;
+        width: 100%;
+        min-width: 440px;
+    }
+}
+@media (max-width: 1199px) {
+    .custReviewMainBoxWraper .custTestiWrapper {
+        column-gap: 20px;
+    }
+
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+        margin: 10px 0;
+    }
+}
+@media(max-width: 991px){
+    .custReviewMainBoxWraper .custTestiWrapper {
+        column-count: 2;
+        column-gap: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+        font-size: 18px;
+    }
+}
+@media(max-width: 749px){
+    main#MainContent .product .product__info-container .product__description .custReviewMainWraper .custShippingMsg{
+        padding: 15px 0;
+    }
+    .custReviewMainWraper .custSeeWhyBox{
+        align-items: center;
+    }
+    .custReviewMainWraper .custSeeWhyBox h4,    
+    .custReviewMainWraper .custSeeWhyBox h6{
+        text-align: center;
+    }
+}
+@media(max-width: 575px){
+    .custReviewMainBoxWraper .custTestiWrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(4),
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(5),
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(6) {
+        display: none;
+    }
+
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+    }
+    .custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 16px;
+    }
+    
+    .custReviewMainBoxWraper .custButtonWrapper {
+        padding: 56px 40px 16px 40px;
+    }
+}

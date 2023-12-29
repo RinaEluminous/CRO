@@ -1,0 +1,173 @@
+body header#section-header.custNoShadow{
+    box-shadow: none !important;
+  }
+  .homepage .PageContainer #main .custVideoBrandHeroBanner + .shopify-section{
+      display: none;
+  }
+  .custVideoBrandHeroBanner {
+      height: 400px !important;
+      display: flex;
+      margin: 34px 0 0;
+  }
+  .custVideoBrandHeroBanner .custImageHeroBlock{
+      order: 1;
+  }
+  
+  .custVideoBrandHeroBanner .custVideoHeroBlock{
+      order: 3;
+  }
+  .custVideoBrandHeroBanner .custTextHeroBlock h2{
+      margin-bottom: 24px;
+      text-transform: capitalize !important;
+  
+      color: #000;
+      font-family: Mogena;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 46px;
+      text-align: center;
+  }
+  
+  .custVideoBrandHeroBanner .custTextHeroBlock p{
+      color: #000;
+      text-align: center;
+      font-family: 'Avenir Next' !important;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 26px;
+  }
+  
+  .custVideoBrandHeroBanner .custTextHeroBlock{
+      order: 2;
+      max-width: 354px;
+      width: 33.33%;
+      padding: 50px 0;
+      margin: auto;
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      left: unset;
+      top: unset;
+      position: relative;
+      transform: unset;
+  }
+  .custVideoBrandHeroBanner .custTextHeroBlock h4 {
+      color: #000;
+      text-align: center;
+      font-family: Avenir Next LT Pro !important;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase !important;
+      margin: 0 0 24px;
+  }
+  .custVideoBrandHeroBanner .custTextHeroBlock h2.mobile{
+      display: none;
+  }
+  
+  .custVideoBrandHeroBanner .custVideoHeroBlock video, 
+  .custVideoBrandHeroBanner .custImageHeroBlock img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      bottom: 0;
+      right: 0;
+  }
+  .custVideoBrandHeroBanner .custImageHeroBlock, 
+  .custVideoBrandHeroBanner .custVideoHeroBlock {
+      width: 33.33%;
+      height: auto;
+      position: relative;
+      padding-top: 400px;
+  }
+  .custVideoBrandHeroBanner .custTextHeroBlock a.btn {
+      display: flex;
+      padding: 12px 40px;
+      align-items: flex-start;
+      gap: 10px;
+      color: #EEE5DC;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 26px;
+      background: #000;
+      font-family: 'Avenir Next' !important;
+  }
+  @media(max-width: 1180px){
+      .custVideoBrandHeroBanner .custTextHeroBlock{
+          padding: 30px;
+          max-width: 100%;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock h2,
+      .custVideoBrandHeroBanner .custTextHeroBlock h4{
+          margin: 0 0 14px;
+          font-size: 28px;
+          line-height: normal;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock p{
+          font-size: 16px;
+          line-height: 24px;
+      }
+  }
+  @media(max-width: 1024px){
+      .custVideoBrandHeroBanner .custTextHeroBlock{
+          padding: 20px;
+      }  
+  }
+  @media(max-width: 991px){
+      .custVideoBrandHeroBanner .custTextHeroBlock h2{
+          font-size: 28px;
+          line-height: 38px;
+          margin-bottom: 10px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock h4{
+          margin-bottom: 10px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock p{
+          font-size: 16px;
+          line-height: 24px;
+      }
+  }
+  @media(max-width: 767px){
+      .custVideoBrandHeroBanner {
+          height: unset !important;
+          flex-direction: column;
+      }
+      .custVideoBrandHeroBanner .custImageHeroBlock, 
+      .custVideoBrandHeroBanner .custVideoHeroBlock{
+          padding-top: 170px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock,
+      .custVideoBrandHeroBanner .custImageHeroBlock, 
+      .custVideoBrandHeroBanner .custVideoHeroBlock {
+          width: 100%;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock {
+          padding: 18px 26px 26px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock p{
+          margin: 0 auto 10px;
+          max-width: 335px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock h2.mobile{
+          display: block;
+      }    
+      .custVideoBrandHeroBanner .custTextHeroBlock h2.desktop{
+          display: none;
+      }
+  }
+  @media(max-width: 480px){
+      .custVideoBrandHeroBanner .custTextHeroBlock{
+          padding: 18px 15px 26px;
+      }
+      .custVideoBrandHeroBanner .custTextHeroBlock h2 span {
+          display: block;
+      }
+  }

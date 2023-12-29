@@ -5,8 +5,8 @@ var waitForJquery = setInterval(function() {
         jQuery("head").append("<script src='https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/jquery.countdown.min.js'></script>");
 
         var strURL = window.location.href;
-        var strStartTime = "2023/11/09 09:30:00";
-        var strEndTime = "2023/11/26 09:30:00";
+        var strStartTime = "2023/11/16 09:00:00 UTC";
+        var strEndTime = "2023/11/29 09:00:00 UTC";
         var strShopNowUrl = "https://trtltravel.com/collections/all-products";
 
         if (strURL.indexOf("collections/all-products") > 0) {
@@ -52,7 +52,7 @@ var waitForJquery = setInterval(function() {
                 "</div>                " +
                 '                <div class="custAppliedCart">Applied automatically in the cart!</div>' +
                 '                <div class="custOfferTimer">' +
-                '                    <div class="custTimerTitle">Deal ends in:</div>' +
+                '                    <div class="custTimerTitle"><span id="limitedTime">Limited Time Only!</span><span id="dealsEndIn">Deal ends in:</span></div>' +
                 '                    <div class="timerMain">' +
                 '                        <div class="timerBox day">0 <span>Days</span></div>' +
                 '                        <div class="timerBox hours">00 <span>Hours</span></div>' +
@@ -110,7 +110,7 @@ var waitForJquery = setInterval(function() {
                     '                                <script xmlns=""></script>' +
                     "                            </svg>Black Friday Week</span>" +
                     '                        <div class="custOfferTimer">' +
-                    '                            <div class="custTimerTitle">Deal ends in:</div>' +
+                    '                            <div class="custTimerTitle"><span id="limitedTime">Limited Time Only!</span><span id="dealsEndIn">Deal ends in:</span></div>' +
                     '                            <div class="timerMain">' +
                     '                                <div class="timerBox day">2<span>Days</span></div>' +
                     '                                <div class="timerBox hours">12<span>Hours</span></div>' +
@@ -173,7 +173,7 @@ var waitForJquery = setInterval(function() {
                     '                                <script xmlns=""></script>' +
                     "                            </svg>LIMITED TIME</span>" +
                     '                        <div class="custOfferTimer">' +
-                    '                            <div class="custTimerTitle">Deal ends in:</div>' +
+                    '                            <div class="custTimerTitle"><span id="limitedTime">Limited Time Only!</span><span id="dealsEndIn">Deal ends in:</span></div>' +
                     '                            <div class="timerMain">' +
                     '                                <div class="timerBox day">2<span>Days</span></div>' +
                     '                                <div class="timerBox hours">12<span>Hours</span></div>' +

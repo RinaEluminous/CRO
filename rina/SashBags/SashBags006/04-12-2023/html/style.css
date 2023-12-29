@@ -1,0 +1,225 @@
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"]{
+    display: none;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer {
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .row,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .row {
+    margin: 0 -15px;
+    display: flex;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .col-md-6,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .col-md-6 {
+    padding: 0 15px;
+    width: 50%;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .custBannerImg,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .custBannerImg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: calc(50% - 15px);
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .custBannerImg img,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .custBannerImg img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .col-md-6:first-child,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .col-md-6:first-child {
+    padding: 100px 60px 100px 15px;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer  .reviewWraper,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer  .reviewWraper {
+    display: flex;
+    gap: 12px;
+    font-family: Assistant;
+    font-weight: 600;
+    color: #000;
+    line-height: normal;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .reviewWraper .starRatings,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .reviewWraper .starRatings {
+    font-size: 0;
+    display: flex;
+    gap: 0 5px;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .reviewWraper .starRatings img,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .reviewWraper .starRatings img {
+    display: block;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer h2,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer h2 {
+    margin: 16px 0;
+    font-family: Memphis Soft Rounded;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.6px;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer p,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer p {
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    letter-spacing: 0.6px;
+    margin: 0 0 32px;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer a.custBtn,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer a.custBtn {
+    display: inline-flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: Assistant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin: 0 0 32px;
+}
+main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .custGuaranteeWraper,
+main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .custGuaranteeWraper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custSquadWraper {
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #F3F3F3;
+    width: 100%;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custSquadWraper .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 5rem;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custSquadWraper h2 {
+    text-align: center;
+    font-family: Memphis Soft Rounded;
+    font-size: 32px;
+    margin: 0 0 32px;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custSquadWraper .custSquadImgMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    mix-blend-mode: darken;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+@media (max-width: 1199px){
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .col-md-6:first-child, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .col-md-6:first-child{
+        padding: 60px 15px 60px 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custSquadWraper .custSquadImgMain{
+        justify-content: center;
+    }
+}
+@media (max-width: 768px){
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .reviewWraper .starRatings, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .reviewWraper .starRatings{
+        gap: 0 3px;
+        align-items: center;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .reviewWraper .starRatings img, main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .reviewWraper .starRatings img{
+        width: 16px;
+        height: 16px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer a.custBtn, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer a.custBtn{
+        font-size: 18px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer h2, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer p, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer p{
+        font-size: 18px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer a.custBtn, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer a.custBtn{
+        margin: 0 0 10px;
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 767px){
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .row, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .row{
+        flex-direction: column;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .col-md-6:first-child, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .col-md-6:first-child{
+        width: 100%;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer .custBannerImg, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer .custBannerImg{
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer a.custBtn, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer a.custBtn{
+        width: 100%;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custBannerMainContainer p, 
+    main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"] + .custBannerMainContainer p{
+        margin: 0 0 20px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custSquadWraper{
+        padding: 30px 0;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custSquadWraper .container{
+        padding: 0 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custSquadWraper h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custSquadWraper .custSquadImgMain{
+        gap: 20px;
+    }
+}

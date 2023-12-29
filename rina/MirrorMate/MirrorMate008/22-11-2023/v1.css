@@ -1,0 +1,177 @@
+.custSliderReview {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 99;
+    max-width: 323px;
+}
+
+.custSliderReview p {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif !important;
+    margin-bottom: 12px;
+    margin-top: 12px;
+  color: #2F2F2F;
+}
+
+.custSliderReview span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 140%;
+    color: #2F2F2F;
+    font-family: 'Inter', sans-serif !important;
+}
+
+.custSliderReview span small {
+    color: #8699A7;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 12px;
+}
+
+.custStartImg span.yotpo-icon {
+    content: "\e60e";
+    font-family: "yotpo-widget-font" !important;
+    display: inline-block;
+} 
+
+.product-images .featured .custStartImg img {
+    width: 95px;
+    margin: 0;
+}
+
+.custPdpProductsLogos .as-seen-image-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3E5569;
+    line-height: 28px;
+}
+
+.custPdpProductsLogos img {
+    height: 80px;
+    width: auto;
+}
+
+.custPdpProductsLogos .as-seen-image-container ul li {
+    font-family: 'Inter', sans-serif !important;
+    color: #3E5569;
+} 
+.custPdpProductsLogos::before {
+    content: "As seen In";
+    font-family: 'Inter', sans-serif !important;
+    color: #3E5569;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+        flex: 0 0 200px;
+}
+
+body div .custPdpProductsLogos {
+    display: none;
+    align-items: center; 
+    justify-content: space-between;
+}
+@media screen and (min-width: 1366px) {
+.custPdpProductsLogos {
+    padding: 15px 0;
+}
+}
+@media screen and (max-width: 767px) {
+.custSliderReview {
+    position: static;
+}
+
+.custSliderReview p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin:0;
+}
+    .custPdpProductsLogos .as-seen-image-container ul {
+    overflow: scroll;
+    gap: 35px;
+    position: relative;
+    padding-top: 40px;
+}
+
+.custPdpProductsLogos .as-seen-image-container ul li {
+    flex: 0 0 auto;
+}
+
+.custPdpProductsLogos .as-seen-image-container ul li:nth-child(1) {
+    display: none;
+}
+
+.custPdpProductsLogos .as-seen-image-container::after {
+    content: "AS SEEN IN";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #3E5569;
+    line-height: 28px;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.custPdpProductsLogos img{
+height: 40px !important;
+    width: auto !important;
+    margin: 0 auto;
+    max-width: none;
+}
+body div .custPdpProductsLogos .slick-list {
+    padding-left: 0 !important;
+}
+body div .custPdpProductsLogos .slick-slide {
+    text-align: center;
+}
+.custPdpProductsLogos .as-seen-image-container {
+    position: relative;
+    padding-bottom: 50px;
+}
+.product-title.mobile-title h1 {
+    line-height: 1;
+    margin-bottom: 6px;
+}
+
+.m-adwframe .product-title {
+    margin-bottom: 10px;
+}
+
+header.product-header, .product-images.m-product {
+    margin-bottom: 10px;
+} 
+body div .custPdpProductsLogos {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+}
+.custProductsLogos {
+    display: none;
+}
+.custPdpProductsLogos::before {
+    text-align: center;
+}
+.custPdpProductsLogos  .slide.slick-slide {
+      margin: 0 6px;
+    display: flex;
+    justify-content: center;
+}
+}

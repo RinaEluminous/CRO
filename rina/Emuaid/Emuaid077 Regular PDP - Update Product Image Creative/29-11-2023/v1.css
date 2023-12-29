@@ -1,0 +1,172 @@
+body[class*="product-"] .product .product__images .gallery-wrap{
+  display: none;
+}
+
+.custProductGallery{
+  height: 100%;
+}
+
+.custProductGallery .swiper {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.custProductGallery .swiper-slide {
+  background-size: cover;
+  background-position: center;
+
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custProductGallery .swiper-slide a {
+  width: 100%;
+}
+
+.custProductGallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custProductGallery .custProductSliderMain {
+  height: auto;
+  width: 100%;  
+}
+
+body[class*="product-"] .product .product__images{
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_placeholder.png) no-repeat 0 -1px;
+  background-size: contain;
+}
+
+.custProductGallery .custProductSliderThumb {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide {
+  width: 20%;
+  height: auto;
+  opacity: 0.4;
+}
+.custProductGallery .custProductSliderThumb .swiper-slide .swiper-wrapper{
+  height: auto;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.custProductGallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body.fancybox-active.compensate-for-scrollbar{
+  margin: 0 !important;
+}
+body.fancybox-active{
+  height: 100% !important;
+}
+body.fancybox-active .fancybox-infobar{
+  display: none;
+}
+.fancybox-close-small:hover{
+  color: #000 !important;
+}
+.fancybox-close svg, .fancybox-close-small svg{
+  display: none !important;
+}
+
+.custProductGallery .swiper-button-next, 
+.custProductGallery .swiper-button-prev{
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 40px;
+  border: none;
+  background: white;
+  background: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  border-radius: 0;
+  height: auto;
+  max-width: 11%;
+  transform: none;
+  margin: auto;
+}
+.custProductGallery .swiper-button-next:after, 
+.custProductGallery .swiper-button-prev:after{
+  display: none;
+}
+.custProductGallery .swiper-button-next svg, 
+.custProductGallery .swiper-button-prev svg{
+  top: 50%;
+  transform: translateY(-50.1%);
+  padding: 10px 0;
+  position: absolute;
+  left: 20%;
+  width: 60%;
+  height: 60%;
+}
+.custProductGallery .swiper-button-next svg .arrow, 
+.custProductGallery .swiper-button-prev svg .arrow{
+  opacity: 1;
+  fill: #0069bc;
+}
+.custProductGallery .swiper-button-next{
+  right: 0;
+} 
+.custProductGallery .swiper-button-prev{
+  left: 0;
+}
+
+.custProductGallery .swiper-slide.videoSlide .gallery-cell,
+.custProductGallery .swiper-slide.videoSlide {
+  width: 100% !important;
+}
+.custProductGallery .swiper-slide.videoSlide .product-gallery__video{
+  padding-top: 56.5%;
+  position: relative;
+}
+.custProductGallery .swiper-slide.videoSlide .product-gallery__video iframe {
+  min-height: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide.videoThumb {
+  position: relative;
+}
+
+.custProductGallery .custProductSliderThumb .swiper-slide.videoThumb svg.media-badge {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+section.section-product-benefit .product-benefit-image{
+  background-image: url(https://www.emuaid.com/cdn/shop/files/emuaidmax_product_image02_2fc7cff3-4a5c-4ab9-bce7-4788a9612e7b_2000x.jpg) !important;
+}
+
+@media(min-width: 799px) and (max-width: 1259px){
+  section.section-product-benefit .product-benefit-image{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 10px;
+  }
+}

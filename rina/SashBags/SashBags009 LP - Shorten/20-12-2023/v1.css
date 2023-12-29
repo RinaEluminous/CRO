@@ -1,0 +1,185 @@
+#r-1642969180795, #r-1689191386130, #e-1689715618927, #r-1689885333259, #e-1689885351016, #e-1689885342357, #m-1689728064640, #e-1642966255210, #e-1689190465580, #r-1689191366544, #e-1689911497255{
+    display: none !important;
+}
+div#r-1642967799770,
+div#e-1689704893219 {
+    margin: 0 0 30px;
+}
+div#m-1689112988688,
+div#m-1689114780803{
+    margin: 0 0 40px;
+}
+div#r-1642966485491{
+    margin: 0 0 80px;
+}
+
+.custWithColorWraper{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;    
+}
+.custWithColorWraper .custCol-4{
+    margin: 0;
+    width: 33.33333%;    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.custWithColorWraper .custItemBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+
+    padding-top: 30px!important;
+    padding-bottom: 30px!important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.custWithColorWraper .custItemBox .itemImgBox{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: none;
+    text-decoration: none;
+    justify-content: center;
+    margin: 0 0 8px;
+}
+.custWithColorWraper .custItemBox .itemImgBox img{
+    width: 60%;
+    height: auto;
+}
+.custWithColorWraper .custItemBox .itemDetailBox{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.custWithColorWraper .custItemBox .itemDetailBox a.title{
+    font-size: 15px!important;
+    font-weight: 500;
+    color: #282728cc!important;
+    font-family: Poppins!important;
+    text-decoration: none;
+    line-height: 1.2em!important;
+    margin: 0;
+}
+.custWithColorWraper .custItemBox .itemDetailBox .price{
+    font-family: Poppins!important;
+    font-weight: 700!important;
+    color: #282728!important;
+}
+.custWithColorWraper .custItemBox .itemDetailBox button.custShopBtn{
+    font-family: Poppins!important;
+    font-weight: 700!important;
+    text-transform: uppercase;
+}
+.custWithColorWraper .custItemBox .itemDetailBox button.custShopBtn:hover{
+    background: #ededed!important;
+    color: #121212;
+}
+.custWithColorWraper .custItemBox .itemDetailBox button.custShopBtn:after {
+    box-shadow: none !important;
+}
+
+.custDesignIdeaWraper{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    max-width: 1200px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    gap: 40px;
+}
+.custDesignIdeaWraper .custCol-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.custDesignIdeaWraper .custCol-6 .designImgBox img,
+.custDesignIdeaWraper .custCol-6 .designImgBox{
+    width: 100%;
+}
+div#e-1689207283869 .text-edit,
+div#e-1689133692233 .text-edit,
+div#e-1689704755708 .text-edit{
+    padding-left: 0 !important;    
+    padding-right: 0 !important;
+}
+div#m-1689825666100{
+    margin-bottom: 48px;
+}
+
+div#e-1689133692233 .text-edit>p {
+    font-size: 15.4px !important;
+}
+
+@media(max-width: 991px){
+    .custWithColorWraper{
+        flex-direction: column;
+    }
+    .custWithColorWraper .custCol-4{
+        width: 100%;
+    }
+    .custDesignIdeaWraper{
+        flex-direction: column;
+    }
+    .custDesignIdeaWraper .custCol-6 {
+        width: 100%;        
+    }
+    
+    .custDesignIdeaWraper .custCol-6 .designImgBox img,
+    .custDesignIdeaWraper .custCol-6 .designImgBox{
+        width: 80%;
+        margin: auto;
+        display: flex;
+    }
+}
+@media(max-width: 767px){
+    .custDesignIdeaWraper .custCol-6 .designImgBox img,
+    .custDesignIdeaWraper .custCol-6 .designImgBox{
+        width: 100%;
+    }   
+
+    #e-1689911497255, #e-1689819176936, #e-1689130326277{
+        display: none !important;
+    }
+
+    div#e-1689206968337 .text-edit h1,
+    div#e-1689206968282 .text-edit h1{
+        font-size: 48px !important;
+    }
+    div#e-1689206968343 .text-edit h3{
+        font-size: 17px !important;
+    }
+    div#e-1689819494460 .text-edit h1,
+    div#e-1689191224367 .text-edit h1{
+        font-size: 38px !important;
+    }
+    div#m-1689114780803-1 .gf_product-title{
+        font-size: 15px !important;
+    }
+    div#m-1689114780803-2{
+        margin: 0 0 8px;
+    }
+    #m-1642967567726-1 h3 {
+        margin: 6px 0 0 !important;
+    }
+    .gf_product-prices{
+        margin: 0 0 8px;
+    }
+    div#m-1642967567726-1 .gf_product-title {
+        margin: 6px 0 0px !important;
+    }
+}

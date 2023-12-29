@@ -35,7 +35,11 @@ var waitForJquery = setInterval(function() {
 
             } else {
                 strMainProductImg = "https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_16oz2x_mob.png";
-                strThumbProductImg = "https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_16oz_thumb.png";
+                strThumbProductIm00
+                
+                
+                
+                g = "https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_16oz_thumb.png";
 
             }
 

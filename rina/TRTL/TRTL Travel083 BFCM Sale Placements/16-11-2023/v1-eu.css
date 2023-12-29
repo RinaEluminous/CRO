@@ -1,3 +1,11 @@
+.custOfferTimer .custTimerTitle span#limitedTime{
+    display: block;
+}
+.custOfferTimer .timerMain,
+.custOfferTimer .custTimerTitle span#dealsEndIn{
+    display: none !important;
+}
+
 /* Home page sticky footer */
 .custBFCMStickyFooter {
     background: #F4EEEB;
@@ -699,7 +707,7 @@ body.template-product #MainContent .product-container{
 }
 
 .custPDPBFCMOfferMain .custOfferTimer .timerMain {
-    display: none; /* flex */
+    display: flex;
     gap: 0 4px;
     align-items: center;
     justify-content: center;

@@ -1,0 +1,73 @@
+body header#section-header.custNoShadow{
+    box-shadow: none !important;
+  }
+  
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper,
+  .template-collection.-product .PageContainer #main header.PageHeader {
+      background: unset !important;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper{
+      position: relative;
+      top: 0px;
+      margin-top: 35px;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper:after{
+      display: none !important;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .Container{
+      width: 100%;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader h1.SectionHeader__Heading{
+      color: #000;
+      text-transform: lowercase !important;
+      font-size: 36px;
+      font-weight: 400;
+      letter-spacing: normal;
+      line-height: 46px;
+      margin: 0 0 10px;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .SectionHeader__Description{
+      color: #000;
+      max-width: 100%;
+      font-size: 18px;
+      line-height: 26px;
+  }
+  .SectionHeader__Heading.SectionHeader__Heading:first-letter {
+      text-transform: uppercase;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper .custCoordinateHeroBannerMain{
+      display: flex;
+      width: 100%;
+      gap: 0 16px;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper .custCoordinateHeroBannerMain .coordinateImgBox {
+      flex: 1 0 0;
+      font-size: 0;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper .custCoordinateHeroBannerMain .coordinateImgBox img {
+      width: 100%;
+  }
+  .template-collection.-product .PageContainer #main header.PageHeader .SectionHeader__Description span{
+     opacity:0; 
+  }
+  @media(max-width: 991px){
+      .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper .custCoordinateHeroBannerMain{
+          gap: 0 10px;
+      }
+  }
+  @media(max-width: 560px){
+      .template-collection.-product .PageContainer #main header.PageHeader .PageHeader__ImageWrapper .custCoordinateHeroBannerMain .coordinateImgBox:last-child{
+          display: none;
+      }
+      .template-collection.-product .PageContainer #main header.PageHeader .Container .SectionHeader {
+          padding: 32px 0;
+      }
+      .template-collection.-product .PageContainer #main header.PageHeader .SectionHeader__Description{
+          font-size: 16px;
+          line-height: 24px;
+      }
+      .template-collection.-product .PageContainer #main header.PageHeader h1.SectionHeader__Heading{
+          font-size: 32px;
+          line-height: 42px;
+      }
+  }

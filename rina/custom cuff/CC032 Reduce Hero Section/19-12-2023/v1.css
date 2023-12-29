@@ -1,0 +1,125 @@
+.custVideoBrandBanner {
+    height: 400px !important;
+}
+.custVideoBrandBanner .custImageBlock{
+    order: 1;
+}
+
+.custVideoBrandBanner .custVideoBlock{
+    order: 3;
+}
+.custVideoBrandBanner .custTextBlock h2{
+    margin-bottom: 24px;
+    text-transform: capitalize !important;
+}
+.custVideoBrandBanner .custTextBlock{
+    order: 2;
+    max-width: 354px;
+    width: 33.33%;
+    padding: 50px 0;
+    margin: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: unset;
+    top: unset;
+    position: relative;
+    transform: unset;
+}
+.custVideoBrandBanner .custTextBlock h4 {
+    color: #000;
+    text-align: center;
+    font-family: Avenir Next LT Pro !important;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase !important;
+    margin: 0 0 24px;
+}
+
+.custVideoBrandBanner .custVideoBlock video, 
+.custVideoBrandBanner .custImageBlock img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: 0;
+    right: 0;
+}
+.custVideoBrandBanner .custImageBlock, 
+.custVideoBrandBanner .custVideoBlock {
+    width: 33.33%;
+    height: auto;
+    position: relative;
+    padding-top: 400px;
+}
+@media(max-width: 1180px){
+    .custVideoBrandBanner .custTextBlock{
+        padding: 30px;
+        max-width: 100%;
+    }
+    .custVideoBrandBanner .custTextBlock h2,
+    .custVideoBrandBanner .custTextBlock h4{
+        margin: 0 0 14px;
+        font-size: 28px;
+        line-height: normal;
+    }
+    .custVideoBrandBanner .custTextBlock p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media(max-width: 1024px){
+    .custVideoBrandBanner .custTextBlock{
+        padding: 20px;
+    }  
+}
+@media(max-width: 991px){
+    .custVideoBrandBanner .custTextBlock h2{
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+    }
+    .custVideoBrandBanner .custTextBlock h4{
+        margin-bottom: 10px;
+    }
+    .custVideoBrandBanner .custTextBlock p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media(max-width: 767px){
+    .custVideoBrandBanner {
+        height: unset !important;
+    }
+    .custVideoBrandBanner .custImageBlock, 
+    .custVideoBrandBanner .custVideoBlock{
+        padding-top: 170px;
+    }
+    .custVideoBrandBanner .custTextBlock,
+    .custVideoBrandBanner .custImageBlock, 
+    .custVideoBrandBanner .custVideoBlock {
+        width: 100%;
+    }
+    .custVideoBrandBanner .custTextBlock {
+        padding: 18px 26px 26px;
+    }
+    .custVideoBrandBanner .custTextBlock p{
+        margin: 0 0 10px;
+    }
+    .custVideoBrandBanner .custTextBlock h2 span {
+        display: block;
+    }
+}
+@media(max-width: 414px){
+    .custVideoBrandBanner .custTextBlock{
+        padding: 18px 15px 26px;
+    }
+    .custVideoBrandBanner .custTextBlock p{
+        max-width: 335px;
+    }
+}

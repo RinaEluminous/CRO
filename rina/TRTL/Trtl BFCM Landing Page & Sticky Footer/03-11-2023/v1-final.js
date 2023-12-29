@@ -97,10 +97,11 @@ var waitForjQuery = setInterval(function() {
 	  }
 
 	  	jQuery('.custRecTabContent:eq(0)').show();
+      
 
 	  	//On tab click show relevant category products and hide others
 		jQuery(document).on("click",".custSellingProdWraper .custProdTabsListings .tab", function () {
-			var strId 	   = jQuery(this).attr('id');
+			var strId  = jQuery(this).attr('id');
 			jQuery('.prodCategoryBody').hide();
 			jQuery('.custSellingProdWraper .custProdTabsListings .tab.active').removeClass('active');
 			jQuery('#'+strId+'_category').show();

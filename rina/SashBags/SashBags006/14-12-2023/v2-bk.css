@@ -1,0 +1,370 @@
+main#MainContent [id*="shopify-section-template--"].shopify-section.section.custV2FitAllSection,
+main#MainContent [id*="shopify-section-template--"].shopify-section.section:first-child [id*="Banner-template--"]{
+    display: none;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer{
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/static-bag-img.png) no-repeat right center;
+    background-size: calc(50% - 15px);
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .row{
+    margin: 0 -15px;
+    display: flex;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .col-md-6{
+    padding: 0 15px;
+    width: 50%;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .custV2BannerImg{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    width: calc(50% - 15px);
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .custV2BannerImg img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    object-fit: contain;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .col-md-6:first-child{
+    padding: 112px 0px 112px 15px;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer  .reviewWraper{
+    display: flex;
+    gap: 12px;
+    font-family: Assistant;
+    font-weight: 600;
+    color: #000;
+    line-height: normal;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .reviewWraper .starRatings {
+    font-size: 0;
+    display: flex;
+    gap: 0 5px;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .reviewWraper .starRatings img{
+    display: block;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer h2 {
+    margin: 16px 0;
+    font-family: Memphis Soft Rounded;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.6px;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer p {
+    font-family: Assistant;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000;
+    letter-spacing: 0.6px;
+    margin: 0 0 32px;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer a.custV2Btn{
+    display: inline-flex;
+    padding: 12px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    font-family: Assistant;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin: 0 0 32px;
+}
+main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .custV2GuaranteeWraper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-family: Assistant;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    width: 100%;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper {
+    display: flex;
+    padding: 40px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    background: #fff;
+    width: 100%;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 5rem;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper h2 {
+    text-align: center;
+    font-family: Memphis Soft Rounded;
+    font-size: 32px;
+    margin: 0 0 32px;
+}
+
+main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper .custV2SquadImgMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    mix-blend-mode: darken;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.custV2XmasWraper {
+    display: flex;
+    width: 100%;
+    padding: 30px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.custV2XmasWraper .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 5rem;
+}
+
+.custV2XmasWraper .xmasInnerWraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #EEEEEE;
+    padding: 16px 56px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-snowman-collection.svg), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-tree.svg);
+    background-repeat: no-repeat;
+    background-size: 75px 89px, 44px 54px;
+    background-position: left -28px bottom -8px, right -5px bottom -2px;
+    gap: 0 20px;
+}
+
+.custV2XmasWraper .xmasBtnMain .bannerTag {
+    background: #a01827;
+    color: #FFF;
+    font-family: Assistant;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1.12px;
+    text-transform: uppercase;
+    padding: 8px 16px;
+}
+
+.custV2XmasWraper .xmasBtnMain {
+    padding-left: 12px;
+    background: url(https://cdn.shopify.com/s/files/1/0935/8922/files/Group_3.svg?v=1701350157) no-repeat 0 0;
+    flex: 0 0 auto;
+}
+
+.custV2XmasWraper .offerText p {
+    color: #000;
+    font-family: Assistant;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.custV2XmasWraper .xmasContentMain .savingText {
+    color: #000;
+    font-family: Assistant;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+    margin: 8px 0 0;
+}
+
+.custV2XmasWraper .xmasInnerWraper .xmasContentMain {
+    position: relative;
+}
+
+.custV2XmasWraper .xmasInnerWraper .xmasContentMain:after {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 46px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-deer.svg) no-repeat 0 0;
+    background-size: 100%;
+    position: absolute;
+    right: -8px;
+    bottom: -17px;
+}
+.custV2XmasWraper .xmasBtnMain .mobAutomatic,
+.custV2XmasWraper .xmasBtnMain .bannerTag .mob{
+    display: none;
+}
+@media (max-width: 1199px){
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .col-md-6:first-child{
+        padding: 60px 15px 60px 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper .custV2SquadImgMain{
+        justify-content: center;
+    }
+    .custV2XmasWraper .offerText p{
+        letter-spacing: normal;
+    }
+    .custV2XmasWraper .xmasInnerWraper .xmasContentMain:after{
+        right: 0;
+    }
+}
+@media (max-width: 991px){
+    .custV2XmasWraper .xmasBtnMain{
+        flex: auto;
+        background-size: auto 100%;
+        padding-left: 25px;
+    }
+}
+@media (max-width: 768px){
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .reviewWraper .starRatings{
+        gap: 0 3px;
+        align-items: center;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .reviewWraper .starRatings img{
+        width: 16px;
+        height: 16px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer a.custV2Btn{
+        font-size: 18px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer h2{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer p{
+        font-size: 18px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer a.custV2Btn{
+        margin: 0 0 10px;
+        padding: 12px 30px;
+    }
+}
+@media (max-width: 767px){
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer{
+        display: flex;
+        flex-direction: column-reverse;
+        background-position: right top;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .row{
+        flex-direction: column;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .col-md-6:first-child{
+        width: 100%;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .custV2BannerImg{
+        width: 100%;
+        padding-top: 100%;
+        position: relative;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer a.custV2Btn{
+        width: 100%;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer p{
+        margin: 0 0 20px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper{
+        padding: 30px 0;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper .container{
+        padding: 0 15px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper h2{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2SquadWraper .custV2SquadImgMain{
+        gap: 20px;
+    }
+    main#MainContent [id*="shopify-section-template--"] .custV2BannerMainContainer .custV2GuaranteeWraper{
+        justify-content: center;
+    }
+    .custV2XmasWraper{
+        padding: 15px 0;
+    }
+    .custV2XmasWraper .container{
+        padding: 0 15px;
+    }
+    .custV2XmasWraper .xmasInnerWraper{
+        padding: 10px 15px;
+        background: #F3F3F3 url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/xmas-tree.svg) no-repeat;
+        background-size: 59px 72px;
+        background-position: right -25px bottom 0px;
+
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .custV2XmasWraper .xmasBtnMain{
+        display: flex;
+        flex: auto;
+        padding-left: 15px;
+        gap: 5px;
+        align-items: center;
+    }
+    .custV2XmasWraper .xmasBtnMain .bannerTag{
+        padding: 8px 10px;
+        flex: 0 0 auto;
+    }
+    .custV2XmasWraper .xmasBtnMain .bannerTag span.desk {
+        display: none;
+    }
+    .custV2XmasWraper .xmasBtnMain .bannerTag span.mob {
+        display: block;
+    }
+    .custV2XmasWraper .xmasBtnMain .mobAutomatic{
+        color: #000;
+        text-align: center;
+        font-family: Assistant;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        letter-spacing: 0.48px;
+        display: block;
+    }
+    .custV2XmasWraper .xmasContentMain .savingText,
+    .custV2XmasWraper .xmasInnerWraper .xmasContentMain:after{
+        display: none;
+    }
+    .custXV2masWraper .offerText p{
+        line-height: 27px;
+    }
+}
+@media(max-width: 360px){
+    .custV2XmasWraper .xmasBtnMain .bannerTag{
+        letter-spacing: normal;
+        font-size: 14px;
+    }
+    .custV2XmasWraper .xmasBtnMain .mobAutomatic{
+        font-size: 14px;
+        line-height: 15px;
+    }
+}

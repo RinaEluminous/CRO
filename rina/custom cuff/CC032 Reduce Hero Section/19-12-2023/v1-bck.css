@@ -1,0 +1,50 @@
+.homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child {
+    height: 60vh;
+}
+.homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child .custoDekstopBanner {
+    height: 100%;
+}
+.homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child a.PuraCustomCuffBanner {
+    height: 100%;
+}
+.homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child .custoDekstopBanner img {
+    height: 100%;
+    object-fit: cover;
+}
+@media(min-width: 1600px){    
+    .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child{
+        height: 65vh;
+    }
+}
+@media(min-width: 1300px){
+    .homepage main#main .custom-iconList-section .container{
+        margin: 15px auto;
+    }
+}
+@media(max-width: 1300px){
+    .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child{
+        height: unset;
+    }
+}
+@media(max-width: 767px){    
+    .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child a.PuraCustomCuffBanner .custMobileBanner{
+        height: 100%;
+    }
+    .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child .custMobileBanner img {
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    @supports not (-webkit-touch-callout: none) {
+        /* css for android devices */
+        .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child{
+            height: calc(100vh - 172px);
+        }
+    }
+    @supports (-webkit-touch-callout: none) {
+        /* css for iOS devices */
+        .homepage main#main .shopify-section[id*="shopify-section-template--"]:first-child{
+            height: calc(100vh - 200px) !important;
+        }
+    }
+}

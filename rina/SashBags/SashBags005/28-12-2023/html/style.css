@@ -1,0 +1,76 @@
+main#MainContent [id*="__product-grid"] [class*="__product-grid-padding"] #FacetFiltersForm{
+    margin: 0 0 16px;
+}
+.custCollectionSliderTop .collectionSwiper a.collectionProductBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #F2F2F2;
+    text-decoration: none;
+}
+.custCollectionSliderTop .collectionSwiper a.collectionProductBox:hover {
+    background: #F2F2F2;
+}
+.custCollectionSliderTop .collectionSwiper a.collectionProductBox .imgBox {
+    display: block;
+    width: 100%;
+    font-size: 0;
+}
+.custCollectionSliderTop .collectionSwiper a.collectionProductBox .imgBox img {
+    width: 100%;
+}
+.custCollectionSliderTop .collectionSwiper .productTitle {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    color: #333;
+    text-align: center;
+    font-family: Memphis Soft Rounded;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+.custCollectionSliderTop .collectionSwiper .swiper-button-next, 
+.custCollectionSliderTop .collectionSwiper .swiper-button-prev{
+    font-size: 0;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #FFF;
+}
+.custCollectionSliderTop .collectionSwiper .swiper-button-next:after, 
+.custCollectionSliderTop .collectionSwiper .swiper-button-prev:after{
+    width: 6px;
+    height: 12px;
+    font-size: 14px;
+    color: #000;
+}
+.custCollectionSliderTop .collectionSwiper .swiper-button-next.swiper-button-disabled, 
+.custCollectionSliderTop .collectionSwiper .swiper-button-prev.swiper-button-disabled{
+    pointer-events: unset;
+    display: none;
+}
+.custCollectionSliderTop .collectionSwiper .swiper-button-prev:after {
+    left: -2px;
+    position: relative;
+}
+@media(max-width: 767px){
+    .custCollectionSliderTop .collectionSwiper .productTitle{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.14px;
+        padding: 4px;
+    }
+    .facets-container
+}

@@ -1,0 +1,115 @@
+<!-- insert after : body[class*="product-"] .product .product__images .gallery-wrap -->
+<div class="custProductGallery">
+    <div class="swiper custProductSliderMain">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_2oz.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_2oz.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_healing.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_healing.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_safe.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_safe.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_natural.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_natural.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_ages.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_ages.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_anti-fungal.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_anti-fungal.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_usa_today.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_usa_today.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_quote.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_quote.png" />
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a data-fancybox="gallery" data-zoom="false" href="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_physician.png">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_physician.png" />
+          </a>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+    <div thumbsSlider="" class="swiper custProductSliderThumb">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_2oz_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+          <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_healing_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_safe_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_natural_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_ages_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_anti-fungal_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_usa_today_thumb.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_quote.png" />
+        </div>
+        <div class="swiper-slide">
+            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/emuaid/EMUAID_reg_physician.png" />
+        </div>
+      </div>
+    </div>
+</div>
+
+<script>
+    // Swiper slider
+    var swiper = new Swiper(".custProductSliderThumb", {
+      spaceBetween: 10,
+      slidesPerView: 4.5,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".custProductSliderMain", {
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+
+
+    //fancybox
+    jQuery('[data-fancybox="gallery"]').fancybox({
+      loop: false,
+      buttons: [
+        "close"
+      ],
+      animationEffect: "fade",
+    });
+  </script>
