@@ -1,6 +1,6 @@
 var waitForJquery = setInterval(function() { 
     if (typeof jQuery != 'undefined') {
-data-type="add-to-cart-form"
+data-type="add-to-cart-form";
 	
 	addCustomUpSellProduct();
 

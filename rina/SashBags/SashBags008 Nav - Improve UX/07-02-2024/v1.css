@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+/* font-family: "Assistant", sans-serif; */
+
+
+header nav.header__primary-nav {
+    position: unset;
+}
+
+header nav ul li[data-title] {
+    position: unset;
+}
+
+header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link],
+header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link] .yotpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.header ul li .yotpo .yotpo-icon {
+    font-size: 12px;
+}
+.header ul li a:hover{
+    color: rgba(0,0,0, 0.65);
+}
+:has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header ul li .yotpo .yotpo-icon {
+    color: #000;
+}
+
+:has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header:not(:hover, .is-solid, :has([open])) nav ul li .yotpo .yotpo-icon {
+    color: #fff;
+}
+
+header nav ul li[data-title="SHOP"] ul.header__dropdown-menu {
+    display: none;
+}
+
+.custShopMegaMenuDesk {
+    position: absolute;
+    left: 50%;
+    /* right: 0; */
+    top: calc(100% + 22px);
+    display: flex;
+    background: #fff;
+    max-width: 1100px;
+    width: 100%;
+    top: 100%;
+    transform: translateX(-50%);
+}
+
+.custShopMegaMenuDesk ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custShopMegaMenuDesk .custIconLinks ul li a {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-family: "Assistant", sans-serif;
+    align-items: center;
+}
+
+.custShopMegaMenuDesk .custIconLinks {
+    background: #F6F6F6;
+    padding: 24px;
+    flex: 0 0 220px;
+}
+
+.custShopMegaMenuDesk .custIconLinks ul li {
+    margin: 0 0 16px;
+}
+
+.custShopMegaMenuDesk .custCategoryLinks {
+    display: flex;
+    flex: 1;
+}
+
+.custShopMegaMenuDesk .custCategoryLinks .categoryLinkCol {
+    flex: 0 0 220px;
+    padding: 24px;
+}
+
+.custShopMegaMenuDesk .custCategoryLinks .categoryLinkCol li {
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+}
+
+.custShopMegaMenuDesk .custCategoryLinks .categoryLinkCol li.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.custShopMegaMenuDesk ul li:last-child {
+    margin: 0;
+}
+.custShopMegaMenuDesk .custTrendingCol{
+    flex: 0 0 220px;
+}
+.custShopMegaMenuDesk .custTrendingCol a {
+    background: #F2F2F2;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-sidebar.drawer #header-panel-1 .header-sidebar__back-button svg.icon,
+.header-sidebar.drawer #header-panel-1 ul.header-sidebar__linklist{
+    display: none;
+}
+.header-sidebar.drawer #header-panel-1 .header-sidebar__back-button{
+    font-family: "Assistant", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: #121212;
+    margin: 0;
+    border: 0;
+    padding: 12px 24px;
+    background: #F6F6F6;
+}
+
+.header-sidebar.drawer #header-panel-1 {
+    margin: 0 -20px;
+}
+.custShopMegaMenuMob ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.custShopMegaMenuMob ul li {
+    padding: 0;
+    margin: 0 0 16px;
+}
+.custShopMegaMenuMob ul li:last-child{
+    margin: 0;
+}
+.custShopMegaMenuMob .custIconLinks {
+    background: #F6F6F6;
+    padding: 24px 0;
+}
+.custShopMegaMenuMob .custIconLinks ul li a {
+    font-family: "Assistant", sans-serif;
+    padding: 0 24px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    align-items: center;
+}
+.custShopMegaMenuMob .custCategoryLinks ul {
+    display: none;
+}
+
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol{
+    position: relative;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol label {
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 12px 24px;
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 48px;
+}
+
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol label:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/plus-icon.svg) no-repeat center;
+    position: absolute;
+    right: 24px;
+    top: 15px;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked + label:after{
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/minus-icon.svg) no-repeat center;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked ~ ul {
+    display: block;
+    margin: 4px 0 12px;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked ~ ul li a{
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0 24px;
+    display: block;
+    width: 100%;
+}
+
+.custShopMegaMenuMob .custTrendingCol a {
+    text-align: center;
+    background: #F2F2F2;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custShopMegaMenuMob .custTrendingCol a .imgBox img {
+    width: 100%;
+}
+
+.custShopMegaMenuMob .custTrendingCol a .imgBox {
+    width: 100%;
+}
+@media(max-width: 1099px){
+    .custShopMegaMenuDesk .custCategoryLinks .categoryLinkCol,
+    .custShopMegaMenuDesk .custTrendingCol {
+        flex: 0 0 200px;
+    }
+}

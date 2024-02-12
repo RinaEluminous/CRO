@@ -77,6 +77,7 @@ var waitForJquery = setInterval(function() { 
     //on 'add' CTA click of 'TRTL WRAP', add this product to cart
     jQuery(document).on('click','.custAddToCard .custCardWrapper #custAddWrapBtn',function () {
           var intProductId = '42424607572161';
+          
           jQuery.get('https://trtltravel.com/products/trtl-wrap-travel-blanket?variant='+intProductId+'&section_id=template--15870653825217__main', function(html) {
 
                 var strProdCtaText  = jQuery(html).find(".add-to-cart-button span:eq(0)").text().trim();
@@ -115,8 +116,11 @@ var waitForJquery = setInterval(function() { 
 
         jQuery('#custAddProdCTA').addClass('custDisableButton');
       
-        jQuery.get('https://trtltravel.com/products/trtl-compression-socks?variant='+strSelectedProdId+'&section_id=template--15670323839169__main', function(html) {
-            
+
+        // jQuery.get('https://trtltravel.com/products/trtl-compression-socks?variant='+strSelectedProdId+'&section_id=template--21628166996161__main', function(html) {
+
+            jQuery.get('https://trtltravel.com/products/trtl-compression-socks?variant='+strSelectedProdId+'&section_id=template--15670323839169__main', function(html) {
+
             if(jQuery(html).find(".add-to-cart-button span").length > 0){
 
                 var strCtaText  = jQuery(html).find(".add-to-cart-button span:eq(0)").text().trim();

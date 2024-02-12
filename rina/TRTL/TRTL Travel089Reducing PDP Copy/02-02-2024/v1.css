@@ -1,0 +1,94 @@
+.product-description h6{
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000 !important;
+  }
+  .product-description p {
+    margin: 0 0 40px;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+  }
+  
+  .product-description h6 ~ ul:not(.custProductDescListings) {
+    display: none;
+  }
+  
+  .product-description ul.custProductDescListings {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      width: 100%;
+      position: relative;
+  }
+  
+  .product-description ul.custProductDescListings li {
+      padding-left: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: relative;
+      width: 100%;
+      line-height: 20px;
+      height: 40px;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: IBM Plex Sans;
+      letter-spacing: 0.06em;
+  }
+  
+  .product-description ul.custProductDescListings li:before {
+      content: '';
+      display: block;
+      width: 4px;
+      border-radius: 10px;
+      background: #FAD951;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      height: 40px;
+  }
+  
+  .product-description ul.custProductDescListings:after {
+    content: '';
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) -85.23%, #FFFFFF 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 44px;
+    bottom: 0;
+  }
+  .product-description a.show-more{
+    min-width: 201px;
+    min-height: 46px;
+    padding: 12px 48px 12px 48px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.07em;
+    text-decoration: none;
+    color: #000 !important;
+  }
+  @media(max-width: 767px){
+    .product-description p {
+      margin: 0 0 36px;
+      font-family: IBM Plex Sans;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.06em;
+    }  
+  }

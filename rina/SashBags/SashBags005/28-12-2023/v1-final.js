@@ -1,141 +1,227 @@
 var waitForJquery = setInterval(function() {
-    if (typeof jQuery != 'undefined') {
-        //collection all page condition
-        if (jQuery("#MainContent .collection").length > 0) {
-            addCustFilterHtml();
-           
-        }
+  if (typeof jQuery != 'undefined') {
+      //collection all page condition
+      var strURL = window.location.href;
+      
+      if (jQuery("#MainContent .collection").length > 0) {
+          addCustFilterHtml();
+      }
+
+      function addCustFilterHtml() {
+         
+          var strLeatherUrl = 'https://www.thesashbag.com/collections/core-leather';
+          var strFauxLeatherUrl = 'https://www.thesashbag.com/collections/core-faux-leather';
+          var strClassicColorsUrl = 'https://www.thesashbag.com/collections/classic-style-faux-non-fringe';
+          var strLimitedEditionColorsUrl = 'https://www.thesashbag.com/collections/limited-edition-colors-leather';
+          var strFringeUrl = 'https://www.thesashbag.com/collections/fringe-leather';
+          var strNoFringeUrl = 'https://www.thesashbag.com/collections/classic-style-leather-non-fringe';
+
+          var custSliderHtml = '<div class="custCollectionSliderTop page-width">' +
+              '    <div class="swiper collectionSwiper">' +
+              '        <div class="swiper-wrapper">' +
+              '            <div class="swiper-slide">' +
+              '                <a href="https://www.thesashbag.com/collections/best-sellers" class="collectionProductBox">' +
+              '                    <div class="imgBox">' +
+              '                        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/collection_bestseller.png" alt="Best Sellers" title="Best Sellers">' +
+              '                    </div>' +
+              '                    <div class="productTitle">' +
+              '                        Best Sellers' +
+              '                    </div>' +
+              '                </a>' +
+              '            </div>' +
+              '            <div class="swiper-slide">' +
+              '                <a href="https://www.thesashbag.com/collections/see-whats-new" class="collectionProductBox">' +
+              '                    <div class="imgBox">' +
+              '                        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/collection_arrival.png" alt="New Arrivals" title="New Arrivals">' +
+              '                    </div>' +
+              '                    <div class="productTitle">' +
+              '                        New Arrivals' +
+              '                    </div>' +
+              '                </a>' +
+              '            </div>' +
+              '            <div class="swiper-slide">' +
+              '                <a href="https://www.thesashbag.com/collections/limited-edition-colors-leather" class="collectionProductBox">' +
+              '                    <div class="imgBox">' +
+              '                        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/collection_limited_edition.png" alt="Limited Edition" title="Limited Edition">' +
+              '                    </div>' +
+              '                    <div class="productTitle">' +
+              '                        Limited Edition' +
+              '                    </div>' +
+              '                </a>' +
+              '            </div>' +
+              '            <div class="swiper-slide">' +
+              '                <a href="https://www.thesashbag.com/collections/sale" class="collectionProductBox">' +
+              '                    <div class="imgBox">' +
+              '                        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/collection_onsale.png" alt="On Sale" title="On Sale">' +
+              '                    </div>' +
+              '                    <div class="productTitle">' +
+              '                        On Sale' +
+              '                    </div>' +
+              '                </a>' +
+              '            </div>' +
+              '            <div class="swiper-slide">' +
+              '                <a href="https://www.thesashbag.com/collections/sash-accessories" class="collectionProductBox">' +
+              '                    <div class="imgBox">' +
+              '                        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/collection_addons.png" alt="Add- Ons" title="Add- Ons">' +
+              '                    </div>' +
+              '                    <div class="productTitle">' +
+              '                        Add- Ons' +
+              '                    </div>' +
+              '                </a>' +
+              '            </div>' +
+              '        </div>' +
+              '        <div class="swiper-button-next">Next</div>' +
+              '        <div class="swiper-button-prev">Prev</div>' +
+              '    </div>' +
+              '</div>';
+     
+          var mobileCategoriesMenuHtml ='<div class="custCategoryMenu">'+
+                                            '    <div class="menuBtn">'+
+                                            '        Shop by categories'+
+                                            '    </div>'+
+                                            '    <input type="checkbox">'+
+                                            '    <ul>'+
+                                            '        <li><a href="'+strLeatherUrl+'">Leather</a></li>'+
+                                            '        <li class="active"><a href='+strFauxLeatherUrl+'>Faux Leather</a></li>'+
+                                            '        <li><a href='+strClassicColorsUrl+'>Classic Colors</a></li>'+
+                                            '        <li><a href='+strLimitedEditionColorsUrl+'>Limited Edition Colors</a></li>'+
+                                            '        <li><a href='+strFringeUrl+'>Fringe</a></li>'+
+                                            '        <li><a href='+strNoFringeUrl+'>No Fringe</a></li>'+
+                                            '    </ul>'+
+                                            '    <span class="arrow"></span>'+
+                                            '</div>';
+
+           var webCategoriesMenuHtml ='<div class="custFilterSidebar">'+
+                                      '    <div class="inner">'+
+                                      '        <h4>Browse by:</h4>'+
+                                      '        <ul>'+
+                                      '            <li id="custLeather"><a href='+strLeatherUrl+'>Leather</a></li>'+
+                                      '            <li id="custFauxLeather"><a href='+strFauxLeatherUrl+'>Faux Leather</a></li>'+
+                                      '            <li><a href='+strClassicColorsUrl+'>Classic Colors</a></li>'+
+                                      '            <li><a href='+strLimitedEditionColorsUrl+'>Limited Edition Colors</a></li>'+
+                                      '            <li id="custFringe"><a href='+strFringeUrl+'>Fringe</a></li>'+
+                                      '            <li id="custNoFringe"><a href='+strNoFringeUrl+'>No Fringe</a></li>'+
+                                      '        </ul>'+
+                                      '    </div>'+
+                                      '</div>';
+
         
-    
-        function addCustFilterHtml() {
-            //added custom html for filter section
-            if (jQuery("#product-grid").length > 0) {
+         
+                                     
+          //added custom slider html
+          var intCount = 0;
+          var intFliterHtmlInterval = setInterval(function() {
+              intCount += 1;
+              if (jQuery('main#MainContent [id*="__banner"].section').length > 0 && jQuery('.custCollectionSliderTop').length == 0) {
+                  jQuery(custSliderHtml).insertAfter('main#MainContent [id*="__banner"].section');
+                  clearInterval(intFliterHtmlInterval);
+              }
+              //mobile categories menu
+              if(jQuery('#main-collection-filters .facets-container > facet-filters-form').length > 0 && jQuery('.custCategoryMenu').length == 0){
+                jQuery(mobileCategoriesMenuHtml).insertBefore('#main-collection-filters .facets-container > facet-filters-form');
+                clearInterval(intFliterHtmlInterval);
+              }
+              //web categories menu
+              if(jQuery('main#MainContent [id*="shopify-section-template--"] div#ProductGridContainer').length > 0 && jQuery('.custFilterSidebar').length == 0){
+                jQuery(webCategoriesMenuHtml).prependTo('main#MainContent [id*="shopify-section-template--"] div#ProductGridContainer');
+                clearInterval(intFliterHtmlInterval);
+              }
 
-                jQuery('<div id="filters"><h1>Material</h1><label><input type="checkbox" value="Leather">Leather</label><label><input type="checkbox" value="Faux Leather">Faux Leather</label><div class="fringe"><h4>Fringe</h4><label><input type="checkbox" value="Fringe">Yes</label><label><input type="checkbox" value="nofringe">No</label></div><div class="color"><h4>Color</h4><label><input type="checkbox" value="yes">Black</label><label><input type="checkbox" value="no">Brown</label><label><input type="checkbox" value="no">Silver</label><label><input type="checkbox" value="no">Gold</label><label><input type="checkbox" value="no">Pink</label><label><input type="checkbox" value="Durga">Red</label><label><input type="checkbox" value="Sapphire">Blue</label><label><input type="checkbox" value="no">Orange</label><label><input type="checkbox" value="no">Yellow</label><label><input type="checkbox" value="no">Green</label><label><input type="checkbox" value="no">Bronze</label><label><input type="checkbox" value="no">Gray</label><label><input type="checkbox" value="no">Tan</label></div></div>').insertBefore('#product-grid');
-            }
 
-            //add custome slider 
+              if (intCount === 80) {
+                  clearInterval(intFliterHtmlInterval);
+              }
+          }, 30);
 
-            if (jQuery('#custSwiperSliderJS').length == 0) {
-                jQuery("head").append('<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" id="custSwiperSliderJS"></script>');
-		        }
-		        if(jQuery('#custSwiperSliderCSS').length == 0){
-		            jQuery( "head" ).append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" id="custSwiperSliderCSS" />');
+          //active effect
+          var intCountMenu = 0;
+          var intCategoryMenuInterval = setInterval(function() {
+          intCountMenu += 1;
+              if(jQuery('.custCategoryMenu a').length > 0 ){
+                  
+                  
+                  if (strURL.indexOf("core-leather") > 0) {
+                      jQuery('#custLeather').addClass('active');
+                  }else if(strURL.indexOf("faux-leather") > 0){
+                      jQuery('#custFauxLeather').addClass('active');
+                  }else if(strURL.indexOf("classic-style-faux-non-fringe") > 0){
+                      jQuery('.custFilterSidebar ul li a:contains("Classic Colors")').parent().addClass('active');
+                  }else if(strURL.indexOf("limited-edition-colors") > 0){
+                     jQuery('.custFilterSidebar ul li a:contains("Limited Edition Colors")').parent().addClass('active');
+                  }else if(strURL.indexOf("fringe-leather") > 0){
+                     jQuery('#custFringe').addClass('active');
+                  }else if(strURL.indexOf("classic-style-leather-non-fringe") > 0){
+                      jQuery('#custNoFringe').addClass('active');
+                  }
+      
+              }
+          
+              if (intCountMenu === 80) {
+                  clearInterval(intCategoryMenuInterval);
+              }
+              }, 30);
 
-		        }
+          //add custome slider 
 
- 				var intSwiperCnt = 0;
-			    var intSwiperInterval = setInterval(function () {
-			      	intSwiperCnt += 1;
+          if (jQuery('#custSwiperSliderJS').length == 0) {
+              jQuery("head").append('<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" id="custSwiperSliderJS"></script>');
+          }
+          if (jQuery('#custSwiperSliderCSS').length == 0) {
+              jQuery("head").append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" id="custSwiperSliderCSS" />');
+          }
 
-		      	 	if (typeof Swiper !== 'undefined'){
-		         		var swiper = new Swiper(".mySwiper", {
-						slidesPerView: 1,						
-						loop: true,
-						spaceBetween: 20,
-						pagination: {
-							el: ".swiper-pagination",
-							clickable: true,
-						},
-					    breakpoints: {
-					    	1024: {
-					          slidesPerView: 3,
-					          spaceBetween: 20,
-					        },
-					        991: {
-					            slidesPerView: 2,
-					            spaceBetweenSlides: 20
-					        },
-					        320: {
-					          slidesPerView: 1,
-					          spaceBetween: 20,
-					        },
-						},
-			    	});
+          
+          var intSwiperCnt = 0;
+          var intSwiperInterval = setInterval(function() {
+              intSwiperCnt += 1;
 
-					clearInterval(intSwiperInterval);
-		      	}
+              if (typeof Swiper !== 'undefined') {
+                  var swiper = new Swiper(".collectionSwiper", {
+                      slidesPerView: 2,
+                      spaceBetween: 5,
+                      navigation: {
+                          nextEl: ".swiper-button-next",
+                          prevEl: ".swiper-button-prev",
+                      },
+                      pagination: {
+                          el: ".swiper-pagination",
+                          clickable: true,
+                      },
+                      breakpoints: {
+                          375: {
+                              slidesPerView: 3,
+                              spaceBetween: 5,
+                          },
+                          768: {
+                              slidesPerView: 4,
+                              spaceBetween: 10,
+                          },
+                          1024: {
+                              slidesPerView: 5,
+                              spaceBetween: 20,
+                          },
+                      },
+                  });
 
-		      	if(intSwiperCnt === 50){
-		      		clearInterval(intSwiperInterval);
-		      	}
+                  clearInterval(intSwiperInterval);
+              }
 
-		    },70);
+              if (intSwiperCnt === 50) {
+                  clearInterval(intSwiperInterval);
+              }
 
-        }
+              setTimeout(function() {
+                  jQuery('.custCollectionSliderTop').show();
+              }, 2500);
 
-        function filterProducts() {
-            var selectedCategories = [];
 
-            // Get selected categories
-            jQuery('input[type="checkbox"]:checked').each(function() {
-                selectedCategories.push(jQuery(this).val());
-            });
-            console.log('selectedCategories >>>>>>>>>>>>>', selectedCategories)
-            if (selectedCategories.length > 0) {
-                // Hide all products
-                jQuery('#product-grid .grid__item').hide();
-                selectedCategories.forEach(function(category) {
-                    console.log('cate >>>>>>>>>>>>>', category)
-                    jQuery('#product-grid .grid__item:contains(' + category + ')').show();
-                });
+          }, 70);
+          
+        
 
-            } else {
-                jQuery('#product-grid .grid__item').show();
-            }
-        }
+      }
 
-        // filter changes
-        jQuery(document).on('change', 'input[type="checkbox"]', function() {
-            filterProducts();
-            //pagination condition
-            var intProductCount = jQuery('#product-grid .grid__item[style*="display: list-item;"]').length;
-            jQuery("#ProductCountDesktop").text(intProductCount + ' products');
-            if (intProductCount < 16) {
-                console.log("less than");
-                jQuery('.pagination-wrapper').css('display', 'none');
-            } else {
-                console.log("More than");
-                jQuery('.pagination-wrapper').css('display', 'block');
-            }
-        });
 
-        //sort by change
-        jQuery(document).on('change', '#SortBy', function() {
-            addCustFilterHtml();
-        });
-
-        //life style image effect on mouse hover
-        jQuery(document).on({
-
-            mouseenter: function () {
-
-                var strImg = jQuery(this).find('img.ProductItem__Image:last').prev("img").attr('src');
-
-                if (strImg !== undefined) {
-
-                    jQuery(this).find('img:last').attr('src', strImg);
-
-                }
-
-            },
-
-            mouseleave: function () {
-
-                var strImg = jQuery(this).find('img.ProductItem__Image:last').attr('cust-lifestyle-img');
-
-                if (strImg !== undefined) {
-
-                    jQuery(this).find('img.ProductItem__Image:last').attr('src', strImg);
-
-                }
-
-            
- 
-            }
-
-        }, ".ProductList .Grid__Cell a.ProductItem__ImageWrapper");
-
-        clearInterval(waitForJquery);
-    }
+    clearInterval(waitForJquery);
+  }
 }, 50);

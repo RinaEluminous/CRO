@@ -1,0 +1,206 @@
+.custBeyondCompSection .wearthis-reviews img {
+    max-width: 86px;
+}
+@media all {
+    .custBeyondCompSection .wearthis-wrapper {
+        background: #F0F0F0;
+    }
+
+    .custBeyondCompSection .wearthis-Cont {
+        padding: 80px 0;
+        margin: auto;
+        max-width: 625px;
+        width: 100%;
+    }
+
+    .custBeyondCompSection .wearthis-table {
+        max-width: 625px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .custBeyondCompSection .wearthis-table tr {
+        max-width: 110px;
+    }
+
+    .custBeyondCompSection td,
+    .custBeyondCompSection th {
+   
+        text-align: left;
+        padding: 15px 0;
+        max-width: 110px;
+    }
+
+    .custBeyondCompSection .wearthis-borders {
+        border-bottom: 1px solid #CCC;
+    }
+
+    .custBeyondCompSection .wearthis-heading {
+        color: #000;
+        text-align: center;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        letter-spacing: .56px;
+        margin-bottom: 40px;
+    }
+
+    .custBeyondCompSection .wearthis-middle {
+        background-color: #fff;
+        text-align: center;
+        border-left: 2px solid #000;
+        border-right: 2px solid #000;
+    }
+
+    .custBeyondCompSection .wearthis-middle-bordertop {
+        border-top: 2px solid #000;
+    }
+
+    .custBeyondCompSection .wearthis-middle-borderbottom {
+        border-bottom: 2px solid #000;
+    }
+
+    .custBeyondCompSection .wearthis-last {
+        text-align: center;
+    }
+
+    .custBeyondCompSection .wearthis-middleImg,
+    .custBeyondCompSection .wearthis-lastImg {
+        width: 25px;
+        height: 24px;
+    }
+
+    .custBeyondCompSection .wearthis-jewelry {
+        color: #000;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.56px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: Tw Cen MT;
+    }
+
+    .custBeyondCompSection .wearthis-left {
+        color: #919191;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.22px;
+        text-transform: uppercase;
+        font-family: Tw Cen MT;
+    }
+
+    .custBeyondCompSection .wearthis-coordinates,
+    .custBeyondCompSection .wearthis-initial {
+        color: #000;
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .custBeyondCompSection .wearthis-reviewText {
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        text-decoration-line: underline;
+        text-underline-offset: 2px;
+        font-family: Helvetica;
+    }
+
+    .custBeyondCompSection .wearthis-btn {
+        background: #000;
+        display: flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        max-width: 300px;
+        width: 100%;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .custBeyondCompSection .wearthis-btn:hover {
+        font-weight: 700;
+        background-color: #191919;
+    }
+
+    .custBeyondCompSection .wearthis-btnInr {
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 450;
+        line-height: 16px;
+    }
+
+    .custBeyondCompSection .wearthis-reviews {
+        display: flex;
+        gap: 8px;
+        margin: 40px 0 12px;
+        justify-content: center;
+    }
+
+    .custBeyondCompSection .wearthis-topImg {
+        padding: 0 10px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .custBeyondCompSection .wearthis-Cont {
+            max-width: 342px;
+            width: 100%;
+        }
+
+        .custBeyondCompSection .wearthis-Cont {
+            padding: 29px 0;
+        }
+
+        .custBeyondCompSection .wearthis-heading {
+            color: #2d2d2d;
+            text-align: center;
+            font-size: 16px;
+            line-height: 26.4px;
+            margin-bottom: 10px;
+        }
+
+        .custBeyondCompSection .wearthis-jewelry {
+            color: #000;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+        }
+
+        .custBeyondCompSection .wearthis-left {
+            font-size: 10px;
+            letter-spacing: 1.85px;
+            font-family: Tw Cen MT;
+        }
+
+        .custBeyondCompSection .wearthis-initial,
+        .custBeyondCompSection .wearthis-coordinates {
+            font-size: 10px;
+        }
+
+        .custBeyondCompSection .wearthis-bottom {
+            display: none;
+        }
+
+        .custBeyondCompSection .wearthis-topImg {
+            width: 93px;
+            margin: auto;
+            display: flex;
+            padding: 0;
+        }
+    }
+}

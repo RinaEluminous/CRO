@@ -1,0 +1,28 @@
+.section-header nav.navbar ul.navbar-nav{
+  justify-content: flex-start !important;
+  gap: 0 80px;
+}
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .dropdown-wrapper .container{
+  max-width: 1050px !important;
+}
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .custItemImgBox {
+  flex: 0 0 64px;
+}
+
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .col-6 {
+  padding: 0 15px;
+}
+
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .dropdown-wrapper .container>.row {
+  margin: 0 -15px;
+}
+
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-product-menu .row {
+  justify-content: flex-end;
+}

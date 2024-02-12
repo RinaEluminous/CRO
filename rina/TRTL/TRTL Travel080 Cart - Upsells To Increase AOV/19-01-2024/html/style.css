@@ -1,0 +1,420 @@
+.custGetExtramsgMain{
+  margin-top: 12px;
+}
+.custGetExtramsgMain p{
+  color: #000;
+  font-family: "IBM Plex Mono";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.custGetExtramsgMain p strong{
+  font-weight: 700;
+}
+.custGetExtramsgMain .offerSlider{
+  display: block;
+  height: 5px;
+  background: #ddd;
+  position: relative;
+  margin: 8px 0;
+}
+.custGetExtramsgMain .offerSlider .activeRangeSlider{
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #243B60;
+  height: 5px;
+}
+.custGetExtramsgMain .offerTooltipMain{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  position: relative;
+}
+.custGetExtramsgMain .offerTooltipMain .insider{
+  position: relative;
+  display: flex;
+  padding: 4px 4px 6px 4px;
+  justify-content: flex-end;
+  align-items: center;
+  border-radius: 4px;
+  background: #243B60;
+
+  color: #FFF;
+  text-align: right;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.custGetExtramsgMain .offerTooltipMain:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-top: 18px solid #243B60;
+  border-bottom: 8px solid transparent;
+  transform: rotate(45deg);
+  right: 18px;
+  bottom: 10px;
+}
+.custGetExtramsgMain + .col-12 > .align-items-center {
+  border-top: 1px solid #e5e5e5;
+}
+
+
+.custCartFeatures {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px 10px;
+}
+
+.custCartFeatures .col-12 {
+  flex: 0 0 calc(50% - 5px);
+}
+
+.custCartFeatures .col-12 .row {
+  gap: 8px;
+  margin: 0;
+}
+
+.custCartFeatures .col-12 .row .col-2 {
+  flex: 0 0 32px;
+  padding: 0;
+}
+
+.custCartFeatures .col-12 .row .col-9 {
+  padding: 0;
+  width: calc(100% - 42px);
+  max-width: inherit;
+  font-size: 11px;
+  line-height: 16px;
+  font-family: "IBM Plex Sans";
+  font-weight: 400;
+  letter-spacing: 0.44px;
+  text-transform: lowercase;
+}
+.custCartFeatures .col-12 .row .col-9:first-letter {
+  text-transform: uppercase;
+}
+
+.custCartFeatures .col-12:nth-child(3) {
+  order: 1;
+}
+
+.custCartFeatures .col-12:nth-child(1) {
+  order: 2;
+}
+
+.custCartFeatures .col-12:nth-child(2) {
+  order: 3;
+}
+
+.custCartFeatures .col-12:nth-child(4) {
+  order: 4;
+}
+
+.custCartRecommendWraper {
+  margin: 0;
+}
+.custCartRecommendWraper h3 {
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.9px;
+  margin: 0 0 8px;
+}
+.custCartRecommendWraper ul.recommendList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+}
+
+.custCartRecommendWraper ul.recommendList li {
+  flex: 0 0 calc(33.33% - 3px);
+}
+
+.custCartRecommendWraper ul.recommendList li .itemContent {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  background: #F4EEEB;
+  position: relative;
+  overflow: hidden;
+}
+
+.custCartRecommendWraper .itemContent .imgBox img {
+  display: block;
+  width: 100%;
+}
+
+.custCartRecommendWraper .itemContent .addBtn {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 22px;
+  border-radius: 40px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.custCartRecommendWraper .itemContent .itemDetails {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.custCartRecommendWraper .itemContent .itemDetails .title {
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.72px;
+  text-transform: uppercase;
+  min-height: 32px;
+  max-width: 98px;
+}
+
+.custCartRecommendWraper .itemContent .itemDetails .price {
+  color: #A23636;
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
+  letter-spacing: 0.24px;
+}
+
+.custCartRecommendWraper a.custCloseCrossBlocks {
+  position: absolute;
+  right: 0px;
+  border: 0;
+  padding: 0;
+  color: #000;
+  text-decoration: none;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.custCartRecommendWraper .custSizeChart .custRow .cusColtSize{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+.custCartRecommendWraper .custSwitchBlocksSection {
+  width: 100%;
+}
+.custCartRecommendWraper .custSwatchWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 3px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.custCartRecommendWraper .custSwatchColorPattern {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 35px;
+  border: 2px solid #fff;
+  position: relative;
+  cursor: pointer;
+  background: darkkhaki;
+  margin-right: 0px;
+  background-size: cover;
+}
+
+.custCartRecommendWraper .custProducts-colour-variant-swatches {
+  padding: 8px; 
+  position: absolute;
+  top: 100%;
+  right: 0;
+  transition: all 0.5s;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background: rgb(244 238 235 / 95%);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.custCartRecommendWraper .custSwatchColorPattern.new-york {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/SehTXogA_100x.png?v=1668780978) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.fiji {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/81TBb13w_100x.png?v=1668779232) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.kyoto {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/NrA3P4qg_100x.png?v=1668780926) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.havana {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/fGnWiqig_100x.png?v=1668780819) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.paris {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/FUZUjSyA_100x.png?v=1668781038) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.seattle {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/LkBj346g_100x.png?v=1668781091) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.sydney {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/IoILGQfA_100x.png?v=1668781142) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.vancouver {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/3MOkT0kg_100x.png?v=1668781186) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.jaipur {
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/files/s-oumb5Q_100x.png?v=1668780875) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.camo{
+  background-image: url(https://trtltravel.com/cdn/shop/files/v4NXo3w_100x.png?v=1668779032) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.zebra{
+  background-image: url(https://trtltravel.com/cdn/shop/files/iQxMxe2g_100x.png?v=1668780365) !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.aqua{
+  background-color: #01b8c6 !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.grey{
+  background-image: url(https://trtltravel.com/cdn/shop/files/wDzd3Uxw_100x.png?v=1668781749) !important;  
+}
+.custCartRecommendWraper .custSwatchColorPattern.black{
+  background-color: #000000 !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.red{
+  background-color: #e50f2e !important;
+}
+.custCartRecommendWraper .custSwatchColorPattern.coral{
+  background-color: #e36a75 !important;
+}
+
+.custCartRecommendWraper .custSizeChart .custRow {
+  display: flex;
+  width: 100%;
+  justify-content: start;
+  margin: 0;
+  flex-wrap:wrap;
+}
+
+.custCartRecommendWraper .custSizeChart .custRow label.btn {
+  padding: 0px !important;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custCartRecommendWraper .custSizeChart {width: 100%;margin-top: 10px;margin-bottom: 10px;}
+
+.custCartRecommendWraper .custSizeChart .custRow .col-auto {
+  padding: 0;
+}
+
+.custCartRecommendWraper .custSizeChart a.button-add-toggle {
+  padding: 5px 13px;
+  line-height: 20px;
+  font-size: 12px;
+  display: inline-block;
+  background: #f9d85d;
+  color: #000;
+  text-transform: uppercase;
+  position: static;
+  width: 115px !important;
+  text-align: center;
+}
+
+.custCartRecommendWraper .custSwatchColorPattern.custSwatchActive:after{
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0071/0911/6022/t/50/assets/motif-tick-white.png);
+  top: -2px;
+  left: -2px;
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.custCartRecommendWraper .custProducts-colour-variant-swatches.custProductsOpen{
+  top: 0;
+}
+@media(max-width: 560px){  
+  #cart-offcanvas-content .input-group{
+    width: 125%;
+  }
+  #cart-offcanvas-content input.form-control[name="quantity"]{
+    width: 20px;
+    padding: 0;
+    position: relative;
+    z-index: 0;
+    margin-left: -5px;
+    flex: none;
+  }
+}
+@media(max-width: 374px){
+  .custCartRecommendWraper .itemContent .addBtn{
+    padding: 5px 10px;
+  }
+  .custCartRecommendWraper .itemContent .itemDetails .title{
+    letter-spacing: normal;
+    font-size: 10px;
+    line-height: 14px;
+    min-height: 26px;
+    max-width: 74px;
+  }
+  .custCartRecommendWraper .itemContent .itemDetails .price{
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .custCartRecommendWraper .itemContent .addBtn{
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .custCartRecommendWraper ul.recommendList{
+    gap: 5px;
+  }
+  .custCartRecommendWraper ul.recommendList li{
+    flex: 0 0 calc(33.33% - 2px);
+  }
+  .custCartRecommendWraper ul.recommendList li .itemContent{
+    padding: 5px;
+    gap: 5px;
+  }  
+}

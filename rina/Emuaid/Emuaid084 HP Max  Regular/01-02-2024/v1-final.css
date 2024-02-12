@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html body.index .bm-hero-body .bm-right-items.mobileitems,
+html body.index .bm-top-prod,
+html body.index .bm-hero-header {
+  display: none !important;
+}
+html body.index .shogun-root{
+  width: 100%;
+}
+html body.index .custMax_bmHeroHeader{
+  display: flex;
+  flex-direction: column;
+}
+html body.index .custMax_bmHeroHeader h2.bm-subheading {
+  margin: 0;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  line-height: 36px !important;
+  color: #292B2D !important;
+}
+html body.index .custMax_bmHeroHeader h1.bm-heading {
+  margin: 0 0 8px;
+  font-size: 56px !important;
+  line-height: 64px !important;
+  letter-spacing: -1.68px;
+  font-family: 'Inter';
+}
+html body.index .custMax_bmHeroHeader h1.bm-heading sup {
+    top: -10px;
+}
+
+html body.index .custMax_bmHeroHeader h2.bm-subheading br {
+  display: none;
+}
+
+html body.index .custMax_bmHeroHeader h2.bm-subheading em {
+  font-weight: 400;
+}
+
+html body.index .custMax_bmHeroProductWraper {
+  margin: 40px auto;
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  gap: 16px;
+  padding-bottom: 8px;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+html body.index .custMax_bmHeroProductWraper::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  height: 8px;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+}
+html body.index .custMax_bmHeroProductWraper::-webkit-scrollbar-thumb{
+  background: #001489;
+  border-radius: 4px;
+}
+
+html body.index .custMax_productCategory {
+  display: inline-flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;  
+  flex: 0 0 auto;
+}
+
+html body.index .custMax_productCategory h2 {
+  display: flex;
+  height: 48px;
+  align-items: center;
+  gap: 12px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+html body.index .custMax_productCategory .custProductItemLists {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  height: 100%;
+}
+
+html body.index .custMax_productCategory .custProductItemLists .custItemBox {
+  display: flex;
+  padding: 24px 10px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+  position: relative;
+  max-width: 250px;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #fff;
+}
+
+html body.index .custMax_productCategory .custItemBox h3 {
+  color: #001489;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+
+html body.index .custMax_productCategory .custItemBox .badge {
+  display: flex;
+  padding: 2px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 7px 7px 0px 0px;
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+html body.index .custMax_productCategory .custItemBox.highlight.red{
+  border-color: #C4222E;
+}
+html body.index .custMax_productCategory .custItemBox.highlight.red .badge {
+  background: #C4222E;  
+}
+html body.index .custMax_productCategory .custItemBox.highlight.blue{
+  border-color: #0069BC;
+}
+html body.index .custMax_productCategory .custItemBox.highlight.blue .badge {
+  background: #0069BC;
+}
+
+html body.index .custMax_productCategory .custItemBox  p {
+  margin: 0 0 10px;
+  color: #001489;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+html body.index .custMax_productCategory .custItemBox ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: auto;
+}
+
+html body.index .custMax_productCategory .custItemBox ul li {
+  padding: 2px 4px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 500;
+  color: #4C4C4C;
+  border-radius: 999px;
+  margin: 2px;
+}
+
+html body.index .custMax_productCategory .custItemBox .productImage {
+  width: 170px;
+  padding-top: 170px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+html body.index .custMax_productCategory .custItemBox .productImage img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  object-fit: cover;
+}
+
+html body.index .custMax_productCategory .custItemBox a.buyBtn {
+  display: flex;
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: auto;
+  padding: 8px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 1000px;
+  background: #E36018;
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+html body.index .custMax_productCategory.forResistantSkin{
+  background: rgba(224, 182, 159, 0.30);
+}
+html body.index .custMax_productCategory.forSensitive{
+  background: rgba(165, 194, 217, 0.30);
+}
+html body.index .custMax_productCategory.forMuscular{
+  background: rgba(208, 197, 223, 0.60);
+}
+html body.index .custMax_productCategory.forAcne{
+  background: rgba(213, 223, 197, 0.60);
+}
+
+html body.index .custMax_productCategory.forAcne h2,
+html body.index .custMax_productCategory.forMuscular h2 {
+  max-width: 250px;
+}
+
+@media(max-width: 767px){
+  html body.index .custMax_bmHeroProductWraper{
+    margin: 20px -15px;
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  html body.index .custMax_bmHeroHeader h1.bm-heading{
+    font-size: 40px !important;
+    line-height: 44px !important;
+    letter-spacing: -0.03em;
+    margin: 0 0 8px;
+  }
+  html body.index .custMax_bmHeroHeader h1.bm-heading sup {
+    top: -5px;
+  }
+  html body.index .custMax_bmHeroHeader h2.bm-subheading{
+    font-size: 20px !important;
+    line-height: 28px !important;
+    margin: 0 0 0px;
+  }
+  html body.index .custMax_productCategory h2{
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 320px;
+  }
+  html body.index .custMax_productCategory.forAcne h2, 
+  html body.index .custMax_productCategory.forMuscular h2,
+  html body.index .custMax_productCategory .custProductItemLists .custItemBox{
+    max-width: 220px;
+  }
+  html body.index .custMax_productCategory .custItemBox .productImage{
+    margin-top: 0px;
+  }
+}

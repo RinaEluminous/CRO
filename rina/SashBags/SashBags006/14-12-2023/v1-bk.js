@@ -27,7 +27,7 @@ var waitForJquery = setInterval(function() {
             '                </div>'+
             '            </div>'+
             '            <div class="col-md-6">'+
-            '            </div>'+
+            '            </div>'+                                                                                                            
             '        </div>'+
             '    </div>'+
             '    <div class="custBannerImg">'+
@@ -36,8 +36,6 @@ var waitForJquery = setInterval(function() {
             '</div>'+
             '<div class="custXmasWraper">'+
             '    <div class="container">'+
-
-            
             '        <div class="xmasInnerWraper">'+
             '            <div class="xmasContentMain">'+
             '                <div class="offerText">'+
@@ -86,7 +84,7 @@ var waitForJquery = setInterval(function() {
             var intCount = 0;
             var intSocialProofInterval = setInterval(function() {
                 intCount += 1;
-
+   
             if(jQuery('main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"]').length > 0 && jQuery(".custBannerMainContainer").length == 0){
 
                 jQuery(custHtmlOfHomePage).appendTo('main#MainContent [id*="shopify-section-template--"].shopify-section.section:first-child');
@@ -94,7 +92,7 @@ var waitForJquery = setInterval(function() {
                 jQuery('main#MainContent [id*="shopify-section-template--"] h2:contains(Fits all your basics)').parents('section.shopify-section').addClass('custFitAllSection');
 
                 clearInterval(intSocialProofInterval);
-            }
+            }   
 
             if (intCount === 80) {
                 clearInterval(intSocialProofInterval);
@@ -102,6 +100,7 @@ var waitForJquery = setInterval(function() {
         }, 30);
 
          }
+
         clearInterval(waitForJquery);
     }
 }, 50);

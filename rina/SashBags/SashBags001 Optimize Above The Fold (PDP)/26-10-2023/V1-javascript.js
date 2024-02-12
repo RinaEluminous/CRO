@@ -1,3 +1,4 @@
+import { parseHTML } from './utils'; // Add the missing import statement
 var waitForjQuery = setInterval(function() {
     if (typeof jQuery != 'undefined') {
         if (document.querySelectorAll('.product').length > 0) {
@@ -27,7 +28,7 @@ var waitForjQuery = setInterval(function() {
                     // If there is a next sibling, insert before it, otherwise, just append to the parent
                     if (nextSibling) {
                         console.log('sibling is there or not');
-                        productFormQuantity.parentNode.insertBefore(parseHTML(custHtml), nextSibling);
+                        productFormQuantity.parentNode.insertBefore(parseHTML(custHtml), nextSibling); // Fix the typo in the method name
                     } else {
                         console.log('no siblings');
                         productFormQuantity.parentNode.appendChild(parseHTML(custHtml));

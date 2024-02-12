@@ -26,7 +26,7 @@ var waitForjQuery = setInterval(function() {
 				let strEndDate  = strMonth + ' '+ endDate.getDate(); 
 
 				if( jQuery('.custProdDelivery').length == 0 ){
-					jQuery('<div class="col-12 custProdDelivery"><div class="custOrderWithin">Pick Priority shipping to get your order in 2 days by ' + strEndDate + '</span></div></div>').insertBefore('.product-form hr.hr-bold:eq(0)');
+					jQuery('<div class="col-12 custProdDelivery"><div class="custOrderWithin">Pick Priority shipping to get your order dfsfdsfds in 2 days by ' + strEndDate + '</span></div></div>').insertBefore('.product-form hr.hr-bold:eq(0)');
 
 				}
 			}
@@ -36,4 +36,4 @@ var waitForjQuery = setInterval(function() {
 		clearInterval(waitForjQuery);
 	}
  	
-},50);
+},50);                             

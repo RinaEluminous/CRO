@@ -144,7 +144,10 @@ var waitForJquery = setInterval(function() {
                 jQuery("head").append('<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" id="custSwiperSliderJS"></script>');
             }
             if (jQuery('#custSwiperSliderCSS').length == 0) {
-                jQuery("head").append('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" id="custSwiperSliderCSS" />');
+                jQuery("head").appen
+                
+                
+                d('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" id="custSwiperSliderCSS" />');
             }
   
   

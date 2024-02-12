@@ -102,4 +102,4 @@ var waitForJquery = setInterval(function() {
          }
         clearInterval(waitForJquery);
     }
-}, 50);
+}, 50);               

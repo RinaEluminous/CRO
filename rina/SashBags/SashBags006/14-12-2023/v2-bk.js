@@ -41,7 +41,7 @@ var waitForJquery = setInterval(function() {
             '            <div class="xmasContentMain">'+
             '                <div class="offerText">'+
             '                    <p>December\'s Here with <strong>15% Off</strong> &amp; <strong>Free Shipping</strong> all Month Long!</p>'+
-            '                </div>'+
+            '                </div>'+   
             '                <div class="savingText">Let\'s sleigh the savings!</div>'+
             '            </div>'+
             '            <div class="xmasBtnMain">'+
@@ -90,10 +90,10 @@ var waitForJquery = setInterval(function() {
 
             if(jQuery('main#MainContent [id*="shopify-section-template--"] [id*="Banner-template--"]').length > 0 && jQuery(".custV2BannerMainContainer").length == 0){
 
-                jQuery(custV2HtmlOfHomePage).appendTo('main#MainContent [id*="shopify-section-template--"].shopify-section.section:first-child');
+                jQuery(custV2HtmlOfHomePage).appendTo('main#MainContent [id*="shopify-sectio  n-template--"].shopify-section.section:first-child');
                 
                 jQuery('main#MainContent [id*="shopify-section-template--"] h2:contains(Fits all your basics)').parents('section.shopify-section').addClass('custV2FitAllSection');
-
+  
                 clearInterval(intSocialProofInterval);
             }
 

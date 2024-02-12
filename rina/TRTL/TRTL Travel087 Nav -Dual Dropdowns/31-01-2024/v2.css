@@ -1,0 +1,107 @@
+.section-header nav.navbar ul.navbar-nav{
+    justify-content: flex-start !important;
+    gap: 0 80px;
+  }
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .dropdown-wrapper .container{
+    max-width: 1050px !important;
+  }
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .custItemImgBox {
+    flex: 0 0 64px;
+  }
+  
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .col-6 {
+    padding: 0 15px;
+  }
+  
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .dropdown-wrapper .container>.row {
+    margin: 0 -15px;
+  }
+  
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-product-menu .row {
+    justify-content: flex-end;
+  }
+  
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 1.08px;
+    text-transform: uppercase;
+  }
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .text-info{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+  }
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-product-menu h5{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+  .section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-product-menu p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  
+  /* mobile css */
+  .section-header .offcanvas .offcanvas-body .collapse.show {
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 10px;
+  }
+  .section-header .offcanvas .offcanvas-body .collapse.show > .row > .col-6:last-child{
+    width: 100%;
+  }
+  .section-header .offcanvas .offcanvas-body .collapse.show > .row > .col-6:last-child .tile-callout .image-wrapper{
+    display: none;
+  }
+  
+  .section-header .offcanvas .offcanvas-body .collapse.show > .row > .col-6:last-child .tile-callout p a.btn{
+    margin: 0 -24px;
+  }
+  .section-header .offcanvas .offcanvas-body .collapse.show > .row > .col-6:last-child .tile-callout p a.btn,
+  .section-header .offcanvas .offcanvas-body .collapse.show > .row > .col-6:last-child .tile-callout h5{
+    display: flex;
+    padding: 12px 16px !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #FAD951;
+    font-size: 17px !important;
+    line-height: 24px !important;
+  }
+  .section-header .offcanvas .offcanvas-body .tile-product-menu .height-medium{
+    padding-top: 100%;
+  }
+  .section-header .offcanvas .offcanvas-body .tile-product-menu p.text-info{
+    font-family: IBM Plex Sans !important;
+    font-weight: 400 !important;
+    line-height: 16px;
+  }
+  .section-header .offcanvas .offcanvas-body .tile-product-menu h5{
+    font-family: IBM Plex Sans !important;
+    line-height: 20px;
+    font-weight: 500 !important;
+  }
+  
+.offcanvas .offcanvas-body .collapse .tile-product-menu .product-flashtags-container .flashtag-discount,
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .flashtag-discount {
+  display: none;
+}
+.offcanvas .offcanvas-body .collapse .tile-product-menu .image-cover + .product-flashtags-container .flashtag-discount,
+.offcanvas .offcanvas-body .collapse .tile-product-menu .product-flashtags-container .flashtag-flashtag-new-in,
+.offcanvas .offcanvas-body .collapse .tile-product-menu .product-flashtags-container .flashtag-flashtag-best-seller,
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .flashtag-flashtag-new-in,
+.section-header nav.navbar ul.navbar-nav li.nav-item.has-megamenu .megamenu .tile-line-item-menu .flashtag-flashtag-best-seller {
+  display: block;
+}
