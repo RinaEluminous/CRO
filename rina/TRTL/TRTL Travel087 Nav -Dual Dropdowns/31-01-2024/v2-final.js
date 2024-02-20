@@ -370,7 +370,7 @@ var waitForjQuery = setInterval(function() {
             }
             
             //after reviews hide remaining div  
-             if( jQuery('.offcanvas-body .w-100  .g-4 a:contains("Join the Community")').length > 0){
+             if(jQuery('.offcanvas-body .w-100  .g-4 a:contains("Join the Community")').length > 0){
                 jQuery('.offcanvas-body .w-100 .g-4 a:contains("Press")').parent().hide();
                 jQuery('.offcanvas-body .w-100 .g-4 a:contains("Blog")').parent().hide();
                 jQuery('.offcanvas-body .w-100 .g-4 a:contains("Contact Us")').parent().hide();

@@ -1,0 +1,11 @@
+.product-container .col.estimated-delivery.visible .countdown-container.bg-beige {
+    text-align: left !important;
+    padding: 7px !important;
+}
+.custOrderWithinMsg span {
+    color: #243B60;
+    font-weight: 700;
+}
+#product-container-template--15250589319266__main .estimated-delivery {
+    opacity: 1 !important;
+}

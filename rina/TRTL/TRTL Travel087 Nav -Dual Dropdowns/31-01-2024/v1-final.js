@@ -346,6 +346,7 @@ var waitForjQuery = setInterval(function() {
                 '                </div>'+
                 '            </div>'+
                 '        </div>'+
+        
                 '    </div>'+
                 '</div>';
 

@@ -1,101 +1,48 @@
 var waitForJquery = setInterval(function() {
     var strURL = window.location.href;
-    if (typeof jQuery != "undefined") {
    if (strURL.indexOf('/products/trtl-travel-pillow') > 0) {
        console.log('PDP Page: TRTL Travel Pillow');
 
-       var intRunCount = 0;
-       var intRunInterval = setInterval(function() {
-           intRunCount += 1;
+       // var intRunCount = 0;
+       // var intRunInterval = setInterval(function() {
+       //     intRunCount += 1;
 
        trtlePillowPdpNewDesign();
-       generateShipingWrapperSection();
-       updateImgHeight();
-       addVideoSlider();
 
-       jQuery(window).resize(function() {
-           updateImgHeight();
-       });
+   //     if (intRunCount === 150) {
+   //         clearInterval(intRunInterval);
+   //     }
 
-       if (intRunCount === 50) {
-           clearInterval(intRunInterval);
-       }
-
-   }, 30);
+   // }, 30);
        
    }
-   function generateShipingWrapperSection() {
-   //custShippingWraper section 
-   var arrPurchaseCount =['14','15','18','19','17','20','25','24'];
-   var intRandomPurchaseCount = arrPurchaseCount[Math.floor(Math.random() * arrPurchaseCount.length)];
-   console.log('intRandomPurchaseCount >>>>>>>>>>>>>>>>>>',intRandomPurchaseCount);
 
-   var strCurrentTime = new Date();
-   var strCurrentDay = strCurrentTime.getUTCDay();
-   var intCurrentHour = strCurrentTime.getUTCHours();
-   var intCurrentMinute = strCurrentTime.getUTCMinutes();
-  
-   let strDeliveryDay = '';
-   let intRemainingHours='';
- 
-   //var arrDeliveryDays = ['Tuesday','Tuesday','Wednesday', 'Thursday', 'Friday', 'Monday', 'Tuesday'];
-   var arrRemainingHours = [47, 23, 23, 23, 23, 23, 71 ];
+   function trtlePillowPdpNewDesign(){
+       //custShippingSwiperBadge section 
+       if(jQuery('body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media').length > 0 && jQuery('.custShippingSwiperBadge').length == 0){
 
-   var intCurrentIndex = strCurrentDay;
-   var intNextDayIndex = (intCurrentIndex + 1) % 7;
+           jQuery('<div class="custShippingSwiperBadge">2-5 Day Shipping</div>').prependTo('body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media');
 
-   // Check if current hour is greater than or equal to 14
-   if (intCurrentHour >= 14) {
-       // strDeliveryDay = arrDeliveryDays[intNextDayIndex];
-       intRemainingHours = arrRemainingHours[intNextDayIndex];
-       intRemHr =14 + intRemainingHours - intCurrentHour ;
-   } else {
-       // strDeliveryDay = arrDeliveryDays[intCurrentIndex];
-       intRemainingHours =arrRemainingHours[intCurrentIndex];
-       intRemHr = 13 - intCurrentHour;
-   }   
+       }
+       //custShippingWraper section 
 
-    // Calculate remaining minutes
-   intRemMin = 60 - intCurrentMinute;
-   if(intRemHr !== '' && intRemHr !== undefined && intRemMin !== '' && intRemMin !== undefined && intRandomPurchaseCount !== '' && intRandomPurchaseCount !== undefined) {
-   
-    
-       strCurrentTime.setDate(strCurrentTime.getDate() + Math.floor(intRemainingHours / 24));
-       strCurrentTime.setHours(strCurrentTime.getHours() + intRemainingHours % 24);
-       strCurrentTime.setMinutes(strCurrentTime.getMinutes() + intRemMin);
-       
-       strDeliveryDay = strCurrentTime.toLocaleString('en-US', { weekday: 'short' });
-       var strDeliveryMonth = strCurrentTime.toLocaleString('en-US', { month: 'short' });
-       var strCurrentTimeNum = strCurrentTime.getDate();
        var strShippingWraperHtml ='<div class="custShippingWraper">'+
        '    <div class="inside">'+
        '        <div class="shippingTime">'+
        '            <div class="status available"></div>'+
        '            <div>'+
-       '                Ships by <b>'+strDeliveryDay+',' + strDeliveryMonth + ' ' + strCurrentTimeNum + 'th</b>'+
+       '                Ships by <b>Thu, Aug 17th</b>'+
        '            </div>'+
        '        </div>'+
-       '        <div class="purchaseCount"><b>'+intRandomPurchaseCount+' purchased</b> in the last 24 hours</div>'+
+       '        <div class="purchaseCount"><b>20 purchased</b> in the last 24 hours</div>'+
        '    </div>'+
        '</div>';
 
-   }
-
-        if(jQuery('body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description').length > 0 && jQuery('.custShippingWraper').length == 0){
-       jQuery(strShippingWraperHtml).insertAfter('body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description');
-
-   }
-
-    }
-
-   function trtlePillowPdpNewDesign(){
-
-       //custShippingSwiperBadge section 
-       if(jQuery('body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media').length > 0 && jQuery('.custShippingSwiperBadge').length == 0){
-            jQuery('<div class="custShippingSwiperBadge">2-5 Day Shipping</div>').prependTo('body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media');
+       if(jQuery('body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description').length > 0 && jQuery('.custShippingWraper').length == 0){
+           jQuery(strShippingWraperHtml).insertAfter('body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description');
 
        }
-       
+
        //custScientficallyProvenMain Section 
        
        var strScientficallyProvenMainHtml = '<div class="custScientficallyProvenMain">'+
@@ -654,39 +601,19 @@ var waitForJquery = setInterval(function() {
            jQuery('.custPillowProduct .product-description .content > span').insertAfter('body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1');
        }
 
-      //add class for free standard shipping 
+       if(jQuery('.custShippingWraper').length > 0 && jQuery('.product-description').length > 0){
+           jQuery('.custShippingWraper').insertBefore('.product-description');
+       }
+
+   
+       //add class for free standard shipping 
        if(jQuery('p:contains(Free standard shipping within the U.S.)').parents('.col-12').length > 0){
            jQuery('p:contains(Free standard shipping within the U.S.)').parents('.col-12').addClass('custFeatures');   
        }
        
-        //add class for span tag
-        if(jQuery(".hide-content span:contains('Wake up refreshed at your destination.')").length > 0){
-            jQuery(".hide-content span:contains('Wake up refreshed at your destination.')").addClass("custSubPara");
-        }
-
-        //change the position of custSubPara
-        if(jQuery("#product-form-template--21678926332097__main h1:contains('TRTL TRAVEL PILLOW')").length > 0 && jQuery('.custSubPara').length > 0){
-            jQuery('.custSubPara').insertAfter("#product-form-template--21678926332097__main h1:contains('TRTL TRAVEL PILLOW')");
-        }
-
-        //change position of shipping wraper and features
-
-        if( jQuery('.product-description').length > 0 && jQuery('.custShippingWraper').length > 0 ){
-            jQuery('.custShippingWraper').insertBefore('.product-description');
-        }
-
-        if(jQuery('.custFeatures').length > 0 && jQuery('.custShippingWraper').length > 0 ){
-            jQuery('.custFeatures').insertAfter('.custShippingWraper');
-        }
-
-        //add span tag after 10,000
-
-        if(jQuery(".container-fluid .text-center h3:contains('10,000+')").length > 0) {
-            jQuery("h3:contains('10,000+')").html(function(_, html) {
-                return html.replace(/(10,000\+ 5-STAR REVIEWS)/, '<span>$1</span>');
-            });
-        }
-       
+       if(jQuery('.custFeatures').length > 0 && jQuery('.custShippingWraper').length > 0 ){
+           jQuery('.custFeatures').insertAfter('.custShippingWraper');
+       }
 
        //add slider
        if(jQuery('#custSwiperSliderJS').length == 0){
@@ -703,7 +630,6 @@ var waitForJquery = setInterval(function() {
            if (typeof Swiper !== 'undefined') {
                var swiper = new Swiper(".custBrandSwiperReview", {
                    cssMode: true,
-                   spaceBetween: 40,
                    navigation: {
                      nextEl: ".swiper-button-next",
                      prevEl: ".swiper-button-prev",
@@ -726,126 +652,6 @@ var waitForJquery = setInterval(function() {
        }, 70);
     
    }
-
-   function addVideoSlider() {
-
-    var videoSliderHtml='<div class="custVideoSlider">'+
-    '    <div class="swiper-container">'+
-    '        <div class="swiper-wrapper">'+
-    '            <div class="swiper-slide">'+
-    '                <button class="playBtn">'+
-    '                    <div class="circle">'+
-    '                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-    '                            <path d="M22.7524 10.0499L3.86361 0.306386C2.30743 -0.489961 0 0.306386 0 2.22699V21.7141C0 23.4941 2.14645 24.5715 3.86361 23.6815L22.7524 13.938C24.4159 13.0479 24.4159 10.94 22.7524 10.0499Z" fill="#FCFCFC"></path>'+
-    '                        </svg>'+
-    '                    </div>'+
-    '                </button>'+
-    '                <video class="video" src="https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/videos/video-1.mp4" preload="auto" loop muted></video>'+
-    '            </div>'+
-    '            <div class="swiper-slide">'+
-    '                <button class="playBtn">'+
-    '                    <div class="circle">'+
-    '                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-    '                            <path d="M22.7524 10.0499L3.86361 0.306386C2.30743 -0.489961 0 0.306386 0 2.22699V21.7141C0 23.4941 2.14645 24.5715 3.86361 23.6815L22.7524 13.938C24.4159 13.0479 24.4159 10.94 22.7524 10.0499Z" fill="#FCFCFC"></path>'+
-    '                        </svg>'+
-    '                    </div>'+
-    '                </button>'+
-    '                <video class="video" src="https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/videos/video-2.mp4" preload="auto" loop muted></video>'+
-    '            </div>'+
-    '            <div class="swiper-slide">'+
-    '                <button class="playBtn">'+
-    '                    <div class="circle">'+
-    '                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-    '                            <path d="M22.7524 10.0499L3.86361 0.306386C2.30743 -0.489961 0 0.306386 0 2.22699V21.7141C0 23.4941 2.14645 24.5715 3.86361 23.6815L22.7524 13.938C24.4159 13.0479 24.4159 10.94 22.7524 10.0499Z" fill="#FCFCFC"></path>'+
-    '                        </svg>'+
-    '                    </div>'+
-    '                </button>'+
-    '                <video class="video" src="https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/videos/video-3.mp4" preload="auto" loop muted></video>'+
-    '            </div>'+
-    '            <div class="swiper-slide">'+
-    '                <button class="playBtn">'+
-    '                    <div class="circle">'+
-    '                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">'+
-    '                            <path d="M22.7524 10.0499L3.86361 0.306386C2.30743 -0.489961 0 0.306386 0 2.22699V21.7141C0 23.4941 2.14645 24.5715 3.86361 23.6815L22.7524 13.938C24.4159 13.0479 24.4159 10.94 22.7524 10.0499Z" fill="#FCFCFC"></path>'+
-    '                        </svg>'+
-    '                    </div>'+
-    '                </button>'+
-    '                <video class="video" src="https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/videos/video-1.mp4" preload="auto" loop muted></video>'+
-    '            </div>'+
-    '        </div>'+
-    '    </div>'+
-    '</div>';
-
-    if( jQuery('.product-description').length > 0 && jQuery('.custVideoSlider').length == 0 ){
-        jQuery(videoSliderHtml).insertBefore('.product-description');
-        jQuery('').insertAfter('.custVideoSlider');
-    }
-
-    if(jQuery('#custVideoSliderJS').length == 0){
-        jQuery( "head" ).append( '<script src="https://unpkg.com/video.js/dist/video.min.js" id="custVideoSliderJS"></script>');
-    }
-    
-    var intVideoSwiperCnt = 0;
-    var intVideoSwiperInterval = setInterval(function() {
-        intVideoSwiperCnt += 1;
-
-        if (typeof Swiper !== 'undefined') {
-         
-            var swiper = new Swiper(".custVideoSlider .swiper-container", {
-                slidesPerView: 3.2,
-                spaceBetween: 8,
-                loop: true,
-                autoplay: {
-                  delay: 5000,
-                  disableOnInteraction: false,
-                }
-              });
-          
-              var videos = document.querySelectorAll(".custVideoSlider .video");
-          
-              videos.forEach((video, index) => {
-                video.addEventListener("loadeddata", () => {
-                  if (index === 0) {
-                    video.play();
-                  }
-                });
-              });
-          
-              swiper.on("slideChangeTransitionStart", () => {
-                var currentVideo = swiper.slides[swiper.realIndex].querySelector(".custVideoSlider .video");
-                var videos = document.querySelectorAll(".custVideoSlider .video");
-          
-                videos.forEach((video) => {
-                  video.pause();
-                  video.currentTime = 0;
-                });
-          
-                if (currentVideo) {
-                  currentVideo.play();
-                }
-              });
-            clearInterval(intVideoSwiperInterval);
-        }
-
-        if (intVideoSwiperCnt === 50) {
-            clearInterval(intVideoSwiperInterval);
-        }
-        
-       
-
-    }, 70);
-
-   
-}
-
-   function updateImgHeight() {
-    var imgHeight = jQuery('.custBrandReviewMain .custReviewBox .imgCol img').outerHeight();    
-    console.log('img height >> ' + imgHeight);
-    jQuery('.custBrandReviewMain .custSliderControls').css({
-        height: imgHeight + 'px'
-    });
-    }
-
    clearInterval(waitForJquery);
-   }
+
 }, 50);

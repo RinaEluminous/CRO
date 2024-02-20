@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
 .hideContent,
 body.template-product #MainContent .product-container .estimated-delivery+div {
   display: none;
@@ -21,7 +21,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   gap: 10px;
   border-radius: 100px;
   border: 1px solid #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -34,17 +34,28 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   max-width: 204px;
 }
 
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custScientficallyProvenMain + div,
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .row .col-6:nth-child(3),
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(1),
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(2),
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(3) {
   display: none !important;
 }
-
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures{
+  margin: 0 !important;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .row {
+  margin: 0 -2px;
+}
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 {
   width: 33.33%;
+  padding: 0 8px;
 }
-
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3{
+  margin: 0 !important;
+}
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3 .col-3 {
   width: 35px;
 }
@@ -66,7 +77,7 @@ body.template-product #MainContent .product-container .product-media[id*="__main
   top: 20px;
   color: #000;
   text-align: center;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -87,7 +98,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 }
 
 .custShippingWraper {
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 .custShippingWraper .inside {
@@ -104,7 +115,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custShippingWraper .shippingTime {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +135,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custShippingWraper .purchaseCount {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 450;
@@ -165,15 +176,15 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   display: flex;
   gap: 10px;
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 24px;
-  /* 120% */
   text-transform: uppercase;
   align-items: center;
   margin: 0 0 10px;
+  letter-spacing: normal;
 }
 
 .custScientficallyProvenMain {
@@ -187,9 +198,8 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  /* 171.429% */
-  letter-spacing: 0.7px;
-  margin: 0 0 12px;
+  letter-spacing: 0.5px;
+  margin: 0 0 10px;
 }
 
 .custScientficallyProvenMain .content p:last-child {
@@ -208,7 +218,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custSeeAction .inside h2 {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -278,7 +288,8 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 }
 
 .custBrandReviewMain {
-  padding-top: 80px;
+  padding-top: 10px;
+  padding-bottom: 16px;
 }
 
 .custBrandReviewMain .custReviewBox {
@@ -288,7 +299,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   border-radius: 24px;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
-  margin: 18px;
+  margin: 15px;
 }
 
 .custBrandReviewMain .custReviewBox .imgCol,
@@ -307,11 +318,13 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custBrandReviewMain .custReviewBox .reviewContentBox .reviewTitle {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 32px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%;
+  letter-spacing: normal;
+  text-transform: uppercase;
 }
 
 .custBrandReviewMain .custReviewBox .reviewContentBox .reviewQuote {
@@ -321,6 +334,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  letter-spacing: normal;
 }
 
 .custBrandReviewMain .custReviewBox .reviewContentBox .reviewFooter {
@@ -333,7 +347,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custBrandReviewMain .custReviewBox .reviewContentBox .reviewFooter .name {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -345,7 +359,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   align-items: center;
   gap: 4px;
   color: #FBB500;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -365,7 +379,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   align-items: center;
   gap: 10px;
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -378,9 +392,9 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   text-decoration: none;
   margin-top: 24px;
 }
-
 .custBrandReviewMain .swiper.custBrandSwiperReview {
-  overflow: visible;
+  /* overflow: visible; */
+  margin: -15px;
 }
 
 .custBrandReviewMain .custReviewBox .imgCol {
@@ -432,20 +446,24 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
 
 .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   margin: 0;
+  letter-spacing: normal;
 }
 
 .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p+p {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .custReviewMainBoxWraper .custTestiWrapper .custTestiBox b {
   display: block;
+  font-weight: 700;
 }
 
 .custReviewMainBoxWraper .custTestiWrapper .custTestiStarQuote {
@@ -485,7 +503,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   border-radius: 100px;
   border: 1px solid #000;
   color: var(--color-black, #000);
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -521,7 +539,7 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   flex: 0 0 auto;
   color: #000;
   text-align: center;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -587,7 +605,7 @@ body.template-product #MainContent [id*="__media-text-a"]{
 
 .custUltimateTravel .custTextLeft p {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -638,7 +656,7 @@ body.template-product #MainContent [id*="__media-text-a"]{
   align-items: center;
   gap: 10px;
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -658,12 +676,12 @@ body.template-product #MainContent [id*="__media-text-a"]{
 
 .custUltimateTravel .custText p {
   color: #444343;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
-  /* 24px */
+  letter-spacing: normal;
 }
 
 .custUltimateTravel .custUnmatched .custText {
@@ -695,7 +713,7 @@ body.template-product #MainContent [id*="__media-text-a"]{
 }
 
 .custUltimateTravel .custText ol {
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   padding-left: 20px;
   color: #444343;
   font-size: 16px;
@@ -705,12 +723,12 @@ body.template-product #MainContent [id*="__media-text-a"]{
 .custUltimateTravel .custUnmatched,
 .custUltimateTravel .custCompact {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .custUltimateTravel .custMachine *,
 .custUltimateTravel .custCompact * {
-  z-index: 0;
+  z-index: 1;
 }
 
 .custUltimateTravel .custUnmatched {
@@ -807,7 +825,7 @@ body.template-product #MainContent [id*="__media-text-a"]{
 
 .custUltimateTravel .custTestiWrapper .custTestiBox p {
   color: #000;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -856,7 +874,7 @@ body.template-product #MainContent [id*="__media-text-a"]{
   border-radius: 100px;
   border: 1px solid #000;
   color: var(--color-black, #000);
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -908,12 +926,15 @@ body.template-product #MainContent [id*="__media-text-a"]{
   z-index: -1;
 }
 body.template-product #MainContent .product-description {
-  padding-bottom: 20px;
-  border-bottom: 0px solid #A3ADBB;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #A3ADBB;
+  border-top: 1px solid #A3ADBB;
+  margin: 0 !important;
 }
 body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1 + span.custSubPara {
   margin: 12px 0 8px;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -938,10 +959,11 @@ body.template-product #MainContent .product-description .content::after{
 body.template-product #MainContent .product-description .content.show-content::after{
   display: none;
 }
+body.template-product #MainContent .product-description .content h6 span,
 body.template-product #MainContent .product-description .content h6{
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600 !important;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
@@ -971,9 +993,9 @@ body.template-product #MainContent .product-description .content h6{
   height: 80px;
 }
 .custMayAlsoLikeWraper h2{
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 48px;
   letter-spacing: 0.02em;
   text-align: center;
@@ -1035,14 +1057,14 @@ body.template-product #MainContent .product-description .content h6{
   justify-content: center;
   font-size: 15px;
   font-weight: 500;
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   line-height: 24px;
   margin: 0 0 8px;
   gap: 8px;
   flex-wrap: wrap;
 }
 .custMayAlsoLikeWraper .itemBox .itemContent .available {
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 16px;
@@ -1101,19 +1123,19 @@ body.template-product #MainContent [id*="__trustbar-columns-b"] [style="backgrou
 body.template-product #MainContent [id*="__trustbar-columns-b"] [style="background-color: #f5eeeb;"] h3{
   color: #fff;
 }
-.custPillowProduct .product-description ul.custProductDescListings,
-.custPillowProduct .product-description .hide-content ul.custProductDescListings{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description ul.custProductDescListings,
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content ul.custProductDescListings{
   display: none;
 }
-.custPillowProduct .product-description h6 ~ ul:not(.custProductDescListings){
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description h6 ~ ul:not(.custProductDescListings){
   display: block;
 }
 
-.custPillowProduct .product-description .content p{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .content p{
   font-size: 16px;
   font-weight: 400 !important;
   line-height: 21px;
-  letter-spacing: 0em;
+  letter-spacing: 0.6px;
   margin: 0 0 10px;
 }
 
@@ -1150,7 +1172,7 @@ body.template-product #MainContent [id*="__trustbar-columns-b"] [style="backgrou
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light p,
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light p + div p,
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light p + div p em{
-  font-family: 'IBM Plex Sans';
+  font-family: ibm-plex-sans, sans-serif;
   margin: 0 0 12px !important;
 }
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light h3,
@@ -1160,7 +1182,7 @@ body.template-product #MainContent [id*="__trustbar-columns-b"] [style="backgrou
   letter-spacing: normal;
 }
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light h3{  
-  font-weight: 500 !important;
+  font-weight: 600 !important;
 }
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light p{
   font-weight: 400;
@@ -1169,11 +1191,16 @@ body.template-product #MainContent [id*="__trustbar-columns-b"] [style="backgrou
   font-size: 14px;
   font-weight: 400;
   line-height: 16.8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 .custPDPbrandBodymain .section-reviews-slider .swiper-slide .bg-light p + div p em{
-  font-size: 12px;
+  font-size: 12px !important;
   font-weight: 400;
   line-height: 14.4px;
+  margin: 0 !important;
 }
 .custPDPbrandBodymain .section-reviews-slider .swiper-button-prev,
 .custPDPbrandBodymain .section-reviews-slider .swiper-button-next{
@@ -1207,16 +1234,19 @@ body.template-product [class*="swiper-button-"]{
 
 .custBrandReviewMain .custSliderControls {
   position: absolute;
-  width: 50%;
-  top: 0;
-  bottom: 0;
-  right: 0;
+  width: calc(50% - 15px);
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
 }
 .custBrandReviewMain .custSliderControls span.swiper-pagination-bullet {
   width: 80px;
   height: 4px;
   border-radius: 4px;
   background: #fff;
+}
+.custBrandReviewMain .custSliderControls .swiper-pagination{
+  bottom: 20px !important;
 }
 .custUltimateTravel .custUnmatched .custImgBox.mob {
   display: none !important;
@@ -1292,12 +1322,72 @@ body.template-product [class*="swiper-button-"]{
   line-height: 110%;
   /* 57.2px */
 }
-.custPillowProduct .product-description .hide-content{
-  max-height: 10rem !important;
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content{
+  max-height: 20rem !important;
 }
-.custPillowProduct .product-description .show-content{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .show-content{
   max-height: 100rem !important;
 }
+
+.custVideoSlider {
+  width: 100%;
+  /* height: 260px; */
+  overflow: hidden;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #A3ADBB;
+  margin-top: 0;
+}
+
+.custVideoSlider .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.custVideoSlider .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custVideoSlider .video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  position: relative;
+  z-index: 0;
+}
+.custVideoSlider .swiper-slide div.playBtn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%) translateZ(1px);
+  -ms-transform: translate(-50%,-50%) translateZ(1px);
+  transform: translate(-50%,-50%) translateZ(1px);
+  background-color: rgba(0,0,0,0.52);
+  pointer-events: all;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  z-index: 1;
+}
+.custVideoSlider .swiper-slide div.playBtn svg{
+  width: 15px;
+  height: 18px;
+}
+.custUltimateTravel .row.custMachine{
+  position: relative;
+  z-index: 1;
+}
+
 @media(max-width: 1399px){
   .custUltimateTravel .custTextWrapper.custUnmatchedDeskImg{
     background-size: 180px;
@@ -1457,7 +1547,7 @@ body.template-product [class*="swiper-button-"]{
   .custUltimateTravel .custTextLeft p {
     font-size: 20px;
   }
-  .custPillowProduct h1.h3 {
+  body.template-product #MainContent [id*="__main"] .product-container h1.h3 {
     display: none !important;
   }
   .custUltimateTravel .row.custMachine {
@@ -1563,8 +1653,11 @@ body.template-product [class*="swiper-button-"]{
     margin: 8px 0 !important;
   }
   body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1 + span {
-    font-size: 15px;
-    line-height: 21px;
+    font-size: 15px !important;
+    line-height: 21px !important;
+  }
+  .custShippingWraper .inside{
+    gap: 8px;
   }
   .product-form #variant-select {
     margin-top: -8px;
@@ -1578,8 +1671,9 @@ body.template-product [class*="swiper-button-"]{
   .custShippingWraper {
     margin-bottom: 0px;
   }
-  .custFeatures {
-    margin: 24px 0 !important;
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
   }
   body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 {
     width: 100%;
@@ -1597,8 +1691,9 @@ body.template-product [class*="swiper-button-"]{
     font-size: 12px !important;
     line-height: 16px;
     font-weight: 400;
-    font-family: 'IBM Plex Sans';
-    padding: 0;
+    /* font-family: 'IBM Plex Sans'; */
+    font-family: ibm-plex-sans, sans-serif;
+    padding: 0 !important;
   }
   body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3 {
     margin: 0 0 8px !important;
@@ -1624,7 +1719,7 @@ body.template-product [class*="swiper-button-"]{
     font-size: 15px;
   }
   .custMachine {
-    gap: 15px;
+    gap: 24px !important;
   }  
   .custUltimateTravel .custTextWrapper.custUnmatchedDeskImg{
     background-size: 180px !important;
@@ -1638,7 +1733,7 @@ body.template-product [class*="swiper-button-"]{
     height: 50px;
   }
   .custBrandReviewMain {
-    padding-top: 60px;
+    padding-top: 50px;
   }
   .custBrandReviewMain .custReviewBox{
     flex-direction: column;
@@ -1659,9 +1754,14 @@ body.template-product [class*="swiper-button-"]{
     line-height: 24px;
   }
   .custBrandReviewMain .custReviewBox .reviewContentBox .reviewQuote{
-    font-family: 'IBM Plex Sans';
+    font-family: ibm-plex-sans, sans-serif;
     font-size: 18px;
     line-height: 28px;
+    letter-spacing: normal;
+  }
+  .custBrandReviewMain .custReviewBox .reviewContentBox .reviewFooter .name,
+  .custBrandReviewMain .custReviewBox .reviewContentBox .verifyBadge{
+    letter-spacing: normal;
   }
   .custBrandReviewMain .custReviewBox .imgCol{
     padding-top: 100%;
@@ -1670,9 +1770,11 @@ body.template-product [class*="swiper-button-"]{
     overflow: auto;
     flex-wrap: nowrap;
     gap: 0;
+    margin: 0 -7.5px;
   }
   .custMayAlsoLikeWraper .row .col-md-3 {
     width: 50%;
+    padding: 0 7.5px;
   }
   .custMayAlsoLikeWraper .row .col-md-3 .itemBox {
     height: 100%;
@@ -1695,9 +1797,40 @@ body.template-product [class*="swiper-button-"]{
     background-position: top right;
   }
   body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media .custShippingSwiperBadge{
-    width: 76px;
-    height: 76px;
-    font-size: 12px;
+    width: 62px;
+    height: 62px;
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+  body.template-product #MainContent nav[role="navigation"]{
+    display: none !important;
+  }
+  body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper-thumbs .swiper-button-prev {
+    left: -28px;
+    right: unset;
+    box-shadow: none;
+  }
+  body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper-thumbs .swiper-button-next {
+    left: unset;
+    right: -28px;
+    box-shadow: none;
+  }
+  .custBrandReviewMain .custReviewBox{
+    margin: 12px;
+  }
+  .custBrandReviewMain .swiper.custBrandSwiperReview{
+    margin: -12px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:first-child{
+    margin-top: 0 !important;
+  }
+  .custUltimateTravel .custMachine:after,
+  .custUltimateTravel .custCompact:after {
+    -webkit-filter: blur(45px);
+    -moz-filter: blur(45px);
+    -o-filter: blur(45px);
+    -ms-filter: blur(45px);
+    filter: blur(45px);
   }
 }
 
@@ -1708,17 +1841,20 @@ body.template-product [class*="swiper-button-"]{
   }
 
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(1) {
-    order: 1;
+    order: 1 !important;
   }
 
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(2) {
-    order: 4;
+    order: 4 !important;
   }
 
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(3) {
-    order: 2;
+    order: 2 !important;
   }
-
+  .custReviewMainBoxWraper{
+    padding-bottom: 60px;
+  }
+  .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(2),  
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(4),
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(5),
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox:nth-child(6) {
@@ -1727,16 +1863,17 @@ body.template-product [class*="swiper-button-"]{
 
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox p {
     font-size: 18px;
+    letter-spacing: normal;
   }
 
   .custReviewMainBoxWraper .custTestiWrapper .custTestiBox {
     margin: 16px 0;
     gap: 16px;
-    padding: 16px;
+    padding: 24px;
   }
 
   .custReviewMainBoxWraper .custButtonWrapper {
-    padding: 56px 40px 16px 40px;
+    padding: 100px 40px 16px 40px;
   }
 
   .custUltimateTravel .custTextWrapper {
@@ -1845,11 +1982,16 @@ body.template-product [class*="swiper-button-"]{
   .custUltimateTravel .custText ol{
     font-size: 14px;
     line-height: 21px;
-  }
-  .custUltimateTravel .custText ol{
     margin: 0;
   }
-  
+  .custPDPbrandBodymain:after{
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+  }
   .custUltimateTravel .custUnmatched .custImgBox.mob {
     display: block !important;
   }
@@ -1858,11 +2000,12 @@ body.template-product [class*="swiper-button-"]{
   }
   .custPDPbrandBodymain .section-reviews-slider .container-fluid > div.text-center h3{
     font-size: 28px;
-    line-height: 33px;
+    line-height: 33.6px;
     margin: 0 0 24px;
   }
   .custBrandReviewMain .custReviewBox .reviewContentBox a.custMoreReview{
     margin: 0;
+    display: none;
   }
   .custMayAlsoLikeWraper{
     padding: 30px 0;
@@ -1881,6 +2024,17 @@ body.template-product [class*="swiper-button-"]{
   }
   body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(4).col-12 .row>.col-6{
     width: 100% !important;
+  }
+  
+  .custBrandReviewMain .custSliderControls .swiper-pagination{
+    bottom: 15px !important;
+  }
+  .custMayAlsoLikeWraper .itemBox .itemContent{
+    padding: 16px 8px;
+  }
+  .custMayAlsoLikeWraper .itemBox .itemContent .price,
+  .custMayAlsoLikeWraper .itemBox .itemContent .title{
+    line-height: 20px;
   }
 }
 

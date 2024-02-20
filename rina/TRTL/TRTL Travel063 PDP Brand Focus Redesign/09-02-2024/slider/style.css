@@ -288,7 +288,6 @@ body.template-product #MainContent [id*="__main"] .product-container form[id*="_
   border-radius: 24px;
   background: #fff;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
-  margin: 18px;
 }
 
 .custBrandReviewMain .custReviewBox .imgCol,
@@ -938,10 +937,11 @@ body.template-product #MainContent .product-description .content::after{
 body.template-product #MainContent .product-description .content.show-content::after{
   display: none;
 }
+body.template-product #MainContent .product-description .content h6 span,
 body.template-product #MainContent .product-description .content h6{
   font-family: 'IBM Plex Sans';
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 500 !important;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
@@ -1101,15 +1101,15 @@ body.template-product #MainContent [id*="__trustbar-columns-b"] [style="backgrou
 body.template-product #MainContent [id*="__trustbar-columns-b"] [style="background-color: #f5eeeb;"] h3{
   color: #fff;
 }
-.custPillowProduct .product-description ul.custProductDescListings,
-.custPillowProduct .product-description .hide-content ul.custProductDescListings{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description ul.custProductDescListings,
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content ul.custProductDescListings{
   display: none;
 }
-.custPillowProduct .product-description h6 ~ ul:not(.custProductDescListings){
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description h6 ~ ul:not(.custProductDescListings){
   display: block;
 }
 
-.custPillowProduct .product-description .content p{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .content p{
   font-size: 16px;
   font-weight: 400 !important;
   line-height: 21px;
@@ -1218,6 +1218,9 @@ body.template-product [class*="swiper-button-"]{
   border-radius: 4px;
   background: #fff;
 }
+.custBrandReviewMain .custSliderControls .swiper-pagination{
+  bottom: 20px !important;
+}
 .custUltimateTravel .custUnmatched .custImgBox.mob {
   display: none !important;
 }
@@ -1292,12 +1295,39 @@ body.template-product [class*="swiper-button-"]{
   line-height: 110%;
   /* 57.2px */
 }
-.custPillowProduct .product-description .hide-content{
-  max-height: 10rem !important;
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content{
+  max-height: 19rem !important;
 }
-.custPillowProduct .product-description .show-content{
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .show-content{
   max-height: 100rem !important;
 }
+
+.custVideoSlider {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.custVideoSlider .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.custVideoSlider .swiper-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custVideoSlider .video {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
 @media(max-width: 1399px){
   .custUltimateTravel .custTextWrapper.custUnmatchedDeskImg{
     background-size: 180px;
@@ -1457,7 +1487,7 @@ body.template-product [class*="swiper-button-"]{
   .custUltimateTravel .custTextLeft p {
     font-size: 20px;
   }
-  .custPillowProduct h1.h3 {
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] h1.h3 {
     display: none !important;
   }
   .custUltimateTravel .row.custMachine {
@@ -1881,6 +1911,10 @@ body.template-product [class*="swiper-button-"]{
   }
   body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(4).col-12 .row>.col-6{
     width: 100% !important;
+  }
+  
+  .custBrandReviewMain .custSliderControls .swiper-pagination{
+    bottom: 15px !important;
   }
 }
 
