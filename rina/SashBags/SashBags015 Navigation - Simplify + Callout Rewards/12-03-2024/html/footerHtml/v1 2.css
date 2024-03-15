@@ -1,0 +1,141 @@
+header nav ul li[data-title="HELP CENTER"], 
+header nav ul li[data-title="CONTACT US"],
+header nav ul li[data-title="BLOG"]{
+  display: none;
+}
+header nav ul li[data-title="REWARDS"] a {
+  display: flex;
+  gap: 4px;
+}
+header nav ul li[data-title="REWARDS"] a span.custRewardBadge {
+  letter-spacing: normal;
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+  padding: 3px 4px 3px 8px;
+}
+
+footer .footer .footer__block--newsletter form.form button[type="submit"]{
+  display: none;
+}
+
+footer .footer .footer__block.footer__block--links:not(.custAboutFooter){
+  display: none;
+}
+
+
+/* mobile css */
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"]{
+  justify-content: flex-start;
+  gap: 4px;
+}
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"] span.custRewardBadge{
+  letter-spacing: normal;
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+  padding: 3px 4px 3px 8px;
+}
+
+html.js.lock #gorgias-chat-container{
+  display: none;
+}
+
+.custShopMegaMenuDeskNew{
+  box-shadow: 2px 2px 6px 0px #0000000D;
+  border-top: 2px solid #000;
+  top: calc(100% - 2px);
+}
+.header-sidebar__footer{
+  background: #F6F6F6;
+  padding: 4px 0;
+}
+.header-sidebar__footer a[href="/account/login"] svg{
+  display: none;
+}
+.header-sidebar__footer a[href="/account/login"]{
+  font-family: Assistant;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-transform: unset;
+}
+.header-sidebar__footer ul.custMobSocialIcons {
+  list-style: none;
+  padding: 4px 10px;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.header-sidebar__footer a[href="/account/login"]:before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/login-icon.svg) no-repeat 0 0;
+}
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol label:after{
+  display: none;
+}
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol ul{
+  display: block;
+  margin: 4px 0 12px;
+}
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol ul li a {
+  font-family: "Assistant", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  padding: 0 24px;
+  display: block;
+  width: 100%;
+}
+.header-sidebar__linklist.divide-y li{
+  border: 0;
+}
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button{
+  font-family: "Assistant", sans-serif;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button svg{
+  display: none;
+}
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button[aria-expanded]:after{
+  content: '';
+  display: block;
+  width: 14px;
+  height: 10px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/back-arrow-icon.svg) no-repeat 0 0;
+  transform: rotate(180deg);
+}
+header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link] .yotpo.custYotpo span.yotpo-icon{
+  width: 10px;
+  height: 5px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/down-arrow.svg) no-repeat 0 0;
+  background-size: 10px 5px; 
+}

@@ -653,51 +653,79 @@ function trtlePillowPdpNewDesign() {
 // Function to show Shiping content and purchase count
 function generateShipingWrapperSection() {
     //custShippingWraper section 
-    var arrPurchaseCount = ['14', '15', '18', '19', '17', '20', '25', '24'];
+    var arrPurchaseCount = ['185', '215', '165', '193', '178', '208', '226', '234'];
     var intRandomPurchaseCount = arrPurchaseCount[Math.floor(Math.random() * arrPurchaseCount.length)];
 
     var strCurrentTime = new Date();
-    var strCurrentDay = strCurrentTime.getUTCDay();
-    var intCurrentHour = strCurrentTime.getUTCHours();
-    var intCurrentMinute = strCurrentTime.getUTCMinutes();
+    strCurrentTime.setUTCHours(new Date().getUTCHours());
+    strCurrentTime.setUTCMinutes(new Date().getUTCMinutes());
 
+    const cstDate = new Date(strCurrentTime.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
+    var strCurrentDay = cstDate.getDay();
+    var intCurrentHour = cstDate.getHours();
     let strDeliveryDay = '';
-    let intRemainingHours = '';
-    var arrRemainingHours = [47, 23, 23, 23, 23, 23, 71];
+    let intDeliveryDayIndex = '';
+    let arrDeliveryDays = ['Wed', 'Thu', 'Fri', 'Mon', 'Tue', 'Wed', 'Wed'];
+    let arrDeliveryDaysIndex = ['3', '4', '5', '1', '2', '3', '3'];
 
     var intCurrentIndex = strCurrentDay;
     var intNextDayIndex = (intCurrentIndex + 1) % 7;
 
-    // Check if current hour is greater than or equal to 14
-    if (intCurrentHour >= 14) {
-        intRemainingHours = arrRemainingHours[intNextDayIndex];
-        intRemHr = 14 + intRemainingHours - intCurrentHour;
+    // Check if current hour is greater than or equal to 11
+    if (intCurrentHour >= 11) {
+        strDeliveryDay = arrDeliveryDays[intNextDayIndex];
+        intDeliveryDayIndex = arrDeliveryDaysIndex[intNextDayIndex];
     } else {
-        intRemainingHours = arrRemainingHours[intCurrentIndex];
-        intRemHr = 13 - intCurrentHour;
+        strDeliveryDay = arrDeliveryDays[intCurrentIndex];
+        intDeliveryDayIndex = arrDeliveryDaysIndex[intCurrentIndex];
     }
 
-    // Calculate remaining minutes
-    intRemMin = 60 - intCurrentMinute;
-    if (intRemHr !== '' && intRemHr !== undefined && intRemMin !== '' && intRemMin !== undefined && intRandomPurchaseCount !== '' && intRandomPurchaseCount !== undefined) {
-            strCurrentTime.setDate(strCurrentTime.getDate() + Math.floor(intRemainingHours / 24));
-            strCurrentTime.setHours(strCurrentTime.getHours() + intRemainingHours % 24);
-            strCurrentTime.setMinutes(strCurrentTime.getMinutes() + intRemMin);
+    let dayDifference = intDeliveryDayIndex - strCurrentDay;
+    if (dayDifference <= 0) {
+        dayDifference += 7;
+    }
 
-            strDeliveryDay = strCurrentTime.toLocaleString('en-US', { weekday: 'short' });
-            var strDeliveryMonth = strCurrentTime.toLocaleString('en-US', { month: 'short' });
-            var strCurrentTimeNum = strCurrentTime.getDate();
-            var strShippingWraperHtml = '<div class="custShippingWraper">' +
-                '    <div class="inside">' +
-                '        <div class="shippingTime">' +
-                '            <div class="status available"></div>' +
-                '            <div>' +
-                '                Ships by <b>' + strDeliveryDay + ', ' + strDeliveryMonth + ' ' + strCurrentTimeNum + 'th</b>' +
-                '            </div>' +
-                '        </div>' +
-                '        <div class="purchaseCount"><b>' + intRandomPurchaseCount + ' purchased</b> in the last 24 hours</div>' +
-                '    </div>' +
-                '</div>';
+    let upcomingDate = new Date(strCurrentTime);
+    upcomingDate.setDate(upcomingDate.getDate() + dayDifference);
+    let upcomingDateNumber = upcomingDate.getDate();
+    let strDeliveryMonthShort = upcomingDate.toLocaleString('default', { month: 'short' });
+
+    var strDay = '';
+
+    if (upcomingDateNumber >= 5 && upcomingDateNumber <= 20) {
+        strDay = upcomingDateNumber + 'th';
+    } else {
+        const lastDigit = upcomingDateNumber % 10;
+        switch (lastDigit) {
+            case 1:
+                strDay = upcomingDateNumber + 'st';
+                break;
+            case 2:
+                strDay = upcomingDateNumber + 'nd';
+                break;
+            case 3:
+                strDay = upcomingDateNumber + 'rd';
+                break;
+            default:
+                strDay = upcomingDateNumber + 'th';
+                break;
+        }
+    }
+
+
+    if (strDay !== '' && strDay !== undefined && strDeliveryMonthShort !== '' && strDeliveryMonthShort !== undefined && intRandomPurchaseCount !== '' && intRandomPurchaseCount !== undefined && strDeliveryDay !== undefined && strDeliveryDay !== '' ) {
+
+        var strShippingWraperHtml = '<div class="custShippingWraper">' +
+            '    <div class="inside">' +
+            '        <div class="shippingTime">' +
+            '            <div class="status available"></div>' +
+            '            <div>' +
+            '                Ships by <b>' + strDeliveryDay + ', ' + strDeliveryMonthShort + ' ' + strDay + '</b>' +
+            '            </div>' +
+            '        </div>' +
+            '        <div class="purchaseCount"><b>' + intRandomPurchaseCount + ' purchased</b> in the last 24 hours</div>' +
+            '    </div>' +
+            '</div>';
 
     }
 

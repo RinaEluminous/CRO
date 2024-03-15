@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+/* font-family: "Assistant", sans-serif; */
+
+.custShopMegaMenuDesk,
+.custShopMegaMenuMob,
+.custHideElement {
+    display: none !important;
+}
+
+header nav.header__primary-nav {
+    position: unset;
+}
+
+header nav ul li[data-title] {
+    position: unset;
+}
+
+header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link],
+header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link] .yotpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+} 
+
+.header ul li .yotpo .yotpo-icon {
+    font-size: 12px;
+}
+.header ul li a:hover{
+    color: rgba(0,0,0, 0.65);
+}
+
+header nav ul li[data-title="SHOP"] ul.header__dropdown-menu {
+    display: none;
+}
+
+.custShopMegaMenuDesk,
+.custShopMegaMenuDeskNew {
+    position: absolute;
+    left: 50%;
+    top: calc(100% + 22px);
+    display: flex;
+    background: #fff;
+    max-width: 1100px;
+    width: 100%;
+    top: 100%;
+    transform: translateX(-50%);
+
+    box-shadow: 2px 2px 6px 0px #0000000D;
+    border-top: 2px solid #000;
+    top: calc(100% - 2px);
+}
+
+.custShopMegaMenuDeskNew ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custShopMegaMenuDeskNew .custIconLinks ul li a {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    font-family: "Assistant", sans-serif;
+    align-items: center;
+}
+
+.custShopMegaMenuDeskNew .custIconLinks {
+    background: #F6F6F6;
+    padding: 24px;
+    flex: 0 0 220px;
+}
+
+.custShopMegaMenuDeskNew .custIconLinks ul li {
+    margin: 0 0 16px;
+}
+
+.custShopMegaMenuDeskNew .custCategoryLinks {
+    display: flex;
+    flex: 1;
+}
+
+.custShopMegaMenuDeskNew .custCategoryLinks .categoryLinkCol {
+    flex: 0 0 220px;
+    padding: 24px;
+}
+
+.custShopMegaMenuDeskNew .custCategoryLinks .categoryLinkCol li {
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 0 0 16px;
+}
+
+.custShopMegaMenuDeskNew .custCategoryLinks .categoryLinkCol li.title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.custShopMegaMenuDeskNew ul li:last-child {
+    margin: 0;
+}
+.custShopMegaMenuDeskNew .custTrendingCol{
+    flex: 0 0 220px;
+}
+.custShopMegaMenuDeskNew .custTrendingCol a {
+    background: #F2F2F2;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-sidebar.drawer #header-panel-1 .header-sidebar__back-button svg.icon,
+.header-sidebar.drawer #header-panel-1 ul.header-sidebar__linklist{
+    display: none;
+}
+.header-sidebar.drawer #header-panel-1 .header-sidebar__back-button{
+    font-family: "Assistant", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;    
+    letter-spacing: 0.03em;
+    color: #121212;
+    margin: 0;
+    border: 0;
+    padding: 12px 24px;
+    background: #F6F6F6;
+}
+
+.header-sidebar.drawer #header-panel-1 {
+    margin: 0 -20px;
+}
+.custShopMegaMenuMob ul,
+.custShopMegaMenuMobNew ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.custShopMegaMenuMob ul li,
+.custShopMegaMenuMobNew ul li {
+    padding: 0;
+    margin: 0 0 16px;
+}
+.custShopMegaMenuMob ul li:last-child,
+.custShopMegaMenuMobNew ul li:last-child{
+    margin: 0;
+}
+.custShopMegaMenuMob .custIconLinks,
+.custShopMegaMenuMobNew .custIconLinks {
+    background: #F6F6F6;
+    padding: 24px 0;
+}
+.custShopMegaMenuMob .custIconLinks ul li a,
+.custShopMegaMenuMobNew .custIconLinks ul li a {
+    font-family: "Assistant", sans-serif;
+    padding: 0 24px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    align-items: center;
+}
+.custShopMegaMenuMobNew .custCategoryLinks ul {
+    display: none;
+}
+
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol{
+    position: relative;
+}
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol label {
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 12px 24px;
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input,
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol input {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+    height: 48px;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol label:after,
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol label:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/plus-icon.svg) no-repeat center;
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    
+    display: none;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked + label:after,
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol input:checked + label:after{
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/minus-icon.svg) no-repeat center;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked ~ ul,
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol input:checked ~ ul {
+    display: block;
+    margin: 4px 0 12px;
+}
+.custShopMegaMenuMob .custCategoryLinks .categoryLinkCol input:checked ~ ul li a,
+.custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol input:checked ~ ul li a{
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0 24px;
+    display: block;
+    width: 100%;
+}
+
+.custShopMegaMenuMobNew .custTrendingCol a {
+    text-align: center;
+    background: #F2F2F2;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.custShopMegaMenuMobNew .custTrendingCol a .imgBox img {
+    width: 100%;
+}
+
+.custShopMegaMenuMobNew .custTrendingCol a .imgBox {
+    width: 100%;
+}
+
+ /* css added from here */
+header nav ul li[data-title="REWARDS"] a {
+    display: flex;
+    gap: 4px;
+  }
+  header nav ul li[data-title="REWARDS"] a span.custRewardBadge {
+    letter-spacing: normal;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+    padding: 3px 4px 3px 8px;
+  }
+
+header nav ul li[data-title="HELP CENTER"], 
+header nav ul li[data-title="BLOG"],
+header nav ul li[data-title="CONTACT US"]{
+  display: none;
+}
+header nav ul li[data-title="REWARDS"] a {
+  display: flex;
+  gap: 4px;
+}
+header nav ul li[data-title="REWARDS"] a span.custRewardBadge {
+  letter-spacing: normal;
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+  padding: 3px 4px 3px 8px;
+}
+
+.header-sidebar__linklist a span.custRewardBadgeMobHtml {
+    letter-spacing: normal;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+    padding: 3px 4px 3px 8px;
+  }
+
+
+footer .footer .footer__block.footer__block--links:not(.custAboutFooter){
+  display: none;
+}
+
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"]{
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"] span.custRewardBadge{
+    letter-spacing: normal;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+    padding: 3px 4px 3px 8px;
+  }
+  
+  html.js.lock #gorgias-chat-container{
+    display: none;
+  }
+
+.header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"]{
+    justify-content: flex-start;
+    gap: 4px;
+  }
+  .header-sidebar__linklist.divide-y .header-sidebar__linklist-button.h6[href="/pages/sash-squad"] span.custRewardBadge{
+    letter-spacing: normal;
+    display: flex;
+    position: relative;
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+    padding: 3px 4px 3px 8px;
+  }
+  
+  html.js.lock #gorgias-chat-container{
+    display: none;
+  }  
+  .header-sidebar__footer{
+    background: #F6F6F6;
+    padding: 4px 0;
+  }
+  .header-sidebar__footer a[href="/account/login"] svg{
+    display: none;
+  }
+  .header-sidebar__footer a[href="/account/login"]{
+    font-family: Assistant;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-transform: unset;
+  }
+  .header-sidebar__footer ul.custMobSocialIcons {
+    list-style: none;
+    padding: 4px 10px 16px;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .header-sidebar__footer a[href="/account/login"]:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/login-icon.svg) no-repeat 0 0;
+  }
+  .custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol label:after{
+    display: none;
+  }
+  .custShopMegaMenuMob .custCategoryLinks .categoryLinkCol ul,
+  .custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol ul{
+    display: block;
+    margin: 4px 0 12px;
+    padding: 0px;
+  }
+  .custShopMegaMenuMob .custCategoryLinks .categoryLinkCol ul li a,
+  .custShopMegaMenuMobNew .custCategoryLinks .categoryLinkCol ul li a {
+    font-family: "Assistant", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 0 24px;
+    display: block;
+    width: 100%;
+  }
+  .header-sidebar__linklist.divide-y li{
+    border: 0;
+  }
+  .header-sidebar__linklist.divide-y .header-sidebar__linklist-button{
+    font-family: "Assistant", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+  }
+  .header-sidebar__linklist.divide-y .header-sidebar__linklist-button svg{
+    display: none;
+  }
+  .header-sidebar__linklist.divide-y .header-sidebar__linklist-button[aria-expanded]:after{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 10px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/back-arrow-icon.svg) no-repeat 0 0;
+    transform: rotate(180deg);
+  }
+  header nav ul li[data-title] [is="dropdown-menu-disclosure"] [data-follow-link] .yotpo.custYotpo span.yotpo-icon{
+    width: 10px;
+    height: 5px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/down-arrow.svg) no-repeat 0 0;
+    background-size: 10px 5px; 
+  }
+
+  :has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header:not(:hover, .is-solid, :has([open])) nav ul li .yotpo .yotpo-icon{
+    filter: invert(1);
+  }
+  :has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header ul li .yotpo .yotpo-icon{
+    filter: invert(0);
+  }
+
+  body.TheSashBag14_2:has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header:not(:hover, .is-solid, 
+  body.TheSashBag14_2:has([open])) nav ul li .yotpo .yotpo-icon,
+
+  body.TheSashBag14_1:has(.shopify-section:first-child [allow-transparent-header]):not(:has(.shopify-section--header+.shopify-section-group-header-group)) .header:not(:hover, .is-solid, 
+  body.TheSashBag14_1:has([open])) nav ul li .yotpo .yotpo-icon{
+    filter: invert(0);
+  }
+
+  .header-sidebar__back-button.is-divided{
+    margin: 0 -20px;
+    border: 0;
+    background: #F6F6F6;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: "Assistant", sans-serif;
+    letter-spacing: 0.03em;
+  }
+  .header-sidebar__back-button.is-divided:before{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 10px;
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/back-arrow-icon.svg) no-repeat 0 0;
+  }
+  .header-sidebar__back-button.is-divided img,
+  .header-sidebar__back-button.is-divided svg{
+    display: none;
+  }
+  .header-sidebar__sub-panel ul{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  .header-sidebar__sub-panel ul li a{
+    font-size: 16px !important;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: "Assistant", sans-serif;
+  }
+
+  .custShopMegaMenuMob .custCategoryLinks ul{
+    display: block;
+    padding: 0 24px;
+    margin: 0 0 12px;
+  }
+
+@media(max-width: 768px) and (max-width: 999px){
+    .header-sidebar__footer ul.custMobSocialIcons{
+        padding: 16px 10px;
+    }    
+}
+@media(max-width: 1099px){
+    .custShopMegaMenuDeskNew .custCategoryLinks .categoryLinkCol,
+    .custShopMegaMenuDeskNew .custTrendingCol {
+        flex: 0 0 200px;
+    }
+}

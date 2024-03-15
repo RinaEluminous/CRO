@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentFragment Example</title>
+</head>
+<body>
+    <div id="container">
+        <!-- Items will be dynamically added here -->
+    </div>
+
+    <!-- Your JavaScript code will go here -->
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+// Create a DocumentFragment
+var fragment = document.createDocumentFragment();
+
+// List of items
+var items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5'];
+
+// Create and append list items to the DocumentFragment
+items.forEach(function(itemText) {
+    var li = document.createElement('li');
+    li.textContent = itemText;
+    fragment.appendChild(li);
+});
+
+// Get the container element
+var container = document.getElementById('container');
+// Append the DocumentFragment to the container
+container.appendChild(fragment);
+
+</script>

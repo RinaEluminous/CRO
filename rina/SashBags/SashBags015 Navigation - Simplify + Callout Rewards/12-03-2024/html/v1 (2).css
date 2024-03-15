@@ -1,0 +1,31 @@
+header nav ul li[data-title="HELP CENTER"], 
+header nav ul li[data-title="BLOG"]{
+  display: none;
+}
+header nav ul li[data-title="REWARDS"] a {
+  display: flex;
+  gap: 4px;
+}
+header nav ul li[data-title="REWARDS"] a span.custRewardBadge {
+  letter-spacing: normal;
+  display: flex;
+  position: relative;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/Thesashbag/tag-img.svg) no-repeat center center;
+  padding: 3px 4px 3px 8px;
+}
+
+footer .footer .footer__block--newsletter form.form button[type="submit"]{
+  display: none;
+}
+
+footer .footer .footer__block.footer__block--links:not(.custAboutFooter){
+  display: none;
+}

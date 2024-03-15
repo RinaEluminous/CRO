@@ -1,0 +1,146 @@
+<script>
+
+document.addEventListener('DOMContentLoaded', function() {
+var strURL = window.location.href;
+
+//for example
+if (strURL.indexOf('nail-fungus-cndf01') > 0) {
+    console.log('The URL contains "nail-fungus-cndf01"');
+} 
+
+function insertHTML(targetSelector, position, htmlContent) {
+
+    var targetElement = document.querySelector(targetSelector);
+
+    if (!targetElement) {
+        console.error('Target element not found:', targetSelector);
+        return;
+    }
+
+    switch (position) {
+        case 'beforebegin':
+            targetElement.insertAdjacentHTML('beforebegin', htmlContent);
+            break;
+        case 'afterbegin':
+            targetElement.insertAdjacentHTML('afterbegin', htmlContent);
+            break;
+        case 'befo  reend':
+            targetElement.insertAdjacentHTML('beforeend', htmlContent);
+            break;
+        case 'afterend':
+            targetElement.insertAdjacentHTML('afterend', htmlContent);
+            break;
+        default:
+            console.error('Invalid position:', position);
+               break;
+    }
+}
+
+
+// Example usage:
+insertHTML('#yotpo-reviews-carousel-widget', 'beforebegin', '<div>New content before the target element</div>');
+
+insertHTML('#shopify-section-template--16393832628378__b93d2ee7-b2d0-4e12-9889-ab5b40bda053', 'afterbegin', '<div>New content at the beginning of the target element</div>');
+
+insertHTML('myElement', 'beforeend', '<div>New content at the end of the target element</div>');
+
+insertHTML('myElement', 'afterend', '<div>New content after the target element</div>');
+});
+
+
+function waitForSelector(selector, callback, interval = 100, timeout = 5000) {
+    var startTime = Date.now();
+    var intervalId = setInterval(function() {
+        var element = document.querySelector(selector);
+        if (element) {
+            clearInterval(intervalId);
+            callback(element);
+        } else if (Date.now() - startTime >= timeout) {
+            clearInterval(intervalId);
+            console.log('Timeout waiting for selector:', selector);
+        }
+    }, interval);
+}
+
+waitForSelector('.my-selector', function(element) {
+    // Code to execute when the selector is found
+    console.log('Selector found:', element);
+});
+
+
+// ************************************************************************
+// Check strProductCode is there or not
+
+var strProductCode = "your_product_code_here"; 
+
+var arrApprovedProductCode = ["236614006709257", "SR1026-83-16" ];
+
+if (arrApprovedProductCode.indexOf(strProductCode) !== -1) {
+//    call your function here
+}
+
+// ************************************************************************
+
+// To check if an element has a specific class exist or not
+
+function hasClass(element, className) {
+    if (element.classList) {
+        return element.classList.contains(className);
+    } else {
+        // For older browsers that do not support classList
+        return element.className.split(' ').indexOf(className) !== -1;
+    }
+}
+
+
+// For example
+
+var element = document.getElementById('exampleElement');
+// Check if the element has the class 'newClass'
+if (hasClass(element, 'newClass')) {
+    console.log('Element has the class newClass');
+} else {
+    console.log('Element does not have the class newClass');
+}
+
+
+// ************************************************************************
+
+function addClass(element, className) {
+    if (element.classList) {
+        element.classList.add(className);
+    } else {
+        // For older browsers that do not support classList
+        element.className += ' ' + className;
+    }
+}
+
+// Example Usage:
+var element = document.getElementById('exampleElement');
+
+// Adding a class
+addClass(element, 'newClass');
+
+// ************************************************************************
+
+function removeClass(element, className) {
+    if (element.classList) {
+        element.classList.remove(className);
+    } else {
+        // For older browsers that do not support classList
+        var classes = element.className.split(' ');
+        var index = classes.indexOf(className);
+        if (index !== -1) {
+            classes.splice(index, 1);
+            element.className = classes.join(' ');
+        }
+    }
+}
+
+// Example Usage:
+var element = document.getElementById('exampleElement');
+
+// Removing a class
+removeClass(element, 'oldClass');
+
+</script>

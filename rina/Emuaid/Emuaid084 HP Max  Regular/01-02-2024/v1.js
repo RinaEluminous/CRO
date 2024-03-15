@@ -154,10 +154,10 @@ var waitForJquery = setInterval(function() {
             '    </div>'+
             '</div>';
             
-            if(jQuery('html body.index .bm-top-prod').length > 0 && jQuery('.custMax_bmHeroProductWraper').length == 0){
+            if(jQuery('html body.index .bm-top-prod').length > 0 && jQuery('.custMax_bmHeroProductWraper').length == 0) {
                 jQuery(heroProductWraperHtml).insertAfter('html body.index .bm-top-prod');
              }
-        }
+        }   
 
         clearInterval(waitForJquery);
     }
