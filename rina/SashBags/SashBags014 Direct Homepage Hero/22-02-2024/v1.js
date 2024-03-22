@@ -11,7 +11,7 @@ reviewDateElements.forEach(function(reviewDateElement) {
 });
  
 
-// ****************************************************************************************************
+// ********************************************************************************
 
 var reviewDateElements = document.querySelectorAll('.reviews-carousel-card-reviewer-info-container.reviewer-info-site-review .review-date');
 
