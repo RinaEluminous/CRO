@@ -1,7 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    console.log('TRTL Travel094 - Cart Upsell Followup >>>');
-    var passportAddFlag = 0 ;
-    console.log('passportAddFlag>>',passportAddFlag);
+window.onload = function () {
     function addCustGetExtramsgFollowup(){
         // Threshold value
         var strThresholdValue = 80;	 
@@ -235,7 +232,8 @@ document.addEventListener('DOMContentLoaded', function() {
     trtlPillowelements.forEach(function(element) {
         
    if (element.textContent.includes("TRTL TRAVEL PILLOW")) {
-              console.log('TRTL TRAVEL PILLOW Exist>>>>>>>>')
+          
+                console.log('testttttttttttt>>>>>>>>')
                 addCustGetExtramsgFollowup();
                 addCustomUpSellProduct();
                 modifyExistingCartContent();
@@ -258,7 +256,24 @@ document.addEventListener('DOMContentLoaded', function() {
             siblings.forEach(function(sibling) {
                 sibling.classList.add('custProductsOpen');
             });
-          }
+            //added passport cover product
+       
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'https://trtltravel.com/cart/add');
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.onload = function() {
+                    if (xhr.status === 200) {
+                        document.querySelector('.custPassportCoverBox')?.classList.add('custHideContent');
+                        sessionStorage.setItem('isRecommendedProductAddedNew', 'yes');
+                        location.reload();
+                    }
+                };
+                xhr.send(JSON.stringify({
+                    id: '42424471060673',
+                    quantity: "1"
+                }));
+            
+        }
     });
 
      //on 'close' CTA click hide color/size panel
@@ -300,8 +315,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 xhr.setRequestHeader('Content-Type', 'application/json');
                 xhr.onload = function() {
                     if (xhr.status === 200) {
-                        addPassportProduct();
-                        passportAddFlag = 1;
                         sessionStorage.setItem('isRecommendedProductAddedNew', 'yes');
                         location.reload();
                     }
@@ -346,37 +359,26 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     //compression click
-    var arrCompressionSockColorSizeMapping = { "New-York-Small":42424784552129,"New-York-Medium":42424784584897,"New-York-Large": 42424784617665,"Fiji-Small":42424784650433,"Fiji-Medium":42424784683201,"Fiji-Large": 42424784715969,"Kyoto-Small":42424784748737,"Kyoto-Medium":42424784781505,"Kyoto-Large": 42424784814273,"Havana-Small":42424784847041,"Havana-Medium":42424784879809,"Havana-Large": 42424784912577,"Paris-Small":42424784945345,"Paris-Medium":42424784978113,"Paris-Large": 42424785010881,"Seattle-Small":42424785043649,"Seattle-Medium":42424785076417,"Seattle-Large": 42424785109185,"Sydney-Small":42424785141953,"Sydney-Medium":42424785174721,"Sydney-Large": 42424785207489,"Vancouver-Small":42424785240257,"Vancouver-Medium":42424785273025,"Vancouver-Large": 42424785305793,"Jaipur-Small":42424785338561,"Jaipur-Medium":42424785371329,"Jaipur-Large":42424785404097 }; 
 
+    document.addEventListener('click', function(event) {
 
-    document.querySelectorAll('#custCompressionSocks .custSwatchColorPattern, #custCompressionSocks .cusColtSize div.btn').forEach(function(element) {
-
-        element.addEventListener('click', function() {
-            
-            if (element.classList.contains('custSwatchColorPattern')) {
-                document.querySelectorAll('.custSwatchColorPattern').forEach(function(item) {
-                    item.classList.remove('custSwatchActive');
+        if (event.target.closest('#custCompressionSocks')) {
+            if (event.target.classList.contains('custSwatchColorPattern')) {
+                document.querySelectorAll('#custCompressionSocks .custSwatchColorPattern').forEach(function(element) {
+                    element.classList.remove('custSwatchActive');
                 });
-                element.classList.add('custSwatchActive');
-            } else {
-                document.querySelectorAll('#custCompressionSocks .cusColtSize div.btn').forEach(function(item) {
-                    item.classList.remove('custSizeChartActive');
+                event.target.classList.add('custSwatchActive');
+            } else if (event.target.closest('.cusColtSize') && event.target.classList.contains('btn')) {
+                document.querySelectorAll('#custCompressionSocks .cusColtSize .btn').forEach(function(element) {
+                    element.classList.remove('custSizeChartActive');
                 });
-               element.classList.add('custSizeChartActive');
+                event.target.classList.add('custSizeChartActive');
             }
     
             var strSelectedCompressionSockColor = document.querySelector('#custCompressionSocks .custSwatchColorPattern.custSwatchActive').getAttribute('data-color');
-            var strSelectedCompressionSockSize = '';
-                  var sizeChartElement = document.querySelector('#custProducts-variant-swatches .custSizeChart div.btn.custSizeChartActive');
-                    if (sizeChartElement) {
-                        strSelectedCompressionSockSize = sizeChartElement.getAttribute('data-size');
-                    }
+            var strSelectedCompressionSockSize = document.querySelector('#custCompressionSocks .cusColtSize .btn.custSizeChartActive').getAttribute('data-size');
             var strSelectedCompressionSockProdId = arrCompressionSockColorSizeMapping[strSelectedCompressionSockColor + '-' + strSelectedCompressionSockSize];
-            
-            console.log('strSelectedCompressionSockColor',strSelectedCompressionSockColor);
-            console.log('strSelectedCompressionSockSize',strSelectedCompressionSockSize);
-            console.log('strSelectedCompressionSockProdId',strSelectedCompressionSockProdId);
-
+    
             if (strSelectedCompressionSockProdId !== '' && strSelectedCompressionSockProdId !== undefined) {
                 strSelectedCompressionSockColor = strSelectedCompressionSockColor.replace("-", " ");
                 var xhr = new XMLHttpRequest();
@@ -384,8 +386,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 xhr.setRequestHeader('Content-Type', 'application/json');
                 xhr.onload = function() {
                     if (xhr.status === 200) {
-                        addPassportProduct();
-                        passportAddFlag = 1;
                         sessionStorage.setItem('isRecommendedProductAddedNew', 'yes');
                         location.reload();
                     }
@@ -397,25 +397,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     quantity: "1"
                 }));
             }
-        });
+        }
     });
-
-    function addPassportProduct(){
-           //added passport cover product
-           var xhr = new XMLHttpRequest();
-           xhr.open('POST', 'https://trtltravel.com/cart/add');
-           xhr.setRequestHeader('Content-Type', 'application/json');
-           xhr.onload = function() {
-               if (xhr.status === 200) {
-                   document.querySelector('.custPassportCoverBox')?.classList.add('custHideContent');
-                   sessionStorage.setItem('isRecommendedProductAddedNew', 'yes');
-                   location.reload();
-               }
-           };
-           xhr.send(JSON.stringify({
-               id: '42424471060673',
-               quantity: "1"
-           }));
-    }
     
-    }); 
+};   
+    
