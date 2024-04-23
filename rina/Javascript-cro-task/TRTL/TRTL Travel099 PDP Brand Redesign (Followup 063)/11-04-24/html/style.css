@@ -1,0 +1,2107 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+.hideContent,
+body.template-product #MainContent .product-container .estimated-delivery+div {
+  display: none;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1{
+  font-family: Schibsted Grotesk;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: 0.03em;
+  display: block !important;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description a.show-more {
+  display: flex !important;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  border: 1px solid #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  /* 137.5% */
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000 !important;
+  max-width: 204px;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description a.show-more:hover{
+  color: #fff !important;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .row .col-6:nth-child(3),
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(1),
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(2),
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(3) {
+  display: none !important;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures{
+  margin: 0 !important;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .row {
+  margin: 0 -2px;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 {
+  width: 33.33%;
+  padding: 0 8px;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3{
+  margin: 0 !important;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3 .col-3 {
+  width: 35px;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3 .col-9 {
+  width: calc(100% - 35px);
+}
+
+body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media .custShippingFocusBadge {
+  display: flex;
+  width: 96px;
+  height: 96px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: #000;
+  text-align: center;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  border-radius: 200px;
+  background: #FAD951;
+  z-index: 2;
+}
+
+body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media .product-flashtags-container {
+  display: none;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .estimated-delivery{
+  display: none;
+}
+
+.custShippingFocusWraper {
+  margin-bottom: 0px;
+}
+
+.custShippingFocusWraper .inside {
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: var(--color-cream, #F4EEEB);
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.custShippingFocusWraper .shippingTime {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+  flex: 0 0 50%;
+}
+
+.custShippingFocusWraper .shippingTime .status.available {
+  width: 12px;
+  height: 12px;
+  border-radius: 100px;
+  background: #6DBB63;
+}
+
+.custShippingFocusWraper .purchaseCount {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  letter-spacing: 0.78px;
+  flex: 0 0 calc(50% - 15px);
+  padding: 0 0 0 15px;
+}
+
+.custShippingFocusWraper .purchaseCount b {
+  font-weight: 700;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+.custSeeAction .inside {
+  border-top: 1px solid #A3ADBB;
+  border-bottom: 1px solid #A3ADBB;
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.custSeeAction .inside h2 {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  text-transform: uppercase;
+}
+
+.custSeeAction .inside .custReviewThumbnails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  gap: 8px;
+  flex-wrap: nowrap;
+  overflow: auto;
+  padding-bottom: 5px;
+}
+
+.custSeeAction .inside .custReviewThumbnails::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: #EEEEEE;
+  border-radius: 4px;
+}
+
+.custSeeAction .inside .custReviewThumbnails::-webkit-scrollbar-thumb {
+  background: #1e1e1e;
+  border-radius: 4px;
+}
+
+.custSeeAction .inside .custReviewThumbnails .profilePic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 2px solid #84948B;
+  background: #F4EEEB;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  flex: 0 0 auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.custSeeAction .inside .custReviewThumbnails .profilePic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custSeeAction .inside .custReviewThumbnails .profilePic:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 4px solid #fff;
+  border-radius: 100%;
+  pointer-events: none;
+}
+
+.custPartnersMain {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custPartnersMain .swiper.custPartnerslider {
+  margin: 0;
+}
+
+.custPartnersMain .swiper.custPartnerslider .custPartnerBox {
+  text-align: center;
+}
+.custPartnersMain .swiper.custPartnerslider .custPartnerBox p{
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 24px;
+}
+.custReviewMainBoxFocus .custTestiWrapper {
+  column-count: 3;
+  column-count: 3;
+  column-gap: 32px;
+}
+
+.custReviewMainBoxFocus .custTestiWrapper .custTestiBox {
+  display: inline-flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 16px 0;
+}
+
+.custReviewMainBoxFocus {
+  position: relative;
+  padding-top: 64px;
+}
+
+.custReviewMainBoxFocus .custTestiWrapper .custTestiBox p {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+  letter-spacing: normal;
+}
+
+.custReviewMainBoxFocus .custTestiWrapper .custTestiBox p+p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.custReviewMainBoxFocus .custTestiWrapper .custTestiBox b {
+  display: block;
+  font-weight: 700;
+}
+
+.custReviewMainBoxFocus .custTestiWrapper .custTestiStarQuote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custReviewMainBoxFocus .custButtonWrapper .custBtn:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fad951;
+}
+
+.custReviewMainBoxFocus .custButtonWrapper {
+  display: flex;
+  padding: 60px 40px 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) -85.23%, #FFF 100%);
+  width: 100%;
+  left: 0;
+}
+
+.custReviewMainBoxFocus .custButtonWrapper .custBtn {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+  color: var(--color-black, #000);
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.custMarqueeFocus {
+  display: flex;
+  /* height: 172px; */
+  padding: 40px 0px 60px 40px;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.custMarqueeFocus .custMarqueeWrap {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 12px;
+  background: #fff;
+  flex: 0 0 auto;
+}
+
+.custMarqueeFocus .custMarqueeWrap span {
+  flex: 0 0 auto;
+  color: #000;
+  text-align: center;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.26px;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 172px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 32s linear infinite;
+}
+
+body.template-product #MainContent [id*="__media-text-a"]{
+  display: none;
+}
+
+.custUltimateFocusTravel {
+  padding: 80px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.custUltimateFocusTravel .custTextLeft {
+  position: relative;
+  display: flex;
+  padding: 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  z-index: -1;
+}
+
+.custUltimateFocusTravel .custTextLeft::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.15;
+  background: #f5da6a;
+  -webkit-filter: blur(60px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  z-index: -1;
+  transform: scale(1.5);
+}
+
+.custUltimateFocusTravel .custTextLeft p {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.custUltimateFocusTravel .custMarginBottom80 {
+  margin-bottom: 80px;
+}
+
+.custUltimateFocusTravel .custTextWrapper {
+  display: flex;
+  height: 100%;
+  padding: 48px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;  
+}
+
+.custUltimateFocusTravel .custTextWrapper.custUnmatchedDeskImg{
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/063-product-img-4.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 280px;
+}
+
+.custUltimateFocusTravel .custText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.custUltimateFocusTravel .custText .custNumbers {
+  display: inline-flex;
+  border-radius: 1000px;
+  border: 1px solid #dededf;
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.custUltimateFocusTravel .custText .custTextTitle {
+  color: #000;
+  font-family: Schibsted Grotesk;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  margin: 0;
+  letter-spacing: normal;
+}
+
+.custUltimateFocusTravel .custText p {
+  color: #444343;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: normal;
+}
+
+.custUltimateFocusTravel .custUnmatched .custText {
+  display: flex;
+  width: 400px;
+}
+
+
+.custUltimateFocusTravel .custImgBox {
+  display: flex;
+  height: 308px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #f9f9f9;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+.custUltimateFocusTravel .custImgBox:first-child {
+  height: 280px;
+}
+.custUltimateFocusTravel .custImgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custUltimateFocusTravel .custText ol {
+  font-family: ibm-plex-sans, sans-serif;
+  padding-left: 20px;
+  color: #444343;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.custUltimateFocusTravel .custUnmatched,
+.custUltimateFocusTravel .custCompact {
+  position: relative;
+  z-index: 2;
+}
+
+.custUltimateFocusTravel .custFocusMachine *,
+.custUltimateFocusTravel .custCompact * {
+  z-index: 1;
+}
+
+.custUltimateFocusTravel .custUnmatched {
+  z-index: 2;
+}
+
+.custUltimateFocusTravel .custFocusMachine:after,
+.custUltimateFocusTravel .custCompact:after {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.15;
+  background: #f5da6a;
+  -webkit-filter: blur(60px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  z-index: 0;
+  transform: scale(1.5);
+}
+
+.custUltimateFocusTravel .custFocusMachine:after {
+  width: 750px;
+  height: 750px;
+  right: 40px;
+  bottom: 320px;
+  opacity: 0.25;
+  background: #f3971b;
+  left: auto;
+  top: auto;
+}
+
+.custUltimateFocusTravel .custCompact .custPortableDesk1 {
+  height: 380px;
+}
+
+.custUltimateFocusTravel .custCompact .custPortableDesk2 {
+  height: 208px;
+}
+
+.custUltimateFocusTravel .custCompact .custPortableDesk3,
+.custUltimateFocusTravel .custCompact .custPortableDesk4 {
+  height: 294px;
+}
+
+.custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk1 {
+  height: 330px;
+}
+
+.custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk2 {
+  height: 258px;
+}
+
+.custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk3 {
+  height: 236px;
+}
+
+.custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk4 {
+  height: 352px;
+}
+
+.custUltimateFocusTravel .custTestiWrapper {
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  /* gap: 32px; */
+  /* align-self: stretch; */
+  /* flex-wrap: wrap; */
+  column-count: 3;
+  column-count: 3;
+  column-gap: 32px;
+  /* max-width: 600px; */
+}
+
+.custUltimateFocusTravel .custTestiWrapper .custTestiBox {
+  display: inline-flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  /* align-self: stretch; */
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  /* flex: 0 0 calc(33.33% - 22px); */
+  margin: 16px 0;
+}
+
+.custUltimateFocusTravel .custTestiWrapper .custTestiBox p {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+
+.custUltimateFocusTravel .custTestiWrapper .custTestiBox p+p {
+  font-weight: 500;
+}
+
+.custUltimateFocusTravel .custTestiWrapper .custTestiBox b {
+  display: block;
+}
+
+.custUltimateFocusTravel .custTestiWrapper .custTestiStarQuote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custUltimateFocusTravel .custButtonWrapper {
+  display: flex;
+  padding: 60px 40px 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 99;
+  background: linear-gradient(180deg,
+      rgba(250, 250, 250, 0) 0%,
+      #f9f9f9 75.28%);
+  width: 100%;
+  left: 0;
+}
+
+.custUltimateFocusTravel .custButtonWrapper .custBtn {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+  color: var(--color-black, #000);
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.custUltimateFocusTravel .custFocusMachine .custText,
+.custUltimateFocusTravel .custCompact .custText {
+  max-width: 440px;
+  margin: 0 auto;
+}
+
+.custPDPbrandFocusBody {
+  background: #F4EEEB;
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg);
+  background-position: 0 100%, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  margin: 100px 0 80px;
+  position: relative;
+}
+
+.custPDPbrandFocusBody:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -78px;
+  width: 100%;
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg);
+  background-position: 0 100%, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  height: 80px;
+}
+
+.custPDPbrandFocusBody:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  width: 100%;
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-top-shape.svg);
+  background-position: 100% 0, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  height: 80px;
+  z-index: -1;
+}
+body.template-product #MainContent .product-description {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 0px solid #A3ADBB;
+  border-top: 0px solid #A3ADBB;
+  margin: 0 !important;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1 + span.custSubPara {
+  margin: 12px 0 8px;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  display: block;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1 + span.custSubPara br{
+  display: none;
+}
+body.template-product #MainContent .product-description .content{
+  position: relative;
+}
+body.template-product #MainContent .product-description .content::after{
+  content: '';
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) -85.23%, #FFFFFF 100%);
+  height: 44px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+body.template-product #MainContent .product-description .content.show-content::after{
+  display: none;
+}
+body.template-product #MainContent .product-description .content h6 span,
+body.template-product #MainContent .product-description .content h6{
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 20px;
+  font-weight: 600 !important;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000 !important;
+}
+
+#MainContent body.template-product [id*="__trustbar-columns-a"].shopify-section{
+  display: none;
+}
+
+.custMayAlsoLikeFocus{
+  margin-top: 140px;
+  background: #F4EEEB;
+  position: relative;
+  padding: 80px 0;
+}
+.custMayAlsoLikeFocus:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -78px;
+  width: 100%;
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg);
+  background-position: 0 100%, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  height: 80px;
+}
+.custMayAlsoLikeFocus h2{
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #000 !important;
+  text-transform: uppercase;
+  margin: 0 0 56px;
+}
+.custMayAlsoLikeFocus .itemBox{
+  height: 100%;
+  background: #fff;
+}
+.custMayAlsoLikeFocus .itemBox .imgBox {
+  position: relative;
+}
+.custMayAlsoLikeFocus .itemBox .imgBox span.flashtag {
+  position: absolute;
+  left: 16px;
+  top: 16px;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent{
+  background: #fff;
+  padding: 8px;
+  text-align: center;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .ratings{
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 60px;
+  height: 12px;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .ratings span.stars{
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-size: 60px 12px;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .ratings span.stars.grey {
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23E5E5E5%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .ratings span.stars.yellow{
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .title {
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 8px 0;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: ibm-plex-sans, sans-serif;
+  line-height: 24px;
+  margin: 0 0 8px;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .available {
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .price .cPrice {
+  font-weight: 400;
+  color: #6c757d!important;
+  background-image: linear-gradient(to top left,rgba(0,0,0,0) 0,rgba(0,0,0,0) calc(50% - 0.8px),#000 50%,rgba(0,0,0,0) calc(50% + 0.8px),rgba(0,0,0,0) 100%);
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  pointer-events: none;
+  opacity: .4;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .price .oPrice {
+  color: #A23636;
+}
+.custMayAlsoLikeFocus .itemBox .itemContent .price .sPrice {
+  display: inline-block;
+  padding: 4px 8px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 2px;
+  background: #84948B;
+}
+.custMayAlsoLikeFocus .d-none {
+  display: block !important;
+  opacity: 0 !important;
+}
+.custMayAlsoLikeFocus a {
+  text-decoration: none;
+}
+body.template-product #MainContent [id*="__product-legacy-faqs"],
+body.template-product #MainContent [id*="__trustbar-columns-a"],
+body.template-product #MainContent [id*="__images-grid"],
+body.template-product #MainContent [id*="__callouts"],
+body.template-product #MainContent [id*="__partners"],
+body.template-product #MainContent [id*="__trustbar-autoscroll-a"],
+body.template-product #MainContent [id*="__product-infographic"]{
+  display: none;
+}
+
+body.template-product #MainContent [id*="__trustbar-columns-b"] [style="background-color: #f5eeeb;"]{
+  background: #000 !important;
+}
+body.template-product #MainContent [id*="__trustbar-columns-b"] [style="background-color: #f5eeeb;"] .image-wrapper img{
+  filter: invert();
+}
+body.template-product #MainContent [id*="__trustbar-columns-b"] [style="background-color: #f5eeeb;"] h3{
+  color: #fff;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description ul.custProductDescListings,
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content ul.custProductDescListings{
+  display: none;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description h6 ~ ul:not(.custProductDescListings){
+  display: block;
+}
+
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .content p{
+  font-size: 16px;
+  font-weight: 400 !important;
+  line-height: 21px;
+  letter-spacing: 0.6px;
+  margin: 0 0 10px;
+}
+
+.custPDPbrandFocusBody .section-reviews-slider .container-fluid {
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .container-fluid > div.text-center{
+  margin: 0;
+}
+.custPDPbrandFocusBody .section-reviews-slider .container-fluid > div.text-center h3{
+  margin: 0 0 40px;
+  font-family: Schibsted Grotesk;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: lowercase;
+}
+.custPDPbrandFocusBody .section-reviews-slider .container-fluid > div.text-center h3 span{
+  font-weight: 800;
+  display: block;
+}
+.custPDPbrandFocusBody .section-reviews-slider .container-fluid > div.text-center h3:first-letter {
+  text-transform: uppercase;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light{
+  background: #fff !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light h3,
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p,
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p + div p,
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p + div p em{
+  font-family: ibm-plex-sans, sans-serif;
+  margin: 0 0 12px !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light h3,
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p{
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: normal;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light h3{  
+  font-weight: 600 !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p{
+  font-weight: 400;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p + div p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p + div p em{
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 14.4px;
+  margin: 0 !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-button-prev,
+.custPDPbrandFocusBody .section-reviews-slider .swiper-button-next{
+  background-color: transparent;
+  background-image: url(https://trtltravel.com/cdn/shop/t/118/assets/icon-arrow-nav.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: none;
+  background-size: auto 22px;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-button-prev{
+  transform: rotate(90deg);
+  left: -20px !important;
+}
+.custPDPbrandFocusBody .section-reviews-slider .swiper-button-next{
+  transform: rotate(-90deg);
+  right: -20px !important;
+}
+body.template-product [class*="swiper-button-"]{
+    border-radius: 500px;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+}
+.swiper-button-prev:after,
+.swiper-button-next:after{
+  display: none;
+}
+
+.custPartnersMain .custSliderControls {
+  margin: 30px 0 0;
+  display: none;
+}
+
+.custPartnersMain .custSliderControls span.swiper-pagination-bullet {
+  width: 24px;
+  height: 3px;
+  border-radius: 0;
+  background: #000;
+  opacity: 0.2;
+}
+.custPartnersMain .custSliderControls span.swiper-pagination-bullet-active {
+  opacity: 0.5;
+}
+.custUltimateFocusTravel .custUnmatched .custImgBox.mob {
+  display: none !important;
+}
+
+.custUltimateFocusTravel .custTextLeft::before,
+.custUltimateFocusTravel .custRiskFree::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.5;
+  background: #f5da6a;
+  filter: blur(250px);
+  z-index: -1;
+}
+
+.custUltimateFocusTravel .custRiskFree {
+  position: relative;
+}
+
+.custUltimateFocusTravel .custRiskFree::before {
+  width: 750px;
+  height: 750px;
+  right: 40px;
+  bottom: 130px;
+  opacity: 0.3;
+  background: #f3971b;
+  left: auto;
+  top: auto;
+}
+
+.custRiskFreeDeskImg {
+  background-image: url(./images/100-day-risk-free-trial.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.custUltimateFocusTravel .custTextWrapper.custRiskFreeDeskImg {
+  height: 600px;
+}
+.custRiskFreeDeskImg::before {
+  content: "";
+  border-radius: 12px;
+  background: linear-gradient(78deg, #000 -1.14%, rgba(0, 0, 0, 0) 63.32%);
+  display: flex;
+  padding: 48px;
+  align-items: flex-start;
+  gap: 48px;
+  flex: 1 0 0;
+  align-self: stretch;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.custUltimateFocusTravel .custRiskFree {
+  min-height: 600px;
+}
+
+.custUltimateFocusTravel .custRiskFree .custTextTitle {
+  color: #fff;
+  font-family: Schibsted Grotesk;
+  font-size: 52px;
+  line-height: 110%;
+  /* 57.2px */
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .hide-content{
+  max-height: 20rem !important;
+}
+body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .product-description .show-content{
+  max-height: 100rem !important;
+}
+.custUltimateFocusTravel .row.custFocusMachine{
+  position: relative;
+  z-index: 1;
+}
+
+.add-to-cart-container + div + div{
+  display: none;
+}
+
+.custPDPfeatureFocusTabs {
+  display: flex;
+  padding: 4px;
+  align-items: flex-start;
+  gap: 8px;
+  border-radius: 100px;
+  background: #FFF;
+  margin: 0 0 20px;
+}
+.custPDPfeatureFocusTabs .tab {
+  display: flex;
+  padding: 11px 32px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+}
+.custPDPfeatureFocusTabs .tab.active {
+  border-radius: 100px;
+  border: 1px solid var(--color-BLACK, #000);
+}
+#custWhySpecialContent{
+  display: none;
+}
+
+div#custFAQcontent ul.faqListing {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#custFAQcontent ul.faqListing li {
+  padding: 20px 0;
+  border-bottom: 1px solid #D9C7B2;
+  position: relative;
+}
+div#custFAQcontent ul.faqListing li:first-child {
+  padding-top: 0;
+}
+div#custFAQcontent ul.faqListing li input {
+  position: absolute;
+  opacity: 0;
+}
+
+div#custFAQcontent ul.faqListing li .question {
+  gap: 0 10px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: .03em;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+div#custFAQcontent ul.faqListing li .answer {
+  margin: 16px 0 0;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: .06em;
+  font-family: "IBM Plex Sans";
+  display: none;
+
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+div#custFAQcontent ul.faqListing li input:checked ~ .answer {
+  max-height: 100rem;
+  display: block;
+}
+
+div#custFAQcontent ul.faqListing li .question svg {
+  transform: rotate(180deg);
+}
+div#custFAQcontent ul.faqListing li input:checked ~ .question svg {
+  transform: rotate(0deg);
+}
+
+.custPartnersMain .custGlobalReview {
+  max-width: 400px;
+  margin: 60px auto 0;
+  font-family: Schibsted Grotesk;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.custPartnersMain .custGlobalReview span.stars {
+  display: block;
+  height: 25px;
+  position: relative;
+  vertical-align: middle;
+  width: 120px;
+  margin: 0 auto 8px;
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: 120px 25px;
+  background-repeat: no-repeat;
+}
+
+
+.custBrandReviewFocus {
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+
+.custBrandReviewFocus .custReviewBox {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+  margin: 15px;
+}
+
+.custBrandReviewFocus .custReviewBox .imgCol,
+.custBrandReviewFocus .custReviewBox .reviewContentBox {
+  width: 50%;
+  align-self: stretch;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox {
+  padding: 40px;
+  gap: 16px;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .reviewTitle {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .reviewQuote {
+  color: #000;
+  font-family: IBM Plex Mono;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: normal;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .reviewFooter {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .reviewFooter .name {
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .verifyBadge {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #FBB500;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  align-self: stretch;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .verifyBadge img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox a.custMoreReview {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: ibm-plex-sans, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  border: 1px solid var(--color-black, #000);
+  align-self: flex-start;
+  text-decoration: none;
+  margin-top: 24px;
+}
+.custBrandReviewFocus .swiper.custBrandSwiperReview {
+  /* overflow: visible; */
+  margin: -15px;
+}
+
+.custBrandReviewFocus .custReviewBox .imgCol {
+  border-radius: 0 24px 24px 0;
+  overflow: hidden;
+  position: relative;
+  padding-top: 50%;
+}
+
+.custBrandReviewFocus .custReviewBox .reviewContentBox .ratings img {
+  height: 24px;
+}
+
+.custBrandReviewFocus .custReviewBox .imgCol img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custBrandReviewFocus .custSliderControls {
+  position: absolute;
+  width: calc(50% - 15px);
+  top: 15px;
+  bottom: 15px;
+  right: 15px;
+}
+.custBrandReviewFocus .custSliderControls span.swiper-pagination-bullet {
+  width: 80px;
+  height: 4px;
+  border-radius: 4px;
+  background: #fff;
+}
+.custBrandReviewFocus .custSliderControls .swiper-pagination{
+  bottom: 20px !important;
+}
+
+@media(max-width: 1399px){
+  .custUltimateFocusTravel .custTextWrapper.custUnmatchedDeskImg{
+    background-size: 180px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .custReviewMainBoxFocus .custTestiWrapper {
+    column-gap: 20px;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox {
+    margin: 10px 0;
+  }
+
+  .custMarqueeFocus {
+    padding: 30px 0px 40px 40px;
+    /* height: 140px; */
+    gap: 30px;
+  }
+
+  .custMarqueeFocus .custMarqueeWrap {
+    padding: 20px;
+  }
+
+  .marquee {
+    height: 136px;
+  }
+
+  .custUltimateFocusTravel {
+    padding: 60px 0;
+  }
+
+  .custUltimateFocusTravel .custMarginBottom80 {
+    margin-bottom: 60px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft {
+    padding: 80px 40px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft p {
+    font-size: 22px;
+  }
+
+  .custUltimateFocusTravel .custTextWrapper {
+    padding: 35px;
+  }
+
+  .custUltimateFocusTravel .custText .custTextTitle {
+    font-size: 42px;
+  }
+
+  .custUltimateFocusTravel .custUnmatched .custText {
+    width: 300px;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper {
+    column-gap: 20px;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox {
+    margin: 10px 0;
+  }
+  .custUltimateFocusTravel .custTextWrapper.custUnmatchedDeskImg{
+    background-size: 200px;
+  }
+
+  .custUltimateFocusTravel .custRiskFree {
+    min-height: 550px;
+  }
+
+  .custUltimateFocusTravel .custRiskFree .custText {
+    width: 350px;
+  }
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet{
+    width: 20px;
+  }
+  .custPartnersMain {
+    padding-top: 40px;
+  }
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox p{
+    font-size: 16px;
+    line-height: 140%;
+  }
+  
+  .custBrandReviewFocus .custSliderControls span.swiper-pagination-bullet{
+    width: 20px;
+  }
+  .custBrandReviewFocus .custReviewBox{
+    border-radius: 14px;
+  }
+  .custBrandReviewFocus .custReviewBox .imgCol{
+    border-radius: 0 14px 14px 0;
+  }
+  .custBrandReviewFocus {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .custReviewMainBoxFocus .custTestiWrapper {
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft {
+    padding: 0px 40px;
+  }
+
+  .custUltimateFocusTravel .custMarginBottom80 {
+    gap: 30px;
+  }
+
+  .custUltimateFocusTravel .custUnmatched2Img,
+  .custUltimateFocusTravel .custFocusMachine2Img,
+  .custUltimateFocusTravel .custCompact2Img {
+    display: flex;
+    gap: 30px;
+  }
+
+  .custUltimateFocusTravel .custUnmatched2Img .custImgBox,
+  .custUltimateFocusTravel .custFocusMachine2Img .custImgBox,
+  .custUltimateFocusTravel .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 15px);
+  }
+
+  .custUltimateFocusTravel .custUnmatched .custText {
+    width: 60%;
+  }
+
+  .custUltimateFocusTravel .custCompact2Img .custImgBox {
+    height: 280px;
+    margin: 0;
+  }
+
+  .custUltimateFocusTravel .custFocusMachine2Img .custImgBox {
+    height: 280px;
+    margin: 0;
+  }
+
+  .custUltimateFocusTravel .custImgBox {
+    margin: 0;
+  }
+
+  .custUltimateFocusTravel .custFocusMachine .custText,
+  .custUltimateFocusTravel .custCompact .custText {
+    max-width: 500px;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper {
+    column-count: 2;
+    column-gap: 20px;
+  }
+
+  .custUltimateFocusTravel .custText .custTextTitle {
+    font-size: 38px;
+  }
+
+  .custUltimateFocusTravel .custTextWrapper {
+    padding: 35px 15px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft p {
+    font-size: 20px;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container h1.h3 {
+    display: none !important;
+  }
+  .custUltimateFocusTravel .row.custFocusMachine {
+    gap: 30px;
+  }
+  .custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk3 {
+    height: 294px;
+  }
+  .custMayAlsoLikeFocus .d-none{
+    display: none !important;
+  }
+  .custPartnersMain .custSliderControls{
+    display: block;
+  }
+  
+  .custBrandReviewFocus .custReviewBox .reviewContentBox{
+    padding: 20px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .reviewTitle{
+    font-size: 28px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .reviewQuote{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .ratings img {
+    height: 18px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox a.custMoreReview{
+    padding: 12px 20px;
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+
+  .custMarqueeFocus {
+    padding: 30px 15px;
+    gap: 15px;
+  }
+
+  .marquee {
+    height: 126px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft::before {
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .custUltimateFocusTravel {
+    padding: 30px 0px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft {
+    padding: 0px;
+    position: unset;
+  }
+
+  .custUltimateFocusTravel .custMarginBottom80 {
+    gap: 24px;
+    position: relative;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+
+  .custUltimateFocusTravel .custMarginBottom80:last-child {
+    margin-bottom: 30px;
+  }
+
+  .custUltimateFocusTravel .custTextLeft::before {
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/small-gradient-shadow.svg), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/small-gradient-shadow.svg);
+    background-color: unset;
+    opacity: 1;
+    filter: unset;
+    background-size: 150%;
+    transform: unset;
+    background-position: 60% center;
+    border-radius: unset;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1{
+    font-size: 36px;
+    line-height: 43px;
+    margin: 8px 0 !important;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"].product-form h1 + span {
+    font-size: 15px !important;
+    line-height: 21px !important;
+  }
+  .custShippingFocusWraper .inside{
+    gap: 8px;
+  }
+  .product-form #variant-select {
+    margin-top: -8px;
+  }
+  .product-form [id*="price-main-template"] .price .d-inline-block{
+    font-family: "IBM Plex Sans";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .custShippingFocusWraper {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures {
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 {
+    width: 100%;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6:nth-child(3) {
+    display: none;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .row.gx-1 [class*="col-"] {
+    width: auto;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .row.gx-1 {
+    gap: 12px;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .row.gx-1 [class*="col-"] p {
+    font-size: 12px !important;
+    line-height: 16px;
+    font-weight: 400;
+    /* font-family: 'IBM Plex Sans'; */
+    font-family: ibm-plex-sans, sans-serif;
+    padding: 0 !important;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"] .custFeatures .col-6 .mb-3 {
+    margin: 0 0 8px !important;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .container-fluid .container > .px-5.px-xl-0 {
+    padding: 0 15px !important;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .swiper-button-next{
+    right: -12px !important;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .swiper-button-prev{
+    left: -12px !important;
+  }  
+  .custPDPbrandFocusBody .section-reviews-slider .container-fluid {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p + div p,
+  .custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light p{
+    font-size: 14px;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .swiper-slide .bg-light h3{
+    font-size: 15px;
+  }
+  .custFocusMachine {
+    gap: 24px !important;
+  }  
+  .custUltimateFocusTravel .custTextWrapper.custUnmatchedDeskImg{
+    background-size: 180px !important;
+  }
+  .custPDPbrandFocusBody{
+    margin-bottom: 0;
+    margin-top: 40px;
+  }
+  .custPDPbrandFocusBody:before{
+    top: -49px;
+    height: 50px;
+  }
+  .custPartnersMain {
+    padding-top: 50px;
+  }
+  .custMayAlsoLikeFocus .row {
+    overflow: auto;
+    flex-wrap: nowrap;
+    gap: 0;
+    margin: 0 -7.5px;
+  }
+  .custMayAlsoLikeFocus .row .col-md-3 {
+    width: 50%;
+    padding: 0 7.5px;
+  }
+  .custMayAlsoLikeFocus .row .col-md-3 .itemBox {
+    height: 100%;
+  }
+  .custReviewMainBoxFocus{
+    padding-top: 0;
+  }
+  .custPartnersMain .custSliderControls{
+    width: 100%;
+    height: 40%;
+  }
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet{
+    width: 30px;
+  }
+  .custPartnersMain .custSliderControls [class*="swiper-button-"]{
+    display: none;
+  }
+  .custRiskFreeDeskImg {
+    background-image: url(./images/100-day-risk-free-trial-mob.jpg);
+    background-position: top right;
+  }
+  body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper.swiper-media .custShippingFocusBadge{
+    width: 62px;
+    height: 62px;
+    font-size: 9px;
+    line-height: 11.7px;
+  }
+  body.template-product #MainContent nav[role="navigation"]{
+    display: none !important;
+  }
+  body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper-thumbs .swiper-button-prev {
+    left: -28px;
+    right: unset;
+    box-shadow: none;
+  }
+  body.template-product #MainContent .product-container .product-media[id*="__main"] .swiper-thumbs .swiper-button-next {
+    left: unset;
+    right: -28px;
+    box-shadow: none;
+  }
+  .custPartnersMain .swiper.custPartnerslider{
+    margin: 0;
+  }
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:first-child{
+    margin-top: 0 !important;
+  }
+  .custUltimateFocusTravel .custFocusMachine:after,
+  .custUltimateFocusTravel .custCompact:after {
+    -webkit-filter: blur(45px);
+    -moz-filter: blur(45px);
+    -o-filter: blur(45px);
+    -ms-filter: blur(45px);
+    filter: blur(45px);
+  }
+  
+  .custBrandReviewFocus {
+    padding-top: 50px;
+  }
+  .custBrandReviewFocus .custReviewBox{
+    flex-direction: column;
+  }
+  .custBrandReviewFocus .custReviewBox .imgCol, 
+  .custBrandReviewFocus .custReviewBox .reviewContentBox{
+    width: 100%;
+  }
+  .custBrandReviewFocus .custReviewBox .imgCol{
+    border-radius: 0;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox{
+    padding: 30px 15px;
+    gap: 24px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .reviewTitle{
+    font-size: 28px;
+    line-height: 24px;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .reviewQuote{
+    font-family: ibm-plex-sans, sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: normal;
+  }
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .reviewFooter .name,
+  .custBrandReviewFocus .custReviewBox .reviewContentBox .verifyBadge{
+    letter-spacing: normal;
+  }
+  .custBrandReviewFocus .custReviewBox .imgCol{
+    padding-top: 100%;
+  }
+  
+  .custBrandReviewFocus .custSliderControls{
+    width: 100%;
+    height: 40%;
+  }
+  .custBrandReviewFocus .custSliderControls span.swiper-pagination-bullet{
+    width: 30px;
+  }
+  .custBrandReviewFocus .custSliderControls [class*="swiper-button-"]{
+    display: none;
+  }
+  
+  .custBrandReviewFocus .custReviewBox{
+    margin: 12px;
+  }
+  .custBrandReviewFocus .swiper.custBrandSwiperReview{
+    margin: -12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .custReviewMainBoxFocus .custTestiWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(1) {
+    order: 1 !important;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(2) {
+    order: 4 !important;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(3) {
+    order: 2 !important;
+  }
+  .custReviewMainBoxFocus{
+    padding-bottom: 60px;
+  }
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(2),  
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(4),
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(5),
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox:nth-child(6) {
+    display: none;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+
+  .custReviewMainBoxFocus .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 24px;
+  }
+
+  .custReviewMainBoxFocus .custButtonWrapper {
+    padding: 100px 40px 16px 40px;
+  }
+
+  .custUltimateFocusTravel .custTextWrapper {
+    padding: 15px;
+  }
+  .custUltimateFocusTravel .custText .custTextTitle {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  .custUltimateFocusTravel .custText .custTextTitle br {
+    display: none;
+  }
+
+  .custUltimateFocusTravel .custUnmatched .custUnmatchedDeskImg {
+    padding-bottom: 15px;
+    background: #fff;
+  }
+
+  .custUltimateFocusTravel .custUnmatched2Img,
+  .custUltimateFocusTravel .custFocusMachine2Img,
+  .custUltimateFocusTravel .custCompact2Img {
+    display: flex;
+    gap: 15px;
+  }
+
+  .custUltimateFocusTravel .custUnmatched2Img .custImgBox,
+  .custUltimateFocusTravel .custFocusMachine2Img .custImgBox,
+  .custUltimateFocusTravel .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 7px);
+  }
+
+  .custUltimateFocusTravel .custUnmatched .custImgBox {
+    height: 210px;
+  }
+  
+  .custUltimateFocusTravel .custUnmatched2Img .custImgBox {
+    height: 160px;
+  }
+  .custUltimateFocusTravel .custUnmatched2Img .custImgBox.mob img {
+    object-fit: contain;
+    object-position: right;
+  }
+
+  .custUltimateFocusTravel .custFocusMachine .custFocusMachineDesk3,
+  .custUltimateFocusTravel .custCompact2Img .custImgBox,
+  .custUltimateFocusTravel .custCompact .custPortableDesk3,
+  .custUltimateFocusTravel .custFocusMachine2Img .custImgBox {
+    height: 200px;
+  }
+
+  .custUltimateFocusTravel .custText p.custSubTitle {
+    font-size: 14px;
+  }
+
+  .custUltimateFocusTravel .custUnmatched .custText {
+    gap: 24px;
+    width: 100%;
+  }
+
+  .custUltimateFocusTravel .custText {
+    gap: 16px;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(1) {
+    order: 1;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(2) {
+    order: 4;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(3) {
+    order: 2;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(4),
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(5),
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox:nth-child(6) {
+    display: none;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+
+  .custUltimateFocusTravel .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .custUltimateFocusTravel .custButtonWrapper {
+    padding: 56px 40px 16px 40px;
+  }
+
+  .custUltimateFocusTravel .custMarginBottom80:last-child {
+    margin-bottom: 0px;
+  }
+  .custUltimateFocusTravel .custText p.custSubTitle,
+  .custUltimateFocusTravel .custText ol{
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+  }
+  .custPDPbrandFocusBody:after{
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+  }
+  .custUltimateFocusTravel .custUnmatched .custImgBox.mob {
+    display: block !important;
+  }
+  .custUltimateFocusTravel .custUnmatched .custImgBox.desk {
+    display: none !important;
+  }
+  .custPDPbrandFocusBody .section-reviews-slider .container-fluid > div.text-center h3{
+    font-size: 28px;
+    line-height: 33.6px;
+    margin: 0 0 24px;
+  }
+  .custMayAlsoLikeFocus{
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  .custMayAlsoLikeFocus h2{
+    font-family: Schibsted Grotesk;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38.4px;
+    margin: 0 0 24px;
+    text-transform: none;
+  }
+  .custUltimateFocusTravel .custRiskFree .custText {
+    gap: 32px;
+  }
+  body.template-product #MainContent [id*="__main"] .product-container form[id*="__main"]>.row>div:nth-last-child(4).col-12 .row>.col-6{
+    width: 100% !important;
+  }
+  
+  .custMayAlsoLikeFocus .itemBox .itemContent{
+    padding: 16px 8px;
+  }
+  .custMayAlsoLikeFocus .itemBox .itemContent .price,
+  .custMayAlsoLikeFocus .itemBox .itemContent .title{
+    line-height: 20px;
+  }
+  
+  .custBrandReviewFocus .custReviewBox .reviewContentBox a.custMoreReview{
+    margin: 0;
+    display: none;
+  }
+  .custBrandReviewFocus .custSliderControls .swiper-pagination{
+    bottom: 15px !important;
+  }
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
