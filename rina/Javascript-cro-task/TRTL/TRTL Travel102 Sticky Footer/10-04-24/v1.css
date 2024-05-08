@@ -216,7 +216,7 @@
     .custStickyDCBundleWrapper .imgWrapper {
         flex: 0 0 80px;
         left: 4px;
-        top: 14px;
+         top: 14px;
         position: inherit;
     }
     .custStickyDCBundleWrapper .imgWrapper img{
