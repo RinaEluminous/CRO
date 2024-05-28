@@ -1,0 +1,50 @@
+<div class="custmaySaleEventTopBanner">    
+    <div class="custBannerTopHeading">
+        <a href="https://www.myvidaorigins.com/products/daily-focus">
+        Memorial Day Sale!</a>Get up to 50% OFF select products.
+    </div>
+</div>
+
+.custmaySaleEventTopBanner {
+    width: calc(100% - 20px);
+    margin: 0 20px;
+    background: linear-gradient(99.93deg, rgba(254, 247, 231, 0.16) 15.81%, rgba(56, 233, 103, 0.166) 44.27%), rgba(255, 235, 209, 0.86);
+    border-radius: 12px;
+}
+
+.custBannerTopHeading *, .custBannerTopHeading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Unbounded';
+}
+
+.custBannerTopHeading {
+    text-align: center;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custBannerTopHeading a {
+    color: #34A853;
+    margin-right: 7px;
+}
+/*media*/
+
+@media only screen and (max-width: 767px) {
+.custBannerTopHeading {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 9px 5px;
+}
+
+.custBannerTopHeading *, .custBannerTopHeading {
+    font-size: 16px;
+}
+
+.custmaySaleEventTopBanner {
+    margin: 5px auto 0 auto;
+}
+}

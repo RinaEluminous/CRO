@@ -1,0 +1,279 @@
+.custmaySaleEventStickly {
+    background-color: #Fff;
+    margin: auto;
+    padding: 25px 22px;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 984px;
+    transition: bottom 0.2s;
+}
+
+.custmaySaleEventStickly .custCloseIcon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 22px;
+    padding: 5px 12px 8px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15); */
+    z-index: 99;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custCtaWrapper p a {
+    background-color: #fad951;
+    padding: 10px 40px;
+    display: block;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custMainLeftSide{
+    width: 68%;
+    padding-left: 4px;
+    margin-bottom: 4px;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custBannerHeading span {
+    color: #DA0D0D;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custBannerHeading a {
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custBannerHeading {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: normal;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custSubHeading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .img-wrapper {
+    position: absolute;
+    left: 20px;
+    top: -28px;
+    text-align: left;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custCtaWrapper{
+    position: relative;
+    z-index: 9;
+}
+
+.custStickyDCBundleWrapper .imgWrapper {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    text-align: left;
+    width: 128px;
+    bottom: 0;
+}
+
+.custStickyDCBundleWrapper .imgWrapper img {
+    width: 120px;
+    height: 92px;
+    margin-top: 5px;
+}
+.custStickyDCBundleWrapper .imgWrapper img.imgMobile{
+    display: none;
+}
+
+.custmaySaleEventStickly .custTrendingBadge {
+    position: absolute;
+    top: -25px;
+    background: #fad951;
+    z-index: 1;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 2.5px 16px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    gap: 0 8px;
+    left: 50%;
+    margin-left: -63px;
+}
+
+.custmaySaleEventStickly .custStickyDCBundleWrapper .custMainLeftSide .custLeftSection {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*designer1*/
+@media screen and (min-width: 992px) {
+    .custmaySaleEventStickly .img-wrapper .img-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .custmaySaleEventStickly {
+        bottom: 5px;
+        transition: bottom 0.8s;
+        padding: 8px;
+    }
+
+    .custmaySaleEventStickly .custCloseIcon {
+        right: -9px;
+        top: -9px;
+        line-height: 0;
+        width: 35px;
+        height: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .img-wrapper img {
+        max-width: 100%;
+    }
+
+    .custmaySaleEventStickly .img-wrapper {
+        right: 50px;
+        bottom: 2px !important;
+        max-width: 110px;
+        top: auto !important;
+        text-align: right;
+        left: 0 !important;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custSubHeading {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .img-wrapper img {
+        width: 90%;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custBannerHeading{
+        margin-bottom: 5px;
+    }
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custCtaWrapper{
+        flex: 0 0 180px;
+    }
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custCtaWrapper p {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper {
+        align-items: center;
+        width: 100%;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custMainLeftSide {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .custmaySaleEventStickly::after {
+        display: none;
+    }
+
+    .custmaySaleEventStickly::before {
+        background-image: url(https://d27c6j8064skg9.cloudfront.net/growthHit/TRTL/test55/Recmob.png) !important;
+        background-size: contain;
+        width: 30%;
+    }
+
+    .custmaySaleEventStickly {
+        width: 95%;
+    }
+
+    .custmaySaleEventStickly .img-wrapper .imgDesktop {
+        display: none;
+    }
+
+    .custStickyDCBundleWrapper .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+        position: inherit;
+    }
+    .custStickyDCBundleWrapper .imgWrapper img{        
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }    
+}
+
+@media(max-width:567px) {
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custBannerHeading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 2px;
+    }
+
+    .custStickyDCBundleWrapper .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+    }
+
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custCtaWrapper{
+        width: 100%;
+        flex: 1;
+    }
+    .custmaySaleEventStickly .custStickyDCBundleWrapper{
+        flex-direction: column;
+    }
+    .custmaySaleEventSticklyV1 .custStickyDCBundleWrapper .custLeftSection .custSubHeading{
+        display: none;
+    }
+    .custStickyDCBundleWrapper .imgWrapper img.imgMobile{
+        display: block;
+    }
+    .custStickyDCBundleWrapper .imgWrapper img.imgDesktop{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .custmaySaleEventStickly .custCloseIcon {
+        font-size: 17px;
+    }
+    .custmaySaleEventStickly .custStickyDCBundleWrapper .custLeftSection .custSubHeading{
+        display: none;
+    }
+}
