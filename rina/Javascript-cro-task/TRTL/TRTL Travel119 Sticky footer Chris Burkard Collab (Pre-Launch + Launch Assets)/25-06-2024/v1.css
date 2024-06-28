@@ -1,0 +1,258 @@
+.custPreLaunchSticklyFooter {
+    background-color: #Fff;
+    margin: auto;
+    padding: 25px 22px;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 984px;
+    transition: bottom 0.2s;
+}
+
+.custPreLaunchSticklyFooter .custCloseIcon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 22px;
+    padding: 5px 12px 8px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 99;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custCtaWrapper p a {
+    background-color: #fad951;
+    padding: 10px 40px;
+    display: block;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custMainLeftSide{
+    width: 68%;
+    padding-left: 4px;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custBannerHeading span {
+    color: #DA0D0D;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custBannerHeading a {
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custBannerHeading {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custSubHeading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .img-wrapper {
+    position: absolute;
+    left: 20px;
+    top: -28px;
+    text-align: left;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custCtaWrapper{
+    position: relative;
+    z-index: 9;
+}
+
+.custStickyPreLaunchWrapper .imgWrapper {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    text-align: left;
+    width: 128px;
+    bottom: 0;
+}
+
+.custStickyPreLaunchWrapper .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1.05);
+}
+
+.custPreLaunchSticklyFooter .custTrendingBadge {
+    position: absolute;
+    top: -25px;
+    background: #fad951;
+    z-index: 1;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 2.5px 16px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    gap: 0 8px;
+    left: 50%;
+    margin-left: -63px;
+}
+
+.custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custMainLeftSide .custLeftSection {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/*designer1*/
+@media screen and (min-width: 992px) {
+    .custPreLaunchSticklyFooter .img-wrapper .img-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .custPreLaunchSticklyFooter {
+        bottom: 5px;
+        transition: bottom 0.8s;
+        padding: 8px;
+    }
+
+    .custPreLaunchSticklyFooter .custCloseIcon {
+        right: -6px;
+        top: -25px;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .img-wrapper img {
+        max-width: 100%;
+    }
+
+    .custPreLaunchSticklyFooter .img-wrapper {
+        right: 50px;
+        bottom: 2px !important;
+        max-width: 110px;
+        top: auto !important;
+        text-align: right;
+        left: 0 !important;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custSubHeading {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .img-wrapper img {
+        width: 90%;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custBannerHeading{
+        margin-bottom: 5px;
+    }
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custCtaWrapper{
+        flex: 0 0 180px;
+    }
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custCtaWrapper p {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper {
+        align-items: center;
+        width: 100%;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custMainLeftSide {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .custPreLaunchSticklyFooter::after {
+        display: none;
+    }
+
+    .custPreLaunchSticklyFooter::before {
+        background-image: url(https://d27c6j8064skg9.cloudfront.net/growthHit/TRTL/test55/Recmob.png) !important;
+        background-size: contain;
+        width: 30%;
+    }
+
+    .custPreLaunchSticklyFooter {
+        width: 95%;
+    }
+
+    .custPreLaunchSticklyFooter .img-wrapper .imgDesktop {
+        display: none;
+    }
+
+    .custStickyPreLaunchWrapper .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+         top: 14px;
+        position: inherit;
+    }
+    .custStickyPreLaunchWrapper .imgWrapper img{
+        background-size: contain;
+    }
+}
+
+@media(max-width:567px) {
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custLeftSection .custBannerHeading {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 0 2px;
+    }
+
+    .custStickyPreLaunchWrapper .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+    }
+
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper .custCtaWrapper{
+        width: 100%;
+        flex: 1;
+    }
+    .custPreLaunchSticklyFooter .custStickyPreLaunchWrapper{
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .custPreLaunchSticklyFooter .custCloseIcon {
+        font-size: 17px;
+        padding: 4px 10px 7px;
+    }
+
+
+}

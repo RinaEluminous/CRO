@@ -67,8 +67,6 @@ body.custBody {
   gap: 40px;
 }
 
-.custHeroWrapper .custHeroWrap {
-}
 
 .custHeroWrapper .custHeroWrap .custHeroWrapText {
   display: flex;
@@ -91,9 +89,6 @@ body.custBody {
   align-items: center;
   gap: 8px;
   align-self: stretch;
-}
-
-.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview img {
 }
 
 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
@@ -339,8 +334,6 @@ body.custBody {
   letter-spacing: 1.26px;
 }
 
-.custMarqueeWrapper .custMarqueeWrap img {
-}
 
 .custSectionTitle {
   color: #000;
@@ -389,8 +382,6 @@ body.custBody {
   transform: scale(1.5);
 }
 
-
-.custUltimateTravel .custTextLeft::before{}
 .custUltimateTravel .custRiskFree {
   position: relative;
 }
@@ -619,9 +610,6 @@ body.custBody {
   width: 100%;
 }
 
-.custUltimateTravel .custTestiWrapper .custTestiStarQuote img {
-}
-
 .custUltimateTravel .custButtonWrapper {
   display: flex;
   padding: 60px 40px 30px 40px;
@@ -835,6 +823,10 @@ body.custBody {
   .custUltimateTravel .custRiskFree .custText {
     width: 350px;
   }
+
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet{
+    width: 20px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -935,6 +927,10 @@ body.custBody {
   }
   .custProductsWrapper {
     padding: 23px 0 30px;
+  }
+
+  .custPartnersMain .custSliderControls{
+    display: block;
   }
 }
 
@@ -1048,6 +1044,34 @@ body.custBody {
     background-position: 60% center;
     border-radius: unset;
   }
+  .custPartnersMain {
+    padding-top: 5px;
+  }
+  .custPartnersMain .custSliderControls{
+    width: 100%;
+    height: 40%;
+  }
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet{
+    width: 30px;
+  }
+  .custPartnersMain .custSliderControls [class*="swiper-button-"]{
+    display: none;
+  }
+  .custPartnersMain .swiper.custPartnerslider{
+    margin: 0;
+    padding: 0 0 30px;
+  }
+
+  .custPartnersMain .swiper.custPartnerslider .custPartnerBox p{
+    font-size: 19px;
+  }
+  .custPartnersMain .custGlobalReview{
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .custPartnersMain .custGlobalReview{
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -1145,4 +1169,67 @@ body.custBody {
     background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg),
       url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-img-mobile.png);
   }
+  .custPartnersMain .swiper.custPartnerslider .custPartnerBox{
+    max-width: 260px;
+    margin: auto;
+  }
 }
+
+
+/* partners slider style */
+.custPartnersMain {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .custPartnersMain .swiper.custPartnerslider {
+    margin: 0;
+  }
+  
+  .custPartnersMain .swiper.custPartnerslider .custPartnerBox {
+    text-align: center;
+  }
+  .custPartnersMain .swiper.custPartnerslider .custPartnerBox p{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 24px;
+  }
+  .custPartnersMain .custSliderControls {
+    margin: 30px 0 0;
+    display: none;
+  }
+  
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet {
+    width: 24px;
+    height: 3px;
+    border-radius: 0;
+    background: #000;
+    opacity: 0.2;
+  }
+  .custPartnersMain .custSliderControls span.swiper-pagination-bullet-active {
+    opacity: 0.5;
+  }
+
+  .custPartnersMain .custGlobalReview {
+    max-width: 400px;
+    margin: 60px auto 0;
+    font-family: Schibsted Grotesk;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: normal;
+  }
+  
+  .custPartnersMain .custGlobalReview span.stars {
+    display: block;
+    height: 25px;
+    position: relative;
+    width: 120px;
+    margin: 0 auto 8px;
+    background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-size: 120px 25px;
+    background-repeat: no-repeat;
+  }
+
+  

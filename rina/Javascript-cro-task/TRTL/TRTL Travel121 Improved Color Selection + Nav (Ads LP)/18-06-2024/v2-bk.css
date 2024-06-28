@@ -1,0 +1,7 @@
+.shopify-section-group-header-group{
+    display: block !important;
+}
+div#shopify-section-gh-ads-header,
+#shopify-section-ads-header-section {
+    display: none !important;
+}

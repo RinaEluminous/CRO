@@ -1,0 +1,91 @@
+<!-- slider Partners -->
+<div class="custPartnersMain">
+    <div class="container">
+        <div class="swiper custPartnerslider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"Makes the middle seat feel like first class"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_9_100x.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"I\'ve truly never slept better on a plane"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_5_b41e0ca1-e8ee-47e2-9cd2-d49d2ea1c9fa_100x.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"Its design is unique to anything else"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_4_100x.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"Don\'t know how I ever flew without it"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_7_3b26cb49-0e0a-4438-88f6-946b96e95680_100x.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"I never travel without my Trtl Pillow"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_6_c3e8ebd1-bcff-4bae-857f-9be9c4c55eb0_100x.png" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="custPartnerBox">
+                      <p>"The Trtl Pillow will be your sleep savior"</p>
+                      <img src="https://trtltravel.com/cdn/shop/files/Untitled_design_2_100x.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="custSliderControls">
+              <div class="swiper-pagination"></div>
+            </div>
+        </div>
+  
+        <div class="custGlobalReview">
+          <span class="stars"></span>
+          Over 30,000 reviews on Amazon globally
+        </div>
+    </div>
+  </div>
+
+  <script>
+      if(jQuery('#custSwiperSliderJS').length == 0){
+        jQuery( "head" ).append( '<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js" id="custSwiperSliderJS"></script>');
+    }
+    if(jQuery('#custSwiperSliderCSS').length == 0){
+        jQuery( "head" ).append( '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.css" id="custSwiperSliderCSS" />');			 
+    }
+    var swiper = new Swiper(".custPartnerslider", {
+      cssMode: true,
+      slidesPerView: 1,
+      spaceBetween: 50,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      mousewheel: true,
+      keyboard: true,
+      breakpoints: {
+        480: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        }
+      },
+    });
+
+  </script>

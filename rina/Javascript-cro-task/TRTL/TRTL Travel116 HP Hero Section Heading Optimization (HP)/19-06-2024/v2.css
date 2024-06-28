@@ -1,0 +1,1091 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap");
+
+@media (max-width: 991px) {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body.custBodyV2 {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #f4eeeb;
+  letter-spacing: 0;
+}
+
+.custToolbarWrapperV2 {
+  background: #3c3e41;
+}
+
+.custToolbarWrapV2 {
+  max-width: 1440px;
+  list-style: none;
+  display: flex;
+  padding: 10px 40px;
+  margin: 0 auto;
+  align-items: center;
+  overflow-x: auto;
+  justify-content: flex-start;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  gap: 32px;
+}
+
+.custToolbarWrapperV2 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex: 1 0 0;
+}
+
+.custToolbarWrapperV2 li span.custToolbarIcon {
+  width: 35px;
+  height: 35px;
+}
+
+.custToolbarWrapperV2 li span.custToolbarText {
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.56px;
+  white-space: nowrap;
+}
+
+.custWrapperV2 .custHeroWrapper {
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg),
+    url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-img.jpg);
+  background-position: 0 100%, 0 -2px;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100%, cover;
+  /* height: 500px; */
+  padding: 40px 80px;
+  align-items: flex-start;
+  gap: 40px;
+  display: none;
+}
+
+
+.custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 20px;
+  max-width: 480px;
+  margin-bottom: 80px;
+}
+
+.custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview {
+  color: #f4eeeb;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+  color: #f4eeeb;
+  font-family: Schibsted Grotesk;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  /* 72px */
+  letter-spacing: 2.16px;
+  margin: 0;
+}
+
+.custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+  color: #f4eeeb;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 1.68px;
+}
+
+.custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText a.custBtnV2 {
+  margin-top: 16px;
+}
+
+.custBtnV2 {
+  display: inline-flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.custYellowBtnV2 {
+  background: #fad951;
+}
+
+.custYellowBtnV2:hover,
+.custUltimateTravelV2 .custButtonWrapper .custBtnV2:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #fad951;
+}
+
+.custYellowBgV2 {
+  background: #fad951 !important;
+}
+
+.custBlueV2 {
+  color: #1c32ff !important;
+}
+
+.custBlack {
+  color: #000000 !important;
+}
+
+.custProductsWrapperV2 {
+  padding: 23px 0 60px;
+  background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg) no-repeat left bottom -1px;
+  background-size: 100%;
+}
+
+.custProductsWrapperV2 .custProductsWrap {
+  max-width: 1200px;
+}
+
+.custProductsWrapperV2 .custProductsWrap .custProductsCard {
+ 
+  width: 100%;
+  display: inline-flex;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: auto;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #fff;
+  text-decoration: none;
+}
+
+.custProductsWrapperV2 .custProductsWrap .custProductsCard .custProductsCardImg {
+  padding-top: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.custProductsWrapperV2
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardImg
+  img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custProductsWrapperV2
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardImg
+  .custProductBestSeller {
+  display: flex;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  right: auto;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  border-radius: 2px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.84px;
+  width: 100%;
+  max-width: 145px;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.custProductsWrapperV2 .custProductsWrap .custProductsCard .custProductsCardText {
+  padding: 0px 20px 16px;
+  text-align: center;
+}
+
+.custProductsWrapperV2
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle {
+  color: #000;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 10px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  margin: 0;
+}
+
+.custProductsWrapperV2
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle
+  span {
+  flex: 0 0 20px;
+}
+
+.custProductsWrapperV2
+  .custProductsWrap
+  .custProductsCard
+  .custProductsCardText
+  .custProductsCardTextTitle
+  + p {
+  color: #000;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  opacity: 0.5;
+  letter-spacing: 0;
+}
+
+.custContainer1280V2 {
+  max-width: 1280px;
+}
+
+.custContainer1200V2 {
+  max-width: 1200px;
+}
+
+.custMarqueeWrapperV2 {
+  display: flex;
+  padding: 40px 0px 60px 40px;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: stretch;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.custMarqueeWrapperV2 .custMarqueeWrap {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border-radius: 12px;
+  border: 1px solid #a3adbb;
+  flex: 0 0 auto;
+}
+
+.custMarqueeWrapperV2 .custMarqueeWrap span {
+  flex: 0 0 auto;
+  color: #000;
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1.26px;
+}
+
+
+.custSectionTitleV2 {
+  color: #000;
+  text-align: center;
+  font-family: Schibsted Grotesk;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+
+.custUltimateTravelV2 {
+  padding: 80px 0 0 0;
+  overflow: hidden;
+}
+
+.custUltimateTravelV2 .custTextLeft {
+  position: relative;
+  display: flex;
+  padding: 0px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  z-index: -1;
+}
+
+.custUltimateTravelV2 .custTextLeft::before,
+.custUltimateTravelV2 .custRiskFree::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 100px;
+  top: 0;
+  border-radius: 1000px;
+  opacity: 0.15;
+  background: #f5da6a;
+  -webkit-filter: blur(60px);
+  -moz-filter: blur(60px);
+  -o-filter: blur(60px);
+  -ms-filter: blur(60px);
+  filter: blur(60px);
+  z-index: -1;
+  transform: scale(1.5);
+}
+
+.custUltimateTravelV2 .custRiskFree {
+  position: relative;
+}
+
+.custUltimateTravelV2 .custRiskFree::before {
+  width: 750px;
+  height: 750px;
+  right: 40px;
+  bottom: 130px;
+  opacity: 0.25;
+  background: #f3971b;
+  left: auto;
+  top: auto;
+}
+
+.custUltimateTravelV2 .custTextLeft p {
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+
+.custUltimateTravelV2 .custMarginBottom80 {
+  margin-bottom: 80px;
+  gap: 30px;
+}
+
+.custUltimateTravelV2 .custTextWrapper {
+  display: flex;
+  height: 100%;
+  padding: 35px 15px;
+  background-position: right bottom;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden;
+}
+
+.custUltimateTravelV2 .custText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.custUltimateTravelV2 .custText .custNumbers {
+  display: inline-flex;
+  border-radius: 1000px;
+  border: 1px solid #dededf;
+  width: 56px;
+  height: 56px;
+  padding: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.custUltimateTravelV2 .custText .custTextTitle {
+  color: #000;
+  font-family: Schibsted Grotesk;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 0;
+}
+
+.custUltimateTravelV2 .custText p {
+  color: #444343;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+}
+
+.custUltimateTravelV2 .custUnmatched .custText {
+  display: flex;
+  width: 50%;
+}
+
+.custUnmatchedDeskImgV2 {
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/unmatched-comfort-&-support-desk-1.png);
+  background-size: contain;
+  background-position: right -130px bottom;
+  background-repeat: no-repeat;
+}
+
+.custRiskFreeDeskImgV2 {
+  background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/100-day-risk-free-trial.jpg);
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+}
+.custUltimateTravelV2 .custTextWrapper.custRiskFreeDeskImgV2 {
+  height: 600px;
+}
+.custRiskFreeDeskImgV2::before {
+  content: "";
+  border-radius: 12px;
+  background: linear-gradient(78deg, #000 -1.14%, rgba(0, 0, 0, 0) 63.32%);
+  display: flex;
+  align-items: flex-start;
+  gap: 48px;
+  flex: 1 0 0;
+  align-self: stretch;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.custUltimateTravelV2 .custImgBox {
+  display: flex;
+  height: 280px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #f9f9f9;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.custUltimateTravelV2 .custImgBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custUltimateTravelV2 .custCompact .custPortableDesk1 {
+  height: 380px;
+}
+
+.custUltimateTravelV2 .custCompact .custPortableDesk2 {
+  height: 208px;
+}
+
+.custUltimateTravelV2 .custCompact .custPortableDesk3,
+.custUltimateTravelV2 .custCompact .custPortableDesk4 {
+  height: 294px;
+}
+
+.custUltimateTravelV2 .custMachine .custMachineDesk1 {
+  height: 330px;
+}
+
+.custUltimateTravelV2 .custMachine .custMachineDesk2 {
+  height: 258px;
+}
+
+.custUltimateTravelV2 .custMachine .custMachineDesk3 {
+  height: 236px;
+}
+
+.custUltimateTravelV2 .custMachine .custMachineDesk4 {
+  height: 352px;
+}
+
+.custUltimateTravelV2 .custTestiWrapper {
+  column-count: 2;
+  column-gap: 20px;
+}
+
+.custUltimateTravelV2 .custTestiWrapper .custTestiBox {
+  display: inline-flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin: 16px 0;
+}
+
+.custUltimateTravelV2 .custTestiWrapper .custTestiBox p {
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0;
+}
+.custUltimateTravelV2 .custTestiWrapper .custTestiBox p + p {
+  font-weight: 500;
+}
+
+.custUltimateTravelV2 .custTestiWrapper .custTestiBox b {
+  display: block;
+}
+
+.custUltimateTravelV2 .custTestiWrapper .custTestiStarQuote {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.custUltimateTravelV2 .custButtonWrapper {
+  display: flex;
+  padding: 60px 40px 30px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 99;
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0) 0%,
+    #f9f9f9 75.28%
+  );
+  width: 100%;
+  left: 0;
+}
+
+.custUltimateTravelV2 .custButtonWrapper .custBtnV2 {
+  display: flex;
+  padding: 12px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: #fff;
+  border-radius: 100px;
+  border: 1px solid #000;
+  color: var(--color-black, #000);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+
+.custUltimateTravelV2 .custMachine .custText,
+.custUltimateTravelV2 .custCompact .custText {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.custUltimateTravelV2 .custRiskFree {
+  min-height: 600px;
+}
+
+.custUltimateTravelV2 .custRiskFree .custTextTitle {
+  color: #fff;
+  font-family: Schibsted Grotesk;
+  font-size: 42px;
+  line-height: 110%;
+ }
+
+.custProductsWrapperV2 .swiper-pagination {
+  position: static;
+  margin-top: 30px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.custProductsWrapperV2 .swiper-pagination .swiper-pagination-bullet {
+  width: 24px;
+  height: 3px;
+  opacity: 0.2;
+  border-radius: 0;
+  background: #000;
+}
+
+.custProductsWrapperV2 .swiper-pagination .swiper-pagination-bullet-active {
+  opacity: 0.5;
+  background: #000;
+}
+
+.custBodyV2 [id|="shopify-section-template"] {
+  display: none;
+}
+.custBodyV2 .custFooterV2 {
+  background-color: #fff;
+}
+
+.directional-imgV2 {
+  animation: directional 3.5s ease 0s infinite alternate;
+  position: relative;
+  bottom: 0;
+}
+
+@keyframes directional {
+  0%, 100% {
+    bottom: -10px;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+.custUltimateTravelV2 h2.custSectionTitleV2 {
+  margin: 0 0 45px;
+}
+
+.custWrapperV2 .custHPheaderWraperV2 {
+  text-align: center;
+  padding: 30px 20px 50px;
+  background: #fff url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg) no-repeat 0 calc(100% + 1px);
+  background-size: 100%;
+}
+.custWrapperV2 .custHPheaderWraperV2 .review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+.custWrapperV2 .custHPheaderWraperV2 .review p{  
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  margin: 0px;
+}
+.custWrapperV2 .custHPheaderWraperV2 h3 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+}
+.custWrapperV2 .custHPheaderWraperV2 p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20.4px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 0 0 24px;
+}
+.custPartnersMainV2 h4.custSectionTitleV2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 25.2px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin: 30px 0;
+}
+.custProductsWrapperV2 .custProductsWrap .custProductsCard.firstSSlideItem .custProductsCardImg {
+  flex: 1;
+  padding: 0;
+}
+.custProductsWrapperV2 .custProductsWrap .custProductsCard.firstSSlideItem .custProductsCardText {
+  position: absolute;
+  bottom: 0;
+}
+.custProductsWrapperV2 .custProductsWrap .custProductsCard.firstSSlideItem .custProductsCardText .custYellowBtnV2 {
+  background: #fad951;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  padding: 12px 38px;
+}
+.custWrapperV2 .custHPheaderWraperV2 .custImgBanner{
+  margin: 0 -20px 30px;
+}
+.custWrapperV2 .custHPheaderWraperV2 .custImgBanner img {  
+  max-width: 100%;
+  width: 100%;
+}
+
+
+/* partners slider style */
+.custPartnersMainV2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.custPartnersMainV2 .swiper.custPartnerslider {
+  margin: 0;
+  padding: 0 0 50px;
+}
+
+.custPartnersMainV2 .swiper.custPartnerslider .custPartnerBox {
+  text-align: center;
+}
+.custPartnersMainV2 .swiper.custPartnerslider .custPartnerBox p{
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0 0 16px;
+}
+.custPartnersMainV2 .custSliderControls {
+  margin: 0px 0 0;
+}
+
+.custPartnersMainV2 .custSliderControls span.swiper-pagination-bullet {
+  width: 24px;
+  height: 3px;
+  border-radius: 0;
+  background: #000;
+  opacity: 0.2;
+}
+.custPartnersMainV2 .custSliderControls span.swiper-pagination-bullet-active {
+  opacity: 0.5;
+}
+
+.custPartnersMainV2 .custGlobalReview {
+  max-width: 400px;
+  margin: 60px auto 0;
+  font-family: Schibsted Grotesk;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+.custPartnersMainV2 .custGlobalReview span.stars {
+  display: block;
+  height: 25px;
+  position: relative;
+  width: 120px;
+  margin: 0 auto 8px;
+  background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+  background-size: 120px 25px;
+  background-repeat: no-repeat;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.custToolbarWrapV2::-webkit-scrollbar {
+  display: none;
+}
+
+  .custUltimateTravelV2 .custUnmatched2Img,
+  .custUltimateTravelV2 .custMachine2Img,
+  .custUltimateTravelV2 .custCompact2Img {
+    display: flex;
+    gap: 30px;
+  }
+
+  .custUltimateTravelV2 .custUnmatched2Img .custImgBox,
+  .custUltimateTravelV2 .custMachine2Img .custImgBox,
+  .custUltimateTravelV2 .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 15px);
+  }
+
+  .custUltimateTravelV2 .custMachine2Img .custImgBox {
+    height: 330px;
+    margin: 0;
+  }
+  .custSectionTitleV2 {
+    font-size: 44px;
+  }
+
+  .custPartnersMainV2 .custSliderControls{
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .custUltimateTravelV2 .custTextLeft::before {
+    left: 0;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+  }
+  .custWrapperV2 .custHeroWrapper {
+    padding: 25px 15px 40px;
+  }
+  .custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText {
+    margin-bottom: 0;
+    margin-top: 225px;
+  }
+  .custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroReview {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.8px;
+  }
+  .custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+    letter-spacing: 0.8px;
+    font-weight: 400;
+    font-size: 50px;
+  }
+  .custWrapperV2 .custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+    display: none;
+  }
+  .custWrapperV2 .custHeroWrapper {
+    background-position: 0 100%, 58% -1px;
+  }
+  .custMarqueeWrapperV2 {
+    padding: 30px 15px;
+    gap: 15px;
+  }
+  .custUltimateTravelV2 {
+    padding: 30px 0px;
+  }
+  .custSectionTitleV2 {
+    font-size: 36px;
+  }
+  .custSectionTitleV2 br {
+    display: none;
+  }
+  .custUltimateTravelV2 .custTextLeft {
+    padding: 0px;
+    position: unset;
+  }
+  .custUltimateTravelV2 .custMarginBottom80 {
+    gap: 24px;
+    position: relative;
+  }
+
+  .custRiskFreeDeskImgV2 {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/100-day-risk-free-trial-mob.jpg);
+    background-position: top right;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+
+  .custUltimateTravelV2 .custMarginBottom80:last-child {
+    margin-bottom: 30px;
+  }  
+
+  .custUltimateTravelV2 .custRiskFree::before{
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/big-gradient-shadow.svg), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/big-gradient-shadow.svg);
+    background-color: unset !important;
+    opacity: 1;
+    filter: unset;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    border-radius: unset;
+    bottom: 360px;
+    top: unset;
+    transform: unset;
+    background-position: left 30px bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+
+  
+  .custUltimateTravelV2 .custTextLeft::before {
+    left: 0;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/small-gradient-shadow.svg), url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/small-gradient-shadow.svg);
+    background-color: unset;
+    opacity: 1;
+    filter: unset;
+    background-size: 150%;
+    transform: unset;
+    background-position: 60% center;
+    border-radius: unset;
+  }
+  .custPartnersMainV2 {
+    padding-top: 5px;
+  }
+  .custPartnersMainV2 .custSliderControls{
+    width: 100%;
+    height: 40%;
+  }
+  .custPartnersMainV2 .custSliderControls span.swiper-pagination-bullet{
+    width: 30px;
+  }
+  .custPartnersMainV2 .custSliderControls [class*="swiper-button-"]{
+    display: none;
+  }
+  .custPartnersMainV2 .swiper.custPartnerslider .custPartnerBox p{
+    font-size: 19px;
+  }
+  .custPartnersMainV2 .custGlobalReview{
+    font-size: 28px;
+    line-height: 33px;
+  }
+  .custPartnersMainV2 .custGlobalReview{
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .custUltimateTravelV2 .custTextWrapper {
+    padding: 15px;
+  }
+  .custProductsWrapperV2 {
+    padding: 0px 0px 60px;
+  }
+  .custUltimateTravelV2 .custUnmatched .custText {
+    width: 100%;
+  }
+  .custUltimateTravelV2 .custText .custTextTitle {
+    font-size: 32px;
+  }
+  .custUltimateTravelV2 .custText .custTextTitle br {
+    display: none;
+  }
+  .custUltimateTravelV2 .custUnmatched .custUnmatchedDeskImgV2 {
+    padding-bottom: 195px;
+    background-size: auto 190px;
+    background-position: right bottom;
+  }
+  .custUnmatchedDeskImgV2 {
+    background-size: 225px;
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/unmatched-comfort-&-support-desk-1.png);
+    
+  }
+  .custUltimateTravelV2 .custUnmatched2Img,
+  .custUltimateTravelV2 .custMachine2Img,
+  .custUltimateTravelV2 .custCompact2Img {
+    display: flex;
+    gap: 15px;
+  }
+  .custUltimateTravelV2 .custUnmatched2Img .custImgBox,
+  .custUltimateTravelV2 .custMachine2Img .custImgBox,
+  .custUltimateTravelV2 .custCompact2Img .custImgBox {
+    flex: 0 0 calc(50% - 7px);
+  }
+  .custUltimateTravelV2 .custUnmatched .custImgBox {
+    height: 160px;
+  }
+  .custUltimateTravelV2 .custCompact2Img .custImgBox,
+  .custUltimateTravelV2 .custCompact .custPortableDesk3,
+  .custUltimateTravelV2 .custMachine2Img .custImgBox {
+    height: 200px;
+  }
+  .custUltimateTravelV2 .custText p.custSubTitle {
+    font-size: 14px;
+  }
+  .custUltimateTravelV2 .custUnmatched .custText {
+    gap: 16px;
+  }
+  .custUltimateTravelV2 .custText {
+    gap: 16px;
+  }
+  .custUltimateTravelV2 .custTestiWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(1) {
+    order: 1;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(2) {
+    order: 4;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(3) {
+    order: 2;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(4),
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(5),
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox:nth-child(6) {
+    display: none;
+  }
+
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox p {
+    font-size: 18px;
+  }
+  .custUltimateTravelV2 .custTestiWrapper .custTestiBox {
+    margin: 16px 0;
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .custUltimateTravelV2 .custRiskFree .custText {
+    gap: 32px;
+  }
+  .custUltimateTravelV2 .custButtonWrapper {
+    padding: 56px 40px 16px 40px;
+  }
+  .custUltimateTravelV2 .custMarginBottom80:last-child {
+    margin-bottom: 0px;
+  }
+  .custWrapperV2 .custHeroWrapper {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-bottom-shape.svg),
+      url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/hero-img-mobile.png);
+  }
+  .custPartnersMainV2 .swiper.custPartnerslider .custPartnerBox{
+    margin: auto;
+  }  
+  .custWrapperV2 .custHPheaderWraperV2 a.custBtnV2.custYellowBtnV2 {
+    width: 100%;
+  }
+}

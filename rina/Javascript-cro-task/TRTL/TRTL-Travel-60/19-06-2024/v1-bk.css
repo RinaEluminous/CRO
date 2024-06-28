@@ -42,8 +42,8 @@ body.custBody {
   height: 35px;
 }
 
-/* .custToolbarWrapper li span img {
-} */
+.custToolbarWrapper li span img {
+}
 
 .custToolbarWrapper li span.custToolbarText {
   color: #fff;

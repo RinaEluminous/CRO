@@ -1,0 +1,56 @@
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+  color: #f4eeeb;
+  font-family: IBM Plex Sans;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText {
+  max-width: 520px;
+  margin-top: 16px;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText a.custBtn {
+  margin-top: 0;
+}
+
+.custSocialProof{
+font-family: IBM Plex Sans;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.custSocialProof p span {
+  color: #1C32FF;
+}
+@media screen and (max-width: 767px) {
+.custSocialProof {
+  font-size: 21px;
+  line-height: 1.4;
+}
+.custSocialProof {
+  font-size: 21px;
+  line-height: 1.4;
+}
+
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroTitle {
+  font-size: 38px;
+}
+.custHeroWrapper .custHeroWrap .custHeroWrapText .custHeroSubTitle {
+  display: block;
+}
+}

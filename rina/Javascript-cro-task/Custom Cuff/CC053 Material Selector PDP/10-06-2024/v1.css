@@ -1,0 +1,93 @@
+.ProductForm__Option.ProductForm__Option--labelled.productOption--finish {
+    display: none;
+}
+.template-product .custColor  .SizeSwatchList li.HorizontalList__Item {
+    max-width: 82px;
+    width: 100% !important;
+}
+.template-product .custColor .SizeSwatchList li.HorizontalList__Item label.SizeSwatch {
+    font-size: 0;
+}
+.template-product .custColor  .SizeSwatchList li.HorizontalList__Item label.SizeSwatch {
+    width: 100% !important;
+    height: 100%  !important;
+    max-height: 100% !important;
+    padding: 8px !important;
+    border-radius: 6px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch .custColorBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch .custColorBox .colorImg {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #fff;
+    border-radius: 32px;
+    box-shadow: 0px 0px 0px 1px #ffffff;
+    font-size: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch.is-active:after,
+.template-product .custColor  li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch .custColorBox .colorImg{
+    box-shadow: 0px 0px 0px 1px #000000 !important;
+    border: 4px solid #F6F6F6;    
+}
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch .custColorBox .price, 
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch .custColorBox .colorName {
+    font-family: 'Avenir Next';
+    font-weight: 600;
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #808080;
+    line-height: 1.5;
+    display: block;
+    width: 100%;
+    white-space: normal;
+}
+
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch.is-active .custColorBox .colorName,
+.template-product .custColor  li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch .custColorBox .colorName,
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch.is-active .custColorBox .price,
+.template-product .custColor  li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch .custColorBox .price {
+    color: #000000;
+}
+.template-product .custColor  .SizeSwatchList li.HorizontalList__Item label.SizeSwatch::after {
+    border-radius: 6px;
+}
+.template-product .custColor  li.HorizontalList__Item label.SizeSwatch.is-active,
+.template-product .custColor  li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch {
+    background: #F6F6F6 !important;
+}
+.template-product .custColor{
+    margin-bottom: 10px;
+}
+.template-product .custColor .ProductForm__Label{
+    margin-bottom: 0;
+}
+
+@media(max-width: 800px){
+    .template-product .custColor  .SizeSwatchList{
+        justify-content: flex-start;
+        row-gap: 5px;
+    }
+    .template-product .custColor  .SizeSwatchList li.HorizontalList__Item{
+        max-width: 65px;
+    }
+    .template-product .custColor  .SizeSwatchList li.HorizontalList__Item label.SizeSwatch{
+        padding: 5px !important;
+    }
+    .template-product .custColor  li.HorizontalList__Item label.SizeSwatch .custColorBox .colorImg{
+        margin: 0 0 15px;
+    }
+}

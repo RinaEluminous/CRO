@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+#fsb_bar.custHeaderBannerSale{
+   background: #34A853 !important;
+}
+.custMaySaleEventSticklySEPro {
+    background-color: #Fff;
+    margin: auto;
+    padding: 25px 22px;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 847px;
+    transition: bottom 0.2s;
+}
+
+.custMaySaleEventSticklySEPro .custCloseIcon {
+    position: absolute;
+    top: 3px;
+    right: 10px;
+    font-size: 16px;
+    /* padding: 5px 12px 8px; */
+    border-radius: 100%;
+    /* background-color: #fff; */
+    cursor: pointer;
+    /* box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15); */
+    z-index: 99;
+    color: #000;
+    font-weight: 700;
+    font-family: 'Unbounded';
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper p a {
+    font-family: 'Unbounded';
+    display: flex;
+    align-items: center;
+    width: 200px;
+    min-width: 200px;
+    height: 48px;
+    background: #34A853;
+    border-radius: 100px;
+    justify-content: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custMainLeftSide{
+    width: 68%;
+    padding-left: 4px;
+    margin-bottom: 0;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro span {
+    color: #34A853;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro a, .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro  {
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 24px;
+    line-height: 28px;
+    color: #34A853;
+} 
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro  {
+    color: #000;
+}
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro a {
+    margin-right: 7px;
+    display: block;
+}
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custSubHeading {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+}
+.custSubHeading p {
+    font-family: 'Unbounded';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .img-wrapper {
+    position: absolute;
+    left: 20px;
+    top: -28px;
+    text-align: left;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper{
+    position: relative;
+    z-index: 9;
+}
+
+.custStickyDCBundleWrapperSEPro .imgWrapper {
+position: absolute;
+    left: 15px;
+    top: 5px;
+    text-align: left;
+    width: 96px;
+    bottom: 0;
+    height: 96px;
+}
+
+.custStickyDCBundleWrapperSEPro .imgWrapper img {
+width: 96px;
+    height: 96px; 
+    object-fit: cover;
+    object-position: center;
+}
+.custStickyDCBundleWrapperSEPro .imgWrapper img.imgMobile{
+    display: none;
+}
+
+.custMaySaleEventSticklySEPro .custTrendingBadge {
+    position: absolute;
+    top: -25px;
+    background: #fad951;
+    z-index: 1;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 2.5px 16px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    gap: 0 8px;
+    left: 50%;
+    margin-left: -63px;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custMainLeftSide .custLeftSection {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+/*PDP Banner*/
+.custmaySaleEventTopBannerSEPro {
+    width: calc(100% - 40px);
+    margin: 4px 20px;
+    background: linear-gradient(99.93deg, rgba(254, 247, 231, 0.16) 34.81%, rgba(56, 233, 103, 0.166) 51.27%), rgba(255, 235, 209, 0.86);
+    border-radius: 12px;
+}
+
+.custBannerTopHeadingSEPro *, .custBannerTopHeadingSEPro {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Unbounded';
+}
+
+.custBannerTopHeadingSEPro {
+    text-align: center;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.custBannerTopHeadingSEPro span {
+    color: #34A853;
+    margin-right: 7px;
+}
+/*Top header Banner*/
+.custTimerSEPro {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    padding: 2px 10px;
+    border-radius: 5px;
+ }
+  
+  
+ div#fsb_bar *, div#fsb_bar {
+    font-family: 'Unbounded' !important;
+    font-weight:400;
+ }
+    div#fsb_bar *{ font-weight:600;}
+
+.custTimerSEPro {
+        margin-left: 6px;
+}
+
+html[lang="es"] .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper p a {
+    padding: 0 20px;
+    width: auto;
+}
+html[lang="es"] .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro a, 
+html[lang="es"] .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro{
+    font-size: 23px;
+}
+
+#fsb_bar.custHeaderBannerSale .custTimerCopy:before {
+    content: '';
+    width: 10px;
+    height: 2px;
+    background: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+}
+
+.custDaySaleheadingSEPro{
+    font-weight: 700 !important;
+}
+.custSaveCopy{
+    font-weight: 500 !important;
+}
+.custTimerCopy{
+    font-weight: 400 !important;
+}
+
+
+/*media*/
+
+@media only screen and (max-width: 767px) {
+    .custBannerTopHeadingSEPro {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 12px;
+    }
+    
+    .custBannerTopHeadingSEPro *, .custBannerTopHeadingSEPro {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .custmaySaleEventTopBannerSEPro {
+        margin: 5px auto 0 auto;
+    }
+
+    .custDaySaleheadingSEPro {
+        display: block;
+        font-size: 16px !important;
+        margin-bottom: 2px;
+    }
+     
+    div#fsb_bar {
+        text-align: left !important;
+        font-size: 12px !important;
+    }
+     
+    .custTimerSEPro {
+        margin-left: 5px;
+    }
+    html body.myvida001 #section-header {
+        position: relative;
+        top: 10px;
+    }
+}
+/*designer1*/
+@media screen and (min-width: 992px) {
+    .custMaySaleEventSticklySEPro .img-wrapper .img-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .custMaySaleEventSticklySEPro {
+        bottom: 5px;
+        transition: bottom 0.8s;
+        padding: 10px;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .img-wrapper img {
+        max-width: 100%;
+    }
+
+    .custMaySaleEventSticklySEPro .img-wrapper {
+        right: 50px;
+        bottom: 2px !important;
+        max-width: 110px;
+        top: auto !important;
+        text-align: right;
+        left: 0 !important;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custSubHeading {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .img-wrapper img {
+        width: 90%;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro{
+        margin-bottom: 5px;
+    }
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper{
+        flex: 0 0 180px;
+    }
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper p {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro {
+        align-items: center;
+        width: 100%;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custMainLeftSide {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+
+    .custMaySaleEventSticklySEPro::after {
+        display: none;
+    }
+
+    .custMaySaleEventSticklySEPro::before {
+        background-image: url(https://d27c6j8064skg9.cloudfront.net/growthHit/TRTL/test55/Recmob.png) !important;
+        background-size: contain;
+        width: 30%;
+    }
+
+    .custMaySaleEventSticklySEPro {
+        width: 95%;
+    }
+
+    .custMaySaleEventSticklySEPro .img-wrapper .imgDesktop {
+        display: none;
+    }
+
+    .custStickyDCBundleWrapperSEPro .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+        position: inherit;
+    }
+    .custStickyDCBundleWrapperSEPro .imgWrapper img{        
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }    
+    html[lang="es"] .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper p a {
+        flex: 0 0 auto;
+        white-space: nowrap;
+    }
+}
+
+@media(max-width:567px) {
+    .custBannerHeadingSEPro {
+        padding-right: 0px;
+    }
+    
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        margin: 0 0 2px;
+    }
+
+    .custStickyDCBundleWrapperSEPro .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper{
+        width: 100%;
+        flex: 1;
+        margin-top: 10px;
+    }
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro{
+        flex-direction: column;
+    }
+    .custMaySaleEventSticklySEProV1 .custStickyDCBundleWrapperSEPro .custLeftSection .custSubHeading{
+        display: none;
+    }
+    .custStickyDCBundleWrapperSEPro .imgWrapper img.imgMobile{
+        display: block;
+    }
+    .custStickyDCBundleWrapperSEPro .imgWrapper img.imgDesktop{
+        display: none;
+    }
+
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custCtaWrapper p a {
+    width: 100%;
+    }
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro a, .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro  {
+    line-height: 28px;
+    font-size: 20px;
+}
+
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custMainLeftSide {
+    gap: 12px;
+    text-align: center;
+}
+.custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custBannerHeadingSEPro a {
+    display: inline-block;
+}
+.custSaveCopy{
+    margin: 0 3px 0 0;
+}
+html[lang="es"] .custSaveCopy{
+    display: block;
+}
+#fsb_bar.custHeaderBannerSale .custTimerCopy:before {
+    display: none;
+}
+}
+
+
+@media screen and (max-width: 500px) {
+    .custMaySaleEventSticklySEPro .custStickyDCBundleWrapperSEPro .custLeftSection .custSubHeading{
+        display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+.custDaySaleheadingSEPro {
+    font-size: 14px !important;
+}
+ 
+div#fsb_bar {
+    text-align: left !important;
+    font-size: 10px !important;
+}
+}

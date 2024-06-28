@@ -1,0 +1,30 @@
+.custDesktopNavBarV2 .container-xxl {
+    max-width: 1440px;
+}
+
+.custDesktopNavBarV2 .container-xxl nav.navbar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.custFlexReverseV2 {
+    display: block !important;
+    width: auto;
+    padding-left: 35px;
+}
+
+li.nav-item.custHowItWorksV2 {
+    margin-left: 80px;
+}
+
+.custDesktopNavBarV2 .container-xxl nav.navbar ul.navbar-nav li a.nav-link {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.custDesktopNavBarV2 .dropdown-wrapper .tile-line-item-menu h5 {
+    font-size: 15px;
+}
+
+body .custDesktopNavBarV2 .dropdown-wrapper .tile-line-item-menu p *, html body .custDesktopNavBarV2 .dropdown-wrapper .tile-line-item-menu p {
+    font-size: 14px !important;
+}
