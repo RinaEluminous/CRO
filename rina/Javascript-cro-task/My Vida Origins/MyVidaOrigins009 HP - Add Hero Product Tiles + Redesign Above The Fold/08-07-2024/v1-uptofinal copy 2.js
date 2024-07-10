@@ -1,14 +1,22 @@
 window.onload = function () {
     if (document.querySelectorAll('.template-index').length > 0) {
+        console.log("home page >>>>>");
         redesignAboveFoldOnHP();
+
         if (window.innerWidth <= 767) {
             redesignAboveFoldOnHPMob();
         }
+
         allClickOperation();
+
+        //const firstVideo = document.querySelector('.custFirstVideo video');
     }
 };
 
 function redesignAboveFoldOnHP() {
+
+    console.log("redesignAboveFoldOnHP >>>>>");
+
     // ---Most popular section -----
     //add class to the Most popular section
     var mostPopularSection = document.querySelector('.mostPopular_product');
@@ -38,6 +46,7 @@ function redesignAboveFoldOnHP() {
         }
     }, 70);
 
+
     var productBlockElement = document.querySelectorAll('.custMostPopularSection .product_block');
 
     productBlockElement.forEach(function (element) {
@@ -55,12 +64,15 @@ function redesignAboveFoldOnHP() {
         secHeaderElement.insertAdjacentHTML('beforebegin', '<h4 class="custResultText">RESULTS YOUR CAN SEE AND FEEL</h4>');
     }
 
+
+
     var h2PopularproductElement = document.querySelector('body.template-index .mostPopular_product h2');
 
     if (h2PopularproductElement && document.querySelectorAll('.custProdPara').length == 0) {
         h2PopularproductElement.insertAdjacentHTML('afterend', '<p class="popularProdPara custProdPara">Improve your health from the inside-out with our range of organic, clinically effective supplements.</p>');
 
     }
+
 
     var reviewsHtml = '<div class="rating_meta custRatingMeta"><img src="//www.myvidaorigins.com/cdn/shop/files/stars_1.png?v=1714718129" height="100" width="100">' +
         '    <div class="metafield-rich_text_field">' +
@@ -70,6 +82,7 @@ function redesignAboveFoldOnHP() {
 
     if (secHeaderElement && document.querySelectorAll('.custRatingMeta').length == 0) {
         secHeaderElement.insertAdjacentHTML('afterend', reviewsHtml);
+
     }
 
     var bestSellarproduct = document.querySelector('body.template-index .best_seller_product');
@@ -104,68 +117,48 @@ function redesignAboveFoldOnHP() {
     });
 
     //-----Our customer stories section -----
+
+
     var customerContentElement = document.querySelector('.customer-content');
+
     customerContentElement.outerHTML = '<div class="custCustomerContent">' +
         '    <div class="custVideoDetails custFirstVideo">' +
-        '        <video id="firstVideo" class="custVideo" autoplay poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
+        '        <video id="firstVideo" class="custVideoPlayer" autoplay muted poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
         '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">' +
         '        </video>' +
         '        <p>"The difference in my skin was exceptional."</p>' +
         '    </div>' +
         '    <div class="custVideoDetails custSecondVideo">' +
-        '        <video id="secondVideo" class="custVideo" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
+        '        <video id="secondVideo" class="custVideoPlayer" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
         '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">' +
         '        </video>' +
         '        <p>"My hair is shinier, thicker, and growing faster."</p>' +
         '    </div>' +
         '</div>';
 
-     //replace image 
-    // var firstVideoImgDiv = document.querySelector('.template-index .customer-content .first-video img');
 
-    // var firstVideoDivHtml = '<video controls autoplay poster="' +
-    //     'https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
-    //     '    <source src="' +
-    //     'https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">' +
-    //     '</video>';
-
-    // if (firstVideoImgDiv) {
-    //    firstVideoImgDiv.insertAdjacentHTML('afterend', firstVideoDivHtml);
-    // }
-
-    // var secondVideoImgDiv = document.querySelector('.template-index .customer-content .second-video img');
-
-    // var secondVideoDivHtml = '<div class="video-content custSecondVideoerewrew">' +
-    //     '    <video controls autoplay poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
-    //     '        <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">' +
-    //     '    </video>' +
-    //     '</div>';
-
-    // if (secondVideoImgDiv) {
-    //     secondVideoImgDiv.insertAdjacentHTML('afterend', secondVideoDivHtml);
-
-    // }
 
 }
 
 function redesignAboveFoldOnHPMob() {
 
-     const popularProdParaMobElement = document.querySelector('body.template-index .mostPopular_product p.popularProdPara');
 
+    const popularProdParaMobElement = document.querySelector('body.template-index .mostPopular_product p.popularProdPara');
     const bestSellerProductMobElement = document.querySelector('body.template-index .mostPopular_product .best_seller_product');
 
     if (popularProdParaMobElement && bestSellerProductMobElement) {
         bestSellerProductMobElement.insertAdjacentElement('afterend', popularProdParaMobElement);
     }
-    
+
+
     const shopLinkMobElement = document.querySelector('body.template-index .mostPopular_product a.shop_link.mob_link');
 
     if (popularProdParaMobElement && shopLinkMobElement) {
         popularProdParaMobElement.insertAdjacentElement('beforeend', shopLinkMobElement);
     }
-    
-    const ratingMetaMobElement = document.querySelector('body.template-index .mostPopular_product .rating_meta');
 
+
+    const ratingMetaMobElement = document.querySelector('body.template-index .mostPopular_product .rating_meta');
     const partnersLogoMobElement = document.querySelector('body.template-index .partners_logos');
 
     if (partnersLogoMobElement && ratingMetaMobElement) {
@@ -176,35 +169,89 @@ function redesignAboveFoldOnHPMob() {
 
 // Function to check if the video is playing
 function isVideoPlaying(video) {
+    console.log('isVideoPlaying >>>');
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
 }
 
-//click operations for video
+// function allClickOperation(){
+
+//    var firstVideo = document.querySelector('#firstVideo');
+//     var secondVideo = document.querySelector('#secondVideo');
+
+//     // Autoplay first video if not already playing
+//     if (!isVideoPlaying(firstVideo)) {
+//         console.log('Autoplaying first video...');
+//         firstVideo.play().catch(error => {
+//             console.error('Error attempting to play first video:', error);
+//         });
+//     }
+
+//     // Event listener for clicks
+//     document.addEventListener('click', function(event) {
+//         // Check if the click was on either video element or its controls
+//         if (event.target === firstVideo || event.target === secondVideo || event.target.closest('button.play-pause')) {
+//             // Toggle play/pause for first video
+//             if (firstVideo.paused) {
+//                 console.log('Resuming first video playback...');
+//                 firstVideo.play().catch(error => {
+//                     console.error('Error attempting to play first video:', error);
+//                 });
+//             } else {
+//                 console.log('Pausing first video...');
+//                 firstVideo.pause();
+//             }
+
+//             // Toggle play/pause for second video
+//             if (secondVideo.paused) {
+//                 console.log('Resuming second video playback...');
+//                 secondVideo.play().catch(error => {
+//                     console.error('Error attempting to play second video:', error);
+//                 });
+//             } else {
+//                 console.log('Pausing second video...');
+//                 secondVideo.pause();
+//             }
+//         }
+//     });
+
+// }
+
 function allClickOperation() {
+    var firstVideo = document.querySelector('#firstVideo');
+    var secondVideo = document.querySelector('#secondVideo');
 
-    var video = document.querySelector('.custVideo');
-
-    if (!isVideoPlaying(video)) {
-        console.log('Autoplaying video...');
-        video.play().catch(error => {
-            console.error('Error attempting to play video:', error);
+    // Autoplay first video if not already playing
+    if (!isVideoPlaying(firstVideo)) {
+        console.log('Autoplaying first video...');
+        firstVideo.play().catch(error => {
+            console.error('Error attempting to play first video:', error);
         });
     }
 
-    document.addEventListener('click', function(event) {
-        console.log('click is')
-        // Check if the click was on the video element or its controls
-        if (event.target === video || event.target.closest('button.play-pause')) {
-            if (video.paused) {
-                console.log('Resuming video playback...');
-                video.play().catch(error => {
-                    console.error('Error attempting to play video:', error);
+    // Event listener for clicks
+    document.addEventListener('click', function (event) {
+        if (event.target === firstVideo) {
+            // Toggle play/pause for first video only
+            if (firstVideo.paused) {
+                console.log('Resuming first video playback...');
+                firstVideo.play().catch(error => {
+                    console.error('Error attempting to play first video:', error);
                 });
             } else {
-                console.log('Pausing video...');
-                video.pause();
+                console.log('Pausing first video...');
+                firstVideo.pause();
+            }
+        } else if (event.target === secondVideo) {
+            // Toggle play/pause for second video only
+            if (secondVideo.paused) {
+                console.log('Resuming second video playback...');
+                secondVideo.play().catch(error => {
+                    console.error('Error attempting to play second video:', error);
+                });
+            } else {
+                console.log('Pausing second video...');
+                secondVideo.pause();
             }
         }
     });
 }
-

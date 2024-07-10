@@ -141,6 +141,7 @@ function headerBannerOnPDPSEPro() {
 
 //Shop now functionality
 function shopNowFunctionalitySEPro() {
+
     const mostPopularProductSection = document.querySelector('.mostPopular_product');
     const bestSellarSection = document.querySelector('#shopify-section-template--16776720416928__featured-collections');
     if (mostPopularProductSection) {
@@ -152,7 +153,7 @@ function shopNowFunctionalitySEPro() {
         top: offsetTop,
         behavior: 'smooth'
     });
-
+ 
 }
 
 //all click operations

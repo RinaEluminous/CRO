@@ -1,4 +1,6 @@
 window.onload = function () {
+    var hostname = window.location.hostname;
+    if (!hostname.includes('es')) {
     if (document.querySelectorAll('.template-index').length > 0) {
         redesignAboveFoldOnHP();
         if (window.innerWidth <= 767) {
@@ -6,6 +8,7 @@ window.onload = function () {
         }
         allClickOperation();
     }
+}
 };
 
 function redesignAboveFoldOnHP() {
@@ -23,12 +26,13 @@ function redesignAboveFoldOnHP() {
     var intSwiperCnt = 0;
     var intSwiperInterval = setInterval(function () {
         intSwiperCnt += 1;
-
+ 
         if (typeof Swiper !== 'undefined') {
             var swiper = new Swiper('.custMostPopularSection .swiper', {
                 slidesPerView: 5,
-                spaceBetween: 30,
-
+               // spaceBetween: 30,
+                loop: true,
+                loopFillGroupWithBlank: true,
             });
             clearInterval(intSwiperInterval);
         }
@@ -36,7 +40,6 @@ function redesignAboveFoldOnHP() {
             clearInterval(intSwiperInterval);
         }
     }, 70);
-
 
     var productBlockElement = document.querySelectorAll('.custMostPopularSection .product_block');
     productBlockElement.forEach(function (element) {
@@ -143,7 +146,7 @@ function redesignAboveFoldOnHPMob() {
 
 // Function to check if the video is playing
 function isVideoPlaying(video) {
-    console.log('isVideoPlaying >>>');
+   
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
 }
 
@@ -166,7 +169,7 @@ function allClickOperation() {
                   
                 });
             } else {
-                console.log('Pausing first video...');
+                
                 firstVideo.pause();
             }
         } else if (event.target === secondVideo) {

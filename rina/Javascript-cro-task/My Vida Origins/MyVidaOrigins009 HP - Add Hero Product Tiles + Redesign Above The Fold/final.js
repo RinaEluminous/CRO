@@ -28,6 +28,7 @@ function redesignAboveFoldOnHP() {
             var swiper = new Swiper('.custMostPopularSection .swiper', {
                 slidesPerView: 5,
                 spaceBetween: 30,
+                loop: true,
 
             });
             clearInterval(intSwiperInterval);
@@ -143,7 +144,7 @@ function redesignAboveFoldOnHPMob() {
 
 // Function to check if the video is playing
 function isVideoPlaying(video) {
-    console.log('isVideoPlaying >>>');
+   
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
 }
 

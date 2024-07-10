@@ -41,6 +41,7 @@ function redesignAboveFoldOnHP() {
             var swiper = new Swiper('.custMostPopularSection .swiper', {
                 slidesPerView: 5,
                 spaceBetween: 30,
+                
 
             });
             clearInterval(intSwiperInterval);

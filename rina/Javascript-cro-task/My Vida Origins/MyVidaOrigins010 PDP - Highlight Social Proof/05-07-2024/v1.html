@@ -1,0 +1,227 @@
+// console.log('above windows onload');
+// window.onload = function() {
+    //console.log('in windows onload');
+    if( document.querySelectorAll('.template-product').length > 0){
+       // console.log('test working ornot ');
+        addStickyFooterOnPdp();
+        
+        //addVideoInsliderOnPDP();
+
+        highlightSocialProofOnPDP();
+
+        if(window.innerWidth <= 767) {
+           // highlightSocialProofOnPDPMob();
+        }
+
+        AllClickOperations();
+    }
+   
+// };
+
+function highlightSocialProofOnPDP(){
+      //-----Our customer stories section -----
+
+    const customerStoriesSection = document.querySelector('.our-customer-stories-section');
+
+        if (customerStoriesSection) {
+            const shopifyCustomerStoriesSection = customerStoriesSection.closest('.shopify-section');
+            if (shopifyCustomerStoriesSection) {
+                shopifyCustomerStoriesSection.classList.add('custStoriesSection');
+            } 
+    }
+
+    // replace the headline
+    var storiesSectionHeading = document.querySelector('.custStoriesSection .customer-stories-heading');
+    storiesSectionHeading.textContent = "HEAR WHAT OUR CUSTOMERS ARE SAYING"
+    
+
+    var customerContentElement = document.querySelector('.customer-content');
+      customerContentElement.outerHTML = '<div class="custCustomerContent">' +
+          '    <div class="custVideoDetails custFirstVideo">' +
+          '        <video id="firstVideo" class="custVideoPlayer" autoplay playsinline muted poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
+          '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">' +
+          '        </video>' +
+          '        <p>"The difference in my skin was exceptional."</p>' +
+          '    </div>' +
+          '    <div class="custVideoDetails custSecondVideo">' +
+          '        <video id="secondVideo" class="custVideoPlayer" playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
+          '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">' +
+          '        </video>' +
+          '        <p>"My hair is shinier, thicker, and growing faster."</p>' +
+          '    </div>' +
+          '</div>';
+
+          //----- Features logo section 
+
+          var featureLogoSection = document.querySelector('.vida-logo-with-text');
+          if(featureLogoSection){
+            var shopifyfeatureLogoSection= featureLogoSection.closest('.shopify-section');
+            if(shopifyfeatureLogoSection){
+                shopifyfeatureLogoSection.classList.add('custFeatureLogoSection'); 
+            }
+          }
+         //----- Offer section
+
+         var flexIconSection = document.querySelector('.flex-icons');
+         if(flexIconSection){
+            flexIconSection.classList.add('custflexIconSection');
+         }
+
+         //repositioning the Features logo section 
+        var featureLogoSectionElement = document.querySelector('.custFeatureLogoSection');
+        flexIconSection.insertAdjacentElement('afterend',featureLogoSectionElement);
+
+         //-----repositioning Delia and Gloria section 
+         var myVidaBeforeAfterElement = document.querySelector('.myvida_before_after_pdp');
+         if(myVidaBeforeAfterElement){
+         var shopifyMyVidaBeforeAfterElement = myVidaBeforeAfterElement.closest('.shopify-section');
+            if(shopifyMyVidaBeforeAfterElement){
+                shopifyMyVidaBeforeAfterElement.classList.add('custDeliaGloriaSection')
+            }
+         }
+
+        //  add class to the hero section 
+        var heroSection = document.querySelector('.new-custom-product');
+        if(heroSection){
+            heroSection.classList.add('custNewProduct');
+        }
+        var deliaGloriaSectionSection = document.querySelector('.custDeliaGloriaSection');
+
+        var newProductElement =document.querySelector('.custNewProduct');
+
+        newProductElement.insertAdjacentElement('afterend',deliaGloriaSectionSection);
+       
+
+          //----- 78 reviews replacement text
+         var jdgmPrevTextElement = document.querySelector('.jdgm-prev-badge__text');
+
+         if(jdgmPrevTextElement){
+            jdgmPrevTextElement.textContent = "Trusted By Over 900,000+ People";
+         }
+
+         //----- replace the description with new one 
+         var descriptionParaElement = document.querySelector('.product_short_detail .description p');
+         if(descriptionParaElement){
+         descriptionParaElement.textContent ="Discover the dream team for beautiful hair, glowing skin, and nails that are hard as a rock. Hair, Skin, & Nails contains a blend of our essential ingredients - Vitamin C, Copper, Iodine, Biotin, Vitamin E, Silica, MSM, Saw Palmetto, Glycine, Cysteine, and more.";
+         }
+
+
+}
+
+// Function to check if the video is playing
+function isVideoPlaying(video) {
+   return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
+}
+
+
+function addVideoInsliderOnPDP(){
+    var ProductGalleryThumbElement =document.querySelector('.Product__Gallery--withThumbnails');
+
+    if(ProductGalleryThumbElement){
+        ProductGalleryThumbElement.classList.add('custProductGalleryThumb');
+        var ProductGalleryThumbElement =document.querySelector('.Product__Gallery--withThumbnails');
+    }
+   
+
+    ProductGalleryThumbElement.classList.add('custProductGalleryThumb');
+    
+}
+
+function addStickyFooterOnPdp() {
+
+    var strmaySaleEventUrl = "/product/test.com";
+    if (document.querySelectorAll('.custMaySaleEventStickly').length == 0) {
+        maySaleEventSticklyHTML = '<div class="custmaySaleEventStickly">' +
+            '<a class="bm-container-link" href="' + strmaySaleEventUrl + '"></a>' +
+            '    <div class="custStickyDCBundleWrapper">' +
+            '        <div class="custMainLeftSide">' +
+            '            <div class="custLeftSection">' +
+            '                <div class="custBannerHeading"><a href="' + strmaySaleEventUrl + '">Memorial Day Sale!</a></div>' +
+            '                <div class="custSubHeading">' +
+            '                    <p>Get up to 50% OFF select products.</p>' +
+            '                </div>' +
+            '            </div>' +
+            '        </div>' +
+            '        <div class="custCtaWrapper">' +
+            '            <p><a class="stretched-link btn btn-light custTryTodayBtn">SHOP' +
+            '                    NOW</a>' +
+            '            </p>' +
+            '        </div>' +
+            '    </div>' +
+            '</div>';
+  
+        document.body.insertAdjacentHTML('beforeend', maySaleEventSticklyHTML);
+    }
+
+    window.addEventListener('scroll', toggleStickyFooter);
+    window.addEventListener('resize', toggleStickyFooter);
+}
+
+function toggleStickyFooter() {
+
+    console.log('toggleStickyFooter');
+
+    const addToCartButtonElement = document.querySelector('.template-product .ProductForm__BuyButtons');
+    const stickyFooterElement = document.querySelector('.custmaySaleEventStickly');
+   //Gets the bottom position of the "Add to Cart" button relative to the viewport.
+    const addToCartPosition = addToCartButtonElement.getBoundingClientRect().bottom;
+
+    if (addToCartPosition < 0) {
+        console.log('addToCartPosition>>>>>>>>>>>>>>>>>')
+        stickyFooterElement.classList.add('visible');
+        stickyFooterElement.classList.remove('hidden');
+    } else {
+        stickyFooterElement.classList.add('hidden');
+        stickyFooterElement.classList.remove('visible');
+    }
+}
+
+
+// Your click operations here
+function AllClickOperations() {
+    //sticky footer try now btn functionality
+    const tryItTodayButton = document.querySelector('.custTryTodayBtn');
+    tryItTodayButton.addEventListener('click', () => {
+        console.log('click working or not');
+         const addToCartButton = document.querySelector('.ProductForm__BuyButtons .ProductForm__AddToCart');
+        if (addToCartButton) {
+            addToCartButton.click();
+        } 
+    });
+
+    // video play/pause functionality 
+    var firstVideo = document.querySelector('#firstVideo');
+    var secondVideo = document.querySelector('#secondVideo');
+
+    // Autoplay first video if not already playing
+    if (!isVideoPlaying(firstVideo)) {
+        firstVideo.play().catch(error => {
+        });
+    }
+
+    // Event listener for clicks
+    document.addEventListener('click', function (event) {
+        if (event.target === firstVideo) {
+            // Toggle play/pause for first video only
+            if (firstVideo.paused) {
+                firstVideo.play().catch(error => {
+                  
+                });
+            } else {
+                console.log('Pausing first video...');
+                firstVideo.pause();
+            }
+        } else if (event.target === secondVideo) {
+            // Toggle play/pause for second video only
+            if (secondVideo.paused) {
+               
+                secondVideo.play().catch(error => {
+                  
+                });
+            } else {
+               
+                secondVideo.pause();
+            }
+        }
+    });
+}
