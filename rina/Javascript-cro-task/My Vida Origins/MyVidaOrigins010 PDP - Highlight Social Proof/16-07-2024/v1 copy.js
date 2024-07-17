@@ -1,11 +1,18 @@
-window.onload = function () {
+var currentIndex = 0;
+var popup = document.querySelector('.popup');
+var overlay = document.querySelector('.overlay');
+var popupBody = document.querySelector('.popup-body');
+
+// window.onload = function () {
+    
     if (document.querySelectorAll('.template-product').length > 0) {
         addStickyFooterOnPdp();
         highlightSocialProofOnPDP();
+        addMainFlickitySlider();
         AllClickOperations();
     }
 
-};
+// };
 
 function highlightSocialProofOnPDP() {
     var hostname = window.location.hostname;
@@ -272,6 +279,206 @@ function highlightSocialProofOnPDP() {
     }
 }
 
+//flickity slider
+function addMainFlickitySlider(){
+
+    var mainGalleryDataFlickityhtml ='{ "wrapAround": true, "pageDots": false }';
+
+    var thumbnailGalleryDataFlickityhtml ='{ "asNavFor": ".main-gallery", "contain": true, "pageDots": false }';
+
+    var productGalleryElement =document.querySelector('.Product__Gallery');
+    if(productGalleryElement){
+        productGalleryElement.outerHTML ='<div class="main-gallery" data-flickity='+mainGalleryDataFlickityhtml+'>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" class="popup-trigger">'+
+    '            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" class="popup-trigger">'+
+    '            <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+    '                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+    '            </video>'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" class="popup-trigger">'+
+    '            <video width="100%" height="100%" controls poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+    '                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+    '            </video>'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+    '        </a>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" class="popup-trigger">'+
+    '            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+    '        </a>'+
+    '    </div>'+
+    '    <!-- Add more images and videos as needed -->'+
+    '</div>'+
+    '<div class="thumbnail-gallery" data-flickity='+thumbnailGalleryDataFlickityhtml+'>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+    '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+    '        </video>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+    '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+    '        </video>'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+    '    </div>'+
+    '    <div class="gallery-cell">'+
+    '        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+    '    </div>'+
+    '</div>'+
+    '<div class="overlay"></div>'+
+    '<div class="popup">'+
+    '    <div class="popup-content">'+
+    '        <div class="close"></div>'+
+    '        <div class="nav-arrow prev"></div>'+
+    '        <div class="nav-arrow next"></div>'+
+    '        <div class="popup-body">'+
+    '        </div>'+
+    '    </div>'+
+    '</div>';
+
+    }
+    
+     // Initialize Flickity for main gallery
+     var mainGallery = new Flickity('.main-gallery', {
+        wrapAround: true,
+        pageDots: false
+    });
+
+    // Initialize Flickity for thumbnail gallery
+    var thumbnailGallery = new Flickity('.thumbnail-gallery', {
+        asNavFor: '.main-gallery',
+        contain: true,
+        pageDots: false,
+        loop: false
+    });
+   
+
+     // Auto play videos when is-selected class is added
+     mainGallery.on('change', function (index) {
+        var selectedCell = mainGallery.cells[index].element;
+        var selectedVideo = selectedCell.querySelector('video');
+        if (selectedVideo) {
+            selectedVideo.play();
+        }
+
+        // Stop video in previous cells
+        mainGallery.cells.forEach(function (cell) {
+            var video = cell.element.querySelector('video');
+            if (video && cell.element !== selectedCell) {
+                video.pause();
+            }
+        });
+    });
+
+    thumbnailGallery.on('change', function (index) {
+        var selectedCell = thumbnailGallery.cells[index].element;
+        var selectedVideo = selectedCell.querySelector('video');
+        if (selectedVideo) {
+            selectedVideo.play();
+        }
+
+        // Stop video in previous cells
+        thumbnailGallery.cells.forEach(function (cell) {
+            var video = cell.element.querySelector('video');
+            if (video && cell.element !== selectedCell) {
+                video.pause();
+            }
+        });
+    });
+}
+
+// Function to show popup with video or image
+function showPopup(index) {
+    currentIndex = index;
+    var currentCell = mainGallery.cells[index].element;
+    var content;
+
+    // Check if the current cell contains a video
+    if (currentCell.querySelector('video')) {
+        var video = currentCell.querySelector('video');
+        content = '<video width="100%" height="100%" autoplay controls poster="' +
+            video.getAttribute('poster') + '">' +
+            '<source src="' + video.querySelector('source').getAttribute('src') + '" type="video/mp4">' +
+            'Your browser does not support the video tag.' +
+            '</video>';
+    } else {
+        var img = currentCell.querySelector('img');
+        content = '<img src="' + img.getAttribute('src') + '" alt="Popup Image">';
+    }
+
+    popupBody.innerHTML = content;
+    popup.style.display = 'block';
+    overlay.style.display = 'block';
+}
+
+// Function to hide popup
+function hidePopup() {
+    popup.style.display = 'none';
+    overlay.style.display = 'none';
+    popupBody.innerHTML = '';
+}
+
+// Function to show next item in popup
+function showNext() {
+    currentIndex = (currentIndex + 1) % mainGallery.cells.length;
+    showPopup(currentIndex);
+}
+
+// Function to show previous item in popup
+function showPrev() {
+    currentIndex = (currentIndex - 1 + mainGallery.cells.length) % mainGallery.cells.length;
+    showPopup(currentIndex);
+}
+
+
 // Function to check if the video is playing
 function isVideoPlaying(video) {
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
@@ -447,4 +654,13 @@ function AllClickOperations() {
             redirectTab('', fixedHeaderHeight, sectionId);
         });
     });
+
+    
+
+    const popupTriggerElement = document.querySelector('.popup-trigger');
+    if (popupTriggerElement) {
+        popupTriggerElement.addEventListener('click', () => {
+            
+        });
+    }
 }

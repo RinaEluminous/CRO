@@ -2,6 +2,7 @@ window.onload = function () {
     if (document.querySelectorAll('.template-product').length > 0) {
         addStickyFooterOnPdp();
         highlightSocialProofOnPDP();
+        addMainFlickitySlider();
         AllClickOperations();
     }
 
@@ -272,11 +273,230 @@ function highlightSocialProofOnPDP() {
     }
 }
 
+function addMainFlickitySlider(){
+ 
+    var hostname = window.location.hostname;
+    if (hostname.includes('es')) {
+        reviewNoteHtml= '<p class="custReviewNote">"Mi cabello es más brillante, más grueso y crece más rápido."</p>';
+    } else {
+        reviewNoteHtml  = '<p class="custReviewNote">"My hair is shinier, thicker, and growing faster."</p>';
+    }
+
+    var productGalleryElement = document.querySelector('.Product__Gallery');
+    if(productGalleryElement){
+        productGalleryElement.outerHTML ='<div class="main-gallery" data-flickity=\'{ "wrapAround": true, "pageDots": false }\'>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+reviewNoteHtml+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" class="popup-trigger">'+
+'            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" class="popup-trigger">'+
+'            <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+'            </video>'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" class="popup-trigger">'+
+'            <video width="100%" height="100%" controls poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+'                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+'            </video>'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'</div>'+
+'<div class="thumbnail-gallery" data-flickity=\'{ "asNavFor": ".main-gallery", "contain": true, "pageDots": false }\'>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+'        </video>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+'            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+'        </video>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+'    </div>'+
+'</div>'+
+'<div class="overlay"></div>'+
+'<div class="popup">'+
+'    <div class="popup-content">'+
+'        <div class="close"><svg class="Icon Icon--close " role="presentation" viewBox="0 0 16 14">'+
+'                <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>'+
+'            </svg></div>'+
+'        <div class="nav-arrow prev"><svg class="Icon Icon--arrow-right " role="presentation" viewBox="0 0 11 21">'+
+'                <polyline fill="none" stroke="currentColor" points="0.5 0.5 10.5 10.5 0.5 20.5" stroke-width="1.25"></polyline>'+
+'            </svg></div>'+
+'        <div class="nav-arrow next"><svg class="Icon Icon--arrow-left " role="presentation" viewBox="0 0 11 21">'+
+'                <polyline fill="none" stroke="currentColor" points="10.5 0.5 0.5 10.5 10.5 20.5" stroke-width="1.25"></polyline>'+
+'            </svg></div>'+
+'        <div class="popup-body">'+
+'            <!-- Dynamic content goes here -->'+
+'        </div>'+
+'    </div>'+
+'</div>';
+
+    }
+
+    if (document.querySelectorAll('.custFlickitySliderJS').length == 0) {
+        const scriptElement = document.createElement('script');
+        scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js';
+        scriptElement.id = 'custFlickitySliderJS';
+        document.head.appendChild(scriptElement);
+    }
+
+    if (document.querySelectorAll('.custFlickitySliderCSS').length ==0) {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css';
+        linkElement.id = 'custFlickitySliderCSS';
+        document.head.appendChild(linkElement);
+    }
+
+
+    
+
+      var currentIndex = 0;
+      var popup = document.querySelector('.popup');
+      var overlay = document.querySelector('.overlay');
+      var popupBody = document.querySelector('.popup-body');
+
+      // Function to show popup with video or image
+      function showPopup(index) {
+        
+        console.log('showPopup >>>>>>>>');
+          currentIndex = index;
+          var currentCell = mainGallery.querySelectorAll('.gallery-cell')[currentIndex];
+          var content;
+
+          // Check if the current cell contains a video
+          if (currentCell.querySelector('video')) {
+              content = '<video width="100%" height="100%" autoplay controls poster="' +
+                  currentCell.querySelector('video').getAttribute('poster') + '">' +
+                  '<source src="' + currentCell.querySelector('video source').getAttribute('src') + '" type="video/mp4">' +
+                  'Your browser does not support the video tag.' +
+                  '</video>';
+          } else {
+              content = '<img src="' + currentCell.querySelector('img').getAttribute('src') + '" alt="Popup Image">';
+          }
+
+          popupBody.innerHTML = content;
+          popup.classList.add('show');
+          overlay.classList.add('show');
+      }
+
+      // Function to hide popup
+      function hidePopup() {
+        console.log('hidePopup >>>>>>>>');
+          popup.classList.remove('show');
+          overlay.classList.remove('show');
+          popupBody.innerHTML = '';
+      }
+
+      // Function to show next item in popup
+      function showNext() {
+        console.log('showNext >>>>>>>>');
+          currentIndex = (currentIndex + 1) % mainGallery.querySelectorAll('.gallery-cell').length;
+          showPopup(currentIndex);
+      }
+
+      // Function to show previous item in popup
+      function showPrev() {
+        console.log('showPrev >>>>>>>>');
+          currentIndex = (currentIndex - 1 + mainGallery.querySelectorAll('.gallery-cell').length) % mainGallery.querySelectorAll('.gallery-cell').length;
+          showPopup(currentIndex);
+      }
+
+      // Event listeners
+      document.querySelectorAll('.popup-trigger').forEach(function(trigger) {
+          trigger.addEventListener('click', function(e) {
+            console.log('popup-trigger >>>>>>>>');
+              e.preventDefault();
+              var index = Array.prototype.indexOf.call(mainGallery.querySelectorAll('.gallery-cell'), this.closest('.gallery-cell'));
+              showPopup(index);
+          });
+      });
+
+      document.querySelector('.close').addEventListener('click', hidePopup);
+
+      document.querySelector('.nav-arrow.next').addEventListener('click', showNext);
+
+      document.querySelector('.nav-arrow.prev').addEventListener('click', showPrev);
+
+      overlay.addEventListener('click', hidePopup);
+
+        // Initialize Flickity for main gallery
+        var mainGalleryElement = document.querySelector('.main-gallery');
+        var mainGallery = new Flickity(mainGalleryElement, {
+            wrapAround: true,
+            pageDots: false
+        });
+
+        // Define a setInterval to check if Flickity is ready
+        var flickityCheckInterval = setInterval(function() {
+            if (mainGallery.cells.length > 0) {
+           
+                clearInterval(flickityCheckInterval); 
+                onFlickityReady(mainGallery);
+            }
+        }, 100);
+
+     
+}
 // Function to check if the video is playing
 function isVideoPlaying(video) {
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
 }
-
 
 function addStickyFooterOnPdp() {
     var hostname = window.location.hostname;
@@ -447,4 +667,43 @@ function AllClickOperations() {
             redirectTab('', fixedHeaderHeight, sectionId);
         });
     });
+
+   
+
+ 
+}
+
+
+
+ // Function to execute when Flickity is ready
+function onFlickityReady(mainGallery) {
+    console.log('mainGallery >>', mainGallery);
+    //    mainGallery.on('change.flickity', function(event, index) {
+    //     console.log('Flickity main image changes >>', index);
+    // });
+
+      // Initialize Flickity for main gallery
+      var $mainGallery = $('.main-gallery').flickity({
+            wrapAround: true,
+            pageDots: false
+        });
+
+     // Auto play videos when is-selected class is added
+        $mainGallery.on('change.flickity', function (event, index) {
+            var $selectedCell = $mainGallery.find('.gallery-cell').eq(index);
+            var $selectedVideo = $selectedCell.find('video');
+            if ($selectedVideo.length) {
+                $selectedVideo.get(0).play();
+            }
+
+            // Stop video in previous cells
+            var $nonSelectedCells = $mainGallery.find('.gallery-cell').not($selectedCell);
+            $nonSelectedCells.each(function () {
+                var $video = $(this).find('video');
+                if ($video.length) {
+                    $video.get(0).pause();
+                }
+            });
+        });
+
 }

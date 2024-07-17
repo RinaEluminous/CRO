@@ -2,6 +2,11 @@ window.onload = function () {
     if (document.querySelectorAll('.template-product').length > 0) {
         addStickyFooterOnPdp();
         highlightSocialProofOnPDP();
+        addMainFlickitySlider();
+        var popupShow=document.querySelector('.popup.show');
+        if(popupShow){
+            document.body.classList.add('custNoScroll');
+        }
         AllClickOperations();
     }
 
@@ -22,10 +27,10 @@ function highlightSocialProofOnPDP() {
     //-----Our customer stories section -----
     const customerStoriesSection = document.querySelector('.our-customer-stories-section');
     if (customerStoriesSection) {
-        const shopifyCustomerStoriesSection = customerStoriesSection.closest('.shopify-section');
-        if (shopifyCustomerStoriesSection) {
-            shopifyCustomerStoriesSection.classList.add('custStoriesSection');
-        }
+        // const shopifyCustomerStoriesSection = customerStoriesSection.closest('.shopify-section');
+        // if (shopifyCustomerStoriesSection) {
+            customerStoriesSection.classList.add('custStoriesSection');
+        // }
     }
     // replace the headline
     var storiesSectionHeading = document.querySelector('.custStoriesSection .customer-stories-heading');
@@ -67,6 +72,8 @@ function highlightSocialProofOnPDP() {
             '</div>';
     }
 
+    
+
     //----- Features logo section 
     var featureLogoSection = document.querySelector('.vida-logo-with-text');
     if (featureLogoSection) {
@@ -93,7 +100,7 @@ function highlightSocialProofOnPDP() {
         }
     }
 
-    //  add class to the hero section 
+     //  add class to the hero section 
     var heroSection = document.querySelector('.new-custom-product');
     if (heroSection) {
         heroSection.classList.add('custNewProduct');
@@ -257,26 +264,289 @@ function highlightSocialProofOnPDP() {
         productShopify.id = 'custProduct';
     }
 
-    //add first Slider Review Note 
+    //reposition of customer stories section
+    var deliaGloriaSectionElement = document.querySelector('.custDeliaGloriaSection');
+    var storiesSectionElement = document.querySelector('.custStoriesSection');
 
-    var productMainImages = document.querySelectorAll('.flickity-slider .Product__SlideItem img');
+    if(deliaGloriaSectionElement && storiesSectionElement){
+        deliaGloriaSectionElement.insertAdjacentElement('afterend',storiesSectionElement);
+    }
+}
 
+function addMainFlickitySlider(){
+ 
+    var hostname = window.location.hostname;
     if (hostname.includes('es')) {
         reviewNoteHtml= '<p class="custReviewNote">"Mi cabello es más brillante, más grueso y crece más rápido."</p>';
     } else {
         reviewNoteHtml  = '<p class="custReviewNote">"My hair is shinier, thicker, and growing faster."</p>';
     }
-     
-    if (productMainImages.length > 0 && document.querySelectorAll('.custReviewNote').length == 0) {
-        productMainImages[0].insertAdjacentHTML('afterend',reviewNoteHtml);
-    }
-}
 
+    var productGalleryElement = document.querySelector('.Product__Gallery');
+    if(productGalleryElement){
+        productGalleryElement.outerHTML ='<div class="main-gallery" data-flickity=\'{ "wrapAround": true, "pageDots": false }\'>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_800x.png?v=1704738798" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+reviewNoteHtml+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" class="popup-trigger">'+
+'            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" class="popup-trigger">'+
+'            <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+'            </video>'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_800x.jpg?v=1713383899" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_800x.jpg?v=1713383883" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" class="popup-trigger">'+
+'            <video width="100%" height="100%" controls poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+'                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+'            </video>'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_800x.jpg?v=1713383899" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_800x.png?v=1704738798" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_800x.png?v=1704738798" class="popup-trigger">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+'        </a>'+
+'    </div>'+
+'</div>'+
+'<div class="thumbnail-gallery" data-flickity=\'{ "asNavFor": ".main-gallery", "contain": true, "pageDots": false }\'>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Image 1">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/before-after-img-1.jpg" alt="Image 2">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
+'        </video>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Image 3">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <video width="100%" height="100%" controls playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">'+
+'            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">'+
+'        </video>'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Image 4">'+
+'    </div>'+
+'    <div class="gallery-cell">'+
+'        <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Image 4">'+
+'    </div>'+
+'</div>'+
+'<div class="overlay"></div>'+
+'<div class="popup">'+
+'    <div class="popup-content">'+
+'        <div class="close"><svg class="Icon Icon--close " role="presentation" viewBox="0 0 16 14">'+
+'                <path d="M15 0L1 14m14 0L1 0" stroke="currentColor" fill="none" fill-rule="evenodd"></path>'+
+'            </svg></div>'+
+'        <div class="nav-arrow prev"><svg class="Icon Icon--arrow-left" viewBox="0 0 100 100"><path d="M 20,50 L 60,90 L 60,85 L 25,50  L 60,15 L 60,10 Z" class="arrow"></path></svg></div>'+
+'        <div class="nav-arrow next"><svg class="Icon Icon--arrow-right" viewBox="0 0 100 100"><path d="M 20,50 L 60,90 L 60,85 L 25,50  L 60,15 L 60,10 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg></div>'+
+'        <div class="popup-body">'+
+'            <!-- Dynamic content goes here -->'+
+'        </div>'+
+'    </div>'+
+'</div>';
+
+    }
+
+    if (document.querySelectorAll('.custFlickitySliderJS').length == 0) {
+        const scriptElement = document.createElement('script');
+        scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js';
+        scriptElement.id = 'custFlickitySliderJS';
+        document.head.appendChild(scriptElement);
+    }
+
+    if (document.querySelectorAll('.custFlickitySliderCSS').length ==0) {
+        const linkElement = document.createElement('link');
+        linkElement.rel = 'stylesheet';
+        linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css';
+        linkElement.id = 'custFlickitySliderCSS';
+        document.head.appendChild(linkElement);
+    }
+
+
+      // Initialize Flickity for main gallery
+      var mainGallery = document.querySelector('.main-gallery');
+      var flickityMain = new Flickity(mainGallery, {
+          wrapAround: true,
+          pageDots: false
+      });
+
+      // Initialize Flickity for thumbnail gallery
+      var thumbnailGallery = document.querySelector('.thumbnail-gallery');
+      var flickityThumb = new Flickity(thumbnailGallery, {
+          asNavFor: '.main-gallery',
+          contain: true,
+          pageDots: false,
+          loop: false
+      });
+
+      var currentIndex = 0;
+      var popup = document.querySelector('.popup');
+      var overlay = document.querySelector('.overlay');
+      var popupBody = document.querySelector('.popup-body');
+
+      var nextbtnElement =document.querySelector('.main-gallery .flickity-prev-next-button.next svg');
+      if(nextbtnElement){
+        nextbtnElement.outerHTML ='<svg viewBox="0 0 100 100"><path d="M 20,50 L 60,90 L 60,85 L 25,50  L 60,15 L 60,10 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>';
+      }
+
+      var prevbtnElement =document.querySelector('.main-gallery .flickity-prev-next-button.previous svg');
+
+      if(prevbtnElement){
+        prevbtnElement.outerHTML ='<svg viewBox="0 0 100 100"><path d="M 20,50 L 60,90 L 60,85 L 25,50  L 60,15 L 60,10 Z" class="arrow"></path></svg>';
+      }
+
+      // Function to show popup with video or image
+      function showPopup(index) {
+        if (!(window.innerWidth <= 767)) {
+        console.log('showPopup >>>>>>>>');
+          currentIndex = index;
+          var currentCell = mainGallery.querySelectorAll('.gallery-cell')[currentIndex];
+          var content;
+
+          // Check if the current cell contains a video
+          if (currentCell.querySelector('video')) {
+              content = '<video width="100%" height="100%" autoplay controls poster="' +
+                  currentCell.querySelector('video').getAttribute('poster') + '">' +
+                  '<source src="' + currentCell.querySelector('video source').getAttribute('src') + '" type="video/mp4">' +
+                  'Your browser does not support the video tag.' +
+                  '</video>';
+          } else {
+              content = '<img src="' + currentCell.querySelector('img').getAttribute('src') + '" alt="Popup Image">';
+          }
+
+          popupBody.innerHTML = content;
+          popup.classList.add('show');
+          document.body.classList.add('custNoScroll');
+          overlay.classList.add('show');
+          const popupImgElement = document.querySelector('.popup-content img');
+          if(popupImgElement){
+            popupImgElement.classList.add('custPopupImg');
+          }
+          
+          
+        }
+      }
+
+      // Function to hide popup
+      function hidePopup() {
+        console.log('hidePopup >>>>>>>>');
+          popup.classList.remove('show');
+          document.body.classList.remove('custNoScroll');
+          overlay.classList.remove('show');
+          popupBody.innerHTML = '';
+          const popupContent = document.querySelector('.popup-content');
+          const popupContentImg = document.querySelector('.custPopupImg');
+          popupContentImg.classList.remove('zoomed');
+           
+      }
+
+      // Function to show next item in popup
+      function showNext() {
+        console.log('showNext >>>>>>>>');
+          currentIndex = (currentIndex + 1) % mainGallery.querySelectorAll('.gallery-cell').length;
+           var popupShow=document.querySelector('.popup.show');
+            if(popupShow){
+                document.body.classList.add('custNoScroll');
+            }
+            showPopup(currentIndex);
+       
+         
+      }
+
+      // Function to show previous item in popup
+      function showPrev() {
+        console.log('showPrev >>>>>>>>');
+          currentIndex = (currentIndex - 1 + mainGallery.querySelectorAll('.gallery-cell').length) % mainGallery.querySelectorAll('.gallery-cell').length;
+          
+          var popupShow=document.querySelector('.popup.show');
+            if(popupShow){
+                document.body.classList.add('custNoScroll');
+            }
+            showPopup(currentIndex);
+       
+      }
+    
+      document.querySelectorAll('.popup-trigger').forEach(function(trigger) {
+        trigger.addEventListener('click', function(e) {
+            var popupShow=document.querySelector('.popup.show');
+            if(popupShow){
+                document.body.classList.add('custNoScroll');
+            }
+            console.log('popup-trigger clicked >>>>>>>>');
+    
+            e.preventDefault();
+    
+            // Pause video in the currently selected gallery cell
+            var selectedCell = document.querySelector('.gallery-cell.is-selected');
+            var selectedVideo = selectedCell.querySelector('video');
+    
+            if (selectedVideo) {
+                selectedVideo.pause();
+            }
+    
+            // Determine the index of the clicked gallery cell
+            var index = Array.prototype.indexOf.call(mainGallery.querySelectorAll('.gallery-cell'), this.closest('.gallery-cell'));
+          
+                showPopup(index);
+        
+           
+        });
+    });
+    
+
+      document.querySelector('.close').addEventListener('click', hidePopup);
+
+      document.querySelector('.nav-arrow.next').addEventListener('click', showNext);
+
+      document.querySelector('.nav-arrow.prev').addEventListener('click', showPrev);
+
+      overlay.addEventListener('click', hidePopup);
+
+       
+
+
+}
 // Function to check if the video is playing
 function isVideoPlaying(video) {
     return !!(video.currentTime > 0 && !video.paused && !video.ended && video.readyState > 2);
 }
-
 
 function addStickyFooterOnPdp() {
     var hostname = window.location.hostname;
@@ -447,4 +717,83 @@ function AllClickOperations() {
             redirectTab('', fixedHeaderHeight, sectionId);
         });
     });
+
+    //slider section
+    document.querySelectorAll('.flickity-prev-next-button').forEach(function(trigger) {
+        trigger.addEventListener('click', function(e) {
+            console.log('flickity-prev-next-button clicked >>>>>>>>');
+    
+            // Find the currently selected gallery cell
+            var selectedCell = document.querySelector('.gallery-cell.is-selected');
+    
+            // Find the video element within the selected cell
+            var selectedVideo = selectedCell.querySelector('video');
+    
+            if (selectedVideo) {
+                // Check if video exists
+                if (selectedVideo.paused) {
+                    selectedVideo.play(); // Play video if it's paused
+                } else {
+                    selectedVideo.pause(); // Pause video if it's playing
+                }
+            } else {
+                console.log('No video found in the selected cell.');
+            }
+    
+            // Additional logic to handle stopping video in previous cells
+            var allCells = document.querySelectorAll('.gallery-cell');
+            allCells.forEach(function(cell) {
+                var video = cell.querySelector('video');
+                if (video && cell !== selectedCell) {
+                    video.pause(); // Pause video in non-selected cells
+                }
+            });
+        });
+    });
+    
+    //Outside popup click
+
+    const popupContentElement = document.querySelector('.popup-content');
+    if (popupContentElement) {
+       
+        popupContentElement.addEventListener('click', () => {
+            console.log('Outside popup click >>');
+            const popupContentImg = document.querySelector('.custPopupImg');
+           // popupContentImg.classList.remove('zoomed');
+           if(popupContentImg){
+            popupContentImg.classList.toggle('zoomed');
+           }
+           
+        });
+    }
+   
+    //popup click next and previous
+    const popupContent = document.querySelector('.popup-content');
+
+    if (popupContent) {
+        popupContent.addEventListener('click', (event) => {
+            // Check if the clicked element is a previous arrow
+            if (event.target.classList.contains('nav-arrow') && event.target.classList.contains('prev')) {
+                const popupContentImg = document.querySelector('.custPopupImg');
+                if(popupContentImg){
+                    popupContentImg.classList.remove('zoomed');
+                   }
+                
+                // Additional action for previous arrow click
+                console.log('Previous arrow clicked');
+            }
+            // Check if the clicked element is a next arrow
+            if (event.target.classList.contains('nav-arrow') && event.target.classList.contains('next')) {
+
+                const popupContentImg = document.querySelector('.custPopupImg');
+                if(popupContentImg){
+                    popupContentImg.classList.remove('zoomed');
+                   }
+                console.log('Next arrow clicked');
+            }
+        });
+    }
+
+
+    
 }

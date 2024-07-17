@@ -1,5 +1,5 @@
 console.log('above windows onload');
-window.onload = function() {
+// window.onload = function() {
    
 console.log('in windows onload');
     if( document.querySelectorAll('.template-product').length > 0){
@@ -8,13 +8,6 @@ console.log('in windows onload');
         addStickyFooterOnPdp();
         
         addVideoInsliderOnPDP();
-        setTimeout(function(){
-            if (document.querySelector('.custMainSliderRealResultImg')) {
-                console.log('custMainSliderRealResultImg >>>>>>>')
-                addVideoInsliderOnPDP();
-            } 
-        },1500);
-
         highlightSocialProofOnPDP();
 
         if(window.innerWidth <= 767) {
@@ -24,7 +17,7 @@ console.log('in windows onload');
         AllClickOperations();
     }
    
-};
+// };
 
 function highlightSocialProofOnPDP(){
     var hostname = window.location.hostname;
@@ -50,14 +43,14 @@ function highlightSocialProofOnPDP(){
 
     var customerContentElement = document.querySelector('.customer-content');
     if (hostname.includes('es')) {
-      customerContentElement.outerHTML = '<div class="custCustomerContent">' +
-          '    <div class="custVideoDetails custFirstVideo">' +
+      customerContentElement.outerHTML = '<div class="custCustomerContentV1">' +
+          '    <div class="custVideoDetailsV1 custFirstVideo">' +
           '        <video id="firstVideo" class="custVideoPlayer" autoplay playsinline muted poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
           '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">' +
           '        </video>' +
           '        <p>"La diferencia en mi piel fue excepcional."</p>' +
           '    </div>' +
-          '    <div class="custVideoDetails custSecondVideo">' +
+          '    <div class="custVideoDetailsV1 custSecondVideo">' +
           '        <video id="secondVideo" class="custVideoPlayer" playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
           '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">' +
           '        </video>' +
@@ -66,14 +59,14 @@ function highlightSocialProofOnPDP(){
           '</div>';
     }else{
 
-        customerContentElement.outerHTML = '<div class="custCustomerContent">' +
-        '    <div class="custVideoDetails custFirstVideo">' +
+        customerContentElement.outerHTML = '<div class="custCustomerContentV1">' +
+        '    <div class="custVideoDetailsV1 custFirstVideo">' +
         '        <video id="firstVideo" class="custVideoPlayer" autoplay playsinline muted poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">' +
         '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">' +
         '        </video>' +
         '        <p>"The difference in my skin was exceptional."</p>' +
         '    </div>' +
-        '    <div class="custVideoDetails custSecondVideo">' +
+        '    <div class="custVideoDetailsV1 custSecondVideo">' +
         '        <video id="secondVideo" class="custVideoPlayer" playsinline poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-2.png">' +
         '            <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles+2.mov" type="video/mp4">' +
         '        </video>' +
@@ -164,6 +157,8 @@ function highlightSocialProofOnPDP(){
         buttons.forEach(function(button) {
              if (button.textContent.includes('Frequently Asked Questions')) {
                  button.classList.add('custFaqCollapsibleElement');
+             }else if(button.textContent.includes('Preguntas Frecuentes')){
+                button.classList.add('custFaqCollapsibleElement');
              }
          });
 
@@ -282,67 +277,271 @@ function isVideoPlaying(video) {
 
 
 function addVideoInsliderOnPDP(){
-    var mainImageSliderHtml = '<div id="Media80" tabindex="0" class="Product__SlideItem Product__SlideItem--image Carousel__Cell Product__SlideItem--hidden custMainSliderRealResultImg" data-media-type="image" data-media-id="80" data-media-position="2" data-image-media-position="1">'+
-        '    <div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: 100.0%; --aspect-ratio: 1.0;">'+
-        '        <img class="Image--fadeIn lazyautosizes Image--lazyLoaded" data-widths="[200,400,600,700,800,900,1000,1200,1400,1600]" data-sizes="auto" data-expand="-100" alt="Hair, Skin, &amp; Nails" data-max-width="3000" data-max-height="3000" data-original-src="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031" data-srcset="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031" sizes="550px" srcset="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031, https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031">'+
-        '        <span class="Image__Loader"></span>'+
-        '        <noscript>'+
-        '            <img src="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031" alt="Hair, Skin, &amp; Nails">'+
-        '        </noscript>'+
-        '    </div>'+
-        '</div>'+
-        '<div id="Media90" tabindex="0" class="Product__SlideItem Product__SlideItem--image Carousel__Cell custMainExceptonalHairVideo" data-media-type="image" data-media-id="90" data-media-position="5" data-image-media-position="4" >'+
-        '    <div class="AspectRatio AspectRatio--withFallback" style="padding-bottom: 100.0%;--aspect-ratio: 1.0;">'+
-        '        <div class="custCustomerContent">'+
-        '            <div class="custVideoDetails">'+
-        '                <video controls="" autoplay="" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
-        '                    <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
-        '                </video>'+
-        '            </div>'+
-        '        </div>'+
-        '        <span class="Image__Loader"></span>'+
-        '        <noscript>'+
-        '            <video  autoplay="" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
-        '                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
-        '            </video>'+
-        '        </noscript>'+
-        '    </div>'+
-        '</div>';
-   
-   
-        var productMainImages = document.querySelectorAll('.flickity-slider .Product__SlideItem');
-        
-        if (productMainImages.length > 0 && document.querySelector('.custMainSliderRealResultImg').length == 0) {
-            productMainImages[0].insertAdjacentHTML('afterend', mainImageSliderHtml);
+
+    var slickSliderHtml ='<div class="custProductGallery">'+
+'    <div id="aniimated-thumbnials" class="slider-for">'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" />'+
+'        </a>'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" />'+
+'        </a>'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" />'+
+'        </a>'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" />'+
+'        </a>'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Alt">'+
+'        </a>'+
+'        <a href="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Alt">'+
+'        </a>'+
+'        <a data-video='/{"source": [{"src":"https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov", "type":"video/mp4"}], "attributes": {"preload": false, "playsinline": true, "controls": true}}/' data-poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'            <video id="firstVideo" class="custVideoPlayer" autoplay="" playsinline="" muted="" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
+'                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4"></video>'+
+'        </a>'+
+'    </div>'+
+'    <div class="slider-nav">'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_A_002_600x.png" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_B_002_600x.png?v=1704738798" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/30ct-Hair-Skin-Nails_w-shadow_C_002_600x.png?v=1704738798" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/productimage-05_600x.jpg?v=1713383899" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/ProductPhoto_600x.jpg?v=1713383899" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://www.myvidaorigins.com/cdn/shop/files/suppfacts_600x.jpg?v=1713383883" alt="Alt">'+
+'        </div>'+
+'        <div class="item-slick">'+
+'            <img src="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png" alt="">'+
+'        </div>'+
+'    </div>'+
+'</div>';
+
+var productGalleryEle =document.querySelector('.Product__Gallery');
+if(productGalleryEle && document.querySelectorAll('.custProductGallery').length==0){
+    productGalleryEle.insertAdjacentHTML('afterbegin',slickSliderHtml);
+}
+
+//add swiper script and html
+        if (document.querySelectorAll('.custSlickBootstrapeSliderCSS').length ==0) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css';
+            linkElement.id = 'custSlickBootstrapeSliderCSS';
+            document.head.appendChild(linkElement);
         }
-         productMainImages.forEach(function(productItem, index) {
-             
-                productItem.setAttribute('data-media-position', index + 1);
-                productItem.setAttribute('data-image-media-position', index);
-                var leftPosition = index * 100;
-        
-                productItem.style.position = 'absolute';
-                productItem.style.left = leftPosition + '%';
-        });
-        
-        var productGalleryImgHtml = '<a href="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031" data-media-id="80" class="Product__SlideshowNavImage AspectRatio custRealResultGalleryImg" style="--aspect-ratio: 1.0">'+
-    '    <img src="https://www.myvidaorigins.com/cdn/shop/files/image_15_84c2f4b8-e68b-4cb6-bf7e-a87414dfbf16.png?v=1715269031" alt="Hair, Skin, &amp; Nails"></a>'+
-    '<a href="//www.myvidaorigins.com/cdn/shop/files/productimage-05_1024x.jpg?v=1713383899" data-media-id="90" class="Product__SlideshowNavImage AspectRatio custExceptonalHairGalleryVideo" style="--aspect-ratio: 1.0">'+
-    '    <div class="custCustomerContent">'+
-    '        <div class="custVideoDetails">'+
-    '            <video  autoplay="" poster="https://growth-hit.s3.us-west-2.amazonaws.com/myVidaOrigins/video-poster-1.png">'+
-    '                <source src="https://bm-test-dev.s3.us-east-2.amazonaws.com/growthHit/MyVida/02/Spanish+Audio+English+Subtitles.mov" type="video/mp4">'+
-    '            </video>'+
-    '        </div>'+
-    '    </div>'+
-    '</a>';
- 
-    var productMainImages = document.querySelectorAll('.Product__SlideshowNavImage');
-    productMainImages.forEach(function(productItem, index) {
-        if (index === 0) {
-            productItem.insertAdjacentHTML('afterend', productGalleryImgHtml);
+
+        if (document.querySelectorAll('.custSlickSliderCSS').length ==0) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css';
+            linkElement.id = 'custSlickSliderCSS';
+            document.head.appendChild(linkElement);
         }
-    });
+
+        if (document.querySelectorAll('.custSlickCommentBoxSliderCSS').length ==0) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lg-fb-comment-box.min.css';
+            linkElement.id = 'custSlickCommentBoxSliderCSS';
+            document.head.appendChild(linkElement);
+        }
+
+        if (document.querySelectorAll('.custSlickTransitionSliderCSS').length ==0) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lg-transitions.min.css';
+            linkElement.id = 'custSlickTransitionSliderCSS';
+            document.head.appendChild(linkElement);
+        }
+
+        if (document.querySelectorAll('.custSlickLightGallerySliderCSS').length ==0) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lightgallery.min.css';
+            linkElement.id = 'custSlickLightGallerySliderCSS';
+            document.head.appendChild(linkElement);
+        }
+
+        if (document.querySelectorAll('.custJquerySliderJS').length == 0) {
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+            scriptElement.id = 'custJquerySliderJS';
+            document.head.appendChild(scriptElement);
+        }
+
+        if (document.querySelectorAll('.custJqueryUISliderJS').length == 0) {
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js';
+            scriptElement.id = 'custJqueryUISliderJS';
+            document.head.appendChild(scriptElement);
+        }
+
+        if (document.querySelectorAll('.custSlickSliderJS').length == 0) {
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js';
+            scriptElement.id = 'custSlickSliderJS';
+            document.head.appendChild(scriptElement);
+        }
+
+        if (document.querySelectorAll('.custLightGallerySliderJS').length == 0) {
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/js/lightgallery-all.min.js';
+            scriptElement.id = 'custLightGallerySliderJS';
+            document.head.appendChild(scriptElement);
+        }
+      
+            // Light Gallery
+            const animatedThumbnails = document.getElementById('aniimated-thumbnials');
+                lightGallery(animatedThumbnails, {
+                thumbnail: true,
+            });
+            
+            // Card's slider
+            const sliderFor = document.querySelector('.slider-for');
+            const sliderNav = document.querySelector('.slider-nav');
+          
+            sliderFor.slick = {
+              init: function() {
+                this.slidesToShow = 1;
+                this.slidesToScroll = 1;
+                this.arrows = true;
+                this.fade = true;
+                this.adaptiveHeight = false;
+                this.asNavFor = sliderNav;
+              }
+            };
+          
+            sliderNav.slick = {
+              init: function() {
+                this.slidesToShow = 3;
+                this.slidesToScroll = 1;
+                this.asNavFor = sliderFor;
+                this.arrows = false;
+                this.dots = false;
+                this.centerMode = false;
+                this.focusOnSelect = true;
+                this.variableWidth = true;
+              }
+            };
+
+      
+
+       
+
+       
+//    if (document.querySelectorAll('.custJquerySliderJS').length == 0) {
+//             const scriptElement = document.createElement('script');
+//             scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js';
+//             scriptElement.id = 'custJquerySliderJS';
+//             document.head.appendChild(scriptElement);
+//         }
+
+//         if (document.querySelectorAll('.custJqueryUISliderJS').length == 0) {
+//             const scriptElement = document.createElement('script');
+//             scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js';
+//             scriptElement.id = 'custJqueryUISliderJS';
+//             document.head.appendChild(scriptElement);
+//         }
+
+//         if (document.querySelectorAll('.custSlickSliderJS').length == 0) {
+//             const scriptElement = document.createElement('script');
+//             scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js';
+//             scriptElement.id = 'custSlickSliderJS';
+//             document.head.appendChild(scriptElement);
+//         }
+
+//         if (document.querySelectorAll('.custLightGallerySliderJS').length == 0) {
+//             const scriptElement = document.createElement('script');
+//             scriptElement.src = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/js/lightgallery-all.min.js';
+//             scriptElement.id = 'custLightGallerySliderJS';
+//             document.head.appendChild(scriptElement);
+//         }
+        
+//         if (document.querySelectorAll('.custSlickBootstrapeSliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css';
+//             linkElement.id = 'custSlickBootstrapeSliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+//         if (document.querySelectorAll('.custSlickBootstrapeSliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css';
+//             linkElement.id = 'custSlickBootstrapeSliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+
+//         if (document.querySelectorAll('.custSlickSliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css';
+//             linkElement.id = 'custSlickSliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+//         if (document.querySelectorAll('.custSlickCommentBoxSliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lg-fb-comment-box.min.css';
+//             linkElement.id = 'custSlickCommentBoxSliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+//         if (document.querySelectorAll('.custSlickTransitionSliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lg-transitions.min.css';
+//             linkElement.id = 'custSlickTransitionSliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+//         if (document.querySelectorAll('.custSlickLightGallerySliderCSS').length ==0) {
+//             const linkElement = document.createElement('link');
+//             linkElement.rel = 'stylesheet';
+//             linkElement.href = 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lightgallery.min.css';
+//             linkElement.id = 'custSlickLightGallerySliderCSS';
+//             document.head.appendChild(linkElement);
+//         }
+
+//         jQuery('#aniimated-thumbnials').lightGallery({
+//             thumbnail: true,
+//           });
+//           // Card's slider
+//           var jQuerycarousel = jQuery('.slider-for');  
+//           jQuerycarousel
+//           .slick({
+//               slidesToShow: 1,
+//               slidesToScroll: 1,
+//               arrows: true,
+//               fade: true,
+//               adaptiveHeight: false,
+//               asNavFor: '.slider-nav'
+//           });
+//           jQuery('.slider-nav').slick({
+//               slidesToShow: 3,
+//               slidesToScroll: 1,
+//               asNavFor: '.slider-for',
+//               arrows: false,
+//               dots: false,
+//               centerMode: false,
+//               focusOnSelect: true,
+//               variableWidth: true
+//           });
 }
 
 function addStickyFooterOnPdp() {
