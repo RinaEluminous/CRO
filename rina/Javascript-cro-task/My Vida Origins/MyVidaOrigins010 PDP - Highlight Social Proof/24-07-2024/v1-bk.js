@@ -1,4 +1,4 @@
-// window.onload = function () {
+window.onload = function () {
     if (document.querySelectorAll('.template-product').length > 0) {
         addStickyFooterOnPdp();
         highlightSocialProofOnPDP();
@@ -10,7 +10,7 @@
         AllClickOperations();
     }
 
-// };
+};
 
 function highlightSocialProofOnPDP() {
     var hostname = window.location.hostname;

@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+div#custRowNumber7 div#custDndModule .hs_cos_wrapper {
+  background: #fff !important;
+  }
+
+.custLeftBannerText h2 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #001447;
+    margin-bottom: 25px;
+}
+
+.custLeftBannerText h2 span {
+    color: #D6AD51;
+    border-bottom: 1px solid;
+    line-height: 0.9;
+    display: inline-block;
+}
+
+.custLeftBannerText h5 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #001447;
+    margin-bottom: 10px;
+}
+ul.custListWrpper li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+ul.custListWrpper li::after {
+    content: "";
+    width: 22px;
+    height: 22px;
+    background: #F5C24F;
+    left: 0;
+    border-radius: 50px;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+ul.custListWrpper li::before {
+    display: inline-block;
+    height: 11px;
+    width: 6px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    content: "";
+    left: 8px;
+    z-index: 3;
+    top: calc(50% - 1px);
+    position: absolute;
+    transform: translateY(-50%) rotate(45deg);
+}
+
+ul.custLogoWrpper {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul.custLogoWrpper li:first-child {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #4F6396;
+    margin-right: 20px;
+}
+
+ul.custLogoWrpper li:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.custHeadStrip {
+    background: #FFF9E3 !important;
+    border-top: 4px solid #D8B15A;
+}
+
+.custHeadStrip h2 span span {
+    color: #D55757 !important;
+    font-weight: 700;
+}
+
+.custHeadStrip h2  + h2 {
+    display: none;
+}
+
+.custHeadStrip h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.row-number-4, .row-number-5 {
+    display: none;
+}
+.custFreeGoldIraKitDiv {
+    background: #EAECDF;
+    border-radius: 12px;
+    max-width: 544px;
+    padding: 40px;
+}
+
+.custFreeGoldIraKitDiv span img {
+    width: 100%;
+    max-width: 405px !important;
+    margin-bottom: 40px;
+}
+
+div#custFreeGoldIraKit div#custRowNumber7 .hs_cos_wrapper {
+    padding: 0 !important;
+    background: transparent !important;
+}
+
+div#custFreeGoldIraKit div#custRowNumber7 .hs_cos_wrapper h3#hs_cos_wrapper_module_168117131989110_title {
+    font-size: 38px !important;
+    color: #001447 !important;
+    font-family: 'Montserrat' !important;
+    margin-bottom: 40px !important;
+}
+
+div#custFreeGoldIraKit div#custRowNumber7 input.hs-input {
+    padding: 20px;
+    height: 51px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.row-number-3 {
+    padding-top: 32px !important;
+}
+#custDndModule form fieldset.form-columns-1:nth-child(1), #custDndModule form fieldset.form-columns-1:nth-child(2) {
+    width: calc(50% - 10px) !important;
+    max-width: calc(50% - 10px) !important;
+}
+
+#custDndModule form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#custDndModule form fieldset.form-columns-1 {
+    width: 100%;
+    margin-bottom: 0 !important;
+}
+
+#custDndModule form .field.hs-form-field {
+    margin-bottom: 20px;
+}
+
+.hs_submit.hs-submit {
+    width: 100%;
+}
+
+#custDndModule form .hs_submit.hs-submit input.hs-button {
+    border-radius: 8px;
+    padding: 13px 0px 13px 0px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    color: #000000 !important;
+    margin-top: 15px;
+    background: #F5C24F !important;
+    border: 0 !important;
+    margin-bottom: 15px;
+}
+div#custFreeGoldIraKit div#custRowNumber7 label {
+    margin: 0;
+    gap: 0 !important;
+    display: block;
+}
+.custAgreementSection li span {
+    width: calc(100% - 31px) !important; 
+}
+.row-number-3 .row-fluid {
+    align-items: start;
+}
+.row-number-8, .row-number-10, .row-number-17, .row-number-20, .row-number-23, .row-number-24, .row-number-26, .row-number-28, .row-number-30, .row-number-34, .row-number-38 {
+    display: none !important;
+}
+.custBottomBanner .container {
+    max-width: 1178px;
+    margin: 0 auto;
+}
+
+.custLimitedOffers {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.custLimitedOffers h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #001447;
+    margin-bottom: 15px;
+}
+
+.custLimitedOffers p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    color: #001447;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.custBottomBanner {
+    padding-top: 60px;
+}
+
+.custPreserveGold {
+    background: #FFF9E3;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 60px;
+    border-radius: 12px;
+}
+
+.custRightlagreIMG {
+    max-width: 431px;
+}
+
+.custRightlagreText {
+    width: calc(100% - 431px);
+    padding-left: 60px;
+}
+
+.custRightlagreText h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #001447;
+    margin-bottom: 24px;
+}
+
+.custRightlagreText a {
+    height: 56px;
+    background: #F5C24F;
+    border-radius: 46px;
+    padding: 16px 30px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.custRightlagreText small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #001447;
+    display: block;
+    margin-top: 24px;
+}
+.custTestimonialsSlider {
+    padding-top: 60px;
+    background: #F7F7F7;
+}
+.custTestimonialsSlider .container {
+max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.custLeftTestimonilas {
+    width: 230px;
+}
+
+.custRightSlider {
+    width: calc(100% - 230px);
+    padding-left: 70px;
+}
+.custRightlagreText a img {
+    margin-right: 14px;
+    filter: brightness(0);
+    position: relative;
+    top: 3px;
+}
+.custCenterFreeKit {
+    text-align: center;
+    padding-top: 40px;
+    background: #F7F7F7;
+    padding-bottom: 60px;
+}
+
+.custCenterFreeKit a {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000000;
+    padding: 24px 0px;
+    width: 466px;
+    height: 66px;
+    background: #F5C24F;
+    border-radius: 8px;
+}
+.custAgreementSection li span, .custAgreementSection li span a {
+    font-size: 10px !important;
+    color: #000 !important;
+    line-height: 14px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label {
+    align-items: start !important;
+    margin-top: 20px;
+        justify-content: start !important;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label input {
+height: auto !important;
+    margin-right: 18px;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    border-radius: 0 !important;
+    opacity: 0 !important;
+    flex: 0 0 12px;
+    padding: 0 !important;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label span::after, .custAgreementSection li.hs-form-booleancheckbox label span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    min-width: 16px;
+    min-height: 16px;
+    max-width: 16px;
+    max-height: 16px;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label {
+    position: relative;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label span::before {
+    background: #1382F3;
+    border-radius: 2px;
+}
+
+.custAgreementSection li.hs-form-booleancheckbox label span::after {
+    display: inline-block;
+    height: 10px;
+    width: 5px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    content: "";
+    z-index: 3;
+    position: absolute;
+    transform: translateY(-50%) rotate(45deg);
+    left: 6px;
+    top: 6px;
+    min-width: 5px;
+    min-height: 10px;
+    max-width: 5px;
+    max-height: 10px;
+}
+.custAgreementSection li.hs-form-booleancheckbox label input:checked + span::after{opacity: 0}
+.custPreserveGoldreviews h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #001447;
+    margin-bottom: 20px;
+}
+
+.custPreserveGoldreviews h6 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.custReivewStar {
+display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.custReivewStar img {
+    width: 40px;
+    margin: 0 0;
+    height: 40px;
+}
+.custPreserveGoldreviews h4 {font-size: 16px;text-align: center;color: #000;font-weight: normal;margin-bottom: 5px;}
+
+.custPreserveGoldreviews h4 span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.custTrustedLogo img {
+    width: 130px;
+}
+
+.custTrustedLogo {
+    text-align: center;
+}
+.custReivewText img {
+    height: 20px;
+}
+
+.custReivewText h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #001447;
+}
+
+.custReivewText p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.custReivewText h6 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 32px;
+    color: #001447;
+    margin-bottom: 0;
+}
+form label.hs-error-msg {
+    font-size: 11px;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+}
+.custAgreementSection li span a {
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+.custSliderControls .swiper-pagination {
+    display: none;
+}
+.custLeftBannerText {
+    padding-top: 40px;
+}
+.custPreserveGoldreviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.custReivewwrapper {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px;
+}
+.custReviewsMain .swiper-slide {
+    height: auto;
+}
+
+.custReviewsMain .swiper-slide .custPartnerBox, .custReivewwrapper {
+    height: 100%;
+}
+.custGoldIraLpMinimal .row-number-3, .custGoldIraLpMinimal #main-content {
+    visibility: hidden;
+}
+@media (max-width: 1024px) {
+ul.custLogoWrpper {
+    flex-wrap: wrap;
+}
+
+ul.custLogoWrpper li:first-child {
+    margin-right: 0;
+    margin-bottom: 15px;
+}
+
+.custTestimonialsSlider .container {
+    flex-wrap: wrap;
+}
+
+.custRightlagreIMG {
+    max-width: 30%;
+}
+
+.custRightlagreText {
+    width: 70%;
+}
+.custLeftBannerText h2 {
+    font-size: 32px;
+    line-height: 1.4;
+}
+
+div#custFreeGoldIraKit div#custRowNumber7 .hs_cos_wrapper h3#hs_cos_wrapper_module_168117131989110_title {
+    font-size: 28px !important;
+    margin-bottom: 0;
+}
+#custDndModule form fieldset.form-columns-1:nth-child(1), #custDndModule form fieldset.form-columns-1:nth-child(2) {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.custRightSlider {
+    padding-left: 30px;
+}
+}
+@media (max-width: 991px) {
+.custLeftTestimonilas {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.custRightSlider {
+    width: 100%;
+    padding: 0 0;
+}
+}
+@media (max-width: 860px) {
+.custRightlagreIMG {
+    max-width: 100%;
+}
+
+.custPreserveGold {
+    justify-content: center;
+}
+
+.custRightlagreText {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin-top: 32px;
+}
+
+.custBottomBanner .container {
+    padding: 0 20px;
+}
+.custPreserveGoldreviews h2 br {
+    display: none;
+}
+
+.custPreserveGoldreviews h2 {
+    margin-bottom: 5px;
+}
+.custFreeGoldIraKitDiv {
+    padding: 30px;
+}
+}
+@media (max-width: 767px) {
+    .custPartnersMainSp {
+      padding-top: 5px;
+    }
+    .custPartnersMainSp .custSliderControls {
+      width: 100%;
+      height: 40%;
+    }
+    .custPartnersMainSp .custSliderControls span.swiper-pagination-bullet {
+      width: 30px;
+    }
+    .custPartnersMainSp .custSliderControls [class*="swiper-button-"] {
+      display: none;
+    }
+    .custPartnersMainSp .swiper.custPartnerslider {
+      margin: 0;
+      padding: 0 0 30px;
+    }
+  
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox p {
+      font-size: 19px;
+    }
+    .custPartnersMainSp .custGlobalReview {
+      font-size: 28px;
+      line-height: 33px;
+    }
+    .custPartnersMainSp .custGlobalReview {
+      margin-top: 30px;
+    }
+  
+    .custPartnersMainSp {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  
+    .custPartnersMainSp .swiper.custPartnerslider {
+      margin: 0;
+    }
+  
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox {
+      text-align: center;
+    }
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox p {
+      font-size: 18px;
+      line-height: 24px;
+      margin: 0 0 24px;
+    }
+    .custPartnersMainSp .custSliderControls {
+      display: none;
+    }
+  
+    .custPartnersMainSp .custSliderControls span.swiper-pagination-bullet {
+      width: 24px;
+      height: 3px;
+      border-radius: 0;
+      background: #000;
+      opacity: 0.2;
+    }
+    .custPartnersMainSp .custSliderControls span.swiper-pagination-bullet-active {
+      opacity: 0.5;
+    }
+  
+    .custPartnersMainSp .custGlobalReview {
+      max-width: 400px;
+      margin: 60px auto 0;
+      font-family: Schibsted Grotesk;
+      font-size: 40px;
+      font-weight: 600;
+      line-height: 48px;
+      text-align: center;
+      letter-spacing: normal;
+    }
+  
+    .custPartnersMainSp .custGlobalReview span.stars {
+      display: block;
+      height: 25px;
+      position: relative;
+      width: 120px;
+      margin: 0 auto 8px;
+      background-image: url("data:image/svg+xml;charset=UTF-8, %3Csvg%20width%3D%2280%22%20height%3D%2214%22%20viewBox%3D%220%200%2080%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg%20fill%3D%22%23FFB829%22%20fill-rule%3D%22evenodd%22%3E%3Cpath%20d%3D%22M71.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM55.996%2011.368l-3.94%202.42c-.474.292-.756.096-.628-.443l1.074-4.53-3.507-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.78%204.3%204.602.37c.552.046.666.37.237.74l-3.507%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM40.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53-3.508-3.022c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422zM24.076%2011.368l-3.94%202.42c-.475.292-.757.096-.63-.443l1.076-4.53-3.507-3.022c-.422-.363-.324-.693.238-.74l4.603-.37%201.78-4.3c.21-.51.55-.512.76%200l1.78%204.3%204.602.37c.554.046.667.37.24.74l-3.508%203.02%201.074%204.532c.127.536-.146.74-.628.444l-3.94-2.422zM8.123%2011.368l-3.94%202.42c-.475.292-.756.096-.63-.443l1.076-4.53L1.12%205.792c-.422-.363-.324-.693.24-.74l4.602-.37%201.778-4.3c.21-.51.55-.512.762%200l1.778%204.3%204.603.37c.554.046.667.37.24.74l-3.508%203.02%201.075%204.532c.127.536-.147.74-.628.444l-3.94-2.422z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+      background-size: 120px 25px;
+      background-repeat: no-repeat;
+    }
+  
+    .custPartnersMainSp {
+      background: #f4eeeb;
+    }
+  
+    .custPartnersMainSp .swiper-slide {
+      background: #fff;
+      border-radius: 8px;
+      padding: 16px 20px 16px 20px;
+    }
+  
+    .custPartnersMainSp .custSliderControls {
+      margin-top: 20px;
+    }
+  
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox p {
+      font-family: "IBM Plex Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px !important;
+      line-height: 20px !important;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #000000;
+      margin-bottom: 15px;
+    }
+  
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox {
+      margin: 0;
+      max-width: 100%;
+    }
+  
+  .custPartnersMainSp .container {
+      padding-right: 0;
+  }
+
+/*  new*/
+.row-number-3 {
+    border-top: 5px solid #f4c159;
+    padding-top: 0 !important;
+}
+
+.custLeftBannerText h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.custLeftBannerText h5 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul.custListWrpper li {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.custLogoWrpper li:first-child {
+    width: 100%;
+    text-align: center;
+}
+
+ul.custLogoWrpper li:last-child {
+    justify-content: center;
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.custTrustedTransactions {
+    text-align: center;
+}
+
+.custLeftBannerText {
+    margin-bottom: 40px;
+}
+.custFreeGoldIraKitDiv {
+    max-width: 100%;
+    padding: 16px;
+}
+div#custFreeGoldIraKit div#custRowNumber7 .hs_cos_wrapper h3#hs_cos_wrapper_module_168117131989110_title {
+        font-size: 24px !important;
+        margin-bottom: 30px !important;
+}
+
+#custDndModule form .hs_submit.hs-submit input.hs-button {
+    font-size: 22px;
+    margin-top: 20px;
+}
+.custTestimonialsSlider {
+    padding-top: 40px;
+}
+
+.custCenterFreeKit {
+    padding-top: 24px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.custCenterFreeKit a {
+    font-size: 22px;
+    padding: 20px 0;
+    height: 62px;
+}
+.custBottomBanner {
+    padding-top: 40px;
+}
+
+.custLimitedOffers h3 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 14px;
+}
+
+.custLimitedOffers p {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.custPreserveGold {
+    padding: 24px;
+}
+
+.custRightlagreText h2 {
+    font-size: 20px;
+    line-height: 36px;
+    margin-bottom: 15px;
+}
+
+.custRightlagreText a {
+    line-height: 1.2;
+    text-align: center;
+    position: relative;
+    padding-left: 61px;
+    padding-top: 10px;
+    padding-bottom: 0;
+}
+
+.custRightlagreText a img {
+    position: absolute;
+    left: 30px;
+    top: 18px;
+}
+
+.custRightlagreText small {
+    font-size: 14px;
+    margin-top: 14px;
+}
+.custReivewText h6 {
+    line-height: 1.2;
+}
+#custDndModule form .field.hs-form-field {
+    margin-bottom: 15px;
+}
+.custTestimonialsSlider .container {
+    padding-right: 0;
+}
+  .custLeftTestimonilas {
+    padding-right: 15px;
+  }
+}
+  
+  @media (max-width: 575px) {
+    .custPartnersMainSp .swiper.custPartnerslider .custPartnerBox {
+      max-width: 260px;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 375px) {
+.custRightlagreText a {
+font-size: 14px;
+        padding-top: 12px;
+        padding-left: 46px;
+}
+}

@@ -11,6 +11,7 @@
 // };
 
 function addCustomHTMLForHomePage(){
+  
   var swiperSliderHtml ='<div class="custWrapper">'+
   '    <section class="custToolbarWrapper">'+
   '        <ul class="custToolbarWrap">'+

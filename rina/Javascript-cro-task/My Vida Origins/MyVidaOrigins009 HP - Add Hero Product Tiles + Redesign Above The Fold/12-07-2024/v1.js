@@ -177,8 +177,7 @@ function allClickOperation() {
                   
                 });
             } else {
-                
-                firstVideo.pause();
+             firstVideo.pause();
             }
         } else if (event.target === secondVideo) {
             // Toggle play/pause for second video only

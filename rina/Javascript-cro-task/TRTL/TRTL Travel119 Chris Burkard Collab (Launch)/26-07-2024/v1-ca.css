@@ -1,0 +1,672 @@
+.custLaunchSticklyFooterV1 {
+    background-color: #Fff;
+    margin: auto;
+    padding: 25px 22px;
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 984px;
+    transition: bottom 0.2s;
+}
+.custLaunchSticklyFooterV1 .custCloseIcon {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-size: 22px;
+    padding: 5px 12px 8px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+    z-index: 99;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper p a {
+    background-color: #fad951;
+    padding: 10px 40px;
+    display: block;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custMainLeftSide{
+    width: 68%;
+    padding-left: 4px;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading span {
+    color: #DA0D0D;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading a {
+    text-decoration: none;
+    position: relative;
+    z-index: 999;
+    color: #000;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading a span{
+    font-weight: 400;
+    color: #000;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading {
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #000000;
+    letter-spacing: 0.07em;
+    font-family: ibm-plex-sans, sans-serif;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custSubHeading {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    color: #000;
+    margin: 0 0 8px;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .img-wrapper {
+    position: absolute;
+    left: 20px;
+    top: -28px;
+    text-align: left;
+}
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper{
+    position: relative;
+    z-index: 9;
+}
+.custStickyLaunchWrapperV1 .imgWrapper {
+    position: absolute;
+    left: 35px;
+    top: 0;
+    text-align: left;
+    width: 96px;
+    bottom: 0;
+}
+.custStickyLaunchWrapperV1 .imgWrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1.05);
+}
+.custLaunchSticklyFooterV1 .custTrendingBadge {
+    position: absolute;
+    top: -25px;
+    background: #008F39;
+    color: #ffffff;
+    z-index: 1;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    padding: 2.5px 16px;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    gap: 0 8px;
+    left: 50%;
+    margin-left: -63px;
+    text-transform: uppercase;
+}
+
+.custWrapperPro .custTrendingBadge {
+    padding: 2px 8px 2px 8px;
+    border-radius: 4px;
+    background: #008F39;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #fff;
+    max-width: 140px;
+    margin: auto;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custMainLeftSide .custLeftSection {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+}
+
+.tile-product-menu.custChrisBurkardPillow .product-flashtags-container .custLimitedEditionText ~ * {
+    display: none !important;
+}
+.tile-product-menu.custChrisBurkardPillow .product-flashtags-container .custLimitedEditionText{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px 20px;
+    gap: 10px;
+    background: #FAD951;
+    border-radius: 2px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.tile-product-menu.custChrisBurkardPillow h5{
+    /* font-family: 'Schibsted Grotesk'; */
+    font-family: "IBM Plex Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 30px !important;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-right: 5px;
+}
+.custMobileBurkardLink .tile-line-item-menu .product-flashtags-container,
+.tile-product-menu.custChrisBurkardPillow .custFreeGiftDeskText{
+    display: none !important;
+}
+.tile-product-menu.custChrisBurkardPillow .bg-gradient-bottom-white{
+    background: linear-gradient(hsl(0deg 0% 0% / 0%), hsl(0deg 0% 0% / 90%));
+}
+.custMobileBurkardLink .tile-line-item-menu {
+    background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/burkard_lp_hero_banner_img.png) no-repeat center;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+.custMobileBurkardLink .tile-line-item-menu [id*="image-wrapper-"] img {
+    padding: 8px;
+    opacity: 1;
+}
+
+.custMobileBurkardLink .tile-line-item-menu h5 {
+    font-size: 20px !important;
+    line-height: 20px;
+    font-weight: 500 !important;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding-right: 69px;
+    margin: 0 0 4px !important;
+    display: block !important;
+}
+.custMobileBurkardLink .tile-line-item-menu h5 span {
+    font-weight: 400;
+}
+
+.custMobileBurkardLink .tile-line-item-menu p.text-info.custFreeGiftMobText {
+    line-height: 16px;
+    color: #fff !important;
+    display: block !important;
+    font-size: 12px !important;
+    font-weight: 400;
+}
+
+.custMobileBurkardLink .tile-line-item-menu .col-12 {
+    margin: 0 !important;
+    padding: 0;
+}
+
+.custMobileBurkardLink .tile-line-item-menu .row.gy-2 {
+    margin: 0;
+}
+
+.custMobileBurkardLink .tile-line-item-menu .col-9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custMobileBurkardLink .tile-line-item-menu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000052;
+}
+
+#nav-offcanvas .offcanvas-body h5.font-ibm-mono{
+    color: #3C3E41;
+}
+#nav-offcanvas .offcanvas-body h5.font-ibm-mono i {
+    color: #EE4B3A !important;
+    margin-right: 10px !important;
+}
+@media screen and (min-width: 992px) {
+    .custLaunchSticklyFooterV1 .img-wrapper .img-mobile {
+        display: none;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .custLaunchSticklyFooterV1 {
+        bottom: 5px;
+        transition: bottom 0.8s;
+        padding: 8px;
+    }
+    .custLaunchSticklyFooterV1 .custCloseIcon {
+        right: -6px;
+        top: -25px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .img-wrapper img {
+        max-width: 100%;
+    }
+    .custLaunchSticklyFooterV1 .img-wrapper {
+        right: 50px;
+        bottom: 2px !important;
+        max-width: 110px;
+        top: auto !important;
+        text-align: right;
+        left: 0 !important;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custSubHeading {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .img-wrapper img {
+        width: 90%;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading{
+        margin-bottom: 5px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper{
+        flex: 0 0 180px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper p {
+        width: 100%;
+        padding-left: 0px;
+        margin-left: auto;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 {
+        align-items: center;
+        width: 100%;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custMainLeftSide {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custMainLeftSide .custLeftSection{
+        padding: 0;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper p a{
+        padding: 10px 20px;
+    }
+    .custLaunchSticklyFooterV1::after {
+        display: none;
+    }
+    .custLaunchSticklyFooterV1::before {
+        background-image: url(https://d27c6j8064skg9.cloudfront.net/growthHit/TRTL/test55/Recmob.png) !important;
+        background-size: contain;
+        width: 30%;
+    }
+    .custLaunchSticklyFooterV1 {
+        width: 95%;
+    }
+    .custLaunchSticklyFooterV1 .img-wrapper .imgDesktop {
+        display: none;
+    }
+    .custStickyLaunchWrapperV1 .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+         top: 14px;
+        position: inherit;
+    }
+    .custStickyLaunchWrapperV1 .imgWrapper img{
+        background-size: contain;
+    }
+    .custWrapperPro .custTrendingBadge {
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+}
+@media(max-width:567px) {
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+        margin: 0 0 2px;
+        letter-spacing: 0.03em;
+    }
+    .custStickyLaunchWrapperV1 .imgWrapper {
+        flex: 0 0 80px;
+        left: 4px;
+        top: 14px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custCtaWrapper{
+        width: 100%;
+        flex: 1;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1{
+        flex-direction: column;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custSubHeading{
+        margin: 0;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custSubHeading p{
+        max-width: 178px;
+        white-space: nowrap;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+@media screen and (max-width: 500px) {
+    .custLaunchSticklyFooterV1 .custCloseIcon {
+        font-size: 17px;
+        padding: 4px 10px 7px;
+    }
+    .custLaunchSticklyFooterV1 .custStickyLaunchWrapperV1 .custLeftSection .custBannerHeading{
+        max-width: 220px;
+    }
+    .custLaunchSticklyFooterV1 .custTrendingBadge {
+        left: 0;
+        margin-left: 10px;
+    }
+}
+
+/* collection banner css */
+.custLimitedCollaboration {
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/chris_burkard_ad_img.png);
+    padding: 20px 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* z-index: 1; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.custLimitedCollaboration h6 {
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.custLimitedCollaboration h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.custLimitedCollaboration:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 20%);
+}
+.custLimitedCollaboration * {
+    z-index: 0;
+}
+span.custCrossSpan{
+    font-weight: 400;
+}
+
+a.custYellowBtn {
+    width: 219px;
+    height: 62px;
+    background: #FAD951;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    align-content: center;
+    font-size: 20px;
+}
+
+a.custYellowBtn small {
+    display: block;
+    width: 100%;
+    font-size: 11px;
+}
+
+.custLimitedCollaboration .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custImgContent img {
+    width: 190px;
+}
+
+.custImgContent {
+    width: 39%;
+}
+
+.custTextContent {
+    width: 60%;
+}
+
+.custLimitedCollaboration::after {
+    content: "";
+    width: 100%;
+    height: 40px;
+    background: #f5eeeb;
+    position: absolute;
+    left: 0;
+    top: -40px;
+    z-index: -3;
+}
+
+/*mobile*/
+@media screen and (max-width: 1199px) {
+    .custLimitedCollaboration .container {
+        max-width: 100%;
+        padding: 0 40px;
+    }
+    
+    .custLimitedCollaboration .container h2 {
+        font-size: 32px;
+    }
+    
+    .custLimitedCollaboration h6 {font-size: 16px;}
+    }
+    @media screen and (max-width: 860px) {
+        .custImgContent {
+        order: 1;
+        width: 100%;
+    }
+    
+    .custTextContent {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .custLimitedCollaboration .container {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 0 15px;
+    }
+    
+    .custLimitedCollaboration .container h2 {
+        text-align: center;
+    }
+    
+    a.custYellowBtn {
+        width: 100%;
+    }
+    
+    a.custYellowBtn small {
+        font-size: 10px;
+    }
+    }
+    
+    @media screen and (max-width: 767px) {
+    .custLimitedCollaboration h6, 
+    .custLimitedCollaboration .container h2 {
+        text-align: left;
+    }
+    }
+
+    /* slider css */
+    
+    .custProSlider {
+        background: url(https://growth-hit.s3.us-west-2.amazonaws.com/trtltravel/burkard_card_img.png);
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        align-content: space-between;
+        background-size: cover;
+        cursor: pointer;
+        position: relative;
+    }
+    .custProSlider * {
+        z-index: 0;
+    }
+    .custProSlider a.custLimitWrapperLink {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    .custProSlider:before {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgb(0 0 0 / 20%);
+        z-index: 0;
+    }
+    
+    .custWrapperPro {
+        background: #fff;
+        text-align: center;
+        width: calc(100% - 16px);
+        margin: 0 auto 8px auto;
+        display: block;
+        padding: 10px;
+    }
+    
+    .custStarImg img {
+        width: auto;
+        height: 12px;
+    }
+    
+    .custWrapperPro h4 a, .custWrapperPro h4 {
+        text-decoration: none;
+        margin: 0;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    
+    .custWrapperPro h4 {
+        margin-top: 9px;
+        margin-bottom: 9px;
+    }
+    
+    .custTitle {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 8px 8px 0 8px;
+    }
+    
+    .custProImg img {
+        width: 210px;
+        margin: 0 auto;
+    }
+    
+    .custProImg {
+        text-align: center;
+        width: 100%;
+    }
+    @media screen and (max-width: 767px) {
+    .custStarImg img {
+        height: 19px;
+    }
+
+    .custWrapperPro {
+        width: calc(100% - 12px);
+        margin: 0 auto 6px auto;
+        padding: 5px;
+    }
+
+    .custProImg img {
+        width: 140px !important;
+    }
+
+    .custWrapperPro .btn {
+        font-size: 15px;
+    }
+    .custWrapperPro h4 {
+        padding: 0 2px;
+     }
+     .custTitle{
+        font-size: 14;
+        line-height: 20px;
+     }
+     .custLimitedCollaboration{
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+     .custLimitedCollaboration::after{
+        display: none;
+     }
+     .custWrapperPro .custTrendingBadge {
+        font-size: 14px;
+        letter-spacing: 0.05rem;
+        max-width: 146px;
+    }
+    }
+
+    @media screen and (max-width: 370px) {
+ 
+        .custWrapperPro .btn {
+            font-size: 12px;
+         }
+         .custWrapperPro h4 {
+            padding: 0 0px;
+         }
+}

@@ -1,4 +1,4 @@
-// window.onload = function () {
+window.onload = function () {
     if (document.querySelectorAll('.template-product').length > 0) {
         addStickyFooterOnPdp();
         highlightSocialProofOnPDP();
@@ -10,7 +10,7 @@
         AllClickOperations();
     }
 
-// };
+};
 
 function highlightSocialProofOnPDP() {
     var hostname = window.location.hostname;
@@ -243,10 +243,9 @@ function highlightSocialProofOnPDP() {
         resultOfProductShopify.id = 'custResults';
     }
 
-    var reviewsOfProduct = document.querySelector('.loyal-customer-sec');
+    var reviewsOfProduct = document.querySelector('.extra-padding-apps');
     if (reviewsOfProduct) {
-        var reviewsOfProductShopify = reviewsOfProduct.closest('.shopify-section');
-        reviewsOfProductShopify.id = 'custReviews';
+        reviewsOfProduct.id = 'custReviews';
     }
 
     var scienceOfProduct = document.querySelector('.myvida_ingredients_pdp');

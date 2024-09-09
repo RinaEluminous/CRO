@@ -1,0 +1,416 @@
+.template-product .SizeSwatchList{
+    width: 100%;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item{
+    flex: 1;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item label.SizeSwatch{
+    height: auto !important;
+    max-height: initial !important;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item label.SizeSwatch:after{    
+    border-color: #D6D6D6;
+    border-radius: 6px;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch{
+    background: #F6F6F6 !important;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item label.SizeSwatch .colorImg {
+    margin: 4px auto 12px;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    font-size: 0;
+}
+.template-product .SizeSwatchList li.HorizontalList__Item .SizeSwatch__Radio:checked + .SizeSwatch .colorImg:after {
+    content: '';
+    display: block;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    left: calc(50% - 0px);
+    transform: translate(-50%, -50%);
+    top: calc(50% - 1px);
+    border: 1px solid #000;
+    border-radius: 36px;
+}
+.template-product #geocoder .mapboxgl-ctrl-geocoder.mapboxgl-ctrl{
+    background: #ffffff !important;
+    line-height: normal;
+    border: 1px solid #363636;
+}
+.template-product .starmap-configurator > .date-counters{
+    display: flex;
+    gap: 4px;
+}
+.template-product .starmap-configurator > .date-counters select{
+    background: #fff;
+    border: 1px solid #D6D6D6;
+    width: auto !important;
+    flex: 1;
+}
+.template-product .starmap-configurator .mob-disclaimer-text ~ .date-counters{
+    flex-direction: column;
+}
+.template-product .starmap-configurator .map-setting-item{
+    background: #fff;
+    border: 1px solid #D6D6D6;
+}
+.template-product .starmap-configurator .map-setting-item p.map-setting-label{
+    opacity: 1;
+}
+.template-product .starmap-configurator .map-setting-item:last-child{
+    margin: 0;
+}
+.template-product .starmap-form-container{
+    margin-bottom: 16px;
+}
+.template-product .starmap-configurator .date-counters select#month {
+    flex: 0 0 40%;
+}
+.template-product .ProductMeta .product_reviews{
+    margin: 0 0 5px;
+}
+.template-product .ProductMeta .product_reviews span{
+    text-decoration: underline;
+}
+.template-product .product-add-on-wrapper > .container {
+    display: none;
+}
+.template-product .custAddPremGiftBox {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.template-product .product-add-on-wrapper > .custAddPremGiftBox .container {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 8px 10px;
+    flex: 1;
+  }
+  .template-product .custAddPremGiftBox label.container .content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.template-product .custAddPremGiftBox label.container .content .imgBox {
+    width: 24px;
+    height: 24px;
+    background: #f1f1f1;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.template-product .custAddPremGiftBox label.container .content .text {
+    font-size: 12px;
+    line-height: 1.1;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: var(--text-font-family);
+}
+.template-product .custAddPremGiftBox label.container .content .text span.giftPrice {
+    display: block;
+    font-size: 10px;
+    opacity: 0.4;
+}
+.template-product .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .template-product .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+  }
+  .template-product .container:hover input ~ .checkmark,
+  .template-product .container input:checked ~ .checkmark {
+    border: 1px solid #000;
+  }
+
+  .template-product .custAddPremGiftBox label.container .content .imgBox.noImg {
+    background: #fff;
+    border: 1px solid #D6D6D6;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.template-product .custAddPremGiftBox label.container .content .imgBox.noImg img {
+    display: none;
+}
+
+.template-product .custAddPremGiftBox label.container .content .imgBox.noImg:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #D6D6D6;
+}
+.template-product .custAddPremGiftBox .title {
+    flex: 0 0 100%;
+}
+
+.template-product .custAddPremGiftBox .custRadioOptions {
+    display: flex;
+    gap: 4px;
+    flex: 1;
+}
+.template-product .custAddPremGiftBox .title {
+    flex: 0 0 100%;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #919191;
+}
+.template-product .ProductForm__QuantitySelector{
+    display: none;
+}
+.template-product button#starmap-complete{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-top: 32px;
+}
+.template-product .Product__Info .Container span.ProductForm__Label{
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #919191;
+    margin: 16px 0 4px;
+}
+.template-product .custom_product_tab,
+.template-product .ProductMeta__Description .Rte {
+    display: none;
+}
+.template-product .ProductMeta__Description ul.custShippingInfo {
+    list-style: none;
+    margin: 0;
+    padding: 8px 0 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.template-product .ProductMeta__Description ul.custShippingInfo li {
+    display: flex;
+    align-items: center;
+    flex: 0 0 100%;
+    width: 100%;
+    gap: 8px;
+    font-family: 'Avenir Next';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.template-product .ProductMeta__Description ul.custShippingInfo li img {
+    width: 24px;
+}
+.template-product .swiper-button-prev {
+    left: 36.9%;
+    right: auto;
+    transform: translate(-36.9%, -50%);
+    top: 50%;
+    z-index: 99;
+    background: #000;
+    z-index: 9;
+    height: 30px;
+    width: 30px;
+    align-items: center;
+}
+ 
+.template-product .swiper-button-next {
+    position: absolute;
+    background: #000;
+    top: -70px;
+    right: 80px;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 35.5%;
+    transform: translate(-35.5%, -50%);
+    top: 50%;
+    z-index: 9;
+}
+ 
+.template-product .swiper-button-next:after {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10px;
+    height: 14px;
+    top: 8px;
+    left: 10px;
+    z-index: 13;
+}
+ 
+.template-product .swiper-button-prev:after {
+    content: "";
+    background-image: url(https://growth-hit.s3.us-west-2.amazonaws.com/custom-cuff/black-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 10px;
+    height: 14px;
+    top: 8px;
+    transform: rotate(-180deg);
+    left: 10px;
+    z-index: 13;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoProducts .swiper-slide {
+    opacity: 0.4;
+    transform: scale(0.9);
+    transition: all 0.5s;
+    height: auto !important;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoProducts .swiper-slide.swiper-slide-active {
+    transform: scale(1);
+    opacity: 1;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoWrapper {
+    padding: 0 0 150% 0;
+    position: relative;
+    min-height: 548px;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoWrapper video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    object-position: top;
+    left: 0;
+    pointer-events: none;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoProducts .swiper-slide.swiper-slide-active video {
+    pointer-events: all;
+}
+ 
+.custHomePageSlider .custPuraVidaVideoWrapper a {
+    width: calc(100% - 22px);
+    background: #46ad77;
+    color: #fff;
+    position: absolute;
+    bottom: 80px;
+    left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 36px;
+    line-height: 22px;
+    padding: 7px 22px;
+}
+@media (min-width:1140px){
+    .Product--medium .Product__Slideshow .flickity-viewport{
+        height: calc(100vh - 150px) !important;
+    }
+    .Product--medium .Product__Slideshow .flickity-viewport.showMore{
+        height: auto !important;
+    }
+    .Product--medium .Product__Slideshow{
+        max-width: 100%;
+    }
+    .Product__Slideshow .flickity-slider{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transform: none !important;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .Product__Slideshow.flickity-enabled .flickity-slider .Product__SlideItem{
+        flex: 0 0 calc(50% - 8px);
+        position: relative !important;
+    }
+    .Product__Gallery--withThumbnails .Product__SlideshowNav--thumbnails{
+        display: none !important;
+    }
+    .custShowMoreBtn {
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        background: #fff;
+        padding: 10px 30px 10px 10px;
+        line-height: 1;
+        transform: translate(-50%, 0px);
+        border-radius: 3px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 12px;
+        cursor: pointer;
+    }
+    .custShowMoreBtn:after {
+        content: '';
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        right: 10px;
+        top: calc(50% - 3px);
+        display: block;
+        transform: translate(0px, -50%) rotate(-45deg);
+        border-left: 1px solid #363636;
+        border-bottom: 1px solid #363636;
+    }
+    .custShowMoreBtn:hover {
+        background: #363636;
+        color: #fff;
+    }
+    .custShowMoreBtn:hover:after {
+        border-color: #fff;
+        transform: translate(0px, -50%) rotate(135deg);
+        top: calc(50% - -1px);
+    }
+}
+@media (max-width:767px) { 
+    .custHomePageSlider .custPuraVidaVideoProducts {
+        padding-bottom: 25px;
+    } 
+    .swiper-button-prev {
+        left: 15%;
+    } 
+    .swiper-button-next {
+        right: 15%;
+        left: auto;
+        transform: translate(15%, -50%);
+    }
+}
