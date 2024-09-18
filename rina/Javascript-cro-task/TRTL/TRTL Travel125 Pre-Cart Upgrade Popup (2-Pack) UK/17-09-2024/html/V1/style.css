@@ -1,0 +1,171 @@
+.custPreUpgradeProgress {
+    margin: 0 0 12px;
+}
+.custPreUpgradeProgress h6 {/* Expedited free shipping */
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 8px;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper .blueBar, .custPreUpgradeProgress .custUpgradeRangeWraper span.greyBar {
+    display: block;
+    width: 100%;
+    background: #ccc;
+    border-radius: 8px;
+    height: 6px;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper  span.blueBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #243B60;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper span.rightBall {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #ccc;
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 2;
+    margin-top: -8px;
+}
+.custBundleNDsaveWraper {
+    padding: 8px 10px;
+    width: 100%;
+    background: #FEF7E7;
+    border: 1px solid #C5C4C5;
+    border-radius: 4px;
+}
+.custBundleNDsaveWraper h6 {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #292B2D;
+    margin: 0 0 12px;
+}
+.custBundleNDsaveWraper h6 span {
+    color: #A21C23;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 0 12px;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .heading {
+    color: #87888a;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: .06em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .heading span.colorName {
+    color: #000;
+    display: inline-block;
+    margin-left: 8px;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches {
+    display: flex;
+    gap: 8px;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches .swatch {
+    border: 0px solid transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches .swatch.active:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://trtltravel.com/cdn/shop/t/236/assets/motif-tick-white.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    content: '';
+}
+.custBundleNDsaveWraper  .custPricingWraper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.custBundleNDsaveWraper .custPricingWraper .pricing .priceMain {
+    display: flex;
+    gap: 4px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.custBundleNDsaveWraper .custPricingWraper .pricing .priceMain .finalPrice {
+    color: #A21C23;
+}
+.custBundleNDsaveWraper .custPricingWraper .pricing .freeCarryBag {
+    font-family: 'IBM Plex Sans';
+    font-weight: 450;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.custBundleNDsaveWraper .custPricingWraper .add-to-cart-button {
+    flex: 1;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+}
+.custFreeCarryBagWraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 12px;
+    background: #E7FEF2;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+.custFreeCarryBagWraper .imgBox {
+    flex: 0 0 72px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.custFreeCarryBagWraper .content {
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.custFreeCarryBagWraper .content span.value {
+    font-weight: 400;
+    font-style: italic;
+}

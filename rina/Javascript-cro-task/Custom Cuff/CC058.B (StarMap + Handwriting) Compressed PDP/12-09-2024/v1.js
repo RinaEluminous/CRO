@@ -20,6 +20,22 @@ window.onload = function () {
   }
 };
 
+function getTotalHeight() {
+
+  var flickityViewPortElementelements = Array.from(document.querySelectorAll(".Product--medium .Product__Slideshow .flickity-viewport .Product__SlideItem")).slice(0, 3);
+  var intHeight = flickityViewPortElementelements.map(function(elem) {
+      return elem.offsetHeight;
+  }).reduce(function(acc, height) {
+      return acc + height;
+  }, 0);
+
+  var totalHeight = intHeight + 30;
+  if (window.innerWidth > 1008) {
+  return totalHeight;
+  }
+
+}
+
 function compressedPDPOfStarMapHandwriting() {
   //add home page slider before reviews section
   var homeSliderHtml = '<div class="shopify-section bm-video-section custHomePageSlider">' +
@@ -487,31 +503,23 @@ function compressedPDPOfStarMapHandwriting() {
     });
   }
 
-  var addToCartButtons = document.querySelectorAll('.ProductForm__AddToCart');
-  if (addToCartButtons.length > 0) {
-
-    var priceContainerElement = document.querySelector('.ProductMeta__PriceList');
-    if (priceContainerElement) {
-      if (priceContainerElement.querySelector('.Price--highlight') && priceContainerElement.querySelector('.Price--compareAt')) {
-        var intActualPrice = priceContainerElement.querySelector('.Price--highlight').textContent.trim();
-      } else {
-        var intActualPrice = document.querySelector('.ProductMeta__Price').textContent;
-      }
+//add dyanamic heigh to the product images 
+var intTotalHeight = getTotalHeight();
+ if(intTotalHeight){
+  document.querySelector(".Product--medium .Product__Slideshow .flickity-viewport").style.setProperty("height", intTotalHeight + "px", "important");
+   } 
+  
+   //remove product price from minimal and star map charm
+  var currentPathUrl = window.location.pathname;
+  if (currentPathUrl.includes("/products/custom-star-map-charm") || currentPathUrl.includes("/products/custom-minimal-star-map-bracelet")) {
+    var moneyElements = document.querySelector("#starmap-complete .money");
+    var seperateDotsElements = document.querySelector("#starmap-complete .Button__SeparatorDot");
+    if(moneyElements && seperateDotsElements){
+      moneyElements.style.display = "none";
+      seperateDotsElements.style.display ="none"
     }
-
-    if (priceContainerElement) {
-      addToCartButtons.forEach(function (button) {
-        var spanElement = button.querySelector('span');
-        if (spanElement) {
-          spanElement.textContent = 'Add to cart - ' + intActualPrice;
-        }
-      });
-
-    }
-
+      
   }
-
-
 
 }
 
@@ -643,14 +651,22 @@ function allClickOperations() {
   if (showMoreBtn) {
     showMoreBtn.addEventListener('click', () => {
     var flickityViewPortElement = document.querySelector('.flickity-viewport');
+    var intTotalHeight = getTotalHeight();
       if (flickityViewPortElement) {
         var showMoreText = document.querySelector('.custShowMoreBtn span');
         if (flickityViewPortElement.classList.contains('showMore')) {
         flickityViewPortElement.classList.remove('showMore');
           showMoreText.textContent = 'Show More';
+         
+          if(intTotalHeight){
+            document.querySelector(".Product--medium .Product__Slideshow .flickity-viewport").style.setProperty("height", intTotalHeight + "px", "important");
+          } 
         } else {
           showMoreText.textContent = 'Show Less';
           flickityViewPortElement.classList.add('showMore');
+          if(intTotalHeight){
+              document.querySelector(".Product--medium .Product__Slideshow .flickity-viewport").style.setProperty("height", "unset", "important");
+            } 
         }
       }
     });
@@ -665,6 +681,8 @@ function allClickOperations() {
         readMoreContent.classList.toggle('showMoreDesc');
         if (readMoreContent.classList.contains('showMoreDesc')) {
           readMoreBtn.textContent = 'Read less';
+        }else{
+          readMoreBtn.textContent = 'Read more';
         }
       }
     });
@@ -733,7 +751,12 @@ function allClickOperations() {
         if (cancelPriceTextElement) {
           cancelPriceTextElement.textContent = intCancelPrice;
         }
-
+        
+       //add dyanamic heigh to the product images 
+          var intTotalHeight = getTotalHeight();
+          if(intTotalHeight){
+              document.querySelector(".Product--medium .Product__Slideshow .flickity-viewport").style.setProperty("height", intTotalHeight + "px", "important");
+          } 
       }, 1000);
 
     });

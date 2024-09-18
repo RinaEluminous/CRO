@@ -3,8 +3,6 @@ console.log('before Dom loaded >>>');
 (function() {
     console.log('TRTL Travel094 - Cart Upsell Followup >>>');
     // **************all functions****************** 
-
-
     function checkProductAvailabilityInMinicart(strProductName){
         var isProductAvailable = false;
         var trtlPillowelements = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
