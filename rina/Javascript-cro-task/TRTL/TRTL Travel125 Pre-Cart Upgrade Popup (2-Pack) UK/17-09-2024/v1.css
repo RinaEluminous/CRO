@@ -2,7 +2,7 @@
     display: none!important;
 }
  .custShowContent{
-    display: block!important;
+    display: flex!important;
 }
 .custPreUpgradeProgress {
     margin: 0 0 12px;

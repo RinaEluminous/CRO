@@ -1,3 +1,9 @@
+.custHideContent {
+    display: none!important;
+}
+ .custShowContent{
+    display: block!important;
+}
 .custBundleNDsaveWraperV2 {
     padding: 8px 10px;
     width: 100%;
@@ -225,3 +231,9 @@
   .custMiniCartFeatures .col-12:nth-child(4) {
     order: 4;
   }
+  
+  .custViewSizeChartModal.custShow{
+    display: block !important;
+    opacity: 1!important;
+   }
+  

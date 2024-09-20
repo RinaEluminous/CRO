@@ -1,5 +1,4 @@
 function checkAndInitialize() {
-    console.log('TRTL Travel125 Pre-Cart Upgrade Popup V2 UK >>>');
     triggerExperience();
 }
 
@@ -278,7 +277,7 @@ function clickOperations() {
         });
 
         //color swatch click for select color 
-            var swatchesElement = document.querySelectorAll('.custColorSwatches .swatch');
+            var swatchesElement = document.querySelectorAll('.custBundleNDsaveWraperV2 .swatch');
                 swatchesElement.forEach(function (swatch) {
                     swatch.addEventListener('click', function () {
                         console.log('Swatch click >>');
@@ -347,9 +346,9 @@ function clickOperations() {
                                 Colour: strSelectedCompressionSockColor,
                                 Size: strSelectedCompressionSockSize,
                                 quantity: "1",
-                                properties: {
-                                    '_cartDrawer': '0.5'
-                                }
+                                // properties: {
+                                //     '_cartDrawer': '0.1'
+                                // }
                             }));
                         }
 

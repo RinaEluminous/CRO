@@ -1,5 +1,4 @@
 function checkAndInitialize() {
-    console.log('TRTL Travel125 Pre-Cart Upgrade Popup (2-Pack) UK >>>');
     triggerExperience();
 }
 
@@ -31,51 +30,20 @@ function triggerExperience() {
         addClassToOfferElement();
         clickOperations();
 
-        if (localStorage.getItem("isPillowCarryBagAdded") !== null) {
+        if (sessionStorage.getItem("isPillowCarryBagAdded") !== null) {
             document.querySelector('.custFreeCarryBagWraper')?.classList.add('custShowContent');
-            document.querySelector('.custFreeCarryBagWraper')?.classList.remove('custHideContent');
-            document.querySelector('.custBundleNDsaveWraper').classList.add('custHideContent');
-            document.querySelector('.custBundleNDsaveWraper').classList.remove('custShowContent');
             var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
             if (closeButton) {
                 closeButton.click();
                 console.log('closeButton >>>>');
             }
-        
-        }else if(localStorage.getItem("isPillowCarryBagAdded") == null){
-            console.log('localStorage.getItem("isPillowCarryBagAdded") is null');
-            document.querySelector('.custUpgradeProgress')?.classList.add('custHideContent');
-            localStorage.removeItem("isRecommendedProductAddedInCart");
-            localStorage.removeItem("isPillowCarryBagAdded");
+            // sessionStorage.removeItem("isRecommendedProductAddedInCart");
+            // sessionStorage.removeItem("isPillowCarryBagAdded");
         }
 
-        console.log('intItemCount !== 0 ');
-    }else if(intItemCount == 0){
-        console.log('intItemCount == 0');
-            document.querySelector('.custUpgradeProgress')?.classList.add('custHideContent');
-            localStorage.removeItem("isRecommendedProductAddedInCart");
-            localStorage.removeItem("isPillowCarryBagAdded");
-    }else if(intItemCount == 1){
-        console.log('intItemCount == 1');
-        if(document.querySelectorAll('.custFreeCarryBagWraper').length > 0 && localStorage.getItem("isPillowCarryBagAdded") !== null){
-            console.log('custCarryBagTrashBtn is present >>>>');
-           setTimeout(function () {
-                triggerExperience();
-                document.querySelector('.custCarryBagTrashBtn').click();
-            }, 1500);
-            // localStorage.removeItem("isRecommendedProductAddedInCart");
-            // localStorage.removeItem("isPillowCarryBagAdded");
-        }else if(localStorage.getItem("isPillowCarryBagAdded") == null){
-            console.log('localStorage.getItem("isPillowCarryBagAdded") is null');
-            document.querySelector('.custUpgradeProgress')?.classList.add('custHideContent');
-            localStorage.removeItem("isRecommendedProductAddedInCart");
-            localStorage.removeItem("isPillowCarryBagAdded");
-        }
-
-      } else {
-        console.log('rest condition');
-        if (document.querySelectorAll('.custBundleNDsaveWraper').length > 0) {
-            document.querySelector('.custBundleNDsaveWraper').classList.add('custHideContent');
+    } else {
+        if (document.querySelector('.custPreUpgradeProgress').length > 0) {
+            document.querySelector('.custUpgradeProgress').classList.add('custHideContent');
         }
     }
 
@@ -86,8 +54,12 @@ function addClassToOfferElement() {
 
     const cartProducts = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
 
-    let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
+    let addedProducts = JSON.parse(sessionStorage.getItem('addedProductIds')) || [];
+
+
     addedProducts = addedProducts.map(id => String(id).trim().toLowerCase());
+
+
     cartProducts.forEach(product => {
         const productHref = product.getAttribute('href');
         console.log('productHref:', productHref);
@@ -100,12 +72,13 @@ function addClassToOfferElement() {
             if (targetElement) {
                 targetElement.classList.add('custAddProductFromOffer');
             }
+
+
         }
 
         // add class for free carry bag
-        if (localStorage.getItem("isPillowCarryBagAdded") !== null) {
+        if (sessionStorage.getItem("isPillowCarryBagAdded") !== null) {
             if (product.textContent.includes('TRTL PILLOW CARRY BAG')) {
-                console.log('TRTL PILLOW CARRY BAG >>>');
 
                 const freeCarryBagParentElement = product.closest('.row.g-3.align-items-center');
                 console.log('freeCarryBagParentElement:', freeCarryBagParentElement);
@@ -243,15 +216,15 @@ function addTrtleTravelPillow() {
 function addPillowCarryBag() {
     console.log('addPillowCarryBag  initialize>>>>');
     // Add free carry bag to cart
-    if (localStorage.getItem("isRecommendedProductAddedInCart") !== null && localStorage.getItem("isPillowCarryBagAdded") == null) {
+    if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null && sessionStorage.getItem("isPillowCarryBagAdded") == null) {
 
         var xhr = new XMLHttpRequest();
         xhr.open('POST', 'https://uk.trtltravel.com/cart/add');
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.onload = function () {
             if (xhr.status === 200) {
-           
-            console.log('isPillowCarryBagAdded session set >>>');
+
+                sessionStorage.setItem('isPillowCarryBagAdded', 'yes');
                 //location.reload();
             }
         };
@@ -340,7 +313,7 @@ function clickOperations() {
     var addToCartButton = document.querySelector('.custAddSave');
     addToCartButton.addEventListener('click', function () {
         console.log('add and save button click >>>');
-        var strSelectedColor = document.querySelector('.custColorSwatches .swatch.active').getAttribute('data-color');
+        var strSelectedColor = document.querySelector('.swatch.active').getAttribute('data-color');
         console.log('selectedColor >>>', strSelectedColor);
         // Add pillow to cart
         var arrayColorValue = {
@@ -358,16 +331,14 @@ function clickOperations() {
             xhr.onload = function () {
                 if (xhr.status === 200) {
 
-                    let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
+                    let addedProducts = JSON.parse(sessionStorage.getItem('addedProductIds')) || [];
                     addedProducts.push(strSelectedProdId);
-                    localStorage.setItem('addedProductIds', JSON.stringify(addedProducts));
+                    sessionStorage.setItem('addedProductIds', JSON.stringify(addedProducts));
 
-                    localStorage.setItem('isRecommendedProductAddedInCart', 'yes');
-                    if(document.querySelectorAll('.custFreeCarryBagAdded').length == 0 && localStorage.getItem("isPillowCarryBagAdded") == null){
-                        addPillowCarryBag();
-                        localStorage.setItem('isPillowCarryBagAdded', 'yes');
-                    }
-                    
+                    sessionStorage.setItem('isRecommendedProductAddedInCart', 'yes');
+
+                    addPillowCarryBag();
+
                     setTimeout(function () {
                         location.reload();
                     }, 750);
@@ -404,7 +375,7 @@ function clickOperations() {
     // });
 
 
-//Mini cart delete operationst
+    //Mini cart delete operations
 
     var cartDltButtons = document.querySelectorAll('#cart-offcanvas-content button.btn .fa-trash-alt')
     cartDltButtons.forEach(function (button) {
@@ -431,7 +402,7 @@ function clickOperations() {
                 if (document.querySelector('.custCarryBagTrashBtn')) {
                     console.log('custCarryBagTrashBtn is present');
                     setTimeout(function () {
-                        triggerExperience();
+                        triggerTest();
                         document.querySelector('.custCarryBagTrashBtn').click();
                     }, 1500);
 
@@ -439,7 +410,7 @@ function clickOperations() {
             }
 
             setTimeout(function () {
-                console.log('DELETE CLICK FINAL CODE')
+                console.log('delete click')
                 triggerExperience();
             }, 3500);
 
@@ -448,30 +419,16 @@ function clickOperations() {
 
 
     // PDP Add TO Cart - Trigger the function again
-    var cartButtons = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-decrement, #cart-offcanvas-content button#line-item-button-increment');
-    cartButtons.forEach(function(button) {
-        button.addEventListener('click', function() {
-            console.log('Apply changes again on cart operations: plus and minus');
-            setTimeout(function() {
+    var addToCartBtns = document.querySelectorAll('.button.add-to-cart-button[name=add], button.sticky-add-to-cart[name=add]');
+    addToCartBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            console.log('PDP Add TO Cart - Trigger the function again:');
+            setTimeout(function () {
                 triggerExperience();
             }, 1500);
-
         });
     });
 
-  
-    //  var addToCartBtn = document.querySelector('.add-to-cart-button[name="add"]');
-    //  if (addToCartBtn) {
-    //         addToCartBtn.addEventListener('click', function (event) {
-    //          event.preventDefault(); // Prevent default form submission (if necessary)
-    //          event.stopPropagation(); // Prevent bubbling (if necessary)
- 
-    //          console.log('Add to Cart button clicked');
-    //         setTimeout(function () {
-    //             triggerExperience();
-    //          }, 2000);
-    //      });
-    //  }
 
 
 
