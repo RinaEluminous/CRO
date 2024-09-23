@@ -1,0 +1,44 @@
+<!-- insert after: .product-form .ads-product-variant__container -->
+<div class="custSelectBuyOfferWrapperV2">    
+    <div class="custChooseItemBlock">
+        <div class="custChooseItemImageWraper">
+            <div class="itemContent">
+                <div class="heading">
+                    Pillow color:
+                    <span class="colorName">Grey</span>
+                </div>
+                <div class="custColorSwatches">
+                    <div class="swatch swatch-color-grey active"></div>
+                    <div class="swatch swatch-colour-black"></div>
+                    <div class="swatch swatch-colour-red"></div>
+                    <div class="swatch swatch-colour-coral"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="price-container mt-3">
+        <div class="fs-5 price lh-1">
+            <span class="">$59.99</span>
+            <span class="d-none text-oblique me-3">$69.99</span>
+            <span style="top: -2px;" class="badge rounded-1 position-relative bg-green-light fs-7 px-3 py-2 text-uppercase font-heading d-none">
+                You save <span data-mp-product-saving="">SAVE 15%</span>
+            </span>
+        </div>
+    </div>
+    <div class="col-12 custQntWraper">
+        <div class="row">
+            <div class="col-4 col-xl-4">
+                <div class="quantity-container">
+                    <div class="input-group">
+                        <button class="btn ps-3 pe-2 btn-outline-dark border-end-0" aria-label="Decrease quantity" type="button" id="button-decrement" onclick="this.nextElementSibling.value = Math.max(parseInt(this.nextElementSibling.value) - 1, 1)"><i class="fa-solid fa-minus position-relative" style="left:-2px;" aria-hidden="true"></i></button>
+                        <input class="form-control text-center bg-transparent border-0 border-dark border-top border-bottom px-1" type="text" name="quantity" id="Quantity-template--22504511799489__main" value="1" oninput="this.value = this.value.replace(/[^1-9]/g, '').replace(/(\..*?)\..*/g, '$1');" aria-label="Quantity">
+                        <button class="btn ps-2 pe-3 btn-outline-dark border-start-0" aria-label="Increase quantity" type="button" id="button-increment" onclick="this.previousElementSibling.value = parseInt(this.previousElementSibling.value) + 1"><i class="fa-solid fa-plus position-relative" style="right:-2px;" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-9">
+                <button class="btn btn-secondary add-to-cart-button">add to cart</button>
+            </div>            
+        </div>
+    </div>    
+</div>

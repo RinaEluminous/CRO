@@ -1,0 +1,118 @@
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper .itemContent .heading {
+    color: #87888a;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: .06em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper .itemContent .heading span.colorName {
+    color: #000;
+    display: inline-block;
+    margin-left: 8px;
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper .itemContent .custColorSwatches {
+    display: flex;
+    gap: 8px;
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper .itemContent .custColorSwatches .swatch {
+    border: 0px solid transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemImageWraper .itemContent .custColorSwatches .swatch.active:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://trtltravel.com/cdn/shop/t/236/assets/motif-tick-white.png);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    content: '';
+}
+.custSelectBuyOfferWrapperV2 .custChooseItemBlock {
+    flex-direction: column;
+    gap: 0;
+    display: flex;
+}
+.custSelectBuyOfferWrapperV2 .add-to-cart-button {
+    width: 100%;
+    text-transform: uppercase;
+    font-family: 'IBM Plex Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.06em;
+    margin: 0;
+    padding: 10px;
+}
+.custSelectBuyOfferWrapperV2 .product-form .ads-product-variant__container{
+    display: none;
+}
+.custSelectBuyOfferWrapperV2 .custQntWraper {
+    margin: 20px 0 0;
+}
+.custSelectBuyOfferWrapperV2 .price-container .price {
+    margin: 4px 0 0;
+}
+.custSelectBuyOfferWrapperV2 .price-container .price span {
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 500;
+}
+.custSelectBuyOfferWrapperV2 .price-container .price span.badge span {
+    font-size: inherit;
+}
+.custSelectBuyOfferWrapperV2 .custQntWraper .row {
+    margin: 0 -8px;
+}
+.custSelectBuyOfferWrapperV2 .custQntWraper .row [class*="col-"] {
+    padding: 0 8px;
+}
+@media(max-width: 1260px){
+    .custSelectBuyOfferWrapperV2 .price-container .price span{
+        font-size: 18px;
+    }
+    .custSelectBuyOfferWrapperV2 .add-to-cart-button{
+        font-size: 16px;
+    }
+}
+@media(max-width: 767px){
+    .custSelectBuyOfferWrapperV2 .add-to-cart-button{
+        padding: 10px;
+        margin: 0px 0 0;
+        font-size: 18px;
+    }
+    .custSelectBuyOfferWrapperV2 .price-container .price span{
+        font-size: 24px;
+    }
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row .col-4{
+        width: 40%;
+    }
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row .col-8{
+        width: 60%;
+    }
+}
+@media(max-width: 374px){
+    .custSelectBuyOfferWrapperV2 .price-container .price span{
+        font-size: 18px;
+    }
+    .custSelectBuyOfferWrapperV2 .add-to-cart-button{
+        font-size: 16px;
+    }
+}
