@@ -169,3 +169,19 @@
         margin: 12px 0 0;
     }
 }
+@media(max-width: 575px){
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row [class*="col-sm-4"]{
+        width: 40%;
+    }
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row [class*="col-sm-8"]{
+        width: 60%;
+    }
+}
+@media(max-width: 374px){
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row [class*="col-"]{
+        width: 100%;
+    }
+    .custSelectBuyOfferWrapperV2 .custQntWraper .row [class*="col-sm-4"]{
+        margin: 0 0 10px;
+    }
+}

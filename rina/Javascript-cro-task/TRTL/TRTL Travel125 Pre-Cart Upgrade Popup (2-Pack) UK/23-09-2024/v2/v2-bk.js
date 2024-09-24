@@ -383,7 +383,7 @@ function clickOperations() {
             });
         });
 
-           //Mini cart delete operations
+    //Mini cart delete operations
 
     var cartDltButtons = document.querySelectorAll('#cart-offcanvas-content button.btn .fa-trash-alt')
     cartDltButtons.forEach(function (button) {

@@ -1,4 +1,5 @@
 function checkAndInitializeV2() {
+    console.log('TRTL Travel126 Ads LP - Default 2-pack + Pricing test >>');
     addDefault2PackV2();
     clickOperationsV2();
 
@@ -68,7 +69,7 @@ if(urlPath == '/products/trtl-travel-pillow-ads3'){
 '    </div>'+
 '    <div class="col-12 custQntWraper">'+
 '        <div class="row">'+
-'            <div class="col-4 col-xl-4">'+
+'            <div class="col-12 col-sm-4">'+
 '                <div class="quantity-container">'+
 '                    <div class="input-group">'+
 '                        <button class="btn ps-3 pe-2 btn-outline-dark border-end-0" aria-label="Decrease quantity" type="button" id="button-decrement"><i class="fa-solid fa-minus position-relative" style="left:-2px;" aria-hidden="true"></i></button>'+
@@ -77,7 +78,7 @@ if(urlPath == '/products/trtl-travel-pillow-ads3'){
 '                    </div>'+
 '                </div>'+
 '            </div>'+
-'            <div class="col-xl-9">'+
+'            <div class="col-12 col-sm-8">'+
 '                <button class="btn btn-secondary add-to-cart-button custAddToCartBtn">add to cart</button>'+
 '            </div>'+
 '        </div>'+
