@@ -1,4 +1,5 @@
 function checkAndInitializeV2() {
+   
     addDefault2PackV2();
     addFreeCarryBagHtmlV2();
     clickOperationsV2();
@@ -21,12 +22,16 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 }
 
 function addDefault2PackV2(){
-if (localStorage.getItem("isTRTLEadsProductAddedInCartV2") !== null) {
-    var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
+
+        
+ if (localStorage.getItem("isTRTLEadsProductAddedInCartV2") !== null) {
+   
+        var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
         if (closeButton) {
             closeButton.click();
-         }
-      localStorage.removeItem("isTRTLEadsProductAddedInCartV2")
+          
+        }
+        localStorage.removeItem("isTRTLEadsProductAddedInCartV2")
 }
 
 var offcanvasBackDropElement = document.querySelectorAll('.offcanvas-backdrop');
@@ -38,6 +43,7 @@ var urlPath =window.location.pathname;
 
 if(urlPath == '/products/trtl-travel-pillow-ads3'){
 
+   
     var variantBlocksElementV2 = document.querySelector('.product-form .ads-product-variant__container');
     if(variantBlocksElementV2){
        
@@ -134,23 +140,28 @@ function clickOperationsV2 (){
     });
 
     // Quantity input element
+  
     var newIncrementBtn = document.querySelector('#button-increment');
     var newDecrementBtn = document.querySelector('#button-decrement');
+
     // Remove any previously added event listeners
     newIncrementBtn.replaceWith(newIncrementBtn.cloneNode(true));
     newDecrementBtn.replaceWith(newDecrementBtn.cloneNode(true));
 
     var quantityInput = document.querySelector('.custqtyInputTag');
     if (!quantityInput) {
-       return;
+       
+        return;
     }
 
     var clonedIncrementBtn = document.querySelector('#button-increment');
     var clonedDecrementBtn = document.querySelector('#button-decrement');
+
     // Increment button click event
     clonedIncrementBtn.addEventListener('click', function (event) {
         event.preventDefault(); 
         event.stopPropagation(); 
+
         let currentValue = parseInt(quantityInput.value, 10) || 0;
         let newValue = currentValue + 1;
         quantityInput.value = newValue;
@@ -161,6 +172,7 @@ function clickOperationsV2 (){
     clonedDecrementBtn.addEventListener('click', function (event) {
         event.preventDefault(); 
         event.stopPropagation(); 
+
         let currentValue = parseInt(quantityInput.value, 10) || 1;
         let newValue = Math.max(currentValue - 1, 1);
         quantityInput.value = newValue;
@@ -177,6 +189,8 @@ function clickOperationsV2 (){
     addToCartBtn.addEventListener('click', function (event) {
         event.preventDefault(); 
         event.stopPropagation();
+        
+    
         var strSelectedColor = document.querySelector('.custSelectBuyOfferWrapperV2  .swatch.active').getAttribute('data-color');
      
         // Add pillow to cart

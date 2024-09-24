@@ -28,7 +28,7 @@ function triggerExperience() {
             const intItemCount = parseInt(itemCountText);
             console.log('Checking cart, itemCount >>', intItemCount);
 
-            if(intItemCount == 1 && document.querySelectorAll('.custAddSocsProductFromOffer').length > 0){
+            if(intItemCount == 1 &&document.querySelectorAll('.custAddSocsProductFromOffer').length == 0){
 
                 console.log('No Trtl Pillow in cart.');
 
@@ -39,9 +39,7 @@ function triggerExperience() {
                         socsProductTrashElement.click();
                     }
                 }
-            }
-
-            if (intItemCount !== 0 ) {
+            }else if (intItemCount !== 0 ) {
                 console.log('Trtl Pillow exists in cart >>>>>>>>>');
                
                 addCustomSocsProduct();
@@ -58,7 +56,7 @@ function triggerExperience() {
                 }
 
                
-            }else {
+            } else {
                 // Handle case where the product does not exist or cart is empty
                 console.log('No Trtl Pillow in cart.');
 
@@ -83,21 +81,6 @@ function pollCartForTrtlPillow() {
             const itemCountText = itemCountElement.textContent.trim();
             const intItemCount = parseInt(itemCountText);
             console.log('Polling cart, itemCount >>', intItemCount);
-
-            if(intItemCount == 1 &&document.querySelectorAll('.custAddSocsProductFromOffer').length > 0){
-
-                console.log('No Trtl Pillow in cart.');
-
-                var socsOfferProductElement = document.querySelector('.custAddSocsProductFromOffer');
-                if (socsOfferProductElement) {
-                    var socsProductTrashElement = document.querySelector('.custCompressionSocsTrashBtn');
-                    if (socsProductTrashElement) {
-                        socsProductTrashElement.click();
-                    }
-                }
-            }
-
-
             if (intItemCount !== 0) {
                 console.log('Trtl Pillow exists in cart >>>>>>>>>');
                 clearInterval(checkCartInterval);
@@ -117,7 +100,7 @@ function pollCartForTrtlPillow() {
                 }
 
                
-            }else if(intItemCount == 1 &&document.querySelectorAll('.custAddSocsProductFromOffer').length > 0){
+            }else if(intItemCount == 1 &&document.querySelectorAll('.custAddSocsProductFromOffer').length == 0){
 
                 console.log('No Trtl Pillow in cart.');
 
@@ -488,40 +471,34 @@ function clickOperations() {
         }
 
         //qty increment and decrement
-        var cartButtonsDecrement = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-decrement');
+        var cartButtonsDecrement = document.querySelector('#cart-offcanvas-content button#line-item-button-decrement');
+        if(cartButtonsDecrement){
+            cartButtonsDecrement.addEventListener('click', function(event) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                console.log('Apply changes again on cart operations: minus');
+                setTimeout(function() {
+                    pollCartForTrtlPillow();
+                }, 2500);
+    
+            });
+    
+        }
 
-        if (cartButtonsDecrement.length > 0) {
-            cartButtonsDecrement.forEach(function(button) {
-                button.addEventListener('click', function(event) {
-                 //    event.preventDefault();
-                 //    event.stopImmediatePropagation();
-                    console.log('Apply changes again on cart operations: minus');
-                    // Delay before triggering the cart poll for each click
-                    setTimeout(function() {
-                        pollCartForTrtlPillow();
-                    }, 2500);
-                });
-            });
-        }
-        
- 
-        var cartButtonsIncrement = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-increment');
- 
-        if (cartButtonsIncrement.length > 0) {
-            cartButtonsIncrement.forEach(function(button) {
-                button.addEventListener('click', function(event) {
-                 //    event.preventDefault();
-                 //    event.stopImmediatePropagation();
-                    console.log('Apply changes again on cart operations: plus');
-        
-                    setTimeout(function() {
-                        pollCartForTrtlPillow();
-                    }, 1500); // Adjust the delay as needed
-                });
-            });
-        }
-        
- 
+        var cartButtonsIncrement = document.querySelector('#cart-offcanvas-content button#line-item-button-increment');
+        if(cartButtonsIncrement){
+        cartButtonsIncrement.addEventListener('click', function(event) {
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            console.log('Apply changes again on cart operations: plus ');
+            setTimeout(function() {
+                pollCartForTrtlPillow();
+            }, 2500);
+
+        });
+
+      }
+
     // PDP Add TO Cart - Trigger the function again
      var pdpAddToCartbtn = document.querySelector('button.add-to-cart-button[name=add]');
      if(pdpAddToCartbtn){
@@ -529,43 +506,26 @@ function clickOperations() {
              setTimeout(function() {
                 console.log('Timeout reached, triggering experience');
                 pollCartForTrtlPillow();
-             }, 1500);
+             }, 2500);
  
          });
  
      }
- 
+
     // PDP Add TO Cart - Trigger the function again for the sticky footer
     var pdpStickyAddToCartbtn = document.querySelector('button.sticky-add-to-cart[name=add]');
     if(pdpStickyAddToCartbtn){
         pdpStickyAddToCartbtn.addEventListener('click', function(event) {
-         //    event.preventDefault();
-         //    event.stopImmediatePropagation();
+            event.preventDefault();
+            event.stopImmediatePropagation();
             console.log('PDP Add TO Cart sticky footer >>>>');
             setTimeout(function() {
                 pollCartForTrtlPillow();
-            }, 1500);
- 
+            }, 2500);
+
         });
- 
+
     }
- 
-     //Mini cart delete operations
- 
-     var cartDltButtons = document.querySelectorAll('#cart-offcanvas-content button.btn .fa-trash-alt');
- 
-     if (cartDltButtons.length > 0) {
-         cartDltButtons.forEach(function(button) {
-             button.addEventListener('click', function(event) {
-                 // event.preventDefault();
-                 // event.stopImmediatePropagation();
-                 console.log('Mini cart delete operations >>>> ');
-                 setTimeout(function() {
-                     pollCartForTrtlPillow();
-                 }, 2500);
-             });
-         });
-     }
 
   
 }
