@@ -190,10 +190,7 @@ function clickOperationsV2 (){
        
         var quantityInputElement = document.querySelector('.custqtyInputTag');
         var intQty = quantityInputElement.value;
-        
-        if(intQty){
-            document.querySelector('.custqtyInputTag').value = intQty;
-        }
+       
 
         if (strSelectedProdId !== '' && strSelectedProdId !== undefined && quantityInputElement !== '' && quantityInputElement !== undefined) {
             var xhr = new XMLHttpRequest();

@@ -1,5 +1,10 @@
 function checkAndInitialize() {
-    console.log('TRTL Travel125 Pre-Cart Upgrade Popup V1 UK >>>');
+    if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null) {
+        var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
+        if (closeButton) {
+            closeButton.click();
+         }
+    }
     triggerExperience();
     clickOperations();
 }
@@ -19,36 +24,90 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
     checkAndInitialize();
 }
 
+
 function triggerExperience() {
 
     var itemCountElement = document.querySelector('.cart_item-count');
     const itemCountText = itemCountElement.textContent;
     const intItemCount = parseInt(itemCountText);
-    console.log('itemCount >>', intItemCount);
-    
     if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null) {
         var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
         if (closeButton) {
             closeButton.click();
-            console.log('closeButton >>>>');
+         }
+    }
+
+    if(intItemCount == 1 && document.querySelectorAll('.custAddProductFromOffer').length > 0){
+ 
+    var socsOfferProductElement = document.querySelector('.custAddProductFromOffer');
+        if (socsOfferProductElement) {
+            var socsProductTrashElement = document.querySelector('.custCarryBagTrashBtn');
+            if (socsProductTrashElement) {
+                socsProductTrashElement.click();
+                localStorage.removeItem("isRecommendedProductAddedInCart");
+                localStorage.removeItem("isPillowCarryBagAdded");
+                localStorage.removeItem('addedProductIds');
+            }
+        }
+    }
+   
+    if(intItemCount == 1 && document.querySelectorAll('.custAddProductFromOffer').length > 0){
+      
+        var socsOfferProductElement = document.querySelector('.custAddProductFromOffer');
+        if (socsOfferProductElement) {
+            var socsProductTrashElement = document.querySelector('.custCarryBagTrashBtn');
+            if (socsProductTrashElement) {
+                socsProductTrashElement.click();
+                localStorage.removeItem("isRecommendedProductAddedInCart");
+                localStorage.removeItem("isPillowCarryBagAdded");
+                localStorage.removeItem('addedProductIds');
+            }else {
+               var custProductFromOfferTrashBtn = document.querySelector('.custProductFromOfferTrashBtn');
+                if (custProductFromOfferTrashBtn) {
+                    console.log('custCarryBagTrashBtn not available, clicking on custProductFromOfferTrashBtn');
+                    custProductFromOfferTrashBtn.click();
+                }
+            }
         }
     }
 
     if (intItemCount !== 0) {
-        console.log('intItemCount !== 0');
+
+        if(document.querySelectorAll('.custAddProductFromOffer').length == 0 ){
+
+        const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
+             productLinks.forEach(link => {
+                
+                const parentRow = link.closest('.col-8');
+        
+                const badgeElement = parentRow.querySelector('.badge.bg-green-light');
+                
+                if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
+                    console.log('Found Free pillow carry bag');
+        
+                    const removeButton = parentRow.querySelector('button[data-mp-cart-item-remove]');
+                    
+                    if (removeButton) {
+                    console.log('Removing item from cart');
+                    
+                    removeButton.click();
+                    localStorage.removeItem("isRecommendedProductAddedInCart");
+                    localStorage.removeItem("isPillowCarryBagAdded");
+                    localStorage.removeItem('addedProductIds');
+                    }
+                }
+                });
+        
+        }
         addCustGetExtramsgFollowup();
         addTrtleTravelPillow();
         modifyExistingCartContent();
         addClassToOfferElement();
       
-
-       
-    }else if(intItemCount == 0){
-        console.log('intItemCount == 0');
-
-        if (document.querySelector('.custCarryBagTrashBtn')) {
-            console.log('custCarryBagTrashBtn is present');
-            document.querySelector('.custCarryBagTrashBtn').click();
+    }
+    if(intItemCount == 0){
+       if (document.querySelector('.custCarryBagTrashBtn')) {
+                document.querySelector('.custCarryBagTrashBtn').click();
                 localStorage.removeItem("isRecommendedProductAddedInCart");
                 localStorage.removeItem("isPillowCarryBagAdded");
                 localStorage.removeItem('addedProductIds');
@@ -66,21 +125,110 @@ function triggerExperience() {
             document.querySelector('.custFreeCarryBagWraper').classList.add('custHideContent');
         }
     }
-    clickOperations()
+   
 
 }
 
+function pollCartForTrtlPillow() {
+   
+    var checkCartInterval = setInterval(function() {
+    var itemCountElement = document.querySelector('.cart_item-count');
+    var itemCountElement = document.querySelector('.cart_item-count');
+    const itemCountText = itemCountElement.textContent;
+    const intItemCount = parseInt(itemCountText);
+    if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null) {
+        var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
+        if (closeButton) {
+            closeButton.click();
+        }
+    }
+
+    if(intItemCount == 1 && document.querySelectorAll('.custAddProductFromOffer').length > 0){
+      
+        var socsOfferProductElement = document.querySelector('.custAddProductFromOffer');
+        if (socsOfferProductElement) {
+            var socsProductTrashElement = document.querySelector('.custCarryBagTrashBtn');
+            if (socsProductTrashElement) {
+                socsProductTrashElement.click();
+                localStorage.removeItem("isRecommendedProductAddedInCart");
+                localStorage.removeItem("isPillowCarryBagAdded");
+                localStorage.removeItem('addedProductIds');
+            }else {
+               var custProductFromOfferTrashBtn = document.querySelector('.custProductFromOfferTrashBtn');
+                if (custProductFromOfferTrashBtn) {
+                    console.log('custCarryBagTrashBtn not available, clicking on custProductFromOfferTrashBtn');
+                    custProductFromOfferTrashBtn.click();
+                }
+            }
+        }
+    }
+
+    if (intItemCount !== 0) {
+        clearInterval(checkCartInterval);
+        if(document.querySelectorAll('.custAddProductFromOffer').length == 0 ){
+           
+            const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
+                 productLinks.forEach(link => {
+                    
+                    const parentRow = link.closest('.col-8');
+            
+                    const badgeElement = parentRow.querySelector('.badge.bg-green-light');
+                    
+                    if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
+                        console.log('Found Free pillow carry bag');
+            
+                        const removeButton = parentRow.querySelector('button[data-mp-cart-item-remove]');
+                        
+                        if (removeButton) {
+                        console.log('Removing item from cart');
+                        
+                        removeButton.click();
+                        localStorage.removeItem("isRecommendedProductAddedInCart");
+                        localStorage.removeItem("isPillowCarryBagAdded");
+                        localStorage.removeItem('addedProductIds');
+                        }
+                    }
+                    });
+            
+            }
+        addCustGetExtramsgFollowup();
+        addTrtleTravelPillow();
+        modifyExistingCartContent();
+        addClassToOfferElement();
+      
+    }
+     if(intItemCount == 0){
+       if (document.querySelector('.custCarryBagTrashBtn')) {
+                document.querySelector('.custCarryBagTrashBtn').click();
+                localStorage.removeItem("isRecommendedProductAddedInCart");
+                localStorage.removeItem("isPillowCarryBagAdded");
+                localStorage.removeItem('addedProductIds');
+        }
+
+        if(document.querySelectorAll('.custUpgradeRangeWraper').length > 0){
+            document.querySelector('.custUpgradeRangeWraper').classList.add('custHideContent'); 
+        }
+        if(document.querySelectorAll('.custBundleNDsaveWraper').length > 0){
+            document.querySelector('.custUpgradeRangeWraper').classList.add('custHideContent'); 
+            document.querySelector('.custUpgradeRangeWraper').classList.remove('custShowContent');
+        }
+        if(document.querySelectorAll('.custUpgradeRangeWraper').length > 0){
+            document.querySelector('.custFreeCarryBagWraper').classList.remove('custShowContent');
+            document.querySelector('.custFreeCarryBagWraper').classList.add('custHideContent');
+        }
+    }
+    
+    }, 500);
+}
+
 function addClassToOfferElement() {
-    // add class for offer trtle pillow product
 
     const cartProducts = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
-
-    let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
+     let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
     addedProducts = addedProducts.map(id => String(id).trim().toLowerCase());
     cartProducts.forEach(product => {
         const productHref = product.getAttribute('href');
-        console.log('productHref:', productHref);
-
+    
         const urlParams = new URLSearchParams(productHref.split('?')[1] || '');
         const productId = urlParams.get('variant')?.trim().toLowerCase();
         if (addedProducts.includes(productId)) {
@@ -89,31 +237,27 @@ function addClassToOfferElement() {
             if (targetElement) {
                 targetElement.classList.add('custAddProductFromOffer');
             }
+            const productTrash = product.querySelector('button.text-reset');
+            if (productTrash) {
+                productTrash.classList.add('custProductFromOfferTrashBtn');
+            }
         }
 
         // add class for free carry bag
         if (localStorage.getItem("isPillowCarryBagAdded") !== null) {
             if (product.textContent.includes('TRTL PILLOW CARRY BAG')) {
-                console.log('TRTL PILLOW CARRY BAG >>>');
-
                 const freeCarryBagParentElement = product.closest('.row.g-3.align-items-center');
-                console.log('freeCarryBagParentElement:', freeCarryBagParentElement);
-
                 if (freeCarryBagParentElement) {
-
                     const quantityInput = freeCarryBagParentElement.querySelector('input[name="quantity"]');
 
                     if (quantityInput) {
                         const quantityValue = quantityInput.value;
-                        console.log('Qty value>>>>', quantityValue);
-                        if (quantityValue === '2') {
-                            console.log('Adding class for free carry bag');
-                            const freeCarryBagParentCol12El = freeCarryBagParentElement.closest('.col-12');
+                         if (quantityValue === '2') {
+                           const freeCarryBagParentCol12El = freeCarryBagParentElement.closest('.col-12');
                             if (freeCarryBagParentCol12El) {
                                 freeCarryBagParentCol12El.classList.add('custFreeCarryBagAdded');
                             }
                             const carryBagTrash = freeCarryBagParentElement.querySelector('button.text-reset');
-                            console.log('carryBagTrash >>', carryBagTrash);
                             if (carryBagTrash) {
                                 carryBagTrash.classList.add('custCarryBagTrashBtn');
                             }
@@ -137,11 +281,9 @@ function addClassToOfferElement() {
         document.querySelector('.custFreeCarryBagWraper')?.classList.remove('custShowContent');
 
         document.querySelector('.custBundleNDsaveWraper')?.classList.remove('custHideContent');
-        // document.querySelector('.custBundleNDsaveWraper')?.classList.add('custShowContent');
-
+     
         if (document.querySelector('.custCarryBagTrashBtn')) {
-            console.log('custCarryBagTrashBtn is present');
-            document.querySelector('.custCarryBagTrashBtn').click();
+                document.querySelector('.custCarryBagTrashBtn').click();
                 localStorage.removeItem("isRecommendedProductAddedInCart");
                 localStorage.removeItem("isPillowCarryBagAdded");
                 localStorage.removeItem('addedProductIds');
@@ -149,6 +291,16 @@ function addClassToOfferElement() {
     
         }
     }
+
+   
+    var offerProducts = document.querySelectorAll('.custAddProductFromOffer');
+    offerProducts.forEach(function(offerProduct) {
+      var removeButton = offerProduct.querySelector('button[data-mp-cart-item-remove]');
+        if (removeButton) {
+            removeButton.classList.add('custProductFromOfferTrashBtn');
+        }
+    });
+
 
 }
 
@@ -167,7 +319,7 @@ function addCustGetExtramsgFollowup() {
     var targetElementOfExtramsg = document.querySelector('#cart-offcanvas .cart-offcanvas');
 
     if (targetElementOfExtramsg && document.querySelectorAll('.custPreUpgradeProgress').length == 0) {
-        console.log('custPreUpgradeProgress >>>>>>>>>>>>>>>>>');
+      
         targetElementOfExtramsg.insertAdjacentHTML('beforebegin', custGetExtramsgMainHtml);
     }
 
@@ -178,6 +330,7 @@ function addCustGetExtramsgFollowup() {
         var rangeSliderElement = document.querySelector('.custPreUpgradeProgress .blueBar');
         if (rangeSliderElement) {
             rangeSliderElement.style.width = '100%';
+            document.querySelector('.custPreUpgradeProgress .rightBall').classList.add('full');
         }
 
     } else {
@@ -187,12 +340,10 @@ function addCustGetExtramsgFollowup() {
 
             var intPendingAmountInPercentage = (intCartTotalPrice / strThresholdValue) * 100;
             document.querySelector('.custPreUpgradeProgress .blueBar').style.width = intPendingAmountInPercentage + '%';
+            document.querySelector('.custPreUpgradeProgress .rightBall').classList.remove('full');
         }
 
-
-    }
-
-
+     }
 }
 
 function addTrtleTravelPillow() {
@@ -244,7 +395,7 @@ function addTrtleTravelPillow() {
 }
 
 function addPillowCarryBag() {
-    console.log('addPillowCarryBag  initialize>>>>');
+   
     // Add free carry bag to cart
     if (localStorage.getItem("isRecommendedProductAddedInCart") !== null && localStorage.getItem("isPillowCarryBagAdded") == null) {
 
@@ -253,16 +404,13 @@ function addPillowCarryBag() {
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.onload = function () {
             if (xhr.status === 200) {
-           
-            console.log('isPillowCarryBagAdded session set >>>');
-                //location.reload();
             }
         };
         xhr.send(JSON.stringify({
             id: '40612250386530',
             quantity: "2",
             properties: {
-                '_cartDrawer': '1'
+                '_pillowCarryBag': '1'
             }
         }));
     }
@@ -289,21 +437,15 @@ function modifyExistingCartContent() {
 
 }
 
-
 function clickOperations() {
-    console.log('click operations working >>>')
+
     //color swatch click for select color and change image
-    var swatchesElement = document.querySelectorAll('.custBundleNDsaveWraper .swatch');
+    var swatchesElement = document.querySelectorAll('.swatch');
     swatchesElement.forEach(function (swatch) {
         swatch.addEventListener('click', function (event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('color swatch click >>>')
             var selectedColor = this.getAttribute('data-color');
             swatchesElement.forEach(sw => sw.classList.remove('active'));
             this.classList.add('active');
-            // Update image URL based on pillow index
-            console.log('selectedColor >>>', selectedColor)
             if (selectedColor) {
                 var imgUrl = "";
                 switch (selectedColor) {
@@ -329,10 +471,10 @@ function clickOperations() {
             }
 
             if (imgUrl) {
-                console.log('imgUrl >>>', imgUrl);
-                var imgElement = document.querySelector('.custBundleNDsaveWraper .itemImage img');
+              
+                var imgElement = document.querySelector('.itemImage img');
                 imgElement.src = imgUrl;
-                var colorElement = document.querySelector('.custBundleNDsaveWraper .colorName');
+                var colorElement = document.querySelector('.colorName');
                 if (colorElement) {
                     colorElement.textContent = selectedColor;
                 }
@@ -343,193 +485,154 @@ function clickOperations() {
 
     //ADD and save button click for trtl pillow 
     var addToCartButton = document.querySelector('.custAddSave');
-    addToCartButton.addEventListener('click', function (event) {
-        event.preventDefault();
-        event.stopImmediatePropagation();
-        console.log('add and save button click >>>');
-        var strSelectedColor = document.querySelector('.custColorSwatches .swatch.active').getAttribute('data-color');
-        console.log('selectedColor >>>', strSelectedColor);
-        // Add pillow to cart
-        var arrayColorValue = {
-            Grey: 40241105141858,
-            Black: 40241105174626,
-            Red: 40241105207394,
-            Coral: 40241105240162,
-        };
-        var strSelectedProdId = arrayColorValue[strSelectedColor];
-        console.log('strSelectedProdId >>>>>>>>>>>>>>>>>>>>>>>>>>>', strSelectedProdId);
-        if (strSelectedProdId !== '' && strSelectedProdId !== undefined) {
-            var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://uk.trtltravel.com/cart/add');
-            xhr.setRequestHeader('Content-Type', 'application/json');
-            xhr.onload = function () {
-                if (xhr.status === 200) {
-
-                    let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
-                    addedProducts.push(strSelectedProdId);
-                    localStorage.setItem('addedProductIds', JSON.stringify(addedProducts));
-
-                    localStorage.setItem('isRecommendedProductAddedInCart', 'yes');
-                    if(document.querySelectorAll('.custFreeCarryBagAdded').length == 0 && localStorage.getItem("isPillowCarryBagAdded") == null){
-                        addPillowCarryBag();
-                        localStorage.setItem('isPillowCarryBagAdded', 'yes');
-                    }
-                    
-                    setTimeout(function () {
-                        location.reload();
-                    }, 750);
-                }
+    if(addToCartButton){
+        addToCartButton.addEventListener('click', function (event) {
+         
+            var strSelectedColor = document.querySelector('.custColorSwatches .swatch.active').getAttribute('data-color');
+            // Add pillow to cart
+            var arrayColorValue = {
+                Grey: 40241105141858,
+                Black: 40241105174626,
+                Red: 40241105207394,
+                Coral: 40241105240162,
             };
-            xhr.send(JSON.stringify({
-                id: strSelectedProdId,
-                quantity: "1",
-                properties: {
-                    '_cartDrawer': '0.2'
-                }
-
-            }));
-        }
-    });
-
-
-    // Apply changes again on cart operations
-
-    // var cartButtons = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-decrement, #cart-offcanvas-content button#line-item-button-increment');
-    // cartButtons.forEach(function(button) {
-      
-    //     button.addEventListener('click', function(event) {
-    //         event.preventDefault();
-    //         event.stopImmediatePropagation();
-    //         console.log('Apply changes again on cart operations: plus and minus');
-    //         setTimeout(function() {
-    //             triggerExperience();
-    //         }, 1500);
-
-    //     });
-    // });
-
-    // document.querySelectorAll('#line-item-button-increment, #line-item-button-decrement')
-    // .forEach(button => button.onclick = () => {
-    //   console.log('Apply changes again on cart operations clicked', button.id);
-    //   setTimeout(function () {
-    //     triggerExperience();
-    //   }, 1500);
-    // });
-
-    var cartButtonsDecrement = document.querySelector('#cart-offcanvas-content button#line-item-button-decrement');
-    if(cartButtonsDecrement){
-        cartButtonsDecrement.addEventListener('click', function(event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('Apply changes again on cart operations: minus');
-            setTimeout(function() {
-                triggerExperience();
-            }, 2500);
-
-        });
-
-    }
-
-    var cartButtonsIncrement = document.querySelector('#cart-offcanvas-content button#line-item-button-increment');
-    if(cartButtonsIncrement){
-        cartButtonsIncrement.addEventListener('click', function(event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('Apply changes again on cart operations: plus ');
-            setTimeout(function() {
-                triggerExperience();
-            }, 2500);
-
-        });
-
-    }
-   
-    //Mini cart delete operations
+            var strSelectedProdId = arrayColorValue[strSelectedColor];
+           
+            if (strSelectedProdId !== '' && strSelectedProdId !== undefined) {
+                var xhr = new XMLHttpRequest();
+                xhr.open('POST', 'https://uk.trtltravel.com/cart/add');
+                xhr.setRequestHeader('Content-Type', 'application/json');
+                xhr.onload = function () {
+                    if (xhr.status === 200) {
+                        let addedProducts = JSON.parse(localStorage.getItem('addedProductIds')) || [];
+                        addedProducts.push(strSelectedProdId);
+                        localStorage.setItem('addedProductIds', JSON.stringify(addedProducts));
     
-    var cartDltButtons = document.querySelector('#cart-offcanvas-content button.btn .fa-trash-alt');
-
-    if(cartDltButtons){
-        cartDltButtons.addEventListener('click', function(event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('Mini cart delete operations >>>> ');
-            setTimeout(function() {
-                // if (document.querySelectorAll('.custAddProductFromOffer').length == 0 && document.querySelectorAll('.custCarryBagTrashBtn').length > 0) {
-                //     console.log('custCarryBagTrashBtn is present');
-                    
-                //         document.querySelector('.custCarryBagTrashBtn').click();
-                //         localStorage.removeItem("isRecommendedProductAddedInCart");
-                //         localStorage.removeItem("isPillowCarryBagAdded");
-                //         localStorage.removeItem('addedProductIds');
-                      
-
-                // }
-                triggerExperience();
-            }, 2500);
-
+                        localStorage.setItem('isRecommendedProductAddedInCart', 'yes');
+                        if(document.querySelectorAll('.custFreeCarryBagAdded').length == 0 && localStorage.getItem("isPillowCarryBagAdded") == null){
+                            addPillowCarryBag();
+                            localStorage.setItem('isPillowCarryBagAdded', 'yes');
+                        }
+                        
+                        setTimeout(function () {
+                            location.reload();
+                        }, 750);
+                    }
+                };
+                xhr.send(JSON.stringify({
+                    id: strSelectedProdId,
+                    quantity: "1",
+                    properties: {
+                        '_trtltravelTravelPillow': '0.2'
+                    }
+    
+                }));
+            }
         });
-
     }
+  
 
-    // var cartDltButtons = document.querySelectorAll('#cart-offcanvas-content button.btn .fa-trash-alt')
-    // cartDltButtons.forEach(function (button) {
-    //     button.addEventListener('click', function (event) {
-    //         event.preventDefault();
-    //         event.stopImmediatePropagation();
-    //          if (document.querySelectorAll('.custAddProductFromOffer').length == 0 && document.querySelectorAll('.custCarryBagTrashBtn').length > 0) {
-    //                 console.log('custCarryBagTrashBtn is present');
-    //                 // setTimeout(function () {
-    //                     document.querySelector('.custCarryBagTrashBtn').click();
-    //                     localStorage.removeItem("isRecommendedProductAddedInCart");
-    //                     localStorage.removeItem("isPillowCarryBagAdded");
-    //                     localStorage.removeItem('addedProductIds');
-    //                     //triggerExperience();
-    //                     // deleteCarryBageIfNotRequired();
-    //                 // }, 500);
+        //qty increment and decrement
+        var cartButtonsDecrement = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-decrement');
 
-    //             }
-    //              setTimeout(function () {
-    //             triggerExperience();
-    //              console.log('DELETE CLICK FINAL CODE triggerExperience>>>')
-    //         }, 3000);
-
-          
-
-    //     });
-    // });
-
-
+        if (cartButtonsDecrement.length > 0) {
+            cartButtonsDecrement.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    setTimeout(function() {
+                        pollCartForTrtlPillow();
+                    }, 2500);
+                });
+            });
+        }
+        
+ 
+        var cartButtonsIncrement = document.querySelectorAll('#cart-offcanvas-content button#line-item-button-increment');
+ 
+        if (cartButtonsIncrement.length > 0) {
+            cartButtonsIncrement.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    setTimeout(function() {
+                        pollCartForTrtlPillow();
+                    }, 1500); // Adjust the delay as needed
+                });
+            });
+        }
+        
+ 
     // PDP Add TO Cart - Trigger the function again
-   
-
-    var pdpAddToCartbtn = document.querySelector('button.add-to-cart-button[name=add]');
-    if(pdpAddToCartbtn){
-        pdpAddToCartbtn.addEventListener('click', function(event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('PDP Add TO Cart >>>>');
-            setTimeout(function() {
-                triggerExperience();
-            }, 2500);
-
-        });
-
-    }
-
+     var pdpAddToCartbtn = document.querySelector('button.add-to-cart-button[name=add]');
+     if(pdpAddToCartbtn){
+         pdpAddToCartbtn.addEventListener('click', function() {
+             setTimeout(function() {
+               pollCartForTrtlPillow();
+             }, 1500);
+ 
+         });
+ 
+     }
+ 
+    // PDP Add TO Cart - Trigger the function again for the sticky footer
     var pdpStickyAddToCartbtn = document.querySelector('button.sticky-add-to-cart[name=add]');
     if(pdpStickyAddToCartbtn){
         pdpStickyAddToCartbtn.addEventListener('click', function(event) {
-            event.preventDefault();
-            event.stopImmediatePropagation();
-            console.log('PDP Add TO Cart sticky footer >>>>');
             setTimeout(function() {
-                triggerExperience();
-            }, 2500);
-
+                pollCartForTrtlPillow();
+            }, 1500);
+ 
         });
-
+ 
     }
-  
-   
+ 
+     //Mini cart delete operations
+
+     
+     var productFromOfferDltButtons = document.querySelectorAll('.custProductFromOfferTrashBtn');
+     if (productFromOfferDltButtons.length > 0) {
+        productFromOfferDltButtons.forEach(function(button) {
+              button.addEventListener('click', function(event) {
+               console.log('productFromOfferDltButtons delete btn >>>> ');
+                  setTimeout(function() {
+                    if (document.querySelector('.custCarryBagTrashBtn')) {
+                        document.querySelector('.custCarryBagTrashBtn').click();
+                            localStorage.removeItem("isRecommendedProductAddedInCart");
+                            localStorage.removeItem("isPillowCarryBagAdded");
+                            localStorage.removeItem('addedProductIds');
+                    }
+                     pollCartForTrtlPillow();
+                  }, 2500);
+              });
+          });
+    }
+ 
+    var cartDltButtons = document.querySelectorAll('#cart-offcanvas-content button.btn .fa-trash-alt');
+ 
+    if (cartDltButtons.length > 0) {
+        cartDltButtons.forEach(function(button) {
+            button.addEventListener('click', function(event) {
+              
+                if (button.closest('.custProductFromOfferTrashBtn')) {
+                    console.log('Clicked on a custProductFromOfferTrashBtn');
+                   
+                    // Remove items from localStorage
+                    localStorage.removeItem("isRecommendedProductAddedInCart");
+                    localStorage.removeItem("isPillowCarryBagAdded");
+                    localStorage.removeItem('addedProductIds');
+ 
+                    // Check for .custCarryBagTrashBtn and trigger its click
+                    var carryBagBtn = document.querySelector('.custCarryBagTrashBtn');
+                    var productFromOfferTrashBtn=document.querySelector('.custProductFromOfferTrashBtn');
+                    if (carryBagBtn && productFromOfferTrashBtn) {
+                        carryBagBtn.click();
+                        productFromOfferTrashBtn.click();
+                    }
+ 
+                }
+                setTimeout(function() {
+                    pollCartForTrtlPillow();
+                }, 2500);
+            });
+        });
+    }
+
 
 }

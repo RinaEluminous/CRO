@@ -2,20 +2,64 @@
     display: none!important;
 }
  .custShowContent{
-    display: block!important;
+    display: flex!important;
 }
 .custFreeCarryBagAdded{
     display: none!important;
 }
-
-.custBundleNDsaveWraperV2 {
+.custPreUpgradeProgress {
+    margin: 0 0 12px;
+}
+.custPreUpgradeProgress h6 {/* Expedited free shipping */
+    font-family: 'IBM Plex Mono';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+    margin: 0 0 8px;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper .blueBar, .custPreUpgradeProgress .custUpgradeRangeWraper span.greyBar {
+    display: block;
+    width: 100%;
+    background: #ccc;
+    border-radius: 8px;
+    height: 6px;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper  span.blueBar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #243B60;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper span.rightBall {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #ccc;
+    border-radius: 16px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 2;
+    margin-top: -8px;
+}
+.custPreUpgradeProgress .custUpgradeRangeWraper span.rightBall.full {
+    background: #243B60;
+}
+.custBundleNDsaveWraper {
     padding: 8px 10px;
     width: 100%;
     background: #FEF7E7;
     border: 1px solid #C5C4C5;
     border-radius: 4px;
 }
-.custBundleNDsaveWraperV2 h6 {
+.custBundleNDsaveWraper h6 {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
     font-size: 14px;
@@ -24,35 +68,16 @@
     color: #292B2D;
     margin: 0 0 12px;
 }
-.custBundleNDsaveWraperV2 h6 span {
+.custBundleNDsaveWraper h6 span {
     color: #A21C23;
 }
-.custBundleNDsaveWraperV2 .custChooseItemImageWraper {
+.custBundleNDsaveWraper .custChooseItemImageWraper {
     display: flex;
     align-items: center;
     gap: 20px;
     margin: 0 0 12px;
 }
-.custBundleNDsaveWraperV2 .custChooseItemImageWraper .itemImage {
-    flex: 0 0 100px;
-}
-.custBundleNDsaveWraperV2 .custChooseItemImageWraper .itemContent ul {
-    padding: 0 0 0 18px;
-    font-family: 'IBM Plex Sans';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #000000;
-    margin: 0;
-}
-.custBundleNDsaveWraperV2 .custChooseItemImageWraper .itemContent ul li {
-    margin: 0 0 5px;
-}
-.custBundleNDsaveWraperV2 .custItemSizeSelection {
-    margin: 12px 0 0;
-}
-.custBundleNDsaveWraperV2 .custItemSizeSelection .heading {
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .heading {
     color: #87888a;
     font-size: 11px;
     line-height: 16px;
@@ -60,20 +85,16 @@
     margin-bottom: 10px;
     text-transform: uppercase;
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .heading span.colorName {
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .heading span.colorName {
     color: #000;
     display: inline-block;
     margin-left: 8px;
-    font-weight: 500;
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .heading a.cursor-pointer {
-    font-weight: 500;
-}
-.custBundleNDsaveWraperV2 .custItemSizeSelection .custColorSwatches {
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches {
     display: flex;
     gap: 8px;
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .custColorSwatches .swatch {
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches .swatch {
     border: 0px solid transparent;
     width: 30px;
     height: 30px;
@@ -85,7 +106,7 @@
     background-position: 50%;
     background-repeat: no-repeat;
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .custColorSwatches .swatch.active:after {
+.custBundleNDsaveWraper .custChooseItemImageWraper .itemContent .custColorSwatches .swatch.active:after {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -97,33 +118,12 @@
     background-repeat: no-repeat;
     content: '';
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .custColorSwatches .swatch.swatch-color-sydney{
-    background-image: url(https://trtltravel.com/cdn/shop/files/IoILGQfA_100x.png?v=1668781142) !important;
-}
-.custBundleNDsaveWraperV2 .custItemSizeSelection .custColorSelect {
-    margin: 0 0 12px;
-}
-.custBundleNDsaveWraperV2 .custSizesWraper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 0 0 12px;
-}
-.custBundleNDsaveWraperV2 .custSizesWraper .btn.btn-outline-dark {
-    font-size: 15px;
-    line-height: 20px;
-    padding: 10px 20px;
-}
-.custBundleNDsaveWraperV2 .custSizesWraper .btn.btn-outline-dark.active{
-    background: #000;
-    color: #fff;
-}
-.custBundleNDsaveWraperV2  .custPricingWraper {
+.custBundleNDsaveWraper  .custPricingWraper {
     display: flex;
     align-items: center;
     gap: 12px;
 }
-.custBundleNDsaveWraperV2 .custPricingWraper .pricing .priceMain {
+.custBundleNDsaveWraper .custPricingWraper .pricing .priceMain {
     display: flex;
     gap: 4px;
     font-family: 'IBM Plex Sans';
@@ -132,10 +132,10 @@
     line-height: 1.1;
     letter-spacing: 0.02em;
 }
-.custBundleNDsaveWraperV2 .custPricingWraper .pricing .priceMain .finalPrice {
+.custBundleNDsaveWraper .custPricingWraper .pricing .priceMain .finalPrice {
     color: #A21C23;
 }
-.custBundleNDsaveWraperV2 .custPricingWraper .pricing .freeCarryBag {
+.custBundleNDsaveWraper .custPricingWraper .pricing .freeCarryBag {
     font-family: 'IBM Plex Sans';
     font-weight: 450;
     font-size: 11px;
@@ -144,23 +144,16 @@
     text-transform: uppercase;
     color: #000000;
 }
-.custBundleNDsaveWraperV2 .custPricingWraper .pricing {
-    flex: auto;
-}
-.custBundleNDsaveWraperV2 .custItemSizeSelection .add-to-cart-button,
-.custBundleNDsaveWraperV2 .custPricingWraper .add-to-cart-button {
+.custBundleNDsaveWraper .custPricingWraper .add-to-cart-button {
+    flex: 1;
     text-transform: uppercase;
     font-family: 'IBM Plex Sans';
     font-weight: 500;
     font-size: 15px;
     line-height: 22px;
     letter-spacing: 0.06em;
-    padding: 10px 20px;
 }
-.custBundleNDsaveWraperV2 .custItemSizeSelection .add-to-cart-button{
-    width: 100%;
-}
-.custFreeCarryBagWraperV2 {
+.custFreeCarryBagWraper {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -171,12 +164,12 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
 }
-.custFreeCarryBagWraperV2 .imgBox {
+.custFreeCarryBagWraper .imgBox {
     flex: 0 0 72px;
     border-radius: 4px;
     overflow: hidden;
 }
-.custFreeCarryBagWraperV2 .content {
+.custFreeCarryBagWraper .content {
     font-family: 'IBM Plex Sans';
     font-weight: 700;
     font-size: 13px;
@@ -184,7 +177,7 @@
     letter-spacing: 0.03em;
     color: #000000;
 }
-.custFreeCarryBagWraperV2 .content span.value {
+.custFreeCarryBagWraper .content span.value {
     font-weight: 400;
     font-style: italic;
 }
@@ -235,8 +228,3 @@
   .custMiniCartFeatures .col-12:nth-child(4) {
     order: 4;
   }
-  
-  .custViewSizeChartModal.custShow{
-    display: block !important;
-    opacity: 1!important;
-   }

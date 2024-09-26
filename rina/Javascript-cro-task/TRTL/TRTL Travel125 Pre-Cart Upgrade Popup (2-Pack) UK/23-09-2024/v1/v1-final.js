@@ -32,10 +32,6 @@ function removeItemCarryBagProductFromOffer(){
     localStorage.removeItem("isPillowCarryBagAdded");
     localStorage.removeItem('addedProductIds');
 
-    setTimeout(function() {
-        location.reload();
-    }, 500);
-
 }
 
 function triggerExperience() {
@@ -43,7 +39,7 @@ function triggerExperience() {
     var itemCountElement = document.querySelector('.cart_item-count');
     const itemCountText = itemCountElement.textContent;
     const intItemCount = parseInt(itemCountText);
-    if (localStorage.getItem("isRecommendedProductAddedInCart") !== null) {
+    if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null) {
         var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
         if (closeButton) {
             closeButton.click();
@@ -57,28 +53,31 @@ function triggerExperience() {
 
     if (intItemCount !== 0) {
         if (intItemCount == 2) {
-         
+            console.log('intItemCount is 2');
             const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
-             productLinks.forEach(link => {
+        
+            productLinks.forEach(link => {
                 const parentCol12 = link.closest('.col-12');
                
                 const badgeElement = parentCol12.querySelector('.badge.bg-green-light');
                 
                 if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
+                    console.log('Found Free pillow carry bag');
+                    
+                    // Find the remove button and trigger a click to remove the item
                     const removeButton = parentCol12.querySelector('button[data-mp-cart-item-remove]');
                     
                     if (removeButton) {
+                        console.log('Removing Free pillow carry bag from cart');
                         removeButton.click();
-                        setTimeout(() => {
-                            removeItemCarryBagProductFromOffer(); 
-                        }, 500); 
+                        removeItemCarryBagProductFromOffer(); 
                     }
                 }
             });
         }
 
     if (intItemCount == 3) {
-               
+                console.log('ffdfd');
                 const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
         
                 let freeCarryBagTextPresent = false;
@@ -94,25 +93,32 @@ function triggerExperience() {
                         freeCarryBagAdded = true;
                     }
                     if (parentCol12.classList.contains('custAddProductFromOffer')) {
-                       ProductFromOfferAdded = true;
+                        console.log('Found custAddProductFromOffer');
+                        ProductFromOfferAdded = true;
                     }
 
+                   
+                    console.log('parentCol12 >>', parentCol12);
+                
                     const badgeElement = parentCol12.querySelector('.badge.bg-green-light');
                     if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
                         freeCarryBagTextPresent = true;
+                        console.log('Found Free pillow carry bag');
                     }
         
                     const upsellBadgeElement = parentCol12.querySelector('.badge.bg-green-light');
                     if (upsellBadgeElement && upsellBadgeElement.textContent.includes('20% of on cart upsell')) {
                         upsellTextPresent = true;
+                        console.log('Found 20% off on cart upsell');
                     }
                 });
                 if (freeCarryBagAdded && ProductFromOfferAdded) {
                     removeItemCarryBagProductFromOffer(); 
                 }
-               
+                // Now check if both texts are found
                 if (freeCarryBagTextPresent && upsellTextPresent) {
-                   removeItemCarryBagProductFromOffer(); 
+                    console.log('Both Free pillow carry bag and 20% off on cart upsell are present');
+                    removeItemCarryBagProductFromOffer(); // Call your function here
                 }
             }
         
@@ -144,14 +150,14 @@ function triggerExperience() {
 
 }
 
-function triggerExperienceWithInterval() {
+function pollCartForTrtlPillow() {
    
     var checkCartInterval = setInterval(function() {
     var itemCountElement = document.querySelector('.cart_item-count');
     var itemCountElement = document.querySelector('.cart_item-count');
     const itemCountText = itemCountElement.textContent;
     const intItemCount = parseInt(itemCountText);
-    if (localStorage.getItem("isRecommendedProductAddedInCart") !== null) {
+    if (sessionStorage.getItem("isRecommendedProductAddedInCart") !== null) {
         var closeButton = document.querySelector(".justify-content-end .xposition-relative img");
         if (closeButton) {
             closeButton.click();
@@ -164,28 +170,31 @@ function triggerExperienceWithInterval() {
 
     if (intItemCount !== 0) {
         if (intItemCount == 2) {
-         
+            console.log('intItemCount is 2');
             const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
         
             productLinks.forEach(link => {
                 const parentCol12 = link.closest('.col-12');
+               
                 const badgeElement = parentCol12.querySelector('.badge.bg-green-light');
+                
                 if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
+                    console.log('Found Free pillow carry bag');
+                    
+                    // Find the remove button and trigger a click to remove the item
                     const removeButton = parentCol12.querySelector('button[data-mp-cart-item-remove]');
                     
                     if (removeButton) {
+                        console.log('Removing Free pillow carry bag from cart');
                         removeButton.click();
-                        setTimeout(() => {
-                            removeItemCarryBagProductFromOffer(); 
-                        }, 500); 
-                        
+                        removeItemCarryBagProductFromOffer(); 
                     }
                 }
             });
         }
         
             if (intItemCount == 3) {
-              
+                console.log('ffdfd');
                 const productLinks = document.querySelectorAll('#cart-offcanvas-content .col-12 .col-8 a.text-decoration-none.text-uppercase');
         
                 let freeCarryBagTextPresent = false;
@@ -200,25 +209,32 @@ function triggerExperienceWithInterval() {
                         freeCarryBagAdded = true;
                     }
                     if (parentCol12.classList.contains('custAddProductFromOffer')) {
-                       ProductFromOfferAdded = true;
+                        console.log('Found custAddProductFromOffer');
+                        ProductFromOfferAdded = true;
                     }
 
+                   
+                    console.log('parentCol12 >>', parentCol12);
+                
                     const badgeElement = parentCol12.querySelector('.badge.bg-green-light');
                     if (badgeElement && badgeElement.textContent.trim() === 'Free pillow carry bag') {
                         freeCarryBagTextPresent = true;
+                        console.log('Found Free pillow carry bag');
                     }
         
                     const upsellBadgeElement = parentCol12.querySelector('.badge.bg-green-light');
                     if (upsellBadgeElement && upsellBadgeElement.textContent.includes('20% of on cart upsell')) {
                         upsellTextPresent = true;
+                        console.log('Found 20% off on cart upsell');
                     }
                 });
                 if (freeCarryBagAdded && ProductFromOfferAdded) {
                     removeItemCarryBagProductFromOffer(); 
                 }
-               
+                // Now check if both texts are found
                 if (freeCarryBagTextPresent && upsellTextPresent) {
-                   removeItemCarryBagProductFromOffer(); 
+                    console.log('Both Free pillow carry bag and 20% off on cart upsell are present');
+                    removeItemCarryBagProductFromOffer(); // Call your function here
                 }
             }
            
@@ -584,7 +600,7 @@ function clickOperations() {
             cartButtonsDecrement.forEach(function(button) {
                 button.addEventListener('click', function(event) {
                     setTimeout(function() {
-                        triggerExperienceWithInterval();
+                        pollCartForTrtlPillow();
                     }, 2500);
                 });
             });
@@ -597,8 +613,8 @@ function clickOperations() {
             cartButtonsIncrement.forEach(function(button) {
                 button.addEventListener('click', function(event) {
                     setTimeout(function() {
-                        triggerExperienceWithInterval();
-                    }, 2500);
+                        pollCartForTrtlPillow();
+                    }, 1500); // Adjust the delay as needed
                 });
             });
         }
@@ -609,8 +625,8 @@ function clickOperations() {
      if(pdpAddToCartbtn){
          pdpAddToCartbtn.addEventListener('click', function() {
              setTimeout(function() {
-               triggerExperienceWithInterval();
-             }, 2500);
+               pollCartForTrtlPillow();
+             }, 1500);
  
          });
  
@@ -621,23 +637,26 @@ function clickOperations() {
     if(pdpStickyAddToCartbtn){
         pdpStickyAddToCartbtn.addEventListener('click', function(event) {
             setTimeout(function() {
-                triggerExperienceWithInterval();
-            }, 2500);
+                pollCartForTrtlPillow();
+            }, 1500);
  
         });
  
     }
  
      //Mini cart delete operations
-    var productFromOfferDltButtons = document.querySelectorAll('.custProductFromOfferTrashBtn');
+
+     
+     var productFromOfferDltButtons = document.querySelectorAll('.custProductFromOfferTrashBtn');
      if (productFromOfferDltButtons.length > 0) {
         productFromOfferDltButtons.forEach(function(button) {
               button.addEventListener('click', function(event) {
-              setTimeout(function() {
+               console.log('productFromOfferDltButtons delete btn >>>> ');
+                  setTimeout(function() {
                     if (document.querySelector('.custCarryBagTrashBtn')) {
                         removeItemCarryBagProductFromOffer();
                     }
-                     triggerExperienceWithInterval();
+                     pollCartForTrtlPillow();
                   }, 2500);
               });
           });
@@ -653,9 +672,12 @@ function clickOperations() {
                 }
     
                 setTimeout(function() {
-                    triggerExperienceWithInterval();
+                    pollCartForTrtlPillow();
                 }, 2500);
             });
         });
     }
+    
+
+
 }
